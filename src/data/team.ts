@@ -10,7 +10,7 @@ export const teamMembers: TeamMember[] = [
   {
     name: "Shuhan He",
     title: "MD",
-    twitter: "https://twitter.com/ShuhanHeMD",
+    twitter: "https://x.com/shuhanhemd",
     twitterHandle: "@ShuhanHeMD",
     image: "/images/team/Photo_MGH1.jpg",
   },
