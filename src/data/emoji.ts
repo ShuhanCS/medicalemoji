@@ -1,3 +1,9 @@
+export interface Supporter {
+  name: string;
+  href?: string;
+  linkLabel?: string;
+}
+
 export interface EmojiCandidate {
   slug: string;
   name: string;
@@ -5,7 +11,7 @@ export interface EmojiCandidate {
   altImage?: string;
   shortDescription: string;
   stats: string[];
-  supporters: string[];
+  supporters: Supporter[];
   color: string;
 }
 
@@ -21,18 +27,55 @@ export const emojiCandidates: EmojiCandidate[] = [
       "Kidney disease is among the leading causes of death globally and continues to rise.",
     ],
     supporters: [
-      "American Association of Kidney Patients (AAKP)",
-      "American Society of Nephrology (ASN)",
-      "American Society of Diagnostic and Interventional Nephrology (ASDIN)",
-      "Canadian Society of Nephrology",
-      "Glomerular Disease Consortium",
-      "International Society of Nephrology (ISN)",
-      "Kidney Disease: Improving Global Outcomes (KDIGO)",
-      "National Kidney Foundation (NKF)",
-      "NephJC",
-      "Renal Physicians Association",
-      "Kidney Foundation of Western New York",
-      "Women Nephrology India",
+      {
+        name: "American Association of Kidney Patients (AAKP)",
+        href: "https://medicalemoji.org/documents/AAKP-Kidney-Emoji-Letter-1.7.22.pdf",
+      },
+      {
+        name: "American Society of Nephrology (ASN)",
+        href: "https://medicalemoji.org/documents/kidney-support-letters/ASN_Long-2.pdf",
+      },
+      {
+        name: "American Society of Diagnostic and Interventional Nephrology (ASDIN)",
+        href: "https://medicalemoji.org/documents/kidney-support-letters/ASDIN.pdf",
+      },
+      {
+        name: "Canadian Society of Nephrology",
+        href: "https://medicalemoji.org/documents/Kidney_Emoji_Letter-1.pdf",
+      },
+      {
+        name: "Glomerular Disease Consortium",
+        href: "https://medicalemoji.org/documents/kidney-support-letters/Glomcon.pdf",
+      },
+      {
+        name: "International Society of Nephrology (ISN)",
+        href: "https://medicalemoji.org/documents/kidney-support-letters/ISN.pdf",
+      },
+      {
+        name: "Kidney Disease: Improving Global Outcomes (KDIGO)",
+        href: "https://medicalemoji.org/documents/The-Unicode-Consortium_Signed.pdf",
+      },
+      {
+        name: "National Kidney Foundation (NKF)",
+        href: "https://medicalemoji.org/documents/kidney-support-letters/NKF-1.pdf",
+      },
+      {
+        name: "NephJC",
+        href: "https://medicalemoji.org/documents/NephJC_KidneyEmoji.pdf",
+      },
+      {
+        name: "Renal Physicians Association",
+        href: "https://medicalemoji.org/documents/kidney-support-letters/RPA.pdf",
+      },
+      {
+        name: "Kidney Foundation of Western New York",
+        href: "https://medicalemoji.org/documents/Kidney-Foundation-of-WNY-kidney-emoji-letter.pdf",
+      },
+      {
+        name: "Women Nephrology India",
+        href: "https://medicalemoji.org/documents/Kidney-Emoji-WIN-Letter-Head-V4B-converted.docx",
+        linkLabel: "View document",
+      },
     ],
     color: "#c0392b",
   },
@@ -47,9 +90,19 @@ export const emojiCandidates: EmojiCandidate[] = [
       "Approximately 25% of Americans have non-alcoholic fatty liver disease (NAFLD).",
     ],
     supporters: [
-      "American Gastroenterological Association (AGA)",
-      "American Society for Gastrointestinal Endoscopy (ASGE)",
-      "Hepatology (Journal)",
+      {
+        name: "American Gastroenterological Association (AGA)",
+        href: "https://medicalemoji.org/documents/AGA-FINAL-Emoji-Letter_Signed.pdf",
+      },
+      {
+        name: "American Society for Gastrointestinal Endoscopy (ASGE)",
+        href: "https://medicalemoji.org/documents/GI-Emojis_Letter-to-Consortium_Final_Signed.docx-1.pdf",
+      },
+      {
+        name: "Hepatology (Journal)",
+        href: "https://aasldpubs.onlinelibrary.wiley.com/doi/abs/10.1002/hep.32261",
+        linkLabel: "View article",
+      },
     ],
     color: "#8e44ad",
   },
@@ -64,8 +117,14 @@ export const emojiCandidates: EmojiCandidate[] = [
       "GERD is one of the most common gastrointestinal disorders worldwide.",
     ],
     supporters: [
-      "American Gastroenterological Association (AGA)",
-      "American Society for Gastrointestinal Endoscopy (ASGE)",
+      {
+        name: "American Gastroenterological Association (AGA)",
+        href: "https://medicalemoji.org/documents/AGA-FINAL-Emoji-Letter_Signed.pdf",
+      },
+      {
+        name: "American Society for Gastrointestinal Endoscopy (ASGE)",
+        href: "https://medicalemoji.org/documents/GI-Emojis_Letter-to-Consortium_Final_Signed.docx-1.pdf",
+      },
     ],
     color: "#e67e22",
   },
@@ -81,7 +140,11 @@ export const emojiCandidates: EmojiCandidate[] = [
       "Spinal conditions are among the most common reasons for physician visits.",
     ],
     supporters: [
-      "The Spine Journal",
+      {
+        name: "The Spine Journal",
+        href: "https://www.thespinejournalonline.com/article/S1529-9430(22)00070-5/fulltext",
+        linkLabel: "View article",
+      },
     ],
     color: "#2980b9",
   },
@@ -96,8 +159,14 @@ export const emojiCandidates: EmojiCandidate[] = [
       "Approximately 300,000 appendectomies are performed each year in the United States.",
     ],
     supporters: [
-      "American Gastroenterological Association (AGA)",
-      "American Society for Gastrointestinal Endoscopy (ASGE)",
+      {
+        name: "American Gastroenterological Association (AGA)",
+        href: "https://medicalemoji.org/documents/AGA-FINAL-Emoji-Letter_Signed.pdf",
+      },
+      {
+        name: "American Society for Gastrointestinal Endoscopy (ASGE)",
+        href: "https://medicalemoji.org/documents/GI-Emojis_Letter-to-Consortium_Final_Signed.docx-1.pdf",
+      },
     ],
     color: "#27ae60",
   },

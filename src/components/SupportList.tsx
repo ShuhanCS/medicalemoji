@@ -1,5 +1,8 @@
+import { Check, ExternalLink, FileText } from "lucide-react";
+import type { Supporter } from "@/data/emoji";
+
 interface SupportListProps {
-  supporters: string[];
+  supporters: Supporter[];
 }
 
 export function SupportList({ supporters }: SupportListProps) {
@@ -17,29 +20,50 @@ export function SupportList({ supporters }: SupportListProps) {
           The following organizations have expressed their support for this emoji proposal.
         </p>
         <div className="mt-8 grid gap-3 sm:grid-cols-2">
-          {supporters.map((supporter) => (
-            <div
-              key={supporter}
-              className="flex items-center gap-3 rounded-xl border border-gray-100 bg-gray-50 px-5 py-4 shadow-sm"
-            >
-              <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-gradient-to-r from-[#3452ff] to-[#ff1053]">
-                <svg
-                  className="h-4 w-4 text-white"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
+          {supporters.map((supporter) => {
+            const content = (
+              <>
+                <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-gradient-to-r from-[#3452ff] to-[#ff1053]">
+                  <Check className="h-4 w-4 text-white" aria-hidden="true" />
+                </div>
+                <span className="min-w-0 flex-1 text-sm font-medium text-gray-800">
+                  {supporter.name}
+                </span>
+                {supporter.href ? (
+                  <span className="flex shrink-0 items-center gap-1 text-xs font-semibold text-[#3452ff]">
+                    <FileText className="h-3.5 w-3.5" aria-hidden="true" />
+                    {supporter.linkLabel ?? "View letter"}
+                    {supporter.href.startsWith("http") ? (
+                      <ExternalLink className="h-3.5 w-3.5" aria-hidden="true" />
+                    ) : null}
+                  </span>
+                ) : null}
+              </>
+            );
+
+            if (supporter.href) {
+              return (
+                <a
+                  key={supporter.name}
+                  href={supporter.href}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="flex items-center gap-3 rounded-lg border border-gray-100 bg-gray-50 px-5 py-4 shadow-sm transition-colors hover:border-[#3452ff]/30 hover:bg-white"
                 >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M5 13l4 4L19 7"
-                  />
-                </svg>
+                  {content}
+                </a>
+              );
+            }
+
+            return (
+              <div
+                key={supporter.name}
+                className="flex items-center gap-3 rounded-lg border border-gray-100 bg-gray-50 px-5 py-4 shadow-sm"
+              >
+                {content}
               </div>
-              <span className="text-sm font-medium text-gray-800">{supporter}</span>
-            </div>
-          ))}
+            );
+          })}
         </div>
       </div>
     </section>

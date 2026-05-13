@@ -99,6 +99,45 @@ Evidence that does not count:
 - Society support letters as frequency evidence.
 - Cause/awareness arguments by themselves.
 
+## Submission Packet Semver
+
+Submission packets use semantic versioning. Treat the packet version as the version of the full set of files submitted or prepared for submission, not as the version of any one document.
+
+- `MAJOR`: legal/entity/signature/offer structure changed, or a submitted package is being replaced.
+- `MINOR`: substantive response change, scope change, pricing method change, added/removed attachment, changed claim, or changed supplier diversity commitment.
+- `PATCH`: typo, formatting, filename cleanup, or non-substantive clarification.
+
+If any file in a submission packet changes, create the next packet version and copy or rename every retained submission file to the new version number, even if the retained file content did not change. This keeps packet contents synchronized and prevents accidental mixing of old and new files.
+
+Example: if `v2.1.2_price_catalog_SUBMIT.xlsx` changes, the synchronized packet becomes:
+
+```text
+v2.1.3_application_response_SUBMIT.docx
+v2.1.3_price_catalog_SUBMIT.xlsx
+v2.1.3_supplier_diversity_plan_SUBMIT.docx
+```
+
+Recommended folder structure:
+
+```text
+submissions/vX.Y.Z/
+  manifest.md
+  vX.Y.Z_application_response_SUBMIT.pdf
+  vX.Y.Z_support_letters_REFERENCE_ONLY.pdf
+  vX.Y.Z_proposal_SUBMIT.pdf
+```
+
+## Submission Packet Manifest
+
+Every `submissions/vX.Y.Z/` folder must include `manifest.md` with:
+
+- Packet version.
+- Date prepared.
+- Bid/opportunity ID or proposal identifier, plus source RFP/addendum/source-guidance version reviewed.
+- Files included and each file role: `SUBMIT`, `SIGNATURE_REQUIRED`, or `REFERENCE_ONLY`.
+- Approval status, signer/submitter, and known blockers.
+- Change notes from the previous packet version.
+
 ## Next Steps When Reeligible
 
 1. Verify the exact eligibility date with Unicode/ESR or the original decline notification email.

@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.8] - 2026-05-13
+
+### Added
+- Documented synchronized submission packet semantic versioning and required packet manifests in the README.
+
+## [0.2.7] - 2026-05-13
+
+### Added
+- Linked current supporter cards to recovered old WordPress support letters and article references.
+- Converted image-only kidney support letters to PDF files for stable current-site document links.
+
 ## [0.2.6] - 2026-05-13
 
 ### Fixed
