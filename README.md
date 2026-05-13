@@ -156,6 +156,9 @@ Every `submissions/vX.Y.Z/` folder must include `manifest.md` with:
 Kidney 2026 workspace:
 `docs/proposals/kidney-emoji-2026/`
 
+First synchronized preliminary submission packet:
+`submissions/v0.1.0/`
+
 Key files:
 
 - `docs/proposals/kidney-emoji-2026/README.md`
@@ -164,6 +167,10 @@ Key files:
 - `docs/proposals/kidney-emoji-2026/fact-base.md`
 - `docs/proposals/kidney-emoji-2026/proposal-draft-outline.md`
 - `docs/proposals/kidney-emoji-2026/unicode-timeline-and-guidelines.md`
+- `submissions/v0.1.0/manifest.md`
+- `submissions/v0.1.0/v0.1.0_kidney_emoji_proposal_REFERENCE_ONLY.md`
+- `submissions/v0.1.0/v0.1.0_submission_readiness_checklist_REFERENCE_ONLY.md`
+- `submissions/v0.1.0/v0.1.0_sources_and_evidence_index_REFERENCE_ONLY.md`
 
 ## Development
 
