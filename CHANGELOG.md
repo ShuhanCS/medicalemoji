@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.3.0] - 2026-05-13
+
+### Added
+- Added kidney emoji packet `v0.2.0` with a 100 percent submission-readiness checklist, scoring gates, and execution log.
+
 ## [0.2.9] - 2026-05-13
 
 ### Added

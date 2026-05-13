@@ -159,6 +159,9 @@ Kidney 2026 workspace:
 First synchronized preliminary submission packet:
 `submissions/v0.1.0/`
 
+Current readiness packet:
+`submissions/v0.2.0/`
+
 Key files:
 
 - `docs/proposals/kidney-emoji-2026/README.md`
@@ -171,6 +174,9 @@ Key files:
 - `submissions/v0.1.0/v0.1.0_kidney_emoji_proposal_REFERENCE_ONLY.md`
 - `submissions/v0.1.0/v0.1.0_submission_readiness_checklist_REFERENCE_ONLY.md`
 - `submissions/v0.1.0/v0.1.0_sources_and_evidence_index_REFERENCE_ONLY.md`
+- `submissions/v0.2.0/manifest.md`
+- `submissions/v0.2.0/v0.2.0_submission_readiness_checklist_REFERENCE_ONLY.md`
+- `submissions/v0.2.0/v0.2.0_execution_log_REFERENCE_ONLY.md`
 
 ## Development
 
