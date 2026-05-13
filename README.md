@@ -181,6 +181,8 @@ Key files:
 - `docs/proposals/stomach-emoji-2026/proposal-working-draft.md`
 - `docs/proposals/stomach-emoji-2026/evidence-capture-checklist.md`
 - `docs/proposals/stomach-emoji-2026/submission-readiness-checklist.md`
+- `docs/research/unicode-winning-submissions/accepted-emoji-proposals-manifest.json`
+- `docs/research/unicode-winning-submissions/analysis.md`
 - `submissions/v0.1.0/manifest.md`
 - `submissions/v0.1.0/v0.1.0_kidney_emoji_proposal_REFERENCE_ONLY.md`
 - `submissions/v0.1.0/v0.1.0_submission_readiness_checklist_REFERENCE_ONLY.md`
