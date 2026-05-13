@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.16.0] - 2026-05-13
+
+### Added
+- Added kidney `v0.12.0` with programmatically captured Google Search and Google Video Search evidence screenshots.
+
+### Changed
+- Updated the kidney proposal expected-usage section to include all five required frequency evidence figures.
+- Removed Google Search and Google Video Search recapture as filing holds for the kidney packet.
+
 ## [0.15.0] - 2026-05-13
 
 ### Added
