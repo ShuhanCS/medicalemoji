@@ -162,8 +162,8 @@ First synchronized preliminary submission packet:
 Current readiness packet:
 `submissions/v0.2.0/`
 
-Current full proposal draft packet:
-`submissions/v0.6.1/`
+Current planned submission packet:
+`submissions/v0.7.0/`
 
 Key files:
 
@@ -213,6 +213,13 @@ Key files:
 - `submissions/v0.6.1/v0.6.1_submission_url_REFERENCE_ONLY.md`
 - `submissions/v0.6.1/v0.6.1_frequency_evidence_review_REFERENCE_ONLY.md`
 - `submissions/v0.6.1/v0.6.1_18x18_visual_review_REFERENCE_ONLY.md`
+- `submissions/v0.7.0/manifest.md`
+- `submissions/v0.7.0/v0.7.0_kidney_emoji_proposal_SUBMIT.md`
+- `submissions/v0.7.0/v0.7.0_submission_finalization_SIGNATURE_REQUIRED.md`
+- `submissions/v0.7.0/images/v0.7.0_kidney_color_18x18_SUBMIT.png`
+- `submissions/v0.7.0/images/v0.7.0_kidney_color_72x72_SUBMIT.png`
+- `submissions/v0.7.0/images/v0.7.0_kidney_bw_18x18_SUBMIT.png`
+- `submissions/v0.7.0/images/v0.7.0_kidney_bw_72x72_SUBMIT.png`
 
 ## Development
 
