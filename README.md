@@ -1,136 +1,143 @@
-# AI Website Cloner Template
+# Medical Emoji
 
-<a href="https://github.com/JCodesMore/ai-website-cloner-template/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT License" /></a> <a href="https://github.com/JCodesMore/ai-website-cloner-template/stargazers"><img src="https://img.shields.io/github/stars/JCodesMore/ai-website-cloner-template?style=flat" alt="Stars" /></a> <a href="https://discord.gg/hrTSX5yTpB"><img src="https://img.shields.io/discord/1400896964597383279?label=discord" alt="Discord" /></a>
+Medical Emoji is a campaign and proposal workspace for adding high-utility medical emoji to the Unicode Standard.
 
-A reusable template for reverse-engineering any website and rebuilding it as a pixel-perfect clone using AI coding agents. **Recommended: [Claude Code](https://docs.anthropic.com/en/docs/claude-code) with Opus 4.6 for best results** — but works with a variety of AI coding agents.
+This repository contains the public website, prior support materials, current Unicode research notes, and proposal planning files for the medical emoji concepts the project has pursued.
 
-Point it at a URL, run `/clone-website`, and your AI agent will inspect the site, extract design tokens and assets, write component specs, and dispatch parallel builders to reconstruct every section.
+Last status check: 2026-05-13
 
-## Demo
+## Current Submission Link
 
-[![Watch the demo](docs/design-references/comparison.png)](https://youtu.be/O669pVZ_qr0)
+Unicode requires a publicly accessible PDF proposal submitted through the official form. Email, fax, and hard-copy submissions are not accepted.
 
-> Click the image above to watch the full demo on YouTube.
+Official Unicode emoji proposal guidelines:
+https://www.unicode.org/emoji/proposals.html
 
-## Quick Start
+Official Unicode Emoji Submission Form:
+https://forms.gle/6KSiYHrUdBkTMNaB8
 
-1. **Clone this repo**
-   ```bash
-   git clone https://github.com/JCodesMore/ai-website-cloner-template.git my-clone
-   cd my-clone
-   ```
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
-3. **Start your AI agent** — Claude Code recommended:
-   ```bash
-   claude --chrome
-   ```
-4. **Run the skill**:
-   ```
-   /clone-website <target-url>
-   ```
-5. **Customize** (optional) — after the base clone is built, modify as needed
+Resolved Google Form URL:
+https://docs.google.com/forms/d/e/1FAIpQLSesdtPEbXCxXQnOb34UwhK7yPuCk52Pqix4FfQYgmW9Kt5cAw/viewform?usp=send_form
 
-> Using a different agent? Open `AGENTS.md` for project instructions — most agents pick it up automatically.
+Unicode emoji proposal status page:
+https://www.unicode.org/emoji/emoji-proposals-status.html
 
+Live public status CSV:
+https://docs.google.com/spreadsheets/d/1yXZPw6jh5kYFmbDgIOK13UcRENwkOwYN4a9T3vyirO8/pub?gid=2110764947&single=true&output=csv
 
-## Supported Platforms
+Emoji Submission FAQ:
+https://www.unicode.org/faq/emoji_submission
 
-| Agent | Status |
-|-------|--------|
-| [Claude Code](https://docs.anthropic.com/en/docs/claude-code) | **Recommended** — Opus 4.6 |
-| [Codex CLI](https://github.com/openai/codex) | Supported |
-| [OpenCode](https://opencode.ai/) | Supported |
-| [GitHub Copilot](https://github.com/features/copilot) | Supported |
-| [Cursor](https://cursor.com/) | Supported |
-| [Windsurf](https://codeium.com/windsurf) | Supported |
-| [Gemini CLI](https://github.com/google-gemini/gemini-cli) | Supported |
-| [Cline](https://github.com/cline/cline) | Supported |
-| [Roo Code](https://github.com/RooCodeInc/Roo-Code) | Supported |
-| [Continue](https://continue.dev/) | Supported |
-| [Amazon Q](https://aws.amazon.com/q/developer/) | Supported |
-| [Augment Code](https://www.augmentcode.com/) | Supported |
-| [Aider](https://aider.chat/) | Supported |
+Emoji Proposal Agreement and License:
+https://www.unicode.org/emoji/emoji-proposal-agreement.pdf
 
-## Prerequisites
+## 2026 Unicode Intake
 
-- [Node.js](https://nodejs.org/) 20+
-- An AI coding agent (see [Supported Platforms](#supported-platforms))
+Unicode's guidelines page says:
 
-## Tech Stack
+- Last update: `2026-04-02`.
+- Current intake window: accepting submissions until `2026-07-31`.
+- Declined emoji are not eligible for re-review within the last four years.
+- The page body still contains some stale 2025 text, so date-sensitive submissions should be verified with Unicode/ESR before filing.
 
-- **Next.js 16** — App Router, React 19, TypeScript strict
-- **shadcn/ui** — Radix primitives + Tailwind CSS v4
-- **Tailwind CSS v4** — oklch design tokens
-- **Lucide React** — default icons (replaced by extracted SVGs during cloning)
+Important practical note: Unicode's public status sheet lists `Date Submitted`, not the actual decline decision date or notification date. The "reeligible by submitted-date clock" column below is a planning estimate only. Before filing any resubmission, confirm whether Unicode counts the four-year bar from the submitted date, internal decline decision date, notification email date, or status publication/update date.
 
-## How It Works
+## Emoji Submission Status
 
-The `/clone-website` skill runs a multi-phase pipeline:
+The table below combines active candidates from `src/data/emoji.ts` and legacy proposal assets in `public/images/emoji/`. Status rows are from Unicode's live public proposal status CSV, checked 2026-05-13.
 
-1. **Reconnaissance** — screenshots, design token extraction, interaction sweep (scroll, click, hover, responsive)
-2. **Foundation** — updates fonts, colors, globals, downloads all assets
-3. **Component Specs** — writes detailed spec files (`docs/research/components/`) with exact computed CSS values, states, behaviors, and content
-4. **Parallel Build** — dispatches builder agents in git worktrees, one per section/component
-5. **Assembly & QA** — merges worktrees, wires up the page, runs visual diff against the original
+| Concept | Repo source | Unicode public status rows | Latest public status | Last public date submitted | Reeligible by submitted-date clock | Next step |
+| --- | --- | --- | --- | --- | --- | --- |
+| Kidney / Kidneys | Active site candidate | `Kidney` declined 2019-12-17; `KIDNEYS` declined 2022-07-19 | Declined | 2022-07-19 | 2026-07-19 | Verify actual 2022 decline/notification date before any 2026 filing; coordinate with ISN and Turkish Society of Nephrology on one aligned proposal. |
+| Liver | Active site candidate | `Liver` declined 2020-12-18; `Liver` declined 2022-07-30 | Declined | 2022-07-30 | 2026-07-30 | Technically falls just before the 2026-07-31 intake deadline by submitted-date clock, but verify actual decline date before filing. |
+| Stomach | Active site candidate | `Stomach` declined 2020-10-27; `Stomach` declined 2022-07-28 | Declined | 2022-07-28 | 2026-07-28 | Verify actual decline date; if eligible, rebuild with current evidence and image-license requirements. |
+| Spine | Active site candidate | `Spine` declined 2020-10-27; `Spine` declined 2024-04-05 | Declined | 2024-04-05 | 2028-04-05 | Do not resubmit before 2028 unless Unicode confirms a materially different concept is eligible. |
+| Intestines | Active site candidate | `Intestines` declined 2020-12-18; `Intestines` declined 2024-04-04 | Declined | 2024-04-04 | 2028-04-04 | Do not resubmit before 2028 unless Unicode confirms eligibility. |
+| ECG / EKG | Active site candidate | `ECG` declined 2020-12-18; `ECG` declined 2024-04-05 | Declined | 2024-04-05 | 2028-04-05 | Do not resubmit before 2028 unless Unicode confirms eligibility. |
+| White Blood Cell | Active site candidate | `White Blood Cell` declined 2020-12-18 | Declined | 2020-12-18 | 2024-12-18 | Reeligible by submitted-date clock; verify actual decline date, then build current-format evidence. |
+| Blood Bag | Active site candidate | `Blood bag` declined 2017-05-16; `Blood Bag (B)` declined 2020-12-18 | Declined | 2020-12-18 | 2024-12-18 | Reeligible by submitted-date clock; refresh evidence and avoid relying on blood-donation cause framing alone. |
+| Pill Pack | Active site candidate | `Pill Pack` declined 2020-12-18 | Declined | 2020-12-18 | 2024-12-18 | Reeligible by submitted-date clock; decide whether to pursue pill pack or pill box to avoid duplicate/overlapping proposals. |
+| Weight Scale | Active site candidate | `Bathroom Scale` expired 2018-02-27; `Weight Scale (B)` declined 2020-12-18 | Declined | 2020-12-18 | 2024-12-18 | Reeligible by submitted-date clock; needs strong broad-usage evidence beyond obesity/weight-loss cause framing. |
+| Leg Cast | Legacy proposal asset | `Leg Cast` declined 2020-12-18 | Declined | 2020-12-18 | 2024-12-18 | Reeligible by submitted-date clock; needs current proposal folder, usage evidence, and open-license images. |
+| IV Bag | Legacy proposal asset | `IV Bag` declined 2020-12-18 | Declined | 2020-12-18 | 2024-12-18 | Reeligible by submitted-date clock; clarify broad meaning versus already represented medical-care emoji. |
+| CT Scan | Legacy proposal asset | `CT Scan` declined 2020-12-18 | Declined | 2020-12-18 | 2024-12-18 | Reeligible by submitted-date clock; likely needs a strong visual distinctiveness case at 18x18. |
+| Pill Box | Legacy proposal asset | `Pill Box` declined 2020-10-27 | Declined | 2020-10-27 | 2024-10-27 | Reeligible by submitted-date clock; decide whether this is stronger or weaker than pill pack before filing. |
 
-Each builder agent receives the full component specification inline — exact `getComputedStyle()` values, interaction models, multi-state content, responsive breakpoints, and asset paths. No guessing.
+## Submission Package Requirements
 
-## Project Structure
+Every renewed proposal needs a current-format PDF. The top of the first page must include:
 
-```
-src/
-  app/              # Next.js routes
-  components/       # React components
-    ui/             # shadcn/ui primitives
-    icons.tsx       # Extracted SVG icons
-  lib/utils.ts      # cn() utility
-  types/            # TypeScript interfaces
-  hooks/            # Custom React hooks
-public/
-  images/           # Downloaded images from target
-  videos/           # Downloaded videos from target
-  seo/              # Favicons, OG images
-docs/
-  research/         # Extraction output & component specs
-  design-references/ # Screenshots
-scripts/
-  sync-agent-rules.sh  # Regenerate agent instruction files
-  sync-skills.mjs      # Regenerate /clone-website for all platforms
-AGENTS.md           # Agent instructions (single source of truth)
-CLAUDE.md           # Claude Code config (imports AGENTS.md)
-GEMINI.md           # Gemini CLI config (imports AGENTS.md)
-```
+- Title: `Proposal for Emoji: <name>`.
+- Submitter names, separated with semicolons if there are multiple authors.
+- One main point of contact.
+- Date, updated on revisions.
+- Identification keywords and proposed emoji category.
+- Color and black-and-white example images at both `18x18` and `72x72`.
+- Image rights/license statement.
 
-## Commands
+The proposal body must address:
+
+- Factors for inclusion: multiple meanings, use in sequences, breaks new ground, visual distinctiveness, high expected usage, completeness if applicable, compatibility if applicable.
+- Factors for exclusion: already represented, overly specific, open-ended, transient, and justified only by comparison to existing emoji.
+- Other information, including design considerations and source notes.
+
+Required frequency evidence:
+
+- Google Search screenshot with result count.
+- Google Video Search screenshot with result count.
+- Google Trends Web Search screenshot.
+- Google Trends Image Search screenshot.
+- Google Books Ngram Viewer screenshot.
+- Trends and Ngram evidence must include `elephant` as the comparator.
+
+Evidence that does not count:
+
+- Petitions.
+- Hashtags.
+- Social posts asking for the emoji.
+- Anecdotes.
+- Society support letters as frequency evidence.
+- Cause/awareness arguments by themselves.
+
+## Next Steps When Reeligible
+
+1. Verify the exact eligibility date with Unicode/ESR or the original decline notification email.
+2. Pick one lead proposal per intake cycle to avoid splitting effort across overlapping concepts.
+3. Coordinate submitters and supporters before filing so there is one clean submission.
+4. Create a proposal folder under `docs/proposals/<emoji>-emoji-<year>/`.
+5. Capture live frequency screenshots in a private browser session.
+6. Produce color and black-and-white images at `18x18` and `72x72`.
+7. Document image ownership, assignment, work-for-hire status, or open-license/public-domain source URL.
+8. Draft the current-format PDF and make it publicly accessible.
+9. Submit through the official Unicode Emoji Submission Form.
+10. Archive the submitted PDF, screenshots, source URLs, and confirmation details in this repo.
+
+## Current Proposal Workspaces
+
+Kidney 2026 workspace:
+`docs/proposals/kidney-emoji-2026/`
+
+Key files:
+
+- `docs/proposals/kidney-emoji-2026/README.md`
+- `docs/proposals/kidney-emoji-2026/decline-date-submission-update.md`
+- `docs/proposals/kidney-emoji-2026/evidence-capture-checklist.md`
+- `docs/proposals/kidney-emoji-2026/fact-base.md`
+- `docs/proposals/kidney-emoji-2026/proposal-draft-outline.md`
+- `docs/proposals/kidney-emoji-2026/unicode-timeline-and-guidelines.md`
+
+## Development
+
+This is a Next.js site.
 
 ```bash
-npm run dev    # Start dev server
-npm run build  # Production build
-npm run lint   # ESLint check
+npm install
+npm run dev
+npm run lint
+npm run build
 ```
 
-## Updating for Other Platforms
+## Repository
 
-Two source-of-truth files power all platform support. Edit the source, then run the sync script:
-
-| What | Source of truth | Sync command |
-|------|----------------|--------------|
-| Project instructions | `AGENTS.md` | `bash scripts/sync-agent-rules.sh` |
-| `/clone-website` skill | `.claude/skills/clone-website/SKILL.md` | `node scripts/sync-skills.mjs` |
-
-Each script regenerates the platform-specific copies automatically. Agents that read the source files natively need no regeneration.
-
-## Defaults
-
-`/clone-website <url>` defaults to a pixel-perfect clone of whatever page is at that URL. No extra configuration needed. The skill handles scope, fidelity, and asset extraction automatically.
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=JCodesMore/ai-website-cloner-template&type=Date)](https://star-history.com/#JCodesMore/ai-website-cloner-template&Date)
-
-## License
-
-MIT
+GitHub:
+https://github.com/ShuhanCS/medicalemoji

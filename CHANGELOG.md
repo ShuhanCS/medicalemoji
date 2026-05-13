@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.4] - 2026-05-13
+
+### Changed
+- Replaced the template README with a Medical Emoji submission tracker covering current Unicode submission links, candidate status, reeligibility planning dates, and next steps.
+
 ## [0.2.3] - 2026-05-13
 
 ### Added
