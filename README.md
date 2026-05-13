@@ -163,7 +163,7 @@ Current readiness packet:
 `submissions/v0.2.0/`
 
 Current full proposal draft packet:
-`submissions/v0.5.0/`
+`submissions/v0.6.0/`
 
 Key files:
 
@@ -201,6 +201,13 @@ Key files:
 - `submissions/v0.5.0/v0.5.0_rubric_alignment_REFERENCE_ONLY.md`
 - `submissions/v0.5.0/v0.5.0_sources_and_evidence_index_REFERENCE_ONLY.md`
 - `submissions/v0.5.0/v0.5.0_execution_log_REFERENCE_ONLY.md`
+- `submissions/v0.6.0/manifest.md`
+- `submissions/v0.6.0/v0.6.0_kidney_emoji_proposal_REFERENCE_ONLY.md`
+- `submissions/v0.6.0/v0.6.0_submission_readiness_checklist_REFERENCE_ONLY.md`
+- `submissions/v0.6.0/v0.6.0_frequency_evidence_review_REFERENCE_ONLY.md`
+- `submissions/v0.6.0/v0.6.0_18x18_visual_review_REFERENCE_ONLY.md`
+- `submissions/v0.6.0/evidence/frequency/`
+- `submissions/v0.6.0/evidence/visual-review/`
 
 ## Development
 
