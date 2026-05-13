@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.15.0] - 2026-05-13
+
+### Added
+- Added kidney `v0.10.1` and `v0.11.0` packets for black-and-white image correction and submission-facing cleanup.
+- Added a `v0.11.0` submission text scan documenting removed placeholder/internal packet language.
+
+### Changed
+- Regenerated the kidney black-and-white 18x18 and 72x72 images as two-tone line-art instead of solid silhouettes.
+- Cleaned the kidney `SUBMIT` proposal source so CAPTCHA notes, final-PDF TODOs, GitHub archive routing, and `TBD` placeholders live only in reference/control files.
+- Marked evidence images embedded in the v0.11.0 proposal source as `SUBMIT` assets.
+
 ## [0.14.0] - 2026-05-13
 
 ### Added
