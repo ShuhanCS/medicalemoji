@@ -19,6 +19,10 @@ Current Unicode guidance says emoji declined within the last four years are not 
 - `fact-base.md` - real, citable kidney disease facts with source URLs.
 - `evidence-capture-checklist.md` - exact frequency-evidence screenshots to capture before filing.
 - `proposal-draft-outline.md` - current-format draft scaffold for the proposal PDF.
+- `proposal-working-draft.md` - expanded current working draft that incorporates lessons from the prior rejected proposal.
+- `previous-proposal-review.md` - summary of the old Emojination kidney proposal and what needs to change.
+- `old-wordpress-letter-recovery.md` - old WordPress server path, media-library findings, and recovered source URLs.
+- `support-letter-inventory.md` - inventory of recovered support letters and how to use them.
 - `decline-date-submission-update.md` - current decline-date finding, submission URLs, 2026 template requirements, and detailed coordination email draft.
 
 ## Recommended Submission Strategy

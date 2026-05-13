@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.5] - 2026-05-13
+
+### Added
+- Recovered old WordPress kidney support-letter assets from the legacy GliaServer/InMotion copy of `medicalemoji.org`.
+- Added old WordPress recovery notes, support-letter inventory, prior proposal review, and an expanded kidney emoji working proposal draft.
+
 ## [0.2.4] - 2026-05-13
 
 ### Changed

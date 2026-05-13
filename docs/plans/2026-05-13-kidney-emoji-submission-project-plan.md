@@ -24,6 +24,10 @@ Prepare the Medical Emoji repo for a serious 2026 kidney emoji submission effort
 - `docs/proposals/kidney-emoji-2026/fact-base.md`
 - `docs/proposals/kidney-emoji-2026/evidence-capture-checklist.md`
 - `docs/proposals/kidney-emoji-2026/proposal-draft-outline.md`
+- `docs/proposals/kidney-emoji-2026/old-wordpress-letter-recovery.md`
+- `docs/proposals/kidney-emoji-2026/support-letter-inventory.md`
+- `docs/proposals/kidney-emoji-2026/previous-proposal-review.md`
+- `docs/proposals/kidney-emoji-2026/proposal-working-draft.md`
 
 ## Key Decision
 
@@ -35,4 +39,7 @@ Do not submit until we verify whether the four-year re-review bar runs from the 
 - Done: Source-backed factual evidence inventory.
 - Done: Submission project scaffold.
 - Done: Decline-date/submission update and detailed coordination email draft.
+- Done: Old WordPress kidney support-letter recovery from `192.249.115.15`.
+- Done: Recovered missing ASDIN, GlomCon, ISN, NKF, RPA, ASN image exports, and historical kidney art from the old media library.
+- Done: Added a current working draft and prior-proposal review.
 - Next: Capture live Google Search, Video Search, Trends Web, Trends Image, and Books Ngram screenshots in a private browser session.
