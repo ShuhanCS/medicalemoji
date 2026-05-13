@@ -34,4 +34,5 @@ Do not submit until we verify whether the four-year re-review bar runs from the 
 - Done: Current Unicode timeline and guideline audit.
 - Done: Source-backed factual evidence inventory.
 - Done: Submission project scaffold.
+- Done: Decline-date/submission update and detailed coordination email draft.
 - Next: Capture live Google Search, Video Search, Trends Web, Trends Image, and Books Ngram screenshots in a private browser session.

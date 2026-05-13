@@ -19,6 +19,7 @@ Current Unicode guidance says emoji declined within the last four years are not 
 - `fact-base.md` - real, citable kidney disease facts with source URLs.
 - `evidence-capture-checklist.md` - exact frequency-evidence screenshots to capture before filing.
 - `proposal-draft-outline.md` - current-format draft scaffold for the proposal PDF.
+- `decline-date-submission-update.md` - current decline-date finding, submission URLs, 2026 template requirements, and detailed coordination email draft.
 
 ## Recommended Submission Strategy
 
