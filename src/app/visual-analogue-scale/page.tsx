@@ -168,6 +168,50 @@ export default function VisualAnalogueScalePage() {
         </div>
       </section>
 
+      {/* Evidence */}
+      <section className="bg-gray-50 py-20">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-3xl">
+            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+              Published Evidence
+            </h2>
+            <p className="mt-4 text-lg text-gray-600">
+              EbVAS was compared with a numeric rating scale for pain assessment in JAMA.
+              The citation links below make it easier to review the original paper and the
+              growing list of publications that cite it.
+            </p>
+
+            <div className="mt-8 rounded-xl border border-gray-100 bg-white p-6 shadow-sm">
+              <p className="text-sm font-semibold uppercase text-gray-500">Primary citation</p>
+              <p className="mt-3 text-base leading-7 text-gray-700">
+                He S, Renne A, Argandykov D, Convissar D, Lee J. Comparison of an
+                Emoji-Based Visual Analog Scale With a Numeric Rating Scale for Pain
+                Assessment. <em>JAMA.</em> 2022;328(2):208-209.
+                doi:10.1001/jama.2022.7489
+              </p>
+              <div className="mt-5 flex flex-col gap-3 sm:flex-row">
+                <a
+                  href="https://jamanetwork.com/journals/jama/fullarticle/2794067"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex min-h-[44px] items-center justify-center rounded-lg bg-gray-900 px-5 py-3 text-sm font-semibold text-white transition-colors hover:bg-gray-800"
+                >
+                  Read the JAMA Paper
+                </a>
+                <a
+                  href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17042179772776566987&as_sdt=5"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex min-h-[44px] items-center justify-center rounded-lg border border-gray-200 bg-white px-5 py-3 text-sm font-semibold text-gray-900 transition-colors hover:bg-gray-50"
+                >
+                  View Citing Articles
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA */}
       <section className="bg-gradient-to-r from-[#3452ff] to-[#ff1053] py-16">
         <div className="mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
@@ -180,7 +224,7 @@ export default function VisualAnalogueScalePage() {
           </p>
           <div className="mt-8">
             <a
-              href="mailto:info@medicalemoji.org"
+              href="mailto:info@conductscience.com"
               className="inline-flex min-h-[44px] items-center justify-center rounded-lg bg-white px-8 py-3 text-sm font-semibold text-gray-900 shadow-sm transition-all hover:bg-gray-50 hover:shadow-md"
             >
               Contact Us for More Information

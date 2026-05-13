@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.6] - 2026-05-13
+
+### Fixed
+- Rebuilt the site favicon from the anatomical-heart logo image used in the header.
+- Updated press cards to link directly to the supplied article URLs.
+- Replaced the personal Gmail `mailto:` contact flow with a captcha-protected server contact form that defaults to `info@conductscience.com`.
+- Added the EbVAS JAMA citation and Google Scholar citing-articles link to the Visual Analogue Scale page.
+
 ## [0.2.5] - 2026-05-13
 
 ### Added

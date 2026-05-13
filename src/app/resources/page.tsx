@@ -100,7 +100,7 @@ export default function ResourcesPage() {
           </p>
           <div className="mt-6">
             <a
-              href="mailto:info@medicalemoji.org"
+              href="mailto:info@conductscience.com"
               className="inline-flex min-h-[44px] items-center justify-center rounded-lg bg-gradient-to-r from-[#3452ff] to-[#ff1053] px-8 py-3 text-sm font-semibold text-white shadow-sm transition-all hover:opacity-90 hover:shadow-md"
             >
               Contact Us

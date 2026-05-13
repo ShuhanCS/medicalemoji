@@ -61,10 +61,10 @@ export function Footer() {
             <ul className="space-y-2">
               <li>
                 <a
-                  href="mailto:info@medicalemoji.org"
+                  href="mailto:info@conductscience.com"
                   className="text-sm text-[#CCCCCC] transition-colors hover:text-white"
                 >
-                  info@medicalemoji.org
+                  info@conductscience.com
                 </a>
               </li>
               <li>

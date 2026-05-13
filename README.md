@@ -137,6 +137,18 @@ npm run lint
 npm run build
 ```
 
+## Contact Form Environment
+
+The site contact form posts to `/api/contact`, verifies Cloudflare Turnstile, and sends mail through Resend.
+
+Required production environment variables:
+
+- `NEXT_PUBLIC_TURNSTILE_SITE_KEY`
+- `TURNSTILE_SECRET_KEY`
+- `RESEND_API_KEY`
+- `CONTACT_FORM_FROM` - a Resend-verified sender address
+- `CONTACT_FORM_TO` - optional; defaults to `info@conductscience.com`
+
 ## Repository
 
 GitHub:

@@ -194,7 +194,7 @@ export default function CampaignPage() {
               Sign the Petition
             </a>
             <a
-              href="mailto:info@medicalemoji.org"
+              href="mailto:info@conductscience.com"
               className="inline-flex min-h-[44px] items-center justify-center rounded-lg border-2 border-white px-8 py-3 text-sm font-semibold text-white transition-all hover:bg-white/10"
             >
               Contact Us
