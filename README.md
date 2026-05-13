@@ -166,7 +166,7 @@ Current readiness packet:
 `submissions/v0.2.0/`
 
 Current planned submission packet:
-`submissions/v0.8.0/`
+`submissions/v0.9.0/`
 
 Key files:
 
@@ -230,6 +230,12 @@ Key files:
 - `submissions/v0.8.0/manifest.md`
 - `submissions/v0.8.0/v0.8.0_kidney_emoji_proposal_SUBMIT.md`
 - `submissions/v0.8.0/v0.8.0_sources_and_evidence_index_REFERENCE_ONLY.md`
+- `submissions/v0.9.0/manifest.md`
+- `submissions/v0.9.0/v0.9.0_kidney_emoji_proposal_SUBMIT.md`
+- `submissions/v0.9.0/images/v0.9.0_kidney_color_18x18_SUBMIT.png`
+- `submissions/v0.9.0/images/v0.9.0_kidney_color_72x72_SUBMIT.png`
+- `submissions/v0.9.0/images/v0.9.0_kidney_bw_18x18_SUBMIT.png`
+- `submissions/v0.9.0/images/v0.9.0_kidney_bw_72x72_SUBMIT.png`
 
 ## Development
 
