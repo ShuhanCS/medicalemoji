@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.14.0] - 2026-05-13
+
+### Added
+- Added kidney `v0.10.0` as a reviewer-readiness packet with an accepted-proposal comparator review.
+
+### Changed
+- Improved the kidney proposal with essential visual cues, vendor-variation language, broader everyday framing, a substitute-failure table, support-letter appendix framing, and a refreshed Google Trends Web evidence screenshot.
+
 ## [0.13.1] - 2026-05-13
 
 ### Added
