@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.10.0] - 2026-05-13
+
+### Changed
+- Added kidney emoji packet `v0.8.0` with broader non-medical multiple-concepts framing, including kidney beans, kidney-shaped objects, education, food, hydration, wellness, and filtration.
+
 ## [0.9.0] - 2026-05-13
 
 ### Added
