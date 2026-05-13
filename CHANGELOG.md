@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.6.0] - 2026-05-13
+
+### Added
+- Added a reusable emoji proposal approval rubric covering must-pass gates, scoring, Unicode requirements, review criteria, and packet controls.
+
 ## [0.5.0] - 2026-05-13
 
 ### Added

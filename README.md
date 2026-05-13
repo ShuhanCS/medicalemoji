@@ -168,6 +168,7 @@ Current full proposal draft packet:
 Key files:
 
 - `docs/proposals/kidney-emoji-2026/README.md`
+- `docs/proposals/emoji-proposal-approval-rubric.md`
 - `docs/proposals/kidney-emoji-2026/decline-date-submission-update.md`
 - `docs/proposals/kidney-emoji-2026/evidence-capture-checklist.md`
 - `docs/proposals/kidney-emoji-2026/fact-base.md`
