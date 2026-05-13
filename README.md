@@ -163,7 +163,7 @@ Current readiness packet:
 `submissions/v0.2.0/`
 
 Current full proposal draft packet:
-`submissions/v0.3.0/`
+`submissions/v0.4.0/`
 
 Key files:
 
@@ -185,6 +185,15 @@ Key files:
 - `submissions/v0.3.0/v0.3.0_submission_readiness_checklist_REFERENCE_ONLY.md`
 - `submissions/v0.3.0/v0.3.0_sources_and_evidence_index_REFERENCE_ONLY.md`
 - `submissions/v0.3.0/v0.3.0_execution_log_REFERENCE_ONLY.md`
+- `submissions/v0.4.0/manifest.md`
+- `submissions/v0.4.0/v0.4.0_kidney_emoji_proposal_REFERENCE_ONLY.md`
+- `submissions/v0.4.0/v0.4.0_submission_readiness_checklist_REFERENCE_ONLY.md`
+- `submissions/v0.4.0/v0.4.0_sources_and_evidence_index_REFERENCE_ONLY.md`
+- `submissions/v0.4.0/v0.4.0_execution_log_REFERENCE_ONLY.md`
+- `submissions/v0.4.0/images/v0.4.0_kidney_color_18x18_REFERENCE_ONLY.png`
+- `submissions/v0.4.0/images/v0.4.0_kidney_color_72x72_REFERENCE_ONLY.png`
+- `submissions/v0.4.0/images/v0.4.0_kidney_bw_18x18_REFERENCE_ONLY.png`
+- `submissions/v0.4.0/images/v0.4.0_kidney_bw_72x72_REFERENCE_ONLY.png`
 
 ## Development
 
