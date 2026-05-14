@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.17.0] - 2026-05-14
+
+### Added
+- Added kidney `v0.13.0` as a synchronized planned submission packet implementing the successful-proposal audit recommendations.
+
+### Changed
+- Updated the kidney proposal with raw frequency evidence URLs, exact captured Search/Video counts, sort location, cleaner keywords, stronger visual cue tables, compact sequence examples, and a criteria-based open-ended-organ response.
+- Added final public-PDF QA gates to the kidney `v0.13.0` submission controls.
+- Updated the README and kidney improvement plan to point to the current `v0.13.0` packet.
+
 ## [0.16.1] - 2026-05-14
 
 ### Added

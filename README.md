@@ -4,7 +4,7 @@ Medical Emoji is a campaign and proposal workspace for adding high-utility medic
 
 This repository contains the public website, prior support materials, current Unicode research notes, and proposal planning files for the medical emoji concepts the project has pursued.
 
-Last status check: 2026-05-13
+Last status check: 2026-05-14
 
 ## Current Submission Link
 
@@ -166,7 +166,7 @@ Current readiness packet:
 `submissions/v0.2.0/`
 
 Current planned submission packet:
-`submissions/v0.12.0/`
+`submissions/v0.13.0/`
 
 Key files:
 
@@ -183,7 +183,12 @@ Key files:
 - `docs/proposals/stomach-emoji-2026/submission-readiness-checklist.md`
 - `docs/research/unicode-winning-submissions/accepted-emoji-proposals-manifest.json`
 - `docs/research/unicode-winning-submissions/analysis.md`
+- `docs/research/kidney-v0.12.0-successful-proposal-audit.md`
 - `docs/plans/2026-05-13-kidney-v0.10.0-improvement-plan.md`
+- `submissions/v0.13.0/manifest.md`
+- `submissions/v0.13.0/v0.13.0_kidney_emoji_proposal_SUBMIT.md`
+- `submissions/v0.13.0/v0.13.0_submission_readiness_checklist_REFERENCE_ONLY.md`
+- `submissions/v0.13.0/v0.13.0_frequency_evidence_review_REFERENCE_ONLY.md`
 - `submissions/v0.12.0/manifest.md`
 - `submissions/v0.12.0/v0.12.0_kidney_emoji_proposal_SUBMIT.md`
 - `submissions/v0.12.0/v0.12.0_frequency_evidence_review_REFERENCE_ONLY.md`
