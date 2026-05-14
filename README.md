@@ -166,7 +166,7 @@ Current readiness packet:
 `submissions/v0.2.0/`
 
 Current planned submission packet:
-`submissions/v0.13.0/`
+`submissions/v0.13.1/`
 
 Key files:
 
@@ -185,6 +185,10 @@ Key files:
 - `docs/research/unicode-winning-submissions/analysis.md`
 - `docs/research/kidney-v0.12.0-successful-proposal-audit.md`
 - `docs/plans/2026-05-13-kidney-v0.10.0-improvement-plan.md`
+- `submissions/v0.13.1/manifest.md`
+- `submissions/v0.13.1/v0.13.1_kidney_emoji_proposal_SUBMIT.md`
+- `submissions/v0.13.1/v0.13.1_18x18_visual_review_REFERENCE_ONLY.md`
+- `submissions/v0.13.1/evidence/visual-review/v0.13.1_18x18_visual_review_board_SUBMIT.png`
 - `submissions/v0.13.0/manifest.md`
 - `submissions/v0.13.0/v0.13.0_kidney_emoji_proposal_SUBMIT.md`
 - `submissions/v0.13.0/v0.13.0_submission_readiness_checklist_REFERENCE_ONLY.md`

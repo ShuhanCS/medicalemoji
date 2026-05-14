@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.17.1] - 2026-05-14
+
+### Fixed
+- Added kidney `v0.13.1` as a synchronized packet that fixes the 18x18 visual review board layout and regenerated board screenshot.
+
 ## [0.17.0] - 2026-05-14
 
 ### Added
