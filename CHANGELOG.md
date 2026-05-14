@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.16.1] - 2026-05-14
+
+### Added
+- Added a kidney `v0.12.0` audit against recent successful Unicode emoji proposals with prioritized `v0.13.0` improvement recommendations.
+
 ## [0.16.0] - 2026-05-13
 
 ### Added
