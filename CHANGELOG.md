@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.17.2] - 2026-05-14
+
+### Fixed
+- Added kidney `v0.13.2` as a synchronized packet with cleaner sparse line-art black-and-white 18x18 and 72x72 assets.
+- Regenerated the 18x18 visual review board against the improved black-and-white assets.
+
 ## [0.17.1] - 2026-05-14
 
 ### Fixed
