@@ -9,13 +9,14 @@ Draft an ACEP leadership memo from the ACEP Emergency Medicine Informatics Secti
 ## Working Decisions
 
 - Address the memo to Steven B. Kailes, MD, FACEP.
-- Sign the memo as Shuhan He, President, ACEP Emergency Medicine Informatics Section.
+- Sign the memo as Shuhan He, MD, Chair, ACEP Emergency Medicine Informatics Section.
 - Present the initiative as something the Informatics Section would like to develop and bring to ACEP leadership for consideration.
 - Frame the ask as leadership authorization for the Informatics Section to develop a unified medical emoji set: stomach, spine, liver, kidney, EKG/ECG, and white blood cell.
 - Note that the working target is an August 2026 kidney/stomach submission package, while preserving the current public Unicode deadline caveat of July 31, 2026.
 - Avoid cause-only framing and avoid implying that ACEP endorsement by itself satisfies Unicode criteria.
 - Include barriers: Unicode eligibility timing, open-ended medical-symbol concerns, frequency evidence, image rights, duplicate submissions, coalition coordination, and leadership scope.
 - Include a plain-language explanation of Unicode, emoji standardization, the proposal process, prior anatomical heart/lungs wins, and why release/approval can become international news.
+- Make clear that the prior anatomical heart and lungs success was led by Shuhan He, MD.
 
 ## Sources Checked
 

@@ -2,7 +2,7 @@
 
 To: Steven B. Kailes, MD, FACEP
 
-From: Shuhan He, President, ACEP Emergency Medicine Informatics Section
+From: Shuhan He, MD, Chair, ACEP Emergency Medicine Informatics Section
 
 Date: May 15, 2026
 
@@ -49,7 +49,7 @@ This process matters for ACEP because medical emoji proposals can fail if they a
 
 ## Prior Success: Anatomical Heart and Lungs
 
-This work already has a successful precedent. In 2020, the anatomical heart and lungs emoji were approved as part of Emoji 13.0. The Boston Globe covered the approval on February 4, 2020, noting that the anatomical heart and lung icons would appear on smartphones later that year and that the proposal had been approved by the Unicode Consortium:
+This work already has a successful precedent led by Shuhan He, MD, Chair of the ACEP Emergency Medicine Informatics Section. In 2020, the anatomical heart and lungs emoji were approved as part of Emoji 13.0 after a successful medical emoji proposal effort. The Boston Globe covered the approval on February 4, 2020, noting that the anatomical heart and lung icons would appear on smartphones later that year and that the proposal had been approved by the Unicode Consortium:
 
 https://www.bostonglobe.com/2020/02/04/metro/this-mass-general-doctor-helped-get-two-new-medical-emojis-approved/
 
@@ -184,7 +184,7 @@ Respectfully,
 
 Shuhan He
 
-President, ACEP Emergency Medicine Informatics Section
+Chair, ACEP Emergency Medicine Informatics Section
 
 ## Reference Links
 

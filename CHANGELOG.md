@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.19.5] - 2026-05-15
+
+### Changed
+- Clarified that the prior anatomical heart and lungs emoji success was led by Shuhan He, MD, Chair of the ACEP Emergency Medicine Informatics Section.
+
 ## [0.19.4] - 2026-05-15
 
 ### Changed
