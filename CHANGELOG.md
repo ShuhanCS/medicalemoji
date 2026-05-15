@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.17.3] - 2026-05-14
+
+### Fixed
+- Added kidney `v0.13.3` as a synchronized packet with newly generated opaque white-background black-and-white 18x18 and 72x72 assets.
+- Regenerated the 18x18 visual review board against the opaque black-and-white assets so previews and PDF export do not depend on transparent PNG rendering.
+
 ## [0.17.2] - 2026-05-14
 
 ### Fixed
