@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.18.0] - 2026-05-14
+
+### Changed
+- Added kidney `v1.0.0` as a synchronized packet with updated Conductscience Foundation ownership and right-turnover language for the color kidney artwork.
+- Updated README current-packet links to point to the kidney `v1.0.0` planned submission packet.
+
 ## [0.17.4] - 2026-05-14
 
 ### Fixed
