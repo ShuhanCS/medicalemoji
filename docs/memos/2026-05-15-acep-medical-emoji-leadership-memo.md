@@ -22,14 +22,14 @@ ACEP should be part of this work because emergency medicine depends on fast, cle
 
 The Medical Emoji campaign already has public support materials, including letters from physician societies and patient organizations. The current site lists 18 support entries or public support materials across the six proposed concepts, including substantial signed society and patient-organization support for kidney, stomach, and liver. ACEP would be joining an existing medical coalition and helping bring emergency medicine leadership to a process that other physician societies have already supported.
 
-We request ACEP leadership's guidance on issuing a clear ACEP support statement for a unified medical emoji set, similar to the support letters already provided by other physician societies and patient organizations. The Informatics Section would prepare the supporting leadership packet so ACEP's statement is specific, evidence-based, and aligned with Unicode requirements. That packet would include:
+We request ACEP leadership's guidance on issuing a clear ACEP support statement for a unified medical emoji set, similar to the support letters already provided by other physician societies and patient organizations. The Informatics Section would prepare the facts, draft language, and submission plan so ACEP can decide exactly what it wants to support. That packet would include:
 
-1. A Unicode-readiness review for stomach, spine, liver, kidney, EKG/ECG, and white blood cell.
-2. A 2026 submission strategy for the strongest ready concepts in the unified set.
+1. A short summary of why each proposed emoji matters for emergency care and patient communication.
+2. A recommendation on which concepts are ready to submit first in 2026.
 3. Draft ACEP support-statement language for staff, legal, and leadership review.
-4. A bounded framework so ACEP supports a clinically reviewed set with clear criteria, not an open-ended list.
+4. A clear explanation that ACEP is supporting a focused, clinically reviewed medical set.
 
-Our working goal is to prepare an August 2026 package for the strongest ready concepts in the unified set, while verifying timing because the current Unicode public page lists July 31, 2026 as the active intake deadline. The section would return to ACEP leadership with proposed support-statement language, eligibility findings, image-rights status, coalition partners, and the final requested ACEP action before any formal organizational commitment.
+Our working goal is to prepare an August 2026 package for the concepts that are most ready to move forward, while verifying timing because the current Unicode public page lists July 31, 2026 as the active intake deadline. The section would return to ACEP leadership with proposed support-statement language, key findings, coalition partners, and the final requested ACEP action before any formal organizational commitment.
 
 Respectfully,
 
