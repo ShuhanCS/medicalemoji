@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.19.0] - 2026-05-15
+
+### Added
+- Added an ACEP leadership memo draft proposing an Informatics Section-led Medical Emoji initiative.
+- Added a repo-local plan documenting the memo scope, sources, and framing decisions.
+
 ## [0.18.0] - 2026-05-14
 
 ### Changed
