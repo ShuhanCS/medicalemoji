@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.17.4] - 2026-05-14
+
+### Fixed
+- Added kidney `v0.13.4` as a synchronized packet with GPT-generated black-and-white reference artwork converted into 18x18 and 72x72 submission assets.
+- Updated proposal/source notes and finalization controls for the generated black-and-white reference artwork.
+- Regenerated the visual review board against the generated black-and-white assets.
+
 ## [0.17.3] - 2026-05-14
 
 ### Fixed
