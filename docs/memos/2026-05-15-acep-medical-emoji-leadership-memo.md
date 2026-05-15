@@ -1,69 +1,91 @@
-# Memo: ACEP Leadership Support for a Unified Medical Emoji Set
+# Memo: Proposal for ACEP Leadership Support of a Unified Medical Emoji Set
 
 To: Steven B. Kailes, MD, FACEP
 
-From: Shuhan He, Chair, ACEP Emergency Medicine Informatics Section
+From: Shuhan He, President, ACEP Emergency Medicine Informatics Section
 
 Date: May 15, 2026
 
-Subject: Proposed ACEP leadership support for a unified Medical Emoji set
+Subject: Proposal from the ACEP Emergency Medicine Informatics Section for a unified Medical Emoji initiative
 
 ## Summary
 
-The ACEP Emergency Medicine Informatics Section should develop a structured Medical Emoji initiative for ACEP leadership consideration. The immediate opportunity is to support a unified medical emoji set, beginning with high-quality, evidence-based Unicode proposal packages for stomach, spine, liver, kidney, EKG/ECG, and white blood cell. Kidney and stomach are the most active near-term submission packages; the broader ACEP position should be that emergency medicine needs a coherent, clinically reviewed medical symbol set rather than disconnected one-off emoji proposals.
+The ACEP Emergency Medicine Informatics Section would like to develop and present a structured Medical Emoji initiative to ACEP leadership. The goal is to support a unified set of clinically useful medical emoji, beginning with stomach, spine, liver, kidney, EKG/ECG, and white blood cell.
 
-This is not primarily a novelty project. Emoji are now part of ordinary digital language, and Unicode controls whether a symbol can be used consistently across phones, EHR-adjacent communications, public-health messaging, patient education, and social platforms. Emergency physicians use plain-language, high-signal communication every day. ACEP should be part of this work because emergency medicine sits at the front door of health care, and ACEP can help ensure that high-utility medical concepts are represented accurately, accessibly, and with appropriate clinical and informatics oversight.
+This is not a request for ACEP to endorse a novelty project. It is a proposal for ACEP to help lead a practical informatics and patient-communication effort. Emoji are now a standardized part of digital language. When a new emoji is accepted by Unicode and implemented by vendors, it can become available worldwide across phones, computers, messaging systems, patient portals, social media, and public-health communication.
 
-## Decision Requested
+Emergency medicine is a natural home for this work. We routinely communicate under time pressure, across differences in language and health literacy, and around symptoms that are difficult for patients to describe. A coherent medical emoji set could support patient education, telehealth, public-health messaging, and plain-language communication without replacing formal clinical documentation.
 
-Authorize the Emergency Medicine Informatics Section to prepare an ACEP-facing Medical Emoji recommendation package for leadership review, including:
+## Request to ACEP Leadership
+
+We request ACEP leadership's guidance and permission for the Informatics Section to prepare a formal Medical Emoji proposal package for leadership review. That package would include:
 
 1. A unified candidate set: stomach, spine, liver, kidney, EKG/ECG, and white blood cell.
-2. A Unicode readiness review for the leading active submission packages, currently kidney and stomach, with a readiness map for the remaining set.
-3. A proposed ACEP role, such as support letter, coalition convening, clinical review, or direct co-sponsorship, depending on legal and governance review.
-4. A brief implementation plan for the 2026 submission cycle. The working target is an August 2026 kidney/stomach submission package, but the team should verify timing because Unicode's current public guidance states that the active intake window closes July 31, 2026.
+2. A Unicode-readiness review for each concept, with priority attention to kidney and stomach as the most active near-term submission packages.
+3. A recommended ACEP role, such as support letter, clinical review, coalition convening, public statement, or co-sponsorship if appropriate after staff and legal review.
+4. A clear implementation timeline for the 2026 submission cycle. Our working goal is to work with the kidney and stomach proposal teams for an August 2026 package, while verifying the exact Unicode submission timing because the current public Unicode page lists July 31, 2026 as the active intake deadline.
 
-## Background
+## Background: What Unicode and Emoji Are
 
-Unicode is the international standard that allows text, symbols, and emoji to work consistently across platforms. A new emoji cannot simply be created by one organization and become universally available. It must be accepted through the Unicode emoji proposal process, then implemented by major vendors.
+Emoji are not just images that individual companies create independently. They are standardized characters. Unicode is the international standards organization that makes text characters work across platforms and languages. The same system that lets a Latin letter, Chinese character, Arabic character, or mathematical symbol render across systems also governs emoji.
 
-Unicode's current emoji proposal guidance was last updated on April 2, 2026 and states that submissions are being accepted until July 31, 2026:
+In practical terms, a new emoji becomes globally usable only after it moves through the Unicode process. Once Unicode accepts an emoji, companies such as Apple, Google, Microsoft, Samsung, and others can implement their own artwork for that standardized character. That is why a person can send an emoji from an iPhone and another person can receive the same concept on Android, Windows, or the web, even though each vendor's artwork may look different.
+
+## Background: How the Emoji Proposal Process Works
+
+Unicode accepts emoji proposals through a formal submission process. A successful proposal must be much more than a good idea. Unicode asks for a public PDF proposal, example images, image-rights documentation, evidence that the concept is likely to be used, and direct responses to criteria such as:
+
+1. Whether the concept has broad expected usage.
+2. Whether it has multiple meanings or useful sequence combinations.
+3. Whether it fills a real gap in the existing emoji set.
+4. Whether it is visually distinct and recognizable at small sizes.
+5. Whether it is too narrow, too transient, already represented, or part of an unlimited open-ended category.
+
+The current Unicode proposal page states that submissions are being accepted until July 31, 2026:
 
 https://www.unicode.org/emoji/proposals.html
 
-Unicode requires a complete public PDF proposal submitted through its official form. It also requires empirical frequency evidence, example images at required sizes, image-rights warranties, and a response to inclusion and exclusion criteria. Unicode states that only a small percentage of submissions advance for encoding, and that incomplete or excluded-category proposals are not eligible for consideration.
+This process matters for ACEP because medical emoji proposals can fail if they are framed only as awareness campaigns or specialty requests. A strong proposal needs a clinically credible coalition, empirical usage evidence, careful image rights, and a disciplined answer to the concern that "medical emoji" could become an endless list.
 
-This matters because medical emoji proposals often fail if they are framed only as awareness campaigns or specialty requests. Unicode explicitly says a proposal should not be justified simply because it furthers a cause, however worthwhile. A successful medical proposal must show broad expected use, visual distinctiveness, durability, and a clear gap in existing emoji.
+## Prior Success: Anatomical Heart and Lungs
 
-There is already peer-reviewed medical literature supporting the broader premise that emoji have become a legitimate medical communication issue. In JAMA, Lai, Lee, and He argued that emoji entered the global lexicon through Unicode and that medical emoji raise both opportunities and challenges for patient communication, equity, and representation. The article specifically framed medical emoji as a field-level issue: the authors described prior work on anatomical heart and lung, listed proposed medical emoji including stomach, spine, liver, kidney, ECG, and white blood cell, and argued that the medical field would benefit from a more comprehensive and cohesive set of medical emoji.
+This work already has a successful precedent. In 2020, the anatomical heart and lungs emoji were approved as part of Emoji 13.0. The Boston Globe covered the approval on February 4, 2020, noting that the anatomical heart and lung icons would appear on smartphones later that year and that the proposal had been approved by the Unicode Consortium:
+
+https://www.bostonglobe.com/2020/02/04/metro/this-mass-general-doctor-helped-get-two-new-medical-emojis-approved/
+
+Emojipedia's 2020 list of approved emoji included both Anatomical Heart and Lungs:
+
+https://blog.emojipedia.org/117-new-emojis-in-final-list-for-2020/
+
+After approval, the emoji moved into real-world use as vendors released operating-system updates. For example, Apple released iOS 14.2 on November 5, 2020 with support for the new Emoji 13.0 set, including anatomical heart and lungs:
+
+https://blog.emojipedia.org/ios-14-2-emoji-changelog/
+
+These approvals also became broader public stories. The Boston Globe covered the 2020 approval. The Verge later covered the broader medical emoji effort after the JAMA article, describing the anatomical heart and lungs as part of a larger push for more organ and health-related emoji:
+
+https://www.theverge.com/2021/9/13/22665002/doctors-medical-emoji-organs-health
+
+That public response is important. When a medical emoji is approved, it is not just a technical change to a keyboard. It becomes a worldwide communication story about how medicine, technology, language, and patient communication intersect.
+
+## Published Medical Rationale
+
+The rationale for a more complete medical emoji set has already been published in JAMA. Lai, Lee, and He argued that emoji entered the global lexicon through Unicode and that medical emoji create both opportunities and challenges for patient communication, equity, and representation:
 
 Lai D, Lee J, He S. Emoji for the Medical Community-Challenges and Opportunities. JAMA. 2021;326(9):795-796. doi:10.1001/jama.2021.8409
 
 https://jamanetwork.com/journals/jama/fullarticle/2783847
 
-A subsequent JAMA research letter from He and colleagues compared an emoji-based visual analog scale with a numeric rating scale for pain assessment, showing high agreement in a sample of 109 patients. That study supports the practical point that emoji can be evaluated as serious clinical communication tools, not only as social-media symbols:
+The JAMA article specifically framed this as a field-level issue, not a single-symbol request. It described prior work on anatomical heart and lungs, listed additional proposed medical emoji including stomach, spine, liver, kidney, ECG, and white blood cell, and argued that medicine would benefit from a more comprehensive and cohesive set of medical emoji.
+
+A subsequent JAMA research letter compared an emoji-based visual analog scale with a numeric rating scale for pain assessment in 109 patients and found high agreement. That study supports the practical point that emoji can be evaluated as serious communication tools in clinical settings:
 
 He S, Renne A, Argandykov D, Convissar D, Lee J. Comparison of an Emoji-Based Visual Analog Scale With a Numeric Rating Scale for Pain Assessment. JAMA. 2022;328(2):208-209. doi:10.1001/jama.2022.7489
 
 https://jamanetwork.com/journals/jama/fullarticle/2794067
 
-## Why ACEP Should Care
+## Why ACEP Should Be Involved
 
-Emergency medicine sits at the intersection of clinical care, public health, patient communication, disaster communication, and digital health. ACEP's Informatics Section exists to support clinical computing systems and communication tools that reduce burden and improve care. Medical emoji fit within that broader informatics mission when approached rigorously.
-
-ACEP's involvement would add value in five ways:
-
-1. Clinical credibility. ACEP can help distinguish useful patient-facing medical symbols from narrow specialty symbols or advocacy-only requests.
-2. Informatics discipline. The section can align proposals with structured criteria, interoperability, terminology, user search behavior, and digital communication realities.
-3. Patient communication. Simple symbols can help people discuss symptoms, organs, testing, donation, medication safety, procedures, and follow-up in plain language.
-4. Public-health reach. ACEP can help build coalitions that include emergency medicine, patient groups, public-health organizations, and specialty societies.
-5. Governance. ACEP can help avoid fragmented submissions by creating a review path before public organizational support is offered.
-
-## Why a Unified Set Makes Sense
-
-The strongest ACEP position is not that one organ emoji is missing. The stronger position is that emergency medicine, public health, telehealth, patient education, and cross-language communication need a coherent medical emoji set with clinically useful, patient-facing concepts.
-
-The proposed unified set should include:
+ACEP should be part of this work because emergency medicine has a direct stake in clear, rapid, patient-facing communication. A unified medical emoji set would touch common emergency medicine domains:
 
 1. Stomach: abdominal pain, nausea, reflux, GI bleeding, vomiting, appetite, pediatric abdominal complaints, and gastrointestinal education.
 2. Spine: back pain, trauma, neurologic symptoms, spinal injury, rehabilitation, imaging, and discharge instructions.
@@ -72,25 +94,17 @@ The proposed unified set should include:
 5. EKG/ECG: chest pain, arrhythmia, cardiac monitoring, syncope, myocardial infarction evaluation, and emergency cardiovascular care.
 6. White blood cell: infection, inflammation, immunocompromise, sepsis, oncology, immune response, and laboratory interpretation.
 
-These symbols are not narrow specialty icons. They correspond to common ED complaints, high-frequency diagnostic pathways, common patient instructions, and durable public-health concepts. They also work together: abdominal pain plus stomach, back pain plus spine, chest pain plus EKG, infection plus white blood cell, dehydration or renal colic plus kidney, and medication toxicity or jaundice plus liver.
+These are not narrow specialty symbols. They correspond to common ED complaints, high-frequency diagnostic pathways, common patient instructions, and durable public-health concepts. They also work together: abdominal pain plus stomach, back pain plus spine, chest pain plus EKG, infection plus white blood cell, dehydration or renal colic plus kidney, and medication toxicity or jaundice plus liver.
 
-## Why Kidney Remains a Strong Near-Term Candidate
+ACEP's role would add clinical credibility and governance. It would help distinguish serious patient-facing medical symbols from one-off requests, ensure emergency medicine use cases are represented, and give the broader medical community a more organized path for proposing and reviewing medical emoji.
 
-Kidney is a practical near-term candidate because it is broad, durable, patient-facing, visually representable, and relevant beyond one subspecialty. It can be used for kidney health, kidney stones, acute kidney injury, chronic kidney disease, dialysis, transplant, living donation, medication safety, dehydration, urine testing, diabetes, hypertension, and patient education.
+## Existing Support and Public Materials
 
-The public-health case is substantial. WHO's April 20, 2026 kidney disease fact sheet states that kidney disease includes acute kidney injury and chronic kidney disease, that an estimated 674 million people have chronic kidney disease worldwide, and that kidney failure requires dialysis or kidney transplantation to sustain life:
+The Medical Emoji campaign is not starting from zero:
 
-https://www.who.int/news-room/fact-sheets/detail/kidney-disease
+https://medicalemoji.org/
 
-CDC's March 31, 2026 United States summary estimates that more than 1 in 10 U.S. adults, approximately 37 million people, have chronic kidney disease, and that about 9 in 10 adults with CKD do not know they have it:
-
-https://www.cdc.gov/kidney-disease/php/data-research/index.html
-
-The kidney concept also has emergency medicine relevance: AKI, dehydration, sepsis, medication nephrotoxicity, renal colic, abnormal urinalysis, dialysis complications, transplant complications, and metabolic/electrolyte emergencies are routine ED concerns. A kidney emoji would not replace clinical language, but it would improve the available vocabulary for patient-facing and public communication.
-
-## Existing Medical Society Support and Public Materials
-
-The Medical Emoji campaign is not starting from zero. The current Medical Emoji site already displays support entries or public support materials across the proposed unified set:
+The current site already displays support entries or public support materials across the proposed unified set:
 
 https://medicalemoji.org/emoji/kidney
 
@@ -104,7 +118,7 @@ https://medicalemoji.org/emoji/ekg
 
 https://medicalemoji.org/emoji/wbc
 
-The site currently lists 18 support entries or public support materials across the six proposed concepts: kidney has 12 listed supporters; stomach has 2; liver has 3; spine has 1 article item; EKG/ECG and white blood cell are listed as candidate concepts but do not currently show named supporters on the site. Conservatively, the currently displayed signed or society/patient-organization support is strongest for kidney, stomach, and liver, with published specialty-journal support materials for liver and spine.
+The site currently lists 18 support entries or public support materials across the six proposed concepts: kidney has 12 listed supporters; stomach has 2; liver has 3; spine has 1 article item; EKG/ECG and white blood cell are listed as candidate concepts but do not currently show named supporters on the site. Conservatively, the displayed signed or society/patient-organization support is strongest for kidney, stomach, and liver, with published specialty-journal support materials for liver and spine.
 
 The kidney supporter list includes American Association of Kidney Patients, American Society of Nephrology, American Society of Diagnostic and Interventional Nephrology, Canadian Society of Nephrology, Glomerular Disease Consortium, International Society of Nephrology, Kidney Disease: Improving Global Outcomes, National Kidney Foundation, NephJC, Renal Physicians Association, Kidney Foundation of Western New York, and Women Nephrology India.
 
@@ -112,18 +126,15 @@ The stomach supporter list includes the American Gastroenterological Association
 
 The liver support materials include American Gastroenterological Association, American Society for Gastrointestinal Endoscopy, and a Hepatology journal article. The spine support material includes a Spine Journal article.
 
-These supporters and publications show that other medical organizations and specialty communities already view organ-level emoji as legitimate patient-communication and public-health symbols. ACEP should be part of this coalition because emergency medicine is where many kidney, abdominal, gastrointestinal, spine, cardiac, infectious, hematologic, toxicologic, sepsis, dehydration, and diagnostic-uncertainty conversations begin.
+## Proposed ACEP Role
 
-## What ACEP Should Do
+The Informatics Section proposes to prepare a leadership packet that would allow ACEP to decide the right level of support. Possible roles include:
 
-ACEP should support the creation of a disciplined Medical Emoji pathway rather than making a one-off endorsement. The recommended approach is:
-
-1. Ask the Informatics Section to lead an initial review of the unified medical emoji set against Unicode criteria.
-2. Ask ACEP staff or counsel to review whether ACEP can provide a support letter, co-sponsor language, or coalition-convening support for the 2026 kidney/stomach submission package and the broader unified set.
-3. Coordinate with relevant medical societies and patient organizations so there is one clean proposal rather than competing submissions.
-4. Confirm image ownership and Unicode license requirements before any ACEP name is attached.
-5. Require that the final proposal use empirical frequency evidence, not petitions or social-media requests.
-6. Position ACEP's support around patient communication, public health, emergency care, and interoperability, not around novelty or organizational branding.
+1. Clinical and informatics review of the unified medical emoji set.
+2. An ACEP support letter focused on patient communication, emergency care, and interoperability.
+3. Coalition outreach to relevant specialty societies and patient organizations.
+4. A request that Unicode consider a cohesive, clinically reviewed medical set rather than isolated one-off symbols.
+5. A public-facing ACEP position that accurate digital medical symbols can support communication, health literacy, and public health when they meet Unicode's criteria.
 
 ## Barriers and Mitigation
 
@@ -135,9 +146,9 @@ Barrier: A unified medical set could look open-ended, because many organs, disea
 
 Mitigation: ACEP should support only concepts that satisfy bounded criteria: broad public use, durable health relevance, clear visual identity, emergency or public-health relevance, strong search/frequency evidence, and inability to be represented by existing emoji. The proposed set should be framed as a reviewed clinical set, not an unlimited anatomy catalog.
 
-Barrier: Prior kidney proposals were declined, and Unicode bars re-review of declined emoji within the last four years.
+Barrier: Prior proposals were declined, and Unicode bars re-review of declined emoji within the last four years.
 
-Mitigation: Confirm the exact re-review eligibility date with Unicode or the Emoji Standard & Research Working Group before filing or attaching ACEP as a formal supporter.
+Mitigation: Confirm exact re-review eligibility dates with Unicode or the Emoji Standard & Research Working Group before filing or attaching ACEP as a formal supporter.
 
 Barrier: Unicode requires reproducible frequency evidence.
 
@@ -147,25 +158,17 @@ Barrier: Image rights are a real legal requirement.
 
 Mitigation: Use only original, assigned, work-for-hire, public-domain, or appropriately open-licensed images, and document the rights chain before submission.
 
-Barrier: A society support letter can help but does not satisfy Unicode review by itself.
+Barrier: Society support letters help but do not satisfy Unicode review by themselves.
 
 Mitigation: Treat ACEP support as coalition and clinical-review evidence, not as a substitute for the Unicode-required proposal record.
 
-Barrier: A rushed endorsement could create governance risk.
+## Recommended Next Steps
 
-Mitigation: Keep the first step limited: authorize the section to prepare a package and return to leadership with the specific ACEP role, final language, and legal review needs.
-
-## Recommended Timeline
-
-May 2026: Informatics Section completes a short Unicode-readiness review and identifies open blockers for the unified set, with priority attention to kidney and stomach.
-
-June 2026: ACEP leadership, counsel, and relevant staff review possible ACEP support language and organizational role.
-
-Early July 2026: If eligibility, image rights, and coalition coordination are cleared, ACEP finalizes its support role.
-
-By July 31, 2026: The submitter should be prepared to file the public PDF through Unicode's official submission form if all requirements are satisfied, because the public Unicode page currently lists July 31, 2026 as the active deadline.
-
-August 2026: If Unicode confirms an August submission route or if August is used for ACEP/coalition finalization after filing, ACEP should remain engaged in the kidney and stomach submission package, public communications, and follow-up with the proposal teams while continuing the readiness pathway for spine, liver, EKG/ECG, and white blood cell.
+1. ACEP leadership authorizes the Informatics Section to prepare a formal Medical Emoji leadership packet.
+2. The section completes a Unicode-readiness review for stomach, spine, liver, kidney, EKG/ECG, and white blood cell.
+3. The section prioritizes kidney and stomach for the 2026 package while mapping the remaining concepts for future submission cycles.
+4. ACEP staff and counsel review any proposed support letter, co-sponsor language, or public statement.
+5. The proposal team confirms Unicode timing, eligibility, image rights, and coalition coordination before filing.
 
 ## Proposed ACEP Position
 
@@ -173,17 +176,15 @@ ACEP should support the principle that widely used, patient-facing medical conce
 
 The safest initial position is not "ACEP endorses every medical emoji." The stronger position is: ACEP supports an evidence-based pathway for medical emoji proposals and will consider supporting specific candidates that meet Unicode's requirements and serve patients, clinicians, and public health.
 
-## Draft Closing
+## Closing
 
-I recommend that ACEP allow the Emergency Medicine Informatics Section to develop this recommendation package and return with a specific proposed ACEP role. This would let ACEP contribute clinical and informatics expertise to the kidney and stomach submissions and help shape a unified medical emoji set without overcommitting before the Unicode eligibility, image-rights, and coalition questions are resolved.
+We would like to present this initiative to ACEP leadership and return with a specific proposed ACEP role. This would allow ACEP to contribute clinical and informatics expertise to near-term kidney and stomach submissions while also helping shape a unified medical emoji set for future patient communication.
 
 Respectfully,
 
 Shuhan He
 
-Chair, Emergency Medicine Informatics Section
-
-American College of Emergency Physicians
+President, ACEP Emergency Medicine Informatics Section
 
 ## Reference Links
 
@@ -195,6 +196,18 @@ https://www.unicode.org/faq/emoji_submission.html
 
 Unicode Emoji Proposal Agreement and License:
 https://www.unicode.org/emoji/emoji-proposal-agreement.pdf
+
+Boston Globe: This Mass. General doctor helped get two new medical emojis approved:
+https://www.bostonglobe.com/2020/02/04/metro/this-mass-general-doctor-helped-get-two-new-medical-emojis-approved/
+
+Emojipedia: 117 New Emojis In Final List For 2020:
+https://blog.emojipedia.org/117-new-emojis-in-final-list-for-2020/
+
+Emojipedia: iOS 14.2 Emoji Changelog:
+https://blog.emojipedia.org/ios-14-2-emoji-changelog/
+
+The Verge: A doctor's quest for more organ emoji:
+https://www.theverge.com/2021/9/13/22665002/doctors-medical-emoji-organs-health
 
 JAMA: Emoji for the Medical Community-Challenges and Opportunities:
 https://jamanetwork.com/journals/jama/fullarticle/2783847
@@ -222,15 +235,3 @@ https://medicalemoji.org/emoji/ekg
 
 Medical Emoji white blood cell candidate:
 https://medicalemoji.org/emoji/wbc
-
-ACEP Emergency Medicine Informatics Section:
-https://www.acep.org/informatics/
-
-ACEP Board of Directors:
-https://www.acep.org/who-we-are/leadership/board/
-
-WHO kidney disease fact sheet:
-https://www.who.int/news-room/fact-sheets/detail/kidney-disease
-
-CDC chronic kidney disease summary:
-https://www.cdc.gov/kidney-disease/php/data-research/index.html

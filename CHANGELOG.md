@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.19.3] - 2026-05-15
+
+### Changed
+- Reworked the ACEP memo as a proposal from the Informatics Section President to ACEP leadership.
+- Added plain-language Unicode/emoji/process background and prior anatomical heart/lungs approval and release coverage.
+
 ## [0.19.2] - 2026-05-15
 
 ### Changed
