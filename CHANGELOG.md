@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.19.9] - 2026-05-15
+
+### Changed
+- Clarified the ACEP memo ask around leadership guidance for a clear ACEP support statement, backed by an Informatics Section leadership packet.
+
 ## [0.19.8] - 2026-05-15
 
 ### Changed
