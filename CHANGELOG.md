@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.19.7] - 2026-05-15
+
+### Changed
+- Clarified that the JAMA medical emoji article's He citation refers to Shuhan He, MD, the ACEP Informatics Section Chair authoring the memo.
+
 ## [0.19.6] - 2026-05-15
 
 ### Changed
