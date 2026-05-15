@@ -65,3 +65,4 @@ Draft an ACEP leadership memo from the ACEP Emergency Medicine Informatics Secti
 
 - Memo draft:
   `docs/memos/2026-05-15-acep-medical-emoji-leadership-memo.md`
+- Current format: one-page memo body with a second citations/reference page.
