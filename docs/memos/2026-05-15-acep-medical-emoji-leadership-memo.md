@@ -20,16 +20,16 @@ The case for a broader medical set has also been published in JAMA. Lai, Lee, an
 
 ACEP should be part of this work because emergency medicine depends on fast, clear, patient-facing communication. The proposed set maps directly to common emergency care domains: abdominal pain and vomiting; back pain, trauma, and neurologic symptoms; hepatitis, liver failure, jaundice, and medication toxicity; kidney stones, dehydration, acute kidney injury, dialysis, and medication safety; chest pain, arrhythmia, and cardiac monitoring; infection, inflammation, immunocompromise, sepsis, and laboratory interpretation.
 
-The Medical Emoji campaign already has public support materials. The current site lists 18 support entries or public support materials across the six proposed concepts: kidney has 12 listed supporters; stomach has 2; liver has 3; spine has 1 article item; EKG/ECG and white blood cell are listed as candidate concepts but do not currently show named supporters. The strongest signed or society/patient-organization support is currently for kidney, stomach, and liver.
+The Medical Emoji campaign already has public support materials, including letters from physician societies and patient organizations. The current site lists 18 support entries or public support materials across the six proposed concepts, including substantial signed society and patient-organization support for kidney, stomach, and liver. ACEP would be joining an existing medical coalition and helping bring emergency medicine leadership to a process that other physician societies have already supported.
 
 We request ACEP leadership's guidance and permission for the Informatics Section to prepare a formal leadership packet that includes:
 
 1. A Unicode-readiness review for stomach, spine, liver, kidney, EKG/ECG, and white blood cell.
-2. Priority coordination with kidney and stomach proposal teams for the 2026 submission cycle.
+2. A 2026 submission strategy for the strongest ready concepts in the unified set.
 3. A recommended ACEP role, such as support letter, clinical review, coalition convening, public statement, or co-sponsorship after staff and legal review.
 4. A bounded framework so ACEP supports a clinically reviewed set with clear criteria, not an open-ended list.
 
-Our working goal is to support the kidney and stomach teams for an August 2026 package, while verifying timing because the current Unicode public page lists July 31, 2026 as the active intake deadline. The section would return to ACEP leadership with proposed language, eligibility findings, image-rights status, coalition partners, and the specific requested ACEP role before any formal organizational commitment.
+Our working goal is to prepare an August 2026 package for the strongest ready concepts in the unified set, while verifying timing because the current Unicode public page lists July 31, 2026 as the active intake deadline. The section would return to ACEP leadership with proposed language, eligibility findings, image-rights status, coalition partners, and the specific requested ACEP role before any formal organizational commitment.
 
 Respectfully,
 

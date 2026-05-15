@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.19.8] - 2026-05-15
+
+### Changed
+- Strengthened the ACEP memo support-materials paragraph to note that other physician societies have already written support letters and ACEP would be joining an existing coalition.
+- Removed the kidney/stomach team-coordination claim and reframed the 2026 work around the strongest ready concepts in the unified set.
+
 ## [0.19.7] - 2026-05-15
 
 ### Changed
