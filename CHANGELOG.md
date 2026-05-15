@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.19.11] - 2026-05-15
+
+### Added
+- Added a formatted DOCX version of the ACEP medical emoji memo with citations on a second page.
+
 ## [0.19.10] - 2026-05-15
 
 ### Changed
