@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.19.2] - 2026-05-15
+
+### Changed
+- Reframed the ACEP memo around a unified medical emoji set covering stomach, spine, liver, kidney, EKG/ECG, and white blood cell.
+- Incorporated the supplied JAMA PDF's unified-set framing and updated support-material counts across the proposed set.
+
 ## [0.19.1] - 2026-05-15
 
 ### Changed
