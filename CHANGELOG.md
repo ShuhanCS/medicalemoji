@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.19.12] - 2026-05-31
+
+### Added
+- Added the generated PDF export for the kidney emoji v0.13.4 Unicode submission packet.
+
 ## [0.19.11] - 2026-05-15
 
 ### Added

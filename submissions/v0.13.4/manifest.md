@@ -6,7 +6,7 @@ Date prepared: 2026-05-14
 
 Proposal identifier: `kidney-emoji-2026`
 
-Status: `PLANNED_FOR_SUBMISSION`. This packet contains a PDF-facing proposal source, required example images, and embedded evidence images intended for the final public Unicode PDF. Filing is still held until signature-required items, eligibility/coordination, public PDF hosting, and final submitter approval are complete.
+Status: `PLANNED_FOR_SUBMISSION`. This packet contains a PDF-facing proposal source, generated PDF export, required example images, and embedded evidence images intended for the final public Unicode PDF. Filing is still held until signature-required items, eligibility/coordination, public PDF hosting, and final submitter approval are complete.
 
 Source guidance reviewed:
 
@@ -26,6 +26,7 @@ Source guidance reviewed:
 | File | Role | Description |
 | --- | --- | --- |
 | `v0.13.4_kidney_emoji_proposal_SUBMIT.md` | `SUBMIT` | PDF-facing proposal source intended to become the final public Unicode PDF after signoff. Includes required example images, five current evidence figures, a frequency summary table with reproducible URLs, tighter visual-distinctiveness guidance, sequence examples, open-ended-boundary criteria, and supplemental support-letter links. |
+| `v0.13.4_kidney_emoji_proposal_SUBMIT.pdf` | `SUBMIT` | Generated PDF export of the PDF-facing proposal source for final review and hosting after signature-required holds are cleared. |
 | `images/v0.13.4_kidney_color_18x18_SUBMIT.png` | `SUBMIT` | Required 18x18 color example image. |
 | `images/v0.13.4_kidney_color_72x72_SUBMIT.png` | `SUBMIT` | Required 72x72 color example image. |
 | `images/v0.13.4_kidney_bw_18x18_SUBMIT.png` | `SUBMIT` | Required 18x18 black-and-white example image generated from the GPT image reference. |
@@ -60,7 +61,7 @@ Known filing holds:
 - Unicode/ESR eligibility for a 2026 kidney filing still needs confirmation because `KIDNEYS` was publicly listed as submitted on 2022-07-19 and declined.
 - Final submitter list and organizational roles need explicit approval before filing.
 - ConductScience ownership and Alla Shamanska credit are recorded; final submitter/signatory authorization must be confirmed before filing.
-- Public PDF has not been exported or hosted.
+- Public PDF has been exported in this packet but not hosted at a final public URL.
 - Unicode form has not been submitted.
 
 ## Change Notes From v0.13.3
