@@ -8,6 +8,8 @@ Proposal identifier: `kidney-emoji-2026`
 
 Status: `PLANNED_FOR_SUBMISSION`. This packet contains a PDF-facing proposal source, required example images, and embedded evidence images intended for the final public Unicode PDF. Filing is still held until signature-required items, eligibility/coordination, public PDF hosting, and final submitter approval are complete.
 
+Artwork update (2026-06-05): the example images were redesigned from a paired-kidney anatomy illustration to a single kidney organ in the established single-organ emoji style (bold silhouette, keyline, hilum with renal vessel and ureter cues), because the paired image did not stay legible at 18x18. The proposal text, the four required example images, and the 18x18 visual review board were updated together. Design spec and source art: `docs/design/kidney-emoji-2026-06/`.
+
 Source guidance reviewed:
 
 - Unicode emoji proposal guidelines, last update shown as 2026-04-02:
@@ -28,8 +30,8 @@ Source guidance reviewed:
 | `v0.13.4_kidney_emoji_proposal_SUBMIT.md` | `SUBMIT` | PDF-facing proposal source intended to become the final public Unicode PDF after signoff. Includes required example images, five current evidence figures, a frequency summary table with reproducible URLs, tighter visual-distinctiveness guidance, sequence examples, open-ended-boundary criteria, and supplemental support-letter links. |
 | `images/v0.13.4_kidney_color_18x18_SUBMIT.png` | `SUBMIT` | Required 18x18 color example image. |
 | `images/v0.13.4_kidney_color_72x72_SUBMIT.png` | `SUBMIT` | Required 72x72 color example image. |
-| `images/v0.13.4_kidney_bw_18x18_SUBMIT.png` | `SUBMIT` | Required 18x18 black-and-white example image generated from the GPT image reference. |
-| `images/v0.13.4_kidney_bw_72x72_SUBMIT.png` | `SUBMIT` | Required 72x72 black-and-white example image generated from the GPT image reference. |
+| `images/v0.13.4_kidney_bw_18x18_SUBMIT.png` | `SUBMIT` | Required 18x18 black-and-white example image (single-kidney line art). |
+| `images/v0.13.4_kidney_bw_72x72_SUBMIT.png` | `SUBMIT` | Required 72x72 black-and-white example image (single-kidney line art). |
 | `v0.13.4_submission_finalization_SIGNATURE_REQUIRED.md` | `SIGNATURE_REQUIRED` | Final signer, image-rights, TKF/ISN, eligibility, frequency-evidence, and public-PDF controls required before filing. |
 | `v0.13.4_submission_readiness_checklist_REFERENCE_ONLY.md` | `REFERENCE_ONLY` | Readiness checklist for project use; not intended for Unicode PDF submission. |
 | `v0.13.4_submission_text_scan_REFERENCE_ONLY.md` | `REFERENCE_ONLY` | Scan of the PDF-facing proposal source for placeholder/internal packet language. |
