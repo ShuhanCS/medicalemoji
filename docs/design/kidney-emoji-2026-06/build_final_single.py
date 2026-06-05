@@ -136,13 +136,9 @@ def art_bw():
           stroke-width='5.4' stroke-linecap='round'/>
     <path d='M -1 3 C 5 10 11 17 17 26' fill='none' stroke='#ffffff'
           stroke-width='3.2' stroke-linecap='round'/>
-    <!-- body -->
+    <!-- body: clean black line art, white fill, no grayscale shading -->
     <path d='{BODY}' fill='#ffffff' stroke='{line}' stroke-width='2.2'
           stroke-linejoin='round'/>
-    <!-- light form shadow lower-right -->
-    <path d='M 8 10 C 11 18 9 24 1 25 C -7 26 -15 22 -20 15'
-          fill='none' stroke='#d9d9d9' stroke-width='2.2'
-          stroke-linecap='round' opacity='0.9'/>
   </g>
 </svg>
 """
@@ -173,9 +169,12 @@ def rasterize(svg, tag):
 
 
 def hint_18(master, color=True):
-    """Hand-tuned 18px: downscale then clean up alpha + sharpen silhouette."""
+    """Hand-tuned 18px: downscale then clean up alpha + sharpen silhouette.
+
+    For B&W, also darken the line pixels: a thin outline anti-aliases to gray
+    at 18px, so push the luminance toward black to keep the lines crisp.
+    """
     im = master.resize((18, 18), Image.LANCZOS)
-    # Lift faint edge pixels so the silhouette and the tan ureter survive.
     px = im.load()
     for y in range(18):
         for x in range(18):
@@ -184,9 +183,16 @@ def hint_18(master, color=True):
                 continue
             if a < 40:                 # drop near-transparent fringe
                 px[x, y] = (r, g, b, 0)
-            elif a < 200:              # firm up semi-edges
-                px[x, y] = (r, g, b, min(255, int(a * 1.35)))
-    # tiny contrast bump for definition
+                continue
+            if a < 200:                # firm up semi-edges
+                a = min(255, int(a * 1.35))
+            if not color:
+                # gamma-darken gray line pixels toward black for crisp line art
+                lum = (0.299 * r + 0.587 * g + 0.114 * b) / 255.0
+                v = int((lum ** 2.2) * 255)
+                px[x, y] = (v, v, v, a)
+            else:
+                px[x, y] = (r, g, b, a)
     return im
 
 
