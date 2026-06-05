@@ -32,8 +32,8 @@ MASTER = 576  # 8x of 72; big render for clean downscales
 BODY = (
     "M 1 -25 "
     "C 10 -24 13 -15 8 -6 "
-    "C 5 -2 -2 -3 -1 1 "          # hilum notch (medial/right)
-    "C 0 4 6 4 8 10 "
+    "C 6 -2 3 -2 3 1 "            # hilum notch (medial/right) - shallow dent
+    "C 3 4 6 5 8 10 "
     "C 11 18 9 24 1 25 "
     "C -11 27 -22 20 -25 8 "
     "C -28 0 -27 -9 -23 -15 "
@@ -63,6 +63,10 @@ def defs(color=True):
       <stop offset='0' stop-color='#f4ead0'/>
       <stop offset='1' stop-color='#d3b87e'/>
     </linearGradient>
+    <radialGradient id='hilum' cx='0.4' cy='0.4' r='0.7'>
+      <stop offset='0' stop-color='#9c3a36'/>
+      <stop offset='1' stop-color='#6e1f1b'/>
+    </radialGradient>
     <filter id='inner' x='-30%' y='-30%' width='160%' height='160%'>
       <feGaussianBlur in='SourceAlpha' stdDeviation='2.4' result='blur'/>
       <feComposite operator='out' in='SourceGraphic' in2='blur' result='inv'/>
@@ -94,23 +98,25 @@ def art_color():
 <svg xmlns='http://www.w3.org/2000/svg' width='{MASTER}' height='{MASTER}'
      viewBox='0 0 72 72'>{defs(True)}
   <g transform='translate(34 37) scale(1.2) rotate(-12)' filter='url(#drop)'>
-    <!-- renal artery: tapered tube from hilum, up-right -->
-    <path d='M -1 -1 C 7 -4 14 -6 21 -9' fill='none' stroke='{line}'
-          stroke-width='5.0' stroke-linecap='round'/>
-    <path d='M -1 -1 C 7 -4 14 -6 21 -9' fill='none' stroke='url(#artery)'
-          stroke-width='3.4' stroke-linecap='round'/>
-    <path d='M 2 -2.6 C 8 -5 13 -6.6 19 -9' fill='none' stroke='#f0897e'
-          stroke-width='0.9' stroke-linecap='round' opacity='0.7'/>
-    <!-- ureter: tan tube, down-right (the non-red cue) -->
-    <path d='M -1 3 C 5 10 11 17 17 26' fill='none' stroke='#a98a4f'
-          stroke-width='5.4' stroke-linecap='round'/>
-    <path d='M -1 3 C 5 10 11 17 17 26' fill='none' stroke='url(#ureter)'
-          stroke-width='3.6' stroke-linecap='round'/>
     <!-- body -->
     <path d='{BODY}' fill='url(#body)' stroke='{line}' stroke-width='2.0'
           stroke-linejoin='round' filter='url(#inner)'/>
     <path d='{BODY}' fill='none' stroke='{line}' stroke-width='2.0'
           stroke-linejoin='round'/>
+    <!-- hilum bundle: fills the notch so there is no open "mouth" wedge -->
+    <ellipse cx='5' cy='0' rx='4.6' ry='5.4' fill='url(#hilum)'
+             stroke='{line}' stroke-width='1.7'/>
+    <!-- renal vessels + ureter descend together (renal pedicle), no V-mouth -->
+    <!-- artery: red tube from hilum, down-right -->
+    <path d='M 4 -2 C 9 3 12 9 14 16' fill='none' stroke='{line}'
+          stroke-width='4.8' stroke-linecap='round'/>
+    <path d='M 4 -2 C 9 3 12 9 14 16' fill='none' stroke='url(#artery)'
+          stroke-width='3.2' stroke-linecap='round'/>
+    <!-- ureter: tan tube just outside the artery, down-right (non-red cue) -->
+    <path d='M 6 2 C 11 7 15 15 18 25' fill='none' stroke='#a98a4f'
+          stroke-width='5.2' stroke-linecap='round'/>
+    <path d='M 6 2 C 11 7 15 15 18 25' fill='none' stroke='url(#ureter)'
+          stroke-width='3.4' stroke-linecap='round'/>
     <!-- specular highlight, upper-left -->
     <ellipse cx='-12' cy='-10' rx='8.5' ry='5.2'
              transform='rotate(-28 -12 -10)' fill='url(#gloss)' filter='url(#soft)'/>
@@ -127,18 +133,79 @@ def art_bw():
 <svg xmlns='http://www.w3.org/2000/svg' width='{MASTER}' height='{MASTER}'
      viewBox='0 0 72 72'>{defs(False)}
   <g transform='translate(34 37) scale(1.2) rotate(-12)'>
-    <!-- artery + ureter as outlined white stubs -->
-    <path d='M -1 -1 C 7 -4 14 -6 21 -9' fill='none' stroke='{line}'
-          stroke-width='5.2' stroke-linecap='round'/>
-    <path d='M -1 -1 C 7 -4 14 -6 21 -9' fill='none' stroke='#ffffff'
-          stroke-width='3.0' stroke-linecap='round'/>
-    <path d='M -1 3 C 5 10 11 17 17 26' fill='none' stroke='{line}'
-          stroke-width='5.4' stroke-linecap='round'/>
-    <path d='M -1 3 C 5 10 11 17 17 26' fill='none' stroke='#ffffff'
-          stroke-width='3.2' stroke-linecap='round'/>
     <!-- body: clean black line art, white fill, no grayscale shading -->
     <path d='{BODY}' fill='#ffffff' stroke='{line}' stroke-width='2.2'
           stroke-linejoin='round'/>
+    <!-- vessels + ureter descend together as outlined white stubs -->
+    <path d='M 4 -2 C 9 3 12 9 14 16' fill='none' stroke='{line}'
+          stroke-width='5.0' stroke-linecap='round'/>
+    <path d='M 4 -2 C 9 3 12 9 14 16' fill='none' stroke='#ffffff'
+          stroke-width='3.0' stroke-linecap='round'/>
+    <path d='M 6 2 C 11 7 15 15 18 25' fill='none' stroke='{line}'
+          stroke-width='5.2' stroke-linecap='round'/>
+    <path d='M 6 2 C 11 7 15 15 18 25' fill='none' stroke='#ffffff'
+          stroke-width='3.2' stroke-linecap='round'/>
+    <!-- hilum bundle: small node tying the vessels in, fills the notch -->
+    <ellipse cx='5' cy='0' rx='4.0' ry='4.8' fill='#ffffff'
+             stroke='{line}' stroke-width='2.0'/>
+  </g>
+</svg>
+"""
+
+
+# Purpose-built 18px master: fuller bean body (almost no concavity, so it
+# never reads as a Pac-Man "mouth" when shrunk) + one simplified vessel nub.
+BODY_18 = (
+    "M 2 -23 "
+    "C 13 -23 17 -11 12 -1 "
+    "C 12 4 12 7 11 11 "         # medial side convex - no concavity to read as a mouth
+    "C 13 17 10 24 1 25 "
+    "C -12 27 -23 19 -26 7 "
+    "C -29 -1 -27 -10 -23 -16 "
+    "C -18 -23 -8 -24 2 -23 Z"
+)
+
+
+def art_color_18():
+    line = "#591611"
+    return f"""
+<svg xmlns='http://www.w3.org/2000/svg' width='{MASTER}' height='{MASTER}'
+     viewBox='0 0 72 72'>{defs(True)}
+  <g transform='translate(33 37) scale(1.22) rotate(-12)' filter='url(#drop)'>
+    <path d='{BODY_18}' fill='url(#body)' stroke='{line}' stroke-width='2.0'
+          stroke-linejoin='round' filter='url(#inner)'/>
+    <path d='{BODY_18}' fill='none' stroke='{line}' stroke-width='2.0'
+          stroke-linejoin='round'/>
+    <!-- one chunky ureter nub low on the medial side (plumbing cue) -->
+    <path d='M 9 9 C 12 13 13 16 15 21' fill='none' stroke='#a98a4f'
+          stroke-width='5.6' stroke-linecap='round'/>
+    <path d='M 9 9 C 12 13 13 16 15 21' fill='none' stroke='url(#ureter)'
+          stroke-width='3.8' stroke-linecap='round'/>
+    <!-- tiny red node at the nub base, low (does not notch the top) -->
+    <ellipse cx='9' cy='7' rx='2.6' ry='2.8' fill='url(#hilum)'
+             stroke='{line}' stroke-width='1.5'/>
+    <!-- specular highlight -->
+    <ellipse cx='-12' cy='-9' rx='8' ry='5'
+             transform='rotate(-28 -12 -9)' fill='url(#gloss)' filter='url(#soft)'/>
+  </g>
+</svg>
+"""
+
+
+def art_bw_18():
+    line = "#1a1a1a"
+    return f"""
+<svg xmlns='http://www.w3.org/2000/svg' width='{MASTER}' height='{MASTER}'
+     viewBox='0 0 72 72'>{defs(False)}
+  <g transform='translate(33 37) scale(1.22) rotate(-12)'>
+    <path d='{BODY_18}' fill='#ffffff' stroke='{line}' stroke-width='2.4'
+          stroke-linejoin='round'/>
+    <path d='M 9 9 C 12 13 13 16 15 21' fill='none' stroke='{line}'
+          stroke-width='5.6' stroke-linecap='round'/>
+    <path d='M 9 9 C 12 13 13 16 15 21' fill='none' stroke='#ffffff'
+          stroke-width='3.4' stroke-linecap='round'/>
+    <ellipse cx='9' cy='7' rx='2.6' ry='2.8' fill='#ffffff'
+             stroke='{line}' stroke-width='2.2'/>
   </g>
 </svg>
 """
@@ -197,15 +264,21 @@ def hint_18(master, color=True):
 
 
 def main():
+    # detailed masters for 72px
     cm = rasterize(art_color(), "c")
     bm = rasterize(art_bw(), "b")
+    # purpose-built simplified masters for 18px (fuller body, one nub)
+    cm18 = rasterize(art_color_18(), "c18")
+    bm18 = rasterize(art_bw_18(), "b18")
     (OUT / "kidney_color.svg").write_text(art_color(), encoding="utf-8")
     (OUT / "kidney_bw.svg").write_text(art_bw(), encoding="utf-8")
+    (OUT / "kidney_color_18.svg").write_text(art_color_18(), encoding="utf-8")
+    (OUT / "kidney_bw_18.svg").write_text(art_bw_18(), encoding="utf-8")
 
     cm.resize((72, 72), Image.LANCZOS).save(OUT / "kidney_color_72x72.png")
     bm.resize((72, 72), Image.LANCZOS).save(OUT / "kidney_bw_72x72.png")
-    hint_18(cm, True).save(OUT / "kidney_color_18x18.png")
-    hint_18(bm, False).save(OUT / "kidney_bw_18x18.png")
+    hint_18(cm18, True).save(OUT / "kidney_color_18x18.png")
+    hint_18(bm18, False).save(OUT / "kidney_bw_18x18.png")
     print("built final single-kidney set")
     build_preview(cm, bm)
 

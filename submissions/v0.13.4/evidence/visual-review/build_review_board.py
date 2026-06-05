@@ -68,9 +68,10 @@ def main():
 
     d.line([0, 690, W, 690], fill=(228, 228, 233), width=1)
     d.text((44, 706),
-           "At 18x18 the single kidney holds a bold organ silhouette with the "
-           "hilum notch and the vessel and ureter cues, so it reads as a kidney "
-           "rather than a food bean.", font=font(15), fill=sub)
+           "At 18x18 the single kidney holds a bold maroon organ silhouette with "
+           "a ureter cue at the hilum, so it reads as a kidney organ rather than "
+           "a food bean. The 72x72 image carries the full hilum and vessels.",
+           font=font(15), fill=sub)
     bd.convert("RGB").save(OUT)
     print("wrote", OUT)
 

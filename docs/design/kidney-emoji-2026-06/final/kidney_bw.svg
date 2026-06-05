@@ -8,17 +8,20 @@
   </defs>
 
   <g transform='translate(34 37) scale(1.2) rotate(-12)'>
-    <!-- artery + ureter as outlined white stubs -->
-    <path d='M -1 -1 C 7 -4 14 -6 21 -9' fill='none' stroke='#1a1a1a'
-          stroke-width='5.2' stroke-linecap='round'/>
-    <path d='M -1 -1 C 7 -4 14 -6 21 -9' fill='none' stroke='#ffffff'
-          stroke-width='3.0' stroke-linecap='round'/>
-    <path d='M -1 3 C 5 10 11 17 17 26' fill='none' stroke='#1a1a1a'
-          stroke-width='5.4' stroke-linecap='round'/>
-    <path d='M -1 3 C 5 10 11 17 17 26' fill='none' stroke='#ffffff'
-          stroke-width='3.2' stroke-linecap='round'/>
     <!-- body: clean black line art, white fill, no grayscale shading -->
-    <path d='M 1 -25 C 10 -24 13 -15 8 -6 C 5 -2 -2 -3 -1 1 C 0 4 6 4 8 10 C 11 18 9 24 1 25 C -11 27 -22 20 -25 8 C -28 0 -27 -9 -23 -15 C -18 -22 -8 -26 1 -25 Z' fill='#ffffff' stroke='#1a1a1a' stroke-width='2.2'
+    <path d='M 1 -25 C 10 -24 13 -15 8 -6 C 6 -2 3 -2 3 1 C 3 4 6 5 8 10 C 11 18 9 24 1 25 C -11 27 -22 20 -25 8 C -28 0 -27 -9 -23 -15 C -18 -22 -8 -26 1 -25 Z' fill='#ffffff' stroke='#1a1a1a' stroke-width='2.2'
           stroke-linejoin='round'/>
+    <!-- vessels + ureter descend together as outlined white stubs -->
+    <path d='M 4 -2 C 9 3 12 9 14 16' fill='none' stroke='#1a1a1a'
+          stroke-width='5.0' stroke-linecap='round'/>
+    <path d='M 4 -2 C 9 3 12 9 14 16' fill='none' stroke='#ffffff'
+          stroke-width='3.0' stroke-linecap='round'/>
+    <path d='M 6 2 C 11 7 15 15 18 25' fill='none' stroke='#1a1a1a'
+          stroke-width='5.2' stroke-linecap='round'/>
+    <path d='M 6 2 C 11 7 15 15 18 25' fill='none' stroke='#ffffff'
+          stroke-width='3.2' stroke-linecap='round'/>
+    <!-- hilum bundle: small node tying the vessels in, fills the notch -->
+    <ellipse cx='5' cy='0' rx='4.0' ry='4.8' fill='#ffffff'
+             stroke='#1a1a1a' stroke-width='2.0'/>
   </g>
 </svg>
