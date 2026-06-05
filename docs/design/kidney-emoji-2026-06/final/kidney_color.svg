@@ -1,0 +1,63 @@
+
+<svg xmlns='http://www.w3.org/2000/svg' width='576' height='576'
+     viewBox='0 0 72 72'>
+  <defs>
+    <radialGradient id='body' cx='0.34' cy='0.32' r='0.85'>
+      <stop offset='0'    stop-color='#d2685f'/>
+      <stop offset='0.45' stop-color='#a83a31'/>
+      <stop offset='0.82' stop-color='#82231d'/>
+      <stop offset='1'    stop-color='#6b1a15'/>
+    </radialGradient>
+    <radialGradient id='gloss' cx='0.5' cy='0.5' r='0.5'>
+      <stop offset='0' stop-color='#ffffff' stop-opacity='0.7'/>
+      <stop offset='1' stop-color='#ffffff' stop-opacity='0'/>
+    </radialGradient>
+    <linearGradient id='artery' x1='0' y1='0' x2='1' y2='1'>
+      <stop offset='0' stop-color='#e0584c'/>
+      <stop offset='1' stop-color='#b22c24'/>
+    </linearGradient>
+    <linearGradient id='ureter' x1='0' y1='0' x2='1' y2='1'>
+      <stop offset='0' stop-color='#f4ead0'/>
+      <stop offset='1' stop-color='#d3b87e'/>
+    </linearGradient>
+    <filter id='inner' x='-30%' y='-30%' width='160%' height='160%'>
+      <feGaussianBlur in='SourceAlpha' stdDeviation='2.4' result='blur'/>
+      <feComposite operator='out' in='SourceGraphic' in2='blur' result='inv'/>
+      <feFlood flood-color='#4a1009' flood-opacity='0.85'/>
+      <feComposite operator='in' in2='inv' result='sh'/>
+      <feComposite operator='over' in='sh' in2='SourceGraphic'/>
+    </filter>
+    <filter id='soft' x='-50%' y='-50%' width='200%' height='200%'>
+      <feGaussianBlur stdDeviation='1.6'/>
+    </filter>
+    <filter id='drop' x='-40%' y='-40%' width='180%' height='180%'>
+      <feDropShadow dx='0' dy='1.2' stdDeviation='1.1'
+        flood-color='#3a0d08' flood-opacity='0.35'/>
+    </filter>
+  </defs>
+
+  <g transform='translate(34 37) scale(1.2) rotate(-12)' filter='url(#drop)'>
+    <!-- renal artery: tapered tube from hilum, up-right -->
+    <path d='M -1 -1 C 7 -4 14 -6 21 -9' fill='none' stroke='#591611'
+          stroke-width='5.0' stroke-linecap='round'/>
+    <path d='M -1 -1 C 7 -4 14 -6 21 -9' fill='none' stroke='url(#artery)'
+          stroke-width='3.4' stroke-linecap='round'/>
+    <path d='M 2 -2.6 C 8 -5 13 -6.6 19 -9' fill='none' stroke='#f0897e'
+          stroke-width='0.9' stroke-linecap='round' opacity='0.7'/>
+    <!-- ureter: tan tube, down-right (the non-red cue) -->
+    <path d='M -1 3 C 5 10 11 17 17 26' fill='none' stroke='#a98a4f'
+          stroke-width='5.4' stroke-linecap='round'/>
+    <path d='M -1 3 C 5 10 11 17 17 26' fill='none' stroke='url(#ureter)'
+          stroke-width='3.6' stroke-linecap='round'/>
+    <!-- body -->
+    <path d='M 1 -25 C 10 -24 13 -15 8 -6 C 5 -2 -2 -3 -1 1 C 0 4 6 4 8 10 C 11 18 9 24 1 25 C -11 27 -22 20 -25 8 C -28 0 -27 -9 -23 -15 C -18 -22 -8 -26 1 -25 Z' fill='url(#body)' stroke='#591611' stroke-width='2.0'
+          stroke-linejoin='round' filter='url(#inner)'/>
+    <path d='M 1 -25 C 10 -24 13 -15 8 -6 C 5 -2 -2 -3 -1 1 C 0 4 6 4 8 10 C 11 18 9 24 1 25 C -11 27 -22 20 -25 8 C -28 0 -27 -9 -23 -15 C -18 -22 -8 -26 1 -25 Z' fill='none' stroke='#591611' stroke-width='2.0'
+          stroke-linejoin='round'/>
+    <!-- specular highlight, upper-left -->
+    <ellipse cx='-12' cy='-10' rx='8.5' ry='5.2'
+             transform='rotate(-28 -12 -10)' fill='url(#gloss)' filter='url(#soft)'/>
+    <ellipse cx='-15' cy='-13' rx='2.4' ry='1.4'
+             transform='rotate(-28 -15 -13)' fill='#ffffff' opacity='0.85'/>
+  </g>
+</svg>
