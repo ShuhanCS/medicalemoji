@@ -51,9 +51,11 @@ page and carries a short credit backlink underneath:
 
 ## 3. Social card + captions (for feeds)
 
-A 1200×630 landscape card sized for X, LinkedIn, and link previews.
+Cards sized for each platform's feed:
 
-- **Social card:** https://medicalemoji.org/press/acep/medical-emoji-social-card.png
+- **Landscape (X / link previews), 1200×630:** https://medicalemoji.org/press/acep/medical-emoji-social-card.png
+- **Instagram square, 1080×1080:** https://medicalemoji.org/press/acep/medical-emoji-instagram-square.png
+- **LinkedIn portrait, 1200×1500:** https://medicalemoji.org/press/acep/medical-emoji-linkedin.png
 - **Grid graphic (alternative, white background):** https://medicalemoji.org/press/acep/medical-emoji-acep-grid.png
 
 Ready-to-adapt **post copy** (X and LinkedIn), hashtags, and a clinical fact for each

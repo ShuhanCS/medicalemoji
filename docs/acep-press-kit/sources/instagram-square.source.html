@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 1080px; height: 1080px; }
+  body { font-family: "Segoe UI", Arial, sans-serif;
+    background: linear-gradient(135deg, #3452ff 0%, #7b2ff7 55%, #ff1053 100%);
+    color: #fff; overflow: hidden; }
+  .wrap { padding: 64px 60px; height: 100%; display: flex; flex-direction: column; }
+  .kicker { display: inline-flex; align-self: center; align-items: center; gap: 12px;
+    background: rgba(255,255,255,.16); border: 2px solid rgba(255,255,255,.5);
+    border-radius: 999px; padding: 10px 22px; font-size: 22px; font-weight: 700;
+    letter-spacing: 2px; text-transform: uppercase; }
+  h1 { text-align: center; font-size: 58px; font-weight: 800; line-height: 1.08;
+    letter-spacing: -1px; margin-top: 30px; }
+  .panel { margin-top: 40px; background: #fff; border-radius: 26px; padding: 34px 30px 28px;
+    flex: 1; display: grid; grid-template-columns: repeat(5, 1fr); grid-template-rows: repeat(2, 1fr);
+    gap: 10px 8px; }
+  .cell { text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center; }
+  .cell img { width: 118px; height: 118px; object-fit: contain; }
+  .cell .n { font-size: 18px; font-weight: 700; color: #1b2030; margin-top: 8px; line-height: 1.15; }
+  .foot { display: flex; justify-content: space-between; align-items: center; margin-top: 34px; }
+  .foot .l { font-size: 24px; font-weight: 500; opacity: .95; }
+  .foot .url { font-size: 38px; font-weight: 800; letter-spacing: -.5px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="kicker">🚨 Endorsed by ACEP</div>
+  <h1>Medical emoji:<br/>a universal language for health</h1>
+  <div class="panel">
+    <div class="cell"><img src="file:///C:/Users/Shuha/projects/medicalemoji/public/images/emoji/5-liver.png"/><div class="n">Liver</div></div>
+    <div class="cell"><img src="file:///C:/Users/Shuha/projects/medicalemoji/public/images/emoji/kidneysnew2.png"/><div class="n">Kidney</div></div>
+    <div class="cell"><img src="file:///C:/Users/Shuha/projects/medicalemoji/public/images/emoji/3-stomach.png"/><div class="n">Stomach</div></div>
+    <div class="cell"><img src="file:///C:/Users/Shuha/projects/medicalemoji/public/images/emoji/1-intestines.png"/><div class="n">Intestine</div></div>
+    <div class="cell"><img src="file:///C:/Users/Shuha/projects/medicalemoji/public/images/emoji/14-white-blood-cell-1.png"/><div class="n">White Blood Cell</div></div>
+    <div class="cell"><img src="file:///C:/Users/Shuha/projects/medicalemoji/public/images/emoji/13-ecg-1.png"/><div class="n">ECG / EKG</div></div>
+    <div class="cell"><img src="file:///C:/Users/Shuha/projects/medicalemoji/public/images/emoji/4-bottom_spine.png"/><div class="n">Spine</div></div>
+    <div class="cell"><img src="file:///C:/Users/Shuha/projects/medicalemoji/public/images/emoji/8-blood-bagcolor.png"/><div class="n">Blood Product</div></div>
+    <div class="cell"><img src="file:///C:/Users/Shuha/projects/medicalemoji/public/images/emoji/7-pill-pack.png"/><div class="n">Pill Pack</div></div>
+    <div class="cell"><img src="file:///C:/Users/Shuha/projects/medicalemoji/public/images/emoji/11-scales.png"/><div class="n">Weight Scale</div></div>
+  </div>
+  <div class="foot">
+    <div class="l">Ten clinical concepts now in development</div>
+    <div class="url">medicalemoji.org</div>
+  </div>
+</div>
+</body>
+</html>
