@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<style>
+  :root {
+    --blue: #3452ff;
+    --pink: #ff1053;
+    --ink: #1b2030;
+    --muted: #5b6475;
+    --line: #e7e9f0;
+    --bg: #ffffff;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { background: var(--bg); }
+  body { font-family: "Segoe UI", Arial, sans-serif; color: var(--ink); }
+  .sheet { width: 1200px; }
+
+  /* Header */
+  .header {
+    background: linear-gradient(120deg, #3452ff 0%, #7b2ff7 55%, #ff1053 100%);
+    color: #fff; padding: 56px 64px 48px; position: relative;
+  }
+  .kicker { font-size: 18px; font-weight: 700; letter-spacing: 4px; text-transform: uppercase; opacity: .9; }
+  .header h1 { font-size: 76px; line-height: 1.02; font-weight: 800; margin-top: 14px; letter-spacing: -1.5px; }
+  .header .sub { font-size: 28px; font-weight: 400; margin-top: 18px; opacity: .95; max-width: 760px; }
+  .badge {
+    position: absolute; top: 56px; right: 64px; text-align: center;
+    background: rgba(255,255,255,.16); border: 2px solid rgba(255,255,255,.55);
+    border-radius: 18px; padding: 16px 22px; backdrop-filter: blur(2px);
+  }
+  .badge .b1 { font-size: 13px; letter-spacing: 2px; font-weight: 700; text-transform: uppercase; opacity: .9; }
+  .badge .b2 { font-size: 40px; font-weight: 800; line-height: 1; margin-top: 4px; }
+  .badge .b3 { font-size: 13px; margin-top: 6px; opacity: .9; }
+
+  section { padding: 52px 64px; }
+  .h2 { font-size: 22px; font-weight: 800; letter-spacing: 3px; text-transform: uppercase; color: var(--blue); }
+
+  /* Problem */
+  .problem { background: #f6f7fb; text-align: center; }
+  .problem .big { font-size: 54px; font-weight: 800; line-height: 1.1; margin-top: 10px; }
+  .problem .big .hot { color: var(--pink); }
+  .problem p { font-size: 24px; color: var(--muted); margin-top: 16px; }
+
+  /* Proof */
+  .proof { display: flex; align-items: center; gap: 40px; border-bottom: 1px solid var(--line); }
+  .proof .glyph { font-size: 150px; line-height: 1; flex-shrink: 0;
+    font-family: "Segoe UI Emoji", "Segoe UI", sans-serif; }
+  .proof .txt h3 { font-size: 40px; font-weight: 800; line-height: 1.1; }
+  .proof .txt p { font-size: 23px; color: var(--muted); margin-top: 14px; line-height: 1.45; }
+  .proof .txt b { color: var(--ink); }
+
+  /* Grid of 10 */
+  .grid-head { text-align: center; padding-bottom: 8px; }
+  .grid-head h3 { font-size: 44px; font-weight: 800; margin-top: 8px; }
+  .grid-head p { font-size: 22px; color: var(--muted); margin-top: 10px; }
+  .grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 20px; padding: 12px 64px 60px; }
+  .card {
+    border: 1px solid var(--line); border-radius: 18px; padding: 22px 14px 18px;
+    text-align: center; background: #fff;
+  }
+  .card img { width: 118px; height: 118px; object-fit: contain; }
+  .card .name { font-size: 20px; font-weight: 700; margin-top: 10px; }
+  .card .stat { font-size: 15.5px; color: var(--muted); margin-top: 6px; line-height: 1.35; min-height: 42px; }
+
+  /* Why */
+  .why { background: #f6f7fb; }
+  .why .row { display: grid; grid-template-columns: repeat(2, 1fr); gap: 26px; margin-top: 26px; }
+  .why .item { display: flex; gap: 18px; align-items: flex-start; }
+  .why .ic { font-size: 44px; line-height: 1; flex-shrink: 0;
+    font-family: "Segoe UI Emoji", "Segoe UI", sans-serif; }
+  .why .item h4 { font-size: 24px; font-weight: 700; }
+  .why .item p { font-size: 19px; color: var(--muted); margin-top: 6px; line-height: 1.4; }
+
+  /* Endorsement */
+  .endorse { }
+  .quote {
+    border-left: 8px solid var(--blue); background: #fff;
+    padding: 8px 0 8px 34px; margin-top: 18px;
+  }
+  .quote .q { font-size: 28px; line-height: 1.45; font-style: italic; color: #2a3142; }
+  .quote .who { margin-top: 20px; font-size: 20px; }
+  .quote .who b { font-weight: 800; }
+  .quote .who span { color: var(--muted); }
+
+  /* Footer */
+  .footer {
+    background: linear-gradient(120deg, #3452ff 0%, #7b2ff7 55%, #ff1053 100%);
+    color: #fff; padding: 48px 64px; display: flex; justify-content: space-between; align-items: center;
+  }
+  .footer .cta { font-size: 26px; font-weight: 500; }
+  .footer .url { font-size: 40px; font-weight: 800; letter-spacing: -.5px; }
+  .footer .small { font-size: 17px; opacity: .9; margin-top: 6px; }
+</style>
+</head>
+<body>
+<div class="sheet">
+
+  <div class="header">
+    <div class="badge">
+      <div class="b1">Endorsed by</div>
+      <div class="b2">ACEP</div>
+      <div class="b3">American College of<br/>Emergency Physicians</div>
+    </div>
+    <div class="kicker">The Medical Emoji Project</div>
+    <h1>A Universal Language<br/>for Health</h1>
+    <div class="sub">Bringing medicine to the emoji keyboard on every phone &mdash; clearer health communication across languages, literacy levels, and devices.</div>
+  </div>
+
+  <section class="problem">
+    <div class="h2">The Gap</div>
+    <div class="big">3,600+ emoji exist.<br/><span class="hot">Almost none represent medicine.</span></div>
+    <p>Billions of people interact with emoji daily &mdash; yet the human body, conditions, and tools of healthcare are barely there.</p>
+  </section>
+
+  <section class="proof">
+    <div class="glyph">🫀🫁</div>
+    <div class="txt">
+      <h3>It already works.</h3>
+      <p>The project helped bring the <b>anatomical heart and lungs</b> into Unicode in <b>2021</b> &mdash; now on <b>billions of devices</b> worldwide, with the effort documented in <b>JAMA</b>.</p>
+    </div>
+  </section>
+
+  <div class="grid-head" style="padding-top:52px;">
+    <div class="h2">Now in Development</div>
+    <h3>Ten clinical concepts</h3>
+    <p>Each named in ACEP&rsquo;s letter of support.</p>
+  </div>
+  <div class="grid">
+    <div class="card"><img src="file:///C:/Users/Shuha/projects/medicalemoji/public/images/emoji/5-liver.png"/><div class="name">Liver</div><div class="stat">~2M deaths a year worldwide</div></div>
+    <div class="card"><img src="file:///C:/Users/Shuha/projects/medicalemoji/public/images/emoji/kidneysnew2.png"/><div class="name">Kidney</div><div class="stat">Affects ~10% of people globally</div></div>
+    <div class="card"><img src="file:///C:/Users/Shuha/projects/medicalemoji/public/images/emoji/3-stomach.png"/><div class="name">Stomach</div><div class="stat">GERD: ~$18B direct cost/yr</div></div>
+    <div class="card"><img src="file:///C:/Users/Shuha/projects/medicalemoji/public/images/emoji/1-intestines.png"/><div class="name">Intestine</div><div class="stat">Colorectal: #2 cancer killer</div></div>
+    <div class="card"><img src="file:///C:/Users/Shuha/projects/medicalemoji/public/images/emoji/14-white-blood-cell-1.png"/><div class="name">White Blood Cell</div><div class="stat">Infection &amp; immunity</div></div>
+    <div class="card"><img src="file:///C:/Users/Shuha/projects/medicalemoji/public/images/emoji/13-ecg-1.png"/><div class="name">ECG / EKG</div><div class="stat">1 U.S. CVD death every 36 sec</div></div>
+    <div class="card"><img src="file:///C:/Users/Shuha/projects/medicalemoji/public/images/emoji/4-bottom_spine.png"/><div class="name">Spine</div><div class="stat">#1 cause of disability worldwide</div></div>
+    <div class="card"><img src="file:///C:/Users/Shuha/projects/medicalemoji/public/images/emoji/8-blood-bagcolor.png"/><div class="name">Blood Product</div><div class="stat">Someone needs blood every 2 sec</div></div>
+    <div class="card"><img src="file:///C:/Users/Shuha/projects/medicalemoji/public/images/emoji/7-pill-pack.png"/><div class="name">Pill Pack</div><div class="stat">~50,000 U.S. opioid deaths (2019)</div></div>
+    <div class="card"><img src="file:///C:/Users/Shuha/projects/medicalemoji/public/images/emoji/11-scales.png"/><div class="name">Weight Scale</div><div class="stat">2B+ people overweight or obese</div></div>
+  </div>
+
+  <section class="why">
+    <div class="h2">Why It Matters</div>
+    <div class="row">
+      <div class="item"><div class="ic">🌍</div><div><h4>Across languages</h4><p>Visual anchors communicate when words don&rsquo;t translate cleanly.</p></div></div>
+      <div class="item"><div class="ic">💬</div><div><h4>Across literacy levels</h4><p>Simple symbols support patient education and discharge instructions.</p></div></div>
+      <div class="item"><div class="ic">🧑‍⚕️</div><div><h4>Patient &harr; provider</h4><p>A shared shorthand for organs, monitoring, transfusion, and medication.</p></div></div>
+      <div class="item"><div class="ic">📣</div><div><h4>Public health</h4><p>Familiar imagery strengthens messaging at population scale.</p></div></div>
+    </div>
+  </section>
+
+  <section class="endorse">
+    <div class="h2">The Endorsement</div>
+    <div class="quote">
+      <div class="q">&ldquo;Standardized medical emoji can provide simple visual anchors for common clinical concepts &mdash; a familiar, globally available communication layer for patient education, discharge instructions, public health messaging, and medical education.&rdquo;</div>
+      <div class="who"><b>American College of Emergency Physicians</b><br/><span>Letter of support &middot; June 5, 2026</span></div>
+    </div>
+  </section>
+
+  <div class="footer">
+    <div>
+      <div class="cta">Learn more &amp; see every endorsement</div>
+      <div class="small">A project led by Shuhan He, MD</div>
+    </div>
+    <div style="text-align:right;">
+      <div class="url">medicalemoji.org</div>
+      <div class="small">medicalemoji.org/endorsements</div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

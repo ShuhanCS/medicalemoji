@@ -10,22 +10,27 @@
 
 Hi Liz, and thank you Steven,
 
-Yes — I'd be glad to, and I really appreciate ACEP putting this forward. A post from
-the ACEP informatics page would mean a great deal to the project.
+Yes — I'd be glad to, and I really appreciate ACEP putting this forward. A post on the
+ACEP informatics page would mean a great deal to the project.
 
-To make it easy for your team whenever the board gives the go-ahead, I've put together
-a small kit you're welcome to use or adapt:
+To make it turnkey for your team whenever the board gives the go-ahead, I've prepared a
+ready-to-publish pack — an article, an infographic, and a social card — all hosted and
+free for ACEP to use or adapt:
 
-- **Emoji images** — a single labeled graphic of all ten concepts ACEP named, plus the
-  ten individual images as clean transparent PNGs:
-  - Grid graphic: https://medicalemoji.org/press/acep/medical-emoji-acep-grid.png
-  - Individual PNGs: https://medicalemoji.org/press/acep/
-- **Insights & suggested copy** — short talking points, a clinical fact for each of the
-  ten concepts, and ready-to-adapt post copy for social and web:
-  - https://medicalemoji.org/press/acep/medical-emoji-acep-insights.pdf
+- **Article for the informatics page** — a complete, publication-ready piece with
+  contextual links back to the project built in:
+  - Preview: https://medicalemoji.org/press/acep/medical-emoji-acep-article.html
+  - PDF: https://medicalemoji.org/press/acep/medical-emoji-acep-article.pdf
+- **Infographic** (web + social), with a copy-paste embed snippet:
+  - https://medicalemoji.org/press/acep/medical-emoji-infographic.png
+- **Social card** (1200×630 for X / LinkedIn) + ready-to-adapt captions:
+  - Card: https://medicalemoji.org/press/acep/medical-emoji-social-card.png
+  - Captions & talking points: https://medicalemoji.org/press/acep/medical-emoji-acep-insights.pdf
+- **One page that ties it together** (embed code, all links, image rights):
+  - https://medicalemoji.org/press/acep/publishing-pack.html
 - **For reference** — the letter and our endorsements page:
   - Letter (PDF): https://medicalemoji.org/documents/ACEP-Medical-Emoji-Support-Letter-2026.pdf
-  - Endorsements page: https://medicalemoji.org/endorsements
+  - Endorsements: https://medicalemoji.org/endorsements
 
 A bit of background your team might find useful: this builds on the anatomical heart 🫀
 and lungs 🫁, which our group helped bring to Unicode in 2021 (documented in *JAMA*).
