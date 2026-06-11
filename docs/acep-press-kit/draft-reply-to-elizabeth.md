@@ -14,8 +14,10 @@ Yes — I'd be glad to, and I really appreciate ACEP putting this forward. A pos
 ACEP informatics page would mean a great deal to the project.
 
 To make it turnkey for your team whenever the board gives the go-ahead, I've prepared a
-ready-to-publish pack — an article, an infographic, and a social card — all hosted and
-free for ACEP to use or adapt:
+ready-to-publish pack — an article, an infographic, and social cards — all hosted and
+free for ACEP to use or adapt. I've set it up to be **presented by the Emergency
+Medicine Informatics Section**, with ACEP's letter of support referenced throughout —
+please adjust that framing if you'd prefer it positioned differently:
 
 - **Article for the informatics page** — a complete, publication-ready piece with
   contextual links back to the project built in:

@@ -3,6 +3,8 @@
 *Why the College is backing an effort to bring the language of medicine to the
 emoji keyboard on every phone.*
 
+**Presented by the ACEP Emergency Medicine Informatics Section.**
+
 Emergency physicians communicate under time pressure, often with patients who
 speak different languages, read at different levels, and arrive in moments of
 crisis. In that environment, a clear visual anchor can do real work. That is the

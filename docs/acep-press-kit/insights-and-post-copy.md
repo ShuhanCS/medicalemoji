@@ -1,8 +1,9 @@
 # Medical Emoji — Insights & Post Kit for ACEP
 
 Prepared for the American College of Emergency Physicians communications team to
-accompany a post about ACEP's June 5, 2026 support letter for the Medical Emoji
-Project. Everything here is drafted to be lifted directly or adapted to ACEP's voice.
+accompany a post — presented by the **ACEP Emergency Medicine Informatics Section** —
+about ACEP's June 5, 2026 letter of support for the Medical Emoji Project. Everything
+here is drafted to be lifted directly or adapted to ACEP's voice.
 
 **The drive-home point:** ACEP is the first national, multi-specialty physician
 society to support the entire Medical Emoji effort at once — its letter of support

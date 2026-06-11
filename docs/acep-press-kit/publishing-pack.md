@@ -1,10 +1,11 @@
 # Medical Emoji × ACEP — Publishing Pack
 
-Everything ACEP needs to post about the letter of support on
-[acep.org/informatics](https://www.acep.org/informatics) and on social media:
-a ready-to-publish **article**, an **infographic** (+ social card), and
-**backlinks** built in. All assets are hosted on medicalemoji.org and free for
-ACEP's use in communications about this letter of support.
+Everything needed to post about the Medical Emoji Project on
+[acep.org/informatics](https://www.acep.org/informatics) and on social media,
+**presented by the ACEP Emergency Medicine Informatics Section** with ACEP's letter of
+support: a ready-to-publish **article**, an **infographic** (+ social cards), and
+**backlinks** built in. All assets are hosted on medicalemoji.org and carry the
+"Presented by the ACEP Emergency Medicine Informatics Section" attribution.
 
 ---
 

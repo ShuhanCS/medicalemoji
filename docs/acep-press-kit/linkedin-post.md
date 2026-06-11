@@ -22,7 +22,8 @@ whole job, and these symbols are meant to add a familiar, global layer for patie
 education, discharge instructions, and public health — never to replace clinical
 judgment.
 
-Grateful to ACEP, and to everyone who has supported this along the way.
+Grateful to ACEP — and to the Emergency Medicine Informatics Section for helping carry
+this forward — and to everyone who has supported it along the way.
 
 See the concepts and every letter of support → medicalemoji.org/endorsements
 
