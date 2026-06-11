@@ -6,7 +6,7 @@ Attach **medical-emoji-linkedin.png** (portrait) or **medical-emoji-instagram-sq
 ---
 
 A small piece of news I'm genuinely proud of: the **American College of Emergency
-Physicians** has endorsed the Medical Emoji Project. 🫀
+Physicians** has written a letter in support of the Medical Emoji Project. 🫀
 
 A few years ago, our team helped bring the anatomical heart and lungs into the Unicode
 Standard. They now appear on billions of devices — and that work showed something
@@ -24,7 +24,7 @@ judgment.
 
 Grateful to ACEP, and to everyone who has supported this along the way.
 
-See the concepts and every endorsement → medicalemoji.org/endorsements
+See the concepts and every letter of support → medicalemoji.org/endorsements
 
 #MedicalEmoji #EmergencyMedicine #HealthLiteracy #DigitalHealth #MedEd
 
@@ -32,8 +32,8 @@ See the concepts and every endorsement → medicalemoji.org/endorsements
 
 ## Shorter variant (if you prefer concise)
 
-Proud to share that the **American College of Emergency Physicians** has endorsed the
-Medical Emoji Project. 🫀🫁
+Proud to share that the **American College of Emergency Physicians** has written in
+support of the Medical Emoji Project. 🫀🫁
 
 We helped bring the anatomical heart and lungs to Unicode a few years ago — now on
 billions of devices. We're pursuing ten more concepts (liver, kidney, stomach,

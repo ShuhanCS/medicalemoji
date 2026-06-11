@@ -28,13 +28,13 @@ free for ACEP to use or adapt:
   - Captions & talking points: https://medicalemoji.org/press/acep/medical-emoji-acep-insights.pdf
 - **One page that ties it together** (embed code, all links, image rights):
   - https://medicalemoji.org/press/acep/publishing-pack.html
-- **For reference** — the letter and our endorsements page:
+- **For reference** — the letter and our support page:
   - Letter (PDF): https://medicalemoji.org/documents/ACEP-Medical-Emoji-Support-Letter-2026.pdf
-  - Endorsements: https://medicalemoji.org/endorsements
+  - Support page: https://medicalemoji.org/endorsements
 
 A bit of background your team might find useful: this builds on the anatomical heart 🫀
 and lungs 🫁, which our group helped bring to Unicode in 2021 (documented in *JAMA*).
-ACEP is the first national, multi-specialty society to endorse the whole effort at once,
+ACEP is the first national, multi-specialty society to support the whole effort at once,
 and the letter names all ten current concepts — so it's a meaningful milestone for us.
 
 Happy to tailor any of the copy to ACEP's voice and brand, provide higher-resolution or

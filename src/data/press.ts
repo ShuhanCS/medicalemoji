@@ -44,7 +44,7 @@ export const pressMentions: PressMention[] = [
   },
   {
     outlet: "Hepatology",
-    title: "Hepatology journal endorsement",
+    title: "Hepatology journal letter of support",
     url: "https://aasldpubs.onlinelibrary.wiley.com/journal/15273350",
     logo: "/images/misc/hepatology-logo.svg",
   },

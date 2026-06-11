@@ -6,9 +6,9 @@ import { emojiCandidates, getEmojiBySlug } from "@/data/emoji";
 import { featuredEndorsement } from "@/data/endorsements";
 
 export const metadata: Metadata = {
-  title: "Endorsements",
+  title: "Support",
   description:
-    "Medical societies and professional organizations supporting the Medical Emoji Project, led by the American College of Emergency Physicians' project-wide endorsement.",
+    "Medical societies and professional organizations supporting the Medical Emoji Project, led by the American College of Emergency Physicians' project-wide letter of support.",
 };
 
 const ACEP_NAME = "American College of Emergency Physicians (ACEP)";
@@ -33,29 +33,29 @@ export default function EndorsementsPage() {
         <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-20 lg:px-8">
           <div className="mx-auto max-w-3xl text-center">
             <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl">
-              Endorsements
+              Letters of Support
             </h1>
             <p className="mt-4 text-lg text-gray-800">
-              Medical societies, patient organizations, and professional bodies stand behind the
-              call for better medical representation in the Unicode emoji standard.
+              Medical societies, patient organizations, and professional bodies have written in
+              support of better medical representation in the Unicode emoji standard.
             </p>
           </div>
         </div>
       </section>
 
-      {/* Featured: ACEP project-wide endorsement */}
+      {/* Featured: ACEP project-wide letter of support */}
       <section className="bg-white py-16 sm:py-20">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
           <div className="overflow-hidden rounded-3xl border border-gray-100 shadow-sm">
             <div className="bg-gradient-to-r from-[#3452ff] to-[#ff1053] px-8 py-6 text-white">
               <p className="text-xs font-semibold uppercase tracking-wider text-white/80">
-                Project-wide endorsement
+                Project-wide letter of support
               </p>
               <h2 className="mt-1 text-2xl font-bold sm:text-3xl">
                 {featuredEndorsement.organization}
               </h2>
               <p className="mt-1 text-sm text-white/80">
-                A national, multi-specialty society backing every current medical emoji concept.
+                A national, multi-specialty society supporting every current medical emoji concept.
               </p>
             </div>
 
@@ -198,7 +198,7 @@ export default function EndorsementsPage() {
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-gray-600">
             Society support letters help demonstrate the clinical and public-health value of medical
-            emoji. If your organization would like to endorse the project, we&apos;d love to hear
+            emoji. If your organization would like to support the project, we&apos;d love to hear
             from you.
           </p>
           <div className="mt-6">

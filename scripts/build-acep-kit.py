@@ -65,7 +65,7 @@ draw = ImageDraw.Draw(canvas)
 
 # Title + subtitle
 title_f, sub_f, label_f, foot_f = font(46, True), font(26), font(27, True), font(24)
-draw.text((PAD_X + 6, 40), "Medical Emoji endorsed by ACEP", font=title_f, fill=(26, 32, 44))
+draw.text((PAD_X + 6, 40), "Medical Emoji supported by ACEP", font=title_f, fill=(26, 32, 44))
 draw.text(
     (PAD_X + 6, 100),
     "Ten clinical concepts named in the American College of Emergency Physicians support letter",

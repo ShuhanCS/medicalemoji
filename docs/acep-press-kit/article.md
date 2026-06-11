@@ -62,7 +62,7 @@ site.
 
 Unicode evaluates emoji proposals through a formal, published process. Each proposal
 must satisfy criteria including distinctiveness, expected frequency of use, image
-licensing, and broad applicability. Professional and clinical endorsements speak
+licensing, and broad applicability. Professional and clinical letters of support speak
 directly to that last point: they help demonstrate that a proposed symbol carries
 real-world relevance across a wide population. Petitions and awareness campaigns, by
 contrast, are explicitly not counted as usage evidence — which is part of why a
@@ -70,7 +70,7 @@ society's measured, professional support matters.
 
 ## What ACEP's support adds
 
-ACEP's endorsement is clinical and professional. It reflects a judgment that these
+ACEP's support is clinical and professional. It reflects a judgment that these
 concepts are relevant to emergency care and could help clinicians and patients
 communicate more effectively in modern digital environments. As a national,
 multi-specialty body, the College's support speaks to the broad applicability that
@@ -79,7 +79,7 @@ medicine and health in the tools people already use every day.
 
 ---
 
-**Learn more:** Explore the concepts and every endorsement at
+**Learn more:** Explore the concepts and every letter of support at
 [medicalemoji.org](https://medicalemoji.org) and
 [medicalemoji.org/endorsements](https://medicalemoji.org/endorsements). Read ACEP's
 [letter of support](https://medicalemoji.org/documents/ACEP-Medical-Emoji-Support-Letter-2026.pdf).

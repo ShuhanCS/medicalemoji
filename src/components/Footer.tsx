@@ -47,7 +47,7 @@ export function Footer() {
               </li>
               <li>
                 <Link href="/endorsements" className="text-sm text-[#CCCCCC] transition-colors hover:text-white">
-                  Endorsements
+                  Support
                 </Link>
               </li>
               <li>

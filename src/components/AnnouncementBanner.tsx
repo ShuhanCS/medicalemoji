@@ -44,7 +44,7 @@ export function AnnouncementBanner() {
           <span aria-hidden="true">🚨</span>
           <span>
             <strong className="font-semibold">New:</strong> The American College of Emergency
-            Physicians endorses the Medical Emoji Project
+            Physicians supports the Medical Emoji Project
           </span>
           <span className="inline-flex items-center gap-1 font-semibold underline-offset-2 group-hover:underline">
             Read more

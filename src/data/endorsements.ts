@@ -12,8 +12,8 @@ export interface FeaturedEndorsement {
 }
 
 /**
- * Project-wide endorsement: a single national, multi-specialty society backing
- * the entire Medical Emoji effort at once, naming all ten current concepts.
+ * Project-wide letter of support: a single national, multi-specialty society
+ * supporting the entire Medical Emoji effort at once, naming all ten concepts.
  */
 export const featuredEndorsement: FeaturedEndorsement = {
   organization: "American College of Emergency Physicians",

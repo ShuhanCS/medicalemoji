@@ -1,10 +1,10 @@
 # Medical Emoji × ACEP — Publishing Pack
 
-Everything ACEP needs to post about the endorsement on
+Everything ACEP needs to post about the letter of support on
 [acep.org/informatics](https://www.acep.org/informatics) and on social media:
 a ready-to-publish **article**, an **infographic** (+ social card), and
 **backlinks** built in. All assets are hosted on medicalemoji.org and free for
-ACEP's use in communications about this endorsement.
+ACEP's use in communications about this letter of support.
 
 ---
 
@@ -20,9 +20,9 @@ A complete, publication-ready article written for an informatics audience.
 **Title:** *ACEP Supports Standardized Medical Emoji for Clearer Health Communication*
 
 The article contains **8 contextual links back to medicalemoji.org** (the project
-site, the endorsements page, the ECG/EKG concept page, and the support letter). If
+site, the support page, the ECG/EKG concept page, and the support letter). If
 the CMS allows it, please keep these as standard (dofollow) links — the backlinks are
-how readers reach the project and are part of the value exchange for the endorsement.
+how readers reach the project and are part of the value exchange for the letter of support.
 
 ## 2. Infographic (for web + social)
 
@@ -33,14 +33,14 @@ A tall, branded infographic covering the story, the ten concepts, and the ACEP q
 
 ### Embed snippet (image links back to the project)
 
-Paste this where the infographic should appear. The image links to the endorsements
+Paste this where the infographic should appear. The image links to the support
 page and carries a short credit backlink underneath:
 
 ```html
 <a href="https://medicalemoji.org/endorsements" target="_blank" rel="noopener">
   <img
     src="https://medicalemoji.org/press/acep/medical-emoji-infographic-web.png"
-    alt="Medical Emoji: a universal language for health — ten clinical concepts endorsed by ACEP"
+    alt="Medical Emoji: a universal language for health — ten clinical concepts in ACEP's letter of support"
     style="max-width:100%;height:auto;border:0;border-radius:12px;" />
 </a>
 <p style="font-size:13px;color:#666;margin-top:8px;">
@@ -65,11 +65,11 @@ https://medicalemoji.org/press/acep/medical-emoji-acep-insights.pdf
 ## 4. Reference links
 
 - Project site: https://medicalemoji.org
-- Endorsements (all supporting organizations): https://medicalemoji.org/endorsements
+- Support (all supporting organizations): https://medicalemoji.org/endorsements
 - ACEP support letter (PDF): https://medicalemoji.org/documents/ACEP-Medical-Emoji-Support-Letter-2026.pdf
 
 ## 5. Image rights
 
 The emoji concept images and the graphics in this pack were produced for the Medical
 Emoji Project and are provided for ACEP's use in communications about this
-endorsement. For any other reuse, contact info@medicalemoji.org.
+letter of support. For any other reuse, contact info@medicalemoji.org.
