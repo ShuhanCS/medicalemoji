@@ -28,6 +28,10 @@ export const emojiCandidates: EmojiCandidate[] = [
     ],
     supporters: [
       {
+        name: "American College of Emergency Physicians (ACEP)",
+        href: "https://medicalemoji.org/documents/ACEP-Medical-Emoji-Support-Letter-2026.pdf",
+      },
+      {
         name: "American Association of Kidney Patients (AAKP)",
         href: "https://medicalemoji.org/documents/AAKP-Kidney-Emoji-Letter-1.7.22.pdf",
       },
@@ -103,6 +107,10 @@ export const emojiCandidates: EmojiCandidate[] = [
         href: "https://aasldpubs.onlinelibrary.wiley.com/doi/abs/10.1002/hep.32261",
         linkLabel: "View article",
       },
+      {
+        name: "American College of Emergency Physicians (ACEP)",
+        href: "https://medicalemoji.org/documents/ACEP-Medical-Emoji-Support-Letter-2026.pdf",
+      },
     ],
     color: "#8e44ad",
   },
@@ -125,6 +133,10 @@ export const emojiCandidates: EmojiCandidate[] = [
         name: "American Society for Gastrointestinal Endoscopy (ASGE)",
         href: "https://medicalemoji.org/documents/GI-Emojis_Letter-to-Consortium_Final_Signed.docx-1.pdf",
       },
+      {
+        name: "American College of Emergency Physicians (ACEP)",
+        href: "https://medicalemoji.org/documents/ACEP-Medical-Emoji-Support-Letter-2026.pdf",
+      },
     ],
     color: "#e67e22",
   },
@@ -144,6 +156,10 @@ export const emojiCandidates: EmojiCandidate[] = [
         name: "The Spine Journal",
         href: "https://www.thespinejournalonline.com/article/S1529-9430(22)00070-5/fulltext",
         linkLabel: "View article",
+      },
+      {
+        name: "American College of Emergency Physicians (ACEP)",
+        href: "https://medicalemoji.org/documents/ACEP-Medical-Emoji-Support-Letter-2026.pdf",
       },
     ],
     color: "#2980b9",
@@ -167,6 +183,10 @@ export const emojiCandidates: EmojiCandidate[] = [
         name: "American Society for Gastrointestinal Endoscopy (ASGE)",
         href: "https://medicalemoji.org/documents/GI-Emojis_Letter-to-Consortium_Final_Signed.docx-1.pdf",
       },
+      {
+        name: "American College of Emergency Physicians (ACEP)",
+        href: "https://medicalemoji.org/documents/ACEP-Medical-Emoji-Support-Letter-2026.pdf",
+      },
     ],
     color: "#27ae60",
   },
@@ -180,7 +200,12 @@ export const emojiCandidates: EmojiCandidate[] = [
       "Heart disease is the leading cause of death for men, women, and people of most racial and ethnic groups.",
       "About 659,000 people in the United States die from heart disease each year.",
     ],
-    supporters: [],
+    supporters: [
+      {
+        name: "American College of Emergency Physicians (ACEP)",
+        href: "https://medicalemoji.org/documents/ACEP-Medical-Emoji-Support-Letter-2026.pdf",
+      },
+    ],
     color: "#e74c3c",
   },
   {
@@ -193,7 +218,12 @@ export const emojiCandidates: EmojiCandidate[] = [
       "Pandemics have shaped human history from the Black Plague to COVID-19.",
       "The immune system and white blood cells are the body's primary defense against infection.",
     ],
-    supporters: [],
+    supporters: [
+      {
+        name: "American College of Emergency Physicians (ACEP)",
+        href: "https://medicalemoji.org/documents/ACEP-Medical-Emoji-Support-Letter-2026.pdf",
+      },
+    ],
     color: "#3498db",
   },
   {
@@ -206,7 +236,12 @@ export const emojiCandidates: EmojiCandidate[] = [
       "Blood donation depends entirely on the generosity of volunteers.",
       "Blood transfusions save millions of lives each year worldwide.",
     ],
-    supporters: [],
+    supporters: [
+      {
+        name: "American College of Emergency Physicians (ACEP)",
+        href: "https://medicalemoji.org/documents/ACEP-Medical-Emoji-Support-Letter-2026.pdf",
+      },
+    ],
     color: "#c0392b",
   },
   {
@@ -219,7 +254,12 @@ export const emojiCandidates: EmojiCandidate[] = [
       "The opioid crisis costs an estimated $78.5 billion in healthcare expenses, lost productivity, and criminal justice involvement.",
       "Fewer than 20% of people with opioid use disorder (OUD) seek treatment.",
     ],
-    supporters: [],
+    supporters: [
+      {
+        name: "American College of Emergency Physicians (ACEP)",
+        href: "https://medicalemoji.org/documents/ACEP-Medical-Emoji-Support-Letter-2026.pdf",
+      },
+    ],
     color: "#16a085",
   },
   {
@@ -232,7 +272,12 @@ export const emojiCandidates: EmojiCandidate[] = [
       "95 million Americans need lifestyle modifications to address weight-related health issues.",
       "Obesity is a major risk factor for heart disease, diabetes, and many cancers.",
     ],
-    supporters: [],
+    supporters: [
+      {
+        name: "American College of Emergency Physicians (ACEP)",
+        href: "https://medicalemoji.org/documents/ACEP-Medical-Emoji-Support-Letter-2026.pdf",
+      },
+    ],
     color: "#f39c12",
   },
 ];

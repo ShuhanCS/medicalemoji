@@ -61,6 +61,12 @@ export function Header() {
           </div>
 
           <Link
+            href="/endorsements"
+            className="rounded-lg px-3 py-2 text-sm font-medium text-gray-700 transition-colors hover:bg-gray-100 hover:text-gray-900"
+          >
+            Endorsements
+          </Link>
+          <Link
             href="/resources"
             className="rounded-lg px-3 py-2 text-sm font-medium text-gray-700 transition-colors hover:bg-gray-100 hover:text-gray-900"
           >
@@ -127,6 +133,13 @@ export function Header() {
                 </div>
               )}
             </div>
+            <Link
+              href="/endorsements"
+              className="block rounded-lg px-3 py-2.5 text-sm font-medium text-gray-700 hover:bg-gray-50"
+              onClick={() => setMobileOpen(false)}
+            >
+              Endorsements
+            </Link>
             <Link
               href="/resources"
               className="block rounded-lg px-3 py-2.5 text-sm font-medium text-gray-700 hover:bg-gray-50"
