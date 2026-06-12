@@ -159,6 +159,9 @@ Kidney 2026 workspace:
 Stomach 2026 workspace:
 `docs/proposals/stomach-emoji-2026/`
 
+Liver 2026 workspace:
+`docs/proposals/liver-emoji-2026/`
+
 First synchronized preliminary submission packet:
 `submissions/v0.1.0/`
 
@@ -181,6 +184,9 @@ Key files:
 - `docs/proposals/stomach-emoji-2026/proposal-working-draft.md`
 - `docs/proposals/stomach-emoji-2026/evidence-capture-checklist.md`
 - `docs/proposals/stomach-emoji-2026/submission-readiness-checklist.md`
+- `docs/proposals/liver-emoji-2026/README.md`
+- `docs/proposals/liver-emoji-2026/proposal-working-draft.md`
+- `docs/proposals/liver-emoji-2026/support-letter-inventory.md`
 - `docs/research/unicode-winning-submissions/accepted-emoji-proposals-manifest.json`
 - `docs/research/unicode-winning-submissions/analysis.md`
 - `docs/research/kidney-v0.12.0-successful-proposal-audit.md`

@@ -144,6 +144,11 @@ https://medicalemoji.org/documents/AGA-FINAL-Emoji-Letter_Signed.pdf
 American Society for Gastrointestinal Endoscopy:
 https://medicalemoji.org/documents/GI-Emojis_Letter-to-Consortium_Final_Signed.docx-1.pdf
 
+American College of Emergency Physicians (multi-specialty letter of support, June 5, 2026; the letter names the anatomical stomach among ten medical concepts relevant to emergency care):
+https://medicalemoji.org/documents/ACEP-Medical-Emoji-Support-Letter-2026.pdf
+
+These letters are provided as professional and coalition context only. Per Unicode guidance, society support letters are not offered here as frequency or expected-usage evidence; the expected-usage case is made with the public frequency evidence in Section 3.E.
+
 ### B. Eligibility Caveat
 
 Unicode's public status CSV lists Stomach declined with a latest public submitted date of 2022-07-28. The team should assume Stomach is likely eligible by the public submitted-date clock on 2026-07-28, with one caveat: before filing, confirm whether Unicode counts the four-year re-review bar from the public submitted date, internal decline decision date, notification date, or another date.

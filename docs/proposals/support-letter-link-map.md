@@ -28,8 +28,9 @@ This map records the recovered old WordPress support links and the stable local/
 | American Gastroenterological Association (AGA) | https://gastro.org/wp-content/uploads/2022/01/AGA-Emoji-Letter_Final.pdf | https://medicalemoji.org/documents/AGA-FINAL-Emoji-Letter_Signed.pdf |
 | American Society for Gastrointestinal Endoscopy (ASGE) | https://medicalemoji.org/wp-content/uploads/2022/01/GI-Emojis_Letter-to-Consortium_Final_Signed.docx-1.pdf | https://medicalemoji.org/documents/GI-Emojis_Letter-to-Consortium_Final_Signed.docx-1.pdf |
 | Hepatology (Journal) | https://aasldpubs.onlinelibrary.wiley.com/doi/abs/10.1002/hep.32261 | https://aasldpubs.onlinelibrary.wiley.com/doi/abs/10.1002/hep.32261 |
+| American College of Emergency Physicians (ACEP) | — (new 2026 letter) | https://medicalemoji.org/documents/ACEP-Medical-Emoji-Support-Letter-2026.pdf |
 
-Note: the old AGA `gastro.org` PDF link now returns 404. The current site uses the local signed AGA PDF recovered from the old WordPress media library.
+Note: the old AGA `gastro.org` PDF link now returns 404. The current site uses the local signed AGA PDF recovered from the old WordPress media library. The ACEP letter (June 5, 2026) is a multi-specialty letter of support that names the anatomical liver among ten concepts.
 
 ## Stomach
 
@@ -37,6 +38,7 @@ Note: the old AGA `gastro.org` PDF link now returns 404. The current site uses t
 | --- | --- | --- |
 | American Gastroenterological Association (AGA) | https://gastro.org/wp-content/uploads/2022/01/AGA-Emoji-Letter_Final.pdf | https://medicalemoji.org/documents/AGA-FINAL-Emoji-Letter_Signed.pdf |
 | American Society for Gastrointestinal Endoscopy (ASGE) | https://medicalemoji.org/wp-content/uploads/2022/01/GI-Emojis_Letter-to-Consortium_Final_Signed.docx-1.pdf | https://medicalemoji.org/documents/GI-Emojis_Letter-to-Consortium_Final_Signed.docx-1.pdf |
+| American College of Emergency Physicians (ACEP) | — (new 2026 letter) | https://medicalemoji.org/documents/ACEP-Medical-Emoji-Support-Letter-2026.pdf |
 
 ## Intestine
 
