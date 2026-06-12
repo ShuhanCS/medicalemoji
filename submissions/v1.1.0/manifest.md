@@ -26,6 +26,7 @@ Source guidance reviewed:
 | File | Role | Description |
 | --- | --- | --- |
 | `v1.1.0_kidney_emoji_proposal_SUBMIT.md` | `SUBMIT` | PDF-facing proposal source intended to become the final public Unicode PDF after signoff. Includes required example images, five current evidence figures, a frequency summary table with reproducible URLs, tighter visual-distinctiveness guidance, sequence examples, open-ended-boundary criteria, and supplemental support-letter links (now including the 2026 ACEP multi-specialty letter of support). |
+| `v1.1.0_kidney_emoji_proposal_SUBMIT.pdf` | `SUBMIT` | Rendered PDF export of the proposal source, with the required 18x18/72x72 example images and the five embedded frequency-evidence figures intact (16 pages). Not yet hosted at a public URL. |
 | `images/v1.1.0_kidney_color_18x18_SUBMIT.png` | `SUBMIT` | Required 18x18 color example image. |
 | `images/v1.1.0_kidney_color_72x72_SUBMIT.png` | `SUBMIT` | Required 72x72 color example image. |
 | `images/v1.1.0_kidney_bw_18x18_SUBMIT.png` | `SUBMIT` | Required 18x18 black-and-white example image generated from the GPT image reference. |
@@ -60,7 +61,7 @@ Known filing holds:
 - Unicode/ESR eligibility for a 2026 kidney filing still needs confirmation because `KIDNEYS` was publicly listed as submitted on 2022-07-19 and declined.
 - Final submitter list and organizational roles need explicit approval before filing.
 - Conductscience Foundation ownership, right-turnover language, and Alla Shamanska credit are recorded; final submitter/signatory authorization must be confirmed before filing.
-- Public PDF has not been exported or hosted.
+- Public PDF has been exported to the packet (`v1.1.0_kidney_emoji_proposal_SUBMIT.pdf`) but not yet hosted at a public URL.
 - Unicode form has not been submitted.
 
 ## Change Notes From v1.0.0
