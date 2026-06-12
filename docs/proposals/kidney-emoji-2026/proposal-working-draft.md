@@ -185,6 +185,9 @@ Recovered and available support includes:
 - Renal Physicians Association (RPA)
 - Kidney Foundation of Western New York
 - Women in Nephrology - India
+- American College of Emergency Physicians (ACEP) — multi-specialty letter of support (2026-06-05) naming the kidney among ten medical concepts: https://medicalemoji.org/documents/ACEP-Medical-Emoji-Support-Letter-2026.pdf
+
+These letters are professional and coalition context only; per Unicode guidance they are not offered as frequency or expected-usage evidence.
 
 Support-letter inventory:
 

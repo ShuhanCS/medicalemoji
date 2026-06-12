@@ -20,6 +20,7 @@ This inventory separates recovered coalition support material from the Unicode e
 | Renal Physicians Association (RPA) | `public/documents/kidney-support-letters/RPA.png` | Recovered from old WordPress media library | Image attachment dated 2021-12-22 in WordPress. Needs signer/title extraction before final proposal appendix. |
 | Kidney Foundation of Western New York | `public/documents/Kidney-Foundation-of-WNY-kidney-emoji-letter.pdf` | PDF already in repo and confirmed in old WordPress media library | WordPress media date 2022-03-01. |
 | Women in Nephrology - India | `public/documents/Kidney-Emoji-WIN-Letter-Head-V4B-converted.docx` | DOCX already in repo and confirmed in old WordPress media library | WordPress media date 2022-04-20. Text extraction from this DOCX was limited; manually review before quoting. |
+| American College of Emergency Physicians (ACEP) | `public/documents/ACEP-Medical-Emoji-Support-Letter-2026.pdf` | New 2026 PDF in repo | Multi-specialty letter of support (signed Michael Fraser, Executive Director, 2026-06-05). Names the anatomical kidney among ten medical concepts. Confirm with ACEP before citing in the filed PDF. |
 
 ## Proposal Use
 
