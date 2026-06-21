@@ -42,10 +42,11 @@ benefits from in its letters of support.
    personally-signed statement that medical emoji are a legitimate clinical-communication
    and informatics tool worth standardizing. This becomes a supporting document in the
    Unicode proposal packet and signals national-academy-level seriousness.
-2. **Warm introductions to anyone she knows on Unicode.** See the roster in §4. We are not
-   asking her to lobby — only to flag if she has any personal connection to these people
-   or their organizations (Google, Adobe, Apple, Meta, Microsoft, academia) so we can make
-   a credible, merit-based case directly.
+2. **Warm introductions — to Unicode, or to the member companies that vote on it.** See the
+   roster in §4 and the corporate-lever map in §4b. The realistic path isn't lobbying the
+   reviewers; it's a credible champion inside a voting company (especially **Google Health**)
+   making sure our merit-based case gets a serious read. We only need her to flag whom she
+   actually knows.
 
 ---
 
@@ -82,21 +83,58 @@ automated lookups, so this list is from public reporting and should be double-ch
 - **Mark Davis** — Co-founder and Chief Technology Officer (long-time public face of
   Unicode).
 
-### Board of Directors (governance — useful if she knows any personally)
-- **Cathy Wissink** — Chair of the Board.
-- **Annemarie Apple** — Vice-Chair.
-- **David Rowe** — Vice-Chair.
-- Directors: **Tim Brandall**, **Brent Getlin**, **Teresa Marshall**,
-  **Kulpreet Chilana**, **Salvatore Giammarresi**, **John Tinsley**, **Manuela Giese**.
+### Board of Directors — and the companies behind them (the real votes)
+The board seats are held by representatives of the **full (voting) member companies**.
+Those companies' votes — and the weight of their representatives — are what actually move a
+proposal. The board (2025) maps almost one-to-one onto member firms:
 
-> Many directors hold day jobs at major vendors (Google, Apple, Adobe, Meta, Microsoft,
-> Netflix, etc.). If Dr. Burstin's network reaches any of those companies' i18n / standards
-> or accessibility teams, that is also a viable path.
+| Director | Company (voting member) |
+| --- | --- |
+| **Cathy Wissink** | Chair of the Board |
+| **Bob Jung** | **Google** |
+| **Kulpreet Chilana** | **Apple** |
+| **Manuela Giese** | **Microsoft** |
+| **Brent Getlin** | **Adobe** |
+| **Cori Alcorn** | **Meta** |
+| **Tim Brandall** | **Netflix** |
+| **Teresa Marshall** | **Salesforce** |
+| **Salvatore Giammarresi** | **Airbnb** |
+| **John Tinsley** | **Translated** |
+
+*(Annemarie Apple and David Rowe have also been listed as board vice-chairs in some
+sources — reconcile against the official page.)*
+
+---
+
+## 4b. Corporate levers — senior health leaders who can carry weight internally
+
+This is the "higher-up at Google Health" path you mentioned. The voting companies all run
+large health divisions, and those divisions are led by **physicians and quality experts in
+Dr. Burstin's own world** (NAM, health quality, federal health IT). A note of interest from
+one of them to their company's Unicode representative is the most realistic internal lever.
+
+- **Google — Michael Howell, MD, MPH** — Chief Health Officer (succeeded Karen DeSalvo in
+  Aug 2025). Formerly **Chief Quality Officer at UChicago Medicine** — a quality-measurement
+  leader squarely in Dr. Burstin's network. Google is also the home of emoji-review chair
+  Jennifer Daniel's former team and board member Bob Jung. **Best single target.**
+- **Karen DeSalvo, MD, MPH** — former Google Chief Health Officer and former **U.S. National
+  Coordinator for Health IT**; recently retired from Google but exceptionally well connected
+  in NAM / federal-health circles and very likely a personal acquaintance of Dr. Burstin. A
+  warm word from her opens Google doors.
+- **Apple — Sumbul Ahmad Desai, MD** — VP of Health; Stanford clinical professor. Keynoted
+  HIMSS26. Apple implemented our heart/lungs emoji in iOS 14.2, so there's a natural story.
+- **Microsoft / Meta / Salesforce health teams** — secondary, but if Dr. Burstin's network
+  reaches their health, accessibility, or i18n leadership, those are live paths too.
+
+**Suggested play:** ask Dr. Burstin first whether she knows **Michael Howell** or **Karen
+DeSalvo** — both are quality/health-policy people in the National-Academy orbit, and both
+sit at *Google*, which is the most emoji-influential member company.
 
 **A note on etiquette:** Unicode evaluates proposals on merit (usage, distinctiveness,
-non-redundancy), not on lobbying. The ask to Dr. Burstin is for *introductions and
-credibility*, not pressure. Letters of support strengthen the packet; they don't replace
-the technical case.
+non-redundancy), not on lobbying, and we should never frame this as pressure on the
+reviewers. What credible internal champions and national-academy letters *do* is get the
+proposal a careful, serious read and signal that real clinical institutions stand behind
+it. The technical case still has to stand on its own.
 
 ---
 
@@ -125,17 +163,26 @@ Two things would mean a great deal:
    clinical-communication and informatics tool worth standardizing. It would sit alongside
    the society and patient-organization letters in our Unicode packet and carry real
    national-academy weight.
-2. **Any door you might have to Unicode.** Emoji proposals are decided by a small group at
-   the Unicode Consortium. I've listed the relevant people below — if you happen to know
-   any of them (or someone at the companies behind them), even a warm hello would help us
-   make our case on the merits.
+2. **Any door you might have to Unicode — or to the companies that vote on it.** Emoji
+   proposals are decided by a small group at the Unicode Consortium, and the votes that
+   carry weight belong to a handful of member companies — Google, Apple, Microsoft, Adobe,
+   Meta. The most natural bridge for us is through their **health leadership**, who are
+   people in your world:
 
-   - *Emoji review:* Jennifer Daniel (Chair, Emoji Standard & Research WG); Jennifer 8. Lee
-     (Vice-Chair; founder of Emojination)
-   - *Unicode leadership:* Toral Cowieson (CEO); Mark Davis (Co-founder/CTO)
-   - *Board:* Cathy Wissink (Chair), Annemarie Apple & David Rowe (Vice-Chairs), and
-     directors Tim Brandall, Brent Getlin, Teresa Marshall, Kulpreet Chilana, Salvatore
-     Giammarresi, John Tinsley, and Manuela Giese
+   - **Google — Michael Howell, MD** (Chief Health Officer; formerly Chief Quality Officer
+     at UChicago Medicine), and **Karen DeSalvo, MD** (former Google Chief Health Officer
+     and former U.S. National Coordinator for Health IT). Google is the most
+     emoji-influential member, so if you know either of them, that's the door I'd most love
+     to walk through.
+   - **Apple — Sumbul Desai, MD** (VP of Health). Apple shipped our heart and lungs emoji,
+     so there's a friendly history there.
+   - *On the Unicode side directly:* Jennifer Daniel (Chair, Emoji review) and Jennifer 8.
+     Lee (Vice-Chair; founder of Emojination) are the people who actually shepherd
+     proposals.
+
+   Even a warm hello to any of them would help us get a serious, careful read — the
+   technical case is strong and stands on its own; an introduction just makes sure it's
+   actually looked at.
 
 On timing: **World Emoji Day is July 17**, which is the ideal moment to publish letters of
 support, and our working deadline for everything in hand is **August 1** (Unicode's intake
@@ -177,6 +224,8 @@ medicalemoji.org
 - Unicode emoji proposal guidelines: https://www.unicode.org/emoji/proposals.html
 - Unicode Board of Directors: https://unicode.org/consortium/directors.html
 - Unicode officers/staff: https://www.unicode.org/consortium/officers.html
+- Unicode members (voting companies): https://home.unicode.org/membership/members/
+- Google CHO transition (Howell succeeds DeSalvo): https://www.healthcaredive.com/news/karen-desalvo-google-chief-health-officer-retire/747201/
 - *JAMA* 2021: https://jamanetwork.com/journals/jama/fullarticle/2783847
 - *JAMA* 2022: https://jamanetwork.com/journals/jama/fullarticle/2794067
 - Boston Globe: https://www.bostonglobe.com/2020/02/04/metro/this-mass-general-doctor-helped-get-two-new-medical-emojis-approved/
