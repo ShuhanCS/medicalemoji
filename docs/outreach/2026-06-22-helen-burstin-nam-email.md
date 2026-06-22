@@ -150,10 +150,13 @@ work at a national level. I'm writing with a small, time-bound ask I think is ri
 your wheelhouse.
 
 You may remember the Medical Emoji effort — it grew out of the anatomical heart 🫀 and
-lungs 🫁 that our group helped bring to Unicode in 2020, documented in *JAMA*. We're now
+lungs 🫁 that our group helped bring to Unicode in 2020
+([Boston Globe](https://www.bostonglobe.com/2020/02/04/metro/this-mass-general-doctor-helped-get-two-new-medical-emojis-approved/)),
+documented in [*JAMA*](https://jamanetwork.com/journals/jama/fullarticle/2783847). We're now
 preparing a focused 2026 submission to Unicode for a clinically reviewed set (kidney,
 stomach, liver, spine, ECG, and white blood cell), and we're assembling letters of
-support from physician societies and patient organizations. ACEP has already signed on as
+support from physician societies and patient organizations
+([medicalemoji.org](https://medicalemoji.org)). ACEP has already signed on as
 the first national multi-specialty society to back the whole effort.
 
 Two things would mean a great deal:
@@ -163,11 +166,11 @@ Two things would mean a great deal:
    clinical-communication and informatics tool worth standardizing. It would sit alongside
    the society and patient-organization letters in our Unicode packet and carry real
    national-academy weight.
-2. **Any door you might have to Unicode — or to the companies that vote on it.** Emoji
-   proposals are decided by a small group at the Unicode Consortium, and the votes that
-   carry weight belong to a handful of member companies — Google, Apple, Microsoft, Adobe,
-   Meta. The most natural bridge for us is through their **health leadership**, who are
-   people in your world:
+2. **Any door you might have to Unicode — or to the companies that vote on it.**
+   [Emoji proposals](https://www.unicode.org/emoji/proposals.html) are decided by a small
+   group at the Unicode Consortium, and the votes that carry weight belong to a handful of
+   member companies — Google, Apple, Microsoft, Adobe, Meta. The most natural bridge for us
+   is through their **health leadership**, who are people in your world:
 
    - **Google — Michael Howell, MD** (Chief Health Officer; formerly Chief Quality Officer
      at UChicago Medicine), and **Karen DeSalvo, MD** (former Google Chief Health Officer

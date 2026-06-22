@@ -94,28 +94,32 @@ physician at one of the few companies whose voice actually carries at the Unicod
 and I have a small, time-bound ask that I think is genuinely in Microsoft's wheelhouse.
 
 The short version of the backstory: in 2020 our team helped add the first anatomically
-accurate organ emoji — the anatomical heart 🫀 and the lungs 🫁 — to the Unicode Standard.
+accurate organ emoji — the anatomical heart 🫀 and the lungs 🫁 — to the Unicode Standard
+([Boston Globe](https://www.bostonglobe.com/2020/02/04/metro/this-mass-general-doctor-helped-get-two-new-medical-emojis-approved/),
+[The Verge](https://www.theverge.com/2021/9/13/22665002/doctors-medical-emoji-organs-health)).
 They now render on essentially every device and platform, Microsoft's included, and the
-clinical rationale was published in *JAMA*. We're now preparing a focused 2026 submission for
-a clinically reviewed set — **kidney, liver, stomach, spine, white blood cell, and EKG** — and
-assembling letters of support. The American College of Emergency Physicians has already signed
-on as the first national multi-specialty society to back the whole effort.
+clinical rationale was published in [*JAMA*](https://jamanetwork.com/journals/jama/fullarticle/2783847).
+We're now preparing a focused 2026 submission for a clinically reviewed set — **kidney, liver,
+stomach, spine, white blood cell, and EKG** — and assembling letters of support
+([medicalemoji.org](https://medicalemoji.org)). The American College of Emergency Physicians
+has already signed on as the first national multi-specialty society to back the whole effort.
 
 Two things from Microsoft would mean a great deal:
 
 1. **A short statement of support — in Microsoft's voice or your own.** That standardized
    medical emoji are a serious clinical-communication, accessibility, and health-literacy tool.
    This matters because the work is squarely in Microsoft's lane: you already design and ship
-   emoji (Segoe UI Emoji, the open-sourced Fluent Emoji set), and accessible, plain-language,
-   cross-language communication is core to Microsoft's mission. Such a statement would sit in
-   our Unicode packet alongside the physician-society and patient letters and signal that a
-   major platform takes this seriously.
+   emoji (Segoe UI Emoji, the open-sourced [Fluent Emoji](https://github.com/microsoft/fluentui-emoji)
+   set), and accessible, plain-language, cross-language communication is core to Microsoft's
+   mission. Such a statement would sit in our Unicode packet alongside the physician-society and
+   patient letters and signal that a major platform takes this seriously.
 2. **A warm introduction inside Microsoft.** To whoever owns emoji / Fluent Emoji / fonts or
-   internationalization, and/or to Microsoft's representative to the Unicode Consortium. Emoji
-   proposals are decided by a small group at Unicode, and the votes that carry weight belong to
-   member companies like Microsoft, Google, Apple, Adobe, and Meta. I'm not asking anyone to
-   lobby the reviewers — the technical case stands on its own. An introduction just helps make
-   sure a strong, merit-based proposal actually gets a careful read.
+   internationalization, and/or to Microsoft's representative to the Unicode Consortium.
+   [Emoji proposals](https://www.unicode.org/emoji/proposals.html) are decided by a small group
+   at Unicode, and the votes that carry weight belong to member companies like Microsoft,
+   Google, Apple, Adobe, and Meta. I'm not asking anyone to lobby the reviewers — the technical
+   case stands on its own. An introduction just helps make sure a strong, merit-based proposal
+   actually gets a careful read.
 
 On timing: **World Emoji Day is July 17**, the natural moment to publish letters of support,
 and our working deadline for everything in hand is **August 1** (Unicode's intake closes July
