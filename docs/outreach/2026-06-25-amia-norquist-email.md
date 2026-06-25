@@ -1,22 +1,25 @@
 # Outreach Kit — Craig Norquist, MD, FACEP, FAMIA (American Medical Informatics Association)
 
-**Purpose:** Ask Dr. Norquist to help AMIA lend its voice to the Medical Emoji effort — a
-short, AMIA-level letter of support affirming that standardized medical emoji are a
-legitimate clinical-informatics, interoperability, and health-literacy tool — in time for the
-2026 Unicode submission.
+**Purpose:** Craig is a personal contact of Shuhan's and is at AMIA. The goal is to get **AMIA
+to draft a letter of support modeled on the ACEP letter** for the 2026 Unicode submission. This
+email gives Craig the full campaign background and asks him the key question: **who at AMIA are
+the right people to approach** to make an AMIA letter happen — and whether he'll help open that
+door.
 
 **Prepared for:** Shuhan He, MD — medicalemoji.org
 **Companion to:** the CMSS kit for Clifford Hudis, MD, the NAM kit for Helen Burstin, MD, and
 the Microsoft kit for David Rhew, MD
-**Status:** Draft for Shuhan's review and personalization before sending.
+**Status:** Draft for Shuhan's review and personalization before sending. *(Warm tone — Shuhan
+knows Craig personally; first-name throughout.)*
 
-> Why AMIA, and why Norquist: of every organization on the outreach list, AMIA is the most
+> Why AMIA, and why Craig: of every organization on the outreach list, AMIA is the most
 > *on-mission* fit. Medical emoji are, at bottom, **standardized clinical iconography** — a
 > controlled-vocabulary, interoperability, and patient-communication problem, which is exactly
-> AMIA's domain. And Dr. Norquist personally bridges both halves of the ask: he is
-> **double-boarded in Emergency Medicine and Clinical Informatics**, a CMIO, and a past
-> president of ACEP's Arizona chapter — and ACEP is already our lead endorser. This is a
-> society-letter ask (like the CMSS one), not a corporate-champion ask.
+> AMIA's domain. Craig is a personal contact who bridges both halves of the case
+> (**double-boarded EM + Clinical Informatics**, a CMIO and FAMIA, and a past president of
+> ACEP's Arizona chapter — and ACEP is already our lead endorser). So this email isn't a cold
+> ask: it leans on the relationship and asks Craig to **identify the right AMIA people** and
+> help route the request, with the ACEP letter as the template AMIA would mirror.
 
 ---
 
@@ -59,14 +62,19 @@ AMIA and signals real informatics seriousness on the Unicode packet.
 
 ## 3. The ask (keep it simple)
 
-**One letter, at the AMIA level,** that (1) affirms the clinical-informatics, interoperability,
-and health-literacy value of a standardized set of medical emoji, and (2) encourages Unicode to
-consider them and to engage organized informatics as a partner on future clinical symbols.
+The real ask to Craig is **navigational, not a request that he personally write anything**:
 
-It does **not** commit AMIA to drafting proposals, funding, or ongoing work — that is on us. To
-make it turnkey, I'm glad to draft the letter in AMIA's voice (modeled on the support letter
-ACEP provided), for AMIA's team to edit freely, place on letterhead, and decide the right
-signatory.
+1. **Who at AMIA are the right people?** Ask Craig to point us to whoever can sponsor or
+   authorize an AMIA letter of support — the relevant board members, committee (e.g. Public
+   Policy / Standards), or staff leadership — and ideally to make a warm introduction.
+2. **The goal those people would deliver:** an AMIA-level letter of support **modeled on the
+   ACEP letter** — affirming the clinical-informatics, interoperability, and health-literacy
+   value of a standardized set of medical emoji, and encouraging Unicode to consider them and to
+   engage organized informatics as a partner on future clinical symbols.
+
+It does **not** commit AMIA to drafting proposals, funding, or ongoing work — that is on us. We
+can share the ACEP letter as a template and a short briefing to make it turnkey for whomever
+Craig points us to.
 
 ---
 
@@ -86,50 +94,52 @@ to have anything AMIA is comfortable lending by mid-July."*
 ## 5. Email draft (for Shuhan to send)
 
 > **To:** Craig Norquist <cnorquist@honorhealth.com> *(verify address)*
-> **Subject:** A natural fit for AMIA — a letter of support for medical emoji at Unicode
+> **Subject:** Who at AMIA for a medical-emoji letter of support?
 
-Dear Dr. Norquist,
+Hi Craig,
 
-I'm an emergency physician at Massachusetts General Hospital, and I lead the Medical Emoji
-Project. I'm writing to you specifically because you sit at the exact intersection this effort
-needs — an emergency physician *and* a board-certified clinical informatician — and because of
-all the organizations I've approached, AMIA may be the most natural home for what we're asking.
+I hope you're doing well. I wanted to reach out because of your role at AMIA — I'm working on
+something that feels squarely in AMIA's wheelhouse, and I could use your help figuring out who
+the right people there would be.
 
-The short backstory: in 2020 our team helped add the first anatomically accurate organ emoji —
-the anatomical heart 🫀 and the lungs 🫁 — to the Unicode Standard
+A bit of background on the campaign. Back in 2020, our team helped add the first anatomically
+accurate organ emoji — the anatomical heart 🫀 and the lungs 🫁 — to the Unicode Standard
 ([Boston Globe](https://www.bostonglobe.com/2020/02/04/metro/this-mass-general-doctor-helped-get-two-new-medical-emojis-approved/),
 [The Verge](https://www.theverge.com/2021/9/13/22665002/doctors-medical-emoji-organs-health)).
-They now render on essentially every device and platform, and the clinical rationale was
-published in [*JAMA*](https://jamanetwork.com/journals/jama/fullarticle/2783847). We're now
-preparing a focused 2026 submission to Unicode for a clinically reviewed set — **kidney, liver,
-stomach, spine, white blood cell, and EKG** ([medicalemoji.org](https://medicalemoji.org)) — and
-assembling letters of support. The American College of Emergency Physicians — where I know
-you've served as Arizona chapter president — has already signed on as the first national
-multi-specialty society to back the whole effort.
+They now render on essentially every phone and platform, Apple shipped them in iOS 14.2, and we
+published the clinical rationale in [*JAMA*](https://jamanetwork.com/journals/jama/fullarticle/2783847)
+(with a follow-up *JAMA* study on an emoji-based pain scale). It started as a side project and
+turned into a real standards effort.
 
-Here's why I think this belongs at AMIA. Medical emoji aren't a novelty; they're
-**standardized clinical iconography** — a controlled-vocabulary, interoperability, and
-patient-communication problem, which is AMIA's world. The
+We're now preparing a focused 2026 submission to Unicode for a clinically reviewed set —
+**kidney, liver, stomach, spine, white blood cell, and EKG** — and building a comprehensive
+reference at [medicalemoji.org](https://medicalemoji.org). The longer-term goal is to get Unicode
+to treat clinical iconography as a category worth maintaining, rather than approving organ
+symbols one hard-won submission at a time. To do that, the
 [Unicode process](https://www.unicode.org/emoji/proposals.html) rewards two things: evidence of
-widespread real-world usage, and a credible, recognized authority affirming that a symbol is
-important and well-defined. We've built the first; organized informatics is the ideal source of
-the second.
+real-world usage, and credible, recognized authorities affirming a symbol is important and
+well-defined. We're assembling letters of support for that second part — **ACEP has already
+signed on** as the first national multi-specialty society to endorse the whole effort, along
+with AGA, ASGE, ASN, ISN, the National Kidney Foundation, and roughly a dozen more.
 
-**The ask is simple:** one letter, at the AMIA level, that (1) affirms the clinical-informatics
-and health-literacy value of a standardized set of medical emoji, and (2) encourages Unicode to
-consider them and to engage organized informatics as a partner on future clinical symbols. It
-does not commit AMIA to drafting proposals, funding, or ongoing work — that's on us.
+Here's where I'd love your help. To me, AMIA is the most natural fit of anyone — medical emoji
+are really **standardized clinical iconography**, an interoperability and patient-communication
+problem, which is AMIA's world. **What I'd love is for AMIA to draft a letter of support
+similar to the one ACEP wrote.** I just don't know the right path inside AMIA to make that
+happen — so my real question for you is: **who are the right people at AMIA to talk to about
+this?** Whether that's the board, a particular committee (public policy, standards), or staff
+leadership — if you could point me to them, or better yet make a quick introduction, that would
+be a huge help.
 
-To make this as easy as possible, I'm glad to **draft the letter in AMIA's voice** (modeled on
-the ACEP letter), for your team to edit freely, place on AMIA letterhead, and route to the
-right signatory. On timing: **World Emoji Day is July 17**, the natural moment to publish
-letters of support, and our working deadline for everything in hand is **August 1** (Unicode's
-intake closes July 31). Anything AMIA could lend by mid-July would be perfect.
+I'm happy to share the ACEP letter as a template and a short briefing so it's turnkey for
+whomever you suggest. On timing, there's a natural target: **World Emoji Day is July 17**, the
+usual moment to publish letters of support, and our working deadline to have everything in hand
+is **August 1** (Unicode's intake closes July 31) — so the sooner I can find the right people,
+the better.
 
-I'd be glad to present this to the appropriate AMIA committee or get on a short call with
-whomever you'd like to involve. Whatever pace and process works for AMIA works for us.
+Thanks, Craig — really appreciate it. Happy to hop on a quick call if that's easier.
 
-With appreciation,
+Best,
 Shuhan
 
 Shuhan He, MD
