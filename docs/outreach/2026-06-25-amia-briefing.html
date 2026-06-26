@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Medical Emoji — A One-Page Brief for AMIA</title>
+<style>
+  @page { size: Letter portrait; margin: 0.45in 0.5in; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { font-family: 'Segoe UI', Arial, sans-serif; color: #21262e; }
+  body { font-size: 9.2pt; line-height: 1.32; }
+  .emoji { font-family: 'Segoe UI Emoji', 'Segoe UI', sans-serif; }
+
+  /* Header */
+  .head { background: #3452ff; color: #fff; border-radius: 10px; padding: 12px 16px;
+          display: flex; justify-content: space-between; align-items: center; }
+  .head h1 { font-size: 19pt; letter-spacing: -0.3px; }
+  .head .sub { font-size: 8.6pt; opacity: .92; margin-top: 2px; }
+  .head .site { text-align: right; font-size: 8.4pt; opacity: .95; }
+  .head .site b { font-size: 10pt; display:block; }
+
+  /* The ask band */
+  .ask { background: #fff7e6; border: 1.5px solid #ffcf6d; border-radius: 10px;
+         padding: 9px 14px; margin-top: 9px; }
+  .ask .lbl { color: #b9881f; font-weight: 700; font-size: 8pt; text-transform: uppercase;
+              letter-spacing: .6px; }
+  .ask p { margin-top: 2px; font-size: 9.6pt; }
+  .ask b { color: #1a2a6c; }
+
+  .secttl { font-size: 11pt; color: #1a2a6c; font-weight: 700; margin: 12px 0 6px; }
+  .secttl .pink { color: #ff1053; }
+
+  /* Proposed emoji grid */
+  .grid6 { display: grid; grid-template-columns: repeat(6, 1fr); gap: 8px; }
+  .card { border: 1px solid #e3e6ee; border-radius: 9px; padding: 8px 4px 6px; text-align: center;
+          background: #fcfcfe; }
+  .card img { height: 56px; width: auto; object-fit: contain; }
+  .card .nm { font-weight: 700; font-size: 8.6pt; color: #21262e; margin-top: 4px; }
+  .card .bu { font-size: 7.2pt; color: #6a7180; line-height: 1.18; margin-top: 1px; }
+
+  /* Two-column body */
+  .cols { display: grid; grid-template-columns: 1.05fr 1fr; gap: 14px; margin-top: 4px; }
+  .box { border: 1px solid #e3e6ee; border-radius: 9px; padding: 9px 12px; }
+  .box h3 { font-size: 9.4pt; color: #1a2a6c; margin-bottom: 4px; }
+  .approved { display: flex; align-items: center; gap: 10px; }
+  .approved .glyphs { font-size: 30pt; line-height: 1; white-space: nowrap; }
+  .approved .txt { font-size: 8.7pt; }
+  ul { margin: 3px 0 0 14px; }
+  li { margin-bottom: 2.5px; font-size: 8.7pt; }
+  .pill { display:inline-block; background:#eef1ff; color:#2c43cc; border-radius: 20px;
+          padding: 1.5px 8px; font-size: 7.8pt; font-weight: 600; margin: 2px 3px 0 0; }
+  .why b { color:#1a2a6c; }
+
+  /* Timeline strip */
+  .time { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-top: 11px; }
+  .tcell { background:#313233; color:#fff; border-radius: 9px; padding: 8px 10px; }
+  .tcell .d { font-size: 11pt; font-weight: 700; color:#ffcf6d; }
+  .tcell .w { font-size: 8pt; opacity:.92; margin-top:1px; }
+
+  .foot { margin-top: 10px; text-align: center; color:#6a7180; font-size: 8pt;
+          border-top: 1px solid #e3e6ee; padding-top: 6px; }
+  .foot b { color:#21262e; }
+</style>
+</head>
+<body>
+
+  <div class="head">
+    <div>
+      <h1>Medical Emoji</h1>
+      <div class="sub">A one-page brief for the American Medical Informatics Association</div>
+    </div>
+    <div class="site">
+      Prepared for the AMIA Board<br>
+      <b>medicalemoji.org</b>
+      Shuhan He, MD · June 2026
+    </div>
+  </div>
+
+  <div class="ask">
+    <div class="lbl">The ask — one thing</div>
+    <p>A single <b>AMIA letter of support to the Unicode Consortium</b>, modeled on the one ACEP wrote,
+       affirming the value of a standardized set of medical emoji. It commits AMIA to nothing else —
+       we handle the Unicode proposals, the usage evidence, and the artwork. <b>A turnkey draft letter is attached.</b></p>
+  </div>
+
+  <div class="secttl">The 6 symbols in our <span class="pink">August 2026</span> Unicode submission</div>
+  <div class="grid6">
+    <div class="card"><img src="../../public/press/acep/emoji/kidney.png" alt="kidney">
+      <div class="nm">Kidney</div><div class="bu">Chronic kidney disease ~10% of adults</div></div>
+    <div class="card"><img src="../../public/press/acep/emoji/liver.png" alt="liver">
+      <div class="nm">Liver</div><div class="bu">~2M deaths/yr; NAFLD ~25% of US adults</div></div>
+    <div class="card"><img src="../../public/press/acep/emoji/stomach.png" alt="stomach">
+      <div class="nm">Stomach</div><div class="bu">GI disease, GERD, ulcers</div></div>
+    <div class="card"><img src="../../public/press/acep/emoji/spine.png" alt="spine">
+      <div class="nm">Spine</div><div class="bu">Low back pain: #1 cause of disability</div></div>
+    <div class="card"><img src="../../public/press/acep/emoji/white-blood-cell.png" alt="white blood cell">
+      <div class="nm">White blood cell</div><div class="bu">Infection, immunity, sepsis</div></div>
+    <div class="card"><img src="../../public/press/acep/emoji/ecg.png" alt="EKG">
+      <div class="nm">EKG</div><div class="bu">Cardiovascular disease, #1 killer</div></div>
+  </div>
+
+  <div class="cols">
+    <div class="box">
+      <h3>We have done this before</h3>
+      <div class="approved">
+        <div class="glyphs emoji">🫀&nbsp;🫁</div>
+        <div class="txt">In 2020 our physician team added the first anatomically accurate
+          <b>heart</b> and <b>lungs</b> to the Unicode Standard. They now render on
+          <b>essentially every phone</b> — Apple (iOS 14.2), Google, Samsung, Microsoft.
+          This is the proven next slate, not a concept pitch.</div>
+      </div>
+      <h3 style="margin-top:8px;">The evidence is published</h3>
+      <ul>
+        <li><b>JAMA</b> (2021) — the clinical case for medical emoji.</li>
+        <li><b>JAMA</b> (2022) — an emoji pain scale matched the standard numeric scale.</li>
+        <li><b>JAMA Network Open</b> (2023) — the case for a comprehensive set.</li>
+        <li>Covered by the <b>Boston Globe</b> &amp; <b>The Verge</b>; <b>STAT</b> (Jan 2026)
+            found emoji rising fast in clinical records.</li>
+      </ul>
+    </div>
+
+    <div class="box">
+      <h3>Organized medicine already backs it</h3>
+      <div>
+        <span class="pill">ACEP — whole project</span>
+        <span class="pill">AGA</span><span class="pill">ASGE</span>
+        <span class="pill">ASN</span><span class="pill">ISN</span>
+        <span class="pill">NKF</span><span class="pill">KDIGO</span>
+        <span class="pill">AAKP</span><span class="pill">+ a dozen more</span>
+      </div>
+      <p class="why" style="margin-top:7px;">What is still missing is the voice of
+         <b>organized informatics</b>. That is AMIA.</p>
+      <h3 style="margin-top:8px;">Why this is AMIA's lane</h3>
+      <p class="why">Medical emoji are <b>standardized clinical iconography</b> — a
+         controlled-vocabulary, interoperability, and patient-communication problem. Unicode
+         rewards two things: real-world usage (we build that) and a recognized authority
+         affirming a symbol matters and is well-defined. The national informatics body is the
+         ideal source of the second.</p>
+    </div>
+  </div>
+
+  <div class="time">
+    <div class="tcell"><div class="d">July 17</div><div class="w">World Emoji Day — the moment to publish letters of support</div></div>
+    <div class="tcell"><div class="d">July 31</div><div class="w">Unicode's intake deadline for this cycle</div></div>
+    <div class="tcell"><div class="d">August 1</div><div class="w">Our target to have all letters in hand</div></div>
+  </div>
+
+  <div class="foot">
+    <b>Shuhan He, MD</b> · Massachusetts General Hospital · Founder, The Medical Emoji Project ·
+    medicalemoji.org · @ShuhanHeMD &nbsp;|&nbsp; A letter by <b>mid-July</b> is ideal — no pressure, and we move at AMIA's pace.
+  </div>
+
+</body>
+</html>
