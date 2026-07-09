@@ -1,18 +1,46 @@
-# BTS Medical Emoji, the ones we are still asking for
+# BTS Medical Emoji, why the rest of the body is missing
 
-He: The heart and the lungs are on your keyboard now. There is a longer list that is not.
+Source text for `BTSMedicalEmoji_Advocacy_V1.docx`. One paragraph per line. Regenerate
+with `python scripts/build_bts_scripts.py`.
 
-He: Our group is still asking for more healthcare emoji. 
+Audience: Massachusetts General Hospital patients, on social media. Plain speech. The
+script is about people's health, not about a tour of the organs.
 
-He: The kidney. One in ten people in the world has chronic kidney disease, and most of them do not know they have it. More medical organizations have stood behind the kidney than behind anything else we have proposed.
+Evidence, and the exact limits of it. All figures come from Costa-Gomes B, Tolmachev P,
+Taysom E, et al. "Public use of a generalist LLM chatbot for health queries." Nature
+Health. 2026;1(7):689-696. doi:10.1038/s44360-026-00117-x. Open access. 617,827
+de-identified Microsoft Copilot health conversations, January 2026.
 
-He: The liver. Liver disease is common, and it is often silent until it is advanced.
+- "Nearly one in five" is one in five of the HEALTH conversations studied, not one in
+  five of everything people ask an assistant. The script says "of those conversations,"
+  which preserves the denominator.
+- "One in seven" is one in seven of the symptom and condition conversations only, from an
+  annotated subsample of 2,165. It does not hold for emotional wellbeing conversations,
+  where the figure is 7.6 percent. The script scopes it to symptoms and conditions.
+- Do NOT say health is discussed more than almost any other topic on Copilot. This paper
+  does not support that. It analysed a pre-filtered health subset and never compared
+  health against other topics. The related finding lives in a different paper, applies to
+  mobile only, and has not been verified here.
+- The paper never mentions emoji, symbols, or visual communication. Do not imply it did.
 
-He: The stomach and the intestines, because digestive symptoms are among the most common reasons anyone calls a doctor at all.
+He: Think about how often you talk about your health. Not in a doctor’s office. At the kitchen table. In a message to your sister. Into a phone at eleven at night, because something does not feel right and the appointment is three weeks away.
 
-He: The spine, because back pain sends more people looking for help than almost any other kind of pain.
+He: Researchers at Microsoft studied more than five hundred thousand conversations that people had with an artificial intelligence assistant about health.
 
-He: Not everything on the list is an organ. The heart tracing that runs across a hospital monitor may be the most recognizable image in all of medicine, and there is still no emoji for it.
+He: Nearly one in five of those conversations was somebody describing their own symptoms, trying to make sense of their own test results, or managing a condition they live with.
 
-He: There is a white blood cell. A blood bag, for donation drives. A pill pack, because remembering medication is one of the hardest parts of living with a long illness. And a scale, because we ask patients with heart failure to weigh themselves every morning.
+He: And among the conversations about symptoms and conditions, roughly one in seven were not about the person typing at all. They were asking on behalf of a child. An aging parent. A partner.
 
+He: Those conversations climb in the evening and through the night, when the clinic is closed and there is nobody to ask.
+
+He: That is what health looks like for most people. Somebody on a phone, late, frightened for a person they love.
+
+He: So think about the words that phone hands them.
+
+He: If it is your heart, there is a heart. Your lungs, your brain, your bones, your teeth. Our group helped put some of those there.
+
+He: If it is your kidneys, there is nothing. Your liver, nothing. Your stomach, your spine, your intestines, nothing. If you are fighting an infection, there is no way to show the cells that are doing the fighting.
+
+He: Our group is still asking for more healthcare emoji.
+
+He: People assume a symbol is decoration. A symbol is the thing that lets a person point at what is happening inside them, in the language they already type in every day, to the people who are frightened alongside them.

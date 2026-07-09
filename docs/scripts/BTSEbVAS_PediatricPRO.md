@@ -23,4 +23,4 @@ He: That is the part I want people to understand. Emoji have become a real part 
 
 He: And because they are already on your phone, you can use them from your own kitchen table. In a message to your doctor. In a telehealth visit. In nearly any language on earth, for free.
 
-He: Emoji began as a way for people to say how they feel. That turns out to be exactly what medicine has been asking patients too.
+He: Emoji began as a way for people to say how they feel. That turns out to be exactly what medicine has been asking patients to do all along.
