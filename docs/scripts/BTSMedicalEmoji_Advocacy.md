@@ -1,12 +1,5 @@
 # BTS Medical Emoji, why the rest of the body is missing
 
-Source text for `BTSMedicalEmoji_Advocacy_V1.docx`. One paragraph per line. Regenerate
-with `python scripts/build_bts_scripts.py`.
-
-Keep the words "about health" in the first spoken line. The Nature study counted 617,827
-conversations that were already filtered to health topics, so "nearly one in five" means
-one in five of those. Without "about health" the next line claims one in five of every
-conversation people have with an assistant, which the paper does not support.
 
 He: Researchers at Microsoft studied more than five hundred thousand conversations that people had with an artificial intelligence assistant about health.
 
@@ -26,6 +19,6 @@ He: If it is your kidneys, there is nothing. Your liver, nothing. Your stomach, 
 
 He: Your phone already has a stethoscope. It has an x-ray, and a crutch, and a bandage. Those are the tools we use on you. If you have asthma, and three hundred and sixty three million people do, there is no inhaler.
 
-He: Our group is still asking for more healthcare emoji.
+He: Our group is still asking for more medical emoji.
 
-He: People assume a symbol is decoration. A symbol is the thing that lets a person point at what is happening inside them, in the language they already type in every day, to the people who are frightened alongside them.
+He: Emoji are a universal language peple type every day, and we want to make sure healthcare and medicine are properly represented.
