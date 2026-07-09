@@ -211,27 +211,71 @@ That is the moment the anatomical heart got its name, written down.
 
 ### Everything else does not exist
 
-I grepped every published document register from 2018 through 2026.
+I grepped every published register from 2018 through 2026.
 
 > **"kidney" appears zero times. In every register. In all nine years.**
 
-The same for stomach, liver, spine, intestines, ECG, white blood cell, blood bag, IV bag, CT scan, pill
-pack, pill box, leg cast and weight scale. Zero in the registers. Zero in the UTC agendas. Zero in the
-minutes.
+Same for stomach, liver, spine, intestines, ECG, white blood cell, blood bag, IV bag, CT scan, pill pack,
+pill box, leg cast and weight scale. Zero in the registers, zero in the agendas, zero in the minutes.
 
-Unicode still publishes individual emoji proposals as L2 documents. `L2/23-031 Proposal for Emoji: Lime`,
-`L2/24-249 Proposal for Emoji: Orca`, `L2/25-253 Proposal for Emoji: PICKLE`. So the absence is not a
-change of policy. **The absence means our declined proposals never advanced far enough to become
-documents.**
+### The control group, which is what makes the absence mean something
+
+An absence proves nothing on its own. So here are two medical emoji submitted in the same period, by other
+people, that **did** get document numbers, and shipped:[^14]
+
+| Emoji | Submitted | Document | Outcome |
+|---|---|---|---|
+| Crutch | 2019-11-12 | `L2/19-379 Proposal for Emoji: CRUTCH` | Emoji 14.0 |
+| X-ray | 2020-03-26 | `L2/20-214 Proposal for X-Ray Emoji` | Emoji 14.0 |
+| **Kidney** | **2019-12-17** | **none** | **declined** |
+
+The kidney was submitted five weeks after the crutch. The crutch has a number. The kidney has nothing.
+
+Counting emoji-proposal documents per year explains why. The register carries **58 in 2018 and 62 in 2019**,
+then **15, 18, 0, 13, 6, 7** from 2020 to 2025. Hundreds of proposals are submitted every year. Only a
+dozen or so appear. **A document number is not issued on submission. It is issued when ESR advances a
+proposal to the UTC.**
+
+So the absence is the record. Our declined emoji never advanced far enough to become documents.
+
+**One honest caveat.** The 2022 register contains **zero** emoji-proposal documents of any kind, so the
+2022 KIDNEYS submission's absence from 2022 proves nothing by itself. The meaningful absences are the 2019
+kidney, in a year with 62 documents, and the resubmissions, which never surface in the 2023 register
+either.
 
 ### What that means, plainly
 
 The UTC never saw the kidney. It was never voted down, never debated, never minuted. **It died inside ESR,
-in a room whose membership is not published, and no record of the decision exists anywhere public.** That
-is why there is no decline date to find.
+in a room whose membership is not published, and no record of the decision exists anywhere.** That is why
+there is no decline date to find.
 
 There is nothing to appeal, because nothing was decided in the open. The gate is ESR, and it always was.
-Everything in the strategy below follows from that single fact.
+
+### Who actually gets medical emoji through Unicode
+
+The `medical` subgroup has seven members. Two are legacy characters from 2010 with no proposal behind them.
+Here is where the other five came from, and where our two organs came from:[^14]
+
+| Emoji | Document | Filed by |
+|---|---|---|
+| Drop of blood | `L2/18-092` | **Emojination** / Melissa Thermidor, Francis Mason |
+| Stethoscope | `L2/18-140` | **Emojination** / Melissa Thermidor, Jennifer 8. Lee |
+| Adhesive bandage | `L2/18-146` | **Emojination** / Melissa Thermidor |
+| Crutch | `L2/19-379` | Christian Scheifl, et al / ESC |
+| X-ray | `L2/20-214` | Alijan Ozkiral and **Christian Krenek** (Emojination: rock, plunger) |
+| Anatomical heart | `L2/19-150` | **Emojination** / Christian Kamkoff, **Shuhan He** |
+| Lungs | `L2/19-149` | **Emojination** / Christian Kamkoff, **Shuhan He** |
+
+Emojination filed 24 proposals in 2018 and 21 in 2019. **Essentially every medical emoji in the modern
+standard was filed by Emojination or by people from its orbit.** Melissa Thermidor of NHS Blood and
+Transplant appears on three of them, and she is a co-author on Shuhan's own anatomical heart proposal.
+
+Every medical emoji filed **without** them, alone, through the form, vanished without a trace.
+
+That is not a coincidence to be explained away. It is the mechanism. An organization that knows the process,
+files a dozen proposals a year, and has standing inside the subcommittee gets emoji encoded. Our repo
+already records the reason: Emojination's founder, Jennifer 8. Lee, became vice-chair of the emoji
+subcommittee (**UNVERIFIED** on a unicode.org page; the leadership page lists chairs only).
 
 ---
 
@@ -311,11 +355,11 @@ categories are revisable. It does not prove we can revise them.
 
 | Rank | Lever | Who | Why |
 |---|---|---|---|
-| 1 | **Find out whether Microsoft sits on ESR, and get a seat if not** | Chowdhary, or Constable | ESR screens every emoji proposal and owns the grouping file. It is the room. |
-| 2 | **Have a Microsoft Delegate submit the category document** | Chowdhary names them | Turns a proposal the committee may ignore into business it handles |
-| 3 | **Ask Constable for procedural guidance** | Chowdhary introduces | The UTC Chair is a Microsoft colleague. Ask about venue and process, never about outcome. |
-| 4 | **Rhew signs the emoji proposals personally** | Rhew | The form rejects company names. There is no alternative. |
-| 5 | **Re-engage Emojination** | Shuhan | Our only two successful emoji were filed under Emojination's name.[^14] Its founder later became vice-chair of the emoji subcommittee. We already know this works. |
+| 1 | **Re-engage Emojination** | Shuhan | Every medical emoji in the standard was filed by Emojination or its people, including both of ours.[^14] Everything we filed without them vanished. This is the single most direct evidence we have of what works. |
+| 2 | **Find out whether Microsoft sits on ESR, and get a seat if not** | Chowdhary, or Constable | ESR screens every emoji proposal and owns the grouping file. It is the room where the kidney died. |
+| 3 | **Have a Microsoft Delegate submit the category document** | Chowdhary names them | Turns a proposal the committee may ignore into business it handles |
+| 4 | **Ask Constable for procedural guidance** | Chowdhary introduces | The UTC Chair is a Microsoft colleague. Ask about venue and process, never about outcome. |
+| 5 | **Rhew signs the emoji proposals personally** | Rhew | The form rejects company names. There is no alternative. |
 | 6 | **Microsoft's UTC vote** | the Delegate | One of about five that regularly attend, cast at the very end |
 | 7 | **The board seat** | Chowdhary | Opens doors. Decides nothing about the standard. |
 
