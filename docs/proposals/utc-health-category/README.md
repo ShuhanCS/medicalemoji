@@ -12,12 +12,44 @@ Rebuild:
 pandoc health-category-utc-doc.md -o health-category-utc-doc.pdf --pdf-engine=xelatex
 ```
 
+## What this document can and cannot achieve
+
+Audited against Unicode's rules on 2026-07-09. Read this before setting expectations with anyone.
+
+**Filing on 2026-07-21 will not produce a decision at UTC #188.** The seven-day deadline has a condition
+that is easy to miss. `docsubmit.html` says: "most proposal documents must be pre-screened and reviewed by
+specialized groups of experts prior to their placement on the UTC agenda for discussion and decision," and
+the seven-day rule applies only to "document submissions which do not require pre-screening or further
+review." Emoji matters are referred to the Emoji Standard and Research Working Group (ESR). Expect this
+document to be noted and referred, not decided. That is still worth doing: it earns a permanent, public
+`L2/26-nnn` number and puts the argument on the record.
+
+**Submit it through Microsoft's UTC delegate, not as an outside individual.** From
+<https://www.unicode.org/consortium/tc-procedures.html>: "Proposals may be submitted by any Delegate. The
+group may also provide mechanisms for proposals from other organizations or individuals, **but is not
+obliged to consider or respond to such proposals.**" Microsoft is a Full Member and holds a board seat.
+Routing the document through its delegate converts it from a request the committee may ignore into a
+proposal it handles as business. This is the single highest-leverage step available.
+
+**The real owner is the ESR working group, and the real artifact is a text file.** The taxonomy is authored
+in `emojiOrdering.txt` in `unicode-org/unicodetools` (`@@ Objects` at line 605, `@ medical` at line 640),
+generated into `emoji-test.txt`, and only then incorporated into CLDR. CLDR consumes the grouping rather
+than defining it, so a CLDR ticket alone would change nothing. Do not file one as the primary channel.
+
+**There is no precedent for an outside party changing emoji grouping by document.** The Emoji 12.0
+regrouping came from inside, through Emoji Subcommittee recommendations (L2/18-024 and related). Searches
+of the L2 registers from 2016 to 2026 find no externally authored ordering or grouping proposal.
+
+**The grouping is unprotected, which cuts both ways.** `emoji-test.txt` states "the groups and subgroups
+are illustrative," and the Unicode stability policies do not cover group membership. So the change is
+cheap and no stability rule forbids it. The same fact invites the response that the question does not
+matter. The document answers that in its objections section: the groups are the section headings of every
+major vendor's emoji keyboard.
+
 ## Pre-flight checklist — do not send until every box is ticked
 
-- [ ] **The document claims a CLDR ticket has been filed.** Section 3 says "A parallel ticket has been
-      filed in the CLDR issue tracker and cross-references this document." **This is not yet true.**
-      Either file the ticket at <https://unicode-org.atlassian.net/projects/CLDR/> first and insert its
-      number, or reword the sentence. Do not send a document containing a false statement of fact.
+- [ ] **Route through Microsoft's UTC delegate.** See above. Ask Vishal Chowdhary (Microsoft's board
+      director) who the delegate is.
 - [ ] **The document claims the census is published.** Appendix C links to
       <https://github.com/ShuhanCS/medicalemoji/blob/main/evidence/emoji_group_census.py> and
       <https://github.com/ShuhanCS/medicalemoji/blob/main/evidence/census-2026-07-09.txt>.
@@ -29,6 +61,7 @@ pandoc health-category-utc-doc.md -o health-category-utc-doc.pdf --pdf-engine=xe
 - [ ] Microsoft Communications clears the use of the Copilot and Nature Health data in a public document.
 - [ ] Decide whether to offer the fallback request or hold firm on the top-level group.
 - [ ] Confirm the PDF renders on a machine without Georgia or Consolas installed.
+- [ ] Consider approaching the ESR working group directly, in parallel, since it owns the data.
 
 ## Sending it
 

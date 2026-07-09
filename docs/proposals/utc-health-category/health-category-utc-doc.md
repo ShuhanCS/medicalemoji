@@ -52,17 +52,33 @@ and (b) direct the ESR Working Group to report on health emoji organization at a
 
 # Background
 
-Emoji Ordering assigns every emoji to one of ten top-level groups and to a subgroup within it. The data
-is published in `emoji-test.txt` and is described in Unicode Technical Standard #51 (UTS #51), section 5,
-*Ordering and Grouping*, which states that the ordering data "has been incorporated into CLDR."
-The file `emoji-test.txt` states that "the file is in CLDR order."
+Emoji Ordering assigns every emoji to one of ten top-level groups and to a subgroup within it. Unicode
+Technical Standard #51 (UTS #51), section 5, *Ordering and Grouping*, states that "Emoji Ordering shows
+an ordering for emoji characters that groups them together in a more natural fashion" and that "this data
+has been incorporated into CLDR." UTS #51 does not itself enumerate the groups.
+
+The taxonomy is authored in `emojiOrdering.txt` in the `unicode-org/unicodetools` repository, where the
+ten top-level groups appear as `@@` lines and the subgroups as `@` lines. `Objects` appears at line 605
+and `medical` at line 640 of that file, as retrieved on 2026-07-09 from
+<https://raw.githubusercontent.com/unicode-org/unicodetools/main/unicodetools/src/main/resources/org/unicode/tools/emoji/emojiOrdering.txt>.
+That file is generated into `emoji-test.txt`, and the resulting ordering is incorporated into CLDR.
 
 Grouping governs presentation. It determines the sections of an emoji keyboard palette and the layout of
 the published emoji charts. It does not affect code points, character names, or character properties.
+The header of `emoji-test.txt` states that "the groups and subgroups are illustrative" and that CLDR
+order "is recommended (but not required!) for keyboard palettes."
 
-Because the specification is owned by the UTC and the ordering data is owned by the CLDR TC, this request
-is filed with both. A parallel ticket has been filed in the CLDR issue tracker and cross-references this
-document.
+We note this plainly, because it bears on the cost of the change we request. The grouping carries no
+conformance requirement and no stability guarantee. The Unicode stability policies enumerate encoding,
+name, alias, normalization, identity, and property stability. None of them covers emoji group membership.
+The change we request is therefore inexpensive to make and imposes no conformance burden on any
+implementation.
+
+# Referral
+
+We ask that this document be referred to the Emoji Standard and Research Working Group, which maintains
+the emoji ordering data, and that the working group be invited to report a recommendation to the UTC.
+We do not ask the UTC to decide the matter on the strength of this document alone.
 
 # Findings
 
@@ -255,8 +271,16 @@ absorbed without reported incident.
 **This is an emoji proposal in disguise.** It requests no character. Any future character proposal will
 be filed through the Unicode Emoji Submission Form, as the guidelines require.
 
-**Categories are stable.** The top-level group list changed in Emoji 12.0, from eight groups to ten. See
-section 4.4 and Appendix B.
+**Categories are stable.** They are not protected as such. The header of `emoji-test.txt` states that
+"the groups and subgroups are illustrative." The Unicode stability policies do not enumerate emoji group
+membership. And the top-level group list changed in Emoji 12.0, from eight groups to ten. See section 4.4
+and Appendix B.
+
+**The groups are illustrative, so the question does not matter.** The groups determine the section
+headings of the emoji keyboard palettes shipped by every major vendor, which is where most users meet
+emoji. Section 4.3 shows that a user seeking health emoji must search at least seven of those sections.
+The label "illustrative" describes the conformance status of the data, and it does not describe the
+experience of the people using it.
 
 **Health is a cause, and the guidelines discount cause arguments.** The emoji proposal guidelines
 discount cause arguments as justification for encoding a character. This document requests no character.
@@ -269,9 +293,11 @@ fully-qualified emoji. Four subgroups of `Objects` contain fewer than ten.
 move, and by section 5.1, which defines the group as the existing `medical` subgroup plus internal
 organs. We do not intend to seek further reorganization.
 
-**Ordering data belongs to CLDR.** In part it does. UTS #51 is maintained by the UTC and the ordering
-data is maintained by the CLDR TC. A parallel ticket has been filed with the CLDR TC and cross-references
-this document.
+**Ordering data belongs to CLDR.** In part it does. The taxonomy is authored in `emojiOrdering.txt` in
+`unicode-org/unicodetools`, generated into `emoji-test.txt`, and then incorporated into CLDR. CLDR
+consumes the grouping rather than defining it. We therefore address this document to the UTC, for
+referral to the Emoji Standard and Research Working Group, and we are prepared to file corresponding
+issues against the ordering source and the CLDR artifacts at the working group's direction.
 
 # Appendix A: Census of health related emoji
 
