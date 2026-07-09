@@ -4,14 +4,15 @@ Three slides appended to the *Emoji 2026 Brief* deck for a meeting with Microsof
 Chief Medical Officer & VP of Healthcare. Built to match the deck's existing phone-frame
 style (Century Gothic 30pt bold titles, `#484E56` ink, `#B7BDC6` frame).
 
-## Current deck — `Emoji-2026-Brief-v4.pptx` (9 slides)
+## Current deck — `Emoji-2026-Brief-v5.pptx` (10 slides)
 
 | # | Slide | Purpose |
 |---|-------|---------|
 | 6 | Every resubmission reset the clock | Submission/decline timeline and 2026 re-eligibility. |
 | 7 | Inside the Unicode Consortium | Org chart: where Microsoft sits, and where emoji sits. |
 | 8 | Whole sets get through | Organizational precedent, anchored on Apple's 2018 accessibility set. |
-| 9 | Request | The ask (original slide, moved to the end). |
+| 9 | How Apple did it | Factor-by-factor teardown of L2/18-080. Every quote verbatim. |
+| 10 | Request | The ask (original slide, moved to the end). |
 
 Slides 1–5 are Shuhan's originals. He dropped the "2021 JAMA set" slide from v2 and renamed
 the timeline's middle column from "On a knife edge" to "Unclear".
@@ -52,6 +53,34 @@ A curated set, carried by a member, reads as Apple 2018.
 Other precedents on the slide: Plan International UK + NHS Blood and Transplant (drop of blood,
 Emoji 12.0; their narrower "period pants" was declined first); Tinder + Emojination (71
 holding-hands combinations, Emoji 12.1); Google (gender-inclusive designs, L2/19-078).
+
+## Slide 9: how L2/18-080 was actually argued
+
+Apple walked Unicode's selection factors in order and wrote a section headed **"Counterarguments to
+Factors for Exclusion,"** pre-rebutting each exclusion by name. All quotes verbatim from the PDF:
+
+| Factor | Apple wrote |
+|---|---|
+| Frequency | "the most compelling factor for this proposal is **not** frequency of use of each character, but the desire to be inclusive in representation." Then filed Google Trends data anyway: "each data item was obtained using a new private browser window." |
+| Breaking new ground | "Other than the wheelchair symbol, there are currently no emoji that can be used to depict various forms of disability." |
+| Image distinctiveness | "the image of a hearing aid would not be sufficiently distinctive at emoji scale; it needs to be shown with an ear in order to establish its identity." Argued manual vs motorized wheelchairs must be separate characters. |
+| **Open-ended** | "we don't expect such discussion to lead to proposals for a large number of additions beyond the current proposal." |
+| Partners | "Developed in collaboration with … American Council of the Blind, the Cerebral Palsy Foundation and the National Association of the Deaf." |
+
+Two techniques worth stealing:
+
+1. **Frequency by proxy.** Apple noted "searching for 'person with wheelchair' or 'person with white
+   cane' did not produce significant results," so it ran Google Trends on the *object* ("wheelchair",
+   "prosthetic") and benchmarked each term against terms for *existing* emoji.
+2. **Reproducibility.** "All data are from February and March 2018; each data item was obtained using
+   a new private browser window." Our packets never stated a capture method.
+
+These map one-to-one onto the five gaps in `docs/proposals/kidney-emoji-2026/previous-proposal-review.md`
+(medical-importance over-reliance, missing reproducible frequency evidence, weak breaks-new-ground,
+undeveloped 18×18 distinctiveness, open-ended-organ concerns).
+
+Note: "Partners" is **not** a Unicode selection factor. It is labelled that way on the slide so the
+column does not imply otherwise.
 
 **Not claimed on the slide:** that Microsoft has never proposed an emoji. No Microsoft-authored
 proposal was found, but the master proposals chart could not be fully parsed, so the slide says the
