@@ -21,4 +21,4 @@ He: Your phone already has a stethoscope. It has an x-ray, and a crutch, and a b
 
 He: Our group is still asking for more medical emoji.
 
-He: Emoji are a universal language peple type every day, and we want to make sure healthcare and medicine are properly represented.
+He: Emoji are a universal language people type every day, and we want to make sure healthcare and medicine are properly represented.
