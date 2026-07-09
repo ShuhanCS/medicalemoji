@@ -47,8 +47,9 @@ Research Working Group before building one giant PDF.** Default assumption: **on
 
 - **Document A** — one proposal PDF *per concept* in the clear set. Filed via the form.
 - **Document B** — kidney, liver, stomach. Filed separately, same window. See Risks.
-- **Document C** — `Health as a Category in Emoji Ordering`. A paper to the working group. Not a form
-  submission; category structure lives in Emoji Ordering data, not in a character proposal.
+- **Document C** — `Health as a Category in Emoji Ordering`. A **UTC document**, emailed to
+  docsubmit@unicode.org, due **2026-07-21** for UTC #188 (Redmond, July 28–30). Not a form submission,
+  and explicitly barred from the emoji form. Plus a parallel CLDR ticket for the data change.
 
 ---
 
@@ -311,6 +312,60 @@ that sentence. Copy the structure, the counterarguments and the evidence discipl
 
 ## Document C — health as a category
 
+### There is no category submission form. There is a document channel.
+
+The emoji form is explicitly the wrong door:
+
+> "Do not submit emoji or character proposals to this address."
+> "**Emoji proposals must be submitted only through the Unicode Emoji Submission Form.**"
+> — <https://www.unicode.org/pending/docsubmit.html>
+
+A category is neither. It is a change to a Unicode Technical Standard and its data, so it travels as a
+**UTC document**, which is how the Emoji Subcommittee's own reports reach the committee.
+
+**Mechanism** (all verbatim from docsubmit.html):
+
+| Item | Requirement |
+|---|---|
+| Where | Email **docsubmit@unicode.org** — "to request that the document be added to the agenda" |
+| Subject | `UTC Doc: <name of your topic>` — "Make sure you have the following format for the subject line" |
+| Format | "Documents may be submitted in PDF or HTML format. The preferred document format is PDF." |
+| Fonts | "**Font embedding is required:** Please embed all of your fonts … This is extremely important!" |
+| First page | "must clearly identify the author or submitter, the subject, and the date of submission" |
+| Deadline | "The deadline for document submissions which do not require pre-screening or further review is **seven days before the start of the meeting**" |
+| Outcome | Unicode assigns an L2 number (`L2/26-nnn`) and the document becomes public in the register |
+
+There is no prescribed template beyond the first-page rule. Model it on the ESC's own quarterly reports
+(e.g. `L2/22-246`).
+
+### The date that matters
+
+**UTC #188 meets July 28–30, 2026, in Redmond, WA** (hybrid), per
+<https://www.unicode.org/L2/meetings/utc-meetings.html>. The register does not name a host organization,
+so do not assert that Microsoft hosts it — but Redmond is Microsoft's home ground and Rhew's colleagues
+are on the board.
+
+Seven days before July 28 is **2026-07-21**. That is **ten days before the emoji deadline**, and twelve
+days from this spec.
+
+Fallback: UTC #189, October 26–28, 2026, Nancy, France — deadline ~2026-10-19.
+
+### The data itself lives in CLDR
+
+`emoji-test.txt` states: *"The file is in CLDR order."* And UTS #51 §5 *Ordering and Grouping* says the
+Emoji Ordering data *"has been incorporated into CLDR."*
+
+So the change has two owners, and Document C should say so and address both:
+
+1. **UTC / Emoji Standard & Research Working Group** — the policy decision, via the L2 document above.
+2. **CLDR Technical Committee** — the data change, via a Jira ticket at
+   <https://unicode-org.atlassian.net/projects/CLDR/> ("To file a ticket, click the red 'Create' button").
+
+A third, weakest channel exists for spec comments: the UTS #51 reporting form,
+<https://www.unicode.org/reporting.html>. Use it only to log the issue, not to carry the argument.
+
+### The evidence
+
 Evidence from Unicode's own data file, <https://unicode.org/Public/emoji/latest/emoji-test.txt>
 (retrieved 2026-07-09):
 
@@ -359,6 +414,15 @@ clears the Emoji Proposal Agreement & License and the individual signatory.
 
 **CHECKPOINT:** commit the image set; signatory named.
 
+### Phase 2b — Document C, on its own clock (by 2026-07-21)
+Document C is **not** gated on artwork, licences, or eligibility. It is a policy paper with the evidence
+already in hand. Its deadline is **2026-07-21**, seven days before UTC #188 opens in Redmond — ten days
+*earlier* than the emoji deadline.
+
+**CHECKPOINT:** PDF with embedded fonts, first page naming author/subject/date, emailed to
+docsubmit@unicode.org with subject `UTC Doc: Health as a Category in Emoji Ordering`. Record the assigned
+L2 number. File the parallel CLDR Jira ticket.
+
 ### Phase 3 — Drafting (by 2026-07-24)
 Write each proposal against the seven inclusion and five exclusion factors, in Unicode's order and words.
 No cause arguments. No faulty comparisons to the heart and lungs.
@@ -384,3 +448,5 @@ Host the PDFs publicly. Submit each through the form. Send Document C to the wor
 - [ ] Final slate agreed (recommend five to six, not eleven)
 - [ ] Public hosting location for the PDFs
 - [ ] Partner organizations agree to be named
+- [ ] **Document C emailed by 2026-07-21** (seven days before UTC #188) — earlier than the emoji deadline
+- [ ] CLDR Jira account created and ticket filed for the ordering-data change
