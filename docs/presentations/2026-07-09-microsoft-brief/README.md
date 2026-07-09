@@ -4,27 +4,40 @@ Three slides appended to the *Emoji 2026 Brief* deck for a meeting with Microsof
 Chief Medical Officer & VP of Healthcare. Built to match the deck's existing phone-frame
 style (Century Gothic 30pt bold titles, `#484E56` ink, `#B7BDC6` frame).
 
+## Current deck — `Emoji-2026-Brief-v3.pptx` (8 slides)
+
 | # | Slide | Purpose |
 |---|-------|---------|
-| 6 | The 2021 JAMA set | The 14 clinical concepts we proposed. All 14 declined. |
-| 7 | Every resubmission reset the clock | Submission/decline timeline and 2026 re-eligibility. |
-| 8 | Where emoji decisions get made | Unicode governance, where the emoji subcommittee sits, and Microsoft's standing. |
+| 6 | Every resubmission reset the clock | Submission/decline timeline and 2026 re-eligibility. |
+| 7 | Inside the Unicode Consortium | Org chart: where Microsoft sits, and where emoji sits. |
+| 8 | Request | The ask (original slide, moved to the end). |
 
-Slide 9 is the original "Request" slide, moved to the end so the governance infographic
-lands immediately before the ask.
+Slides 1–5 are Shuhan's originals. He dropped the "2021 JAMA set" slide from v2 and renamed
+the timeline's middle column from "On a knife edge" to "Unclear".
+
+The org chart shows the Board of Directors and the four committees as **peers** under the
+Consortium. `consort.html` describes the committees but never says the Board governs them,
+so no reporting line is drawn between them. What the sources do establish precisely is that
+the five working groups — including Emoji Standard & Research — hang off the **UTC**, which
+is where the vote lives. That subtree is drawn in blue for exactly that reason.
 
 ## Files
 
-- `Emoji-2026-Brief-v2.pptx` — the full 9-slide deck
-- `infographic-unicode-microsoft.png` — slide 8 exported at 3200×1800 for dropping into any deck
-- `build_slides.py` — regenerates the three slides from the source deck
-- `render-6.png`, `render-7.png`, `render-8.png` — 1600×900 proofs
+- `Emoji-2026-Brief-v3.pptx` — the current 8-slide deck
+- `infographic-unicode-orgchart.png` — slide 7 at 3200×1800, for dropping into any deck
+- `deck_kit.py` — shared chrome/card/text helpers and the geometry QA pass
+- `build_orgchart.py` — rebuilds slide 7 from the v2 deck; touches no other slide
+- `orgchart.png` — 1600×900 proof of slide 7
+- `Emoji-2026-Brief-v2.pptx` — Shuhan's edited 9→8 slide deck, the input to the org chart
+- `build_slides.py` — **frozen**; produced the original v2 slides. Predates `deck_kit.py`.
+- `infographic-unicode-microsoft.png`, `render-6/7/8.png` — v2-era proofs
 
 Source deck: `C:\Users\Shuha\Downloads\Emoiji 2026 Brief.pptx` (not in this repo, too large).
-`build_slides.py` is self-contained: run `python build_slides.py` and it pulls the phone-frame
-chrome off the "Request" slide and the 14 emoji off "Our New Candidates", locating both by
-title rather than by index. It prints a geometry QA pass (out-of-bounds and overlap checks)
-on every run.
+The scripts locate slides by title rather than by index, and print a geometry QA pass
+(out-of-bounds and overlap checks) on every run.
+
+**Gotcha:** add a new slide *before* dropping one. A part created after a drop reuses the
+freed partname (`slide8.xml`) and silently overwrites the Request slide.
 
 ## The finding that matters
 
@@ -71,7 +84,14 @@ Either reading puts them on a knife edge. Confirm with Unicode before filing
 Verified against primary sources and safe to present:
 
 - UTC voting: Full member = 1 vote, Supporting = ½, all other tiers none — <https://www.unicode.org/consortium/utc.html>
-- Microsoft holds a Board of Directors seat: Vishal Chowdhary, VP of Science, Microsoft 365 Copilot — <https://unicode.org/consortium/directors.html>
+- Microsoft holds a Board of Directors seat: "Vishal Chowdhary, 2026 to present … Vice President
+  of Science at Microsoft where he leads Office AI Science team in Microsoft 365 Copilot" — verified
+  2026-07-09 at <https://unicode.org/consortium/directors.html>
+- The five UTC working groups: Emoji Standard & Research, Script Encoding, CJK & Unihan,
+  Properties & Algorithms, Editorial — <https://www.unicode.org/consortium/utc.html>
+- The Consortium has "three technical committees and the editorial committee" (UTC, CLDR TC,
+  ICU TC, Editorial Committee) — <https://www.unicode.org/consortium/consort.html>. That page
+  does **not** state a Board→committee reporting line; don't draw one.
 - The emoji body is now the **Emoji Standard & Research Working Group**, formerly the Emoji
   Subcommittee (ESC). It recommends; the UTC votes. It has no final encoding authority.
 - 2026 window: opened April 2, closes July 31; submitters notified by November 30 — <https://unicode.org/emoji/proposals.html>

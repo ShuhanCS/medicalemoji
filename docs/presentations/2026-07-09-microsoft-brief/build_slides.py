@@ -2,6 +2,11 @@
 
 Reads the source deck for everything it needs: the phone-frame chrome comes off the
 "Request" slide, the 14 candidate emoji come off "Our New Candidates".
+
+FROZEN. This produced v2 (9 slides). Shuhan then dropped the JAMA-set slide by hand and
+slide 7 was replaced by build_orgchart.py, so re-running this will NOT reproduce the
+current deck -- it is kept to document how the v2 slides were made. Its helpers were
+later extracted to deck_kit.py; new slides should import from there instead.
 """
 import io
 
