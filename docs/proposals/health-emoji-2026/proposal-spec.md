@@ -124,70 +124,35 @@ Supplemental terms for white blood cell: `immune system`, `immunity`, `infection
 
 ### 5.2 Supplemental usage evidence: the Copilot paper
 
-Verified against the primary source. The published PDF is open access, CC-BY, and
-downloads without a login despite the cookie redirect on the landing page.
+David Rhew asked for facts from this paper in the proposal. Here they are, in
+proposal-ready form. Paste and cite.
 
-```
-Title:      Public use of a generalist LLM chatbot for health queries
-Authors:    Costa-Gomes B, Tolmachev P, Taysom E, Sounderajah V, Richardson H,
-            Schoenegger P, Liu X, Nour MM, Spielman S, Way SF, Shah Y, Bhaskar M,
-            Nori H, Kelly C, Hames P, Gross B, Suleyman M, King D
-Affiliation: All 18 authors, Microsoft AI, Redmond WA. No external funding.
-Journal:    Nature Health. 2026;1(7):689-696. Published 16 April 2026.
-DOI:        10.1038/s44360-026-00117-x
-Access:     Open access, CC-BY 4.0. Not indexed in PubMed. Do not cite a PMID.
-Data:       617,827 de-identified Microsoft Copilot health conversations, January 2026.
-            Abstract rounds this to "over 500,000". Global, ~22% USA, ~45% English.
-            Eyes-off pipeline: PII scrubbed, LLM summarises, no researcher saw raw text.
-            LLM intent classifier validated against clinicians, 84% exact-match on n=131.
-```
+**Citation.** Costa-Gomes B, Tolmachev P, Taysom E, et al. Public use of a generalist LLM
+chatbot for health queries. *Nature Health.* 2026;1(7):689-696.
+doi:10.1038/s44360-026-00117-x. Open access, CC-BY. Analysis of 617,827 de-identified
+Microsoft Copilot health conversations from January 2026.
 
-**Claim (b), VERIFIED.** Verbatim: "Nearly one in five conversations involve users
-describing their own symptoms, interpreting their own test results or managing their own
-conditions." Denominator is **health conversations**, not all Copilot traffic. Underlying
-figures: symptom questions 10.9%, condition information 8.0%, summing to 18.9%. The paper
-calls this a lower bound.
+**Citable facts.**
 
-**Claim (c), VERIFIED but far narrower than advertised.** Verbatim: "one in seven
-conversations are on behalf of someone else, whether a child, an aging parent or a
-partner: for 'Symptom Questions and Health Concerns', 14.5% (95% CI 12.4-16.8) ... for
-'Condition Information and Care Questions', 14.9% (95% CI 12.6-17.6)." Denominator is
-**those two intent categories only**, from an annotated subsample of n=2,165. It does not
-generalise: for emotional wellbeing conversations the figure is 7.6% (95% CI 5.4-10.5).
-Never write "one in seven queries" unqualified.
+1. Nearly one in five health conversations involve people describing their own symptoms,
+   interpreting their own test results, or managing their own conditions. The authors call
+   this a lower bound.
+2. Among conversations about symptoms and conditions, roughly one in seven concern someone
+   other than the user: a child, an aging parent, or a partner. Conversational health
+   support is caregiving as well as self-care.
+3. Personal health queries rise markedly in the evening and nighttime hours, when
+   traditional healthcare is least available.
+4. Usage splits sharply by device. Mobile concentrates on personal health concerns, while
+   desktop is dominated by professional and academic work.
 
-**Claim (a), NOT SUPPORTED. Do not cite this paper for it.** The circulating summary says
-health is discussed more than almost any other topic on Copilot. This paper analysed a
-pre-filtered health subset and never compared health volume against other topics. The
-adjacent real finding belongs to a different paper (Costa-Gomes et al., arXiv:2512.11879),
-applies to **mobile only**, and says health was "the most prevalent topic category on
-mobile" rather than the superlative in the summary. That paper has not been verified here.
-If the claim is wanted, verify it separately and cite it correctly.
+Facts 3 and 4 are the ones that matter most for an emoji proposal, and neither appears in
+the summaries circulating online. Emoji are a mobile keyboard feature. Personal health
+conversation is a mobile, after-hours behaviour. That is the connection worth drawing.
 
-**The paper never mentions emoji, symbols, or visual communication.** The word does not
-appear. Citing it as evidence that emoji are used in health communication would be a
-fabricated connection and precisely the "faulty comparison" Unicode names as a factor for
-exclusion.
-
-How the verified findings map onto Unicode's factors:
-
-- **E, expected usage level.** Supplemental only. The paper measures conversational
-  volume, not search-term frequency, so it cannot substitute for the required Google
-  evidence in section 5.1. Its value is showing that personal health discussion at scale
-  happens in typed, informal, digital conversation.
-- **The strongest single fact for an emoji proposal** is not in the LinkedIn summary at
-  all. The paper reports that usage "diverges sharply by device: mobile concentrates on
-  personal health concerns, while desktop is dominated by professional and academic work,"
-  and that personal queries "increase markedly in the evening and nighttime hours, when
-  traditional healthcare is most limited." Emoji are a mobile keyboard feature. Personal
-  health talk is a mobile, after-hours behaviour. That is the argument.
-- **A, multiple concepts.** Caregiving is now evidenced: roughly one in seven symptom and
-  condition conversations concern a child, an aging parent, or a partner. Health
-  vocabulary is used relationally, not only self-referentially.
-
-Note for the coalition, not the proposal: every author is a Microsoft employee analysing
-Microsoft's own product, and the paper says so plainly. That is a disclosure, not a flaw,
-but it means the paper is best introduced by Microsoft rather than cited at them.
+**Two guardrails.** The paper studied only health conversations, so it cannot support a
+claim that health outranks other topics on Copilot. And it never mentions emoji, so cite
+it for where and when people discuss health, not as evidence that emoji are used in
+health communication.
 
 ### 5.3 Support letters
 
@@ -288,26 +253,7 @@ for its own logo or product. The proposal is for a body's defense cell, not for 
    before 2026-07-31?
 5. If only one character can be filed, is the white blood cell the right one?
 
-Question 5 now has a sharper answer than when this spec was started, and it cuts against
-the requested scope.
-
-The Copilot paper contains no organ-level or body-system breakdown of any kind. Its
-finest granularity is journey-type topic clusters: understanding new symptoms, making
-sense of recurring symptoms, plain-language explanations of lab or imaging results,
-medication safety and interactions, infant and child health. Nothing in it says people
-discuss kidneys, or livers, or immune cells at any particular rate.
-
-So the paper cannot be used to argue that any specific organ deserves an emoji. What it
-can argue is that personal health conversation is enormous, mobile, nocturnal, and
-frequently conducted on behalf of a family member. That argument supports the *program*
-and not any one character.
-
-Two consequences worth deciding on:
-
-- Of the unambiguously eligible concepts, **pill pack** maps onto the paper's own topic
-  clusters ("managing ongoing conditions", "medication safety, side effects, and
-  interactions") more directly than the white blood cell maps onto anything in it. If the
-  Copilot evidence is meant to carry the proposal, the pill pack is the better carrier.
-- If the white blood cell is chosen anyway, choose it on its own merits and cite the
-  Copilot paper only for context. Do not build its expected-usage case on a paper that
-  never counted immune-system queries.
+On question 5: the Copilot paper reports no organ-level breakdown, so it supports the
+program rather than any single character. Cite it as context in Section 8 and let the
+Google frequency evidence in 5.1 carry the expected-usage case for whichever character
+is filed.
