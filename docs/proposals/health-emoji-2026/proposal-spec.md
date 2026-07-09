@@ -24,9 +24,55 @@ Shuhan's stated scope: all the organs, the EKG, and the white blood cell.
 | Intestines | Declined, submitted 2024-04-04 | Thin | **No, barred to ~2028** |
 | ECG / EKG | Declined, submitted 2024-04-05 | **None** | **No, barred to ~2028** |
 | White blood cell | Declined, submitted 2020-12-18 | **None** | Yes |
+| Inhaler | Declined, submitted 2018-07-03 | **None** | **Yes, cleanly** |
 
-Read that table before writing a single line of proposal prose. Four of the seven
-requested concepts cannot go in this cycle, and two of the remainder have no artwork.
+Read that table before writing a single line of proposal prose. Four of the seven original
+concepts cannot go in this cycle, and the ones that can have no artwork.
+
+## 1.1 Which sets should exist
+
+Unicode's Factor F rewards a character that fills a gap in a **fixed, complete set**, and
+punishes proposals that ask it to encode an arbitrary category. So the question is not
+"which organs do we want" but "which sets does Unicode already believe in, and what is
+missing from them."
+
+Two sets already exist, both partially built. Verified against
+`unicode.org/Public/emoji/latest/emoji-test.txt`.
+
+**Set A, human anatomy.** 🧠 brain (E5.0), 🦴 bone and 🦷 tooth (E11.0), 🫀 anatomical
+heart and 🫁 lungs (E13.0). Missing: kidney, liver, stomach, spine, intestines, white
+blood cell. This is the set the project has always pushed on, and it is exactly where the
+four-year bar bites hardest. Every missing member has been declined, most of them twice.
+
+**Set B, the objects of care.** 💊 pill and 💉 syringe (E0.6), 🦠 microbe (E11.0),
+🩸 drop of blood, 🩹 adhesive bandage, 🩺 stethoscope (E12.0), 🩻 x-ray and 🩼 crutch
+(E14.0). Note that U+1FA7A, U+1FA7B, and U+1FA7C are contiguous: Unicode has been building
+this set deliberately, and recently. Missing: **inhaler**, pill pack, pill box, blood bag,
+IV bag, leg cast, CT scan, weight scale.
+
+Set B is the better place to file, for three reasons.
+
+1. **The completeness argument writes itself.** Unicode has encoded a stethoscope, an
+   x-ray, and a crutch. Those are instruments a clinician uses on a patient. The set has
+   almost nothing a patient uses on themselves. An inhaler is the most-used of those and
+   the most visually distinct.
+2. **Eligibility is clean.** The inhaler was submitted 2018-07-03 and declined that cycle,
+   which clears the four-year bar under any reading of the clock. The blood bag (2017) is
+   equally clear. Nothing about Set B depends on winning the argument in Section 2.
+3. **It matches the Copilot evidence.** The paper's own topic clusters are "managing
+   ongoing conditions" and "medication safety, side effects, and interactions." Those are
+   objects of care, not organs. The paper contains no organ-level breakdown at all.
+
+The inhaler also pairs with a character the project already helped land. The lungs
+(U+1FAC1) exist; the thing 363 million people with asthma put to their lips does not.
+COPD, the third leading cause of death worldwide, is treated with the same object.
+
+**Do not propose "all the organs" as a set.** Unicode declines arbitrary categories, and
+the stomach proposal in this repo already takes the right posture: argue independent merit
+and explicitly disclaim any demand that Unicode encode every organ. Keep that.
+
+**Defibrillator is barred.** Declined 2024-04-02, so it sits with spine, intestines, and
+ECG until roughly 2028. Do not add it.
 
 ## 2. The blocking constraint
 
@@ -65,16 +111,17 @@ the project does not have.
 
 Three options. Recommendation first.
 
-**Option A, recommended. File white blood cell alone this cycle, as a Microsoft-backed
-proposal.** It is unambiguously eligible, it is the only requested concept with no
-eligibility risk, and it lets the Copilot evidence carry a single clean character rather
-than a contested set. Build the artwork, which does not exist. Stage kidney, liver, and
-stomach for the next window once the clock question is answered.
+**Option A, recommended. File the inhaler this cycle, as a Microsoft-backed proposal.**
+Eligible under any reading of the clock. Fills a visible hole in a set Unicode is actively
+building (Section 1.1). Rides the lungs emoji the project already landed. Matches the
+Copilot paper's own topic clusters. Distinctive at 18x18 in a way an immune cell is not.
+Artwork must be built from scratch. Stage the anatomy set for the next window once the
+clock question is answered.
 
-**Option B. File white blood cell plus kidney, liver, and stomach**, with an explicit
-eligibility note in Section 5 as the stomach proposal already does. Higher reward, real
-risk: if the clock runs from the decline, three of the four characters are ineligible on
-arrival and the packet reads as careless.
+**Option B. File the inhaler plus the white blood cell.** Both are eligible. The white
+blood cell is weaker on distinctiveness, since a lobed nucleus in a pale cell body risks
+reading as the existing microbe emoji at 18x18, and weaker on open-endedness, since "why
+not the red blood cell" has no easy answer. Two characters, two artwork builds, 22 days.
 
 **Option C. File nothing this cycle.** Answer the clock question, build artwork for the
 white blood cell and the EKG, and come back in 2027 with a complete set. Costs a year.
