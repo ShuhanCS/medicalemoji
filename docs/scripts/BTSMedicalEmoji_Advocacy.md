@@ -3,29 +3,8 @@
 Source text for `BTSMedicalEmoji_Advocacy_V1.docx`. One paragraph per line. Regenerate
 with `python scripts/build_bts_scripts.py`.
 
-Audience: Massachusetts General Hospital patients, on social media. Plain speech. The
-script is about people's health, not about a tour of the organs.
 
-Evidence, and the exact limits of it. All figures come from Costa-Gomes B, Tolmachev P,
-Taysom E, et al. "Public use of a generalist LLM chatbot for health queries." Nature
-Health. 2026;1(7):689-696. doi:10.1038/s44360-026-00117-x. Open access. 617,827
-de-identified Microsoft Copilot health conversations, January 2026.
-
-- "Nearly one in five" is one in five of the HEALTH conversations studied, not one in
-  five of everything people ask an assistant. The script says "of those conversations,"
-  which preserves the denominator.
-- "One in seven" is one in seven of the symptom and condition conversations only, from an
-  annotated subsample of 2,165. It does not hold for emotional wellbeing conversations,
-  where the figure is 7.6 percent. The script scopes it to symptoms and conditions.
-- Do NOT say health is discussed more than almost any other topic on Copilot. This paper
-  does not support that. It analysed a pre-filtered health subset and never compared
-  health against other topics. The related finding lives in a different paper, applies to
-  mobile only, and has not been verified here.
-- The paper never mentions emoji, symbols, or visual communication. Do not imply it did.
-
-He: Think about how often you talk about your health. Not in a doctor’s office. At the kitchen table. In a message to your sister. Into a phone at eleven at night, because something does not feel right and the appointment is three weeks away.
-
-He: Researchers at Microsoft studied more than five hundred thousand conversations that people had with an artificial intelligence assistant about health.
+He: Researchers at Microsoft studied more than five hundred thousand conversations that people had with an artificial intelligence assistant.
 
 He: Nearly one in five of those conversations was somebody describing their own symptoms, trying to make sense of their own test results, or managing a condition they live with.
 
