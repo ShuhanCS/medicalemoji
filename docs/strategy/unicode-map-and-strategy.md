@@ -60,6 +60,56 @@ flowchart TD
 
 ---
 
+## 🧩 What ESR and CLDR actually are
+
+They both touch emoji, they are constantly confused, and only one of them matters to us.
+
+### ESR: the room where it happens
+
+The **Emoji Standard & Research Working Group** is a working group under the UTC. It used to be the
+**Emoji Subcommittee (ESC)**, and the rename is recent enough that Unicode's own leadership page uses both
+names in one entry: Jennifer Daniel's title reads *"Chair, UTC Emoji Standard & Research Working Group,"*
+and her biography, one line down, says *"Jennifer Daniel is the Unicode Emoji Subcommittee chair."*[^1] So
+ESC in older documents and ESR in newer ones are the same body.
+
+Every emoji proposal on earth lands here first. ESR reads them, decides which are worth advancing, and
+writes a report to the UTC recommending what to approve. Those reports are public and are signed "on behalf
+of the ESR," with no member roster.
+
+Formally, ESR only recommends. The UTC votes. That understates it badly. The UTC does not relitigate
+proposals one by one; it takes the recommendation. **A proposal ESR does not advance never reaches a vote.**
+Section 5 below shows exactly that happening to us.
+
+ESR also owns the grouping: the ten top-level groups, the `medical` subgroup, and the file where they live.
+
+### CLDR: the plumbing underneath every language
+
+The **Common Locale Data Repository** is a separate technical committee, a sibling of the UTC, chaired by
+Mark Davis. It is *"responsible for the Unicode Locales Project, the Common Locale Data Repository, and
+related software localization standards."*[^18] It is the database that makes software work in every
+language: date formats, number formats, currency symbols, translated country names, and the sort order of
+each language's alphabet.
+
+Emoji touch CLDR in two places. **Names and keywords in every language** live there, which is why searching
+your keyboard for "kidney" or *riñón* works, and it is where the `Keywords` field of an emoji proposal
+eventually lands. And **sort order** lives there, which is why `emoji-test.txt` says "the file is in CLDR
+order."
+
+**The trap.** Read those two facts and you conclude CLDR owns emoji grouping. It does not. The taxonomy is
+typed by hand into `emojiOrdering.txt` in `unicode-org/unicodetools`,[^7] generated into
+`emoji-test.txt`,[^8] and only then copied into CLDR. **CLDR receives the grouping. It does not decide it.**
+A CLDR ticket asking for a Health group would land on people who do not own the answer.
+
+| | ESR | CLDR |
+|---|---|---|
+| Is | Working group under the UTC | Sibling technical committee |
+| Cares about | Which emoji exist, and how they are grouped | How software behaves in every language |
+| Owns | `emojiOrdering.txt`, and proposal screening | Emoji names and keywords per language, sort order |
+| To us | The room where everything is decided | Downstream plumbing |
+| Members public | **No.** Chair only | Chair public |
+
+---
+
 ## 🧑‍💼 Microsoft's real footprint
 
 | Person | Role | Microsoft? | Status |
@@ -113,6 +163,75 @@ Microsoft is not one voice among dozens; it is one of roughly five that consiste
 That does not make approval a formality. The guidelines say the Consortium *"approves fewer and fewer emoji
 proposals every year."*[^5] It does mean a Microsoft-carried proposal is heard by a small room in which
 Microsoft always has a chair.
+
+---
+
+## 📜 What Unicode's public record says about us
+
+Yes, there are public minutes, and we are in them. Every document below was fetched and read on
+2026-07-09.
+
+### The heart and lungs are in the permanent record, and they were carried by an organization
+
+From the 2019 document register, verbatim rows:[^14]
+
+| Doc | Title | Source | Date |
+|---|---|---|---|
+| L2/19-149 | `Proposal for Emoji: LUNG` | **`Emojination` / Christian Kamkoff, Shuhan He** | 2019-04-23 |
+| L2/19-150 | `Proposal for Emoji: HEART (ORGAN)` | **`Emojination` / Christian Kamkoff, Shuhan He** | 2019-04-23 |
+
+Read the source field again. **The only medical emoji this project ever landed were filed under an
+organization's name, not an individual's.** Emojination, the advocacy group that shepherds outside
+proposals through Unicode, is listed first. That is the same pattern as Apple's accessibility set. It is
+already our own precedent, and we stopped using it.
+
+### They made the agenda, and the UTC discussed them by name
+
+The Emoji Subcommittee's own recommendation document, **L2/19-190R**, lists both, each cross-referenced to
+our proposal numbers, with the keywords and the classification the subcommittee assigned:[^15]
+
+```
+U+1FAC0 HEART    L2/19-150   heartbeat | pulse | center | organ                People_and_Body body-parts
+U+1FAC1 LUNGS    L2/19-149   breath | inhalation | exhalation | respiration    People_and_Body body-parts
+```
+
+Note the last column. **`People_and_Body body-parts` was assigned by the subcommittee in this document.**
+The classification we now want revisited was a default set at recommendation time, not a considered
+decision about medical emoji. Document C should cite this line.
+
+Then the UTC acted, on the record:
+
+- **UTC #159**, minutes L2/19-122: *"[159-C12] Consensus: Advance the 55 characters in point 1 of
+  L2/19-190 to draft candidate status for Unicode 13.0."*[^16] Our two are among the 55.
+- **UTC #160**, minutes L2/19-270: *"[160-C8] Consensus: Change the name of U+1FAC0 from HEART to
+  ANATOMICAL HEART."*[^17] Four action items follow, to Ken Whistler and Mark Davis, updating
+  `UnicodeData.txt`, the pipeline and the emoji charts.
+
+That is the moment the anatomical heart got its name, written down.
+
+### Everything else does not exist
+
+I grepped every published document register from 2018 through 2026.
+
+> **"kidney" appears zero times. In every register. In all nine years.**
+
+The same for stomach, liver, spine, intestines, ECG, white blood cell, blood bag, IV bag, CT scan, pill
+pack, pill box, leg cast and weight scale. Zero in the registers. Zero in the UTC agendas. Zero in the
+minutes.
+
+Unicode still publishes individual emoji proposals as L2 documents. `L2/23-031 Proposal for Emoji: Lime`,
+`L2/24-249 Proposal for Emoji: Orca`, `L2/25-253 Proposal for Emoji: PICKLE`. So the absence is not a
+change of policy. **The absence means our declined proposals never advanced far enough to become
+documents.**
+
+### What that means, plainly
+
+The UTC never saw the kidney. It was never voted down, never debated, never minuted. **It died inside ESR,
+in a room whose membership is not published, and no record of the decision exists anywhere public.** That
+is why there is no decline date to find.
+
+There is nothing to appeal, because nothing was decided in the open. The gate is ESR, and it always was.
+Everything in the strategy below follows from that single fact.
 
 ---
 
@@ -196,8 +315,9 @@ categories are revisable. It does not prove we can revise them.
 | 2 | **Have a Microsoft Delegate submit the category document** | Chowdhary names them | Turns a proposal the committee may ignore into business it handles |
 | 3 | **Ask Constable for procedural guidance** | Chowdhary introduces | The UTC Chair is a Microsoft colleague. Ask about venue and process, never about outcome. |
 | 4 | **Rhew signs the emoji proposals personally** | Rhew | The form rejects company names. There is no alternative. |
-| 5 | **Microsoft's UTC vote** | the Delegate | One of about five that regularly attend, cast at the very end |
-| 6 | **The board seat** | Chowdhary | Opens doors. Decides nothing about the standard. |
+| 5 | **Re-engage Emojination** | Shuhan | Our only two successful emoji were filed under Emojination's name.[^14] Its founder later became vice-chair of the emoji subcommittee. We already know this works. |
+| 6 | **Microsoft's UTC vote** | the Delegate | One of about five that regularly attend, cast at the very end |
+| 7 | **The board seat** | Chowdhary | Opens doors. Decides nothing about the standard. |
 
 ---
 
@@ -280,3 +400,13 @@ Everything downstream is gated on the answers, and the whole thing costs one mes
 [^12]: L2/18-024, "ESC Recommendations for Emoji 12.0." https://www.unicode.org/L2/L2018/18024-emoji-recs12.pdf
 
 [^13]: Unicode Consortium, "UTC Meetings and Minutes." https://www.unicode.org/L2/meetings/utc-meetings.html
+
+[^14]: Unicode Document Register 2019. Rows for L2/19-149 and L2/19-150, source field "Emojination / Christian Kamkoff, Shuhan He", dated 2019-04-23. https://www.unicode.org/L2/L2019/Register-2019.html . The proposals themselves: https://www.unicode.org/L2/L2019/19149-lung-emoji.pdf and https://www.unicode.org/L2/L2019/19150-heart-emoji.pdf
+
+[^15]: L2/19-190R, "Emoji Recommendations 2019Q2 (revised)", source ESC. https://www.unicode.org/L2/L2019/19190r-emoji-candidate-recs.pdf
+
+[^16]: UTC #159 Minutes, L2/19-122. https://www.unicode.org/L2/L2019/19122.htm
+
+[^17]: UTC #160 Minutes, L2/19-270. https://www.unicode.org/L2/L2019/19270.htm
+
+[^18]: Unicode Consortium, "The Unicode Consortium": the CLDR Technical Committee is "Responsible for the Unicode Locales Project, the Common Locale Data Repository, and related software localization standards and documents." https://www.unicode.org/consortium/consort.html

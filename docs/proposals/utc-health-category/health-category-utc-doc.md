@@ -159,9 +159,21 @@ fourteen subgroups across seven groups. The `medical` subgroup accounts for seve
 | Travel & Places > transport-ground | ambulance |
 | Smileys & Emotion > face-negative | skull and crossbones |
 
-The anatomical heart (`U+1FAC0`) and lungs (`U+1FAC1`) were encoded in Emoji 13.0 following a proposal made
-on medical grounds. Both are classified under `People & Body > body-parts`, alongside the mechanical arm
-and the ear. Neither appears in the `medical` subgroup.
+The anatomical heart (`U+1FAC0`) and lungs (`U+1FAC1`) were encoded in Emoji 13.0 following proposals made
+on medical grounds, L2/19-150 and L2/19-149. Both are classified under `People & Body > body-parts`,
+alongside the mechanical arm and the ear. Neither appears in the `medical` subgroup.
+
+That classification was assigned in the Emoji Subcommittee's recommendation document, L2/19-190R, which
+lists each character against its proposal number and its group:
+
+```
+U+1FAC0 HEART    L2/19-150   heartbeat | pulse | center | organ                People_and_Body body-parts
+U+1FAC1 LUNGS    L2/19-149   breath | inhalation | exhalation | respiration    People_and_Body body-parts
+```
+
+The subgroup `medical` already existed when that recommendation was made. In Emoji 12.0, published earlier
+that year, it held the syringe, the pill, the drop of blood, the adhesive bandage and the stethoscope. Two
+characters proposed as medical emoji were nonetheless placed among body parts.
 
 A user looking for health emoji must therefore search a minimum of seven palette sections.
 
