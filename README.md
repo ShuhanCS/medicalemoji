@@ -1,5 +1,16 @@
 # Medical Emoji
 
+## ⏳ Deadlines
+
+| Due | What | Where |
+|---|---|---|
+| **2026-07-21** | **UTC document: "Health as a Category in Emoji Ordering"** — seven days before UTC #188 (July 28–30, Redmond, WA) | Email `docsubmit@unicode.org`, subject `UTC Doc: <topic>`. Spec: [`docs/plans/2026-07-09-utc-doc-health-category-spec.md`](docs/plans/2026-07-09-utc-doc-health-category-spec.md) |
+| 2026-07-31 | Emoji proposal(s), 2026 submission window closes | [Emoji Submission Form](https://forms.gle/6KSiYHrUdBkTMNaB8). Spec: [`docs/plans/2026-07-09-microsoft-health-emoji-proposal.md`](docs/plans/2026-07-09-microsoft-health-emoji-proposal.md) |
+| 2026-11-30 | Unicode notifies all submitters of status | — |
+
+The UTC document is due **ten days before** the emoji deadline and is gated on none of the artwork,
+licensing, or eligibility work. It moves first.
+
 Medical Emoji is a campaign and proposal workspace for adding high-utility medical emoji to the Unicode Standard.
 
 This repository contains the public website, prior support materials, current Unicode research notes, and proposal planning files for the medical emoji concepts the project has pursued.
