@@ -4,28 +4,26 @@ Source text for `BTSMedicalEmoji_Advocacy_V1.docx`. One paragraph per line. Rege
 with `python scripts/build_bts_scripts.py`.
 
 Audience: Massachusetts General Hospital patients, on social media. Plain speech. Name
-organs, not acronyms. No society alphabet soup, no proposal numbers.
+organs, not acronyms. No society names, no proposal numbers, no version numbers.
 
 He: The heart and the lungs are on your keyboard now. There is a longer list that is not.
 
-He: Our group is still asking for about ten more medical emoji. The list is not random. Every one of them stands for something that sends people to the hospital.
+He: Our group is still asking for about ten more medical emoji. Every one of them stands for something that sends people to the hospital.
 
-He: The kidney. One in ten people in the world has chronic kidney disease, and most of them do not know they have it.
+He: The kidney. One in ten people in the world has chronic kidney disease, and most of them do not know they have it. More medical organizations have stood behind the kidney than behind anything else we have proposed.
 
-He: More medical organizations have stood behind the kidney than behind anything else we have proposed. Kidney doctors, kidney foundations, and kidney patients on several continents have written letters asking for it.
-
-He: The liver. It is the organ people joke about and almost never picture. Liver disease is common, and it is often silent until it is advanced.
+He: The liver, which people joke about and almost never picture. Liver disease is common, and it is often silent until it is advanced.
 
 He: The stomach and the intestines, because digestive symptoms are among the most common reasons anyone calls a doctor at all.
 
 He: The spine, because back pain sends more people looking for help than almost any other kind of pain.
 
-He: Not everything on the list is an organ. The heart tracing you see running across a hospital monitor is probably the most recognizable image in all of medicine, and there is still no emoji for it.
+He: Not everything on the list is an organ. The heart tracing that runs across a hospital monitor may be the most recognizable image in all of medicine, and there is still no emoji for it.
 
-He: There is a white blood cell, for the body’s defenses. A blood bag, for donation drives. A pill pack, because remembering medication is one of the hardest parts of living with a long illness. And a scale, because we ask patients with heart failure to weigh themselves every single morning.
+He: There is a white blood cell. A blood bag, for donation drives. A pill pack, because remembering medication is one of the hardest parts of living with a long illness. And a scale, because we ask patients with heart failure to weigh themselves every morning.
 
-He: People ask why any of this takes so long.
+He: People ask why this takes so long.
 
-He: It takes long because the Unicode Consortium does not add an emoji simply because it would be nice to have. You have to show that people will genuinely use it, and that nothing else already fills the gap. A letter from a medical society is how an entire field says this matters, rather than one doctor saying it alone.
+He: It takes long because nobody adds an emoji simply because it would be nice to have. You have to show that people will genuinely use it. A letter from a medical society is how an entire field says this matters, rather than one doctor saying it alone.
 
-He: That is what we are gathering now. The heart took years. We are patient.
+He: The heart took years. We are patient.
