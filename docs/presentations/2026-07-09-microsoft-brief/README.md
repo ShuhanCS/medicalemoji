@@ -4,13 +4,14 @@ Three slides appended to the *Emoji 2026 Brief* deck for a meeting with Microsof
 Chief Medical Officer & VP of Healthcare. Built to match the deck's existing phone-frame
 style (Century Gothic 30pt bold titles, `#484E56` ink, `#B7BDC6` frame).
 
-## Current deck — `Emoji-2026-Brief-v3.pptx` (8 slides)
+## Current deck — `Emoji-2026-Brief-v4.pptx` (9 slides)
 
 | # | Slide | Purpose |
 |---|-------|---------|
 | 6 | Every resubmission reset the clock | Submission/decline timeline and 2026 re-eligibility. |
 | 7 | Inside the Unicode Consortium | Org chart: where Microsoft sits, and where emoji sits. |
-| 8 | Request | The ask (original slide, moved to the end). |
+| 8 | Whole sets get through | Organizational precedent, anchored on Apple's 2018 accessibility set. |
+| 9 | Request | The ask (original slide, moved to the end). |
 
 Slides 1–5 are Shuhan's originals. He dropped the "2021 JAMA set" slide from v2 and renamed
 the timeline's middle column from "On a knife edge" to "Unclear".
@@ -21,9 +22,46 @@ so no reporting line is drawn between them. What the sources do establish precis
 the five working groups — including Emoji Standard & Research — hang off the **UTC**, which
 is where the vote lives. That subtree is drawn in blue for exactly that reason.
 
+## Slide 8: the set precedent
+
+Verified by loading the primary document
+(<https://www.unicode.org/L2/L2018/18080-accessibility-emoji.pdf>):
+
+> "Proposal For New Accessibility Emoji **Submitter: Apple Inc. Date: March 2018**"
+
+> "Developed in collaboration with internationally respected community organizations such as
+> American Council of the Blind, the Cerebral Palsy Foundation and the National Association of the Deaf"
+
+Nine concepts shipped in Emoji 12.0 (2019): guide dog, service dog, probing cane, manual and
+motorized wheelchairs, ear with hearing aid, deaf person, mechanical arm, mechanical leg.
+
+**The technique matters more than the precedent.** Apple pre-emptively disarmed Unicode's
+"Open-ended" exclusion factor in its own text:
+
+> "This is not meant to be a comprehensive list of all possible depictions of disabilities, but to
+> provide an initial starting point."
+
+Compare Unicode's selection factors (<https://unicode.org/emoji/proposals.html>): *"Is it just one
+of many...? If this emoji is added, will it result in the need to add other similar types."* and
+*"The goal is iconic representation of large categories, not completeness in the sense of filling
+out the categories of a scientific or taxonomic classification system."*
+
+A fourteen-organ set reads as a taxonomy — which is very likely part of why every one was declined.
+A curated set, carried by a member, reads as Apple 2018.
+
+Other precedents on the slide: Plan International UK + NHS Blood and Transplant (drop of blood,
+Emoji 12.0; their narrower "period pants" was declined first); Tinder + Emojination (71
+holding-hands combinations, Emoji 12.1); Google (gender-inclusive designs, L2/19-078).
+
+**Not claimed on the slide:** that Microsoft has never proposed an emoji. No Microsoft-authored
+proposal was found, but the master proposals chart could not be fully parsed, so the slide says the
+medical set is unclaimed rather than asserting a negative about Microsoft.
+
 ## Files
 
-- `Emoji-2026-Brief-v3.pptx` — the current 8-slide deck
+- `Emoji-2026-Brief-v4.pptx` — the current 9-slide deck
+- `build_sets_slide.py` / `sets.png` — slide 8 and its proof
+- `Emoji-2026-Brief-v3.pptx` — 8-slide deck, input to the sets slide
 - `infographic-unicode-orgchart.png` — slide 7 at 3200×1800, for dropping into any deck
 - `deck_kit.py` — shared chrome/card/text helpers and the geometry QA pass
 - `build_orgchart.py` — rebuilds slide 7 from the v2 deck; touches no other slide
@@ -70,6 +108,36 @@ shuts. Counted from submission instead, they clear by 12, 3 and 1 day respective
 
 Either reading puts them on a knife edge. Confirm with Unicode before filing
 `submissions/v1.1.0/v1.1.0_kidney_emoji_proposal_SUBMIT.md`.
+
+### There is no public decline date — for any emoji
+
+Checked 2026-07-09 and confirmed by loading each artifact:
+
+- The status sheet has three columns only: `Emoji | Status | Date Submitted`. No decline column.
+  The column cannot be a decline date: rows with status `Under Consideration` carry dates too.
+- **UTC #173 minutes** (<https://www.unicode.org/L2/L2022/22241.htm>) record no per-proposal emoji
+  declines. The Emoji Subcommittee report was delivered orally. The UTC does not vote proposals
+  down individually.
+- The Q3/Q4 2022 ESC reports (L2/22-126, L2/22-246) are scanned image PDFs with no decline table.
+- The [Notices of Non-Approval archive](https://www.unicode.org/alloc/nonapprovals.html) stops at
+  2019 and covers formal character rejections, not emoji ESC declines.
+
+Charlotte Buff: declined decisions "were only shared privately with the proposal authors."
+
+**So the decline date exists in exactly one place: the private notification email Unicode sent the
+submitter, ~November 2022. Shuhan is the submitter. Search that mailbox before asking Unicode.**
+
+A logical corollary worth remembering: a proposal submitted inside a window is always declined
+*after* that window closed. So a 2022-cycle proposal can never clear a 2026-07-31 deadline under
+the decline clock, whatever the exact date. The two readings necessarily disagree for anything
+filed in a window's final days.
+
+One argument in our favour: the bar was **two years** until the four-year text appeared (present by
+the March 2024 reopening announcement, <http://blog.unicode.org/2024/03/emoji-submissions-intake-process-re.html>).
+Under the rule in force at the time of the ~Nov 2022 decline, the bar lapsed ~Nov 2024. Whether
+Unicode applies the longer bar retroactively is unaddressed by any source. (The two-year history
+comes from archived snapshots; web.archive.org is unfetchable from here, so re-verify before
+relying on it.)
 
 ### 2026-07-31 eligibility
 
