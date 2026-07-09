@@ -1,30 +1,41 @@
-# BTS EbVAS, and the children we have not studied yet
+# BTS EbVAS, the faces scale that goes home with you
 
 Source text for `BTSEbVAS_PediatricPRO_V1.docx`. One paragraph per line. Regenerate with
 `python scripts/build_bts_scripts.py`.
 
-Audience: Massachusetts General Hospital patients, on social media. The shortest of the
-three by design. Plain speech, no statistics a patient cannot picture.
+Audience: Massachusetts General Hospital patients, on social media. Plain speech, no
+statistics a patient cannot picture.
 
-Accuracy note for anyone editing this file: the JAMA 2022 study enrolled adults only,
-median age 65. No pediatric validation of an emoji pain scale exists anywhere in the
-literature. Do not add a line that implies otherwise. The closing admission is the point
-of the script, not a disclaimer to be trimmed.
+Spine: everyone already knows the faces scale, but it lives on a card in the clinic.
+Ours is made of emoji, so it lives in the patient's phone and works at home. The study
+is the proof that emoji carry real clinical information.
 
-He: When you come to the emergency department in pain, we ask you a strange question. On a scale of zero to ten, how bad is it?
+Accuracy notes for anyone editing this file.
 
-He: That question works. But it asks you to turn a feeling into a number, in a language you may not speak, on what might be the worst day of your life.
+The JAMA 2022 study enrolled adults only, median age 65. No pediatric validation of an
+emoji pain scale exists anywhere in the literature, and the published reply by Renne,
+He, and Lee concedes this in print. This script therefore makes no pediatric claim at
+all. If you add children back as an audience for the emoji scale, you must also add back
+the line stating the pediatric study has not been run. The two travel together.
 
-He: So we built a pain scale out of six emoji faces, and we tested it here at Mass General. One hundred and nine patients rated their pain twice. Once with the numbers, and once with the faces.
+Do not claim the existing drawn faces scales are unavailable or closed. They are free to
+use, unmodified, in the clinic. The honest difference is that they are not in the
+patient's phone and ours is.
 
-He: The two agreed closely. The typical patient landed on the same score either way. We published it in the Journal of the American Medical Association.
+He: If you have ever been in a hospital, you have seen the faces scale. A row of drawn faces on a card or a poster, running from comfortable to miserable. Point at the one that looks like how you feel.
 
-He: The faces are not decoration. They measure what the numbers measure.
+He: It has been used for about forty years because it works. It works for people who do not read the language printed on the chart, and for anyone too exhausted to do arithmetic about their own pain.
 
-He: Which makes me think about the patients who cannot use numbers at all. Children. A child can usually give you a reliable number somewhere around the age of eight. Younger than that, numbers stop working.
+He: But that scale lives in the clinic. It is a card in a drawer, or a poster taped to a wall. When you go home, it stays behind. The pain you have at two in the morning, three days after surgery, is the pain that nobody measures.
 
-He: Emoji are already sitting on the phone in a parent’s hand, in nearly every language on earth, and anybody can use them for free.
+He: So we rebuilt the faces scale out of emoji. Not a picture we send to you, but the characters that are already sitting in the keyboard of your own phone.
 
-He: Now here is the honest part. We have not tested this in children yet. Everyone in our study was an adult. Until that work is done, it is a promising idea and not a proven one.
+He: We tested it here at Mass General. One hundred and nine patients rated their pain twice. Once with the usual zero to ten numbers, and once with the faces.
 
-He: I would like us to be the ones who do it.
+He: The two agreed closely. The typical patient landed on the same score either way. We published that in the Journal of the American Medical Association.
+
+He: That is the part I want people to understand. The emoji are not decoration. They measure what the numbers measure. Emoji have become a real part of how patients tell us what is happening inside them.
+
+He: And because they are already on your phone, you can use them from your own kitchen table. In a message to your doctor. In a telehealth visit. In nearly any language on earth, for free.
+
+He: Emoji began as a way for people to say how they feel. That turns out to be exactly what medicine has been asking patients to do all along.
