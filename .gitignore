@@ -47,3 +47,7 @@ next-env.d.ts
 
 # Git worktrees
 .worktrees/
+
+# Python
+__pycache__/
+*.pyc
