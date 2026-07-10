@@ -5,6 +5,9 @@ date-meta: "2026-07-10"
 subject: "Discussion document for UTC and the Emoji Standard and Research Working Group"
 geometry: margin=1in
 fontsize: 10pt
+mainfont: "Georgia"
+numbersections: true
+colorlinks: false
 ---
 
 ```text
@@ -51,14 +54,17 @@ The requested outcome is an ESR recommendation and documented review framework, 
 
 The review should use a coverage matrix with six domains:
 
-| Domain | Existing examples | Gap questions |
-| --- | --- | --- |
-| Anatomy | brain, anatomical heart, lungs, tooth, mechanical limbs | Are major internal organs and body systems represented distinctly enough for ordinary communication? |
-| Diagnostics | x-ray, stethoscope, thermometer-related face | Are common diagnostic modalities and readings represented without over-specific device branding? |
-| Laboratory medicine | test tube, petri dish, DNA, microbe | Are specimen, cell, blood, and laboratory concepts organized coherently? |
-| Medication | pill, syringe, drop of blood | Are medication-use concepts such as Pill Box and Inhaler independently useful and visually distinct? |
-| Emergency care | adhesive bandage, crutch, ambulance, hospital | Are first-response objects and care actions represented as broad paradigms rather than logos? |
-| Clinical equipment | stethoscope, x-ray, crutch | Which equipment concepts have broad public use, a clear silhouette, and no existing substitute? |
+**Anatomy.** Brain, anatomical heart, lungs, tooth, and mechanical limbs; assess whether major internal organs and systems are represented distinctly enough for ordinary communication.
+
+**Diagnostics.** X-ray, stethoscope, and thermometer-related face; assess common modalities and readings without over-specific device branding.
+
+**Laboratory medicine.** Test tube, petri dish, DNA, and microbe; assess whether specimen, cell, blood, and laboratory concepts are organized coherently.
+
+**Medication.** Pill, syringe, and drop of blood; assess whether Pill Box and Inhaler are independently useful and visually distinct.
+
+**Emergency care.** Adhesive bandage, crutch, ambulance, and hospital; assess first-response objects and care actions as broad paradigms rather than logos.
+
+**Clinical equipment.** Stethoscope, x-ray, and crutch; identify equipment concepts with broad public use, clear silhouettes, and no existing substitute.
 
 The matrix is an analytical tool. It does not imply that every row or gap should produce a character.
 
