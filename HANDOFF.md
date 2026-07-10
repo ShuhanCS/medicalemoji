@@ -29,15 +29,12 @@ The 2026 submission window closes **2026-07-31**.
 
 ## The five things that decide this
 
-1. **Eligibility, and why it is the wrong thing to obsess over.** Unicode bars a declined emoji from
-   re-review for four years. **Which date starts the clock is genuinely unknown.** All three published
-   phrasings anchor on the decline (*"emoji declined within the last four years"*), and no source anchors on
-   the submission, but Unicode never states it. Do not claim to know.
+1. **Eligibility and portfolio risk.** The private notices were found: Kidney, Stomach, and Liver were each
+   declined on **2022-11-04**. Unicode bars a declined emoji from re-review for four years, but **which date
+   starts the clock and whether the rule is retroactive are genuinely unknown.** Do not claim to know.
 
-   I tested it. Run `python evidence/resubmission_analysis.py`. **The evidence leans toward the submission
-   clock, and does not establish it.**
-
-   Six resubmissions ever advanced. Count how many each model has to explain away as an anomaly:
+   Run `python evidence/resubmission_analysis.py`. The evidence leans toward a submission-date clock but does
+   not establish one. Six resubmissions ever advanced:
 
    | Concept | Gap | Submission clock | Decline clock |
    |---|---|---|---|
@@ -48,45 +45,18 @@ The 2026 submission window closes **2026-07-31**.
    | Raspberry | 2.09y | eligible | barred |
    | Treasure chest | 5.79y | eligible | eligible |
 
-   Under the submission clock, 3 of 6 advances are violations. Under the decline clock, 5 of 6 are. Fewer
-   anomalies favours the submission clock.
+   Under the submission clock, 3 of 6 advances are anomalies; under the decline clock, 5 of 6 are. The bar
+   is demonstrably not enforced mechanically under either reading: Phoenix advanced after six months.
+   Only Unicode can give a controlling interpretation. The exact question and notice record are in
+   [`docs/research/2022-organ-decline-notifications.md`](docs/research/2022-organ-decline-notifications.md).
 
-   **But the bar is demonstrably not enforced mechanically under either reading.** Phoenix was resubmitted
-   six months after a decline and released. Once discretion is proven, anomaly-counting stops being
-   decisive. Note also that two of the three both-barred advances were subcommittee insiders: Pink Heart by
-   Jennifer Daniel, chair of ESR, and Phoenix by Jennifer 8. Lee / ESC. The third, Hand Heart, was an
-   outsider.
+   The portfolio evidence still matters. First-time proposals advance 16% of the time; resubmissions advance
+   5%. A never-before-proposed medical concept therefore remains the higher-probability fallback described in
+   [`docs/strategy/2026-07-09-what-to-file.md`](docs/strategy/2026-07-09-what-to-file.md).
 
-   Only Unicode can answer this. A drafted, unsent email asking exactly that is in
-   `docs/proposals/kidney-emoji-2026/decline-date-submission-update.md`.
-
-   **What the data does settle is about us.** Five of the fourteen concepts were resubmitted *while barred*,
-   even under the generous submission clock:
-
-   | Concept | Prior | Resubmitted | Gap | Bar then |
-   |---|---|---|---|---|
-   | Liver | 2020-12-18 | 2022-07-30 | 1.61y | 2y |
-   | Stomach | 2020-10-27 | 2022-07-28 | 1.75y | 2y |
-   | Intestines | 2020-12-18 | 2024-04-04 | 3.29y | 4y |
-   | ECG | 2020-12-18 | 2024-04-05 | 3.30y | 4y |
-   | Spine | 2020-10-27 | 2024-04-05 | 3.44y | 4y |
-
-   They were never going to be reviewed. **Five of the "fourteen rejections" were ineligible filings, not
-   verdicts on medical emoji.**
-
-   **And resubmission is a losing move regardless.** First-time proposals advance 16% of the time.
-   Resubmissions advance **5%**. Of 53 resubmissions filed inside the bar, 50 were declined. Of the three
-   that ever beat the bar, two were subcommittee insiders: Pink Heart by Jennifer Daniel, chair of ESR, and
-   Phoenix by Jennifer 8. Lee / ESC.
-
-   **So the play is not the kidney.** A never-before-proposed medical concept carries no bar, no history,
-   and three times the odds. Nothing in the status sheet has ever been submitted for: hospital bed, insulin
-   pen, glucose meter, nebulizer, oxygen mask, walker, ice pack. Pair one of those with Microsoft's vendor
-   commitment, which answers a named decline reason and which **no proposal in the corpus has ever carried**,
-   and it is the strongest filing this project has ever made.
-
-   Note also, from the status page: *"Auto-declined proposals are not included in this list."* All fourteen
-   of ours are listed, so a human saw them. But the five above were barred on arrival.
+   **User decision, 2026-07-09:** keep Kidney, Stomach, and Liver fully drafted and ready while the process
+   question is answered. Release `submissions/v1.2.0/` does that. The first-time concept is a parallel
+   portfolio option, not a reason to delete or downgrade the three requested organ packets.
 
 2. **The screening gate.** All fourteen died inside the ESR working group. Its membership is not published
    and cannot be discovered from outside. Whether Microsoft sits there is the highest-leverage question in
@@ -101,8 +71,9 @@ The 2026 submission window closes **2026-07-31**.
    section headings. Use [`docs/proposals/TEMPLATE-emoji-proposal.md`](docs/proposals/TEMPLATE-emoji-proposal.md).
    Never write cause language, never cite petitions or social media, and draft the Open-ended answer first.
 
-5. **Open-endedness.** Filing fourteen organ and device proposals at once *is* the answer to Unicode's
-   Open-ended exclusion factor, and the answer is yes. File one.
+5. **Open-endedness.** Do not frame the work as a complete organ or medical-symbol set. The 2026 release
+   contains three separate proposals, each supported by its own frequency, distinctiveness, multiple uses,
+   and lack of a substitute. Each proposal answers the Open-ended exclusion directly.
 
 ## What is written and ready
 
@@ -118,6 +89,8 @@ The 2026 submission window closes **2026-07-31**.
 | What Microsoft can do | `docs/strategy/what-microsoft-can-do.md` | Done |
 | UTC document (Health category) | `docs/proposals/utc-health-category/` | Drafted, **not sent** |
 | Microsoft brief deck | `docs/presentations/2026-07-09-microsoft-brief/` | 11 slides |
+| Three organ submission packets | `submissions/v1.2.0/` | Final PDFs drafted; external filing preflight remains |
+| Microsoft Monday decision brief | `output/doc/2026-07-13-microsoft-medical-emoji-decision-brief.docx` | Ready for Rhew/Chowdhary review |
 | Reproducible census script | `evidence/emoji_group_census.py` | Done |
 | What to file, and the pitch | `docs/strategy/2026-07-09-what-to-file.md` | **Decision needed** |
 | Resubmission / clock analysis | `evidence/resubmission_analysis.py` | Done |
@@ -159,10 +132,12 @@ itself made that classification because no better destination existed.
 
 ## Immediate next actions
 
-1. Stop trying to resubmit the kidney. File a never-proposed concept instead: **hospital bed** or **blood
-   pressure cuff** are the lead candidates. No bar, no history, 3x the odds. See
-   [`docs/strategy/2026-07-09-what-to-file.md`](docs/strategy/2026-07-09-what-to-file.md).
-2. Email Chowdhary: who is Microsoft's UTC delegate, and does Microsoft sit on ESR?
-3. Get Microsoft to commit, in writing, to implementing in Segoe UI Emoji.
-4. Get Microsoft design to originate textless artwork with a clean licence.
-5. File **one** emoji, to the template.
+1. Send Rhew the Monday decision brief and cover email in `docs/strategy/` and `output/`.
+2. Ask Chowdhary who Microsoft's UTC delegate is, whether Microsoft sits on ESR, and which procedural
+   channel should answer the four-year eligibility question.
+3. Ask the responsible Windows/Segoe UI Emoji product owner to approve or narrow the anticipated
+   implementation statement.
+4. Ask Microsoft design and legal to review the CC0 proposal art and Unicode licensing route.
+5. File Kidney, Stomach, and Liver separately by 2026-07-31 if the process interpretation permits them.
+6. Keep a never-before-proposed concept available as the higher-probability fallback if the organ filings
+   are ruled ineligible or Microsoft prefers a first-time candidate.

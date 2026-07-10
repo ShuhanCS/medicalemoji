@@ -4,12 +4,12 @@
 
 | Due | What | Where |
 |---|---|---|
-| **2026-07-21** | **UTC document: "Health as a Category in Emoji Ordering"** — seven days before UTC #188 (July 28–30, Redmond, WA) | Email `docsubmit@unicode.org`, subject `UTC Doc: <topic>`. Spec: [`docs/plans/2026-07-09-utc-doc-health-category-spec.md`](docs/plans/2026-07-09-utc-doc-health-category-spec.md) |
+| 2026-07-21 | Optional UTC data document, if Microsoft chooses to carry it; not on the emoji-proposal critical path | Spec: [`docs/plans/2026-07-09-utc-doc-health-category-spec.md`](docs/plans/2026-07-09-utc-doc-health-category-spec.md) |
 | 2026-07-31 | Emoji proposal(s), 2026 submission window closes | [Emoji Submission Form](https://forms.gle/6KSiYHrUdBkTMNaB8). Spec: [`docs/plans/2026-07-09-microsoft-health-emoji-proposal.md`](docs/plans/2026-07-09-microsoft-health-emoji-proposal.md) |
 | 2026-11-30 | Unicode notifies all submitters of status | — |
 
-The UTC document is due **ten days before** the emoji deadline and is gated on none of the artwork,
-licensing, or eligibility work. It moves first.
+The immediate Microsoft ask is the internal process and product route, not the optional category document.
+See [`docs/strategy/2026-07-13-microsoft-medical-emoji-decision-brief.md`](docs/strategy/2026-07-13-microsoft-medical-emoji-decision-brief.md).
 
 ## 🏆 What actually wins
 
@@ -35,8 +35,8 @@ Six rules, each earned from that data:
 4. **No petitions, no Instagram, no `Frequently Requested`.** Disallowed evidence, offered unprompted.
 5. **No cause language.** *"A proposal may be advanced despite a 'cause' argument, but will not be advanced
    because of it."* Awareness and stigma appear thirteen times more often in the documents that failed.
-6. **Draft the Open-ended answer first.** Name the neighbours you will not come back for. If that sentence
-   cannot be written honestly, the proposal is not ready. It forbids filing kidney, liver and stomach together.
+6. **Draft the Open-ended answer first.** Do not argue that Unicode should encode a complete organ set.
+   Kidney, Stomach, and Liver are separate proposals, and each must stand on independent evidence.
 
 Never write "the heart and lungs were encoded, so the kidney should be." That is the textbook Faulty
 Comparison, and it is how a medical-importance argument tends to phrase itself.
@@ -49,9 +49,15 @@ Medical Emoji is a campaign and proposal workspace for adding high-utility medic
 
 This repository contains the public website, prior support materials, current Unicode research notes, and proposal planning files for the medical emoji concepts the project has pursued.
 
-Last status check: 2026-05-14
+Last status check: 2026-07-09
 
 ## Current Submission Link
+
+Current three-organ release:
+https://github.com/ShuhanCS/medicalemoji/tree/feat/microsoft-round-strategy/submissions/v1.2.0
+
+The release contains separate final PDFs for Kidney, Stomach, and Liver. See its filing preflight in
+[`submissions/v1.2.0/manifest.md`](submissions/v1.2.0/manifest.md).
 
 Unicode requires a publicly accessible PDF proposal submitted through the official form. Email, fax, and hard-copy submissions are not accepted.
 
@@ -80,12 +86,12 @@ https://www.unicode.org/emoji/emoji-proposal-agreement.pdf
 
 Unicode's guidelines page says:
 
-- Last update: `2026-04-02`.
+- Last update: `2026-05-20`.
 - Current intake window: accepting submissions until `2026-07-31`.
 - Declined emoji are not eligible for re-review within the last four years.
 - The page body still contains some stale 2025 text, so date-sensitive submissions should be verified with Unicode/ESR before filing.
 
-Important practical note: Unicode's public status sheet lists `Date Submitted`, not the actual decline decision date or notification date. The "reeligible by submitted-date clock" column below is a planning estimate only. Before filing any resubmission, confirm whether Unicode counts the four-year bar from the submitted date, internal decline decision date, notification email date, or status publication/update date.
+Important practical note: the three private decline notices are dated `2022-11-04`. Unicode's public rule does not define the controlling date or retroactivity, so eligibility remains a procedural question. The "reeligible by submitted-date clock" column below is a planning estimate only, not an eligibility conclusion.
 
 ## Emoji Submission Status
 
@@ -93,9 +99,9 @@ The table below combines active candidates from `src/data/emoji.ts` and legacy p
 
 | Concept | Repo source | Unicode public status rows | Latest public status | Last public date submitted | Reeligible by submitted-date clock | Next step |
 | --- | --- | --- | --- | --- | --- | --- |
-| Kidney / Kidneys | Active site candidate | `Kidney` declined 2019-12-17; `KIDNEYS` declined 2022-07-19 | Declined | 2022-07-19 | 2026-07-19 | Verify actual 2022 decline/notification date before any 2026 filing; coordinate with ISN and Turkish Society of Nephrology on one aligned proposal. |
-| Liver | Active site candidate | `Liver` declined 2020-12-18; `Liver` declined 2022-07-30 | Declined | 2022-07-30 | 2026-07-30 | Technically falls just before the 2026-07-31 intake deadline by submitted-date clock, but verify actual decline date before filing. |
-| Stomach | Active site candidate | `Stomach` declined 2020-10-27; `Stomach` declined 2022-07-28 | Declined | 2022-07-28 | 2026-07-28 | Verify actual decline date; if eligible, rebuild with current evidence and image-license requirements. |
+| Kidney / Kidneys | Active site candidate | `Kidney` declined 2019-12-17; `KIDNEYS` declined 2022-07-19 | Declined | 2022-07-19 | 2026-07-19 | Packet complete in `submissions/v1.2.0/`; obtain the procedural eligibility interpretation before filing. |
+| Liver | Active site candidate | `Liver` declined 2020-12-18; `Liver` declined 2022-07-30 | Declined | 2022-07-30 | 2026-07-30 | Packet complete in `submissions/v1.2.0/`; obtain the procedural eligibility interpretation before filing. |
+| Stomach | Active site candidate | `Stomach` declined 2020-10-27; `Stomach` declined 2022-07-28 | Declined | 2022-07-28 | 2026-07-28 | Packet complete in `submissions/v1.2.0/`; obtain the procedural eligibility interpretation before filing. |
 | Spine | Active site candidate | `Spine` declined 2020-10-27; `Spine` declined 2024-04-05 | Declined | 2024-04-05 | 2028-04-05 | Do not resubmit before 2028 unless Unicode confirms a materially different concept is eligible. |
 | Intestines | Active site candidate | `Intestines` declined 2020-12-18; `Intestines` declined 2024-04-04 | Declined | 2024-04-04 | 2028-04-04 | Do not resubmit before 2028 unless Unicode confirms eligibility. |
 | ECG / EKG | Active site candidate | `ECG` declined 2020-12-18; `ECG` declined 2024-04-05 | Declined | 2024-04-05 | 2028-04-05 | Do not resubmit before 2028 unless Unicode confirms eligibility. |

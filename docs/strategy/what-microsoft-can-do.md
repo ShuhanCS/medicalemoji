@@ -116,8 +116,8 @@ Ask about process. Never about outcome.
 1. Chowdhary answers: does Microsoft sit on ESR? If not, can it?
 2. Microsoft commits, in writing, to implement in Segoe UI Emoji.
 3. Microsoft design originates textless artwork and grants the licence.
-4. Shuhan files one emoji, to [the template](../proposals/TEMPLATE-emoji-proposal.md), with the vendor
-   commitment in `Other Information`.
+4. Shuhan files Kidney, Stomach, and Liver as three separate proposals, with any approved vendor commitment
+   in `Other Information` and each concept judged on its own evidence.
 5. Microsoft supplies Bing and Copilot data as supplementary evidence.
 6. A Microsoft delegate files a supporting document when the proposal is under review.
 7. The category document, later, once there is standing.

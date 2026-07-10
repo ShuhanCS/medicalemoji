@@ -1,0 +1,124 @@
+# Proposal for Emoji: Kidney
+
+**Submitter:** Shuhan He, MD  
+**Main point of contact:** Shuhan He  
+**Date:** 2026-07-09
+
+## Identification
+
+**Suggested name:** Kidney  
+**Suggested keywords:** renal; anatomy; organ; filtration; urine; hydration; dialysis; transplant; donation; stone; bean-shaped  
+**Suggested category:** People & Body - body-parts  
+**Suggested sort location:** Near anatomical heart, lungs, and brain in the body-parts subgroup.
+
+## Required Example Images
+
+| Size | Color | Black and white |
+| --- | --- | --- |
+| 18x18 | ![Kidney color 18x18](images/kidney_color_18x18_SUBMIT.png) | ![Kidney black-and-white 18x18](images/kidney_bw_18x18_SUBMIT.png) |
+| 72x72 | ![Kidney color 72x72](images/kidney_color_72x72_SUBMIT.png) | ![Kidney black-and-white 72x72](images/kidney_bw_72x72_SUBMIT.png) |
+
+The paradigm shows paired kidneys with medial indentations, central vessels, and ureters. Those cues distinguish an anatomical kidney from a food bean at small sizes. Vendors may simplify detail or use a single kidney if the organ remains recognizable.
+
+The example images are original vector artwork created for this proposal and released under CC0 1.0. Editable SVG sources and the license are included in the public packet:
+
+https://github.com/ShuhanCS/medicalemoji/tree/feat/microsoft-round-strategy/submissions/v1.2.0/kidney/images
+
+https://github.com/ShuhanCS/medicalemoji/blob/feat/microsoft-round-strategy/submissions/v1.2.0/ARTWORK-LICENSE.md
+
+## Factors for Inclusion
+
+### A. Multiple usages
+
+Kidney is a familiar body part with uses across anatomy, health, education, donation, food, and shape. It supports ordinary conversations about hydration, urine, kidney function, kidney stones, laboratory results, dialysis, transplant, living donation, school science, and family health. The name also appears outside medicine in kidney beans and kidney-shaped objects. The image remains specifically anatomical, while the concept has broad linguistic reach.
+
+Kidneys are commonly understood as the body's filters. That association gives the emoji uses in simple explanations of filtration, fluid balance, waste removal, and medication safety without requiring specialist terminology. It also supplies a direct visual reference for kidney donors, recipients, caregivers, and clinicians, where a bean, droplet, hospital, or pill does not identify the organ.
+
+### B. Use in sequences
+
+Kidney can combine with existing emoji to create messages without standardized sequences:
+
+- Kidney + droplet: hydration, urine production, or filtration.
+- Kidney + warning: kidney stone, abnormal result, or urgent kidney concern.
+- Kidney + hospital or pill: kidney care, dialysis, treatment, or medication review.
+- Kidney + people or heart: donation, transplant, recipient, caregiver, or support.
+- Kidney + book or microscope: anatomy, school science, or laboratory testing.
+- Kidney + bean or cooking pot: kidney beans or food context.
+
+### C. Breaks new ground
+
+No current emoji represents the kidneys or urinary-system anatomy. A bean primarily represents food; a droplet is ambiguous among water, sweat, tears, blood, and urine; and hospital, pill, and syringe represent places or interventions rather than the organ. Kidney would therefore add a distinct internal-organ concept and enable messages that cannot be expressed clearly with existing emoji.
+
+### D. Distinctiveness
+
+The paired form, bean-shaped outer contours, medial indentations, and downward ureters make the proposed paradigm visually distinct from the single bean emoji and from anatomical heart, lungs, and brain. The 18x18 versions preserve the paired silhouette and central connection. Color is helpful but not required: the black-and-white example remains identifiable by structure.
+
+### E. Expected usage level
+
+The required evidence covers general web results, video results, long-term web interest, image-search interest, and published-book usage. Google Trends and Google Books compare `kidney` with Unicode's reference term `elephant`.
+
+| Evidence | Result in included capture | Reproducible URL |
+| --- | --- | --- |
+| Google Search | About 211,000,000 results; captured 2026-05-13 | https://www.google.com/search?q=kidney&hl=en&num=10&pws=0 |
+| Google Video Search | About 66,000,000 results; captured 2026-05-13 | https://www.google.com/search?tbm=vid&q=kidney&hl=en&num=10&pws=0 |
+| Google Trends Web Search | Worldwide, 2004-present; kidney is of the same order as elephant and rises to comparable or greater recent interest; captured 2026-05-13 | https://trends.google.com/trends/explore?date=all&q=elephant,kidney |
+| Google Trends Image Search | Worldwide, 2008-present; sustained kidney image-search interest; captured 2026-05-13 | https://trends.google.com/trends/explore?date=all_2008&gprop=images&q=elephant,kidney |
+| Google Books Ngram Viewer | English, 1500-2022; kidney exceeds elephant in recent published-book usage; captured 2026-07-09 | https://books.google.com/ngrams/graph?content=elephant%2Ckidney&year_start=1500&year_end=2022&corpus=en&smoothing=3 |
+
+**Google Search**
+
+![Google Search results for kidney](evidence/frequency/kidney_google_search_2026-05-13_SUBMIT.png)
+
+**Google Video Search**
+
+![Google Video Search results for kidney](evidence/frequency/kidney_google_video_search_2026-05-13_SUBMIT.png)
+
+**Google Trends - Web Search**
+
+![Google Trends Web Search for elephant and kidney](evidence/frequency/kidney_google_trends_web_elephant_2026-05-13_SUBMIT.png)
+
+**Google Trends - Image Search**
+
+![Google Trends Image Search for elephant and kidney](evidence/frequency/kidney_google_trends_image_elephant_2026-05-13_SUBMIT.png)
+
+**Google Books Ngram Viewer**
+
+![Google Books Ngram for elephant and kidney](evidence/frequency/kidney_google_books_ngram_elephant_2026-07-09_SUBMIT.png)
+
+### F. Completeness
+
+Not applicable. Kidney is independently useful and is not proposed merely to complete a set of organs.
+
+### G. Compatibility
+
+Not applicable. This proposal does not rely on a legacy carrier emoji or another encoded pictograph.
+
+## Factors for Exclusion
+
+### A. Already represented
+
+Kidney is not represented by an existing emoji. Bean cannot serve as a clear substitute in anatomical, donation, transplant, dialysis, testing, or medication contexts. General medical emoji identify care but not the organ.
+
+### B. Overly specific
+
+Kidney is a primary organ and a broad everyday concept, not a particular disease, procedure, specialty, organization, campaign, or brand. Its uses span body anatomy, health, filtration, hydration, stones, donation, transplant, food language, and education.
+
+### C. Open-ended
+
+This proposal does not request a complete anatomy taxonomy. Kidney is supported by its own frequency, multiple usages, visual distinctiveness, and lack of an adequate substitute. Other organs can be judged independently on the same criteria.
+
+### D. Transient
+
+Kidney anatomy, hydration, stones, disease, dialysis, transplant, donation, and kidney-shaped language are durable concepts rather than a temporary event or trend.
+
+### E. Justified only by existing emoji
+
+The proposal does not argue that kidney should be encoded merely because heart, lungs, or brain exist. Those emoji only demonstrate that anatomical organs can be legible at emoji scale. Kidney's case rests on its own expected usage and expressive gap.
+
+## Other Information
+
+The singular name `Kidney` is concise and searchable even though the paradigm depicts a pair. Essential design cues are a clearly organic form, a medial indentation, and enough paired or urinary-system context to avoid reading as a food bean. Fine vascular detail is optional and should yield to legibility at 18x18.
+
+Official Unicode proposal guidance:
+
+https://www.unicode.org/emoji/proposals.html

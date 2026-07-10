@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.20.0] - 2026-07-09
+
+### Added
+- Added submission-ready Kidney, Stomach, and Liver proposal packets with final PDFs, original CC0 vector art, required image sizes, and all five Unicode frequency-evidence categories.
+- Added a Monday-ready Microsoft internal decision brief in Markdown, DOCX, and PDF, plus a Rhew-to-Chowdhary cover email and product-owner vendor-support language.
+- Added an evidence note recording the three November 4, 2022 decline notices and the unresolved interpretation of Unicode's four-year rule.
+
+### Changed
+- Corrected the project handoff so organ eligibility is treated as an open procedural question rather than a categorical 2026 exclusion.
+- Updated Microsoft strategy to route three independent proposals and seek product, standards, design, and legal decisions without asking Unicode for a preferred outcome.
+
 ## [0.19.11] - 2026-05-15
 
 ### Added
