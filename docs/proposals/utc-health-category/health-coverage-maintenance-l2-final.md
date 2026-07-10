@@ -1,6 +1,6 @@
 ---
 title: "Health-Related Emoji Coverage as a Standards-Maintenance Issue"
-author-meta: "David Rhew, MD; Shuhan He, MD"
+author-meta: "David Rhew, MD; Heena Purohit; Shuhan He, MD"
 date-meta: "2026-07-10"
 subject: "Discussion document for UTC and the Emoji Standard and Research Working Group"
 geometry: margin=1in
@@ -9,7 +9,7 @@ fontsize: 10pt
 
 ```text
 Title:  Health-Related Emoji Coverage as a Standards-Maintenance Issue
-Source: David Rhew, Microsoft; Shuhan He
+Source: David Rhew, Microsoft; Heena Purohit, Microsoft; Shuhan He, MD
 Date:   2026-07-10
 Status: Individual Contribution
 Action: For consideration by UTC; refer to ESR
@@ -31,7 +31,7 @@ The 2026 Emoji proposal window is open through July 31, 2026. Several health-rel
 
 ## Concrete UTC action requested
 
-Microsoft respectfully asks the UTC to authorize the Emoji Standard and Research Working Group to conduct a bounded review of health-related emoji coverage and report back with recommendations on scope, prioritization criteria, and procedural handling of individual proposals. The review mandate should address the following five questions:
+We request that the UTC authorize the Emoji Standard and Research Working Group to conduct a bounded review of health-related emoji coverage and report back with recommendations on scope, prioritization criteria, and procedural handling of individual proposals. The review mandate should address the following five questions:
 
 1. **Recognize health-related emoji coverage as a coherent standards-maintenance issue.** The domain should be assessed as a connected coverage problem even when its existing characters remain in different keyboard groups.
 2. **Review how the domain is organized.** The review should examine anatomy, diagnostics, laboratory medicine, medication, emergency care, and clinical equipment, including the relationship between existing emoji and missing concepts.
@@ -102,7 +102,7 @@ Vendor review is not a vote, a frequency statistic, a substitute for Unicode evi
 
 ## Requested referral and working-group action
 
-Microsoft respectfully asks that this document be routed to ESR for the bounded review described above. Microsoft further asks that any associated individual proposal materials be reviewed through the ordinary Emoji process on their complete technical merits, including evidence, distinctiveness, public utility, image rights, accessibility, and anticipated vendor-support considerations. Microsoft sponsorship does not constitute evidence of usage, eligibility, or likely acceptance.
+We request that this document be routed to ESR for the bounded review described above. Any associated individual proposal materials should be reviewed through the ordinary Emoji process on their complete technical merits, including evidence, distinctiveness, public utility, image rights, accessibility, and anticipated vendor-support considerations. Microsoft sponsorship does not constitute evidence of usage, eligibility, or likely acceptance.
 
 The requested working-group output is a recommendation on the maintenance framework and procedural handling of the individual concepts. The working group need not decide every candidate in the same meeting, and no candidate should advance without a complete packet.
 
