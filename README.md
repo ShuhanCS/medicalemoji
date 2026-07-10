@@ -1,5 +1,50 @@
 # Medical Emoji
 
+## ⏳ Deadlines
+
+| Due | What | Where |
+|---|---|---|
+| **2026-07-21** | **UTC document: "Health as a Category in Emoji Ordering"** — seven days before UTC #188 (July 28–30, Redmond, WA) | Email `docsubmit@unicode.org`, subject `UTC Doc: <topic>`. Spec: [`docs/plans/2026-07-09-utc-doc-health-category-spec.md`](docs/plans/2026-07-09-utc-doc-health-category-spec.md) |
+| 2026-07-31 | Emoji proposal(s), 2026 submission window closes | [Emoji Submission Form](https://forms.gle/6KSiYHrUdBkTMNaB8). Spec: [`docs/plans/2026-07-09-microsoft-health-emoji-proposal.md`](docs/plans/2026-07-09-microsoft-health-emoji-proposal.md) |
+| 2026-11-30 | Unicode notifies all submitters of status | — |
+
+The UTC document is due **ten days before** the emoji deadline and is gated on none of the artwork,
+licensing, or eligibility work. It moves first.
+
+## 🏆 What actually wins
+
+**Write proposals from [`docs/proposals/TEMPLATE-emoji-proposal.md`](docs/proposals/TEMPLATE-emoji-proposal.md).
+Nothing else.** Evidence: [`docs/plans/2026-07-09-winners-vs-losers.md`](docs/plans/2026-07-09-winners-vs-losers.md),
+comparing 55 proposals whose emoji were encoded against 29 from the same registers that were not.
+
+| | Winners (55) | Losers (29) |
+|---|---|---|
+| Median words | **907** | 1,485 |
+| Median images | **26** | 18 |
+| Has an exclusion section | 94% | 93% |
+| Answers Faulty comparison | **92%** | 72% |
+| Cites a petition or social media | 45% | **75%** |
+| Uses awareness / stigma / advocacy language | **1%** | **13%** |
+
+Six rules, each earned from that data:
+
+1. **Structure wins nothing.** Losers fill in the headings too. Never conclude a proposal was sound because
+   it had the right sections.
+2. **Under 1,200 words, over 20 images.** Losers write 60% more prose and show a third fewer screenshots.
+3. **Write `N/A`.** Especially for Completeness and Compatibility. Arguing every factor drowns the strong ones.
+4. **No petitions, no Instagram, no `Frequently Requested`.** Disallowed evidence, offered unprompted.
+5. **No cause language.** *"A proposal may be advanced despite a 'cause' argument, but will not be advanced
+   because of it."* Awareness and stigma appear thirteen times more often in the documents that failed.
+6. **Draft the Open-ended answer first.** Name the neighbours you will not come back for. If that sentence
+   cannot be written honestly, the proposal is not ready. It forbids filing kidney, liver and stomach together.
+
+Never write "the heart and lungs were encoded, so the kidney should be." That is the textbook Faulty
+Comparison, and it is how a medical-importance argument tends to phrase itself.
+
+Our own record: [`docs/proposals/archive-2019-published/`](docs/proposals/archive-2019-published/) holds the
+two proposals that won. [`docs/proposals/archive-2020-emojination-drafts/`](docs/proposals/archive-2020-emojination-drafts/)
+holds the fifteen that never reached Unicode's document register at all.
+
 Medical Emoji is a campaign and proposal workspace for adding high-utility medical emoji to the Unicode Standard.
 
 This repository contains the public website, prior support materials, current Unicode research notes, and proposal planning files for the medical emoji concepts the project has pursued.

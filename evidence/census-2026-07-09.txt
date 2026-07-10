@@ -1,0 +1,85 @@
+=== groups ===
+  Smileys & Emotion      171
+  People & Body         2418
+  Animals & Nature       160
+  Food & Drink           131
+  Travel & Places        219
+  Activities              85
+  Objects                266
+  Symbols                224
+  Flags                  270
+  TOTAL                 3944
+
+=== subgroups of Objects ===
+  clothing                 47
+  tool                     27
+  household                25
+  office                   23
+  book-paper               17
+  light & video            16
+  computer                 14
+  musical-instrument       13
+  mail                     13
+  money                    11
+  sound                     9
+  music                     9
+  other-object              9
+  writing                   7
+  science                   7
+  medical                   7
+  phone                     6
+  lock                      6
+
+=== health-related emoji, by where they live ===
+  Animals & Nature > animal-bug  [1]
+      🦠 microbe
+  Animals & Nature > animal-mammal  [2]
+      🦮 guide dog
+      🐕‍🦺 service dog
+  Objects > medical  [7]
+      💉 syringe
+      🩸 drop of blood
+      💊 pill
+      🩹 adhesive bandage
+      🩼 crutch
+      🩺 stethoscope
+      🩻 x-ray
+  Objects > science  [3]
+      🧪 test tube
+      🧫 petri dish
+      🧬 dna
+  People & Body > body-parts  [7]
+      🦾 mechanical arm
+      🦿 mechanical leg
+      🦻 ear with hearing aid
+      🧠 brain
+      🫀 anatomical heart
+      🫁 lungs
+      🦷 tooth
+  People & Body > person-activity  [3]
+      🧑‍🦯 person with white cane
+      🧑‍🦼 person in motorized wheelchair
+      🧑‍🦽 person in manual wheelchair
+  People & Body > person-gesture  [1]
+      🧏 deaf person
+  People & Body > person-role  [2]
+      🧑‍⚕️ health worker
+      🫄 pregnant person
+  Smileys & Emotion > face-negative  [1]
+      ☠️ skull and crossbones
+  Smileys & Emotion > face-unwell  [7]
+      😷 face with medical mask
+      🤒 face with thermometer
+      🤕 face with head-bandage
+      🤢 nauseated face
+      🤮 face vomiting
+      🤧 sneezing face
+      🥴 woozy face
+  Symbols > other-symbol  [1]
+      ⚕️ medical symbol
+  Symbols > transport-sign  [1]
+      ♿ wheelchair symbol
+  Travel & Places > place-building  [1]
+      🏥 hospital
+  Travel & Places > transport-ground  [1]
+      🚑 ambulance
