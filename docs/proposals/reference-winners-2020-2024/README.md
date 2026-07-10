@@ -7,8 +7,8 @@ cross-referenced to the L2 document registers, downloaded and converted 2026-07-
 Source PDFs are not committed (121 MB). Each file links to its PDF on unicode.org. The evidence
 screenshots live in the PDFs, so text extracted here understates how much evidence each proposal carried.
 
-See [`../../plans/2026-07-09-how-to-write-a-winning-emoji-proposal.md`](../../plans/2026-07-09-how-to-write-a-winning-emoji-proposal.md)
-for what these have in common.
+See [`../../plans/2026-07-09-winners-vs-losers.md`](../../plans/2026-07-09-winners-vs-losers.md)
+for what separates them from proposals that failed.
 
 | Doc | Emoji version | Title | Authors | Words |
 |---|---|---|---|---|
