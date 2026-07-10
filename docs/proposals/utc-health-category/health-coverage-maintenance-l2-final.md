@@ -18,7 +18,7 @@ Status: Individual Contribution
 Action: For consideration by UTC; refer to ESR
 ```
 
-**Status:** Final discussion document for Microsoft review and referral to the Unicode Technical Committee (UTC) and the Emoji Standard and Research Working Group (ESR).
+**Status:** Discussion document for referral to the Unicode Technical Committee (UTC) and the Emoji Standard and Research Working Group (ESR).
 
 ## Executive summary
 
@@ -26,11 +26,11 @@ Health-related emoji coverage is now a coherent standards-maintenance problem. H
 
 This document asks the UTC to authorize ESR to review the maintenance issue and report back on the organization of the domain, prioritization criteria, procedural handling of individual concepts, and bounded vendor support for design, accessibility, rights, evidence, and anticipated implementation.
 
-No character is requested, approved, or prioritized by this document. Each concept remains subject to the current Unicode Emoji proposal requirements, including public evidence, distinctiveness, exclusion-factor analysis, image rights, and the normal submission form.
+This document addresses review and organization. Individual concepts remain subject to the current Unicode Emoji proposal requirements.
 
 ## Why now
 
-The 2026 Emoji proposal window is open through July 31, 2026. Several health-related concepts have prior proposal history, and the current project drafts are being rebuilt against the current evidence, image-rights, and submission requirements. A bounded maintenance review would improve process coherence while leaving every individual concept to the normal proposal process.
+The 2026 Emoji proposal window is open through July 31, 2026. Several health-related concepts have prior proposal history, and current submissions are being prepared under the evidence, image-rights, and submission requirements in force for this cycle.
 
 ## Concrete UTC action requested
 
@@ -44,11 +44,11 @@ We request that the UTC authorize the Emoji Standard and Research Working Group 
 
 The requested outcome is an ESR recommendation and documented review framework, not automatic approval. The UTC need not decide every candidate in the same meeting.
 
-## Two-track structure
+## Review structure
 
-**Track A - standards maintenance.** ESR reviews the organization of existing health-related emoji, the six-domain coverage framework, prioritization criteria, and any process recommendations that should be reported to the UTC.
+**Standards review.** ESR reviews the organization of existing health-related emoji, the six-domain coverage framework, prioritization criteria, and any process recommendations that should be reported to the UTC.
 
-**Track B - individual proposals.** Each candidate is prepared and submitted as a separate, complete Unicode Emoji proposal. Track B does not depend on creation of a new category, and Track A does not pre-approve any candidate.
+**Individual proposals.** Each candidate is prepared and submitted as a separate, complete Unicode Emoji proposal. The standards review does not pre-approve any candidate.
 
 ## Scope of the maintenance review
 
@@ -66,7 +66,7 @@ The review should use a coverage matrix with six domains:
 
 **Clinical equipment.** Stethoscope, x-ray, and crutch; identify equipment concepts with broad public use, clear silhouettes, and no existing substitute.
 
-The matrix is an analytical tool. It does not imply that every row or gap should produce a character.
+The matrix organizes the review; it does not imply that every gap should produce a character.
 
 ## Prioritization framework
 
@@ -87,15 +87,15 @@ No single factor decides a candidate. A high-profile medical endorsement cannot 
 
 ## Relationship to individual submissions
 
-The individual submission is the operative Unicode artifact. Each packet must be complete on its own and publicly accessible as a PDF. The L2 document may explain why the domain deserves a coordinated review, but it cannot carry missing evidence for a candidate.
+Each individual submission must be complete on its own and publicly accessible as a PDF. This L2 explains the domain-level review; it does not replace evidence for an individual candidate.
 
 For each proposed concept, the packet must include the required title, submitter and date, identification, keywords and category, images, inclusion factors, exclusion factors, other information, and the image-rights warranty required by the current Unicode guidelines. The packet must include its own frequency screenshots for Google Search, Google Video Search, Google Trends Web Search, Google Trends Image Search, and Google Books Ngram Viewer, or a clearly justified reproducible substitute where a required source is unavailable.
 
-The current project drafts and evidence work are inputs, not substitutes for the final packet. Every TODO, placeholder, pending screenshot, unresolved rights statement, and unverified eligibility date is a release blocker.
+Every submission must be complete: no TODOs, placeholders, pending screenshots, unresolved rights statements, or unverified eligibility dates.
 
 ## Vendor participation model
 
-Vendor participation should be optional, transparent, non-binding, and non-exclusive. It should be bounded to:
+Vendor participation should be optional, transparent, non-binding, and non-exclusive. It may include:
 
 - review whether a candidate remains legible at common emoji sizes;
 - test color and black-and-white paradigms for accessibility;
@@ -104,7 +104,7 @@ Vendor participation should be optional, transparent, non-binding, and non-exclu
 - provide anticipated implementation considerations without promising adoption; and
 - return technical comments through the normal UTC/ESR process.
 
-Vendor review is not a vote, a frequency statistic, a substitute for Unicode evidence, a request for exact artwork, an exclusive endorsement, or a commitment to ship an encoded character.
+Vendor review does not replace Unicode evidence, request exact artwork, or commit a vendor to ship an encoded character.
 
 ## Requested referral and working-group action
 
@@ -114,16 +114,22 @@ The requested working-group output is a recommendation on the maintenance framew
 
 ## Boundaries and safeguards
 
-- This is not a request for a top-level Health group as a prerequisite to encoding.
-- This is not a request to encode a comprehensive anatomy taxonomy.
-- This is not a bundled submission or a request to bypass the normal Emoji proposal form.
-- Professional society letters provide legitimacy and domain context; they are not frequency evidence.
-- Medical prevalence, clinical importance, and patient need explain durability and utility; they do not replace Unicode's required usage evidence.
-- Eligibility for a previously declined concept must be checked against Unicode's operative date rule immediately before filing.
-- No submitted artwork should be treated as required vendor artwork.
+- The review does not require creation of a top-level Health group.
+- The review does not propose a comprehensive anatomy taxonomy.
+- Individual concepts will use the normal Emoji proposal form.
+- Professional society letters provide domain context; they are not frequency evidence.
+- Medical prevalence and clinical importance do not replace Unicode's required usage evidence.
+- Previously declined concepts require an eligibility check immediately before filing.
+- Submitted artwork is a reference paradigm, not required vendor artwork.
 
 ## References
 
 - Unicode, Guidelines for Submitting Unicode Emoji Proposals: https://www.unicode.org/emoji/proposals.html
+- Unicode, Unicode Standard Annex #51, Unicode Emoji: https://www.unicode.org/reports/tr51/
+- Unicode, Emoji Ordering: https://unicode.org/emoji/charts/emoji-ordering.html
+- Unicode, Emoji Proposals Status: https://unicode.org/emoji/emoji-proposals-status.html
+- Unicode, Emoji Standard and Research Working Group Report for UTC #186: https://www.unicode.org/L2/L2026/26008r-esr-report-utc186.pdf
+- Unicode, Emoji Submission FAQ: https://www.unicode.org/faq/emoji_submission.html
+- Unicode, Emoji Proposal Agreement and License: https://www.unicode.org/emoji/emoji-proposal-agreement.pdf
 - Unicode, Pending Document Submission: https://www.unicode.org/pending/docsubmit.html
 - Unicode, Emoji Submission Form: https://forms.gle/6KSiYHrUdBkTMNaB8
