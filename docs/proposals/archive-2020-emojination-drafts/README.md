@@ -96,6 +96,30 @@ Not the format. Two things separate these from the crutch:
 See [`docs/strategy/unicode-map-and-strategy.md`](../../strategy/unicode-map-and-strategy.md) for the full
 provenance evidence.
 
+## Missing from this archive: maze, origami, and paper crane
+
+Unicode's public status sheet lists several declined proposals whose drafts are **not** in the zip and are
+not anywhere on disk:
+
+| Concept | Status | Date submitted |
+|---|---|---|
+| Maze | Declined | 2018-04-12 |
+| **Maze** | **Declined** | **2020-12-18** |
+| origami | Declined | 2021-06-20 |
+| Origami | Declined | 2024-04-16 |
+| Paper Crane (B) | Declined | 2020-02-05 |
+| Paper Crane (A) | Declined | 2020-02-13 |
+| Paper Crane | Declined | 2024-04-04 |
+| Crane Bird | Declined | 2024-07-30 |
+
+**The 2020-12-18 maze shares its submission date with ten of the drafts above** (liver, intestines, ECG,
+white blood cell, pill pack, blood bag, leg cast, IV bag, CT scan, weight scale). Shuhan runs Maze
+Engineers. That is suggestive and it is **not proof**: the status sheet lists concepts, never submitters.
+
+None of maze, origami or paper crane appears in any L2 register from 2016 to 2026, so none of them ever
+advanced. If drafts exist, they should be added here. If they were someone else's proposals, that is worth
+knowing too, because it changes how many times this project has actually been declined.
+
 ## Reusing this material
 
 The prose, the clinical argument and the reference lists are worth keeping. The frequency evidence must be
