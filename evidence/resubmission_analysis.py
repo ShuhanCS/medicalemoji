@@ -7,7 +7,14 @@ Reads Unicode's public proposal-status sheet and answers three questions:
   3. Can the public data distinguish a bar counted from the SUBMISSION date from one
      counted from the DECLINE date?
 
-Answer to 3 is no. See docs/plans, and do not overstate it.
+Answer to 3: it leans toward the SUBMISSION clock and does not establish it. Of the six
+resubmissions that ever advanced, the submission clock has to explain away 3 as
+violations; the decline clock has to explain away 5. Fewer anomalies favours submission.
+
+But the bar is demonstrably not enforced mechanically under EITHER reading. Phoenix was
+resubmitted 0.48 years after a decline and released. Hand Heart advanced at 1.17 years
+against a two-year bar. Once discretion is proven, anomaly-counting stops being decisive.
+Do not tell anyone the clock is settled.
 
     python evidence/resubmission_analysis.py sources/unicode_emoji_proposals_status_20260513.csv
 

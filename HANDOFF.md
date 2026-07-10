@@ -28,10 +28,31 @@ The 2026 submission window closes **2026-07-31**.
    phrasings anchor on the decline (*"emoji declined within the last four years"*), and no source anchors on
    the submission, but Unicode never states it. Do not claim to know.
 
-   I tested it. Run `python evidence/resubmission_analysis.py`. There are ten cases where the two clocks
-   disagree; two of them advanced despite being barred under the decline clock. With a 6% advance rate in
-   every bucket, **the public data cannot distinguish the clocks.** Only Unicode can. A drafted, unsent
-   email asking exactly that is in `docs/proposals/kidney-emoji-2026/decline-date-submission-update.md`.
+   I tested it. Run `python evidence/resubmission_analysis.py`. **The evidence leans toward the submission
+   clock, and does not establish it.**
+
+   Six resubmissions ever advanced. Count how many each model has to explain away as an anomaly:
+
+   | Concept | Gap | Submission clock | Decline clock |
+   |---|---|---|---|
+   | Hand heart | 1.17y | barred | barred |
+   | Phoenix | 0.48y | barred | barred |
+   | Pink heart | 2.00y | barred by 1 day | barred |
+   | Lime | 2.32y | eligible | barred |
+   | Raspberry | 2.09y | eligible | barred |
+   | Treasure chest | 5.79y | eligible | eligible |
+
+   Under the submission clock, 3 of 6 advances are violations. Under the decline clock, 5 of 6 are. Fewer
+   anomalies favours the submission clock.
+
+   **But the bar is demonstrably not enforced mechanically under either reading.** Phoenix was resubmitted
+   six months after a decline and released. Once discretion is proven, anomaly-counting stops being
+   decisive. Note also that two of the three both-barred advances were subcommittee insiders: Pink Heart by
+   Jennifer Daniel, chair of ESR, and Phoenix by Jennifer 8. Lee / ESC. The third, Hand Heart, was an
+   outsider.
+
+   Only Unicode can answer this. A drafted, unsent email asking exactly that is in
+   `docs/proposals/kidney-emoji-2026/decline-date-submission-update.md`.
 
    **What the data does settle is about us.** Five of the fourteen concepts were resubmitted *while barred*,
    even under the generous submission clock:
