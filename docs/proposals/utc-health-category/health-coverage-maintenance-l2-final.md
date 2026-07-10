@@ -1,6 +1,6 @@
 ---
 title: "Health-Related Emoji Coverage as a Standards-Maintenance Issue"
-author-meta: "David Rhew, MD; Heena Purohit; Shuhan He, MD"
+author-meta: "David Rhew, MD; Heena Purohit; Shuhan He, MD, Harvard Medical School"
 date-meta: "2026-07-10"
 subject: "Discussion document for UTC and the Emoji Standard and Research Working Group"
 geometry: margin=1in
@@ -12,7 +12,7 @@ colorlinks: false
 
 ```text
 Title:  Health-Related Emoji Coverage as a Standards-Maintenance Issue
-Source: David Rhew, Microsoft; Heena Purohit, Microsoft; Shuhan He, MD
+Source: David Rhew, Microsoft; Heena Purohit, Microsoft; Shuhan He, MD, Harvard Medical School
 Date:   2026-07-10
 Status: Individual Contribution
 Action: For consideration by UTC; refer to ESR
