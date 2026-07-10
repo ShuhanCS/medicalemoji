@@ -20,7 +20,7 @@ Action: For consideration by UTC; refer to ESR
 
 **Status:** Discussion document for referral to the Unicode Technical Committee (UTC) and the Emoji Standard and Research Working Group (ESR).
 
-## Executive summary
+# Executive summary
 
 Health-related emoji coverage presents a coherent review question. Health concepts are distributed across anatomy, diagnostic, laboratory, medication, emergency-care, and clinical-equipment contexts. This document uses “standards maintenance” narrowly to mean review of existing emoji organization, coverage analysis, and proposal-handling guidance. It does not mean automatic addition of characters.
 
@@ -28,11 +28,11 @@ This document asks the UTC to authorize ESR to prepare a report describing how e
 
 This document addresses review and organization. Individual concepts remain subject to the current Unicode Emoji proposal requirements.
 
-## Why now
+# Why now
 
 The 2026 Emoji proposal window is open through July 31, 2026. Several health-related concepts have prior proposal history, and current submissions are being prepared under the evidence, image-rights, and submission requirements in force for this cycle. The current Unicode Emoji Ordering data provides a reproducible starting point for reviewing where health-related concepts appear today.
 
-## Concrete UTC action requested
+# Concrete UTC action requested
 
 We request that the UTC authorize the Emoji Standard and Research Working Group to prepare a report on health-related emoji coverage and return recommendations on organization, application of the existing selection factors, and procedural handling of individual proposals. The review mandate should address the following five questions:
 
@@ -44,13 +44,13 @@ We request that the UTC authorize the Emoji Standard and Research Working Group 
 
 The requested outcome is an ESR report and recommendation on the review framework. It is not a request for automatic approval of any character.
 
-## Review structure
+# Review structure
 
 **Standards review.** ESR reviews the organization of existing health-related emoji, the six-domain coverage framework, the application of existing selection factors, and any process recommendations that should be reported to the UTC.
 
 **Individual proposals.** Each candidate is prepared and submitted as a separate, complete Unicode Emoji proposal. The standards review does not pre-approve any candidate. Illustrative examples are listed in Appendix A; they are not requested for decision by this document.
 
-## Scope of the maintenance review
+# Scope of the maintenance review
 
 The review should use a coverage matrix with six domains:
 
@@ -68,7 +68,7 @@ The review should use a coverage matrix with six domains:
 
 The matrix organizes the review; it does not imply that every gap should produce a character.
 
-## Prioritization framework
+# Prioritization framework
 
 Each candidate should receive a documented assessment against the following factors, with evidence attached to its own proposal:
 
@@ -85,7 +85,7 @@ Each candidate should receive a documented assessment against the following fact
 
 No single factor decides a candidate. A high-profile medical endorsement cannot substitute for public frequency evidence, and a high search count cannot cure an indistinct or overly specific design.
 
-## Relationship to individual submissions
+# Relationship to individual submissions
 
 Each individual submission must be complete on its own and publicly accessible as a PDF. This L2 explains the domain-level review; it does not replace evidence for an individual candidate.
 
@@ -93,7 +93,7 @@ For each proposed concept, the packet must include the required title, submitter
 
 Every submission must be complete: no TODOs, placeholders, pending screenshots, unresolved rights statements, or unverified eligibility dates.
 
-## Vendor participation model
+# Vendor participation model
 
 Vendor participation should be optional, transparent, non-binding, and non-exclusive. It may include:
 
@@ -105,13 +105,13 @@ Vendor participation should be optional, transparent, non-binding, and non-exclu
 
 Submitters remain responsible for Unicode evidence, licensing, and proposal completeness. Vendor review does not request exact artwork or commit a vendor to ship an encoded character.
 
-## Requested referral and working-group action
+# Requested referral and working-group action
 
 We request that this document be routed to ESR for the report described above. Any associated individual proposal materials should be reviewed through the ordinary Emoji process under the published criteria. The affiliations listed in this document identify the authors; they do not replace the evidence required for an individual proposal.
 
 The requested working-group output is a report and recommendation on organization, application of the existing selection factors, and procedural handling of individual concepts.
 
-## Boundaries and safeguards
+# Boundaries and safeguards
 
 - The review does not require creation of a top-level Health group.
 - The review does not propose a comprehensive anatomy taxonomy.
@@ -121,7 +121,7 @@ The requested working-group output is a report and recommendation on organizatio
 - Previously declined concepts require an eligibility check immediately before filing.
 - Submitted artwork is a reference paradigm, not required vendor artwork.
 
-## Appendix A: Illustrative concepts for the separate proposal track
+# Appendix A: Illustrative concepts for the separate proposal track
 
 The following concepts illustrate the types of gaps that may be examined in separate submissions. This list is not a bundled request, a priority ranking, or a request for action by the UTC in this document:
 
@@ -130,7 +130,7 @@ The following concepts illustrate the types of gaps that may be examined in sepa
 - Medication: Pill Box and Inhaler.
 - Emergency care and clinical equipment: First Aid Kit, Blood Bag, IV Bag, Leg Cast, and Weight Scale.
 
-## Appendix B: Factual basis for the coverage review
+# Appendix B: Factual basis for the coverage review
 
 The coverage review should begin with the current Unicode Emoji Ordering data and the current emoji list. The authors' working inventory records each relevant emoji's Unicode name, code point, group, subgroup, and rationale for inclusion in the health-related review. The inventory is a starting point for ESR review, not a claim that Unicode should move or encode every listed item.
 
@@ -142,7 +142,7 @@ Current source data:
 
 The review should verify the inventory against the current released data before relying on counts or group assignments.
 
-## References
+# References
 
 - Unicode, Guidelines for Submitting Unicode Emoji Proposals: https://www.unicode.org/emoji/proposals.html
 - Unicode, Unicode Standard Annex #51, Unicode Emoji: https://www.unicode.org/reports/tr51/
