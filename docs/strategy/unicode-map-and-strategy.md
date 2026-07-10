@@ -272,10 +272,26 @@ Transplant appears on three of them, and she is a co-author on Shuhan's own anat
 
 Every medical emoji filed **without** them, alone, through the form, vanished without a trace.
 
-That is not a coincidence to be explained away. It is the mechanism. An organization that knows the process,
-files a dozen proposals a year, and has standing inside the subcommittee gets emoji encoded. Our repo
-already records the reason: Emojination's founder, Jennifer 8. Lee, became vice-chair of the emoji
-subcommittee (**UNVERIFIED** on a unicode.org page; the leadership page lists chairs only).
+That is not a coincidence to be explained away. An organization that knows the process, files a dozen
+proposals a year, and has standing inside the subcommittee gets emoji encoded. Our repo already records the
+reason: Emojination's founder, Jennifer 8. Lee, became vice-chair of the emoji subcommittee (**UNVERIFIED**
+on a unicode.org page; the leadership page lists chairs only).
+
+### Correction: the organization is not required
+
+Reading all 55 proposals written since 2020 whose emoji were encoded shows the above conclusion was drawn
+too strongly. Individuals win regularly, and alone:
+
+- `L2/24-249` Orca, Marcos Del Sol Vives, a personal email address.
+- `L2/24-255` Treasure Chest, Jacob Dow. `L2/24-251` Bigfoot, Andrew Pignato. `L2/23-255` Leafless Tree,
+  Brian Baihaki.
+- `L2/20-214` **X-Ray**, Alijan Ozkiral and Christian Krenek. A **medical** emoji, two individuals, filed
+  in the same window as our fifteen drafts, encoded in Emoji 14.0.
+
+Christian Krenek alone authored or co-authored the slide, the bird's nest, the heavy equals sign, the flute
+and the x-ray. **What separates winners is craft, not letterhead.** An organization helps because it
+teaches the craft and knows the route, and it is not a substitute for the craft. See
+[how to write a winning proposal](../plans/2026-07-09-how-to-write-a-winning-emoji-proposal.md).
 
 ---
 
