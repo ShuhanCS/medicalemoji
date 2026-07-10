@@ -23,31 +23,43 @@ The 2026 submission window closes **2026-07-31**.
 
 ## The five things that decide this
 
-1. **Eligibility.** Unicode bars a declined emoji from re-review for **four years, counted from the
-   decline**, not the submission.
+1. **Eligibility, and why it is the wrong thing to obsess over.** Unicode bars a declined emoji from
+   re-review for four years. **Which date starts the clock is genuinely unknown.** All three published
+   phrasings anchor on the decline (*"emoji declined within the last four years"*), and no source anchors on
+   the submission, but Unicode never states it. Do not claim to know.
 
-   Do **not** go hunting for the decline email. It is unnecessary, and it may not exist in any findable
-   form. Unicode publishes no sender, no template, and says *"we are unable to respond to inquiries
-   regarding the status of your proposal."*
+   I tested it. Run `python evidence/resubmission_analysis.py`. There are ten cases where the two clocks
+   disagree; two of them advanced despite being barred under the decline clock. With a 6% advance rate in
+   every bucket, **the public data cannot distinguish the clocks.** Only Unicode can. A drafted, unsent
+   email asking exactly that is in `docs/proposals/kidney-emoji-2026/decline-date-submission-update.md`.
 
-   The decline date is already bounded by published facts. Kidney was submitted 2022-07-19. The 2022 window
-   closed 2022-07-31, so review followed. Submitters are notified *"no later than November 30."* The status
-   sheet *"is updated once per year, usually in early December."* **Therefore the decline fell between
-   August and December 2022, and four years later falls between August and December 2026. Every possible
-   value is after 2026-07-31.**
+   **What the data does settle is about us.** Five of the fourteen concepts were resubmitted *while barred*,
+   even under the generous submission clock:
 
-   So under the decline clock, kidney, stomach and liver are barred for this window, provably. Under a
-   submission clock they clear by 12, 3 and 1 day. **The only open question is which date Unicode counts
-   from, and only Unicode can answer it.** A drafted, unsent email asking exactly that is in
-   `docs/proposals/kidney-emoji-2026/decline-date-submission-update.md`.
+   | Concept | Prior | Resubmitted | Gap | Bar then |
+   |---|---|---|---|---|
+   | Liver | 2020-12-18 | 2022-07-30 | 1.61y | 2y |
+   | Stomach | 2020-10-27 | 2022-07-28 | 1.75y | 2y |
+   | Intestines | 2020-12-18 | 2024-04-04 | 3.29y | 4y |
+   | ECG | 2020-12-18 | 2024-04-05 | 3.30y | 4y |
+   | Spine | 2020-10-27 | 2024-04-05 | 3.44y | 4y |
 
-   The 2020-cohort concepts (white blood cell, blood bag, IV bag, CT scan, pill pack, pill box, leg cast,
-   weight scale) were declined in the 2020 or 2021 cycle, so they clear under **either** clock. If the goal
-   is to file something this window without an eligibility fight, file one of those.
+   They were never going to be reviewed. **Five of the "fourteen rejections" were ineligible filings, not
+   verdicts on medical emoji.**
+
+   **And resubmission is a losing move regardless.** First-time proposals advance 16% of the time.
+   Resubmissions advance **5%**. Of 53 resubmissions filed inside the bar, 50 were declined. Of the three
+   that ever beat the bar, two were subcommittee insiders: Pink Heart by Jennifer Daniel, chair of ESR, and
+   Phoenix by Jennifer 8. Lee / ESC.
+
+   **So the play is not the kidney.** A never-before-proposed medical concept carries no bar, no history,
+   and three times the odds. Nothing in the status sheet has ever been submitted for: hospital bed, insulin
+   pen, glucose meter, nebulizer, oxygen mask, walker, ice pack. Pair one of those with Microsoft's vendor
+   commitment, which answers a named decline reason and which **no proposal in the corpus has ever carried**,
+   and it is the strongest filing this project has ever made.
 
    Note also, from the status page: *"Auto-declined proposals are not included in this list."* All fourteen
-   of ours are listed. They were reviewed by a human and declined on the merits, not rejected on a
-   technicality.
+   of ours are listed, so a human saw them. But the five above were barred on arrival.
 
 2. **The screening gate.** All fourteen died inside the ESR working group. Its membership is not published
    and cannot be discovered from outside. Whether Microsoft sits there is the highest-leverage question in
@@ -118,8 +130,8 @@ itself made that classification because no better destination existed.
 
 ## Immediate next actions
 
-1. Decide the eligibility question. Either ask Unicode which date starts the four-year clock, or sidestep it
-   by filing a 2020-cohort concept that clears under either reading. Do not hunt for the decline email.
+1. Stop trying to resubmit the kidney. Pick a never-before-proposed concept (hospital bed, insulin pen,
+   glucose meter, nebulizer, oxygen mask, walker, ice pack). No bar, no history, 3x the odds.
 2. Email Chowdhary: who is Microsoft's UTC delegate, and does Microsoft sit on ESR?
 3. Get Microsoft to commit, in writing, to implementing in Segoe UI Emoji.
 4. Get Microsoft design to originate textless artwork with a clean licence.
