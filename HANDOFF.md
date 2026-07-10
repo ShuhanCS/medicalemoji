@@ -1,8 +1,14 @@
 # Handoff: Unicode medical emoji, state as of 2026-07-09
 
-Read this first. Then read [`docs/strategy/unicode-map-and-strategy.md`](docs/strategy/unicode-map-and-strategy.md)
-and [`docs/strategy/what-microsoft-can-do.md`](docs/strategy/what-microsoft-can-do.md). Everything else is
+Read this first. Then read [`docs/strategy/2026-07-09-what-to-file.md`](docs/strategy/2026-07-09-what-to-file.md),
+[`docs/strategy/what-microsoft-can-do.md`](docs/strategy/what-microsoft-can-do.md) and
+[`docs/strategy/unicode-map-and-strategy.md`](docs/strategy/unicode-map-and-strategy.md). Everything else is
 supporting evidence.
+
+**The pitch, in one line.** Not *"help us relitigate the kidney"*, but *"help us land the first medical emoji
+that Microsoft commits to ship."* Unicode declines a well-formed proposal for two reasons: weak popularity
+evidence, and *"lack of anticipated support by major vendors."* Microsoft can answer the second, and no emoji
+proposal in Unicode's history ever has.
 
 ## The situation in six sentences
 
@@ -113,6 +119,8 @@ The 2026 submission window closes **2026-07-31**.
 | UTC document (Health category) | `docs/proposals/utc-health-category/` | Drafted, **not sent** |
 | Microsoft brief deck | `docs/presentations/2026-07-09-microsoft-brief/` | 11 slides |
 | Reproducible census script | `evidence/emoji_group_census.py` | Done |
+| What to file, and the pitch | `docs/strategy/2026-07-09-what-to-file.md` | **Decision needed** |
+| Resubmission / clock analysis | `evidence/resubmission_analysis.py` | Done |
 
 ## The open strategic question
 
@@ -151,8 +159,9 @@ itself made that classification because no better destination existed.
 
 ## Immediate next actions
 
-1. Stop trying to resubmit the kidney. Pick a never-before-proposed concept (hospital bed, insulin pen,
-   glucose meter, nebulizer, oxygen mask, walker, ice pack). No bar, no history, 3x the odds.
+1. Stop trying to resubmit the kidney. File a never-proposed concept instead: **hospital bed** or **blood
+   pressure cuff** are the lead candidates. No bar, no history, 3x the odds. See
+   [`docs/strategy/2026-07-09-what-to-file.md`](docs/strategy/2026-07-09-what-to-file.md).
 2. Email Chowdhary: who is Microsoft's UTC delegate, and does Microsoft sit on ESR?
 3. Get Microsoft to commit, in writing, to implementing in Segoe UI Emoji.
 4. Get Microsoft design to originate textless artwork with a clean licence.
