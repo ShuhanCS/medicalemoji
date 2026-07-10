@@ -24,11 +24,30 @@ The 2026 submission window closes **2026-07-31**.
 ## The five things that decide this
 
 1. **Eligibility.** Unicode bars a declined emoji from re-review for **four years, counted from the
-   decline**, not the submission. Kidney, stomach and liver were submitted July 2022 and declined around
-   November 2022, which likely puts them past the 2026 window. **No public decline date exists for any
-   emoji.** It exists in the private notification email Unicode sent Shuhan in ~November 2022. **Find that
-   email.** It is the single highest-value unresolved fact. See
-   [`docs/presentations/2026-07-09-microsoft-brief/README.md`](docs/presentations/2026-07-09-microsoft-brief/README.md).
+   decline**, not the submission.
+
+   Do **not** go hunting for the decline email. It is unnecessary, and it may not exist in any findable
+   form. Unicode publishes no sender, no template, and says *"we are unable to respond to inquiries
+   regarding the status of your proposal."*
+
+   The decline date is already bounded by published facts. Kidney was submitted 2022-07-19. The 2022 window
+   closed 2022-07-31, so review followed. Submitters are notified *"no later than November 30."* The status
+   sheet *"is updated once per year, usually in early December."* **Therefore the decline fell between
+   August and December 2022, and four years later falls between August and December 2026. Every possible
+   value is after 2026-07-31.**
+
+   So under the decline clock, kidney, stomach and liver are barred for this window, provably. Under a
+   submission clock they clear by 12, 3 and 1 day. **The only open question is which date Unicode counts
+   from, and only Unicode can answer it.** A drafted, unsent email asking exactly that is in
+   `docs/proposals/kidney-emoji-2026/decline-date-submission-update.md`.
+
+   The 2020-cohort concepts (white blood cell, blood bag, IV bag, CT scan, pill pack, pill box, leg cast,
+   weight scale) were declined in the 2020 or 2021 cycle, so they clear under **either** clock. If the goal
+   is to file something this window without an eligibility fight, file one of those.
+
+   Note also, from the status page: *"Auto-declined proposals are not included in this list."* All fourteen
+   of ours are listed. They were reviewed by a human and declined on the merits, not rejected on a
+   technicality.
 
 2. **The screening gate.** All fourteen died inside the ESR working group. Its membership is not published
    and cannot be discovered from outside. Whether Microsoft sits there is the highest-leverage question in
@@ -99,7 +118,8 @@ itself made that classification because no better destination existed.
 
 ## Immediate next actions
 
-1. Search Shuhan's mail for the Unicode notification of ~November 2022. It decides everything about kidney.
+1. Decide the eligibility question. Either ask Unicode which date starts the four-year clock, or sidestep it
+   by filing a 2020-cohort concept that clears under either reading. Do not hunt for the decline email.
 2. Email Chowdhary: who is Microsoft's UTC delegate, and does Microsoft sit on ESR?
 3. Get Microsoft to commit, in writing, to implementing in Segoe UI Emoji.
 4. Get Microsoft design to originate textless artwork with a clean licence.
