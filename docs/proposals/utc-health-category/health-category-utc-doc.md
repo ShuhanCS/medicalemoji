@@ -14,18 +14,23 @@ urlcolor: black
 numbersections: true
 ---
 
-**Subject:** Proposed reorganization of Emoji Ordering to establish a top-level Health group
-
-**Author:** David Rhew, MD (Microsoft), point of contact. Shuhan He, MD (Massachusetts General Hospital).
-
-**Date of submission:** 2026-07-21
-
-**Addressed to:** Unicode Technical Committee (UTC), for referral to the Emoji Standard and Research
-Working Group (ESR) and the Common Locale Data Repository Technical Committee (CLDR TC).
+```
+Doc Type:  Working Group Document
+Title:     Health as a Category in Emoji Ordering
+Subject:   Establishing a top-level Health group in Emoji Ordering
+Source:    Microsoft Corporation
+Authors:   David Rhew, MD (Microsoft), point of contact;
+           Shuhan He, MD (Massachusetts General Hospital)
+Status:    Individual Contribution
+Action:    For consideration by the UTC, for referral to the
+           Emoji Standard and Research Working Group
+Date:      2026-07-21
+```
 
 # Abstract
 
-This document proposes no new emoji. It concerns only the grouping of emoji that are already encoded.
+Microsoft would like to see a top-level Health group established in Emoji Ordering. This document proposes
+no new emoji. It concerns only the grouping of emoji that are already encoded.
 Health related emoji are presently distributed across seven of the ten top-level groups in Emoji
 Ordering, and the `medical` subgroup holds seven of approximately thirty-seven of them. The anatomical
 heart (`U+1FAC0`) and lungs (`U+1FAC1`), encoded in Emoji 13.0 for medical use, are classified under
