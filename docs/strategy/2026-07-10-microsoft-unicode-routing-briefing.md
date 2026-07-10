@@ -13,6 +13,20 @@ This briefing explains who at Microsoft should see the medical emoji plan, what 
 
 **Plain-language guide:** Unicode is the international system that makes text and emoji work across devices. The Unicode Technical Committee (UTC) oversees the standard. The Emoji Standard and Research Working Group (ESR) reviews emoji proposals and recommends which ones should move forward.
 
+## What the documents mean
+
+**L2 document.** “L2” is the name Unicode uses for a technical document submitted for discussion. It does not mean “level two.” The number, such as `L2/26-xxx`, is assigned by Unicode after the document is submitted and entered in its public document register. An L2 can ask the UTC to study an issue, clarify a process, or consider a standards change. Our L2 asks Unicode to review how health-related emoji are organized and how future health-related proposals should be handled.
+
+**Individual emoji proposal.** This is the separate document for one possible emoji, such as Kidney or Pill Box. It must contain its own images, public usage evidence, copyright information, and explanation of why the concept is not already covered by an existing emoji. The L2 does not replace these individual proposals.
+
+**UTC.** The Unicode Technical Committee is the group that makes decisions about the Unicode Standard and decides what technical work should be assigned to its working groups.
+
+**ESR.** The Emoji Standard and Research Working Group is the UTC group that reviews emoji proposals and prepares recommendations about them.
+
+**Document register.** This is Unicode's public list of technical documents. A document is not an official L2 until Unicode accepts it into that process and assigns it a number.
+
+**CLDR and emoji ordering.** CLDR is Unicode's shared language-data project. Emoji ordering is the arrangement used for names, keywords, and keyboard groupings. These affect how people find emoji, but changing an emoji's grouping is different from creating a new Unicode character.
+
 ## Recommended internal route
 
 1. **David Rhew, MD - Microsoft medical sponsor**
