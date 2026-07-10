@@ -333,6 +333,6 @@ Each retrieved 2026-07-09.
 
 Counts were produced by parsing `emoji-test.txt` and counting lines marked `fully-qualified`, attributing
 each to the most recent `# group:` and `# subgroup:` comment above it. The script is published at
-<https://github.com/ShuhanCS/medicalemoji/blob/main/evidence/emoji_group_census.py> and its output at
-<https://github.com/ShuhanCS/medicalemoji/blob/main/evidence/census-2026-07-09.txt>. Any reader can
+<https://github.com/ShuhanCS/medicalemoji/blob/master/evidence/emoji_group_census.py> and its output at
+<https://github.com/ShuhanCS/medicalemoji/blob/master/evidence/census-2026-07-09.txt>. Any reader can
 reproduce every count in this document by retrieving the same data file and running the script.

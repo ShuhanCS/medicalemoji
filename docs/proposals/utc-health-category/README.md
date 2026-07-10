@@ -112,9 +112,9 @@ major vendor's emoji keyboard.
 - [ ] **Route through Microsoft's UTC delegate.** See above. Ask Vishal Chowdhary (Microsoft's board
       director) who the delegate is.
 - [ ] **The document claims the census is published.** Appendix C links to
-      <https://github.com/ShuhanCS/medicalemoji/blob/main/evidence/emoji_group_census.py> and
-      <https://github.com/ShuhanCS/medicalemoji/blob/main/evidence/census-2026-07-09.txt>.
-      Both currently live on `feat/stakeholder-outreach`, not `main`. Merge to `main`, or change the
+      <https://github.com/ShuhanCS/medicalemoji/blob/master/evidence/emoji_group_census.py> and
+      <https://github.com/ShuhanCS/medicalemoji/blob/master/evidence/census-2026-07-09.txt>.
+      Both must exist on `master`. Confirm after the merge, or change the
       links, before the URLs are cited to a standards committee.
 - [ ] **Recompute the census** against the then-current `emoji-test.txt` and update the retrieval date
       throughout. The numbers are dated 2026-07-09.
