@@ -22,7 +22,16 @@ repeatedly since 2016. The UTC reads her documents, discusses them by name in th
 to working groups.
 
 **Rebecca Bettencourt and Doug Ewell** file as `Source: Terminals Working Group`, `Status: Individual
-Contribution`. An ad-hoc group of enthusiasts, formally contributing as individuals.
+Contribution`.
+
+The **Terminals Working Group is not a Unicode body.** It appears nowhere on Unicode's technical group
+leadership page. Its own document explains its origin: *"a list discussion concerning the 'PETSCII'
+character set led to the creation of an ad-hoc Terminals Working Group in charge of proposing characters
+found in computer systems manufactured in the 1970s and 1980s."* It is self-formed, it concerns legacy
+computer terminals, and **it cannot be joined by anyone working on medical emoji.** Its relevance is only
+as a pattern: a group of people named themselves, filed consistently, and became the recognized source for
+their domain. `Status: Individual Contribution` is Unicode recording that they contribute as individuals,
+not as a member organization.
 
 **Peter Constable** filed `L2/16-228` as a Microsoft employee in 2016. He is now **Chair of the Unicode
 Technical Committee**.
@@ -61,29 +70,32 @@ stops. Buff's remanded proposal is 550 words. The adopted `L2/23-252` is 1,647.
 
 Length correlates with nothing. The 96-word document was posted; the 5,660-word document was not adopted.
 
-### 2. They use the canonical header block
+### 2. They use a header block, and the right one depends on the genre
 
-`L2/23-252`, the one that was adopted:
+**Do not copy `L2/23-252`'s header.** It is the ISO/IEC JTC1/SC2/WG2 **character proposal** template, and
+the document carries the full ISO Proposal Summary Form: questions about the Basic Multilingual Plane,
+combining characters and ideographic compatibility. It is addressed `For consideration by JTC1/SC2/WG2 and
+UTC` because it proposes new code points. A document that proposes no character does not go to WG2.
 
-```
-Doc Type:  Working Group Document
-Title:     Proposal to disunify Symbols for Legacy Computing from emoji
-Source:    Terminals Working Group
-Authors:   Rebecca Bettencourt, Doug Ewell
-Status:    Individual Contribution
-Action:    For consideration by JTC1/SC2/WG2 and UTC
-Date:      2023-10-14
-```
-
-Buff's lighter variant:
+The correct model for our genre is **Ken Whistler's `L2/19-298`**, a UTC-only emoji data document:
 
 ```
-Author: Charlotte Buff
-Mail: irgendeinbenutzername@gmail.com
-Submitted: 2023-06-26
+L2/19-298
+
+Title: Making Emoji Properties a Part of the UCD for Unicode 13.0
+
+Author: Ken Whistler
+
+Date: July 25, 2019
+
+Action: For consideration by the UTC
 ```
 
-An `Action:` line tells the committee what you want done. Ours should say referral to the working group.
+Four lines. The `Action:` line tells the committee what you want done with it. Constable's `L2/16-228` is
+even lighter: `Title`, `Authors`, `Date`, and then straight into the body. Buff uses `Author`, `Mail`,
+`Submitted`.
+
+Our document now follows Whistler.
 
 ### 3. They number their sections and lead with history
 

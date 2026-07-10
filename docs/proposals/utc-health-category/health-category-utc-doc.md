@@ -15,16 +15,12 @@ numbersections: true
 ---
 
 ```
-Doc Type:  Working Group Document
-Title:     Health as a Category in Emoji Ordering
-Subject:   Establishing a top-level Health group in Emoji Ordering
-Source:    Microsoft Corporation
-Authors:   David Rhew, MD (Microsoft), point of contact;
-           Shuhan He, MD (Massachusetts General Hospital)
-Status:    Individual Contribution
-Action:    For consideration by the UTC, for referral to the
-           Emoji Standard and Research Working Group
-Date:      2026-07-21
+Title:   Health as a Category in Emoji Ordering
+Authors: David Rhew, MD (Microsoft), point of contact;
+         Shuhan He, MD (Massachusetts General Hospital)
+Date:    2026-07-21
+Action:  For consideration by the UTC, and for referral to the
+         Emoji Standard and Research Working Group
 ```
 
 # Abstract
