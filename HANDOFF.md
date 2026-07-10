@@ -7,16 +7,17 @@ supporting evidence.
 
 **The pitch, in one line.** Not *"help us relitigate the kidney"*, but *"help us land the first medical emoji
 that Microsoft commits to ship."* Unicode declines a well-formed proposal for two reasons: weak popularity
-evidence, and *"lack of anticipated support by major vendors."* Microsoft can answer the second, and no emoji
-proposal in Unicode's history ever has.
+evidence, and *"lack of anticipated support by major vendors."* Microsoft can answer the second, and none of
+the 84 winning and unsuccessful proposals in this project's reviewed corpus carried that commitment.
 
 ## The situation in six sentences
 
 David Rhew, Global Chief Medical Officer at Microsoft, has agreed to help. Shuhan will file the emoji
 proposals himself, as an individual, because the submission form requires it. Fourteen medical concepts were
-declined between 2019 and 2024, and **none of them appears anywhere in Unicode's public record**, because a
-proposal only receives a document number once the Emoji Standard and Research Working Group advances it. So
-they died at screening, invisibly. Two proposals succeeded, in 2019, both filed under Emojination's name.
+declined between 2019 and 2024. Their concept/status rows appear in Unicode's public sheet, but their full
+proposal PDFs do not appear as numbered Unicode documents because a proposal only receives a document number
+once the Emoji Standard and Research Working Group advances it. Two proposals succeeded, in 2019, both filed
+under Emojination's name.
 The 2026 submission window closes **2026-07-31**.
 
 ## Deadlines
@@ -34,14 +35,18 @@ The 2026 submission window closes **2026-07-31**.
    Treat all three as ineligible for this round. Preserve their complete `submissions/v1.2.0/` packets as
    future assets; do not consume Microsoft's July review window on them.
 
-   Nine portfolio concepts are clearly re-eligible now: CT Scan, Blood Bag, Pill Box, Weight Scale, White
-   Blood Cell, Inhaler, IV Bag, Leg Cast, and Pill Pack. Their last public submissions were in 2018 or 2020.
-   Release `submissions/v1.3.0/` contains independent drafts, original CC0 artwork, recovered evidence, and a
-   filing-readiness manifest. CT Scan is the recommended lead, Weight Scale is the evidence-gated challenger,
-   and Blood Bag is the complete fallback.
+   Ten portfolio concepts are clearly re-eligible now: CT Scan, Blood Bag, Pill Box, Weight Scale, White
+   Blood Cell, Inhaler, IV Bag, Leg Cast, Pill Pack, and Maze. Their last public submissions were in 2018 or
+   2020. Releases `submissions/v1.3.0/` and `submissions/v1.4.0/` contain independent drafts, original CC0
+   artwork, recovered evidence, and filing-readiness manifests. Ultrasound and First Aid Kit have no matching
+   public status rows and are treated as first-time public-sheet concepts.
+
+   Ultrasound is now the conditional lead because its recent Google Books signal is approximately 1.70 times
+   `elephant` and its monitor-plus-probe form opens a genuinely new healthcare concept. It still needs four
+   fresh Google captures and a Microsoft small-size design review. CT Scan remains the filing-ready fallback.
 
    The portfolio evidence still matters. First-time proposals advance 16% of the time; resubmissions advance
-   5%. Eligibility is permission to be reviewed, not a reason to file all nine.
+   5%. Eligibility is permission to be reviewed, not a reason to file all ten.
 
 2. **The screening gate.** All fourteen died inside the ESR working group. Its membership is not published
    and cannot be discovered from outside. Whether Microsoft sits there is the highest-leverage question in
@@ -56,9 +61,9 @@ The 2026 submission window closes **2026-07-31**.
    section headings. Use [`docs/proposals/TEMPLATE-emoji-proposal.md`](docs/proposals/TEMPLATE-emoji-proposal.md).
    Never write cause language, never cite petitions or social media, and draft the Open-ended answer first.
 
-5. **Open-endedness.** Do not frame the work as a complete organ or medical-symbol set. The 2026 release
-   contains nine independent proposals, but the strategy is to advance one lead. Every proposal is supported
-   by its own frequency, distinctiveness, multiple uses, and lack of a substitute.
+5. **Open-endedness.** Do not frame the work as a complete organ or medical-symbol set. The current releases
+   contain twelve independent proposals, but the strategy is to advance one lead and retain one fallback.
+   Every proposal must stand on its own frequency, distinctiveness, multiple uses, and lack of a substitute.
 
 ## What is written and ready
 
@@ -76,7 +81,8 @@ The 2026 submission window closes **2026-07-31**.
 | Microsoft brief deck | `docs/presentations/2026-07-09-microsoft-brief/` | 11 slides |
 | Three organ submission packets | `submissions/v1.2.0/` | Final PDFs drafted; external filing preflight remains |
 | Nine clearly re-eligible packets | `submissions/v1.3.0/` | Three complete packets; six evidence-gated drafts |
-| Eligible-slate ranking | `docs/strategy/2026-07-10-eligible-proposal-ranking.md` | CT Scan lead; Weight Scale challenger; Blood Bag fallback |
+| Three additional packets | `submissions/v1.4.0/` | Ultrasound, Maze, and First Aid Kit full drafts; four Google captures missing for each |
+| Expanded-slate ranking | `docs/strategy/2026-07-10-expanded-proposal-ranking.md` | Ultrasound conditional lead; CT Scan filing-ready fallback |
 | Microsoft Monday decision brief | `output/doc/2026-07-13-microsoft-medical-emoji-decision-brief.docx` | Ready for Rhew/Chowdhary review |
 | Reproducible census script | `evidence/emoji_group_census.py` | Done |
 | What to file, and the pitch | `docs/strategy/2026-07-09-what-to-file.md` | **Decision needed** |
@@ -120,8 +126,9 @@ itself made that classification because no better destination existed.
 ## Immediate next actions
 
 1. Send Rhew the revised Monday decision brief and cover email in `docs/strategy/` and `output/`.
-2. Ask the Windows/Segoe UI Emoji product owner to choose CT Scan or a Trends-complete Weight Scale proposal.
-3. Ask Microsoft design and legal to review the selected CC0 paradigm and anticipated-implementation text.
-4. Manually refresh the selected packet's Google evidence, then rebuild and inspect its PDF.
-5. File the selected eligible proposal by 2026-07-31; keep the three organ packets for a later eligible round.
-6. Keep a never-before-proposed concept available as the higher-probability fallback if Microsoft prefers it.
+2. Run the 48-hour Ultrasound evidence sprint: manually capture Search, Video, Web Trends, and Image Trends.
+3. Ask the Windows/Segoe UI Emoji and Fluent Emoji owners to test Ultrasound and CT Scan at 18x18 and in
+   black-and-white; select CT Scan if Ultrasound misses the evidence or recognition gate.
+4. Ask Microsoft Legal to review the selected CC0 paradigm and anticipated-implementation text.
+5. Replace the selected draft's evidence notices, rebuild the proposal PDF, and inspect every page.
+6. File one selected proposal by 2026-07-31; keep the three organ packets for a later eligible round.

@@ -29,15 +29,18 @@ than four years had elapsed by the 2026-07-31 filing deadline.
 | CT Scan | Declined | 2020-12-18 | Yes |
 | Pill Box | Declined | 2020-10-27 | Yes |
 | Inhaler | Declined | 2018-07-03 | Yes |
+| Maze | Declined | 2020-12-18 | Yes |
 
-Blood Bag also has a 2017 declined row. Weight Scale also has a 2018 expired `Bathroom Scale` row. The table
-uses the later 2020 row because the most recent submission controls the conservative eligibility check.
+Blood Bag also has a 2017 declined row. Weight Scale also has a 2018 expired `Bathroom Scale` row. Maze also
+has a 2018 declined row. The table uses each concept's later row because the most recent submission controls
+the conservative eligibility check.
 
 ## Scope boundary
 
-This note identifies re-eligible concepts already in the Medical Emoji portfolio. Never-before-proposed
-concepts such as hospital bed, insulin pen, glucose meter, nebulizer, oxygen mask, walker, and ice pack do not
-have a resubmission bar, but they are a separate first-time-concept strategy and are not part of this release.
+This note identifies re-eligible concepts already in the Medical Emoji portfolio. The `v1.3.0` release covers
+the original nine-concept audit; the `v1.4.0` companion release adds Maze. Ultrasound and First Aid Kit have
+no matching public status rows and are handled separately as first-time public-sheet concepts in
+`docs/research/2026-07-10-maze-ultrasound-first-aid-status.md`.
 
 Pill Pack and Pill Box are both eligible, but eligibility does not resolve their overlap. They require a
 separate filing decision after the completed drafts are compared.

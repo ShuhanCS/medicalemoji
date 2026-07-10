@@ -7,6 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.22.0] - 2026-07-10
+
+### Added
+- Added full Unicode proposal drafts for Maze, Ultrasound, and First Aid Kit, with rendered PDFs and reproducible evidence links.
+- Added original CC0 SVG artwork and color/true-black-and-white 18x18 and 72x72 exports for all three concepts.
+- Added fresh Google Books Ngram comparisons, a public-status audit, a v1.4.0 manifest, and an expanded twelve-concept ranking.
+
+### Changed
+- Made Ultrasound the conditional Microsoft lead because its recent Ngram signal is approximately 1.70 times `elephant`; retained CT Scan as the filing-ready fallback.
+- Reframed Maze around general puzzle, path, navigation, complexity, and problem-solving uses rather than a neuroscience cause.
+- Designed First Aid Kit with a generic white cross on green to avoid protected red cross and red crescent emblems.
+- Bumped the application/workspace version from `0.21.0` to `0.22.0` and the proposal release from `v1.3.0` to `v1.4.0`.
+
 ## [0.21.0] - 2026-07-10
 
 ### Added

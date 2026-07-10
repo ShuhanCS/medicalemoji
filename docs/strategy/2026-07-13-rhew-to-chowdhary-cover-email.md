@@ -2,26 +2,37 @@
 
 **To:** Vishal Chowdhary  
 **From:** David Rhew  
-**Subject:** Monday decision: one eligible medical emoji proposal before July 31
+**Subject:** Monday decision: Ultrasound lead, CT Scan fallback before July 31
 
 Vishal,
 
-Shuhan He has completed a new review of his prior medical emoji portfolio against Unicode's four-year resubmission rule. Nine concepts last submitted in 2018 or 2020 are clearly eligible for the intake closing July 31. The three organ proposals declined in November 2022 are not part of this ask for the current round.
+Shuhan He has completed a current-format review of twelve medical and health-adjacent emoji concepts for the
+Unicode intake closing July 31. Ten are clearly re-eligible concepts last submitted in 2018 or 2020. Two -
+Ultrasound and First Aid Kit - have no matching row in Unicode's public proposal-status sheet. The three
+organ proposals declined in November 2022 are not part of this ask for the current round.
 
-The attached decision brief recommends advancing **CT Scan** as the lead proposal, with **Weight Scale** as the challenger after two final Google Trends captures. Could you please help route it to the appropriate owners for:
+The attached decision brief recommends **Ultrasound** as the conditional lead, with **CT Scan** as the
+filing-ready fallback. Ultrasound's recent Google Books signal is approximately 1.70 times Unicode's
+`elephant` comparator, and its monitor-plus-probe form has broad clinical and personal uses. It still needs a
+48-hour evidence and design sprint; if that sprint does not pass, CT Scan is ready to advance.
+
+Could you please help route it to the appropriate owners for:
 
 1. Microsoft's Unicode standards process;
-2. a Windows/Segoe UI Emoji product choice between the lead and challenger;
+2. a Windows/Segoe UI Emoji product choice between the conditional lead and fallback;
 3. Fluent Emoji or Windows design review at 18x18 and in black-and-white; and
 4. legal review of the artwork route and a narrowly written anticipated-implementation statement?
 
 The goal is one normal internal product decision, not a request for a preferred Unicode outcome. Shuhan will remain the individual submitter and file the selected proposal separately. I can sponsor the clinical and health-communication review.
 
-If we can identify the owners this week, the selected packet can be refreshed and filed before July 31 without routing eight competing proposals through Microsoft.
+If we can identify the owners this week, the selected packet can be completed and filed before July 31
+without routing twelve competing proposals through Microsoft.
 
 Thank you,
 
 David
 
 **Attachment:** `2026 Medical Emoji - Microsoft Internal Decision Brief`  
-**Proposal release:** https://github.com/ShuhanCS/medicalemoji/tree/codex/eligible-2026-slate/submissions/v1.3.0
+**New proposal release:** https://github.com/ShuhanCS/medicalemoji/tree/codex/eligible-2026-slate/submissions/v1.4.0
+
+**CT Scan fallback:** https://github.com/ShuhanCS/medicalemoji/tree/codex/eligible-2026-slate/submissions/v1.3.0/ct-scan
