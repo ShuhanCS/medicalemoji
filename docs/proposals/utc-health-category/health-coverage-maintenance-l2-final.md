@@ -1,25 +1,37 @@
 ---
 title: "Health-Related Emoji Coverage as a Standards-Maintenance Issue"
 author-meta: "David Rhew, MD; Shuhan He, MD"
-date-meta: "2026-07-13"
+date-meta: "2026-07-10"
 subject: "Discussion document for UTC and the Emoji Standard and Research Working Group"
 geometry: margin=1in
 fontsize: 10pt
 ---
 
-**Status:** Final discussion draft for Microsoft review and referral to the Unicode Technical Committee (UTC) and the Emoji Standard and Research Working Group (ESR).
+```text
+Title:  Health-Related Emoji Coverage as a Standards-Maintenance Issue
+Source: David Rhew, Microsoft; Shuhan He
+Date:   2026-07-10
+Status: Individual Contribution
+Action: For consideration by UTC; refer to ESR
+```
+
+**Status:** Final discussion document for Microsoft review and referral to the Unicode Technical Committee (UTC) and the Emoji Standard and Research Working Group (ESR).
 
 ## Executive summary
 
 Health-related emoji coverage is now a coherent standards-maintenance problem. Health concepts are distributed across anatomy, diagnostic, laboratory, medication, emergency-care, and clinical-equipment contexts, while users and implementers encounter them as one practical communication domain. The issue is not that every medical concept should become an emoji. The issue is that the current coverage and review process does not provide a clear way to identify gaps, compare candidates, or coordinate vendor support.
 
-This document asks the UTC and ESR to recognize the maintenance issue, review the organization of the domain, establish prioritization criteria, route individual concepts through the ordinary Emoji proposal process, and clarify how vendors may provide bounded design, accessibility, rights, evidence, and anticipated-implementation support.
+This document asks the UTC to authorize ESR to review the maintenance issue and report back on the organization of the domain, prioritization criteria, procedural handling of individual concepts, and bounded vendor support for design, accessibility, rights, evidence, and anticipated implementation.
 
 No character is requested, approved, or prioritized by this document. Each concept remains subject to the current Unicode Emoji proposal requirements, including public evidence, distinctiveness, exclusion-factor analysis, image rights, and the normal submission form.
 
-## Concrete request
+## Why now
 
-Microsoft respectfully asks the UTC to refer this document to the ESR for review and recommendation, with the following five questions before it:
+The 2026 Emoji proposal window is open through July 31, 2026. Several health-related concepts have prior proposal history, and the current project drafts are being rebuilt against the current evidence, image-rights, and submission requirements. A bounded maintenance review would improve process coherence while leaving every individual concept to the normal proposal process.
+
+## Concrete UTC action requested
+
+Microsoft respectfully asks the UTC to authorize the Emoji Standard and Research Working Group to conduct a bounded review of health-related emoji coverage and report back with recommendations on scope, prioritization criteria, and procedural handling of individual proposals. The review mandate should address the following five questions:
 
 1. **Recognize health-related emoji coverage as a coherent standards-maintenance issue.** The domain should be assessed as a connected coverage problem even when its existing characters remain in different keyboard groups.
 2. **Review how the domain is organized.** The review should examine anatomy, diagnostics, laboratory medicine, medication, emergency care, and clinical equipment, including the relationship between existing emoji and missing concepts.
@@ -27,7 +39,13 @@ Microsoft respectfully asks the UTC to refer this document to the ESR for review
 4. **Refer individual concepts to the normal Emoji proposal process.** A coverage review must not become a bundled encoding request. Kidney, liver, stomach, EKG/ECG, white blood cell, Pill Box, Inhaler, First Aid Kit, Blood Bag, IV Bag, Leg Cast, Weight Scale, and any other concept must be evaluated in its own complete submission.
 5. **Clarify vendor support.** Vendors may contribute design review, accessibility testing, rights and provenance information, evidence reproducibility, and anticipated implementation planning without asking the Consortium to adopt vendor artwork or pre-commit to encoding.
 
-The requested outcome is procedural clarity and serious technical review, not automatic approval.
+The requested outcome is an ESR recommendation and documented review framework, not automatic approval. The UTC need not decide every candidate in the same meeting.
+
+## Two-track structure
+
+**Track A - standards maintenance.** ESR reviews the organization of existing health-related emoji, the six-domain coverage framework, prioritization criteria, and any process recommendations that should be reported to the UTC.
+
+**Track B - individual proposals.** Each candidate is prepared and submitted as a separate, complete Unicode Emoji proposal. Track B does not depend on creation of a new category, and Track A does not pre-approve any candidate.
 
 ## Scope of the maintenance review
 
@@ -71,7 +89,7 @@ The current project drafts and evidence work are inputs, not substitutes for the
 
 ## Vendor participation model
 
-Vendor participation should be transparent and bounded:
+Vendor participation should be optional, transparent, non-binding, and non-exclusive. It should be bounded to:
 
 - review whether a candidate remains legible at common emoji sizes;
 - test color and black-and-white paradigms for accessibility;
@@ -80,11 +98,11 @@ Vendor participation should be transparent and bounded:
 - provide anticipated implementation considerations without promising adoption; and
 - return technical comments through the normal UTC/ESR process.
 
-Vendor review is not a vote, a frequency statistic, a request for exact artwork, or a commitment to ship an encoded character.
+Vendor review is not a vote, a frequency statistic, a substitute for Unicode evidence, a request for exact artwork, an exclusive endorsement, or a commitment to ship an encoded character.
 
 ## Requested referral and working-group action
 
-Microsoft respectfully asks that this document and the associated individual proposal materials be routed to the appropriate Unicode working group and reviewed on their complete technical merits, including evidence, distinctiveness, public utility, image rights, accessibility, and anticipated vendor-support considerations.
+Microsoft respectfully asks that this document be routed to ESR for the bounded review described above. Microsoft further asks that any associated individual proposal materials be reviewed through the ordinary Emoji process on their complete technical merits, including evidence, distinctiveness, public utility, image rights, accessibility, and anticipated vendor-support considerations. Microsoft sponsorship does not constitute evidence of usage, eligibility, or likely acceptance.
 
 The requested working-group output is a recommendation on the maintenance framework and procedural handling of the individual concepts. The working group need not decide every candidate in the same meeting, and no candidate should advance without a complete packet.
 
