@@ -38,7 +38,8 @@ the conservative eligibility check.
 ## Scope boundary
 
 This note identifies re-eligible concepts already in the Medical Emoji portfolio. The `v1.3.0` release covers
-the original nine-concept audit; the `v1.4.0` companion release adds Maze. Ultrasound and First Aid Kit have
+the original nine-concept audit; the current `v1.5.0` release adds Maze with a mouse-maze paradigm. Ultrasound
+and First Aid Kit have
 no matching public status rows and are handled separately as first-time public-sheet concepts in
 `docs/research/2026-07-10-maze-ultrasound-first-aid-status.md`.
 

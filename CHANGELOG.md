@@ -7,6 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.23.0] - 2026-07-10
+
+### Added
+- Added a persistent, headed Playwright Firefox workflow that pauses for human CAPTCHA completion and refuses to save incomplete Google evidence pages.
+- Added operator instructions and machine-readable capture logs for Search, Video, Web Trends, and Image Trends evidence.
+- Added reproducible Bing Web, Video, and Image supplements for Ultrasound, Maze, and First Aid Kit, with the alternate-engine evidence kept separate from the missing Google categories.
+
+### Changed
+- Revised Maze into a mouse-maze paradigm with a mouse visibly navigating broad corridors at 18x18 and 72x72.
+- Updated the Maze proposal to include learning, memory, decision-making, behavioral research, and general puzzle/navigation uses without relying on a cause argument.
+- Advanced the synchronized proposal release from `v1.4.0` to `v1.5.0` and the project version from `0.22.0` to `0.23.0`.
+- Updated the Microsoft route so an evidence owner can run the Google helper from an accepted network, with a standards-reviewed public Bing method as the documented fallback.
+
 ## [0.22.0] - 2026-07-10
 
 ### Added

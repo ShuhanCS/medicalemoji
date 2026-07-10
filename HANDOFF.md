@@ -37,13 +37,15 @@ The 2026 submission window closes **2026-07-31**.
 
    Ten portfolio concepts are clearly re-eligible now: CT Scan, Blood Bag, Pill Box, Weight Scale, White
    Blood Cell, Inhaler, IV Bag, Leg Cast, Pill Pack, and Maze. Their last public submissions were in 2018 or
-   2020. Releases `submissions/v1.3.0/` and `submissions/v1.4.0/` contain independent drafts, original CC0
+   2020. Releases `submissions/v1.3.0/` and `submissions/v1.5.0/` contain independent drafts, original CC0
    artwork, recovered evidence, and filing-readiness manifests. Ultrasound and First Aid Kit have no matching
    public status rows and are treated as first-time public-sheet concepts.
 
    Ultrasound is now the conditional lead because its recent Google Books signal is approximately 1.70 times
    `elephant` and its monitor-plus-probe form opens a genuinely new healthcare concept. It still needs four
    fresh Google captures and a Microsoft small-size design review. CT Scan remains the filing-ready fallback.
+   Maze now uses a mouse navigating broad corridors, strengthening the learning, memory, decision-making, and
+   behavioral-research uses while retaining the general `Maze` name.
 
    The portfolio evidence still matters. First-time proposals advance 16% of the time; resubmissions advance
    5%. Eligibility is permission to be reviewed, not a reason to file all ten.
@@ -81,7 +83,7 @@ The 2026 submission window closes **2026-07-31**.
 | Microsoft brief deck | `docs/presentations/2026-07-09-microsoft-brief/` | 11 slides |
 | Three organ submission packets | `submissions/v1.2.0/` | Final PDFs drafted; external filing preflight remains |
 | Nine clearly re-eligible packets | `submissions/v1.3.0/` | Three complete packets; six evidence-gated drafts |
-| Three additional packets | `submissions/v1.4.0/` | Ultrasound, Maze, and First Aid Kit full drafts; four Google captures missing for each |
+| Three additional packets | `submissions/v1.5.0/` | Ultrasound, mouse-maze, and First Aid Kit full drafts; reproducible Bing supplements present; four Google captures still missing for each |
 | Expanded-slate ranking | `docs/strategy/2026-07-10-expanded-proposal-ranking.md` | Ultrasound conditional lead; CT Scan filing-ready fallback |
 | Microsoft Monday decision brief | `output/doc/2026-07-13-microsoft-medical-emoji-decision-brief.docx` | Ready for Rhew/Chowdhary review |
 | Reproducible census script | `evidence/emoji_group_census.py` | Done |
@@ -127,6 +129,11 @@ itself made that classification because no better destination existed.
 
 1. Send Rhew the revised Monday decision brief and cover email in `docs/strategy/` and `output/`.
 2. Run the 48-hour Ultrasound evidence sprint: manually capture Search, Video, Web Trends, and Image Trends.
+   Use `npm run evidence:capture -- --concept=ultrasound --release=v1.5.0` from a Microsoft corporate or
+   ordinary residential network Google accepts, and complete Google's human check in the visible persistent
+   Firefox window if prompted. If Google remains inaccessible, ask Microsoft standards and Bing Search owners
+   to clear a complete public, reproducible substitute; do not present the existing three-image Bing
+   supplement as a replacement for the missing Trends charts.
 3. Ask the Windows/Segoe UI Emoji and Fluent Emoji owners to test Ultrasound and CT Scan at 18x18 and in
    black-and-white; select CT Scan if Ultrasound misses the evidence or recognition gate.
 4. Ask Microsoft Legal to review the selected CC0 paradigm and anticipated-implementation text.

@@ -1,0 +1,36 @@
+{
+  "concept": "first-aid-kit",
+  "provider": "Microsoft Bing",
+  "purpose": "Unicode Google-inaccessibility supplement",
+  "captureMethod": "Bing HTTPS response rendered locally without response scripts",
+  "viewport": {
+    "width": 1440,
+    "height": 1100
+  },
+  "records": [
+    {
+      "kind": "Bing Web Search",
+      "result": "About 19,900 results",
+      "query": "\"first aid kit\"",
+      "url": "https://www.bing.com/search?q=%22first+aid+kit%22&setlang=en-us&cc=us",
+      "filename": "first-aid-kit_bing_web_search_2026-07-10_SUPPLEMENT.png",
+      "capturedAt": "2026-07-10T16:11:22.810Z"
+    },
+    {
+      "kind": "Bing Video Search",
+      "result": "Visible result set; Bing does not expose a vertical-result total on this page",
+      "query": "first aid kit",
+      "url": "https://www.bing.com/videos/search?q=first+aid+kit&setlang=en-us&cc=us",
+      "filename": "first-aid-kit_bing_video_search_2026-07-10_SUPPLEMENT.png",
+      "capturedAt": "2026-07-10T16:11:25.718Z"
+    },
+    {
+      "kind": "Bing Image Search",
+      "result": "Visible result set; Bing does not expose a vertical-result total on this page",
+      "query": "first aid kit",
+      "url": "https://www.bing.com/images/search?q=first+aid+kit&setlang=en-us&cc=us",
+      "filename": "first-aid-kit_bing_image_search_2026-07-10_SUPPLEMENT.png",
+      "capturedAt": "2026-07-10T16:11:28.607Z"
+    }
+  ]
+}

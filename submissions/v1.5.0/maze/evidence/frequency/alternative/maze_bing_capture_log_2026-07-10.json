@@ -1,0 +1,36 @@
+{
+  "concept": "maze",
+  "provider": "Microsoft Bing",
+  "purpose": "Unicode Google-inaccessibility supplement",
+  "captureMethod": "Bing HTTPS response rendered locally without response scripts",
+  "viewport": {
+    "width": 1440,
+    "height": 1100
+  },
+  "records": [
+    {
+      "kind": "Bing Web Search",
+      "result": "About 46,200 results",
+      "query": "maze",
+      "url": "https://www.bing.com/search?q=maze&setlang=en-us&cc=us",
+      "filename": "maze_bing_web_search_2026-07-10_SUPPLEMENT.png",
+      "capturedAt": "2026-07-10T16:11:05.154Z"
+    },
+    {
+      "kind": "Bing Video Search",
+      "result": "Visible result set; Bing does not expose a vertical-result total on this page",
+      "query": "maze",
+      "url": "https://www.bing.com/videos/search?q=maze&setlang=en-us&cc=us",
+      "filename": "maze_bing_video_search_2026-07-10_SUPPLEMENT.png",
+      "capturedAt": "2026-07-10T16:11:08.101Z"
+    },
+    {
+      "kind": "Bing Image Search",
+      "result": "Visible result set; Bing does not expose a vertical-result total on this page",
+      "query": "maze",
+      "url": "https://www.bing.com/images/search?q=maze&setlang=en-us&cc=us",
+      "filename": "maze_bing_image_search_2026-07-10_SUPPLEMENT.png",
+      "capturedAt": "2026-07-10T16:11:11.148Z"
+    }
+  ]
+}

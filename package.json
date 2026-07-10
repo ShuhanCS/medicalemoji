@@ -1,6 +1,6 @@
 {
   "name": "medicalemoji",
-  "version": "0.22.0",
+  "version": "0.23.0",
   "private": true,
   "description": "Medical Emoji campaign site and Unicode proposal workspace",
   "author": "Medical Emoji Project",
@@ -28,7 +28,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "evidence:capture": "node scripts/capture_unicode_evidence.mjs",
+    "evidence:capture:alternate": "node scripts/capture_unicode_alternative_evidence.mjs"
   },
   "dependencies": {
     "@base-ui/react": "^1.3.0",
@@ -49,6 +51,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.2.1",
+    "playwright": "^1.61.1",
     "tailwindcss": "^4",
     "typescript": "^5"
   }

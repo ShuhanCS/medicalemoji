@@ -47,7 +47,7 @@ completed drafts should remain future assets, not consume the July Microsoft rev
 | --- | --- | --- | --- | --- |
 | Ultrasound | Missing four Google captures | Novel public-sheet concept; Ngram approximately 1.70x `elephant`; broad scan uses | Evidence incomplete; probe must remain legible | **Conditional lead** |
 | CT Scan | Complete | Strong complete corpus packet; recognizable scanner; procedure and appointment uses | Must distinguish from X-Ray; resubmission | **Filing-ready fallback** |
-| Maze | Missing four Google captures | Broad puzzle, path, choice, complexity, and navigation meanings | Declined twice; current Ngram below `elephant` | Evidence reserve |
+| Maze | Missing four Google captures | Mouse-maze paradigm; puzzle, learning, memory, research, and navigation uses | Declined twice; current Ngram below `elephant` | Evidence reserve |
 | First Aid Kit | Missing four Google captures | Novel public-sheet concept; iconic preparedness object | Low books signal; existing substitutes | Hold |
 
 **Hold the other eight.** Weight Scale and Blood Bag are reserves. The other six carry greater evidence,
@@ -56,11 +56,14 @@ recognition, overlap, or implementation risk.
 ## Internal route and deliverables
 
 1. **Unicode/standards lead - July 15:** confirm the proper route for one individual proposal.
-2. **Evidence owner and Shuhan He - July 15:** capture all four missing Ultrasound screenshots and issue a
-   pass/fail note.
-3. **Windows/Segoe UI Emoji and Fluent Emoji - July 17:** accept the 18x18 Ultrasound probe or select CT Scan.
-4. **Microsoft Legal - July 20:** clear the CC0 artwork route and final anticipated-implementation statement.
-5. **David Rhew and Shuhan He - July 31:** rebuild, inspect, and file the selected proposal individually.
+2. **Evidence owner and Shuhan He - July 15:** run the Google helper from an accepted Microsoft or residential
+   network, capture all four missing Ultrasound screenshots, and issue a pass/fail note.
+3. **Bing Search owner - July 16, only if Google remains inaccessible:** identify a public, reproducible Web,
+   Video, Web-trend, and Image-trend method comparable to Google's categories. Do not substitute private
+   telemetry or the three-image supplement without standards review.
+4. **Windows/Segoe UI Emoji and Fluent Emoji - July 17:** accept the 18x18 Ultrasound probe or select CT Scan.
+5. **Microsoft Legal - July 20:** clear the CC0 artwork route and final anticipated-implementation statement.
+6. **David Rhew and Shuhan He - July 31:** rebuild, inspect, and file the selected proposal individually.
 
 ## Guardrails
 
@@ -70,7 +73,8 @@ recognition, overlap, or implementation risk.
 - File one lead proposal. A second filing should require a separate product decision and clearly independent
   evidence.
 - Do not file both Pill Box and Pill Pack, or both Blood Bag and IV Bag, without resolving their overlap.
-- Maze must be framed as a general puzzle and navigation object, not as a neuroscience-awareness cause.
+- Maze uses a mouse-maze paradigm; justify it through concrete puzzle, learning, memory, navigation, and
+  research uses, not an awareness cause.
 - First Aid Kit must retain a generic non-red safety cross and must not reproduce a protected humanitarian
   emblem.
 - Evidence gaps are labeled accurately. Do not submit an editorial placeholder as if it were a compliant
@@ -80,12 +84,14 @@ recognition, overlap, or implementation risk.
 
 - A complete CT Scan fallback packet.
 - Full evidence-gated drafts for Ultrasound, Maze, and First Aid Kit.
+- Reproducible Bing Web/Video/Image supplements for all three evidence-gated drafts, explicitly separated from
+  the still-missing Google categories.
 - Comparative ranking and independent drafts across the twelve-concept expanded portfolio.
 - Original color and black-and-white SVG/PNG artwork released under CC0 1.0.
 
 Proposal release:
 
-https://github.com/ShuhanCS/medicalemoji/tree/codex/eligible-2026-slate/submissions/v1.4.0
+https://github.com/ShuhanCS/medicalemoji/tree/codex/eligible-2026-slate/submissions/v1.5.0
 
 Complete CT Scan fallback:
 
@@ -95,8 +101,6 @@ https://github.com/ShuhanCS/medicalemoji/tree/codex/eligible-2026-slate/submissi
 
 - Unicode proposal guidance: https://www.unicode.org/emoji/proposals.html
 - Unicode Emoji Submission FAQ: https://www.unicode.org/faq/emoji_submission.html
-- Unicode proposal status: https://www.unicode.org/emoji/emoji-proposals-status.html
-- Microsoft Fluent Emoji: https://github.com/microsoft/fluentui-emoji
 
 # Draft for Product and Legal Clearance
 

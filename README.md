@@ -53,16 +53,18 @@ Last status check: 2026-07-10
 
 ## Current Submission Link
 
-New three-concept companion release:
-https://github.com/ShuhanCS/medicalemoji/tree/codex/eligible-2026-slate/submissions/v1.4.0
+Current three-concept release:
+https://github.com/ShuhanCS/medicalemoji/tree/codex/eligible-2026-slate/submissions/v1.5.0
 
 Prior re-eligible portfolio release and CT Scan fallback:
 https://github.com/ShuhanCS/medicalemoji/tree/codex/eligible-2026-slate/submissions/v1.3.0
 
-The new release adds full drafts for Ultrasound, Maze, and First Aid Kit. All three have final original
-artwork and a fresh Google Books comparison; all remain evidence-gated until four fresh Google screenshots
-are captured. Ultrasound is the conditional Microsoft lead, and the complete CT Scan packet in `v1.3.0` is
-the filing-ready fallback. See [`submissions/v1.4.0/MANIFEST.md`](submissions/v1.4.0/MANIFEST.md).
+The current release contains full drafts for Ultrasound, Maze, and First Aid Kit. Maze now uses a mouse-maze
+paradigm. All three have original artwork and a fresh Google Books comparison; all remain evidence-gated until
+four fresh Google screenshots are captured. Reproducible Bing Web, Video, and Image supplements are archived
+for all three, but are deliberately separated from the missing Google categories. Ultrasound is the
+conditional Microsoft lead, and the complete CT Scan packet in `v1.3.0` is the filing-ready fallback. See
+[`submissions/v1.5.0/MANIFEST.md`](submissions/v1.5.0/MANIFEST.md).
 
 Unicode requires a publicly accessible PDF proposal submitted through the official form. Email, fax, and hard-copy submissions are not accepted.
 
@@ -99,7 +101,7 @@ Unicode's guidelines page says:
 Important practical note: the three private decline notices for Kidney, Stomach, and Liver are dated
 `2022-11-04`. Four elapsed years have not passed by `2026-07-31`, so this workspace treats the three organs
 as ineligible for the current intake. Their completed `v1.2.0` packets remain future assets. Ten concepts are
-clearly re-eligible now: the nine in `submissions/v1.3.0/` plus Maze in `submissions/v1.4.0/`. Ultrasound and
+clearly re-eligible now: the nine in `submissions/v1.3.0/` plus Maze in `submissions/v1.5.0/`. Ultrasound and
 First Aid Kit have no matching public status rows and are treated as first-time public-sheet concepts.
 
 ## Emoji Submission Status
@@ -124,9 +126,9 @@ proposal workspaces. Status rows are from Unicode's live public proposal-status 
 | CT Scan | Legacy proposal asset | `CT Scan` declined 2020-12-18 | Declined | 2020-12-18 | 2024-12-18 | Lead complete packet in `submissions/v1.3.0/`. |
 | Pill Box | Legacy proposal asset | `Pill Box` declined 2020-10-27 | Declined | 2020-10-27 | 2024-10-27 | Complete packet; hold because of Pill/Pill Pack overlap. |
 | Inhaler | Public 2018 proposal | `Inhaler` declined 2018-07-03 | Declined | 2018-07-03 | 2022-07-03 | Draft complete; add Google Video and global `elephant` Trends evidence. |
-| Maze | Public 2018 and 2020 rows | `Maze` declined 2018-04-12; `Maze` declined 2020-12-18 | Declined | 2020-12-18 | 2024-12-18 | Full `v1.4.0` draft; capture Search, Video, and both Trends categories. |
-| Ultrasound / Sonogram | New proposal workspace | No matching public status row found | No public row | — | No public resubmission bar identified | Conditional lead in `v1.4.0`; capture four missing Google categories and complete Microsoft design review. |
-| First Aid Kit | New proposal workspace | No matching `First Aid Kit` row; distinct `First Aid Ointment` expired 2017-11-30 | No matching public row | — | No public resubmission bar identified | Full `v1.4.0` draft; hold unless current evidence overcomes low Ngram and substitute risk. |
+| Maze | Public 2018 and 2020 rows | `Maze` declined 2018-04-12; `Maze` declined 2020-12-18 | Declined | 2020-12-18 | 2024-12-18 | Full mouse-maze draft in `v1.5.0`; capture Search, Video, and both Trends categories. |
+| Ultrasound / Sonogram | New proposal workspace | No matching public status row found | No public row | — | No public resubmission bar identified | Conditional lead in `v1.5.0`; capture four missing Google categories and complete Microsoft design review. |
+| First Aid Kit | New proposal workspace | No matching `First Aid Kit` row; distinct `First Aid Ointment` expired 2017-11-30 | No matching public row | — | No public resubmission bar identified | Full `v1.5.0` draft; hold unless current evidence overcomes low Ngram and substitute risk. |
 
 ## Submission Package Requirements
 
@@ -154,6 +156,11 @@ Required frequency evidence:
 - Google Trends Image Search screenshot.
 - Google Books Ngram Viewer screenshot.
 - Trends and Ngram evidence must include `elephant` as the comparator.
+
+If Google is unavailable or inaccessible in the capture region, Unicode permits another search engine that
+displays real data only when the alternative is publicly available, reproducible, and comparable in quality.
+The tested browser and Bing-supplement workflows are documented in
+[`docs/research/2026-07-10-playwright-google-evidence-capture.md`](docs/research/2026-07-10-playwright-google-evidence-capture.md).
 
 Evidence that does not count:
 

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="72" height="72" preserveAspectRatio="xMinYMin meet" viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="72" height="72"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-72)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="72" height="72" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="7" y="27" width="44" height="38" rx="5" ry="5" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 2.5; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="12" y="34" width="34" height="25" rx="2" ry="2" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
+			<path d="M 29 36 C 22 41 18 48 17 55 C 25 58 34 58 42 55 C 40 48 36 41 29 36 Z " style="stroke: none; stroke-linecap: round; stroke-width: 0; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<path d="M 21,53 L 37,53 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1.4;"/>
+			<path d="M 24,48 L 34,48 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 1.4;"/>
+			<path d="M 29,27 L 29,16 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 3;"/>
+			<path d="M 18,14 L 40,14 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 3.5;"/>
+			<path d="M 20,14 L 16,8 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 2.5;"/>
+			<path d="M 38,14 L 42,8 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 2.5;"/>
+			<circle cx="15" cy="7" r="2.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
+			<circle cx="43" cy="7" r="2.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,0%,0%); fill-rule: evenodd;"/>
+			<path d="M 50 31 C 61 28 62 16 52 13 " style="stroke: rgb(0%,0%,0%); stroke-linecap: round; stroke-width: 2.2; fill: none; fill-rule: evenodd;"/>
+			<path d="M 51 42 L 59 38 L 55 29 C 54 27 50 28 49 31 L 46 38 Z " style="stroke: rgb(0%,0%,0%); stroke-linecap: round; stroke-width: 2.2; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<path d="M 48,39 L 58,35 Z" style="stroke: rgb(0%,0%,0%); stroke-linecap: butt; stroke-width: 3;"/>
+		</g>
+	</g>
+</svg>

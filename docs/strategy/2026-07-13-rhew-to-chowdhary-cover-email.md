@@ -20,8 +20,14 @@ Could you please help route it to the appropriate owners for:
 
 1. Microsoft's Unicode standards process;
 2. a Windows/Segoe UI Emoji product choice between the conditional lead and fallback;
-3. Fluent Emoji or Windows design review at 18x18 and in black-and-white; and
-4. legal review of the artwork route and a narrowly written anticipated-implementation statement?
+3. Fluent Emoji or Windows design review at 18x18 and in black-and-white;
+4. one evidence owner who can run the checked-in Google capture helper from a Microsoft network; and
+5. legal review of the artwork route and a narrowly written anticipated-implementation statement?
+
+The current blocker is tied to the public network address, not the packet or the capture code. A Bing
+Web/Video/Image supplement is already archived, but it does not replace the two Google Trends categories. If
+Google is also inaccessible from Microsoft, could the standards and Bing Search owners identify a public,
+reproducible, comparable substitute under Unicode's published exception?
 
 The goal is one normal internal product decision, not a request for a preferred Unicode outcome. Shuhan will remain the individual submitter and file the selected proposal separately. I can sponsor the clinical and health-communication review.
 
@@ -33,6 +39,6 @@ Thank you,
 David
 
 **Attachment:** `2026 Medical Emoji - Microsoft Internal Decision Brief`  
-**New proposal release:** https://github.com/ShuhanCS/medicalemoji/tree/codex/eligible-2026-slate/submissions/v1.4.0
+**New proposal release:** https://github.com/ShuhanCS/medicalemoji/tree/codex/eligible-2026-slate/submissions/v1.5.0
 
 **CT Scan fallback:** https://github.com/ShuhanCS/medicalemoji/tree/codex/eligible-2026-slate/submissions/v1.3.0/ct-scan
