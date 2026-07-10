@@ -12,6 +12,67 @@ Rebuild:
 pandoc health-category-utc-doc.md -o health-category-utc-doc.pdf --pdf-engine=xelatex
 ```
 
+## What it is called, and whether anyone has done it before
+
+It is a **UTC document**, also called an **L2 document**. Not a petition. It is emailed to
+`docsubmit@unicode.org`, Unicode assigns it a permanent public number of the form `L2/26-nnn`, and it
+enters the public register at <https://www.unicode.org/L2/>.
+
+### Do insider filings get posted? Yes. All of them.
+
+Counting documents in the registers whose source field names the Emoji Subcommittee, the working group, the
+UTC chair, or the editors of UTS #51:
+
+| Year | Insider documents posted |
+|---|---|
+| 2015 | 88 |
+| 2016 | 98 |
+| 2017 | 78 |
+| 2018 | 57 |
+| 2019 | 84 |
+| 2020 | 54 |
+| 2021 | 47 |
+| 2022 | 76 |
+| 2023 | 79 |
+| 2024 | 66 |
+| 2025 | 56 |
+| **Total** | **783** |
+
+The Emoji Subcommittee's quarterly reports, its recommendation documents, the editors' draft data files,
+and the chair's own proposals all appear in the same public register as everyone else's.
+
+Two things are **not** public. Emoji proposals that the working group declines never become documents at
+all, which is why the kidney has no record. And the working group's internal deliberations are not
+published; only its reports are.
+
+### Precedent for a document like ours
+
+Documents that change emoji **data or organization** rather than adding a character are ordinary business,
+and they come from members and non-members alike.
+
+| Document | Author | What happened |
+|---|---|---|
+| `L2/16-228` Proposed Additions to `Emoji_Modifier_Base` | **Peter Constable** (Microsoft; now Chair of the UTC) | An emoji **data** proposal, filed by a Microsoft employee, posted publicly |
+| `L2/15-049` Draft Emoji Data Files: Data, **Ordering**, Annotations | Mark Davis | The ordering data itself, filed as a UTC document |
+| `L2/19-298` Making Emoji Properties a Part of the UCD | Ken Whistler | Property data change |
+| `L2/23-252` Proposal to disunify Symbols for Legacy Computing from emoji | Rebecca Bettencourt, Doug Ewell | **Adopted.** UTC #177: *"[177-C35] Consensus: Provisionally assign the following code points for ten symbols, as described in L2/23-252"*, with action items to Ken Whistler |
+| `L2/23-142` Proposal to Define Variation Sequences for Emoji Mapped to Legacy Computing Symbols | Charlotte Buff | UTC #176: *"Discussion. **Remanding to ESC and PAG to review.**"* UTC #177: *"Discussion. UTC took no action at this time."* |
+| `L2/19-084` The Curse of Representation by Specificity | Charlotte Buff | Argued **against** the transgender flag. The UTC read it and approved the flag anyway: *"[159-C16] Consensus: Accept the transgender flag as a draft candidate."* |
+
+So the genre exists, it is filed by individuals and by members, it gets numbered, agendized and discussed,
+and it is sometimes adopted outright. Buff's `L2/23-142` shows the likeliest path for ours: **discussed,
+then remanded to the working group.** That is not failure. It is the argument entering the record and
+reaching the body that owns the file.
+
+### Microsoft is not an outsider
+
+The clause in `tc-procedures.html` that the group *"is not obliged to consider or respond"* applies to
+proposals from *"other organizations or individuals"*, meaning non-delegates. **Microsoft is a Full Member.**
+It has a delegate, it attends every meeting, and `L2/16-228` shows a Microsoft employee filing an emoji data
+proposal a decade ago. That employee, Peter Constable, now chairs the UTC.
+
+UTC #172 and UTC #176 were both held in **Redmond, WA**. So was UTC #188, where this document is headed.
+
 ## What this document can and cannot achieve
 
 Audited against Unicode's rules on 2026-07-09. Read this before setting expectations with anyone.

@@ -355,6 +355,16 @@ and nothing forbids it.
 A document from David Rhew, private citizen, may never be read. The same document, submitted by a Microsoft
 **Delegate**, is member business.
 
+**Microsoft is not an outsider.** That clause governs non-delegates. Microsoft is a Full Member, attends
+every meeting, and in 2016 a Microsoft employee filed `L2/16-228`, *Proposed Additions to
+`Emoji_Modifier_Base`*: an emoji data proposal, publicly posted. That employee was **Peter Constable**, who
+now chairs the UTC. The route we are describing is one Microsoft has already walked.
+
+And the register is not selective. **783 documents** authored by the Emoji Subcommittee, the working group,
+the UTC chair or the editors of UTS #51 were posted publicly between 2015 and 2025. Insider filings get
+numbers and appear alongside everyone else's. What never appears is an emoji proposal the working group
+declines, because it never becomes a document. That is why the kidney has no record.
+
 A second condition breaks the timeline. The seven-day deadline covers only *"document submissions which do
 not require pre-screening or further review,"* and *"most proposal documents must be pre-screened and
 reviewed by specialized groups of experts prior to their placement on the UTC agenda."*[^11] Emoji matters
