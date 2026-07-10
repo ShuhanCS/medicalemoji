@@ -35,8 +35,8 @@ Six rules, each earned from that data:
 4. **No petitions, no Instagram, no `Frequently Requested`.** Disallowed evidence, offered unprompted.
 5. **No cause language.** *"A proposal may be advanced despite a 'cause' argument, but will not be advanced
    because of it."* Awareness and stigma appear thirteen times more often in the documents that failed.
-6. **Draft the Open-ended answer first.** Do not argue that Unicode should encode a complete organ set.
-   Kidney, Stomach, and Liver are separate proposals, and each must stand on independent evidence.
+6. **Draft the Open-ended answer first.** Do not argue that Unicode should encode a complete organ or
+   medical set. Every concept must stand on independent evidence.
 
 Never write "the heart and lungs were encoded, so the kidney should be." That is the textbook Faulty
 Comparison, and it is how a medical-importance argument tends to phrase itself.
@@ -49,15 +49,16 @@ Medical Emoji is a campaign and proposal workspace for adding high-utility medic
 
 This repository contains the public website, prior support materials, current Unicode research notes, and proposal planning files for the medical emoji concepts the project has pursued.
 
-Last status check: 2026-07-09
+Last status check: 2026-07-10
 
 ## Current Submission Link
 
-Current three-organ release:
-https://github.com/ShuhanCS/medicalemoji/tree/feat/microsoft-round-strategy/submissions/v1.2.0
+Current re-eligible portfolio release:
+https://github.com/ShuhanCS/medicalemoji/tree/codex/eligible-2026-slate/submissions/v1.3.0
 
-The release contains separate final PDFs for Kidney, Stomach, and Liver. See its filing preflight in
-[`submissions/v1.2.0/manifest.md`](submissions/v1.2.0/manifest.md).
+The release contains nine independent proposal packets. CT Scan, Blood Bag, and Pill Box contain all five
+frequency categories; the other six are labeled evidence-gated drafts with exact filing blockers. See
+[`submissions/v1.3.0/manifest.md`](submissions/v1.3.0/manifest.md).
 
 Unicode requires a publicly accessible PDF proposal submitted through the official form. Email, fax, and hard-copy submissions are not accepted.
 
@@ -91,7 +92,10 @@ Unicode's guidelines page says:
 - Declined emoji are not eligible for re-review within the last four years.
 - The page body still contains some stale 2025 text, so date-sensitive submissions should be verified with Unicode/ESR before filing.
 
-Important practical note: the three private decline notices are dated `2022-11-04`. Unicode's public rule does not define the controlling date or retroactivity, so eligibility remains a procedural question. The "reeligible by submitted-date clock" column below is a planning estimate only, not an eligibility conclusion.
+Important practical note: the three private decline notices for Kidney, Stomach, and Liver are dated
+`2022-11-04`. Four elapsed years have not passed by `2026-07-31`, so this workspace treats the three organs
+as ineligible for the current intake. Their completed `v1.2.0` packets remain future assets. The clearly
+re-eligible current slate consists of the nine concepts in `submissions/v1.3.0/`.
 
 ## Emoji Submission Status
 
@@ -99,20 +103,21 @@ The table below combines active candidates from `src/data/emoji.ts` and legacy p
 
 | Concept | Repo source | Unicode public status rows | Latest public status | Last public date submitted | Reeligible by submitted-date clock | Next step |
 | --- | --- | --- | --- | --- | --- | --- |
-| Kidney / Kidneys | Active site candidate | `Kidney` declined 2019-12-17; `KIDNEYS` declined 2022-07-19 | Declined | 2022-07-19 | 2026-07-19 | Packet complete in `submissions/v1.2.0/`; obtain the procedural eligibility interpretation before filing. |
-| Liver | Active site candidate | `Liver` declined 2020-12-18; `Liver` declined 2022-07-30 | Declined | 2022-07-30 | 2026-07-30 | Packet complete in `submissions/v1.2.0/`; obtain the procedural eligibility interpretation before filing. |
-| Stomach | Active site candidate | `Stomach` declined 2020-10-27; `Stomach` declined 2022-07-28 | Declined | 2022-07-28 | 2026-07-28 | Packet complete in `submissions/v1.2.0/`; obtain the procedural eligibility interpretation before filing. |
+| Kidney / Kidneys | Active site candidate | `Kidney` declined 2019-12-17; `KIDNEYS` declined 2022-07-19; private decline notice 2022-11-04 | Declined | 2022 | After 2026-11-04 | Preserve `submissions/v1.2.0/`; do not file in the intake closing 2026-07-31. |
+| Liver | Active site candidate | `Liver` declined 2020-12-18; `Liver` declined 2022-07-30; private decline notice 2022-11-04 | Declined | 2022 | After 2026-11-04 | Preserve `submissions/v1.2.0/`; do not file in the intake closing 2026-07-31. |
+| Stomach | Active site candidate | `Stomach` declined 2020-10-27; `Stomach` declined 2022-07-28; private decline notice 2022-11-04 | Declined | 2022 | After 2026-11-04 | Preserve `submissions/v1.2.0/`; do not file in the intake closing 2026-07-31. |
 | Spine | Active site candidate | `Spine` declined 2020-10-27; `Spine` declined 2024-04-05 | Declined | 2024-04-05 | 2028-04-05 | Do not resubmit before 2028 unless Unicode confirms a materially different concept is eligible. |
 | Intestines | Active site candidate | `Intestines` declined 2020-12-18; `Intestines` declined 2024-04-04 | Declined | 2024-04-04 | 2028-04-04 | Do not resubmit before 2028 unless Unicode confirms eligibility. |
 | ECG / EKG | Active site candidate | `ECG` declined 2020-12-18; `ECG` declined 2024-04-05 | Declined | 2024-04-05 | 2028-04-05 | Do not resubmit before 2028 unless Unicode confirms eligibility. |
-| White Blood Cell | Active site candidate | `White Blood Cell` declined 2020-12-18 | Declined | 2020-12-18 | 2024-12-18 | Reeligible by submitted-date clock; verify actual decline date, then build current-format evidence. |
-| Blood Bag | Active site candidate | `Blood bag` declined 2017-05-16; `Blood Bag (B)` declined 2020-12-18 | Declined | 2020-12-18 | 2024-12-18 | Reeligible by submitted-date clock; refresh evidence and avoid relying on blood-donation cause framing alone. |
-| Pill Pack | Active site candidate | `Pill Pack` declined 2020-12-18 | Declined | 2020-12-18 | 2024-12-18 | Reeligible by submitted-date clock; decide whether to pursue pill pack or pill box to avoid duplicate/overlapping proposals. |
-| Weight Scale | Active site candidate | `Bathroom Scale` expired 2018-02-27; `Weight Scale (B)` declined 2020-12-18 | Declined | 2020-12-18 | 2024-12-18 | Reeligible by submitted-date clock; needs strong broad-usage evidence beyond obesity/weight-loss cause framing. |
-| Leg Cast | Legacy proposal asset | `Leg Cast` declined 2020-12-18 | Declined | 2020-12-18 | 2024-12-18 | Reeligible by submitted-date clock; needs current proposal folder, usage evidence, and open-license images. |
-| IV Bag | Legacy proposal asset | `IV Bag` declined 2020-12-18 | Declined | 2020-12-18 | 2024-12-18 | Reeligible by submitted-date clock; clarify broad meaning versus already represented medical-care emoji. |
-| CT Scan | Legacy proposal asset | `CT Scan` declined 2020-12-18 | Declined | 2020-12-18 | 2024-12-18 | Reeligible by submitted-date clock; likely needs a strong visual distinctiveness case at 18x18. |
-| Pill Box | Legacy proposal asset | `Pill Box` declined 2020-10-27 | Declined | 2020-10-27 | 2024-10-27 | Reeligible by submitted-date clock; decide whether this is stronger or weaker than pill pack before filing. |
+| White Blood Cell | Active site candidate | `White Blood Cell` declined 2020-12-18 | Declined | 2020-12-18 | 2024-12-18 | Draft complete in `submissions/v1.3.0/`; replace Trends evidence. |
+| Blood Bag | Active site candidate | `Blood bag` declined 2017-05-16; `Blood Bag (B)` declined 2020-12-18 | Declined | 2020-12-18 | 2024-12-18 | Complete fallback packet in `submissions/v1.3.0/`. |
+| Pill Pack | Active site candidate | `Pill Pack` declined 2020-12-18 | Declined | 2020-12-18 | 2024-12-18 | Draft complete; hold behind Pill Box and finish Trends only if advanced. |
+| Weight Scale | Active site candidate | `Bathroom Scale` expired 2018-02-27; `Weight Scale (B)` declined 2020-12-18 | Declined | 2020-12-18 | 2024-12-18 | Challenger draft complete; add two Trends captures. |
+| Leg Cast | Legacy proposal asset | `Leg Cast` declined 2020-12-18 | Declined | 2020-12-18 | 2024-12-18 | Draft complete; replace Trends and resolve skin-tone behavior. |
+| IV Bag | Legacy proposal asset | `IV Bag` declined 2020-12-18 | Declined | 2020-12-18 | 2024-12-18 | Draft complete; add Trends and hold behind Blood Bag. |
+| CT Scan | Legacy proposal asset | `CT Scan` declined 2020-12-18 | Declined | 2020-12-18 | 2024-12-18 | Lead complete packet in `submissions/v1.3.0/`. |
+| Pill Box | Legacy proposal asset | `Pill Box` declined 2020-10-27 | Declined | 2020-10-27 | 2024-10-27 | Complete packet; hold because of Pill/Pill Pack overlap. |
+| Inhaler | Public 2018 proposal | `Inhaler` declined 2018-07-03 | Declined | 2018-07-03 | 2022-07-03 | Draft complete; add Google Video and global `elephant` Trends evidence. |
 
 ## Submission Package Requirements
 

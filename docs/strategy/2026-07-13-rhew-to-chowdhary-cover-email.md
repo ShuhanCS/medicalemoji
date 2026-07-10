@@ -2,25 +2,26 @@
 
 **To:** Vishal Chowdhary  
 **From:** David Rhew  
-**Subject:** Monday route: three medical emoji proposals before July 31
+**Subject:** Monday decision: one eligible medical emoji proposal before July 31
 
 Vishal,
 
-Shuhan He has completed three separate Unicode emoji proposal packets for Kidney, Stomach, and Liver. The 2026 intake closes July 31, and I would like to help him get a clean process answer and the right internal Microsoft review before then.
+Shuhan He has completed a new review of his prior medical emoji portfolio against Unicode's four-year resubmission rule. Nine concepts last submitted in 2018 or 2020 are clearly eligible for the intake closing July 31. The three organ proposals declined in November 2022 are not part of this ask for the current round.
 
-Could you please help route the attached two-page decision brief to the appropriate owners for:
+The attached decision brief recommends advancing **CT Scan** as the lead proposal, with **Weight Scale** as the challenger after two final Google Trends captures. Could you please help route it to the appropriate owners for:
 
-1. Microsoft's Unicode Technical Committee and Emoji Standard & Research participation;
-2. the Windows/Segoe UI Emoji product decision on an anticipated-implementation statement; and
-3. Fluent Emoji or Windows design and legal review of the supplied artwork and licensing route?
+1. Microsoft's Unicode standards process;
+2. a Windows/Segoe UI Emoji product choice between the lead and challenger;
+3. Fluent Emoji or Windows design review at 18x18 and in black-and-white; and
+4. legal review of the artwork route and a narrowly written anticipated-implementation statement?
 
-There is one narrow procedural question. Unicode's current page says concepts declined within four years are ineligible for re-review. These three received decline notices on November 4, 2022, but the public rule does not explain the controlling date or how the rule introduced in 2024 applies to older decisions. We are asking for a process interpretation, not a favorable outcome.
+The goal is one normal internal product decision, not a request for a preferred Unicode outcome. Shuhan will remain the individual submitter and file the selected proposal separately. I can sponsor the clinical and health-communication review.
 
-I can sponsor the clinical and health-communication review. Shuhan will remain the individual submitter and will file the three proposals separately. If we can identify the owners this week, the responsible teams can decide whether and how Microsoft wants to support the proposals without disrupting the July 31 filing schedule.
+If we can identify the owners this week, the selected packet can be refreshed and filed before July 31 without routing eight competing proposals through Microsoft.
 
 Thank you,
 
 David
 
 **Attachment:** `2026 Medical Emoji - Microsoft Internal Decision Brief`  
-**Proposal packet:** https://github.com/ShuhanCS/medicalemoji/tree/feat/microsoft-round-strategy/submissions/v1.2.0
+**Proposal release:** https://github.com/ShuhanCS/medicalemoji/tree/codex/eligible-2026-slate/submissions/v1.3.0

@@ -1,63 +1,80 @@
 ---
 title: "2026 Medical Emoji: Microsoft Internal Decision Brief"
-subtitle: "Kidney, Stomach, and Liver proposals"
+subtitle: "Choose one clearly eligible proposal to advance before July 31"
 author: "Prepared for David Rhew, MD, and Vishal Chowdhary"
 date: "July 13, 2026"
 ---
 
-**Status:** Internal working draft for Microsoft routing. Not a request for a favorable Unicode outcome.
+**Status:** Internal decision document. It requests normal Microsoft product and standards review, not a favorable Unicode outcome.
 
 ## Decision requested
 
-Please sponsor a time-limited internal review of three complete 2026 Unicode emoji proposals - **Kidney, Stomach, and Liver** - and identify the Microsoft owners who can answer four questions by **Friday, July 17**:
+Please identify the Microsoft owners who can make one focused decision by **Friday, July 17**:
 
-1. **Unicode process:** Who is Microsoft's current Unicode Technical Committee delegate, and does Microsoft participate in the Emoji Standard & Research Working Group (ESR)?
-2. **Eligibility:** Does Unicode's current four-year re-review rule permit concepts declined on November 4, 2022 to enter the intake that closes July 31, 2026?
-3. **Product intent:** If any of the three emoji is encoded, can the Windows/Segoe UI Emoji product owner state that Microsoft anticipates implementing it through the normal product and release process?
-4. **Design and rights:** Can the Fluent Emoji or Windows emoji design owner review the supplied textless artwork and confirm the acceptable route for artwork and the Unicode image license?
+> Should Microsoft advance **CT Scan** as the lead 2026 medical emoji proposal, or wait for a final Google Trends comparison and choose **Weight Scale** instead?
+
+If CT Scan is selected, please also determine whether the responsible Windows/Segoe UI Emoji product owner and Microsoft Legal can approve the anticipated-implementation language in the clearance section.
 
 ## Recommendation
 
-Route **all three proposals** for review now. They are separate, self-contained submissions with the required color and black-and-white images and five categories of frequency evidence. Microsoft does not need to choose one before the eligibility question is answered. If product capacity requires prioritization, the Windows emoji owner should make that choice after reviewing distinctiveness and implementation cost.
+**Advance CT Scan now. Keep Weight Scale as the challenger and Blood Bag as the packet-complete fallback. Do not route all eight eligible concepts as simultaneous submissions.**
 
-The portfolio risk is real: the project's status-sheet analysis found a lower historical advance rate for resubmissions than for first-time concepts. Keep one never-before-proposed medical concept available as a fallback, but do not delay the three completed organ reviews while that option is evaluated.
+CT Scan has the strongest combined packet available today: all five Unicode frequency-evidence categories, the strongest recent Google Books usage among the nine re-eligible concepts, a recognizable gantry-and-table form at 18x18, and appointment, procedure, and results meanings that are not carried by the existing X-Ray emoji.
 
-The highest-value Microsoft contribution is a product-owner statement of anticipated implementation. Unicode's own FAQ identifies lack of anticipated support by major vendors as a reason a well-formed proposal may be declined. Microsoft ships Segoe UI Emoji and maintains the open-source Fluent Emoji set, so it can provide evidence an individual submitter cannot.
+Weight Scale may have the broadest everyday usage. Its recovered Search and Video counts are the largest in the slate and it applies to health, fitness, luggage, shipping, and veterinary care. It still needs clean Web and Image Google Trends captures against Unicode's `elephant` reference term before it can be filed.
+
+The three organ concepts declined on November 4, 2022 - Kidney, Stomach, and Liver - are not eligible for the intake closing July 31, 2026 because their decline dates are less than four years before the deadline. Their completed drafts should remain future assets, not consume the July Microsoft review window.
 
 ```{=openxml}
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
 
-## Internal route
+## The three decisions that matter
 
-| Owner to identify | Decision or deliverable | Target |
-| --- | --- | --- |
-| Microsoft Unicode/standards lead | Confirm the UTC delegate, ESR participation, and the proper channel for the eligibility question | July 15 |
-| Windows/Segoe UI Emoji product owner | Approve, narrow, or decline the anticipated-implementation statement on page 2 | July 17 |
-| Fluent Emoji/Windows design lead | Review the three paradigms at 18x18 and 72x72; advise whether Microsoft should supply revised vendor artwork | July 17 |
-| Microsoft Legal/IP | Confirm that the statement and any Microsoft-supplied art can use the Unicode proposal agreement and license | July 20 |
-| Microsoft Health, sponsored by David Rhew | Confirm clinical accuracy and the plain-language use cases | July 17 |
-| Shuhan He | File each proposal as an individual through Unicode's form | No later than July 31 |
+| Concept | Packet today | Strength | Main concern | Call |
+| --- | --- | --- | --- | --- |
+| CT Scan | Complete | Best combined corpus signal; recognizable scanner; procedure and appointment uses | Must distinguish from X-Ray | **Advance now** |
+| Weight Scale | Missing two Trends captures | Broad health and nonmedical use; largest recovered Search and Video counts | Balance Scale neighbor; evidence incomplete | **Finish evidence, then challenge** |
+| Blood Bag | Complete | Donation, transfusion, supply, and blood-bank meanings | Drop of Blood is a plausible substitute | Fallback |
 
-## The eligibility question, stated narrowly
+**Hold the other six.** White Blood Cell needs a recognition test and compliant Trends; Inhaler needs global evidence that answers the 2018 recognition concern; Pill Box overlaps Pill and Pill Pack; IV Bag overlaps Blood Bag, Syringe, and Droplet; Leg Cast adds skin-tone complexity; and Pill Pack has the weakest independent case.
 
-Unicode's current public guidance says a concept declined within the last four years is not eligible for re-review. The Kidney, Stomach, and Liver notices are dated November 4, 2022, which is less than four elapsed years before July 31, 2026. However, the public guidance does not state the controlling date or whether the rule announced in 2024 applies retroactively, and Unicode's public status history includes 2024 proposals for concepts previously submitted in late 2020. The correct action is to request a procedural interpretation before filing, not to assume either eligibility or ineligibility.
+## Internal route and deliverables
+
+1. **Unicode/standards lead - July 15:** confirm the proper route for one eligible individual proposal.
+2. **Windows/Segoe UI Emoji product owner - July 17:** choose CT Scan or Weight Scale and decide whether to approve the anticipated-implementation language.
+3. **Fluent Emoji/Windows design and Microsoft Legal - July 20:** clear the lead paradigm, CC0 or Microsoft artwork route, and final statement.
+4. **David Rhew and Shuhan He - July 31:** confirm clinical accuracy, refresh the selected evidence, rebuild the packet, and file individually.
+
+```{=openxml}
+<w:p><w:r><w:br w:type="page"/></w:r></w:p>
+```
 
 ## Guardrails
 
 - Shuhan He remains the individual submitter; the Unicode form does not accept a company as the submitter.
-- Each organ remains a separate proposal.
-- Ask Microsoft's Unicode contacts and Peter Constable, if appropriate, only about process and venue - never for a preferred result.
-- A Microsoft board seat opens the internal route but does not decide technical proposals.
+- Ask Microsoft's Unicode contacts about process and venue, never for a preferred technical outcome.
 - Do not describe Microsoft as supporting implementation until the responsible product owner and legal team approve the language.
+- File one lead proposal. A second filing should require a separate product decision and clearly independent evidence.
+- Do not file both Pill Box and Pill Pack, or both Blood Bag and IV Bag, without resolving their overlap.
+- Historical Google evidence is dated accurately. Refresh the selected packet where a clean manual Google session permits it.
 
 ## Material ready for review
 
-- Kidney proposal PDF, example images, SVG sources, and frequency evidence.
-- Stomach proposal PDF, example images, SVG sources, and frequency evidence.
-- Liver proposal PDF, example images, SVG sources, and frequency evidence.
-- Original proposal artwork released under CC0 1.0.
-- Draft anticipated-vendor-support statement below.
+- Complete CT Scan and Blood Bag packets; evidence-gated Weight Scale challenger.
+- Comparative ranking and independent drafts for all nine clearly re-eligible concepts.
+- Original color and black-and-white SVG/PNG artwork released under CC0 1.0.
+
+Proposal release:
+
+https://github.com/ShuhanCS/medicalemoji/tree/codex/eligible-2026-slate/submissions/v1.3.0
+
+## Source record
+
+- Unicode proposal guidance: https://www.unicode.org/emoji/proposals.html
+- Unicode Emoji Submission FAQ: https://www.unicode.org/faq/emoji_submission.html
+- Unicode proposal status: https://www.unicode.org/emoji/emoji-proposals-status.html
+- Microsoft Fluent Emoji: https://github.com/microsoft/fluentui-emoji
 
 ```{=openxml}
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
@@ -69,15 +86,13 @@ Unicode's current public guidance says a concept declined within the last four y
 
 **Working text - do not submit until approved and signed by the responsible Microsoft product owner.**
 
-Microsoft supports the Unicode Consortium's consideration of the **Kidney, Stomach, and Liver** emoji proposals submitted by Shuhan He. If any of these characters is encoded and recommended for general interchange as emoji, Microsoft anticipates implementing the character in Segoe UI Emoji and relevant Microsoft emoji experiences through its standard design, product-planning, and release processes.
+Microsoft supports the Unicode Consortium's consideration of the **CT Scan** emoji proposal submitted by Shuhan He. If the character is encoded and recommended for general interchange as emoji, Microsoft anticipates implementing it in Segoe UI Emoji and relevant Microsoft emoji experiences through its standard design, product-planning, accessibility, legal, and release processes.
 
-Microsoft would retain control of its vendor-specific artwork and implementation schedule. This statement supplies anticipated vendor support; it does not request preferential treatment, pre-judge Unicode's technical review, or bypass Microsoft's normal product, legal, accessibility, and release approvals.
+Microsoft would retain control of its vendor-specific artwork and implementation schedule. This statement supplies anticipated vendor support; it does not request preferential treatment, pre-judge Unicode's technical review, or bypass Microsoft's normal approvals.
+
+If Microsoft selects Weight Scale instead, replace `CT Scan` with `Weight Scale` only after the packet's missing Trends evidence is completed and the design owner approves the paradigm.
 
 **Approved by:** ____________________________________  
 **Title / product responsibility:** _________________________  
 **Date:** __________________  
 **Microsoft contact:** __________________________________
-
-## Source record
-
-Unicode [proposal guidelines](https://www.unicode.org/emoji/proposals.html) and [Emoji Submission FAQ](https://www.unicode.org/faq/emoji_submission.html); Unicode [Board of Directors](https://www.unicode.org/consortium/directors.html); [UTC #186 minutes](https://www.unicode.org/L2/L2026/26003.htm); and [Microsoft Fluent Emoji](https://github.com/microsoft/fluentui-emoji).

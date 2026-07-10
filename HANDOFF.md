@@ -1,4 +1,4 @@
-# Handoff: Unicode medical emoji, state as of 2026-07-09
+# Handoff: Unicode medical emoji, state as of 2026-07-10
 
 Read this first. Then read [`docs/strategy/2026-07-09-what-to-file.md`](docs/strategy/2026-07-09-what-to-file.md),
 [`docs/strategy/what-microsoft-can-do.md`](docs/strategy/what-microsoft-can-do.md) and
@@ -29,34 +29,19 @@ The 2026 submission window closes **2026-07-31**.
 
 ## The five things that decide this
 
-1. **Eligibility and portfolio risk.** The private notices were found: Kidney, Stomach, and Liver were each
-   declined on **2022-11-04**. Unicode bars a declined emoji from re-review for four years, but **which date
-   starts the clock and whether the rule is retroactive are genuinely unknown.** Do not claim to know.
+1. **Eligibility and portfolio risk.** The decisive private notices show Kidney, Stomach, and Liver were each
+   declined on **2022-11-04**. Four elapsed years have not passed by the intake deadline of **2026-07-31**.
+   Treat all three as ineligible for this round. Preserve their complete `submissions/v1.2.0/` packets as
+   future assets; do not consume Microsoft's July review window on them.
 
-   Run `python evidence/resubmission_analysis.py`. The evidence leans toward a submission-date clock but does
-   not establish one. Six resubmissions ever advanced:
-
-   | Concept | Gap | Submission clock | Decline clock |
-   |---|---|---|---|
-   | Hand heart | 1.17y | barred | barred |
-   | Phoenix | 0.48y | barred | barred |
-   | Pink heart | 2.00y | barred by 1 day | barred |
-   | Lime | 2.32y | eligible | barred |
-   | Raspberry | 2.09y | eligible | barred |
-   | Treasure chest | 5.79y | eligible | eligible |
-
-   Under the submission clock, 3 of 6 advances are anomalies; under the decline clock, 5 of 6 are. The bar
-   is demonstrably not enforced mechanically under either reading: Phoenix advanced after six months.
-   Only Unicode can give a controlling interpretation. The exact question and notice record are in
-   [`docs/research/2022-organ-decline-notifications.md`](docs/research/2022-organ-decline-notifications.md).
+   Nine portfolio concepts are clearly re-eligible now: CT Scan, Blood Bag, Pill Box, Weight Scale, White
+   Blood Cell, Inhaler, IV Bag, Leg Cast, and Pill Pack. Their last public submissions were in 2018 or 2020.
+   Release `submissions/v1.3.0/` contains independent drafts, original CC0 artwork, recovered evidence, and a
+   filing-readiness manifest. CT Scan is the recommended lead, Weight Scale is the evidence-gated challenger,
+   and Blood Bag is the complete fallback.
 
    The portfolio evidence still matters. First-time proposals advance 16% of the time; resubmissions advance
-   5%. A never-before-proposed medical concept therefore remains the higher-probability fallback described in
-   [`docs/strategy/2026-07-09-what-to-file.md`](docs/strategy/2026-07-09-what-to-file.md).
-
-   **User decision, 2026-07-09:** keep Kidney, Stomach, and Liver fully drafted and ready while the process
-   question is answered. Release `submissions/v1.2.0/` does that. The first-time concept is a parallel
-   portfolio option, not a reason to delete or downgrade the three requested organ packets.
+   5%. Eligibility is permission to be reviewed, not a reason to file all nine.
 
 2. **The screening gate.** All fourteen died inside the ESR working group. Its membership is not published
    and cannot be discovered from outside. Whether Microsoft sits there is the highest-leverage question in
@@ -72,8 +57,8 @@ The 2026 submission window closes **2026-07-31**.
    Never write cause language, never cite petitions or social media, and draft the Open-ended answer first.
 
 5. **Open-endedness.** Do not frame the work as a complete organ or medical-symbol set. The 2026 release
-   contains three separate proposals, each supported by its own frequency, distinctiveness, multiple uses,
-   and lack of a substitute. Each proposal answers the Open-ended exclusion directly.
+   contains nine independent proposals, but the strategy is to advance one lead. Every proposal is supported
+   by its own frequency, distinctiveness, multiple uses, and lack of a substitute.
 
 ## What is written and ready
 
@@ -90,6 +75,8 @@ The 2026 submission window closes **2026-07-31**.
 | UTC document (Health category) | `docs/proposals/utc-health-category/` | Drafted, **not sent** |
 | Microsoft brief deck | `docs/presentations/2026-07-09-microsoft-brief/` | 11 slides |
 | Three organ submission packets | `submissions/v1.2.0/` | Final PDFs drafted; external filing preflight remains |
+| Nine clearly re-eligible packets | `submissions/v1.3.0/` | Three complete packets; six evidence-gated drafts |
+| Eligible-slate ranking | `docs/strategy/2026-07-10-eligible-proposal-ranking.md` | CT Scan lead; Weight Scale challenger; Blood Bag fallback |
 | Microsoft Monday decision brief | `output/doc/2026-07-13-microsoft-medical-emoji-decision-brief.docx` | Ready for Rhew/Chowdhary review |
 | Reproducible census script | `evidence/emoji_group_census.py` | Done |
 | What to file, and the pitch | `docs/strategy/2026-07-09-what-to-file.md` | **Decision needed** |
@@ -132,12 +119,9 @@ itself made that classification because no better destination existed.
 
 ## Immediate next actions
 
-1. Send Rhew the Monday decision brief and cover email in `docs/strategy/` and `output/`.
-2. Ask Chowdhary who Microsoft's UTC delegate is, whether Microsoft sits on ESR, and which procedural
-   channel should answer the four-year eligibility question.
-3. Ask the responsible Windows/Segoe UI Emoji product owner to approve or narrow the anticipated
-   implementation statement.
-4. Ask Microsoft design and legal to review the CC0 proposal art and Unicode licensing route.
-5. File Kidney, Stomach, and Liver separately by 2026-07-31 if the process interpretation permits them.
-6. Keep a never-before-proposed concept available as the higher-probability fallback if the organ filings
-   are ruled ineligible or Microsoft prefers a first-time candidate.
+1. Send Rhew the revised Monday decision brief and cover email in `docs/strategy/` and `output/`.
+2. Ask the Windows/Segoe UI Emoji product owner to choose CT Scan or a Trends-complete Weight Scale proposal.
+3. Ask Microsoft design and legal to review the selected CC0 paradigm and anticipated-implementation text.
+4. Manually refresh the selected packet's Google evidence, then rebuild and inspect its PDF.
+5. File the selected eligible proposal by 2026-07-31; keep the three organ packets for a later eligible round.
+6. Keep a never-before-proposed concept available as the higher-probability fallback if Microsoft prefers it.

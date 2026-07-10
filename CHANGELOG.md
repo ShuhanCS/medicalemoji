@@ -7,6 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.21.0] - 2026-07-10
+
+### Added
+- Added nine clearly re-eligible proposal packets: CT Scan, Blood Bag, Pill Box, Weight Scale, White Blood Cell, Inhaler, IV Bag, Leg Cast, and Pill Pack.
+- Added original CC0 SVG artwork and color/black-and-white 18x18 and 72x72 exports for every concept.
+- Added restored historical frequency evidence, fresh Google Books Ngram comparisons, a filing-readiness manifest, and a ranked Microsoft decision brief.
+- Added a rebuilt Inhaler proposal that addresses the concrete worldwide-recognition and usage gaps recorded in the 2018 review.
+
+### Changed
+- Replaced the Microsoft Monday brief's three-organ route with a clearly eligible slate: CT Scan as lead, Weight Scale as evidence-gated challenger, and Blood Bag as fallback.
+- Recorded the November 4, 2022 organ declines as outside the July 31, 2026 filing window while preserving their completed proposal packets as future assets.
+- Bumped the application/workspace version from `0.20.0` to `0.21.0` and the proposal release from `v1.2.0` to `v1.3.0`.
+
 ## [0.20.0] - 2026-07-09
 
 ### Added
