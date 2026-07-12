@@ -6,8 +6,10 @@ Unicode for Kidney, Stomach, and Liver: color and black-and-white at 18x18 and
 
 Usage:
     python scripts/build_organ_proposal_assets.py
+    python scripts/build_organ_proposal_assets.py --release v1.6.0
 """
 
+import argparse
 from pathlib import Path
 
 from PIL import Image
@@ -17,7 +19,7 @@ from reportlab.lib import colors
 
 
 ROOT = Path(__file__).resolve().parents[1]
-RELEASE = ROOT / "submissions" / "v1.2.0"
+DEFAULT_RELEASE = "v1.2.0"
 
 
 def path(commands: list[tuple], *, fill, stroke, width: float) -> VectorPath:
@@ -195,16 +197,30 @@ def force_two_tone(path: Path) -> None:
         thresholded.convert("RGB").save(path, optimize=True)
 
 
-def build_organ(name: str) -> None:
-    output = RELEASE / name / "images"
+def label_svg(svg_path: Path, name: str, variant: str) -> None:
+    label = name.replace("-", " ").title()
+    variant_label = "color" if variant == "color" else "black-and-white"
+    svg = svg_path.read_text(encoding="utf-8")
+    svg = svg.replace("<title>...</title>", f"<title>{label} emoji {variant_label} reference artwork</title>")
+    svg = svg.replace(
+        "<desc>...</desc>",
+        f"<desc>Original textless {variant_label} paradigm artwork for the proposed {label} emoji.</desc>",
+    )
+    svg_path.write_text(svg, encoding="utf-8")
+
+
+def build_organ(name: str, release: Path) -> None:
+    output = release / name / "images"
     output.mkdir(parents=True, exist_ok=True)
     for variant, is_color in (("color", True), ("bw", False)):
         drawing = DRAWINGS[name](is_color)
+        svg_path = output / f"{name}_{variant}_SOURCE.svg"
         renderSVG.drawToFile(
             drawing,
-            str(output / f"{name}_{variant}_SOURCE.svg"),
+            str(svg_path),
             showBoundary=False,
         )
+        label_svg(svg_path, name, variant)
         for size in (18, 72):
             destination = output / f"{name}_{variant}_{size}x{size}_SUBMIT.png"
             renderPM.drawToFile(
@@ -224,9 +240,17 @@ def build_organ(name: str) -> None:
 
 
 def main() -> None:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--release",
+        default=DEFAULT_RELEASE,
+        help=f"Submission release directory name (default: {DEFAULT_RELEASE})",
+    )
+    args = parser.parse_args()
+    release = ROOT / "submissions" / args.release
     for organ in DRAWINGS:
-        build_organ(organ)
-    print(f"Built organ proposal artwork under {RELEASE}")
+        build_organ(organ, release)
+    print(f"Built organ proposal artwork under {release}")
 
 
 if __name__ == "__main__":

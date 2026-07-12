@@ -7,6 +7,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.24.0] - 2026-07-12
+
+### Added
+- Added the synchronized `v1.6.0` Kidney, Stomach, and Liver content-final proposal release.
+- Added an explicit manifest audit confirming that every proposal PDF embeds all five required frequency screenshots.
+- Added a release-selectable organ artwork build command with meaningful SVG title and description metadata.
+
+### Changed
+- Updated all three organ proposals to the current revision date and 2026 inclusion/exclusion labels.
+- Strengthened first-page image ownership and CC0 rights certifications and removed stale feature-branch links from the public proposal text.
+- Corrected the historical Stomach and Liver Trends descriptions so 2020 captures are not described as running through the present.
+- Added descriptive PDF document titles and advanced the project version from `0.23.0` to `0.24.0` and the proposal release from `v1.5.0` to `v1.6.0`.
+
+### Known filing gates
+- Kidney, Stomach, and Liver require a Unicode eligibility determination because their recorded decline notices are dated 2022-11-04 and the current intake closes 2026-07-31.
+- Liver still needs worldwide Trends recaptures for the strongest filing packet; Google returned HTTP 429 during the 2026-07-12 attempt.
+
 ## [0.23.0] - 2026-07-10
 
 ### Added

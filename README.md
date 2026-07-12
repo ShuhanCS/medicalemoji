@@ -49,17 +49,25 @@ Medical Emoji is a campaign and proposal workspace for adding high-utility medic
 
 This repository contains the public website, prior support materials, current Unicode research notes, and proposal planning files for the medical emoji concepts the project has pursued.
 
-Last status check: 2026-07-10
+Last status check: 2026-07-12
 
 ## Current Submission Link
 
-Current three-concept release:
+Current content-final organ release, pending eligibility confirmation:
+https://github.com/ShuhanCS/medicalemoji/tree/codex/eligible-2026-slate/submissions/v1.6.0
+
+Current three-concept evidence-gated draft release:
 https://github.com/ShuhanCS/medicalemoji/tree/codex/eligible-2026-slate/submissions/v1.5.0
 
 Prior re-eligible portfolio release and CT Scan fallback:
 https://github.com/ShuhanCS/medicalemoji/tree/codex/eligible-2026-slate/submissions/v1.3.0
 
-The current release contains full drafts for Ultrasound, Maze, and First Aid Kit. Maze now uses a mouse-maze
+The `v1.6.0` release contains revised Kidney, Stomach, and Liver proposal PDFs with all five required
+frequency screenshots embedded in each PDF. Their technical content is final, but the recorded 2022-11-04
+decline notices remain an external eligibility gate for the intake closing 2026-07-31. See
+[`submissions/v1.6.0/manifest.md`](submissions/v1.6.0/manifest.md).
+
+The `v1.5.0` release contains full drafts for Ultrasound, Maze, and First Aid Kit. Maze now uses a mouse-maze
 paradigm. All three have original artwork and a fresh Google Books comparison; all remain evidence-gated until
 four fresh Google screenshots are captured. Reproducible Bing Web, Video, and Image supplements are archived
 for all three, but are deliberately separated from the missing Google categories. Ultrasound is the
@@ -100,7 +108,8 @@ Unicode's guidelines page says:
 
 Important practical note: the three private decline notices for Kidney, Stomach, and Liver are dated
 `2022-11-04`. Four elapsed years have not passed by `2026-07-31`, so this workspace treats the three organs
-as ineligible for the current intake. Their completed `v1.2.0` packets remain future assets. Ten concepts are
+as ineligible for the current intake. Their revised content-final `v1.6.0` packets remain future assets unless
+Unicode confirms eligibility. Ten concepts are
 clearly re-eligible now: the nine in `submissions/v1.3.0/` plus Maze in `submissions/v1.5.0/`. Ultrasound and
 First Aid Kit have no matching public status rows and are treated as first-time public-sheet concepts.
 
@@ -111,9 +120,9 @@ proposal workspaces. Status rows are from Unicode's live public proposal-status 
 
 | Concept | Repo source | Unicode public status rows | Latest public status | Last public date submitted | Reeligible by submitted-date clock | Next step |
 | --- | --- | --- | --- | --- | --- | --- |
-| Kidney / Kidneys | Active site candidate | `Kidney` declined 2019-12-17; `KIDNEYS` declined 2022-07-19; private decline notice 2022-11-04 | Declined | 2022 | After 2026-11-04 | Preserve `submissions/v1.2.0/`; do not file in the intake closing 2026-07-31. |
-| Liver | Active site candidate | `Liver` declined 2020-12-18; `Liver` declined 2022-07-30; private decline notice 2022-11-04 | Declined | 2022 | After 2026-11-04 | Preserve `submissions/v1.2.0/`; do not file in the intake closing 2026-07-31. |
-| Stomach | Active site candidate | `Stomach` declined 2020-10-27; `Stomach` declined 2022-07-28; private decline notice 2022-11-04 | Declined | 2022 | After 2026-11-04 | Preserve `submissions/v1.2.0/`; do not file in the intake closing 2026-07-31. |
+| Kidney / Kidneys | Active site candidate | `Kidney` declined 2019-12-17; `KIDNEYS` declined 2022-07-19; private decline notice 2022-11-04 | Declined | 2022 | After 2026-11-04 | Content-final candidate in `submissions/v1.6.0/`; do not file in the intake closing 2026-07-31 without Unicode eligibility confirmation. |
+| Liver | Active site candidate | `Liver` declined 2020-12-18; `Liver` declined 2022-07-30; private decline notice 2022-11-04 | Declined | 2022 | After 2026-11-04 | Content-final candidate in `submissions/v1.6.0/`; replace U.S.-only Trends evidence and confirm eligibility before filing. |
+| Stomach | Active site candidate | `Stomach` declined 2020-10-27; `Stomach` declined 2022-07-28; private decline notice 2022-11-04 | Declined | 2022 | After 2026-11-04 | Content-final candidate in `submissions/v1.6.0/`; confirm eligibility before filing. |
 | Spine | Active site candidate | `Spine` declined 2020-10-27; `Spine` declined 2024-04-05 | Declined | 2024-04-05 | 2028-04-05 | Do not resubmit before 2028 unless Unicode confirms a materially different concept is eligible. |
 | Intestines | Active site candidate | `Intestines` declined 2020-12-18; `Intestines` declined 2024-04-04 | Declined | 2024-04-04 | 2028-04-04 | Do not resubmit before 2028 unless Unicode confirms eligibility. |
 | ECG / EKG | Active site candidate | `ECG` declined 2020-12-18; `ECG` declined 2024-04-05 | Declined | 2024-04-05 | 2028-04-05 | Do not resubmit before 2028 unless Unicode confirms eligibility. |

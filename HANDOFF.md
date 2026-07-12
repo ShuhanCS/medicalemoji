@@ -81,7 +81,7 @@ The 2026 submission window closes **2026-07-31**.
 | What Microsoft can do | `docs/strategy/what-microsoft-can-do.md` | Done |
 | UTC document (Health category) | `docs/proposals/utc-health-category/` | Drafted, **not sent** |
 | Microsoft brief deck | `docs/presentations/2026-07-09-microsoft-brief/` | 11 slides |
-| Three organ submission packets | `submissions/v1.2.0/` | Final PDFs drafted; external filing preflight remains |
+| Three organ submission packets | `submissions/v1.6.0/` | Content-final PDFs with all five screenshots embedded; eligibility confirmation remains; Liver worldwide Trends refresh recommended |
 | Nine clearly re-eligible packets | `submissions/v1.3.0/` | Three complete packets; six evidence-gated drafts |
 | Three additional packets | `submissions/v1.5.0/` | Ultrasound, mouse-maze, and First Aid Kit full drafts; reproducible Bing supplements present; four Google captures still missing for each |
 | Expanded-slate ranking | `docs/strategy/2026-07-10-expanded-proposal-ranking.md` | Ultrasound conditional lead; CT Scan filing-ready fallback |
