@@ -1,14 +1,15 @@
-# Handoff: Unicode medical emoji, state as of 2026-07-10
+# Handoff: Unicode medical emoji, state as of 2026-07-12
 
-Read this first. Then read [`docs/strategy/2026-07-09-what-to-file.md`](docs/strategy/2026-07-09-what-to-file.md),
-[`docs/strategy/what-microsoft-can-do.md`](docs/strategy/what-microsoft-can-do.md) and
-[`docs/strategy/unicode-map-and-strategy.md`](docs/strategy/unicode-map-and-strategy.md). Everything else is
-supporting evidence.
+Read this first. Then read the current
+[`decision brief`](docs/strategy/2026-07-12-microsoft-medical-emoji-decision-brief.md),
+[`product/legal clearance sheet`](docs/strategy/2026-07-12-microsoft-medical-emoji-product-legal-clearance.md),
+and [`v6 Microsoft review deck`](docs/presentations/2026-07-09-microsoft-brief/Emoji-2026-Brief-v6.pptx).
+Earlier July strategy notes and v5/v4 decks are archive/research material, not send copies.
 
-**The pitch, in one line.** Not *"help us relitigate the kidney"*, but *"help us land the first medical emoji
-that Microsoft commits to ship."* Unicode declines a well-formed proposal for two reasons: weak popularity
-evidence, and *"lack of anticipated support by major vendors."* Microsoft can answer the second, and none of
-the 84 winning and unsuccessful proposals in this project's reviewed corpus carried that commitment.
+**The pitch, in one line.** Ask Microsoft to help choose and technically review one filing candidate through
+its normal product, design, standards, and legal process. Unicode names weak popularity evidence and lack of
+anticipated major-vendor support as decline reasons, but no Microsoft authorship, endorsement, implementation,
+or Unicode-outcome language should be used without explicit approval.
 
 ## The situation in six sentences
 
@@ -32,7 +33,7 @@ The 2026 submission window closes **2026-07-31**.
 
 1. **Eligibility and portfolio risk.** The decisive private notices show Kidney, Stomach, and Liver were each
    declined on **2022-11-04**. Four elapsed years have not passed by the intake deadline of **2026-07-31**.
-   Treat all three as ineligible for this round. Preserve their complete `submissions/v1.2.0/` packets as
+   Treat all three as ineligible for this round. Preserve their design-reviewed `submissions/v1.7.0/` packets as
    future assets; do not consume Microsoft's July review window on them.
 
    Ten portfolio concepts are clearly re-eligible now: CT Scan, Blood Bag, Pill Box, Weight Scale, White
@@ -43,7 +44,8 @@ The 2026 submission window closes **2026-07-31**.
 
    Ultrasound is now the conditional lead because its recent Google Books signal is approximately 1.70 times
    `elephant` and its monitor-plus-probe form opens a genuinely new healthcare concept. It still needs four
-   fresh Google captures and a Microsoft small-size design review. CT Scan remains the filing-ready fallback.
+   fresh Google captures and a Microsoft small-size design review. CT Scan remains the fallback, but its 2020
+   evidence, current factor labels, and ownership language must be refreshed before filing.
    Maze now uses a mouse navigating broad corridors, strengthening the learning, memory, decision-making, and
    behavioral-research uses while retaining the general `Maze` name.
 
@@ -80,14 +82,16 @@ The 2026 submission window closes **2026-07-31**.
 | Unicode org chart and strategy | `docs/strategy/unicode-map-and-strategy.md` | Done |
 | What Microsoft can do | `docs/strategy/what-microsoft-can-do.md` | Done |
 | UTC document (Health category) | `docs/proposals/utc-health-category/` | Drafted, **not sent** |
-| Microsoft brief deck | `docs/presentations/2026-07-09-microsoft-brief/` | 11 slides |
-| Three organ submission packets | `submissions/v1.6.0/` | Content-final PDFs with all five screenshots embedded; eligibility confirmation remains; Liver worldwide Trends refresh recommended |
+| Microsoft review deck | `docs/presentations/2026-07-09-microsoft-brief/Emoji-2026-Brief-v6.pptx` and `output/pdf/2026-07-12-microsoft-medical-emoji-review-deck.pdf` | Current 8-slide review copy |
+| Three organ submission packets | `submissions/v1.7.0/` | Redesigned review PDFs; eligibility confirmation remains; Stomach/Liver evidence is stale; Liver Trends is U.S.-only |
 | Nine clearly re-eligible packets | `submissions/v1.3.0/` | Three complete packets; six evidence-gated drafts |
 | Three additional packets | `submissions/v1.5.0/` | Ultrasound, mouse-maze, and First Aid Kit full drafts; reproducible Bing supplements present; four Google captures still missing for each |
-| Expanded-slate ranking | `docs/strategy/2026-07-10-expanded-proposal-ranking.md` | Ultrasound conditional lead; CT Scan filing-ready fallback |
-| Microsoft Monday decision brief | `output/doc/2026-07-13-microsoft-medical-emoji-decision-brief.docx` | Ready for Rhew/Chowdhary review |
+| Microsoft decision brief | `docs/strategy/2026-07-12-microsoft-medical-emoji-decision-brief.md` | Current review copy |
+| Product/legal clearance sheet | `docs/strategy/2026-07-12-microsoft-medical-emoji-product-legal-clearance.md` | Current review copy |
+| Rhew packet email | `docs/outreach/2026-07-12-david-rhew-microsoft-packet-email.md` | Current draft |
+| Expanded-slate ranking | `docs/strategy/2026-07-10-expanded-proposal-ranking.md` | Archive/research only; do not send |
 | Reproducible census script | `evidence/emoji_group_census.py` | Done |
-| What to file, and the pitch | `docs/strategy/2026-07-09-what-to-file.md` | **Decision needed** |
+| What to file, and the pitch | `docs/strategy/2026-07-09-what-to-file.md` | Archive/research only; do not send |
 | Resubmission / clock analysis | `evidence/resubmission_analysis.py` | Done |
 
 ## The open strategic question
@@ -127,7 +131,8 @@ itself made that classification because no better destination existed.
 
 ## Immediate next actions
 
-1. Send Rhew the revised Monday decision brief and cover email in `docs/strategy/` and `output/`.
+1. Send Rhew the current 2026-07-12 email draft with the decision brief, product/legal clearance sheet, and
+   v6 review deck. Do not attach v5/v4 or the superseded July 9-13 strategy notes.
 2. Run the 48-hour Ultrasound evidence sprint: manually capture Search, Video, Web Trends, and Image Trends.
    Use `npm run evidence:capture -- --concept=ultrasound --release=v1.5.0` from a Microsoft corporate or
    ordinary residential network Google accepts, and complete Google's human check in the visible persistent
@@ -135,7 +140,11 @@ itself made that classification because no better destination existed.
    to clear a complete public, reproducible substitute; do not present the existing three-image Bing
    supplement as a replacement for the missing Trends charts.
 3. Ask the Windows/Segoe UI Emoji and Fluent Emoji owners to test Ultrasound and CT Scan at 18x18 and in
-   black-and-white; select CT Scan if Ultrasound misses the evidence or recognition gate.
+   black-and-white; select CT Scan only if Ultrasound misses its gates and the CT Scan refresh is completed.
 4. Ask Microsoft Legal to review the selected CC0 paradigm and anticipated-implementation text.
 5. Replace the selected draft's evidence notices, rebuild the proposal PDF, and inspect every page.
 6. File one selected proposal by 2026-07-31; keep the three organ packets for a later eligible round.
+
+Current organ gates are explicit: Unicode must confirm eligibility; Stomach and Liver need fresh evidence;
+Liver needs Worldwide rather than United States-only Trends; and this network cannot complete the refresh
+because Google Trends returns HTTP 429 while Google Search presents a CAPTCHA.

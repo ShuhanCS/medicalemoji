@@ -5,6 +5,11 @@ author: "Prepared for David Rhew, MD, and Vishal Chowdhary"
 date: "July 13, 2026"
 ---
 
+> **ARCHIVE - DO NOT SEND.** This document predates the focused 2026-07-12 review packet and overstates
+> readiness and Microsoft attribution. Use
+> [`2026-07-12-microsoft-medical-emoji-decision-brief.md`](2026-07-12-microsoft-medical-emoji-decision-brief.md)
+> with the v6 deck instead.
+
 **Status:** Internal decision document. It requests normal Microsoft product and standards review, not a favorable Unicode outcome.
 
 ## Decision requested

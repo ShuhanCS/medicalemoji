@@ -1,5 +1,9 @@
 # What to file in the 2026 window, and how to pitch it
 
+> **ARCHIVE / RESEARCH ONLY - DO NOT SEND.** The proposed "commits to ship" pitch is not cleared Microsoft
+> language. Use the focused 2026-07-12 decision brief and v6 review deck, which request technical review and
+> reserve authorship, endorsement, and implementation statements for explicit approval.
+
 ## The reframe
 
 Not *"help us relitigate the kidney."*

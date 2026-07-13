@@ -8,8 +8,14 @@
 | 2026-07-31 | Emoji proposal(s), 2026 submission window closes | [Emoji Submission Form](https://forms.gle/6KSiYHrUdBkTMNaB8). Spec: [`docs/plans/2026-07-09-microsoft-health-emoji-proposal.md`](docs/plans/2026-07-09-microsoft-health-emoji-proposal.md) |
 | 2026-11-30 | Unicode notifies all submitters of status | — |
 
-The immediate Microsoft ask is the internal process and product route, not the optional category document.
-See [`docs/strategy/2026-07-13-microsoft-medical-emoji-decision-brief.md`](docs/strategy/2026-07-13-microsoft-medical-emoji-decision-brief.md).
+The immediate Microsoft ask is a narrow internal product, design, standards, and legal review, not the
+optional category document. Use the current decision brief, clearance sheet, email draft, and v6 review deck:
+
+- [`docs/strategy/2026-07-12-microsoft-medical-emoji-decision-brief.md`](docs/strategy/2026-07-12-microsoft-medical-emoji-decision-brief.md)
+- [`docs/strategy/2026-07-12-microsoft-medical-emoji-product-legal-clearance.md`](docs/strategy/2026-07-12-microsoft-medical-emoji-product-legal-clearance.md)
+- [`docs/outreach/2026-07-12-david-rhew-microsoft-packet-email.md`](docs/outreach/2026-07-12-david-rhew-microsoft-packet-email.md)
+- [`docs/presentations/2026-07-09-microsoft-brief/Emoji-2026-Brief-v6.pptx`](docs/presentations/2026-07-09-microsoft-brief/Emoji-2026-Brief-v6.pptx)
+- [`output/pdf/2026-07-12-microsoft-medical-emoji-review-deck.pdf`](output/pdf/2026-07-12-microsoft-medical-emoji-review-deck.pdf)
 
 ## 🏆 What actually wins
 
@@ -53,25 +59,28 @@ Last status check: 2026-07-12
 
 ## Current Submission Link
 
-Current content-final organ release, pending eligibility confirmation:
-https://github.com/ShuhanCS/medicalemoji/tree/codex/eligible-2026-slate/submissions/v1.6.0
+Current design-reviewed organ release, pending eligibility and evidence clearance:
+https://github.com/ShuhanCS/medicalemoji/tree/codex/eligible-2026-slate/submissions/v1.7.0
 
 Current three-concept evidence-gated draft release:
 https://github.com/ShuhanCS/medicalemoji/tree/codex/eligible-2026-slate/submissions/v1.5.0
 
-Prior re-eligible portfolio release and CT Scan fallback:
+Prior re-eligible portfolio release and CT Scan refreshable fallback:
 https://github.com/ShuhanCS/medicalemoji/tree/codex/eligible-2026-slate/submissions/v1.3.0
 
-The `v1.6.0` release contains revised Kidney, Stomach, and Liver proposal PDFs with all five required
-frequency screenshots embedded in each PDF. Their technical content is final, but the recorded 2022-11-04
-decline notices remain an external eligibility gate for the intake closing 2026-07-31. See
-[`submissions/v1.6.0/manifest.md`](submissions/v1.6.0/manifest.md).
+The `v1.7.0` release contains redesigned Kidney, Stomach, and Liver artwork and revised proposal PDFs with
+all five required frequency screenshots embedded in each PDF. It is a review release, not authority to file:
+the recorded 2022-11-04 decline notices remain an eligibility gate for the intake closing 2026-07-31;
+Stomach and Liver still rely on historical 2020 Search, Video, and Trends captures; and Liver's Trends
+screenshots are United States-only. A 2026-07-12 refresh attempt was blocked by Google Trends HTTP 429 and a
+Google Search CAPTCHA. See [`submissions/v1.7.0/manifest.md`](submissions/v1.7.0/manifest.md).
 
 The `v1.5.0` release contains full drafts for Ultrasound, Maze, and First Aid Kit. Maze now uses a mouse-maze
 paradigm. All three have original artwork and a fresh Google Books comparison; all remain evidence-gated until
 four fresh Google screenshots are captured. Reproducible Bing Web, Video, and Image supplements are archived
 for all three, but are deliberately separated from the missing Google categories. Ultrasound is the
-conditional Microsoft lead, and the complete CT Scan packet in `v1.3.0` is the filing-ready fallback. See
+conditional Microsoft lead, and the CT Scan packet in `v1.3.0` is the fallback after its 2020 evidence,
+factor labels, and ownership language are refreshed. See
 [`submissions/v1.5.0/MANIFEST.md`](submissions/v1.5.0/MANIFEST.md).
 
 Unicode requires a publicly accessible PDF proposal submitted through the official form. Email, fax, and hard-copy submissions are not accepted.
@@ -108,7 +117,7 @@ Unicode's guidelines page says:
 
 Important practical note: the three private decline notices for Kidney, Stomach, and Liver are dated
 `2022-11-04`. Four elapsed years have not passed by `2026-07-31`, so this workspace treats the three organs
-as ineligible for the current intake. Their revised content-final `v1.6.0` packets remain future assets unless
+as ineligible for the current intake. Their revised `v1.7.0` review packets remain future assets unless
 Unicode confirms eligibility. Ten concepts are
 clearly re-eligible now: the nine in `submissions/v1.3.0/` plus Maze in `submissions/v1.5.0/`. Ultrasound and
 First Aid Kit have no matching public status rows and are treated as first-time public-sheet concepts.
@@ -120,9 +129,9 @@ proposal workspaces. Status rows are from Unicode's live public proposal-status 
 
 | Concept | Repo source | Unicode public status rows | Latest public status | Last public date submitted | Reeligible by submitted-date clock | Next step |
 | --- | --- | --- | --- | --- | --- | --- |
-| Kidney / Kidneys | Active site candidate | `Kidney` declined 2019-12-17; `KIDNEYS` declined 2022-07-19; private decline notice 2022-11-04 | Declined | 2022 | After 2026-11-04 | Content-final candidate in `submissions/v1.6.0/`; do not file in the intake closing 2026-07-31 without Unicode eligibility confirmation. |
-| Liver | Active site candidate | `Liver` declined 2020-12-18; `Liver` declined 2022-07-30; private decline notice 2022-11-04 | Declined | 2022 | After 2026-11-04 | Content-final candidate in `submissions/v1.6.0/`; replace U.S.-only Trends evidence and confirm eligibility before filing. |
-| Stomach | Active site candidate | `Stomach` declined 2020-10-27; `Stomach` declined 2022-07-28; private decline notice 2022-11-04 | Declined | 2022 | After 2026-11-04 | Content-final candidate in `submissions/v1.6.0/`; confirm eligibility before filing. |
+| Kidney / Kidneys | Active site candidate | `Kidney` declined 2019-12-17; `KIDNEYS` declined 2022-07-19; private decline notice 2022-11-04 | Declined | 2022 | After 2026-11-04 | Design-reviewed candidate in `submissions/v1.7.0/`; do not file in the intake closing 2026-07-31 without Unicode eligibility confirmation. |
+| Liver | Active site candidate | `Liver` declined 2020-12-18; `Liver` declined 2022-07-30; private decline notice 2022-11-04 | Declined | 2022 | After 2026-11-04 | Design-reviewed candidate in `submissions/v1.7.0/`; replace stale 2020 evidence, including U.S.-only Trends captures, and confirm eligibility before filing. |
+| Stomach | Active site candidate | `Stomach` declined 2020-10-27; `Stomach` declined 2022-07-28; private decline notice 2022-11-04 | Declined | 2022 | After 2026-11-04 | Design-reviewed candidate in `submissions/v1.7.0/`; replace stale 2020 Search, Video, and Trends evidence and confirm eligibility before filing. |
 | Spine | Active site candidate | `Spine` declined 2020-10-27; `Spine` declined 2024-04-05 | Declined | 2024-04-05 | 2028-04-05 | Do not resubmit before 2028 unless Unicode confirms a materially different concept is eligible. |
 | Intestines | Active site candidate | `Intestines` declined 2020-12-18; `Intestines` declined 2024-04-04 | Declined | 2024-04-04 | 2028-04-04 | Do not resubmit before 2028 unless Unicode confirms eligibility. |
 | ECG / EKG | Active site candidate | `ECG` declined 2020-12-18; `ECG` declined 2024-04-05 | Declined | 2024-04-05 | 2028-04-05 | Do not resubmit before 2028 unless Unicode confirms eligibility. |
@@ -132,7 +141,7 @@ proposal workspaces. Status rows are from Unicode's live public proposal-status 
 | Weight Scale | Active site candidate | `Bathroom Scale` expired 2018-02-27; `Weight Scale (B)` declined 2020-12-18 | Declined | 2020-12-18 | 2024-12-18 | Challenger draft complete; add two Trends captures. |
 | Leg Cast | Legacy proposal asset | `Leg Cast` declined 2020-12-18 | Declined | 2020-12-18 | 2024-12-18 | Draft complete; replace Trends and resolve skin-tone behavior. |
 | IV Bag | Legacy proposal asset | `IV Bag` declined 2020-12-18 | Declined | 2020-12-18 | 2024-12-18 | Draft complete; add Trends and hold behind Blood Bag. |
-| CT Scan | Legacy proposal asset | `CT Scan` declined 2020-12-18 | Declined | 2020-12-18 | 2024-12-18 | Lead complete packet in `submissions/v1.3.0/`. |
+| CT Scan | Legacy proposal asset | `CT Scan` declined 2020-12-18 | Declined | 2020-12-18 | 2024-12-18 | Fallback packet in `submissions/v1.3.0/`; refresh 2020 evidence, current factor labels, and ownership language before filing. |
 | Pill Box | Legacy proposal asset | `Pill Box` declined 2020-10-27 | Declined | 2020-10-27 | 2024-10-27 | Complete packet; hold because of Pill/Pill Pack overlap. |
 | Inhaler | Public 2018 proposal | `Inhaler` declined 2018-07-03 | Declined | 2018-07-03 | 2022-07-03 | Draft complete; add Google Video and global `elephant` Trends evidence. |
 | Maze | Public 2018 and 2020 rows | `Maze` declined 2018-04-12; `Maze` declined 2020-12-18 | Declined | 2020-12-18 | 2024-12-18 | Full mouse-maze draft in `v1.5.0`; capture Search, Video, and both Trends categories. |
@@ -243,14 +252,11 @@ Stomach 2026 workspace:
 Liver 2026 workspace:
 `docs/proposals/liver-emoji-2026/`
 
-First synchronized preliminary submission packet:
-`submissions/v0.1.0/`
+Current design-reviewed organ packet:
+`submissions/v1.7.0/`
 
-Current readiness packet:
-`submissions/v0.2.0/`
-
-Current planned submission packet:
-`submissions/v1.1.0/`
+Earlier synchronized packets remain in `submissions/` as release history. They are not the current review
+copies and should not be attached to a new Microsoft or Unicode submission.
 
 Key files:
 
@@ -272,6 +278,10 @@ Key files:
 - `docs/research/unicode-winning-submissions/analysis.md`
 - `docs/research/kidney-v0.12.0-successful-proposal-audit.md`
 - `docs/plans/2026-05-13-kidney-v0.10.0-improvement-plan.md`
+- `submissions/v1.7.0/manifest.md`
+- `submissions/v1.7.0/kidney/kidney_emoji_proposal_SUBMIT.pdf`
+- `submissions/v1.7.0/stomach/stomach_emoji_proposal_SUBMIT.pdf`
+- `submissions/v1.7.0/liver/liver_emoji_proposal_SUBMIT.pdf`
 - `submissions/v1.1.0/manifest.md`
 - `submissions/v1.1.0/v1.1.0_kidney_emoji_proposal_SUBMIT.md`
 - `submissions/v1.1.0/v1.1.0_submission_finalization_SIGNATURE_REQUIRED.md`

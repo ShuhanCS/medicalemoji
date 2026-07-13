@@ -7,6 +7,9 @@ fontsize: 9pt
 mainfont: "Arial"
 ---
 
+> **ARCHIVE / RESEARCH ONLY - DO NOT SEND.** This routing note predates the focused 2026-07-12 Microsoft
+> review packet. Use the current decision brief, product/legal clearance sheet, and v6 deck for any review request.
+
 # Purpose
 
 This briefing explains who at Microsoft should see the medical emoji plan, what each person can help with, and what we should ask them to do.

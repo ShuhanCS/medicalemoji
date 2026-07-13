@@ -5,7 +5,23 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+## [0.25.0] - 2026-07-12
+
+### Added
+- Added the synchronized `v1.7.0` Kidney, Stomach, and Liver review release with redesigned small-size artwork.
+- Added the focused eight-slide Microsoft v6 review deck and its PDF export.
+
+### Changed
+- Removed the optional Section E summary tables while retaining all five required usage screenshots, capture details, and reproducible URLs in each organ proposal.
+- Restored the verified Kidney co-author list as bare names, including Timur Erk, without affiliations.
+- Focused the Kidney Search and Trends screenshots on the evidence required for review, removing browser-automation chrome and unrelated lower-page panels without changing the captured data.
+- Reclassified the v5/v4 Microsoft decks and earlier July decision materials as archive/research copies that should not be sent.
+- Updated the repository entry points to the current `v1.7.0` organ review release and Microsoft v6 review packet.
+
+### Known filing gates
+- Kidney, Stomach, and Liver still require a Unicode eligibility determination because their recorded decline notices are dated 2022-11-04 and the current intake closes 2026-07-31.
+- Stomach and Liver still rely on historical 2020 Search, Video, and Trends evidence; Liver's Trends captures are United States-only.
+- The 2026-07-12 Google refresh remains blocked on this network: Google Trends returned HTTP 429 and Google Search presented a CAPTCHA.
 
 ## [0.24.0] - 2026-07-12
 

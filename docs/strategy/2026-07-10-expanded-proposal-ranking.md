@@ -1,5 +1,9 @@
 # 2026 Medical Emoji expanded slate: decision brief
 
+> **ARCHIVE / RESEARCH ONLY - DO NOT SEND.** This ranking is an input to the current decision, not the current
+> Microsoft packet. Use [`2026-07-12-microsoft-medical-emoji-decision-brief.md`](2026-07-12-microsoft-medical-emoji-decision-brief.md)
+> and the v6 review deck.
+
 Date: 2026-07-10
 Audience: Shuhan He and Microsoft internal reviewers
 Decision: Choose one lead concept for the 2026-07-31 Unicode intake and retain one operational fallback.

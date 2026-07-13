@@ -1,27 +1,45 @@
-# Microsoft brief — three added slides (2026-07-09)
+# Microsoft medical emoji review packet
 
-Three slides appended to the *Emoji 2026 Brief* deck for a meeting with Microsoft's Global
-Chief Medical Officer & VP of Healthcare. Built to match the deck's existing phone-frame
-style (Century Gothic 30pt bold titles, `#484E56` ink, `#B7BDC6` frame).
+## Current send/review deck - v6
 
-## Current deck — `Emoji-2026-Brief-v5.pptx` (10 slides)
+Use only these current deck files for Microsoft review:
+
+- `Emoji-2026-Brief-v6.pptx`
+- `../../../output/pdf/2026-07-12-microsoft-medical-emoji-review-deck.pdf`
+
+The v6 deck is an eight-slide, decision-focused review copy prepared by Shuhan He. It does not assign
+authorship, endorsement, implementation, or Unicode-outcome language to Microsoft without explicit approval.
 
 | # | Slide | Purpose |
-|---|-------|---------|
-| 6 | Every resubmission reset the clock | Submission/decline timeline and 2026 re-eligibility. |
-| 7 | Inside the Unicode Consortium | Org chart: where Microsoft sits, and where emoji sits. |
-| 8 | Whole sets get through | Organizational precedent, anchored on Apple's 2018 accessibility set. |
-| 9 | How Apple did it | Factor-by-factor teardown of L2/18-080. Every quote verbatim. |
-| 10 | Request | The ask (original slide, moved to the end). |
+|---|---|---|
+| 1 | Medical Emoji | Defines the narrow decision and review deadline. |
+| 2 | The decision is narrow | Keeps Ultrasound as the conditional lead, CT Scan as fallback, and the organs on hold. |
+| 3 | Four non-negotiable submission checks | Summarizes eligibility, rights, evidence, and small-size recognition gates. |
+| 4 | Submission readiness determines the 2026 order | Separates potential from filing readiness. |
+| 5 | Organ art was rebuilt for small-size review | Shows the redesigned `v1.7.0` Kidney, Stomach, and Liver assets. |
+| 6 | Microsoft's role is technical review, not outcome-seeking | Defines the legitimate product, design, standards, and legal review. |
+| 7 | Run a 48-hour evidence and design gate | Assigns the remaining evidence and recognition work. |
+| 8 | What we need from Microsoft | Requests named owners, a lead/fallback decision, and technical review authority. |
 
-Slides 1–5 are Shuhan's originals. He dropped the "2021 JAMA set" slide from v2 and renamed
-the timeline's middle column from "On a knife edge" to "Unclear".
+Current supporting materials:
 
-The org chart shows the Board of Directors and the four committees as **peers** under the
-Consortium. `consort.html` describes the committees but never says the Board governs them,
-so no reporting line is drawn between them. What the sources do establish precisely is that
-the five working groups — including Emoji Standard & Research — hang off the **UTC**, which
-is where the vote lives. That subtree is drawn in blue for exactly that reason.
+- `../../strategy/2026-07-12-microsoft-medical-emoji-decision-brief.md`
+- `../../../output/doc/2026-07-12-microsoft-medical-emoji-decision-brief.docx`
+- `../../../output/pdf/2026-07-12-microsoft-medical-emoji-decision-brief.pdf`
+- `../../strategy/2026-07-12-microsoft-medical-emoji-product-legal-clearance.md`
+- `../../../output/doc/2026-07-12-microsoft-medical-emoji-product-legal-clearance.docx`
+- `../../../output/pdf/2026-07-12-microsoft-medical-emoji-product-legal-clearance.pdf`
+- `../../outreach/2026-07-12-david-rhew-microsoft-packet-email.md`
+- `../../../submissions/v1.7.0/manifest.md`
+
+Remaining gates are not optional: Kidney, Stomach, and Liver need Unicode eligibility confirmation; Stomach
+and Liver use stale 2020 evidence; Liver's Trends captures are United States-only; and the current Google
+refresh is blocked because Trends returns HTTP 429 while Search presents a CAPTCHA.
+
+## Archived v5/v4 build and research notes - do not send
+
+The remainder of this file documents how the older v5/v4 decks were built and fact-checked. Those decks are
+retained as research history only. They are not the current Microsoft review packet.
 
 ## Slide 8: the set precedent
 
@@ -88,7 +106,10 @@ medical set is unclaimed rather than asserting a negative about Microsoft.
 
 ## Files
 
-- `Emoji-2026-Brief-v4.pptx` — the current 9-slide deck
+- `Emoji-2026-Brief-v6.pptx` - current eight-slide Microsoft review deck
+- `build_v6.js` / `finalize_v6.ps1` - rebuild and PowerPoint-finalize the current deck
+- `Emoji-2026-Brief-v5.pptx` - archived ten-slide deck; do not send
+- `Emoji-2026-Brief-v4.pptx` - archived nine-slide deck; do not send
 - `build_sets_slide.py` / `sets.png` — slide 8 and its proof
 - `Emoji-2026-Brief-v3.pptx` — 8-slide deck, input to the sets slide
 - `infographic-unicode-orgchart.png` — slide 7 at 3200×1800, for dropping into any deck
@@ -108,7 +129,7 @@ freed partname (`slide8.xml`) and silently overwrites the Request slide.
 
 ## The finding that matters
 
-**Kidney, stomach, and liver are probably not eligible for the 2026-07-31 deadline.**
+**Kidney, Stomach, and Liver are held from the 2026-07-31 deadline unless Unicode confirms eligibility.**
 
 Unicode's rule is four years, not two, and it runs from the *decline*:
 
@@ -135,8 +156,8 @@ November 2022** (the ESC report for UTC #173 is dated 2022-10-31; submitters are
 at cycle end). Four years from that decline lands ~November 2026, after the 2026 window
 shuts. Counted from submission instead, they clear by 12, 3 and 1 day respectively.
 
-Either reading puts them on a knife edge. Confirm with Unicode before filing
-`submissions/v1.1.0/v1.1.0_kidney_emoji_proposal_SUBMIT.md`.
+The private 2022-11-04 notices put all three within four elapsed years of the 2026-07-31 deadline. Confirm
+eligibility with Unicode before filing any proposal from `submissions/v1.7.0/`.
 
 ### There is no public decline date — for any emoji
 
@@ -173,7 +194,7 @@ relying on it.)
 | Status | Concepts |
 |--------|----------|
 | Clear to file now | white blood cell, pill pack, pill box, blood bag, leg cast, IV bag, CT scan, weight scale |
-| Knife edge | kidney, stomach, liver |
+| Hold unless Unicode confirms eligibility | kidney, stomach, liver |
 | Barred (~Nov 2028) | spine, intestines, ECG |
 
 ## Fact-check notes

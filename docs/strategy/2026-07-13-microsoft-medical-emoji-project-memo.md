@@ -5,6 +5,10 @@ author: "Prepared by Shuhan He, MD"
 date: "July 13, 2026"
 ---
 
+> **ARCHIVE - DO NOT SEND.** The broad sponsorship framing is superseded by the narrow product/legal review
+> request in [`2026-07-12-microsoft-medical-emoji-product-legal-clearance.md`](2026-07-12-microsoft-medical-emoji-product-legal-clearance.md).
+> Microsoft authorship, endorsement, implementation, and Unicode-outcome language remain subject to explicit approval.
+
 **Purpose:** Request a focused Microsoft decision on whether to sponsor a comprehensive, bounded medical-emoji
 coverage review and to route the accompanying individual proposals to the appropriate Unicode working group.
 

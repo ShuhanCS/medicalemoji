@@ -1,5 +1,9 @@
 # Draft cover email: David Rhew to Vishal Chowdhary
 
+> **ARCHIVE - DO NOT SEND.** This draft speaks in David Rhew's voice and was not approved for sending. Use
+> [`../outreach/2026-07-12-david-rhew-microsoft-packet-email.md`](../outreach/2026-07-12-david-rhew-microsoft-packet-email.md),
+> written from Shuhan He to Rhew, with the focused v6 review packet.
+
 **To:** Vishal Chowdhary  
 **From:** David Rhew  
 **Subject:** Monday decision: Ultrasound lead, CT Scan fallback before July 31
