@@ -1,4 +1,8 @@
-# Draft email to David Rhew
+# Archived draft email to David Rhew
+
+> **ARCHIVE - DO NOT SEND.** This multi-file draft has been superseded by
+> [`2026-07-13-david-rhew-send-email.txt`](2026-07-13-david-rhew-send-email.txt) and the three-attachment
+> [`send manifest`](2026-07-13-david-rhew-send-manifest.md).
 
 **From:** Shuhan He
 **To:** David Rhew

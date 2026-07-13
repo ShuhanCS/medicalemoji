@@ -8,19 +8,18 @@
 | 2026-07-31 | Emoji proposal(s), 2026 submission window closes | [Emoji Submission Form](https://forms.gle/6KSiYHrUdBkTMNaB8). Spec: [`docs/plans/2026-07-09-microsoft-health-emoji-proposal.md`](docs/plans/2026-07-09-microsoft-health-emoji-proposal.md) |
 | 2026-11-30 | Unicode notifies all submitters of status | — |
 
-The current Microsoft packet is written for an external audience. It shows the full proposal portfolio and
-separates two requests: review the individual 2026 filings, and decide whether the health-coverage discussion
-draft merits UTC submission. Use these files:
+The current David Rhew send package is written for an external audience and contains exactly three
+attachments. It separates the individual emoji-proposal route from the optional UTC discussion-document
+route and puts all 15 working concepts into one indexed options packet:
 
-- [`output/pdf/2026-07-12-microsoft-medical-emoji-decision-brief.pdf`](output/pdf/2026-07-12-microsoft-medical-emoji-decision-brief.pdf) and [`output/doc/2026-07-12-microsoft-medical-emoji-decision-brief.docx`](output/doc/2026-07-12-microsoft-medical-emoji-decision-brief.docx)
-- [`output/pdf/2026-07-12-microsoft-medical-emoji-product-legal-clearance.pdf`](output/pdf/2026-07-12-microsoft-medical-emoji-product-legal-clearance.pdf) and [`output/doc/2026-07-12-microsoft-medical-emoji-product-legal-clearance.docx`](output/doc/2026-07-12-microsoft-medical-emoji-product-legal-clearance.docx)
-- [`docs/outreach/2026-07-12-david-rhew-microsoft-packet-email.md`](docs/outreach/2026-07-12-david-rhew-microsoft-packet-email.md)
-- [`docs/presentations/2026-07-09-microsoft-brief/Emoji-2026-External-Review-v7.pptx`](docs/presentations/2026-07-09-microsoft-brief/Emoji-2026-External-Review-v7.pptx)
-- [`output/pdf/2026-07-12-microsoft-medical-emoji-review-deck.pdf`](output/pdf/2026-07-12-microsoft-medical-emoji-review-deck.pdf)
-- [`docs/proposals/utc-health-category/health-coverage-maintenance-l2-review-draft.pdf`](docs/proposals/utc-health-category/health-coverage-maintenance-l2-review-draft.pdf), [`DOCX`](docs/proposals/utc-health-category/health-coverage-maintenance-l2-review-draft.docx), and [`source`](docs/proposals/utc-health-category/health-coverage-maintenance-l2-review-draft.md)
-- [`submissions/v1.3.0/ct-scan/ct-scan_emoji_proposal_SUBMIT.pdf`](submissions/v1.3.0/ct-scan/ct-scan_emoji_proposal_SUBMIT.pdf)
-- [`submissions/v1.3.0/blood-bag/blood-bag_emoji_proposal_SUBMIT.pdf`](submissions/v1.3.0/blood-bag/blood-bag_emoji_proposal_SUBMIT.pdf)
-- [`submissions/v1.3.0/pill-box/pill-box_emoji_proposal_SUBMIT.pdf`](submissions/v1.3.0/pill-box/pill-box_emoji_proposal_SUBMIT.pdf)
+- [`output/pdf/2026-07-13-health-related-emoji-coverage-discussion-draft.pdf`](output/pdf/2026-07-13-health-related-emoji-coverage-discussion-draft.pdf)
+- [`output/pdf/2026-07-13-medical-emoji-submission-options-packet.pdf`](output/pdf/2026-07-13-medical-emoji-submission-options-packet.pdf)
+- [`output/pdf/2026-07-13-who-can-help-with-medical-emoji-review.pdf`](output/pdf/2026-07-13-who-can-help-with-medical-emoji-review.pdf)
+
+Use the exact body and attachment list in the
+[`David Rhew send manifest`](docs/outreach/2026-07-13-david-rhew-send-manifest.md). The separate v7 review
+deck, decision brief, and technical and rights guide remain useful source material but are not additional
+attachments in this send package.
 
 ## 🏆 What actually wins
 

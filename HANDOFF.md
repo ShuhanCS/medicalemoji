@@ -1,11 +1,12 @@
 # Handoff: Unicode medical emoji, state as of 2026-07-13
 
 Read this first. Then read the current
-[`decision brief`](docs/strategy/2026-07-12-microsoft-medical-emoji-decision-brief.md),
-[`technical and rights discussion guide`](docs/strategy/2026-07-12-microsoft-medical-emoji-product-legal-clearance.md),
-[`health-coverage discussion draft`](docs/proposals/utc-health-category/health-coverage-maintenance-l2-review-draft.md),
-and [`v7 external Microsoft review deck`](docs/presentations/2026-07-09-microsoft-brief/Emoji-2026-External-Review-v7.pptx).
-The v6 and earlier decks are archive/research material, not send copies.
+[`David Rhew send manifest`](docs/outreach/2026-07-13-david-rhew-send-manifest.md),
+[`email body`](docs/outreach/2026-07-13-david-rhew-send-email.txt),
+[`submission-options packet`](output/pdf/2026-07-13-medical-emoji-submission-options-packet.pdf),
+and [`role map`](output/pdf/2026-07-13-who-can-help-with-medical-emoji-review.pdf).
+The v7 deck and separate decision/technical guides remain source material; the v6 and earlier decks are
+archive/research material. None is an additional attachment in the current three-file send package.
 
 **The pitch, in one line.** Shuhan plans to file CT Scan and Blood Bag after revision, with Pill Box as the
 first alternate, and asks Microsoft two separate questions: after submission, would its Unicode representatives
@@ -86,6 +87,9 @@ The 2026 submission window closes **2026-07-31**.
 | What Microsoft can do | `docs/strategy/what-microsoft-can-do.md` | Done |
 | UTC discussion document | `docs/proposals/utc-health-category/health-coverage-maintenance-l2-review-draft.md`, `.docx`, and `.pdf` | External review draft, **not sent** |
 | Microsoft review deck | `docs/presentations/2026-07-09-microsoft-brief/Emoji-2026-External-Review-v7.pptx` and `output/pdf/2026-07-12-microsoft-medical-emoji-review-deck.pdf` | Current 9-slide external review copy |
+| Rhew three-attachment package | `docs/outreach/2026-07-13-david-rhew-send-manifest.md` | Prepared and verified; **not sent** |
+| Consolidated proposal options | `output/pdf/2026-07-13-medical-emoji-submission-options-packet.pdf` | 90-page bookmarked packet with all 15 working proposals |
+| Microsoft-Unicode role map | `output/pdf/2026-07-13-who-can-help-with-medical-emoji-review.pdf` | One-page external routing guide |
 | Three organ submission packets | `submissions/v1.7.0/` | Redesigned review PDFs; eligibility confirmation remains; Stomach/Liver evidence is stale; Liver Trends is U.S.-only |
 | Nine clearly re-eligible packets | `submissions/v1.3.0/` | Three working packets contain all five evidence categories but require revision; six additional drafts are evidence-gated |
 | Three additional packets | `submissions/v1.5.0/` | Ultrasound, mouse-maze, and First Aid Kit full drafts; reproducible Bing supplements present; four Google captures still missing for each |
@@ -94,7 +98,7 @@ The 2026 submission window closes **2026-07-31**.
 | CT Scan working proposal | `submissions/v1.3.0/ct-scan/ct-scan_emoji_proposal_SUBMIT.pdf` | Revise before filing |
 | Blood Bag working proposal | `submissions/v1.3.0/blood-bag/blood-bag_emoji_proposal_SUBMIT.pdf` | Revise before filing |
 | Pill Box working proposal | `submissions/v1.3.0/pill-box/pill-box_emoji_proposal_SUBMIT.pdf` | First alternate; revise before filing |
-| Rhew packet email | `docs/outreach/2026-07-12-david-rhew-microsoft-packet-email.md` | Current draft |
+| Rhew packet email | `docs/outreach/2026-07-13-david-rhew-send-email.txt` | Current three-attachment email body |
 | Expanded-slate ranking | `docs/strategy/2026-07-10-expanded-proposal-ranking.md` | Archive/research only; do not send |
 | Reproducible census script | `evidence/emoji_group_census.py` | Done |
 | What to file, and the pitch | `docs/strategy/2026-07-09-what-to-file.md` | Archive/research only; do not send |
@@ -132,8 +136,9 @@ encode a slate. Microsoft can review the draft without making it the condition f
 
 ## Immediate next actions
 
-1. Send Rhew the current email draft with the v7 deck, proposal brief, technical and rights questions, UTC
-   discussion draft, and the three working proposal PDFs. Do not attach v6/v5/v4.
+1. Review and send the exact three-file Rhew package in
+   `docs/outreach/2026-07-13-david-rhew-send-manifest.md`. Do not add the v7 deck, separate decision brief,
+   technical and rights guide, older organ releases, or any document that names unapproved Microsoft authors.
 2. Refresh CT Scan and Blood Bag evidence using the current Unicode query method; update factor labels,
    ownership warranties, citations, and PDF metadata. Apply the same work to Pill Box only if it remains in scope.
 3. Ask Microsoft reviewers to compare CT Scan with X-Ray/MRI, Blood Bag with IV Bag, and Pill Box with Pill at

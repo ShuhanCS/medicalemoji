@@ -1,0 +1,38 @@
+Hi David,
+
+Thank you again for being willing to help with the Medical Emoji work. I have consolidated the material into three attachments so the request is easier to review and route within Microsoft.
+
+I plan to submit CT Scan and Blood Bag through Unicode's 2026 Emoji Submission Form once I finish the evidence, image-rights, metadata, and small-size checks. Pill Box is the first alternate. Unicode's intake closes July 31. This is late in the cycle, but still inside the published submission window.
+
+The proposal packet contains all 15 concepts so you can see the real alternatives, not only a narrow shortlist. It opens with a two-page overview and then includes every working proposal in one bookmarked PDF. CT Scan, Blood Bag, and Pill Box come first. Ultrasound and Weight Scale are promising but still need evidence. The other current-cycle drafts have evidence, recognition, or overlap problems that would need to be resolved. Kidney, Stomach, and Liver are included as later-cycle candidates because their November 4, 2022 decline notices fall within the four-year bar at the July 31 deadline. This is an options packet, not a plan to file 15 proposals.
+
+I have two separate questions for Microsoft.
+
+First, after I submit the selected proposal PDFs through Unicode's official form, would Microsoft's Unicode standards representatives be willing to advise on timing and ask the Emoji Standard & Research Working Group to consider them through its normal review process? I understand that Unicode controls the agenda, review, and outcome.
+
+Second, would Microsoft's standards team review the attached Health-related emoji coverage draft and decide whether the issue merits a separate UTC discussion document? If so, Microsoft could help revise and submit it, coauthor a version with me, or use the draft as source material for its own document. The paper asks for discussion of recurring questions about substitutes, visual distinction, discoverability, and expected usage. It does not ask Unicode to encode a group of emoji, and it would not replace the individual submission form.
+
+There is useful history behind that approach. Apple's 2018 L2/18-080 presented nine accessibility emoji as a finite starting set and explained how the related concepts fit together. In 2019, Christian Kamkoff, Shuhan He, and Melissa Thermidor submitted separate proposals for Anatomical Heart and Lungs; Unicode later encoded both. The lesson I take from those examples is that related context can be helpful, but each character still needs an independent case.
+
+Could you connect me with Microsoft's current Unicode standards lead or UTC delegate, along with the Segoe UI or Fluent Emoji design and accessibility owners? Legal or IP review would only be needed if Microsoft wanted to contribute artwork, coauthor the discussion document, or approve an implementation-support statement. Public Unicode records list Peter Constable and Judy Safran-Aasen participating for Microsoft at UTC #187, and Vishal Chowdhary as Microsoft's Unicode Board director. I have included those names as leads to confirm, not assumptions about who owns the work today or whether Microsoft participates in ESR. The Board does not decide the technical outcome.
+
+I would also value your view on the shortlist: do CT Scan and Blood Bag look like the right two filings, or should Pill Box replace one of them?
+
+Attachments:
+
+1. 2026-07-13-health-related-emoji-coverage-discussion-draft.pdf
+2. 2026-07-13-medical-emoji-submission-options-packet.pdf
+3. 2026-07-13-who-can-help-with-medical-emoji-review.pdf
+
+Unicode proposal guidance:
+https://www.unicode.org/emoji/proposals.html
+
+Unicode document-submission process:
+https://www.unicode.org/pending/docsubmit.html
+
+Apple accessibility proposal, L2/18-080:
+https://www.unicode.org/L2/L2018/18080-accessibility-emoji.pdf
+
+Thank you,
+
+Shuhan

@@ -1,8 +1,8 @@
 # Microsoft medical emoji review packet
 
-## Current send/review deck - v7
+## Current supporting review deck - v7
 
-Use only these current deck files for Microsoft review:
+These deck files remain useful source material for Microsoft review:
 
 - `Emoji-2026-External-Review-v7.pptx`
 - `../../../output/pdf/2026-07-12-microsoft-medical-emoji-review-deck.pdf`
@@ -10,6 +10,10 @@ Use only these current deck files for Microsoft review:
 The v7 deck is a nine-slide external review copy prepared independently by Shuhan He. It shows every available
 proposal, explains the current CT Scan and Blood Bag filing plan, keeps Pill Box as the first alternate, and
 separates the individual proposal route from the optional UTC discussion document.
+
+The deck is not part of the current David Rhew three-attachment send package. Use
+`../../outreach/2026-07-13-david-rhew-send-manifest.md`, which sends the discussion draft, one consolidated
+15-proposal options packet, and one relationship map.
 
 | # | Slide | Purpose |
 |---|---|---|
@@ -31,7 +35,8 @@ Current supporting materials:
 - `../../strategy/2026-07-12-microsoft-medical-emoji-product-legal-clearance.md`
 - `../../../output/doc/2026-07-12-microsoft-medical-emoji-product-legal-clearance.docx`
 - `../../../output/pdf/2026-07-12-microsoft-medical-emoji-product-legal-clearance.pdf`
-- `../../outreach/2026-07-12-david-rhew-microsoft-packet-email.md`
+- `../../outreach/2026-07-13-david-rhew-send-email.txt`
+- `../../outreach/2026-07-13-david-rhew-send-manifest.md`
 - `../../proposals/utc-health-category/health-coverage-maintenance-l2-review-draft.md`
 - `../../proposals/utc-health-category/health-coverage-maintenance-l2-review-draft.docx`
 - `../../proposals/utc-health-category/health-coverage-maintenance-l2-review-draft.pdf`

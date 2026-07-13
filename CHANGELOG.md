@@ -5,6 +5,25 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.27.0] - 2026-07-13
+
+### Added
+- Added a 90-page bookmarked Microsoft review packet containing the external decision brief and all 15 current working proposal PDFs.
+- Added a one-page external map of the separate emoji-form and UTC discussion-document routes, the Microsoft roles that can help, and the named contacts supported by the public record.
+- Added a verified three-attachment David Rhew send manifest and plain-text email body for `david.rhew@microsoft.com` from `shuhan@conductscience.com`.
+- Added a reproducible packet builder and the repo-local implementation plan.
+
+### Changed
+- Consolidated the previous seven-file attachment set into one discussion draft, one proposal-options packet, and one relationship map.
+- Put the full proposal slate and Microsoft routing context into the email itself, while clearly separating planned filings, an alternate, evidence-gated drafts, and later-cycle organ candidates.
+- Archived the previous multi-file email draft and retained the v7 deck as supporting material rather than an attachment.
+- Advanced the project version from `0.26.0` to `0.27.0`; the proposal release remains `v1.7.0` because no individual proposal content changed.
+
+### Known filing work
+- The consolidated packet is for comparison and routing, not a plan to file 15 proposals.
+- CT Scan, Blood Bag, and Pill Box still require evidence, rights, metadata, factor-label, and small-size review before any filing.
+- Kidney, Stomach, and Liver remain later-cycle candidates unless Unicode confirms eligibility.
+
 ## [0.26.0] - 2026-07-13
 
 ### Added

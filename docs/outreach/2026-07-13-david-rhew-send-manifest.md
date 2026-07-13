@@ -1,0 +1,50 @@
+# David Rhew send manifest
+
+**Status:** Prepared and verified; not sent
+
+**From:** `shuhan@conductscience.com`
+
+**To:** `david.rhew@microsoft.com`
+**Subject:** Medical Emoji submissions and Unicode discussion draft
+
+The recipient address is confirmed in the June 30, 2026 Microsoft introduction thread. The ConductScience
+Gmail sender has been authenticated by the local send script, which refuses to send from any account other
+than `shuhan@conductscience.com`.
+
+## Email body
+
+Use:
+
+`docs/outreach/2026-07-13-david-rhew-send-email.txt`
+
+## Attach exactly these three PDFs
+
+1. `output/pdf/2026-07-13-health-related-emoji-coverage-discussion-draft.pdf`
+   - Three-page external discussion draft.
+   - Prepared independently by Shuhan He; not submitted to Unicode and not attributed to Microsoft.
+2. `output/pdf/2026-07-13-medical-emoji-submission-options-packet.pdf`
+   - Ninety-page bookmarked packet.
+   - Contains the external decision brief and all 15 current working proposal PDFs.
+   - The cover distinguishes planned, alternate, evidence-gated, draft, and later-cycle concepts.
+3. `output/pdf/2026-07-13-who-can-help-with-medical-emoji-review.pdf`
+   - One-page external relationship map.
+   - Separates the official Emoji Submission Form route from the UTC discussion-document route.
+
+Do not attach the v7 deck, the separate product/legal discussion guide, the older multi-file email draft,
+or any document that names David Rhew or Heena Purohit as an author before they approve that attribution.
+
+## Verified send command
+
+Run once with `--dry-run`, inspect the sender, recipient, subject, and attachment count, then remove only
+`--dry-run` if Shuhan has approved live sending:
+
+```powershell
+python "C:\Users\Shuha\projects\codex-config\scripts\send-conductscience-gmail.py" `
+  --to "david.rhew@microsoft.com" `
+  --subject "Medical Emoji submissions and Unicode discussion draft" `
+  --body-file "C:\Users\Shuha\shuputerdesktop\medicalemoji\.worktrees\eligible-2026-slate\docs\outreach\2026-07-13-david-rhew-send-email.txt" `
+  --attachment "C:\Users\Shuha\shuputerdesktop\medicalemoji\.worktrees\eligible-2026-slate\output\pdf\2026-07-13-health-related-emoji-coverage-discussion-draft.pdf" `
+  --attachment "C:\Users\Shuha\shuputerdesktop\medicalemoji\.worktrees\eligible-2026-slate\output\pdf\2026-07-13-medical-emoji-submission-options-packet.pdf" `
+  --attachment "C:\Users\Shuha\shuputerdesktop\medicalemoji\.worktrees\eligible-2026-slate\output\pdf\2026-07-13-who-can-help-with-medical-emoji-review.pdf" `
+  --dry-run
+```
