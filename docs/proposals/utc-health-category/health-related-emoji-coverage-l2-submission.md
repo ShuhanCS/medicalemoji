@@ -40,66 +40,64 @@ Action: Refer to the Emoji Standard & Research Working Group
 
 # Summary
 
-Health-related emoji appear across anatomy, diagnostics, laboratory science, medication, emergency care,
-and clinical equipment. Individual proposals are reviewed one at a time, but they often raise the same
-questions: whether an existing emoji is an adequate substitute, whether two concepts are visually distinct,
-whether expected usage is broad enough, and whether one proposal would lead to an open-ended set.
+Unicode already includes health-related emoji across anatomy, diagnostics, laboratory science, medication,
+emergency care, and clinical equipment. Proposals are reviewed individually, but the same practical questions
+recur: adequacy of substitutes, visual distinction at emoji size, expected usage, and open-endedness.
 
-We ask the Unicode Technical Committee to refer these recurring questions to the Emoji Standard & Research
-Working Group. The review would examine how existing health-related emoji are represented and found, and
-whether the current proposal guidance gives enough direction for closely related medical concepts. Every new
-emoji would continue to require its own complete submission through the official Emoji Submission Form.
+We ask the Unicode Technical Committee (UTC) to refer these issues to the Emoji Standard & Research Working
+Group (ESR). ESR could examine how easily users can find existing health-related emoji and whether the
+published guidance adequately addresses medically distinct but visually similar concepts. A referral would not
+change the proposal process. Every new emoji would still require a complete submission through the official
+Emoji Submission Form.
 
 # Questions for review
 
-1. Would a review of related health emoji help ESR assess existing substitutes and closely related proposals
-   more consistently?
-2. Are common health-related emoji easy to find through their current names, keywords, ordering, and vendor
-   keyboard layouts? If not, which standards or platform group should address the problem?
-3. Does the published guidance give enough direction for concepts that are medically distinct but visually
-   related, such as Blood Bag and IV Bag or Pill Box and Pill Pack?
-4. Would a short public note on recognition at small sizes, black-and-white legibility, and category-completion
-   arguments help submitters avoid recurring problems?
-5. If the current guidance already answers these questions, can ESR identify the material that submitters
-   should follow?
+1. Would considering related health emoji together help ESR assess existing substitutes and closely related
+   proposals more consistently?
+2. Can users readily find common health-related emoji by name, keyword, ordering, or vendor keyboard placement?
+   If not, which standards body or platform team should address the problem?
+3. Does the published guidance adequately address concepts that are medically distinct but may look similar at
+   emoji size, such as Blood Bag and IV Bag or Pill Box and Pill Pack?
+4. Would a short public note help submitters address recognition at small sizes, black-and-white legibility, and
+   category-completion arguments?
+5. If these issues are already covered, which guidance should submitters follow?
 
 # Why this question has arisen
 
-The current Unicode Emoji Ordering places Syringe, Pill, Drop of Blood, Adhesive Bandage, Stethoscope, X-Ray,
-and Crutch in `Objects > medical`. Anatomical Heart, Lungs, and Brain are in
-`People & Body > body-parts`; Test Tube, Petri Dish, and DNA are in `Objects > science`; Hospital and Ambulance
-are in `Travel & Places`; and Medical Symbol and Wheelchair Symbol are in `Symbols`. This document does not
-propose moving those emoji. Their distribution is one reason a focused review of discoverability, existing
-substitutes, and closely related proposals may be useful.
+Health-related emoji are distributed across several sections of the current Unicode Emoji Ordering. Syringe,
+Pill, Drop of Blood, Adhesive Bandage, Stethoscope, X-Ray, and Crutch are listed under `Objects > medical`;
+Anatomical Heart, Lungs, and Brain under `People & Body > body-parts`; Test Tube, Petri Dish, and DNA under
+`Objects > science`; Hospital and Ambulance under `Travel & Places`; and Medical Symbol and Wheelchair Symbol
+under `Symbols`. We are not proposing to move any of them. The requested review would consider what this
+distribution means for discoverability, existing substitutes, and the treatment of closely related proposals.
 
-An individual proposal must still show that its concept is independently useful, that an existing emoji cannot
-express it adequately, and that the image remains clear at emoji size.
+Every proposal must address Unicode's published inclusion and exclusion factors, including distinctiveness,
+expected usage, and whether an existing emoji or sequence already represents the concept. The proposed image
+must also remain recognizable at emoji size.
 
-The 2026 intake also makes the procedural distinction important. Individual emoji proposals must be submitted
-through the Emoji Submission Form. A UTC discussion document follows Unicode's separate document-submission
-process and may be placed on a UTC agenda or referred to a working group. The two routes serve different
-purposes.
+The 2026 process separates individual emoji proposals from UTC discussion documents. New emoji proposals must
+be filed through the Emoji Submission Form. A discussion document follows Unicode's separate document
+submission process and may be placed on a UTC agenda or referred to a working group. This document follows the
+UTC document submission process.
 
 # Related history
 
 ## Apple's 2018 accessibility proposal
 
-Apple's L2/18-080 proposed nine accessibility emoji organized around four areas: Blind and Low Vision, Deaf
-and Hard of Hearing, Physical Motor, and Hidden Disabilities. Apple described the set as a finite starting
-point rather than a comprehensive catalogue, worked with disability organizations, and addressed Unicode's
-open-ended exclusion factor directly.
+Apple's L2/18-080 proposed nine accessibility emoji in four areas: Blind and Low Vision, Deaf and Hard of
+Hearing, Physical Motor, and Hidden Disabilities. Apple presented the set as a finite starting point rather
+than a comprehensive catalogue. Apple worked with disability organizations and addressed Unicode's open-ended
+exclusion factor directly.
 
-The Apple document is a public example of a vendor explaining how several related concepts fit together. It
-used the emoji-proposal process available in 2018. Under the 2026 guidance, each encoding proposal must use the
-official form and is evaluated on its own evidence.
+Apple submitted the nine related concepts together under the emoji-proposal process in effect in 2018. Under
+the 2026 guidance, each candidate must be submitted through the official form and evaluated on its own evidence.
 
 Source: <https://www.unicode.org/L2/L2018/18080-accessibility-emoji.pdf>
 
 ## Anatomical Heart and Lungs
 
 In 2019, Christian Kamkoff, Shuhan He, and Melissa Thermidor submitted separate proposals for Anatomical Heart
-and Lungs. Unicode later encoded both characters. Their history shows that related health concepts can be
-considered together while each proposal makes its own case.
+and Lungs. Unicode later encoded both characters. The proposals were related, but each made its own case.
 
 Sources:
 
@@ -108,53 +106,53 @@ Sources:
 
 # Scope of the review
 
-The review could use six working areas. These are not proposed keyboard categories.
+We suggest six topics for the review. They are not proposed keyboard categories.
 
-- **Anatomy:** how proposed internal organs should address category completion and open-endedness.
-- **Diagnostics:** when CT Scan, Ultrasound, or another modality adds a recognizable procedure or object beyond
-  X-Ray and Stethoscope.
-- **Laboratory science:** visual overlap among cells, microbes, specimens, and laboratory equipment.
-- **Medication:** how organizers, packaging, delivery devices, and adherence concepts should address the
-  existing Pill and Syringe emoji.
-- **Emergency care:** when an additional object has a broad communication function beyond Adhesive Bandage,
-  Crutch, Ambulance, and Hospital.
-- **Clinical equipment:** recognition at small sizes, color independence, and overlap among equipment
-  silhouettes.
+- Anatomy: How should internal-organ proposals address category completion and open-endedness?
+- Diagnostics: When would CT Scan, Ultrasound, or another modality represent a procedure or object that X-Ray
+  and Stethoscope do not adequately convey?
+- Laboratory science: How should proposals address visual overlap among cells, microbes, specimens, and
+  equipment?
+- Medication: How should proposals for organizers, packaging, delivery devices, or adherence concepts establish
+  that they are distinct from Pill and Syringe?
+- Emergency care: When would an additional object support a broad communication need not met by Adhesive
+  Bandage, Crutch, Ambulance, or Hospital?
+- Clinical equipment: Which designs remain recognizable at small sizes, work without color, and avoid overlap
+  with other equipment silhouettes?
 
-These areas would organize the review. They do not imply that every gap should produce a character or that
-Unicode should create a top-level Health group.
+A gap alone would not warrant a character, and this document does not propose a top-level Health group.
 
 \Needspace{11\baselineskip}
 
 # Relationship to individual proposals
 
-Each proposed emoji must stand on its own. A complete submission includes the required color and
-black-and-white images, keywords, category and sort location, expected-usage evidence, inclusion and exclusion
-factors, image-rights warranty, and relevant proposal history.
+Each candidate needs its own complete submission under the current form and guidelines. Required elements
+include color and black-and-white images, keywords, category, frequency evidence, all selection factors, an
+image-rights warranty, and the required license.
 
-This document takes no position on any candidate. Each candidate requires a separate submission and decision.
+This document does not endorse or oppose any candidate. Each candidate requires a separate decision.
 
 # Vendor input
 
-Vendor reviewers can provide useful technical observations without committing to implement a candidate. Their
-input may address:
+Vendors can comment on design and implementation without committing to include a candidate in their products.
+Relevant questions include:
 
-- whether an unfamiliar viewer can identify the image at common emoji sizes;
-- whether the meaning survives in black and white;
-- whether the design is platform-neutral and free of text or protected symbols;
-- whether two related concepts would be distinguishable in the same emoji set; and
-- whether implementation or interoperability concerns should be shared with ESR.
+- Can someone unfamiliar with the concept identify it at common emoji sizes?
+- Does the image retain its meaning in black and white?
+- Is the design platform-neutral and free of text, logos, brands, or other third-party intellectual property?
+- Would two related concepts remain distinguishable in the same emoji set?
+- Are there implementation or interoperability concerns that ESR should consider?
 
-Submitters remain responsible for evidence, licensing, and proposal completeness.
+Submitters remain responsible for their evidence, licensing, and the completeness of their proposals.
 
 # Requested action
 
-We ask the UTC to refer this document to ESR for review and recommendation. ESR could advise whether the
-current guidance is sufficient, whether a short public note or focused review would help, or whether no
-further action is needed.
+We ask the UTC to refer this document to ESR for review and recommendation. ESR could advise that the current
+guidance is sufficient and no further action is needed, or recommend a short public note or focused review.
 
-This document requests no character encoding and no bundled approval. Every candidate remains subject to the
-official Emoji Submission Form and an independent review under Unicode's published criteria.
+We are asking only for referral, not character encoding or bundled approval. Every candidate must still be
+submitted through the official Emoji Submission Form and reviewed independently under Unicode's published
+criteria.
 
 # References
 

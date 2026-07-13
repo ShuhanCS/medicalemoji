@@ -5,6 +5,24 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.29.2] - 2026-07-13
+
+### Changed
+- Reworked the final health-related emoji coverage paper in a direct, natural voice for UTC and ESR reviewers,
+  removing repetitive caveats, abstract committee language, and formulaic question patterns without changing
+  the referral request or the paper's scope.
+- Updated the description of a complete 2026 emoji submission to match the current Unicode form and guidelines,
+  including the required images, keywords, category, frequency evidence, selection factors, image-rights
+  warranty, and license.
+
+### Verification
+- Preserved the author list, candidate examples, category placements, historical claims, official form route,
+  no-encoding and no-bundled-approval safeguards, and every source URL.
+- Rebuilt the canonical DOCX and PDF and the dated Rhew attachment, then confirmed the three-page PDF retains
+  its identifying footer, embedded fonts, clean text layer, working links, and unrestricted access.
+- Advanced the project version from `0.29.1` to `0.29.2`; the proposal release remains `v1.7.0` because no
+  individual emoji proposal changed.
+
 ## [0.29.1] - 2026-07-13
 
 ### Fixed
