@@ -4,14 +4,15 @@ Read this first. Then read the current
 [`David Rhew send manifest`](docs/outreach/2026-07-13-david-rhew-send-manifest.md),
 [`email body`](docs/outreach/2026-07-13-david-rhew-send-email.txt),
 [`submission-options packet`](output/pdf/2026-07-13-medical-emoji-submission-options-packet.pdf),
+[`final UTC/L2-format paper`](output/pdf/2026-07-13-health-related-emoji-coverage-l2-submission.pdf),
 and [`role map`](output/pdf/2026-07-13-who-can-help-with-medical-emoji-review.pdf).
 The v7 deck and separate decision/technical guides remain source material; the v6 and earlier decks are
 archive/research material. None is an additional attachment in the current three-file send package.
 
 **The pitch, in one line.** Shuhan plans to file CT Scan and Blood Bag after revision, with Pill Box as the
 first alternate, and asks Microsoft two separate questions: after submission, would its Unicode representatives
-ask ESR to consider an upcoming agenda discussion through its normal review process; and would its standards
-team help revise the health-coverage discussion draft if the question merits UTC review?
+ask ESR to consider an upcoming agenda discussion through its normal review process; and, after the named
+authors confirm the final health-coverage paper, would its current UTC delegate route or introduce it?
 
 ## The situation in six sentences
 
@@ -85,7 +86,7 @@ The 2026 submission window closes **2026-07-31**.
 | 6 precedent UTC documents | `docs/proposals/reference-utc-documents/` | Done |
 | Unicode org chart and strategy | `docs/strategy/unicode-map-and-strategy.md` | Done |
 | What Microsoft can do | `docs/strategy/what-microsoft-can-do.md` | Done |
-| UTC discussion document | `docs/proposals/utc-health-category/health-coverage-maintenance-l2-review-draft.md`, `.docx`, and `.pdf` | External review draft, **not sent** |
+| Final UTC/L2-format paper | `docs/proposals/utc-health-category/health-related-emoji-coverage-l2-submission.md`, `.docx`, and `.pdf` | Final text; David Rhew and Heena Purohit must confirm public authorship before Unicode filing |
 | Microsoft review deck | `docs/presentations/2026-07-09-microsoft-brief/Emoji-2026-External-Review-v7.pptx` and `output/pdf/2026-07-12-microsoft-medical-emoji-review-deck.pdf` | Current 9-slide external review copy |
 | Rhew three-attachment package | `docs/outreach/2026-07-13-david-rhew-send-manifest.md` | Prepared and verified; **not sent** |
 | Consolidated proposal options | `output/pdf/2026-07-13-medical-emoji-submission-options-packet.pdf` | 90-page bookmarked packet with all 15 working proposals |
@@ -106,9 +107,10 @@ The 2026 submission window closes **2026-07-31**.
 
 ## The open strategic question
 
-The discussion draft is now a separate review request. It asks whether ESR should examine health-related
-coverage, discoverability, and recurring review questions. It does not request a top-level Health group or
-encode a slate. Microsoft can review the draft without making it the condition for the individual filings.
+The final UTC paper is a separate review request. It asks whether ESR should examine health-related coverage,
+discoverability, and recurring review questions. It does not request a top-level Health group or encode a
+slate. It names David Rhew, Heena Purohit, and Shuhan He as authors; David and Heena must confirm that public
+attribution before filing. Unicode will assign the official L2 number if it accepts the paper into its register.
 
 ## Things that are true and surprising
 
@@ -138,15 +140,16 @@ encode a slate. Microsoft can review the draft without making it the condition f
 
 1. Review and send the exact three-file Rhew package in
    `docs/outreach/2026-07-13-david-rhew-send-manifest.md`. Do not add the v7 deck, separate decision brief,
-   technical and rights guide, older organ releases, or any document that names unapproved Microsoft authors.
+   technical and rights guide, or older organ releases. Confirm David Rhew's and Heena Purohit's public
+   authorship before filing the UTC paper with Unicode.
 2. Refresh CT Scan and Blood Bag evidence using the current Unicode query method; update factor labels,
    ownership warranties, citations, and PDF metadata. Apply the same work to Pill Box only if it remains in scope.
 3. Ask Microsoft reviewers to compare CT Scan with X-Ray/MRI, Blood Bag with IV Bag, and Pill Box with Pill at
    18x18 and in black and white.
 4. After submitting through the official form, ask whether Microsoft's Unicode standards representatives would
    ask ESR to consider an upcoming agenda discussion through its normal review process. Unicode controls timing and outcome.
-5. Ask Microsoft's standards team to review the health-coverage discussion draft and, if the question merits
-   UTC review, help revise it for submission. Microsoft may submit, coauthor, or use it as source material.
+5. Ask David Rhew and Heena Purohit to confirm the final health-coverage paper and their authorship, then ask
+   Microsoft's current UTC delegate to route or introduce it through the normal member process.
 6. File the selected proposal PDFs by 2026-07-31; keep the organ packets for a later eligible round unless
    Unicode confirms a different eligibility interpretation.
 

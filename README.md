@@ -4,7 +4,7 @@
 
 | Due | What | Where |
 |---|---|---|
-| 2026-07-21 | Optional UTC discussion document, if Microsoft agrees the question merits UTC review and chooses to adapt, coauthor, or submit it; not on the emoji-proposal critical path | Spec: [`docs/plans/2026-07-09-utc-doc-health-category-spec.md`](docs/plans/2026-07-09-utc-doc-health-category-spec.md) |
+| 2026-07-21 | Final UTC discussion paper, after David Rhew and Heena Purohit confirm the text and authorship and Microsoft's current delegate confirms the submission route; not on the emoji-proposal critical path | [`health-related-emoji-coverage-l2-submission.pdf`](docs/proposals/utc-health-category/health-related-emoji-coverage-l2-submission.pdf) |
 | 2026-07-31 | Emoji proposal(s), 2026 submission window closes | [Emoji Submission Form](https://forms.gle/6KSiYHrUdBkTMNaB8). Spec: [`docs/plans/2026-07-09-microsoft-health-emoji-proposal.md`](docs/plans/2026-07-09-microsoft-health-emoji-proposal.md) |
 | 2026-11-30 | Unicode notifies all submitters of status | — |
 
@@ -12,7 +12,7 @@ The current David Rhew send package is written for an external audience and cont
 attachments. It separates the individual emoji-proposal route from the optional UTC discussion-document
 route and puts all 15 working concepts into one indexed options packet:
 
-- [`output/pdf/2026-07-13-health-related-emoji-coverage-discussion-draft.pdf`](output/pdf/2026-07-13-health-related-emoji-coverage-discussion-draft.pdf)
+- [`output/pdf/2026-07-13-health-related-emoji-coverage-l2-submission.pdf`](output/pdf/2026-07-13-health-related-emoji-coverage-l2-submission.pdf)
 - [`output/pdf/2026-07-13-medical-emoji-submission-options-packet.pdf`](output/pdf/2026-07-13-medical-emoji-submission-options-packet.pdf)
 - [`output/pdf/2026-07-13-who-can-help-with-medical-emoji-review.pdf`](output/pdf/2026-07-13-who-can-help-with-medical-emoji-review.pdf)
 

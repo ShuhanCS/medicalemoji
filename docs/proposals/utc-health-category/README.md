@@ -1,22 +1,31 @@
-# UTC document research and current external review draft
+# Final UTC/L2-format submission document
 
-Current external review draft:
+Current submission files:
 
-- `health-coverage-maintenance-l2-review-draft.md`
-- `health-coverage-maintenance-l2-review-draft.docx`
-- `health-coverage-maintenance-l2-review-draft.pdf`
+- `health-related-emoji-coverage-l2-submission.md`
+- `health-related-emoji-coverage-l2-submission.docx`
+- `health-related-emoji-coverage-l2-submission.pdf`
 
-The draft asks whether health-related coverage and recurring review questions warrant ESR discussion. It does
-not request a top-level Health group, encode a bundled slate, or identify Microsoft as an author. The older
-`health-category-utc-doc.*` and `health-coverage-maintenance-l2-final.*` files are retained as research history
-and should not be sent as the current draft.
+This is the final UTC submission paper prepared for David Rhew's review. It names David Rhew, Heena Purohit,
+and Shuhan He as authors and contains no affiliation or Status field. David and Heena should confirm the text
+and public authorship before it is filed. The paper asks the UTC to refer recurring health-emoji questions to
+ESR; it does not request a top-level Health group or a bundled character approval.
 
-Rebuild the current draft:
+The PDF is L2-format, but it does not yet have an official `L2/26-nnn` document number. Unicode assigns that
+number after accepting a document into its public register. Unicode's submission instructions say not to add
+a placeholder document number because staff adds the document-number box during processing:
+https://www.unicode.org/pending/docsubmit.html
+
+Rebuild the current submission files:
 
 ```powershell
-pandoc health-coverage-maintenance-l2-review-draft.md -o health-coverage-maintenance-l2-review-draft.docx
-pandoc health-coverage-maintenance-l2-review-draft.md -o health-coverage-maintenance-l2-review-draft.pdf --pdf-engine=xelatex
+pandoc health-related-emoji-coverage-l2-submission.md -o health-related-emoji-coverage-l2-submission.docx
+pandoc health-related-emoji-coverage-l2-submission.md -o health-related-emoji-coverage-l2-submission.pdf --pdf-engine=xelatex
 ```
+
+The older `health-coverage-maintenance-l2-review-draft.*`, `health-coverage-maintenance-l2-final.*`, and
+`health-category-utc-doc.*` files are archived research. Do not attach them to the Rhew email or submit them
+as the current paper.
 
 ## Archived research: Health as a Category in Emoji Ordering
 

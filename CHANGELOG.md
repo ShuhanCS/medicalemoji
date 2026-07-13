@@ -5,6 +5,21 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.28.0] - 2026-07-13
+
+### Added
+- Added the canonical final UTC/L2-format **Health-related emoji coverage** submission in Markdown, DOCX, and PDF, naming David Rhew, Heena Purohit, and Shuhan He as authors.
+- Added a repo-local finalization plan covering authorship, Unicode document numbering, packet replacement, and PDF verification.
+
+### Changed
+- Replaced the health-coverage review draft in David Rhew's three-attachment package with the final submission paper and rebuilt the decision brief, proposal-options packet, and Microsoft-Unicode role map.
+- Removed the Status field, affiliations, draft language, and placeholder L2 number from the submission paper; clarified that Unicode assigns the official L2 number when it accepts the document into its register.
+- Updated the Rhew email and send manifest to request author confirmation and routing by Microsoft's current UTC delegate before public filing.
+- Advanced the project version from `0.27.0` to `0.28.0`; the proposal release remains `v1.7.0` because no individual emoji proposal changed.
+
+### Filing gate
+- David Rhew and Heena Purohit must confirm the final text and public authorship, and Microsoft's standards team should confirm the contributor-license and submission route, before the paper is filed with Unicode.
+
 ## [0.27.0] - 2026-07-13
 
 ### Added

@@ -9,12 +9,15 @@ bookmarks, and clean document metadata; it does not make any proposal filing-rea
 from __future__ import annotations
 
 from dataclasses import dataclass
+import os
 from pathlib import Path
 import textwrap
 
 from pypdf import PdfReader, PdfWriter
 from reportlab.lib.colors import HexColor, white
 from reportlab.lib.pagesizes import LETTER, landscape
+from reportlab.pdfbase import pdfmetrics
+from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.pdfbase.pdfmetrics import stringWidth
 from reportlab.pdfgen import canvas
 
@@ -22,6 +25,10 @@ from reportlab.pdfgen import canvas
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "output" / "pdf"
 TMP = ROOT / "output" / "tmp" / "rhew-send-packet"
+
+WINDOWS_FONT_DIR = Path(os.environ.get("WINDIR", "C:/Windows")) / "Fonts"
+pdfmetrics.registerFont(TTFont("Helvetica", str(WINDOWS_FONT_DIR / "segoeui.ttf")))
+pdfmetrics.registerFont(TTFont("Helvetica-Bold", str(WINDOWS_FONT_DIR / "segoeuib.ttf")))
 
 BLUE = HexColor("#1F49B6")
 BLUE_DARK = HexColor("#173A83")
@@ -144,21 +151,21 @@ PROPOSALS = [
 ]
 
 DECISION_BRIEF = OUT / "2026-07-12-microsoft-medical-emoji-decision-brief.pdf"
-UTC_DRAFT = (
+L2_SUBMISSION = (
     ROOT
     / "docs"
     / "proposals"
     / "utc-health-category"
-    / "health-coverage-maintenance-l2-review-draft.pdf"
+    / "health-related-emoji-coverage-l2-submission.pdf"
 )
 
 OPTIONS_PACKET = OUT / "2026-07-13-medical-emoji-submission-options-packet.pdf"
 ROLE_MAP = OUT / "2026-07-13-who-can-help-with-medical-emoji-review.pdf"
-UTC_SEND_COPY = OUT / "2026-07-13-health-related-emoji-coverage-discussion-draft.pdf"
+L2_SEND_COPY = OUT / "2026-07-13-health-related-emoji-coverage-l2-submission.pdf"
 
 
 def require_inputs() -> None:
-    required = [DECISION_BRIEF, UTC_DRAFT, *(proposal.path for proposal in PROPOSALS)]
+    required = [DECISION_BRIEF, L2_SUBMISSION, *(proposal.path for proposal in PROPOSALS)]
     missing = [str(path) for path in required if not path.is_file()]
     if missing:
         raise FileNotFoundError("Missing required input(s):\n" + "\n".join(missing))
@@ -469,13 +476,13 @@ def build_role_map(path: Path) -> None:
     # Route 2: UTC discussion document.
     pdf.setFillColor(CYAN)
     pdf.setFont("Helvetica-Bold", 10)
-    pdf.drawString(34, height - 216, "ROUTE 2  |  Health-coverage discussion document")
+    pdf.drawString(34, height - 216, "ROUTE 2  |  Final UTC submission document")
     pdf.setFillColor(SLATE)
     pdf.setFont("Helvetica", 7.4)
     pdf.drawRightString(width - 34, height - 216, "This document cannot replace an individual emoji proposal")
 
     route2_y = height - 309
-    flow_box(pdf, x_positions[0], route2_y, box_w, box_h, "Shuhan + Microsoft standards team", "May revise, coauthor, or use the draft as source", fill=CYAN_LIGHT, stroke=CYAN)
+    flow_box(pdf, x_positions[0], route2_y, box_w, box_h, "Named authors + Microsoft standards lead", "Authors confirm the text; standards lead routes or introduces it", fill=CYAN_LIGHT, stroke=CYAN)
     flow_box(pdf, x_positions[1], route2_y, box_w, box_h, "UTC document submission", "Separate submission with a requested agenda disposition", fill=CYAN_LIGHT, stroke=CYAN)
     flow_box(pdf, x_positions[2], route2_y, box_w, box_h, "UTC discussion", "UTC may discuss the question or refer work", fill=GREEN_LIGHT, stroke=GREEN)
     flow_box(pdf, x_positions[3], route2_y, box_w, box_h, "Possible ESR referral", "ESR may advise whether guidance or review would help", fill=AMBER_LIGHT, stroke=AMBER)
@@ -494,7 +501,7 @@ def build_role_map(path: Path) -> None:
     roles = [
         (
             "Microsoft Unicode standards lead / current UTC delegate",
-            "Checks process and timing; reviews the discussion draft; may request normal agenda consideration.",
+            "Checks process and timing; reviews the final UTC paper; may request normal agenda consideration.",
             BLUE_LIGHT,
             BLUE,
         ),
@@ -554,7 +561,14 @@ def build_role_map(path: Path) -> None:
     pdf.save()
 
 
-def make_clean_copy(source: Path, destination: Path, *, title: str, subject: str) -> None:
+def make_clean_copy(
+    source: Path,
+    destination: Path,
+    *,
+    title: str,
+    author: str,
+    subject: str,
+) -> None:
     reader = PdfReader(str(source))
     writer = PdfWriter()
     for page in reader.pages:
@@ -562,7 +576,7 @@ def make_clean_copy(source: Path, destination: Path, *, title: str, subject: str
     writer.add_metadata(
         {
             "/Title": title,
-            "/Author": "Shuhan He",
+            "/Author": author,
             "/Subject": subject,
             "/Keywords": "medical emoji, Unicode, UTC discussion document",
         }
@@ -583,13 +597,14 @@ def main() -> None:
     build_options_packet(cover, starts)
     build_role_map(ROLE_MAP)
     make_clean_copy(
-        UTC_DRAFT,
-        UTC_SEND_COPY,
-        title="Health-related emoji coverage - discussion draft",
-        subject="Draft for Microsoft standards review; not submitted to Unicode",
+        L2_SUBMISSION,
+        L2_SEND_COPY,
+        title="Health-related emoji coverage",
+        author="David Rhew; Heena Purohit; Shuhan He",
+        subject="UTC submission document requesting review and referral to ESR",
     )
 
-    outputs = [UTC_SEND_COPY, OPTIONS_PACKET, ROLE_MAP]
+    outputs = [L2_SEND_COPY, OPTIONS_PACKET, ROLE_MAP]
     for output in outputs:
         reader = PdfReader(str(output))
         print(f"{output.relative_to(ROOT)} | {len(reader.pages)} pages | {output.stat().st_size} bytes")

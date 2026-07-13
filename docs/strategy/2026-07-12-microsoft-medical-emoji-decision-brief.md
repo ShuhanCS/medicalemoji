@@ -1,8 +1,6 @@
 # Medical Emoji proposals for Microsoft review
 
-Prepared: July 13, 2026
-Prepared by: Shuhan He
-Status: Prepared independently for discussion. Microsoft has not endorsed these proposals or committed to implement them.
+Prepared: July 13, 2026 | Prepared by: Shuhan He
 
 ## Purpose
 
@@ -33,11 +31,11 @@ Unicode will control the agenda, review, and outcome. I am asking for Microsoft'
 
 ### 2. Separate UTC discussion document
 
-Would Microsoft's standards team review the attached draft, **Health-related emoji coverage**, and, if it agrees that the question merits UTC discussion, help revise it for submission? Microsoft could submit a revised document, coauthor one with me, or use the draft as source material for its own document.
+The attached **Health-related emoji coverage** paper is now written as a final UTC submission document and names David Rhew, Heena Purohit, and Shuhan He as authors. Would David and Heena confirm the text and their public authorship? If they do, could Microsoft's standards team ask the current UTC delegate to route or introduce the paper through the normal member process?
 
-The draft raises a broader standards and discoverability question: whether closely related medical concepts would benefit from clearer guidance on substitutes, visual distinction, and expected usage. It is a discussion paper rather than a request to encode a group of emoji. Each candidate would still require its own submission through the official form.
+The paper raises a broader standards and discoverability question: whether closely related medical concepts would benefit from clearer guidance on substitutes, visual distinction, and expected usage. It asks the UTC to refer the question to ESR for review and recommendation. It does not request the encoding of a group of emoji. Each candidate would still require its own submission through the official form.
 
-If Unicode accepts a technical document into its public register, Unicode assigns the L2 number. The document may support discussion at the UTC or referral to a working group. It does not replace an individual emoji proposal or guarantee a decision.
+Unicode assigns the official L2 number after accepting a technical document into its public register. The final PDF should therefore be submitted without an `L2/26-nnn` placeholder. The document may support UTC discussion or referral to a working group; it does not replace an individual emoji proposal or guarantee a decision.
 
 <!-- pagebreak -->
 

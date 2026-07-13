@@ -13,10 +13,10 @@ This is the accessible text companion to
 
 Every candidate follows this route separately.
 
-## Route 2: health-coverage discussion document
+## Route 2: final UTC submission document
 
-1. Shuhan He and Microsoft's standards team may revise or coauthor the draft, or Microsoft may use it as
-   source material for its own document.
+1. David Rhew, Heena Purohit, and Shuhan He confirm the final text and public authorship. Microsoft's
+   standards lead routes or introduces the paper through the appropriate member process.
 2. The document follows Unicode's separate UTC document-submission process and requests an agenda
    disposition.
 3. The UTC may discuss the question or refer work.
@@ -27,7 +27,7 @@ The discussion document cannot replace an individual emoji proposal.
 ## Microsoft roles David Rhew can connect
 
 - **Microsoft Unicode standards lead or current UTC delegate:** checks the process and timing, reviews the
-  discussion draft, and may request normal agenda consideration.
+  final UTC paper, and may request normal agenda consideration.
 - **Emoji, font, and accessibility reviewers:** test the 18-pixel color and black-and-white artwork and
   platform-neutral implementation feasibility.
 - **Microsoft legal or IP:** needed only if Microsoft contributes artwork, coauthors a document, or approves

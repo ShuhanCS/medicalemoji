@@ -12,7 +12,7 @@ proposal, explains the current CT Scan and Blood Bag filing plan, keeps Pill Box
 separates the individual proposal route from the optional UTC discussion document.
 
 The deck is not part of the current David Rhew three-attachment send package. Use
-`../../outreach/2026-07-13-david-rhew-send-manifest.md`, which sends the discussion draft, one consolidated
+`../../outreach/2026-07-13-david-rhew-send-manifest.md`, which sends the final UTC paper, one consolidated
 15-proposal options packet, and one relationship map.
 
 | # | Slide | Purpose |
@@ -37,9 +37,9 @@ Current supporting materials:
 - `../../../output/pdf/2026-07-12-microsoft-medical-emoji-product-legal-clearance.pdf`
 - `../../outreach/2026-07-13-david-rhew-send-email.txt`
 - `../../outreach/2026-07-13-david-rhew-send-manifest.md`
-- `../../proposals/utc-health-category/health-coverage-maintenance-l2-review-draft.md`
-- `../../proposals/utc-health-category/health-coverage-maintenance-l2-review-draft.docx`
-- `../../proposals/utc-health-category/health-coverage-maintenance-l2-review-draft.pdf`
+- `../../proposals/utc-health-category/health-related-emoji-coverage-l2-submission.md`
+- `../../proposals/utc-health-category/health-related-emoji-coverage-l2-submission.docx`
+- `../../proposals/utc-health-category/health-related-emoji-coverage-l2-submission.pdf`
 - `../../../submissions/v1.3.0/ct-scan/ct-scan_emoji_proposal_SUBMIT.pdf`
 - `../../../submissions/v1.3.0/blood-bag/blood-bag_emoji_proposal_SUBMIT.pdf`
 - `../../../submissions/v1.3.0/pill-box/pill-box_emoji_proposal_SUBMIT.pdf`
