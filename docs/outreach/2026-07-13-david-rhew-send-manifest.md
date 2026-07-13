@@ -28,9 +28,9 @@ Use:
    - Contains the external decision brief and all 15 current working proposal PDFs.
    - The cover distinguishes planned, alternate, evidence-gated, draft, and later-cycle concepts.
 3. `output/pdf/2026-07-13-who-can-help-with-medical-emoji-review.pdf`
-   - Three-page external contact map and directory.
-   - Separates the official Emoji Submission Form route from the UTC discussion-document route and lists the
-     current public contacts and Microsoft roles to confirm.
+   - One-page Microsoft-only Unicode routing contact map.
+   - Lists public Microsoft roles, Unicode roles, and what each person does at Unicode, with the private
+     delegate and ESR assignments flagged for Microsoft to confirm.
 4. `output/zip/2026-07-13-medical-emoji-potential-submissions-pdfs.zip`
    - Contains exactly the 15 individual proposal PDFs and no other file type.
    - Status-aware filenames distinguish planned-after-revision, alternate, evidence-incomplete, review,

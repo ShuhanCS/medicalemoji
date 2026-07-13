@@ -5,6 +5,23 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.29.3] - 2026-07-13
+
+### Changed
+- Updated the David Rhew send email to explain why the UTC/L2 paper is the right route for the broader
+  health-and-medical emoji process question while keeping individual emoji submissions on Unicode's official
+  form path.
+- Clarified that the 15-concept packet is an options set, not a plan to submit all concepts, and that the
+  Microsoft ask is for routing and working-group consideration of selected health and medical concepts.
+- Replaced the broader three-page contact map with a one-page Microsoft-only Unicode routing page listing each
+  person's public Microsoft role, Unicode role, and Unicode function.
+
+### Verification
+- Rebuilt the contact-map PDF and confirmed it is one page, renders without clipping, embeds its fonts, and
+  contains only the intended Microsoft contact names in the text layer.
+- Advanced the project version from `0.29.2` to `0.29.3`; the proposal release remains `v1.7.0` because no
+  individual emoji proposal changed.
+
 ## [0.29.2] - 2026-07-13
 
 ### Changed

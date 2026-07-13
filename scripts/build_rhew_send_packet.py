@@ -466,7 +466,15 @@ def flow_box(
         body_y -= 8
 
 
-def role_map_header(pdf: canvas.Canvas, width: float, height: float, page: int, subtitle: str) -> None:
+def role_map_header(
+    pdf: canvas.Canvas,
+    width: float,
+    height: float,
+    page: int,
+    subtitle: str,
+    *,
+    total_pages: int = 3,
+) -> None:
     # Explicitly paint the page background. This avoids transparent-page rendering
     # differences between PDF viewers after ReportLab starts a new page.
     pdf.setFillColor(white)
@@ -479,7 +487,7 @@ def role_map_header(pdf: canvas.Canvas, width: float, height: float, page: int, 
     pdf.setFont("Helvetica", 9.2)
     pdf.drawString(34, height - 53, subtitle)
     pdf.setFont("Helvetica-Bold", 8)
-    pdf.drawRightString(width - 34, height - 34, f"13 JULY 2026  |  {page} OF 3")
+    pdf.drawRightString(width - 34, height - 34, f"13 JULY 2026  |  {page} OF {total_pages}")
 
 
 def readable_flow_box(
@@ -561,7 +569,7 @@ def linked_source(pdf: canvas.Canvas, url: str, x: float, y: float, max_width: f
     return y
 
 
-def build_role_map(path: Path) -> None:
+def build_legacy_role_map(path: Path) -> None:
     width, height = landscape(LETTER)
     pdf = canvas.Canvas(str(path), pagesize=(width, height), pageCompression=1)
     pdf.setTitle("Who can help route the Medical Emoji work")
@@ -821,6 +829,123 @@ def build_role_map(path: Path) -> None:
     for index, source in enumerate(sources):
         column = 0 if index < 4 else 1
         source_y[column] = linked_source(pdf, source, source_x[column], source_y[column], 350)
+
+    pdf.save()
+
+
+def build_role_map(path: Path) -> None:
+    width, height = landscape(LETTER)
+    pdf = canvas.Canvas(str(path), pagesize=(width, height), pageCompression=1)
+    pdf.setTitle("Microsoft Unicode routing contacts for Medical Emoji")
+    pdf.setAuthor("Shuhan He")
+    pdf.setSubject("Microsoft-only Unicode roles for routing the Medical Emoji work")
+
+    role_map_header(
+        pdf,
+        width,
+        height,
+        1,
+        "Microsoft employees and public Unicode roles to confirm for Medical Emoji routing.",
+        total_pages=1,
+    )
+
+    rounded_box(pdf, 34, 493, width - 68, 34, fill=BLUE_LIGHT, stroke=BLUE, radius=6, line_width=0.8)
+    draw_wrapped(
+        pdf,
+        "Use this as the Microsoft-facing contact page. Public sources confirm the roles below; Microsoft's current member representative, UTC delegate, alternate, and ESR participant still need internal confirmation.",
+        46,
+        513,
+        width - 92,
+        size=8.3,
+        color=INK,
+        leading=10,
+    )
+
+    card_w = (width - 68 - 18) / 2
+    card_h = 154
+    left_x = 34
+    right_x = left_x + card_w + 18
+    top_y = 315
+    bottom_y = 139
+
+    contacts = [
+        (
+            left_x,
+            top_y,
+            "Peter Constable",
+            "FIRST TECHNICAL CALL",
+            "Microsoft role: Works at Microsoft on Unicode, internationalization, text display, and fonts. Unicode role: Technical Vice President; chair of the UTC; chair of the UTC Release Management Working Group. What he does at Unicode: chairs the technical committee, manages UTC process and agenda, and can identify the correct Microsoft delegate and ESR route.",
+            "Sources: Unicode technical leadership; UTC #187 minutes",
+            BLUE_LIGHT,
+            BLUE,
+        ),
+        (
+            right_x,
+            top_y,
+            "Vishal Chowdhary",
+            "EXECUTIVE ROUTING",
+            "Microsoft role: Vice President of Science; leads the Office AI Science team in Microsoft 365 Copilot. Unicode role: Unicode Board director, 2026 to present. What he does at Unicode: governance and member-company representation. He can help identify Microsoft owners, but the Board does not decide emoji outcomes.",
+            "Source: Unicode Board of Directors",
+            AMBER_LIGHT,
+            AMBER,
+        ),
+        (
+            left_x,
+            bottom_y,
+            "Judy Safran-Aasen",
+            "UTC ROLE TO CONFIRM",
+            "Microsoft role: listed in UTC #187 minutes as representing Microsoft; current internal title and assignment are not public in Unicode sources. Unicode role: Microsoft participant in the latest published UTC minutes. What she does at Unicode: likely standards participation to confirm; ask whether she is the primary UTC delegate, alternate, or another Microsoft UTC participant.",
+            "Source: UTC #187 minutes",
+            CYAN_LIGHT,
+            CYAN,
+        ),
+        (
+            right_x,
+            bottom_y,
+            "Andrew Glass",
+            "ADJACENT STANDARDS",
+            "Microsoft role: Principal Product Manager in the Experiences and Devices Group. Unicode role: chair of the CLDR Keyboard Working Group. What he does at Unicode: keyboard and input standards. Useful for adjacent Microsoft routing around input, font rendering, and language support, not the emoji proposal intake gate.",
+            "Source: Unicode technical leadership",
+            GREEN_LIGHT,
+            GREEN,
+        ),
+    ]
+
+    for x, y, name, badge, body, source, fill, stroke in contacts:
+        contact_card(pdf, x, y, card_w, card_h, name, badge, body, source, fill=fill, stroke=stroke)
+
+    rounded_box(pdf, 34, 78, width - 68, 54, fill=LIGHT, stroke=MID, radius=6, line_width=0.7)
+    pdf.setFillColor(INK)
+    pdf.setFont("Helvetica-Bold", 8.3)
+    pdf.drawString(46, 113, "MICROSOFT ROLES TO CONFIRM INTERNALLY")
+    draw_wrapped(
+        pdf,
+        "Primary Unicode Organizational Member Representative; primary UTC delegate and alternate; Microsoft ESR participant if one exists; Fluent Emoji, Segoe UI, font-engineering, and accessibility owners; IP reviewer only if Microsoft contributes artwork, coauthors, or an implementation statement.",
+        46,
+        99,
+        width - 92,
+        size=7.4,
+        color=INK,
+        leading=8.8,
+    )
+
+    pdf.setFillColor(SLATE)
+    pdf.setFont("Helvetica-Bold", 6.1)
+    pdf.drawString(34, 53, "OFFICIAL SOURCES")
+    sources = [
+        "https://www.unicode.org/consortium/techchairs.html",
+        "https://www.unicode.org/consortium/directors.html",
+        "https://www.unicode.org/L2/L2026/26093.htm",
+        "https://www.unicode.org/emoji/proposals.html",
+        "https://www.unicode.org/pending/docsubmit.html",
+    ]
+    x = 34
+    y = 42
+    for index, source in enumerate(sources):
+        if index == 3:
+            x = 456
+            y = 42
+        y = linked_source(pdf, source, x, y, 380)
 
     pdf.save()
 

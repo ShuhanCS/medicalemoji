@@ -19,9 +19,9 @@ Microsoft.
 
    https://github.com/ShuhanCS/medicalemoji/blob/codex/eligible-2026-slate/output/pdf/2026-07-13-medical-emoji-submission-options-packet.pdf
 
-3. **Who can help route the Medical Emoji work** is the three-page Microsoft and Unicode contact map. It
-   identifies the strongest first contacts, the two official submission routes, the current public leadership,
-   and the Microsoft roles that still need to be confirmed.
+3. **Who can help route the Medical Emoji work** is the one-page Microsoft-only Unicode contact map. It lists
+   public Microsoft roles, Unicode roles, and what each person does at Unicode, with the private delegate and
+   ESR assignments flagged for Microsoft to confirm.
 
    https://github.com/ShuhanCS/medicalemoji/blob/codex/eligible-2026-slate/output/pdf/2026-07-13-who-can-help-with-medical-emoji-review.pdf
 
