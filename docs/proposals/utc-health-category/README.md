@@ -1,4 +1,24 @@
-# UTC document: Health as a Category in Emoji Ordering
+# UTC document research and current external review draft
+
+Current external review draft:
+
+- `health-coverage-maintenance-l2-review-draft.md`
+- `health-coverage-maintenance-l2-review-draft.docx`
+- `health-coverage-maintenance-l2-review-draft.pdf`
+
+The draft asks whether health-related coverage and recurring review questions warrant ESR discussion. It does
+not request a top-level Health group, encode a bundled slate, or identify Microsoft as an author. The older
+`health-category-utc-doc.*` and `health-coverage-maintenance-l2-final.*` files are retained as research history
+and should not be sent as the current draft.
+
+Rebuild the current draft:
+
+```powershell
+pandoc health-coverage-maintenance-l2-review-draft.md -o health-coverage-maintenance-l2-review-draft.docx
+pandoc health-coverage-maintenance-l2-review-draft.md -o health-coverage-maintenance-l2-review-draft.pdf --pdf-engine=xelatex
+```
+
+## Archived research: Health as a Category in Emoji Ordering
 
 **DUE 2026-07-21.** Seven days before UTC #188 (July 28–30, 2026, Redmond, WA).
 

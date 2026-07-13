@@ -1,50 +1,86 @@
-# 2026 Medical Emoji: Microsoft Internal Decision Brief
+# Medical Emoji proposals for Microsoft review
 
-Prepared: July 12, 2026
+Prepared: July 13, 2026
 Prepared by: Shuhan He
-Status: Internal review draft. This document does not represent Microsoft sponsorship, approval, or an implementation commitment.
+Status: Prepared independently for discussion. Microsoft has not endorsed these proposals or committed to implement them.
 
-## Decision requested
+## Purpose
 
-Please identify the Microsoft standards, Windows/Segoe UI Emoji, design, and legal owners who can decide whether to:
+I plan to submit **CT Scan** and **Blood Bag** through Unicode's 2026 emoji intake after updating their evidence and image-rights language. **Pill Box** is the first alternate. Unicode's published filing window closes July 31. That places this work late in the cycle, but still before the deadline.
 
-1. advance **Ultrasound** as the conditional 2026 lead;
-2. retain **CT Scan** as the operational fallback; and
-3. authorize only the product, design, rights, and process statements those owners have expressly approved.
+This brief asks Microsoft for two kinds of help:
 
-## Recommendation
+1. Review the proposal shortlist, artwork, evidence, and rights record.
+2. Advise on the appropriate Unicode route for the individual proposals and for a separate discussion document about health-related emoji coverage.
 
-**Run a short pass/fail review of Ultrasound. If every gate below closes by the internal cutoff, advance it. If any gate remains open, complete the CT Scan refresh and use CT Scan as the fallback. File neither until its full packet passes final review.**
+## Current filing plan
 
-Ultrasound has the strongest upside in the expanded slate. No matching concept was found in Unicode's public proposal-status record, its recent Google Books signal is approximately 1.70 times the required `elephant` comparator, and a monitor-plus-probe image can represent obstetric, cardiac, abdominal, bedside, procedure-guidance, education, and veterinary uses without depicting a patient or diagnosis.
+**CT Scan.** This is the strongest developed proposal. It includes exhibits in all five evidence categories and has a clearer independent use case than the existing X-Ray emoji. Before filing, I will recapture its 2020 Search, Video, and Trends evidence using the current method, test the 18-pixel image against MRI and generic scanners, and state the artwork ownership clearly.
 
-Ultrasound is not submission-ready today. It is missing four required Google screenshots, and the artwork still needs recognition review at 18 x 18 pixels and in black and white. CT Scan already contains all five required evidence categories, but its 2020 captures, current factor labels, and the submitter's explicit ownership warranty should be refreshed before filing.
+**Blood Bag.** This proposal also includes the five required evidence exhibits. It supports donation, transfusion, blood-supply, and patient-care communication that a Drop of Blood cannot fully express. I will refresh the 2020 evidence and test the image beside IV Bag because the two silhouettes are similar in black and white.
 
-## Pass/fail gate
+**Pill Box, as the first alternate.** Pill Box has an exhibit in each evidence category and communicates weekly medication organization more clearly than Pill Pack. Its historical usage evidence is weak and must be refreshed. Reviewers may also conclude that the existing Pill emoji is sufficient. Even with those limitations, Pill Box is the strongest medication option in the current portfolio.
 
-Ultrasound becomes the lead only when all four items are complete:
+Before submitting, I will complete the evidence updates, current factor labels, artwork-ownership records, document metadata, and small-size recognition checks.
 
-- Fresh Google Search and Google Video Search screenshots show a large, relevant result set.
-- Worldwide Google Trends Web Search and Image Search comparisons against `elephant` show sustained usage.
-- Microsoft design reviewers confirm that the probe remains recognizable at 18 x 18 pixels and that the monitor does not read as a generic computer.
-- The product and legal owners clear the selected artwork, rights record, and any Microsoft-facing statement that will appear in the proposal.
+## Questions for Microsoft
 
-**Current evidence blocker:** on July 12, the available capture environment received HTTP 429 from Google Trends and a CAPTCHA from Google Search. No substitute screenshot should be presented as compliant evidence. The four captures require a clean manual session on an accepted network.
+### 1. Review and working-group timing
 
-## Portfolio boundary
+After I submit the selected proposal PDFs through Unicode's official Emoji Submission Form, would Microsoft's Unicode standards representatives be willing to ask the Emoji Standard & Research Working Group to consider adding them to an upcoming agenda as part of its normal review process?
 
-Kidney, Stomach, and Liver were declined on November 4, 2022. Unicode's current guidance says that emoji declined within the last four years are not eligible for re-review. Because the 2026 intake closes July 31, these concepts should not be filed this cycle. The redesigned v1.7 artwork and proposals are review assets for a future eligible cycle, not 2026 submissions.
+Unicode will control the agenda, review, and outcome. I am asking for Microsoft's technical review and help bringing these proposals to the working group's attention.
 
-Do not route the full portfolio as simultaneous proposals. One selected imaging concept gives Microsoft reviewers a bounded design and rights decision and reduces the open-ended-category risk.
+### 2. Separate UTC discussion document
 
-## Microsoft role and guardrails
+Would Microsoft's standards team review the attached draft, **Health-related emoji coverage**, and, if it agrees that the question merits UTC discussion, help revise it for submission? Microsoft could submit a revised document, coauthor one with me, or use the draft as source material for its own document.
 
-- Confirm the proper standards route and the responsible internal owners.
-- Review technical recognizability, accessibility, image rights, and accurate product language.
-- Keep Shuhan He as the sole preparer and individual submitter unless another person expressly agrees to authorship.
-- Do not describe Microsoft as sponsoring, endorsing, or committing to implementation unless the responsible owners approve that exact statement in writing.
-- Request ordinary Unicode technical review, never a preferred outcome.
+The draft raises a broader standards and discoverability question: whether closely related medical concepts would benefit from clearer guidance on substitutes, visual distinction, and expected usage. It is a discussion paper rather than a request to encode a group of emoji. Each candidate would still require its own submission through the official form.
 
-Official Unicode proposal guidance, including the 2026 intake dates, evidence requirements, and four-year re-review rule:
+If Unicode accepts a technical document into its public register, Unicode assigns the L2 number. The document may support discussion at the UTC or referral to a working group. It does not replace an individual emoji proposal or guarantee a decision.
 
+<!-- pagebreak -->
+
+## Portfolio at a glance
+
+| Position today | Concepts | Reason |
+| --- | --- | --- |
+| Planned filings after revision | CT Scan; Blood Bag | All five evidence categories are present; both still need current-method evidence, rights, and design review |
+| First alternate | Pill Box | Complete evidence categories; clearer weekly medication use than Pill Pack, but weak usage and overlap with Pill remain |
+| Promising if evidence is completed | Ultrasound; Weight Scale | Broad uses and promising signals; required Trends or other Google evidence is missing |
+| Other current-cycle drafts | White Blood Cell; Inhaler; IV Bag; Leg Cast; Pill Pack; Maze; First Aid Kit | Each has an evidence gap, a recognition problem, prior declines, or overlap with an existing emoji or another proposal |
+| Later-cycle candidates | Kidney; Stomach; Liver | Their recorded November 4, 2022 decline notices fall within Unicode's four-year bar at the July 31, 2026 deadline |
+
+## Why Pill Pack is not in the filing plan
+
+Pill Pack is available as a draft, but it is not equivalent to Pill Box in readiness. It is missing Web Trends evidence, its Image Trends comparison uses the wrong comparator, and its 18-pixel image can resemble a keypad or remote. The name also risks confusion with the PillPack pharmacy brand. If the concept is revisited, **Blister Pack** may be the clearer generic name.
+
+Filing both Pill Box and Pill Pack in the same intake would create an avoidable overlap question. The same applies to Blood Bag and IV Bag. The packet includes both pairs so Microsoft can compare them directly.
+
+## Relevant history
+
+In 2018, Apple submitted L2/18-080, a proposal for nine accessibility emoji organized around four areas of accessibility. Apple described the set as a finite starting point, worked with disability organizations, and addressed Unicode's concern about open-ended categories. It is a useful example of a vendor explaining how related concepts fit together. Apple used the emoji-proposal process available in 2018; under the 2026 process, each encoding proposal must use the official form.
+
+In 2019, Christian Kamkoff, Shuhan He, and Melissa Thermidor submitted separate proposals for Anatomical Heart and Lungs. Unicode later encoded both characters. The 2026 candidates must still succeed on their own evidence, distinctiveness, rights, and expected usage.
+
+The current 2026 process separates the two routes clearly: individual emoji proposals go through the Emoji Submission Form, while a broader technical discussion document follows Unicode's document-submission process.
+
+## Public sources
+
+Unicode emoji proposal guidance and 2026 filing window:
 https://www.unicode.org/emoji/proposals.html
+
+Unicode document-submission process:
+https://www.unicode.org/pending/docsubmit.html
+
+Apple accessibility proposal, L2/18-080:
+https://www.unicode.org/L2/L2018/18080-accessibility-emoji.pdf
+
+Anatomical Heart proposal, L2/19-150:
+https://www.unicode.org/L2/L2019/19150-heart-emoji.pdf
+
+Lungs proposal, L2/19-149:
+https://www.unicode.org/L2/L2019/19149-lung-emoji.pdf
+
+Working proposal PDFs for CT Scan, Blood Bag, and Pill Box:
+https://github.com/ShuhanCS/medicalemoji/tree/codex/eligible-2026-slate/submissions/v1.3.0

@@ -5,6 +5,26 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.26.0] - 2026-07-13
+
+### Added
+- Added the nine-slide `Emoji-2026-External-Review-v7.pptx` deck and its stable PDF export for Microsoft review.
+- Added a health-coverage UTC discussion draft in Markdown, DOCX, and PDF formats for Microsoft standards review.
+- Added the external-packet rewrite plan and a send-ready David Rhew email draft.
+
+### Changed
+- Rewrote the decision brief and technical and rights questions for external readers.
+- Showed the full proposal slate, with CT Scan and Blood Bag planned after revision and Pill Box as the first alternate.
+- Separated individual Emoji Submission Form filings from the optional UTC discussion-document route.
+- Added the relevant Apple L2/18-080, Anatomical Heart, and Lungs history, including the verified 2019 author list.
+- Reclassified the Microsoft v6 deck as archive material that should not be sent.
+- Advanced the project version from `0.25.0` to `0.26.0`; the proposal release remains `v1.7.0` because no individual proposal packet changed in this release.
+
+### Known filing work
+- CT Scan, Blood Bag, and Pill Box still need current-method evidence, ownership records, citations, metadata, current factor labels, and small-size checks before filing.
+- CT Scan and Pill Box artwork still needs stronger 18-pixel recognition; Kidney and Liver also remain working artwork rather than final submission images.
+- Kidney, Stomach, and Liver remain later-cycle candidates unless Unicode confirms eligibility.
+
 ## [0.25.0] - 2026-07-12
 
 ### Added

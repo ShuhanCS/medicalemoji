@@ -1,25 +1,27 @@
 # Microsoft medical emoji review packet
 
-## Current send/review deck - v6
+## Current send/review deck - v7
 
 Use only these current deck files for Microsoft review:
 
-- `Emoji-2026-Brief-v6.pptx`
+- `Emoji-2026-External-Review-v7.pptx`
 - `../../../output/pdf/2026-07-12-microsoft-medical-emoji-review-deck.pdf`
 
-The v6 deck is an eight-slide, decision-focused review copy prepared by Shuhan He. It does not assign
-authorship, endorsement, implementation, or Unicode-outcome language to Microsoft without explicit approval.
+The v7 deck is a nine-slide external review copy prepared independently by Shuhan He. It shows every available
+proposal, explains the current CT Scan and Blood Bag filing plan, keeps Pill Box as the first alternate, and
+separates the individual proposal route from the optional UTC discussion document.
 
 | # | Slide | Purpose |
 |---|---|---|
-| 1 | Medical Emoji | Defines the narrow decision and review deadline. |
-| 2 | The decision is narrow | Keeps Ultrasound as the conditional lead, CT Scan as fallback, and the organs on hold. |
-| 3 | Four non-negotiable submission checks | Summarizes eligibility, rights, evidence, and small-size recognition gates. |
-| 4 | Submission readiness determines the 2026 order | Separates potential from filing readiness. |
-| 5 | Organ art was rebuilt for small-size review | Shows the redesigned `v1.7.0` Kidney, Stomach, and Liver assets. |
-| 6 | Microsoft's role is technical review, not outcome-seeking | Defines the legitimate product, design, standards, and legal review. |
-| 7 | Run a 48-hour evidence and design gate | Assigns the remaining evidence and recognition work. |
-| 8 | What we need from Microsoft | Requests named owners, a lead/fallback decision, and technical review authority. |
+| 1 | Medical Emoji proposals | Introduces the filing plan and two Unicode process questions. |
+| 2 | Current filing plan | Shows CT Scan and Blood Bag as planned filings and Pill Box as the first alternate. |
+| 3 | Full proposal portfolio | Shows all twelve current-cycle concepts and three later-cycle organ assets. |
+| 4 | Why CT Scan and Blood Bag lead today | Explains the evidence, distinctiveness, and remaining work. |
+| 5 | Related concepts need direct comparison | Compares Pill Box with Pill Pack and Blood Bag with IV Bag. |
+| 6 | Promising alternatives still need evidence | Keeps Ultrasound, Weight Scale, and Inhaler visible without overstating readiness. |
+| 7 | Two Unicode routes | Separates the official emoji form from the L2 document-submission process. |
+| 8 | Relevant history | Covers Apple L2/18-080 and the 2019 Anatomical Heart and Lungs proposals. |
+| 9 | Questions for Microsoft reviewers | Lists the review questions and attachment set. |
 
 Current supporting materials:
 
@@ -30,15 +32,20 @@ Current supporting materials:
 - `../../../output/doc/2026-07-12-microsoft-medical-emoji-product-legal-clearance.docx`
 - `../../../output/pdf/2026-07-12-microsoft-medical-emoji-product-legal-clearance.pdf`
 - `../../outreach/2026-07-12-david-rhew-microsoft-packet-email.md`
-- `../../../submissions/v1.7.0/manifest.md`
+- `../../proposals/utc-health-category/health-coverage-maintenance-l2-review-draft.md`
+- `../../proposals/utc-health-category/health-coverage-maintenance-l2-review-draft.docx`
+- `../../proposals/utc-health-category/health-coverage-maintenance-l2-review-draft.pdf`
+- `../../../submissions/v1.3.0/ct-scan/ct-scan_emoji_proposal_SUBMIT.pdf`
+- `../../../submissions/v1.3.0/blood-bag/blood-bag_emoji_proposal_SUBMIT.pdf`
+- `../../../submissions/v1.3.0/pill-box/pill-box_emoji_proposal_SUBMIT.pdf`
+- `../../../submissions/v1.7.0/MANIFEST.md`
 
-Remaining gates are not optional: Kidney, Stomach, and Liver need Unicode eligibility confirmation; Stomach
-and Liver use stale 2020 evidence; Liver's Trends captures are United States-only; and the current Google
-refresh is blocked because Trends returns HTTP 429 while Search presents a CAPTCHA.
+The working CT Scan, Blood Bag, and Pill Box proposals still need current-method evidence, ownership, metadata,
+and small-size checks. Kidney, Stomach, and Liver remain future-cycle assets unless Unicode confirms eligibility.
 
-## Archived v5/v4 build and research notes - do not send
+## Archived v6/v5/v4 build and research notes - do not send
 
-The remainder of this file documents how the older v5/v4 decks were built and fact-checked. Those decks are
+The remainder of this file documents how the older v6/v5/v4 decks were built and fact-checked. Those decks are
 retained as research history only. They are not the current Microsoft review packet.
 
 ## Slide 8: the set precedent
@@ -106,8 +113,9 @@ medical set is unclaimed rather than asserting a negative about Microsoft.
 
 ## Files
 
-- `Emoji-2026-Brief-v6.pptx` - current eight-slide Microsoft review deck
-- `build_v6.js` / `finalize_v6.ps1` - rebuild and PowerPoint-finalize the current deck
+- `Emoji-2026-External-Review-v7.pptx` - current nine-slide Microsoft review deck
+- `build_v7.js` / `finalize_v7.ps1` - rebuild and PowerPoint-finalize the current deck
+- `Emoji-2026-Brief-v6.pptx` - archived eight-slide internal review deck; do not send
 - `Emoji-2026-Brief-v5.pptx` - archived ten-slide deck; do not send
 - `Emoji-2026-Brief-v4.pptx` - archived nine-slide deck; do not send
 - `build_sets_slide.py` / `sets.png` — slide 8 and its proof

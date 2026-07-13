@@ -1,58 +1,58 @@
-# Medical Emoji: Microsoft Product and Legal Clearance
+# Technical and rights questions for Microsoft review
 
-Prepared: July 12, 2026
+Prepared: July 13, 2026
 Prepared by: Shuhan He
-Status: Internal approval worksheet. Nothing below is approved until the responsible Microsoft owner signs it.
+Status: Prepared for discussion. Any Microsoft participation would require Microsoft's approval.
 
-## Decision record
+## Proposal selection
 
-Selected concept: [ ] Ultrasound  [ ] CT Scan  [ ] Neither
-Review outcome: [ ] Approved with the conditions below  [ ] Revise and return  [ ] Do not advance
+The current filing plan is **CT Scan** and **Blood Bag**, with **Pill Box** as the first alternate. I would value Microsoft's view on whether these are the right concepts to prioritize before the July 31 deadline.
 
-Ultrasound may be selected only after its four missing Google screenshots are embedded and its monitor-plus-probe image passes the 18 x 18 pixel and black-and-white review. If those gates do not close by the internal cutoff, the team may select CT Scan only after its historical evidence, current factor labels, and the submitter's explicit ownership warranty are refreshed.
+- Does each concept add a clear meaning that existing emoji cannot express well?
+- Should Pill Box remain the medication option, or does the existing Pill emoji make it unnecessary?
+- Is Blood Bag sufficiently distinct from Drop of Blood and IV Bag?
+- Does CT Scan remain recognizable as a scanner and procedure rather than X-Ray, MRI, or a generic machine?
 
-## Product and design clearance
+## Emoji design and accessibility
 
-- [ ] The selected image is recognizable at 18 x 18 and 72 x 72 pixels in color and true black and white.
-- [ ] The paradigm is generic, text-free, and not dependent on Microsoft trade dress or a protected logo.
-- [ ] Ultrasound does not read as a generic computer and is not limited to pregnancy; or CT Scan remains visually distinct from X-Ray.
-- [ ] Accessibility and internationalization reviewers found no avoidable ambiguity or culturally narrow cue.
-- [ ] Any statement about anticipated Microsoft implementation has a named product owner and exact approved wording.
+- Can an unfamiliar viewer identify each image at 18 and 72 pixels?
+- Does the essential silhouette survive in true black and white?
+- Does the image depend on text, numbers, labels, a protected symbol, or familiar product design?
+- Would the concept translate clearly into Segoe UI Emoji while remaining distinct from protected product designs?
+- Are there clinical details that could mislead a patient or make the image too narrow?
 
-Product/design conditions or required changes:
+Microsoft would create its own glyph if Unicode encoded the character. The attached images are examples used to test recognizability.
 
-________________________________________________________________________________
+## Evidence and Unicode process
 
-## Legal and communications clearance
+- Do the refreshed Search, Video, Web Trends, Image Trends, and Books exhibits follow Unicode's current query method?
+- Does the proposal distinguish public usage evidence from medical importance or professional support?
+- Are the inclusion and exclusion factors answered using Unicode's current labels and meanings?
+- After the individual submissions are received, would Microsoft's Unicode representatives be willing to ask ESR to consider adding them to an upcoming agenda as part of its normal review process?
+- Would Microsoft's standards team review the separate health-coverage discussion draft and, if it agrees that the question merits UTC discussion, help revise it for submission?
 
-- [ ] The final artwork source, creator, and license record have been verified. No third-party search image or screenshot is represented as original artwork.
-- [ ] The public proposal may include the required third-party usage screenshots under a documented evidentiary/fair-use rationale.
-- [ ] No private Microsoft data, internal metrics, trademarks, customer information, or confidential material will appear in the public packet without separate approval.
-- [ ] Shuhan He remains the sole preparer and individual submitter. No Microsoft employee is named as an author, sponsor, or approver without that person's express consent.
-- [ ] The proposal does not imply that Microsoft can direct Unicode's technical outcome.
+## Artwork rights and public references
 
-Legal/communications conditions or required changes:
+- Does the final record identify the artwork creator and show that Shuhan He owns the submitted image or has a sufficient assignment and license?
+- Is the public-domain or CC0 statement consistent with the underlying ownership record?
+- Are all third-party screenshots clearly presented as evidence rather than original artwork?
+- Is any Microsoft name, employee, product, or anticipated implementation statement included only after the responsible owner approves the exact wording?
 
-________________________________________________________________________________
+The public proposal will identify Shuhan He as the submitter. Microsoft and individual employees would be named only with their express approval.
 
-## Optional public statement
+## Two possible Microsoft actions
 
-Select one:
+**Individual proposals.** After submission through the official form, Microsoft's standards representatives could ask ESR to consider adding the proposals to an upcoming agenda as part of its normal review process. Unicode controls the agenda, review, and outcome.
 
-- [ ] No Microsoft statement is authorized for the proposal.
-- [ ] The exact statement below is authorized without modification.
+**Technical discussion document.** Microsoft's standards team could submit a revised document, coauthor one with Shuhan He, or use the draft as source material for its own document. If Unicode accepts a document into the public register, Unicode would assign the L2 number. Each emoji candidate would continue through the separate Emoji Submission Form.
 
-> Microsoft has reviewed the proposed **[Ultrasound / CT Scan]** image paradigm for technical feasibility. If Unicode encodes and recommends the character for general interchange as emoji, Microsoft anticipates evaluating implementation through its normal product, design, accessibility, legal, and release processes. This statement does not request preferential treatment or pre-judge Unicode's technical review.
+## Public sources
 
-Any stronger implementation commitment requires separate written approval.
-
-## Approval
-
-Product owner: ____________________  Decision/date: ____________________
-Design/accessibility owner: ____________________  Decision/date: ____________________
-Legal/communications owner: ____________________  Decision/date: ____________________
-Standards owner: ____________________  Decision/date: ____________________
-
-Official Unicode proposal guidance:
-
+Unicode emoji proposal guidance:
 https://www.unicode.org/emoji/proposals.html
+
+Unicode document-submission process:
+https://www.unicode.org/pending/docsubmit.html
+
+Apple accessibility proposal, L2/18-080:
+https://www.unicode.org/L2/L2018/18080-accessibility-emoji.pdf

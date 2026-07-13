@@ -4,18 +4,23 @@
 
 | Due | What | Where |
 |---|---|---|
-| 2026-07-21 | Optional UTC data document, if Microsoft chooses to carry it; not on the emoji-proposal critical path | Spec: [`docs/plans/2026-07-09-utc-doc-health-category-spec.md`](docs/plans/2026-07-09-utc-doc-health-category-spec.md) |
+| 2026-07-21 | Optional UTC discussion document, if Microsoft agrees the question merits UTC review and chooses to adapt, coauthor, or submit it; not on the emoji-proposal critical path | Spec: [`docs/plans/2026-07-09-utc-doc-health-category-spec.md`](docs/plans/2026-07-09-utc-doc-health-category-spec.md) |
 | 2026-07-31 | Emoji proposal(s), 2026 submission window closes | [Emoji Submission Form](https://forms.gle/6KSiYHrUdBkTMNaB8). Spec: [`docs/plans/2026-07-09-microsoft-health-emoji-proposal.md`](docs/plans/2026-07-09-microsoft-health-emoji-proposal.md) |
 | 2026-11-30 | Unicode notifies all submitters of status | — |
 
-The immediate Microsoft ask is a narrow internal product, design, standards, and legal review, not the
-optional category document. Use the current decision brief, clearance sheet, email draft, and v6 review deck:
+The current Microsoft packet is written for an external audience. It shows the full proposal portfolio and
+separates two requests: review the individual 2026 filings, and decide whether the health-coverage discussion
+draft merits UTC submission. Use these files:
 
-- [`docs/strategy/2026-07-12-microsoft-medical-emoji-decision-brief.md`](docs/strategy/2026-07-12-microsoft-medical-emoji-decision-brief.md)
-- [`docs/strategy/2026-07-12-microsoft-medical-emoji-product-legal-clearance.md`](docs/strategy/2026-07-12-microsoft-medical-emoji-product-legal-clearance.md)
+- [`output/pdf/2026-07-12-microsoft-medical-emoji-decision-brief.pdf`](output/pdf/2026-07-12-microsoft-medical-emoji-decision-brief.pdf) and [`output/doc/2026-07-12-microsoft-medical-emoji-decision-brief.docx`](output/doc/2026-07-12-microsoft-medical-emoji-decision-brief.docx)
+- [`output/pdf/2026-07-12-microsoft-medical-emoji-product-legal-clearance.pdf`](output/pdf/2026-07-12-microsoft-medical-emoji-product-legal-clearance.pdf) and [`output/doc/2026-07-12-microsoft-medical-emoji-product-legal-clearance.docx`](output/doc/2026-07-12-microsoft-medical-emoji-product-legal-clearance.docx)
 - [`docs/outreach/2026-07-12-david-rhew-microsoft-packet-email.md`](docs/outreach/2026-07-12-david-rhew-microsoft-packet-email.md)
-- [`docs/presentations/2026-07-09-microsoft-brief/Emoji-2026-Brief-v6.pptx`](docs/presentations/2026-07-09-microsoft-brief/Emoji-2026-Brief-v6.pptx)
+- [`docs/presentations/2026-07-09-microsoft-brief/Emoji-2026-External-Review-v7.pptx`](docs/presentations/2026-07-09-microsoft-brief/Emoji-2026-External-Review-v7.pptx)
 - [`output/pdf/2026-07-12-microsoft-medical-emoji-review-deck.pdf`](output/pdf/2026-07-12-microsoft-medical-emoji-review-deck.pdf)
+- [`docs/proposals/utc-health-category/health-coverage-maintenance-l2-review-draft.pdf`](docs/proposals/utc-health-category/health-coverage-maintenance-l2-review-draft.pdf), [`DOCX`](docs/proposals/utc-health-category/health-coverage-maintenance-l2-review-draft.docx), and [`source`](docs/proposals/utc-health-category/health-coverage-maintenance-l2-review-draft.md)
+- [`submissions/v1.3.0/ct-scan/ct-scan_emoji_proposal_SUBMIT.pdf`](submissions/v1.3.0/ct-scan/ct-scan_emoji_proposal_SUBMIT.pdf)
+- [`submissions/v1.3.0/blood-bag/blood-bag_emoji_proposal_SUBMIT.pdf`](submissions/v1.3.0/blood-bag/blood-bag_emoji_proposal_SUBMIT.pdf)
+- [`submissions/v1.3.0/pill-box/pill-box_emoji_proposal_SUBMIT.pdf`](submissions/v1.3.0/pill-box/pill-box_emoji_proposal_SUBMIT.pdf)
 
 ## 🏆 What actually wins
 
@@ -55,18 +60,18 @@ Medical Emoji is a campaign and proposal workspace for adding high-utility medic
 
 This repository contains the public website, prior support materials, current Unicode research notes, and proposal planning files for the medical emoji concepts the project has pursued.
 
-Last status check: 2026-07-12
+Last status check: 2026-07-13
 
-## Current Submission Link
+## Current Proposal Releases
 
-Current design-reviewed organ release, pending eligibility and evidence clearance:
-https://github.com/ShuhanCS/medicalemoji/tree/codex/eligible-2026-slate/submissions/v1.7.0
+Current filing-candidate source for CT Scan, Blood Bag, and Pill Box, all requiring revision before filing:
+https://github.com/ShuhanCS/medicalemoji/tree/codex/eligible-2026-slate/submissions/v1.3.0
 
-Current three-concept evidence-gated draft release:
+Additional evidence-gated drafts for Ultrasound, Maze, and First Aid Kit:
 https://github.com/ShuhanCS/medicalemoji/tree/codex/eligible-2026-slate/submissions/v1.5.0
 
-Prior re-eligible portfolio release and CT Scan refreshable fallback:
-https://github.com/ShuhanCS/medicalemoji/tree/codex/eligible-2026-slate/submissions/v1.3.0
+Latest Kidney, Stomach, and Liver review release, pending eligibility, evidence, and small-size design clearance:
+https://github.com/ShuhanCS/medicalemoji/tree/codex/eligible-2026-slate/submissions/v1.7.0
 
 The `v1.7.0` release contains redesigned Kidney, Stomach, and Liver artwork and revised proposal PDFs with
 all five required frequency screenshots embedded in each PDF. It is a review release, not authority to file:
@@ -78,9 +83,9 @@ Google Search CAPTCHA. See [`submissions/v1.7.0/manifest.md`](submissions/v1.7.0
 The `v1.5.0` release contains full drafts for Ultrasound, Maze, and First Aid Kit. Maze now uses a mouse-maze
 paradigm. All three have original artwork and a fresh Google Books comparison; all remain evidence-gated until
 four fresh Google screenshots are captured. Reproducible Bing Web, Video, and Image supplements are archived
-for all three, but are deliberately separated from the missing Google categories. Ultrasound is the
-conditional Microsoft lead, and the CT Scan packet in `v1.3.0` is the fallback after its 2020 evidence,
-factor labels, and ownership language are refreshed. See
+for all three, but are deliberately separated from the missing Google categories. Ultrasound remains a
+promising alternative, not a filing-ready proposal. The external Microsoft packet compares it with CT Scan,
+Blood Bag, Pill Box, Weight Scale, and the rest of the available slate. See
 [`submissions/v1.5.0/MANIFEST.md`](submissions/v1.5.0/MANIFEST.md).
 
 Unicode requires a publicly accessible PDF proposal submitted through the official form. Email, fax, and hard-copy submissions are not accepted.
@@ -129,23 +134,23 @@ proposal workspaces. Status rows are from Unicode's live public proposal-status 
 
 | Concept | Repo source | Unicode public status rows | Latest public status | Last public date submitted | Reeligible by submitted-date clock | Next step |
 | --- | --- | --- | --- | --- | --- | --- |
-| Kidney / Kidneys | Active site candidate | `Kidney` declined 2019-12-17; `KIDNEYS` declined 2022-07-19; private decline notice 2022-11-04 | Declined | 2022 | After 2026-11-04 | Design-reviewed candidate in `submissions/v1.7.0/`; do not file in the intake closing 2026-07-31 without Unicode eligibility confirmation. |
-| Liver | Active site candidate | `Liver` declined 2020-12-18; `Liver` declined 2022-07-30; private decline notice 2022-11-04 | Declined | 2022 | After 2026-11-04 | Design-reviewed candidate in `submissions/v1.7.0/`; replace stale 2020 evidence, including U.S.-only Trends captures, and confirm eligibility before filing. |
-| Stomach | Active site candidate | `Stomach` declined 2020-10-27; `Stomach` declined 2022-07-28; private decline notice 2022-11-04 | Declined | 2022 | After 2026-11-04 | Design-reviewed candidate in `submissions/v1.7.0/`; replace stale 2020 Search, Video, and Trends evidence and confirm eligibility before filing. |
+| Kidney / Kidneys | Active site candidate | `Kidney` declined 2019-12-17; `KIDNEYS` declined 2022-07-19; private decline notice 2022-11-04 | Declined | 2022 | After 2026-11-04 | Working candidate in `submissions/v1.7.0/`; improve small-size recognition and do not file in the intake closing 2026-07-31 without Unicode eligibility confirmation. |
+| Liver | Active site candidate | `Liver` declined 2020-12-18; `Liver` declined 2022-07-30; private decline notice 2022-11-04 | Declined | 2022 | After 2026-11-04 | Working candidate in `submissions/v1.7.0/`; improve small-size recognition, replace stale 2020 evidence including U.S.-only Trends captures, and confirm eligibility before filing. |
+| Stomach | Active site candidate | `Stomach` declined 2020-10-27; `Stomach` declined 2022-07-28; private decline notice 2022-11-04 | Declined | 2022 | After 2026-11-04 | Working candidate in `submissions/v1.7.0/`; replace stale 2020 Search, Video, and Trends evidence and confirm eligibility before filing. |
 | Spine | Active site candidate | `Spine` declined 2020-10-27; `Spine` declined 2024-04-05 | Declined | 2024-04-05 | 2028-04-05 | Do not resubmit before 2028 unless Unicode confirms a materially different concept is eligible. |
 | Intestines | Active site candidate | `Intestines` declined 2020-12-18; `Intestines` declined 2024-04-04 | Declined | 2024-04-04 | 2028-04-04 | Do not resubmit before 2028 unless Unicode confirms eligibility. |
 | ECG / EKG | Active site candidate | `ECG` declined 2020-12-18; `ECG` declined 2024-04-05 | Declined | 2024-04-05 | 2028-04-05 | Do not resubmit before 2028 unless Unicode confirms eligibility. |
 | White Blood Cell | Active site candidate | `White Blood Cell` declined 2020-12-18 | Declined | 2020-12-18 | 2024-12-18 | Draft complete in `submissions/v1.3.0/`; replace Trends evidence. |
-| Blood Bag | Active site candidate | `Blood bag` declined 2017-05-16; `Blood Bag (B)` declined 2020-12-18 | Declined | 2020-12-18 | 2024-12-18 | Complete fallback packet in `submissions/v1.3.0/`. |
+| Blood Bag | Active site candidate | `Blood bag` declined 2017-05-16; `Blood Bag (B)` declined 2020-12-18 | Declined | 2020-12-18 | 2024-12-18 | Current filing choice in `submissions/v1.3.0/`; refresh evidence, factor labels, metadata, citations, and ownership language before filing. |
 | Pill Pack | Active site candidate | `Pill Pack` declined 2020-12-18 | Declined | 2020-12-18 | 2024-12-18 | Draft complete; hold behind Pill Box and finish Trends only if advanced. |
 | Weight Scale | Active site candidate | `Bathroom Scale` expired 2018-02-27; `Weight Scale (B)` declined 2020-12-18 | Declined | 2020-12-18 | 2024-12-18 | Challenger draft complete; add two Trends captures. |
 | Leg Cast | Legacy proposal asset | `Leg Cast` declined 2020-12-18 | Declined | 2020-12-18 | 2024-12-18 | Draft complete; replace Trends and resolve skin-tone behavior. |
 | IV Bag | Legacy proposal asset | `IV Bag` declined 2020-12-18 | Declined | 2020-12-18 | 2024-12-18 | Draft complete; add Trends and hold behind Blood Bag. |
-| CT Scan | Legacy proposal asset | `CT Scan` declined 2020-12-18 | Declined | 2020-12-18 | 2024-12-18 | Fallback packet in `submissions/v1.3.0/`; refresh 2020 evidence, current factor labels, and ownership language before filing. |
-| Pill Box | Legacy proposal asset | `Pill Box` declined 2020-10-27 | Declined | 2020-10-27 | 2024-10-27 | Complete packet; hold because of Pill/Pill Pack overlap. |
+| CT Scan | Legacy proposal asset | `CT Scan` declined 2020-12-18 | Declined | 2020-12-18 | 2024-12-18 | Current filing choice in `submissions/v1.3.0/`; refresh 2020 evidence, current factor labels, metadata, and ownership language before filing. |
+| Pill Box | Legacy proposal asset | `Pill Box` declined 2020-10-27 | Declined | 2020-10-27 | 2024-10-27 | First alternate in `submissions/v1.3.0/`; refresh evidence and ownership records, update metadata and factor labels, and improve 18-pixel recognition before filing. |
 | Inhaler | Public 2018 proposal | `Inhaler` declined 2018-07-03 | Declined | 2018-07-03 | 2022-07-03 | Draft complete; add Google Video and global `elephant` Trends evidence. |
 | Maze | Public 2018 and 2020 rows | `Maze` declined 2018-04-12; `Maze` declined 2020-12-18 | Declined | 2020-12-18 | 2024-12-18 | Full mouse-maze draft in `v1.5.0`; capture Search, Video, and both Trends categories. |
-| Ultrasound / Sonogram | New proposal workspace | No matching public status row found | No public row | — | No public resubmission bar identified | Conditional lead in `v1.5.0`; capture four missing Google categories and complete Microsoft design review. |
+| Ultrasound / Sonogram | New proposal workspace | No matching public status row found | No public row | — | No public resubmission bar identified | Promising alternative in `v1.5.0`; capture four missing Google categories and complete small-size design review before any filing decision. |
 | First Aid Kit | New proposal workspace | No matching `First Aid Kit` row; distinct `First Aid Ointment` expired 2017-11-30 | No matching public row | — | No public resubmission bar identified | Full `v1.5.0` draft; hold unless current evidence overcomes low Ngram and substitute risk. |
 
 ## Submission Package Requirements
