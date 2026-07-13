@@ -1,0 +1,26 @@
+To: Vishal Chowdhary
+From: David Rhew
+Subject: Could you help route the Medical Emoji work at Microsoft?
+
+Hi Vishal,
+
+I'm helping Shuhan He prepare a set of Medical Emoji proposals for Unicode's 2026 submission window. He plans to file CT Scan and Blood Bag, with Pill Box as the first alternate, once the remaining evidence, image-rights, metadata, and small-size checks are complete. The packet includes 15 options for comparison, but he does not plan to file all 15.
+
+We also have a separate three-page UTC-format paper, Health-related emoji coverage. It lists Heena Purohit, Shuhan, and me as authors, with each of us confirming before it is filed. The paper asks UTC to refer a short set of questions about substitutes, visual distinction, discoverability, and expected usage to the Emoji Standard & Research Working Group. It does not ask UTC to approve a group of emoji.
+
+The public record points to Peter Constable as the best first technical contact. Is Peter the right person to start with? If not, could you connect us with Microsoft's primary Unicode representative, its current UTC delegate, and an ESR participant if Microsoft has one? We would also appreciate an introduction to the Fluent Emoji, Segoe UI or font-engineering, and accessibility owners who could review the artwork at small sizes.
+
+There is one timing question as well. Could Microsoft's standards lead advise whether the company can submit or introduce the UTC paper through its normal member process and request an agenda item, with referral to ESR for the substantive questions? UTC #188 is July 28-30. The ordinary document deadline is July 20, although Unicode notes that specialized review may take longer. If the next meeting is more realistic, that is fine. The individual emoji window closes July 31, and Shuhan would submit those proposals through the official form one by one.
+
+This is a routing and review request. The normal Unicode process would still determine the outcome.
+
+I have included four files:
+
+1. the final UTC-format paper;
+2. the bookmarked options packet;
+3. a current contact map; and
+4. a ZIP containing the 15 individual proposal PDFs, with the readiness category in each filename.
+
+Best,
+
+David

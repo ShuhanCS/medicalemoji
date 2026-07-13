@@ -1,8 +1,8 @@
 # Draft cover email: David Rhew to Vishal Chowdhary
 
-> **ARCHIVE - DO NOT SEND.** This draft speaks in David Rhew's voice and was not approved for sending. Use
-> [`../outreach/2026-07-13-david-rhew-send-email.txt`](../outreach/2026-07-13-david-rhew-send-email.txt),
-> written from Shuhan He to Rhew, with the current three-attachment review package.
+> **ARCHIVE - DO NOT SEND.** This earlier draft is based on an obsolete shortlist and packet. Use
+> [`../outreach/2026-07-13-david-rhew-to-vishal-chowdhary-email.txt`](../outreach/2026-07-13-david-rhew-to-vishal-chowdhary-email.txt)
+> for the current note from David Rhew to Vishal Chowdhary.
 
 **To:** Vishal Chowdhary  
 **From:** David Rhew  

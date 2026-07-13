@@ -1,10 +1,12 @@
 Hi David,
 
-Thank you again for being willing to help with the Medical Emoji work. I have consolidated the material into three attachments so the request is easier to review and route within Microsoft.
+Thank you again for being willing to help with the Medical Emoji work. I have collected the material into four files so the request is easier to review and route within Microsoft.
 
 I plan to submit CT Scan and Blood Bag through Unicode's 2026 Emoji Submission Form once I finish the evidence, image-rights, metadata, and small-size checks. Pill Box is the first alternate. Unicode's intake closes July 31. This is late in the cycle, but still inside the published submission window.
 
 The proposal packet contains all 15 concepts so you can see the real alternatives, not only a narrow shortlist. It opens with a two-page overview and then includes every working proposal in one bookmarked PDF. CT Scan, Blood Bag, and Pill Box come first. Ultrasound and Weight Scale are promising but still need evidence. The other current-cycle drafts have evidence, recognition, or overlap problems that would need to be resolved. Kidney, Stomach, and Liver are included as later-cycle candidates because their November 4, 2022 decline notices fall within the four-year bar at the July 31 deadline. This is an options packet, not a plan to file 15 proposals.
+
+I have also included the same 15 proposals as individual PDFs in a ZIP. The bookmarked packet is the easiest way to read them in order; the ZIP is there in case you need to forward one or two proposals separately. Each ZIP filename states whether the concept is planned after revision, an alternate, evidence-incomplete, under review, a working draft, or later-cycle.
 
 I have two separate questions for Microsoft.
 
@@ -23,6 +25,7 @@ Attachments:
 1. 2026-07-13-health-related-emoji-coverage-l2-submission.pdf
 2. 2026-07-13-medical-emoji-submission-options-packet.pdf
 3. 2026-07-13-who-can-help-with-medical-emoji-review.pdf
+4. 2026-07-13-medical-emoji-potential-submissions-pdfs.zip
 
 Unicode proposal guidance:
 https://www.unicode.org/emoji/proposals.html

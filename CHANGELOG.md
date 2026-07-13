@@ -5,6 +5,31 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.29.0] - 2026-07-13
+
+### Added
+- Added a single shareable David Rhew handoff linking the final UTC paper, the 90-page options packet, the
+  Unicode contact map, the PDF-only proposal archive, and the current email drafts.
+- Added a humanized draft from David Rhew to Vishal Chowdhary asking for Microsoft routing, standards advice,
+  agenda guidance, and the appropriate emoji, font, and accessibility reviewers.
+- Added a three-page external Microsoft and Unicode contact map with an accessible text companion, covering
+  Peter Constable, Vishal Chowdhary, Jennifer Daniel, Ned Holbrook, Judy Safran-Aasen, Andrew Glass, Michelle
+  Perham, Mark Davis, Cathy Wissink, and Toral Cowieson.
+- Added a deterministic ZIP containing exactly the 15 individual proposal PDFs with status-aware filenames.
+
+### Changed
+- Expanded David Rhew's package and send manifest to include the individual-PDF ZIP as a fourth file.
+- Rebuilt the contact map around the two official Unicode routes and distinguished confirmed public roles
+  from Microsoft roles that still need internal confirmation.
+- Advanced the project version from `0.28.0` to `0.29.0`; the proposal release remains `v1.7.0` because no
+  individual proposal PDF changed.
+
+### Verification
+- Confirmed that the ZIP contains only the 15 expected proposal PDFs, preserves every source PDF byte-for-byte,
+  passes archive integrity checks, and contains 87 readable pages in total.
+- Confirmed that all proposal, packet, UTC-paper, and contact-map fonts are embedded, and visually inspected
+  all three contact-map pages in color and grayscale.
+
 ## [0.28.0] - 2026-07-13
 
 ### Added

@@ -1,9 +1,10 @@
 #!/usr/bin/env python
-"""Build the three-attachment David Rhew review package.
+"""Build the four-file David Rhew review package.
 
 The source proposal PDFs are preserved byte-for-byte as pages inside the merged
-options packet. This script adds accurate external-facing front matter,
-bookmarks, and clean document metadata; it does not make any proposal filing-ready.
+options packet and as entries in the PDF-only archive. This script adds accurate
+external-facing front matter, bookmarks, and clean document metadata; it does not
+make any proposal filing-ready.
 """
 
 from __future__ import annotations
@@ -12,6 +13,7 @@ from dataclasses import dataclass
 import os
 from pathlib import Path
 import textwrap
+import zipfile
 
 from pypdf import PdfReader, PdfWriter
 from reportlab.lib.colors import HexColor, white
@@ -162,6 +164,30 @@ L2_SUBMISSION = (
 OPTIONS_PACKET = OUT / "2026-07-13-medical-emoji-submission-options-packet.pdf"
 ROLE_MAP = OUT / "2026-07-13-who-can-help-with-medical-emoji-review.pdf"
 L2_SEND_COPY = OUT / "2026-07-13-health-related-emoji-coverage-l2-submission.pdf"
+PDF_ARCHIVE = (
+    ROOT
+    / "output"
+    / "zip"
+    / "2026-07-13-medical-emoji-potential-submissions-pdfs.zip"
+)
+
+ARCHIVE_NAMES = [
+    "01-ct-scan--planned-needs-revision.pdf",
+    "02-blood-bag--planned-needs-revision.pdf",
+    "03-pill-box--first-alternate-needs-revision.pdf",
+    "04-ultrasound--evidence-incomplete.pdf",
+    "05-weight-scale--evidence-incomplete.pdf",
+    "06-inhaler--under-review.pdf",
+    "07-white-blood-cell--working-draft.pdf",
+    "08-iv-bag--working-draft.pdf",
+    "09-leg-cast--working-draft.pdf",
+    "10-pill-pack--working-draft.pdf",
+    "11-maze--working-draft.pdf",
+    "12-first-aid-kit--working-draft.pdf",
+    "13-kidney--later-cycle.pdf",
+    "14-stomach--later-cycle.pdf",
+    "15-liver--later-cycle.pdf",
+]
 
 
 def require_inputs() -> None:
@@ -440,125 +466,381 @@ def flow_box(
         body_y -= 8
 
 
+def role_map_header(pdf: canvas.Canvas, width: float, height: float, page: int, subtitle: str) -> None:
+    # Explicitly paint the page background. This avoids transparent-page rendering
+    # differences between PDF viewers after ReportLab starts a new page.
+    pdf.setFillColor(white)
+    pdf.rect(0, 0, width, height, fill=1, stroke=0)
+    pdf.setFillColor(BLUE_DARK)
+    pdf.rect(0, height - 70, width, 70, fill=1, stroke=0)
+    pdf.setFillColor(white)
+    pdf.setFont("Helvetica-Bold", 21)
+    pdf.drawString(34, height - 34, "Who can help route the Medical Emoji work")
+    pdf.setFont("Helvetica", 9.2)
+    pdf.drawString(34, height - 53, subtitle)
+    pdf.setFont("Helvetica-Bold", 8)
+    pdf.drawRightString(width - 34, height - 34, f"13 JULY 2026  |  {page} OF 3")
+
+
+def readable_flow_box(
+    pdf: canvas.Canvas,
+    x: float,
+    y: float,
+    width: float,
+    height: float,
+    title: str,
+    body: str,
+    *,
+    fill,
+    stroke,
+) -> None:
+    rounded_box(pdf, x, y, width, height, fill=fill, stroke=stroke, radius=7, line_width=1.1)
+    pdf.setFillColor(stroke)
+    pdf.setFont("Helvetica-Bold", 9.2)
+    title_y = y + height - 17
+    for line in wrapped_lines(title, "Helvetica-Bold", 9.2, width - 18)[:2]:
+        pdf.drawCentredString(x + width / 2, title_y, line)
+        title_y -= 11
+    pdf.setFillColor(INK)
+    pdf.setFont("Helvetica", 8)
+    body_y = title_y - 3
+    for line in wrapped_lines(body, "Helvetica", 8, width - 18)[:3]:
+        pdf.drawCentredString(x + width / 2, body_y, line)
+        body_y -= 10
+
+
+def contact_card(
+    pdf: canvas.Canvas,
+    x: float,
+    y: float,
+    width: float,
+    height: float,
+    name: str,
+    badge: str,
+    body: str,
+    source: str,
+    *,
+    fill=white,
+    stroke=BLUE,
+) -> None:
+    rounded_box(pdf, x, y, width, height, fill=fill, stroke=stroke, radius=8, line_width=1.0)
+    pdf.setFillColor(stroke)
+    pdf.setFont("Helvetica-Bold", 12)
+    pdf.drawString(x + 14, y + height - 24, name)
+    badge_width = stringWidth(badge, "Helvetica-Bold", 6.8) + 14
+    pdf.setFillColor(stroke)
+    pdf.roundRect(x + width - badge_width - 12, y + height - 28, badge_width, 17, 6, fill=1, stroke=0)
+    pdf.setFillColor(white)
+    pdf.setFont("Helvetica-Bold", 6.8)
+    pdf.drawCentredString(x + width - badge_width / 2 - 12, y + height - 22.5, badge)
+    body_y = draw_wrapped(
+        pdf,
+        body,
+        x + 14,
+        y + height - 44,
+        width - 28,
+        size=8.5,
+        color=INK,
+        leading=10.5,
+    )
+    source_y = max(y + 12, body_y - 1)
+    pdf.setFillColor(SLATE)
+    pdf.setFont("Helvetica", 6.7)
+    pdf.drawString(x + 14, source_y, source)
+
+
+def linked_source(pdf: canvas.Canvas, url: str, x: float, y: float, max_width: float) -> float:
+    lines = wrapped_lines(url, "Helvetica", 6.1, max_width)
+    pdf.setFillColor(BLUE_DARK)
+    pdf.setFont("Helvetica", 6.1)
+    for line in lines:
+        pdf.drawString(x, y, line)
+        line_width = stringWidth(line, "Helvetica", 6.1)
+        pdf.linkURL(url, (x, y - 2, x + line_width, y + 6), relative=0)
+        y -= 7.4
+    return y
+
+
 def build_role_map(path: Path) -> None:
     width, height = landscape(LETTER)
     pdf = canvas.Canvas(str(path), pagesize=(width, height), pageCompression=1)
-    pdf.setTitle("Who can help with the Medical Emoji review")
+    pdf.setTitle("Who can help route the Medical Emoji work")
     pdf.setAuthor("Shuhan He")
-    pdf.setSubject("Microsoft and Unicode roles for two separate review routes")
+    pdf.setSubject("Current Microsoft and Unicode contacts and the two official review routes")
 
+    # Page 1: practical route and formal decision paths.
+    role_map_header(
+        pdf,
+        width,
+        height,
+        1,
+        "Start with Microsoft routing, then use the separate official paths for emoji proposals and the UTC paper.",
+    )
     pdf.setFillColor(BLUE_DARK)
-    pdf.rect(0, height - 66, width, 66, fill=1, stroke=0)
-    pdf.setFillColor(white)
-    pdf.setFont("Helvetica-Bold", 22)
-    pdf.drawString(34, height - 34, "Who can help with the Medical Emoji review")
-    pdf.setFont("Helvetica", 9)
-    pdf.drawString(34, height - 51, "Two Unicode routes, the Microsoft roles that can help, and where technical authority remains")
+    pdf.setFont("Helvetica-Bold", 10.5)
+    pdf.drawString(34, 516, "RECOMMENDED MICROSOFT ROUTE")
+    pdf.setFillColor(SLATE)
+    pdf.setFont("Helvetica", 8)
+    pdf.drawRightString(width - 34, 516, "Public roles are confirmed; private Microsoft assignments still need confirmation")
 
-    # Route 1: individual emoji proposals.
+    route_x = [34, 178, 380, 572]
+    route_w = [130, 188, 178, 186]
+    route_y = 423
+    route_h = 72
+    readable_flow_box(pdf, route_x[0], route_y, route_w[0], route_h, "David Rhew", "Clinical sponsor and Microsoft connector", fill=BLUE_LIGHT, stroke=BLUE)
+    readable_flow_box(pdf, route_x[1], route_y, route_w[1], route_h, "Peter Constable", "Best first call: Microsoft employee and UTC chair", fill=BLUE_LIGHT, stroke=BLUE)
+    readable_flow_box(pdf, route_x[2], route_y, route_w[2], route_h, "Microsoft roles to confirm", "Member representative, UTC and ESR delegates", fill=CYAN_LIGHT, stroke=CYAN)
+    readable_flow_box(pdf, route_x[3], route_y, route_w[3], route_h, "UTC leadership", "Peter Constable and Ned Holbrook", fill=GREEN_LIGHT, stroke=GREEN)
+    for index in range(3):
+        arrow(pdf, route_x[index] + route_w[index] + 4, route_y + route_h / 2, route_x[index + 1] - 5, route_y + route_h / 2)
+
+    rounded_box(pdf, 34, 382, width - 68, 28, fill=AMBER_LIGHT, stroke=AMBER, radius=6, line_width=0.8)
+    pdf.setFillColor(AMBER)
+    pdf.setFont("Helvetica-Bold", 8.2)
+    pdf.drawString(45, 392, "EXECUTIVE ROUTING")
+    pdf.setFillColor(INK)
+    pdf.setFont("Helvetica", 8.2)
+    pdf.drawString(139, 392, "Vishal Chowdhary can make the Microsoft introductions. His Unicode Board role does not decide technical outcomes.")
+
+    flow_x = [34, 222, 410, 598]
+    flow_w = 160
     pdf.setFillColor(BLUE_DARK)
     pdf.setFont("Helvetica-Bold", 10)
-    pdf.drawString(34, height - 92, "ROUTE 1  |  Individual emoji proposals")
+    pdf.drawString(34, 356, "ROUTE 1  |  Individual emoji proposals")
     pdf.setFillColor(SLATE)
-    pdf.setFont("Helvetica", 7.4)
-    pdf.drawRightString(width - 34, height - 92, "Each selected candidate follows this route separately")
-
-    route_y = height - 184
-    box_w, box_h, gap = 157, 68, 23
-    x_positions = [34 + i * (box_w + gap) for i in range(4)]
-    flow_box(pdf, x_positions[0], route_y, box_w, box_h, "Shuhan He", "Completes and files each final proposal", fill=BLUE_LIGHT, stroke=BLUE)
-    flow_box(pdf, x_positions[1], route_y, box_w, box_h, "Official Emoji Submission Form", "Required entry point for 2026 proposal review", fill=BLUE_LIGHT, stroke=BLUE)
-    flow_box(pdf, x_positions[2], route_y, box_w, box_h, "Emoji Standard & Research WG", "Reviews submissions and makes recommendations", fill=AMBER_LIGHT, stroke=AMBER)
-    flow_box(pdf, x_positions[3], route_y, box_w, box_h, "Unicode Technical Committee", "Retains authority over technical decisions", fill=GREEN_LIGHT, stroke=GREEN)
+    pdf.setFont("Helvetica", 7.8)
+    pdf.drawRightString(width - 34, 356, "Each selected candidate must be filed separately")
+    flow_y = 278
+    readable_flow_box(pdf, flow_x[0], flow_y, flow_w, 62, "Selected proposal PDF", "Final evidence, rights, metadata, and art", fill=BLUE_LIGHT, stroke=BLUE)
+    readable_flow_box(pdf, flow_x[1], flow_y, flow_w, 62, "2026 Emoji Submission Form", "The only accepted intake route", fill=BLUE_LIGHT, stroke=BLUE)
+    readable_flow_box(pdf, flow_x[2], flow_y, flow_w, 62, "ESR review", "Jennifer Daniel and Ned Holbrook lead", fill=AMBER_LIGHT, stroke=AMBER)
+    readable_flow_box(pdf, flow_x[3], flow_y, flow_w, 62, "UTC action", "UTC retains technical authority", fill=GREEN_LIGHT, stroke=GREEN)
     for index in range(3):
-        arrow(pdf, x_positions[index] + box_w + 3, route_y + box_h / 2, x_positions[index + 1] - 4, route_y + box_h / 2)
+        arrow(pdf, flow_x[index] + flow_w + 3, flow_y + 31, flow_x[index + 1] - 4, flow_y + 31)
 
-    # Route 2: UTC discussion document.
     pdf.setFillColor(CYAN)
     pdf.setFont("Helvetica-Bold", 10)
-    pdf.drawString(34, height - 216, "ROUTE 2  |  Final UTC submission document")
+    pdf.drawString(34, 238, "ROUTE 2  |  Health-related emoji coverage paper")
     pdf.setFillColor(SLATE)
-    pdf.setFont("Helvetica", 7.4)
-    pdf.drawRightString(width - 34, height - 216, "This document cannot replace an individual emoji proposal")
-
-    route2_y = height - 309
-    flow_box(pdf, x_positions[0], route2_y, box_w, box_h, "Named authors + Microsoft standards lead", "Authors confirm the text; standards lead routes or introduces it", fill=CYAN_LIGHT, stroke=CYAN)
-    flow_box(pdf, x_positions[1], route2_y, box_w, box_h, "UTC document submission", "Separate submission with a requested agenda disposition", fill=CYAN_LIGHT, stroke=CYAN)
-    flow_box(pdf, x_positions[2], route2_y, box_w, box_h, "UTC discussion", "UTC may discuss the question or refer work", fill=GREEN_LIGHT, stroke=GREEN)
-    flow_box(pdf, x_positions[3], route2_y, box_w, box_h, "Possible ESR referral", "ESR may advise whether guidance or review would help", fill=AMBER_LIGHT, stroke=AMBER)
+    pdf.setFont("Helvetica", 7.8)
+    pdf.drawRightString(width - 34, 238, "A separate UTC document; it does not submit any emoji")
+    flow_y = 160
+    readable_flow_box(pdf, flow_x[0], flow_y, flow_w, 62, "Authors confirm", "David Rhew, Heena Purohit, and Shuhan He", fill=CYAN_LIGHT, stroke=CYAN)
+    readable_flow_box(pdf, flow_x[1], flow_y, flow_w, 62, "UTC document channel", "docsubmit plus a member agenda request", fill=CYAN_LIGHT, stroke=CYAN)
+    readable_flow_box(pdf, flow_x[2], flow_y, flow_w, 62, "UTC discussion", "UTC may discuss, defer, or refer the work", fill=GREEN_LIGHT, stroke=GREEN)
+    readable_flow_box(pdf, flow_x[3], flow_y, flow_w, 62, "Possible ESR referral", "ESR may study the questions and advise UTC", fill=AMBER_LIGHT, stroke=AMBER)
     for index in range(3):
-        arrow(pdf, x_positions[index] + box_w + 3, route2_y + box_h / 2, x_positions[index + 1] - 4, route2_y + box_h / 2, color=CYAN)
+        arrow(pdf, flow_x[index] + flow_w + 3, flow_y + 31, flow_x[index + 1] - 4, flow_y + 31, color=CYAN)
 
-    # Microsoft routing roles.
+    rounded_box(pdf, 34, 80, width - 68, 56, fill=LIGHT, stroke=MID, radius=6, line_width=0.7)
     pdf.setFillColor(INK)
-    pdf.setFont("Helvetica-Bold", 10.5)
-    pdf.drawString(34, height - 344, "Who David can connect")
+    pdf.setFont("Helvetica-Bold", 8.6)
+    pdf.drawString(46, 117, "WHAT MICROSOFT CAN HELP WITH")
+    draw_wrapped(
+        pdf,
+        "Confirm the member representative and delegates; advise on the UTC paper and agenda timing; identify Fluent Emoji, Segoe UI, font-engineering, and accessibility reviewers. Microsoft support cannot replace the submission form or promise an encoding outcome.",
+        46,
+        101,
+        width - 92,
+        size=8.1,
+        color=INK,
+        leading=10,
+    )
+    pdf.setFillColor(SLATE)
+    pdf.setFont("Helvetica", 6.6)
+    pdf.drawString(34, 39, "Official paths: https://www.unicode.org/emoji/proposals.html  |  https://www.unicode.org/pending/docsubmit.html")
+    pdf.drawString(34, 26, "The 15-PDF archive is an options set, not a plan to file 15 proposals. Contact roles were checked against official sources on 13 July 2026.")
+    pdf.showPage()
 
-    roles_y = 102
-    roles_h = 96
-    roles_gap = 12
-    roles_w = (width - 68 - roles_gap * 3) / 4
-    roles = [
+    # Page 2: the people most likely to help.
+    role_map_header(
+        pdf,
+        width,
+        height,
+        2,
+        "Named contacts are ordered by practical usefulness, not by organizational rank.",
+    )
+    rounded_box(pdf, 34, 487, width - 68, 38, fill=BLUE_LIGHT, stroke=BLUE, radius=6, line_width=0.8)
+    pdf.setFillColor(INK)
+    pdf.setFont("Helvetica", 8.8)
+    pdf.drawString(46, 502, "Recommended start: Peter Constable for the technical path and Vishal Chowdhary for Microsoft introductions.")
+
+    card_w = (width - 68 - 18) / 2
+    card_h = 112
+    card_x = [34, 34 + card_w + 18]
+    card_y = [357, 227, 97]
+    contacts = [
         (
-            "Microsoft Unicode standards lead / current UTC delegate",
-            "Checks process and timing; reviews the final UTC paper; may request normal agenda consideration.",
+            "Peter Constable",
+            "FIRST CALL",
+            "Microsoft employee; Unicode Technical Vice President; UTC chair; Release Management chair. He represented Microsoft at UTC #187. Best first contact for process, agenda, and Microsoft routing.",
+            "Source: Unicode technical leadership; UTC #187 minutes",
             BLUE_LIGHT,
             BLUE,
         ),
         (
-            "Emoji, font, and accessibility reviewers",
-            "Test 18-pixel color and black-and-white recognition and platform-neutral implementation feasibility.",
-            CYAN_LIGHT,
-            CYAN,
+            "Vishal Chowdhary",
+            "EXECUTIVE SPONSOR",
+            "Microsoft Vice President of Science; Unicode Board director since 2026. Best executive connector. The Board does not select emoji or decide technical outcomes.",
+            "Source: Unicode Board of Directors",
+            AMBER_LIGHT,
+            AMBER,
         ),
         (
-            "Microsoft legal / IP",
-            "Needed only if Microsoft contributes artwork, coauthors, or approves an implementation-support statement.",
+            "Jennifer Daniel",
+            "ESR CHAIR",
+            "Chair of the Emoji Standard & Research Working Group, which reviews new emoji proposals and develops recommendations for UTC. Individual proposal intake still requires the official form.",
+            "Source: Unicode technical leadership; Emoji technical page",
+            AMBER_LIGHT,
+            AMBER,
+        ),
+        (
+            "Ned Holbrook",
+            "UTC + ESR VICE-CHAIR",
+            "Vice-chair of both UTC and ESR in Unicode's current leadership directory; Apple typographic engineer and UTS #51 co-editor. Useful second technical contact.",
+            "Source: Unicode technical leadership; UTS #51",
             GREEN_LIGHT,
             GREEN,
         ),
         (
-            "Optional executive routing",
-            "Vishal Chowdhary is Microsoft's Unicode Board director. The Board does not decide which emoji are encoded.",
+            "Judy Safran-Aasen",
+            "CONFIRM ROLE",
+            "Represented Microsoft at UTC #187. A useful current Microsoft lead, but the public minutes do not identify her as Microsoft's primary delegate or alternate.",
+            "Source: UTC #187 minutes",
+            CYAN_LIGHT,
+            CYAN,
+        ),
+        (
+            "Andrew Glass",
+            "ADJACENT MS STANDARDS",
+            "Microsoft Principal Product Manager; chair of the CLDR Keyboard Working Group; works on font rendering, input, and shaping. Useful standards and font connector, not an emoji intake gate.",
+            "Source: Unicode technical leadership",
+            CYAN_LIGHT,
+            CYAN,
+        ),
+    ]
+    for index, contact in enumerate(contacts):
+        x = card_x[index % 2]
+        y = card_y[index // 2]
+        contact_card(pdf, x, y, card_w, card_h, *contact[:4], fill=contact[4], stroke=contact[5])
+
+    pdf.setFillColor(SLATE)
+    pdf.setFont("Helvetica", 6.7)
+    pdf.drawString(34, 61, "Unicode does not publish a complete current ESR roster or Microsoft's private delegate designations. Ask Peter or Vishal to confirm those roles internally.")
+    pdf.drawString(34, 45, "The current central leadership directory lists Ned Holbrook as UTC vice-chair; a separate older UTC landing page still lists Craig Cummings.")
+    pdf.drawString(34, 29, "Sources: https://www.unicode.org/consortium/techchairs.html  |  https://www.unicode.org/consortium/techcommittees.html  |  https://www.unicode.org/L2/L2026/26093.htm")
+    pdf.showPage()
+
+    # Page 3: operations, specialist help, and internal roles to identify.
+    role_map_header(
+        pdf,
+        width,
+        height,
+        3,
+        "Use these contacts for administration, specialist questions, or escalation after the normal route is clear.",
+    )
+    rounded_box(pdf, 34, 487, width - 68, 38, fill=LIGHT, stroke=MID, radius=6, line_width=0.7)
+    pdf.setFillColor(INK)
+    pdf.setFont("Helvetica", 8.8)
+    pdf.drawString(46, 502, "These are not substitutes for the formal submission channels and are not first-line proposal reviewers.")
+
+    card_h = 116
+    card_y = [352, 218]
+    contacts = [
+        (
+            "Michelle Perham",
+            "OPERATIONS",
+            "Unicode Program & Production Manager. Relevant to document administration and posting. Use the official document channel rather than guessing a personal address.",
+            "Source: Unicode executive officers and staff",
+            BLUE_LIGHT,
+            BLUE,
+        ),
+        (
+            "Mark Davis",
+            "UTS #51 SPECIALIST",
+            "UTS #51 co-editor, Unicode cofounder, and CLDR chair. A specialist for emoji specification, data, and interoperability questions, not routine intake.",
+            "Source: UTS #51; Unicode technical leadership",
+            CYAN_LIGHT,
+            CYAN,
+        ),
+        (
+            "Cathy Wissink",
+            "GOVERNANCE ESCALATION",
+            "Unicode Board chair and interim CTO; formerly led Microsoft's UTC participation. Appropriate only for a genuine governance or process escalation.",
+            "Source: Unicode executive officers and staff",
             AMBER_LIGHT,
             AMBER,
         ),
+        (
+            "Toral Cowieson",
+            "ORGANIZATIONAL ESCALATION",
+            "Unicode CEO. Relevant to a membership or organizational issue, not to technical review of an emoji proposal.",
+            "Source: Unicode executive officers and staff",
+            GREEN_LIGHT,
+            GREEN,
+        ),
     ]
-    for index, (title, body, fill, stroke) in enumerate(roles):
-        x = 34 + index * (roles_w + roles_gap)
-        rounded_box(pdf, x, roles_y, roles_w, roles_h, fill=fill, stroke=stroke, radius=7, line_width=1.0)
-        pdf.setFillColor(stroke)
-        pdf.setFont("Helvetica-Bold", 7.5)
-        title_y = roles_y + roles_h - 16
-        for line in wrapped_lines(title, "Helvetica-Bold", 7.5, roles_w - 16)[:3]:
-            pdf.drawString(x + 8, title_y, line)
-            title_y -= 9
-        body_y = title_y - 4
-        pdf.setFillColor(INK)
-        pdf.setFont("Helvetica", 6.5)
-        for line in wrapped_lines(body, "Helvetica", 6.5, roles_w - 16)[:5]:
-            pdf.drawString(x + 8, body_y, line)
-            body_y -= 8
+    for index, contact in enumerate(contacts):
+        x = card_x[index % 2]
+        y = card_y[index // 2]
+        contact_card(pdf, x, y, card_w, card_h, *contact[:4], fill=contact[4], stroke=contact[5])
 
-    rounded_box(pdf, 34, 47, width - 68, 42, fill=LIGHT, stroke=MID, radius=6, line_width=0.6)
+    rounded_box(pdf, 34, 82, width - 68, 112, fill=LIGHT, stroke=MID, radius=7, line_width=0.8)
     pdf.setFillColor(INK)
-    pdf.setFont("Helvetica-Bold", 7.2)
-    pdf.drawString(45, 74, "NAMED PEOPLE IN THE PUBLIC RECORD")
-    pdf.setFont("Helvetica", 6.7)
-    pdf.setFillColor(SLATE)
-    people = (
-        "Peter Constable - UTC chair; UTC #187 minutes list him for Microsoft  |  "
-        "Judy Safran-Aasen - UTC #187 minutes list her for Microsoft  |  "
-        "Jennifer Daniel - ESR chair  |  Vishal Chowdhary - Unicode Board director, Microsoft"
-    )
-    draw_wrapped(pdf, people, 45, 61, width - 90, size=6.7, color=SLATE, leading=8)
+    pdf.setFont("Helvetica-Bold", 9.5)
+    pdf.drawString(48, 173, "MICROSOFT ROLES PETER OR VISHAL SHOULD IDENTIFY")
+    role_lines = [
+        "1. Primary Unicode Organizational Member Representative",
+        "2. Primary UTC delegate and alternate",
+        "3. Microsoft ESR delegate or participant, if one is designated",
+        "4. Fluent Emoji, Segoe UI, font-engineering, and accessibility owners",
+        "5. Legal or IP reviewer only if Microsoft contributes artwork, coauthors, or an implementation statement",
+    ]
+    pdf.setFont("Helvetica", 8.3)
+    pdf.setFillColor(INK)
+    y = 154
+    for line in role_lines:
+        pdf.drawString(48, y, line)
+        y -= 14
 
     pdf.setFillColor(SLATE)
-    pdf.setFont("Helvetica", 5.7)
-    pdf.drawString(34, 29, "The public record does not identify Microsoft's primary voting delegate or whether Microsoft has an ESR participant; David can confirm the current owners.")
-    pdf.drawString(34, 17, "Sources: https://www.unicode.org/emoji/proposals.html  |  https://www.unicode.org/pending/docsubmit.html  |  https://www.unicode.org/consortium/techcommittees.html")
-    pdf.drawString(34, 8, "https://www.unicode.org/L2/L2026/26093.htm  |  https://www.unicode.org/consortium/directors.html  |  https://www.unicode.org/consortium/tc-procedures.html")
+    pdf.setFont("Helvetica-Bold", 6.2)
+    pdf.drawString(34, 65, "OFFICIAL SOURCES")
+    sources = [
+        "https://www.unicode.org/consortium/directors.html",
+        "https://www.unicode.org/consortium/officers.html",
+        "https://www.unicode.org/consortium/techchairs.html",
+        "https://www.unicode.org/consortium/techcommittees.html",
+        "https://www.unicode.org/L2/L2026/26093.htm",
+        "https://www.unicode.org/emoji/proposals.html",
+        "https://www.unicode.org/pending/docsubmit.html",
+        "https://www.unicode.org/consortium/tc-procedures.html",
+    ]
+    source_x = [34, 404]
+    source_y = [53, 53]
+    for index, source in enumerate(sources):
+        column = 0 if index < 4 else 1
+        source_y[column] = linked_source(pdf, source, source_x[column], source_y[column], 350)
+
     pdf.save()
+
+
+def build_pdf_archive(path: Path) -> None:
+    if len(ARCHIVE_NAMES) != len(PROPOSALS):
+        raise ValueError("Every proposal must have exactly one archive filename")
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with zipfile.ZipFile(path, "w", compression=zipfile.ZIP_DEFLATED, compresslevel=9) as archive:
+        for proposal, archive_name in zip(PROPOSALS, ARCHIVE_NAMES, strict=True):
+            info = zipfile.ZipInfo(archive_name, date_time=(2026, 7, 13, 12, 0, 0))
+            info.compress_type = zipfile.ZIP_DEFLATED
+            info.create_system = 3
+            info.external_attr = 0o100644 << 16
+            archive.writestr(
+                info,
+                proposal.path.read_bytes(),
+                compress_type=zipfile.ZIP_DEFLATED,
+                compresslevel=9,
+            )
 
 
 def make_clean_copy(
@@ -596,6 +878,7 @@ def main() -> None:
     build_options_cover(cover, starts)
     build_options_packet(cover, starts)
     build_role_map(ROLE_MAP)
+    build_pdf_archive(PDF_ARCHIVE)
     make_clean_copy(
         L2_SUBMISSION,
         L2_SEND_COPY,
@@ -608,6 +891,10 @@ def main() -> None:
     for output in outputs:
         reader = PdfReader(str(output))
         print(f"{output.relative_to(ROOT)} | {len(reader.pages)} pages | {output.stat().st_size} bytes")
+    print(
+        f"{PDF_ARCHIVE.relative_to(ROOT)} | {len(PROPOSALS)} proposal PDFs | "
+        f"{PDF_ARCHIVE.stat().st_size} bytes"
+    )
 
 
 if __name__ == "__main__":

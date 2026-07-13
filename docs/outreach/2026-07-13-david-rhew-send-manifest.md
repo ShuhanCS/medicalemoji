@@ -17,7 +17,7 @@ Use:
 
 `docs/outreach/2026-07-13-david-rhew-send-email.txt`
 
-## Attach exactly these three PDFs
+## Attach these four files
 
 1. `output/pdf/2026-07-13-health-related-emoji-coverage-l2-submission.pdf`
    - Three-page final UTC/L2-format submission document.
@@ -28,8 +28,13 @@ Use:
    - Contains the external decision brief and all 15 current working proposal PDFs.
    - The cover distinguishes planned, alternate, evidence-gated, draft, and later-cycle concepts.
 3. `output/pdf/2026-07-13-who-can-help-with-medical-emoji-review.pdf`
-   - One-page external relationship map.
-   - Separates the official Emoji Submission Form route from the UTC discussion-document route.
+   - Three-page external contact map and directory.
+   - Separates the official Emoji Submission Form route from the UTC discussion-document route and lists the
+     current public contacts and Microsoft roles to confirm.
+4. `output/zip/2026-07-13-medical-emoji-potential-submissions-pdfs.zip`
+   - Contains exactly the 15 individual proposal PDFs and no other file type.
+   - Status-aware filenames distinguish planned-after-revision, alternate, evidence-incomplete, review,
+     working-draft, and later-cycle concepts.
 
 Do not attach the v7 deck, the separate product/legal discussion guide, or the older multi-file email draft.
 Do not file the paper publicly with Unicode until David Rhew and Heena Purohit confirm the text and their
@@ -48,5 +53,6 @@ python "C:\Users\Shuha\projects\codex-config\scripts\send-conductscience-gmail.p
   --attachment "C:\Users\Shuha\shuputerdesktop\medicalemoji\.worktrees\eligible-2026-slate\output\pdf\2026-07-13-health-related-emoji-coverage-l2-submission.pdf" `
   --attachment "C:\Users\Shuha\shuputerdesktop\medicalemoji\.worktrees\eligible-2026-slate\output\pdf\2026-07-13-medical-emoji-submission-options-packet.pdf" `
   --attachment "C:\Users\Shuha\shuputerdesktop\medicalemoji\.worktrees\eligible-2026-slate\output\pdf\2026-07-13-who-can-help-with-medical-emoji-review.pdf" `
+  --attachment "C:\Users\Shuha\shuputerdesktop\medicalemoji\.worktrees\eligible-2026-slate\output\zip\2026-07-13-medical-emoji-potential-submissions-pdfs.zip" `
   --dry-run
 ```
