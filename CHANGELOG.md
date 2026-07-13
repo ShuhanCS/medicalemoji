@@ -5,6 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.29.4] - 2026-07-13
+
+### Changed
+- Removed the "Microsoft roles to confirm internally" box from the one-page Microsoft Unicode routing chart.
+- Removed the matching role-confirmation list from the accessible text companion so the contact page focuses
+  on named Microsoft employees, their Microsoft roles, their Unicode roles, and what they do at Unicode.
+
+### Verification
+- Rebuilt the contact-map PDF and confirmed the removed heading no longer appears in the text layer.
+- Advanced the project version from `0.29.3` to `0.29.4`; the proposal release remains `v1.7.0` because no
+  individual emoji proposal changed.
+
 ## [0.29.3] - 2026-07-13
 
 ### Changed

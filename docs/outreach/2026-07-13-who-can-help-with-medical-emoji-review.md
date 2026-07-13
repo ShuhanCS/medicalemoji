@@ -22,15 +22,6 @@ The practical route is:
 
 `David Rhew -> Peter Constable and Vishal Chowdhary -> confirmed Microsoft UTC and ESR participants -> UTC or ESR process`
 
-Peter or Vishal should identify:
-
-1. Microsoft's primary Unicode Organizational Member Representative;
-2. the primary UTC delegate and alternate;
-3. Microsoft's ESR delegate or participant, if one is designated;
-4. the Fluent Emoji, Segoe UI, font-engineering, and accessibility owners; and
-5. a legal or IP reviewer only if Microsoft contributes artwork, coauthors a paper, or approves an
-   implementation statement.
-
 ## Microsoft people shown on the contact page
 
 | Person | Microsoft role | Unicode role | What they do at Unicode |

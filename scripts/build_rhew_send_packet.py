@@ -914,21 +914,6 @@ def build_role_map(path: Path) -> None:
     for x, y, name, badge, body, source, fill, stroke in contacts:
         contact_card(pdf, x, y, card_w, card_h, name, badge, body, source, fill=fill, stroke=stroke)
 
-    rounded_box(pdf, 34, 78, width - 68, 54, fill=LIGHT, stroke=MID, radius=6, line_width=0.7)
-    pdf.setFillColor(INK)
-    pdf.setFont("Helvetica-Bold", 8.3)
-    pdf.drawString(46, 113, "MICROSOFT ROLES TO CONFIRM INTERNALLY")
-    draw_wrapped(
-        pdf,
-        "Primary Unicode Organizational Member Representative; primary UTC delegate and alternate; Microsoft ESR participant if one exists; Fluent Emoji, Segoe UI, font-engineering, and accessibility owners; IP reviewer only if Microsoft contributes artwork, coauthors, or an implementation statement.",
-        46,
-        99,
-        width - 92,
-        size=7.4,
-        color=INK,
-        leading=8.8,
-    )
-
     pdf.setFillColor(SLATE)
     pdf.setFont("Helvetica-Bold", 6.1)
     pdf.drawString(34, 53, "OFFICIAL SOURCES")
