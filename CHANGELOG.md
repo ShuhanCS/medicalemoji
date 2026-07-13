@@ -5,6 +5,21 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.29.6] - 2026-07-13
+
+### Changed
+- Added the 2026 Nature Health/Microsoft Copilot usage evidence to the final UTC/L2 health-related emoji
+  coverage paper, including the more-than-500,000 conversation dataset, the "nearly one in five" personal
+  health-query finding, and the "one in seven" caregiver/proxy-query finding.
+- Added the Nature Health article to the L2 references while keeping the PDF to three pages.
+
+### Verification
+- Rebuilt the canonical DOCX/PDF and the dated Rhew attachment copy, confirmed both PDFs are three pages,
+  checked that the DOCX and PDF text layers contain the new Nature Health evidence, and visually inspected
+  pages 2 and 3.
+- Advanced the project version from `0.29.5` to `0.29.6`; the proposal release remains `v1.7.0` because no
+  individual emoji proposal changed.
+
 ## [0.29.5] - 2026-07-13
 
 ### Changed

@@ -64,33 +64,34 @@ Emoji Submission Form.
 
 # Why now
 
-Health-related emoji are distributed across several sections of the current Unicode Emoji Ordering. Syringe,
-Pill, Drop of Blood, Adhesive Bandage, Stethoscope, X-Ray, and Crutch are listed under `Objects > medical`;
-Anatomical Heart, Lungs, and Brain under `People & Body > body-parts`; Test Tube, Petri Dish, and DNA under
-`Objects > science`; Hospital and Ambulance under `Travel & Places`; and Medical Symbol and Wheelchair Symbol
-under `Symbols`. We are not proposing to move any of them. The requested review would consider what this
-distribution means for discoverability, existing substitutes, and the treatment of closely related proposals.
+Health-related emoji are distributed across the current Unicode Emoji Ordering: medical objects (Syringe,
+Pill, Drop of Blood, Adhesive Bandage, Stethoscope, X-Ray, Crutch), body parts (Anatomical Heart, Lungs,
+Brain), science (Test Tube, Petri Dish, DNA), Travel & Places (Hospital, Ambulance), and Symbols (Medical
+Symbol, Wheelchair Symbol). We are not proposing to move any of them. The requested review would consider
+what this distribution means for discoverability, existing substitutes, and the treatment of closely related
+proposals.
 
-These examples are the existing baseline for this review: health-related emoji already include medical
-objects, anatomy, laboratory science, care settings, emergency transport, accessibility symbols, and health
-symbols. The question is whether that baseline is clear enough for users and for submitters proposing nearby
-concepts.
+These examples are the baseline for this review: health-related emoji already include medical objects,
+anatomy, laboratory science, care settings, emergency transport, accessibility symbols, and health symbols.
+The question is whether that baseline is clear enough for users and for submitters proposing nearby concepts.
 
-The question is also timely because health communication has moved further into everyday digital channels.
-Pew Research Center reported in 2026 that 52% of U.S. adults under 30 get health information from social
-media at least sometimes, and McKinsey's 2025 Future of Wellness survey reported that nearly 30% of U.S. Gen
-Z and millennial respondents were prioritizing wellness "a lot more" than one year earlier. These trends do
-not support any particular emoji on their own. They do show why users may increasingly expect common health
-concepts to be represented in the same interoperable visual vocabulary used for daily communication.
+Health communication has also moved further into everyday digital channels. Pew Research Center reported in
+2026 that 52% of U.S. adults under 30 get health information from social media at least sometimes; McKinsey's
+2025 Future of Wellness survey reported that nearly 30% of U.S. Gen Z and millennial respondents were
+prioritizing wellness "a lot more" than one year earlier; and a 2026 Nature Health study of more than 500,000
+de-identified Microsoft Copilot health conversations reported that nearly one in five conversations involved
+personal symptom assessment or condition discussion, and that one in seven personal health queries concerned
+someone other than the user. These trends do not support any particular emoji. They do show why users may
+increasingly expect common health concepts to be represented in the same interoperable visual vocabulary used
+for daily communication.
 
 Every proposal must address Unicode's published inclusion and exclusion factors, including distinctiveness,
 expected usage, and whether an existing emoji or sequence already represents the concept. The proposed image
 must also remain recognizable at emoji size.
 
-The 2026 process separates individual emoji proposals from UTC discussion documents. New emoji proposals must
-be filed through the Emoji Submission Form. A discussion document follows Unicode's separate document
-submission process and may be placed on a UTC agenda or referred to a working group. This document follows the
-UTC document submission process.
+The 2026 process separates emoji proposals from UTC discussion documents: new emoji go through the Emoji
+Submission Form; a discussion document follows Unicode's separate document submission process and may be
+placed on a UTC agenda or referred to a working group.
 
 # Related history
 
@@ -147,13 +148,9 @@ This document does not endorse or oppose any candidate. Each candidate requires 
 # Vendor input
 
 Vendors can comment on design and implementation without committing to include a candidate in their products.
-Relevant questions include:
-
-- Can someone unfamiliar with the concept identify it at common emoji sizes?
-- Does the image retain its meaning in black and white?
-- Is the design platform-neutral and free of text, logos, brands, or other third-party intellectual property?
-- Would two related concepts remain distinguishable in the same emoji set?
-- Are there implementation or interoperability concerns that ESR should consider?
+Relevant questions include recognizability at common emoji sizes, black-and-white legibility,
+platform-neutral design without text, logos, brands, or other third-party intellectual property, distinction
+between related concepts, and implementation or interoperability concerns.
 
 Submitters remain responsible for their evidence, licensing, and the completeness of their proposals.
 
@@ -174,10 +171,11 @@ criteria.
   <https://www.unicode.org/pending/docsubmit.html>
 - Unicode, Emoji Ordering:\
   <https://unicode.org/emoji/charts/emoji-ordering.html>
-- Apple, Proposal for New Accessibility Emoji, L2/18-080:\
+- Apple, Accessibility Emoji proposal, L2/18-080:\
   <https://www.unicode.org/L2/L2018/18080-accessibility-emoji.pdf>
-- Pew Research Center, "Users of social media and AI chatbots for health information are more likely to say
-  they are convenient than accurate":\
+- Pew Research Center, 2026 health information survey:\
   <https://www.pewresearch.org/science/2026/04/07/users-of-social-media-and-ai-chatbots-for-health-information-are-more-likely-to-say-they-are-convenient-than-accurate/>
-- McKinsey & Company, "The Future of Wellness trends survey 2025":\
+- McKinsey & Company, 2025 Future of Wellness survey:\
   <https://www.mckinsey.com/industries/consumer-packaged-goods/our-insights/future-of-wellness-trends>
+- Beatriz Costa-Gomes et al., Nature Health (2026):\
+  <https://www.nature.com/articles/s44360-026-00117-x>
