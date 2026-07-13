@@ -20,8 +20,12 @@ Rebuild the current submission files:
 
 ```powershell
 pandoc health-related-emoji-coverage-l2-submission.md -o health-related-emoji-coverage-l2-submission.docx
-pandoc health-related-emoji-coverage-l2-submission.md -o health-related-emoji-coverage-l2-submission.pdf --pdf-engine=xelatex
+pandoc health-related-emoji-coverage-l2-submission.md -o health-related-emoji-coverage-l2-submission.pdf --pdf-engine=lualatex
 ```
+
+The PDF build uses LuaLaTeX so the embedded Georgia font retains correct Unicode text mappings. Its running
+footer identifies the paper and authors on every page while leaving the upper-right corner available for
+Unicode's assigned document-number box.
 
 The older `health-coverage-maintenance-l2-review-draft.*`, `health-coverage-maintenance-l2-final.*`, and
 `health-category-utc-doc.*` files are archived research. Do not attach them to the Rhew email or submit them

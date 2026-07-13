@@ -11,13 +11,31 @@ colorlinks: false
 header-includes:
   - \usepackage{xurl}
   - \usepackage[none]{hyphenat}
+  - |
+    \usepackage{fancyhdr}
+    \usepackage{needspace}
+    \newcommand{\lTwoSubmissionFooter}{\footnotesize Health-related emoji coverage \enspace\textbar\enspace Rhew, Purohit, He \enspace\textbar\enspace Page \thepage}
+    \fancypagestyle{l2submission}{
+      \fancyhf{}
+      \fancyfoot[C]{\lTwoSubmissionFooter}
+      \renewcommand{\headrulewidth}{0pt}
+      \renewcommand{\footrulewidth}{0pt}
+    }
+    \pagestyle{l2submission}
+    \fancypagestyle{plain}{
+      \fancyhf{}
+      \fancyfoot[C]{\lTwoSubmissionFooter}
+      \renewcommand{\headrulewidth}{0pt}
+      \renewcommand{\footrulewidth}{0pt}
+    }
 ---
 
 ```text
 Title:  Health-related emoji coverage
 Authors: David Rhew; Heena Purohit; Shuhan He
 Date:   2026-07-13
-Action: Refer to the Emoji Standard & Research Working Group for review and recommendation
+Action: Refer to the Emoji Standard & Research Working Group
+        for review and recommendation
 ```
 
 # Summary
@@ -105,6 +123,8 @@ The review could use six working areas. These are not proposed keyboard categori
 
 These areas would organize the review. They do not imply that every gap should produce a character or that
 Unicode should create a top-level Health group.
+
+\Needspace{11\baselineskip}
 
 # Relationship to individual proposals
 

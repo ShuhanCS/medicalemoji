@@ -5,6 +5,21 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.29.1] - 2026-07-13
+
+### Fixed
+- Added an identifying running footer with the paper title, authors, and page number to every page of the
+  final health-related emoji coverage UTC submission, while keeping the upper-right corner clear for
+  Unicode's assigned document number.
+- Wrapped the requested-action field within the document margins and rebuilt the PDF with LuaLaTeX so its
+  embedded Georgia text extracts with the correct Unicode punctuation.
+
+### Verification
+- Confirmed the three-page PDF renders without clipping or overlap, includes the identifying footer on every
+  page, embeds every font, preserves all source links, and contains no encryption or provisional L2 number.
+- Advanced the project version from `0.29.0` to `0.29.1`; the proposal release remains `v1.7.0` because no
+  individual emoji proposal changed.
+
 ## [0.29.0] - 2026-07-13
 
 ### Added
