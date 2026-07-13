@@ -5,6 +5,22 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.29.5] - 2026-07-13
+
+### Changed
+- Updated the final UTC/L2 health-related emoji coverage paper with a direct "Why now" section.
+- Added restrained trend evidence from Pew Research Center and McKinsey on digital health information and
+  younger consumers' increased wellness focus, without treating those trends as support for any individual
+  emoji.
+- Made the existing health-related emoji baseline explicit, including medical objects, anatomy, laboratory
+  science, care settings, emergency transport, accessibility symbols, and health symbols.
+
+### Verification
+- Rebuilt the canonical DOCX/PDF and the dated Rhew attachment copy, confirmed the PDF is three pages with
+  embedded fonts, and verified the new "Why now" text appears in the extracted text layer.
+- Advanced the project version from `0.29.4` to `0.29.5`; the proposal release remains `v1.7.0` because no
+  individual emoji proposal changed.
+
 ## [0.29.4] - 2026-07-13
 
 ### Changed

@@ -62,7 +62,7 @@ Emoji Submission Form.
    category-completion arguments?
 5. If these issues are already covered, which guidance should submitters follow?
 
-# Why this question has arisen
+# Why now
 
 Health-related emoji are distributed across several sections of the current Unicode Emoji Ordering. Syringe,
 Pill, Drop of Blood, Adhesive Bandage, Stethoscope, X-Ray, and Crutch are listed under `Objects > medical`;
@@ -70,6 +70,18 @@ Anatomical Heart, Lungs, and Brain under `People & Body > body-parts`; Test Tube
 `Objects > science`; Hospital and Ambulance under `Travel & Places`; and Medical Symbol and Wheelchair Symbol
 under `Symbols`. We are not proposing to move any of them. The requested review would consider what this
 distribution means for discoverability, existing substitutes, and the treatment of closely related proposals.
+
+These examples are the existing baseline for this review: health-related emoji already include medical
+objects, anatomy, laboratory science, care settings, emergency transport, accessibility symbols, and health
+symbols. The question is whether that baseline is clear enough for users and for submitters proposing nearby
+concepts.
+
+The question is also timely because health communication has moved further into everyday digital channels.
+Pew Research Center reported in 2026 that 52% of U.S. adults under 30 get health information from social
+media at least sometimes, and McKinsey's 2025 Future of Wellness survey reported that nearly 30% of U.S. Gen
+Z and millennial respondents were prioritizing wellness "a lot more" than one year earlier. These trends do
+not support any particular emoji on their own. They do show why users may increasingly expect common health
+concepts to be represented in the same interoperable visual vocabulary used for daily communication.
 
 Every proposal must address Unicode's published inclusion and exclusion factors, including distinctiveness,
 expected usage, and whether an existing emoji or sequence already represents the concept. The proposed image
@@ -160,15 +172,12 @@ criteria.
   <https://www.unicode.org/emoji/proposals.html>
 - Unicode, Pending Document Submission:\
   <https://www.unicode.org/pending/docsubmit.html>
-- Unicode, Emoji Submission FAQ:\
-  <https://www.unicode.org/faq/emoji_submission.html>
-- Unicode, Emoji Standard & Research Working Group Report for UTC #186:\
-  <https://www.unicode.org/L2/L2026/26008r-esr-report-utc186.pdf>
 - Unicode, Emoji Ordering:\
   <https://unicode.org/emoji/charts/emoji-ordering.html>
-- Unicode, Unicode Emoji List:\
-  <https://unicode.org/emoji/charts/emoji-list.html>
-- Unicode, Unicode Standard Annex #51:\
-  <https://www.unicode.org/reports/tr51/>
 - Apple, Proposal for New Accessibility Emoji, L2/18-080:\
   <https://www.unicode.org/L2/L2018/18080-accessibility-emoji.pdf>
+- Pew Research Center, "Users of social media and AI chatbots for health information are more likely to say
+  they are convenient than accurate":\
+  <https://www.pewresearch.org/science/2026/04/07/users-of-social-media-and-ai-chatbots-for-health-information-are-more-likely-to-say-they-are-convenient-than-accurate/>
+- McKinsey & Company, "The Future of Wellness trends survey 2025":\
+  <https://www.mckinsey.com/industries/consumer-packaged-goods/our-insights/future-of-wellness-trends>
