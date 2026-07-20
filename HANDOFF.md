@@ -1,4 +1,22 @@
-# Handoff: Unicode medical emoji, state as of 2026-07-13
+# Handoff: Unicode medical emoji
+
+## 2026-07-20 controlling update
+
+Shuhan He has confirmed that Kidney, Liver, and Stomach are eligible for the 2026 intake and will be
+submitted. This supersedes later statements in this handoff that treat the three organs as ineligible or make
+CT Scan/Blood Bag/Pill Box the active filing slate.
+
+Do not rewrite or file the organ proposals until using these current controls:
+
+- `docs/proposals/emoji-proposal-approval-rubric.md` - best-in-class 2026 specification.
+- `docs/proposals/2026-organ-submission-audit.md` - Kidney, Liver, and Stomach audit.
+- `submissions/v1.7.0/` - current audited proposal release; not yet final for filing.
+
+Kidney must retain its complete eight-person author list. Liver and Stomach list only Shuhan He. The next work
+is to correct and re-verify one proposal at a time, in the order Kidney, Stomach, Liver.
+
+The material below preserves the 2026-07-13 Microsoft-routing context and is historical where it conflicts
+with this update.
 
 Read this first. Then read the current
 [`David Rhew send manifest`](docs/outreach/2026-07-13-david-rhew-send-manifest.md),

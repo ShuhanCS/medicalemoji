@@ -1,164 +1,161 @@
-# Unicode Accepted Emoji Proposal Manifest And Analysis
+# Accepted Emoji Proposal Analysis
 
-Date: 2026-05-13
+Updated: 2026-07-20
 
-## Source
+## Purpose
 
-Primary source:
-https://unicode.org/emoji/charts/emoji-proposals.html
+This file records the research behind the project's best-in-class submission specification. The controlling
+implementation standard is:
 
-Current Unicode proposal guidelines:
-https://www.unicode.org/emoji/proposals.html
+`docs/proposals/emoji-proposal-approval-rubric.md`
 
-Generated manifest:
+Primary sources:
+
+- Current Unicode proposal guidelines:
+  https://www.unicode.org/emoji/proposals.html
+- Accepted proposal chart for Emoji 17.0 and earlier:
+  https://www.unicode.org/emoji/charts/emoji-proposals.html
+- Accepted proposal chart for Emoji 18.0 beta:
+  https://www.unicode.org/emoji/charts-18.0/emoji-proposals.html
+- ESR priorities for Emoji 18.0 and 19.0+:
+  https://www.unicode.org/L2/L2025/25128-esr-priorities.pdf
+- UTC #185 minutes recording the Emoji 18.0 decisions:
+  https://www.unicode.org/L2/L2025/25226.htm
+
+Generated accepted-proposal manifest:
+
 `docs/research/unicode-winning-submissions/accepted-emoji-proposals-manifest.json`
 
-The manifest contains `268` proposal rows from Unicode's accepted emoji proposal chart, with each row's L2 document ID, title, authors, Unicode document link, resolved L2 document/PDF URL, emoji count, and accepted emoji titles.
+The manifest contains 268 proposal rows from Unicode's accepted-proposal chart. Older accepted proposals are
+historical evidence only. Unicode expressly warns that the required format has changed and that acceptance
+does not mean the UTC endorsed every argument in the proposal.
 
-Important caveat: Unicode says the accepted-proposals chart is historical background, and many winning proposals predate the current submission format. For kidney and stomach, use the current 2026 guidelines as the controlling format, then use the accepted-proposal manifest to learn patterns.
+## Corpus
 
-## What Successful Proposals Tend To Do Well
+### Historical structured comparison
 
-### 1. They Make The Emoji A Broad Building Block
+The prior analysis compared 55 documents associated with emoji encoded in Emoji 13.1 through 17.0 against
+29 community proposal documents from similar registers that do not appear in the accepted-proposal chart.
 
-Strong accepted proposals usually frame the emoji as a broad reusable concept, not as a narrow campaign, one organization, or one clinical condition. For kidney, that means the organ should support anatomy, health, kidney beans, hydration, filtration, donation, transplant, stones, cooking/food language, and everyday body communication. For stomach, that means digestion, hunger, fullness, nausea, belly pain, reflux, eating, intuition, and metaphors such as "butterflies in the stomach."
+The 29-document group must be described as `not encoded`, not as a verified set of formal rejections caused by
+proposal-writing quality. Selection decisions are multi-factor and internal review history is not public for
+every document.
 
-Practical rule: the proposal should read like the emoji belongs in everyday language first, with medical use as one major use case rather than the only use case.
+| Measure | Accepted (n=55) | Not encoded (n=29) |
+| --- | ---: | ---: |
+| Median words | 907 | 1,485 |
+| Median pages | 7 | 9 |
+| Median extracted images | 26 | 18 |
+| Median explicit `N/A` count | 1 | 0 |
+| Includes exclusion section | 94% | 93% |
+| Answers faulty comparison | 92% | 72% |
+| States sort location | 30% | 10% |
+| Includes Trends evidence | 87% | 65% |
+| Shows `elephant` comparator | 32% | 13% |
+| Cites petitions or social media | 45% | 75% |
+| Uses cause or advocacy language | 1 document | 13 documents |
 
-### 2. They Show The Concept Cannot Be Cleanly Replaced
+The useful inference is that structure alone does not distinguish a winner. Accepted proposals tend to be
+shorter, more evidence-dense, more willing to use `N/A`, and more explicit about faulty comparison. The
+comparison does not prove that any single stylistic choice caused acceptance.
 
-Winning proposals do not just say "this is important." They explain why existing emoji and common sequences are insufficient. The replacement analysis is usually concrete: what users currently try, why it is ambiguous, and why the proposed emoji adds a distinct semantic unit.
+### Emoji 18.0 accepted cohort
 
-For kidney, the key comparison is not only other organs. It is also bean, drop, hospital, pill, syringe, and generic medical symbols. For stomach, the comparisons are food, nauseated face, hospital, pill, anatomical organs, and generic belly/body language.
+UTC #185 accepted nine characters from eight proposal documents:
 
-### 3. They Keep The Visual Paradigm Simple
+| Document | Proposal | Pages | Extracted words | Extracted images | URL |
+| --- | --- | ---: | ---: | ---: | --- |
+| L2/25-252 | Leftwards and Rightwards Thumb Signs | 10 | 990 | 63 | https://www.unicode.org/L2/L2025/25252-emoji-thumb-point.pdf |
+| L2/25-253 | Pickle | 8 | 1,405 | 36 | https://www.unicode.org/L2/L2025/25253-emoji-pickle.pdf |
+| L2/25-254 | Monarch Butterfly | 19 | 3,491 | 66 | https://www.unicode.org/L2/L2025/25254-emoji-butterfly.pdf |
+| L2/25-255 | Eraser | 7 | Not reliable | 42 | https://www.unicode.org/L2/L2025/25255-emoji-eraser.pdf |
+| L2/25-256 | Lighthouse | 9 | 1,142 | 27 | https://www.unicode.org/L2/L2025/25256-emoji-lighthouse.pdf |
+| L2/25-257 | Meteor | 8 | 799 | 146 | https://www.unicode.org/L2/L2025/25257-emoji-meteor.pdf |
+| L2/25-258 | Net With Handle | 10 | 1,147 | 39 | https://www.unicode.org/L2/L2025/25258-emoji-net.pdf |
+| L2/25-259 | Squinting Face | 7 | 1,592 | 148 | https://www.unicode.org/L2/L2025/25259-emoji-squinting-face.pdf |
 
-Successful proposals treat the submitted image as a paradigm, not a demanded vendor artwork. They show that the idea is visually recognizable at small size and can survive vendor variation. The best submissions include or imply a simple silhouette test: if it fails at 18x18, the concept is in trouble even if the written argument is strong.
+The cohort median is 9 pages and 55 extracted images. The Eraser PDF is image-based, so its extracted word
+count is meaningless. These numbers reinforce evidence density, but they disprove any rigid claim that an
+accepted proposal must stay under a particular word or page limit.
 
-For medical anatomy proposals, this is a major risk. The document should include:
+The Squinting Face character was later replaced by Cracking Face through L2/26-048:
 
-- 18x18 and 72x72 color images.
-- 18x18 and 72x72 black-and-white images.
-- A side-by-side comparison against likely confusable emoji.
-- An explanation of what visual cues are essential and what details vendors may vary.
+https://www.unicode.org/L2/L2026/26048-cracked-smiling-face-emoji.pdf
 
-### 4. They Use Evidence, Not Advocacy
+### What the newest decisions actually show
 
-Unicode explicitly rejects petitions, hashtags, and anecdotal demand as frequency evidence. Accepted proposals that fit the modern standard are strongest when they include reproducible screenshots and cite durable usage sources.
+1. Compatibility was unusually important. UTC #185 records that Monarch Butterfly would not have been
+   recommended without its compatibility case and that compatibility was the theme of the set.
+2. Compatibility is not transferable rhetoric. A proposal needs screenshots and high-frequency evidence from
+   the existing social app, standard, or operating system.
+3. Accepted documents still vary widely in polish, length, and argumentative quality. Acceptance is not proof
+   that every sentence is a best practice.
+4. Evidence remains visual. The newer proposals embed many screenshots, comparisons, and examples.
+5. The strongest current proposals put the nearest existing emoji, visual distinction, and sort context near
+   the front of the document.
+6. ESR's stated Emoji 19.0+ direction raises the benchmark: cited empirical use, real compatibility where it
+   exists, and improvement to the user experience of the existing emoji set.
 
-For our packets, the hard requirement remains:
+## Best repeatable practices
 
-- Google Search screenshot.
-- Google Video Search screenshot.
-- Google Trends Web Search with `elephant`.
-- Google Trends Image Search with `elephant`.
-- Google Books Ngram Viewer with `elephant`.
+### Build a reusable semantic unit
 
-Support letters are useful for credibility and coordination, but they are not a substitute for usage evidence.
+The proposal should make the concept useful in ordinary language across several durable contexts. Medical
+importance can support context, but it cannot be the sole reason for encoding.
 
-### 5. They Address Exclusion Factors Before Reviewers Have To
+### Prove the gap against the strongest substitute
 
-Good proposals explicitly neutralize predictable objections:
+Name the nearest current emoji or sequence and show why it remains ambiguous. Do not compare only with weak
+alternatives and do not argue that one organ deserves encoding because other organs exist.
 
-- Already represented.
-- Overly specific.
-- Open-ended.
-- Transient.
-- Faulty comparison to existing emoji.
-- Cause-only framing.
-- Brand/IP/logos/text/exact image problems.
+### Treat 18x18 art as evidence
 
-For kidney and stomach, the open-ended-organ objection is especially important. We should say plainly that the proposal is not a request for every organ; it is a request for this specific organ because of its independent broad usage, recognizability, and multiple concepts.
+The submitted image is a paradigm, not final vendor art. Strong proof includes exact-size color and
+black-and-white examples, nearest-emoji comparison, essential silhouette cues, and unprompted recognition.
 
-### 6. They Use Compatibility Only When It Is Real
+### Cite claims, not prestige
 
-Some historical accepted rows are compatibility-driven, but current proposals should not invent compatibility arguments. Compatibility is useful only if the exact or near-exact symbol is already widely used in a popular system and the proposal can cite evidence.
+Every factual or metaphorical claim used to earn a factor should have a screenshot or durable source.
+Petitions, endorsements, requests, awareness campaigns, and author credentials are not usage evidence.
 
-For kidney and stomach, compatibility should stay `not applicable` unless we find a documented high-use kidney/stomach pictograph in a major existing system.
+### Use `Not applicable` honestly
 
-### 7. They Are Complete On The First Page
+Completeness and compatibility should usually be `Not applicable` for an independently useful organ.
+Inventing a finite anatomy set or unsupported platform compatibility makes the proposal weaker.
 
-Current Unicode format requires the top of the first page to carry the required administrative and image information. A strong PDF should not force reviewers to hunt for:
+### Draft exclusions first
 
-- Title.
-- Submitters.
-- Date.
-- 18x18 and 72x72 images in color and black-and-white.
-- Image rights/license statement.
-- Keywords and category.
+The highest-risk organ objections are `Already representable`, `Overly specific`, `Open-ended`, and
+`Faulty comparison`. A proposal should survive those objections before prose is expanded elsewhere.
 
-The kidney `v0.9.0` packet now does this better because the proposal source includes the image files and key links directly.
+## Closest useful exemplars
 
-### 8. They Have Clean Scope Control
+- Treasure Chest, concise broad-building-block case:
+  https://www.unicode.org/L2/L2024/24255-treasure-chest-emoji.pdf
+- Fingerprint, reproducible technical evidence:
+  https://www.unicode.org/L2/L2023/23258-fingerprint-emoji.pdf
+- X-Ray, nearby health/medical concept:
+  https://www.unicode.org/L2/L2020/20214-x-ray-emoji.pdf
+- Shovel, cause-affiliated submitter that still argues ordinary utility rather than the cause:
+  https://www.unicode.org/L2/L2023/23259-shovel-emoji.pdf
+- Meteor, current compatibility-led model:
+  https://www.unicode.org/L2/L2025/25257-emoji-meteor.pdf
+- Lighthouse, current non-organ model with worldwide symbolism and a full current factor structure:
+  https://www.unicode.org/L2/L2025/25256-emoji-lighthouse.pdf
 
-Accepted proposal history includes many multi-emoji and sequence documents, but new single-emoji proposals should stay tightly scoped. When a proposal tries to solve too many nearby concepts at once, it risks looking open-ended or category-building.
+No one exemplar controls. The current guidelines always take precedence.
 
-For kidney: do not make the case about all organs, all chronic disease, or all nephrology symbols.
+## Implications for the 2026 organ slate
 
-For stomach: do not make the case about all GI organs, all digestive diseases, or all abdominal symptoms.
+- Kidney has the strongest current frequency package, but needs a harder 18x18 test against Beans and other
+  confusable silhouettes.
+- Stomach has the strongest multiple-meaning case and the clearest small silhouette, but four web captures are
+  from 2020 and should be refreshed.
+- Liver has the largest readiness gap because its Trends evidence is 2020 and U.S.-only and its black 18x18
+  silhouette lacks a unique identifying cue.
+- All three need final citation cleanup, two independent review signoffs, a stable public PDF URL, and archived
+  official-form confirmation.
 
-## Manifest Fields
+Detailed audit:
 
-Each JSON proposal entry includes:
-
-- `document_id`: Unicode L2 document number.
-- `document_year`: year inferred from the L2 document ID.
-- `title`: proposal title from the Unicode chart.
-- `authors`: authors from the Unicode chart.
-- `document_url`: official Unicode `GetDocumentLink` URL.
-- `resolved_document_url`: resolved Unicode L2 document/PDF URL.
-- `emoji_count`: number of accepted emoji listed under that proposal row.
-- `emoji_titles`: accepted emoji names/codepoint titles associated with the proposal row.
-
-## Recent Successful Proposals To Read First
-
-These recent accepted proposal documents are useful models because they are closer to the current review environment:
-
-| Document | Title | URL |
-| --- | --- | --- |
-| L2/24-257 | Falling Debris Emoji | https://www.unicode.org/L2/L2024/24257-falling-debris-emoji.pdf |
-| L2/24-256 | Proposal for Emoji: Trombone | https://www.unicode.org/L2/L2024/24256-trombone-emoji.pdf |
-| L2/24-255 | Proposal for Emoji: Treasure Chest | https://www.unicode.org/L2/L2024/24255-treasure-chest-emoji.pdf |
-| L2/24-254 | Fight Cloud Emoji Proposal | https://www.unicode.org/L2/L2024/24254-fight-cloud-emoji.pdf |
-| L2/24-251 | Proposal for Emoji: Bigfoot | https://www.unicode.org/L2/L2024/24251-bigfoot-emoji.pdf |
-| L2/24-249 | Proposal for Emoji: Orca | https://www.unicode.org/L2/L2024/24249-orca-emoji.pdf |
-| L2/23-261 | Splash Emoji | https://www.unicode.org/L2/L2023/23261-splash-emoji.pdf |
-| L2/23-260 | Proposal for Emoji Eye Bags Face | https://www.unicode.org/L2/L2023/23260-eye-bags-emoji.pdf |
-| L2/23-259 | Proposal for Emoji: SHOVEL | https://www.unicode.org/L2/L2023/23259-shovel-emoji.pdf |
-| L2/23-031 | Proposal for Emoji: Lime | https://www.unicode.org/L2/L2023/23031-emoji-lime.pdf |
-
-## How This Should Change Kidney And Stomach
-
-### Kidney
-
-Current priority:
-
-- Finish the three blocked required frequency screenshots.
-- Keep the broader non-medical framing from `v0.8.0` and `v0.9.0`.
-- Make the 18x18 visual test central, because kidney can be confused with bean-like forms.
-- Keep support letters in an appendix role, not as primary evidence.
-- Explicitly answer the open-ended-organ objection.
-
-Current packet:
-https://github.com/ShuhanCS/medicalemoji/tree/master/submissions/v0.9.0
-
-### Stomach
-
-Current priority:
-
-- Confirm 2026 eligibility because the public submitted-date clock gives 2026-07-28, only three days before the 2026-07-31 intake deadline.
-- Build usage evidence around the ordinary term `stomach`, not only GERD or gastroenterology.
-- Include everyday metaphors and food/body contexts: hunger, fullness, nausea, gut feeling, butterflies in the stomach, and unable to stomach something.
-- Create a visual test against other organ, food, and illness emoji.
-
-Current project:
-https://github.com/ShuhanCS/medicalemoji/tree/master/docs/proposals/stomach-emoji-2026
-
-## Next Analysis Pass
-
-The JSON manifest is broad enough for systematic analysis. Recommended next pass:
-
-- Classify each accepted proposal by type: animal, food, object, face/emotion, body/person, symbol, sequence, compatibility, or administrative/data update.
-- Flag proposals that are most relevant to medical anatomy or body-part proposals.
-- Extract section structure from recent PDF proposals and compare them against kidney/stomach.
-- Build a reviewer checklist from the top 20 closest analogs.
+`docs/proposals/2026-organ-submission-audit.md`

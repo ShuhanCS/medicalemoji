@@ -5,6 +5,31 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.30.0] - 2026-07-20
+
+### Added
+- Rebuilt the canonical emoji-proposal rubric as a best-in-class 2026 submission specification based on the
+  current Unicode requirements, the historical accepted-versus-not-encoded comparison, the accepted Emoji
+  18.0 cohort, and ESR's stated Emoji 19.0+ priorities.
+- Added a proposal-by-proposal audit of the v1.7.0 Kidney, Liver, and Stomach PDFs, including must-pass gates,
+  100-point internal readiness scores, visual and evidence findings, and a correction order.
+
+### Changed
+- Updated the accepted-proposal research analysis through Emoji 18.0 and corrected its methodology language
+  so the comparison corpus is not presented as a proven causal rejection set.
+- Recorded Shuhan He's confirmation that Kidney, Liver, and Stomach are eligible for the 2026 intake while
+  preserving the separate evidence, artwork-recognition, review, public-URL, and filing gates.
+- Ignored local `tmp/` rendering intermediates so PDF audit artifacts do not enter proposal commits.
+
+### Verification
+- Checked the 2026-05-20 Unicode guidelines, Emoji 18.0 proposal chart and UTC acceptance record, and ESR
+  priorities against their current official URLs.
+- Rendered and visually inspected every page of all three v1.7.0 PDFs; verified all required PNG dimensions
+  and true black-and-white assets; checked PDF fonts, encryption, text extraction, image extraction, and
+  visible layout.
+- Advanced the project version from `0.29.6` to `0.30.0`; proposal release `v1.7.0` remains unchanged because
+  this release audits the proposals but does not revise their source or PDF content.
+
 ## [0.29.6] - 2026-07-13
 
 ### Changed

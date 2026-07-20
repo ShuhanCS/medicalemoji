@@ -1,5 +1,18 @@
 # Medical Emoji
 
+## Current 2026 organ slate
+
+Shuhan He has confirmed that Kidney, Liver, and Stomach are eligible for the 2026 intake and will be the
+active submission slate. Eligibility is settled; submission quality is not. The current v1.7.0 PDFs have been
+audited and must be corrected one at a time before filing:
+
+- Best-in-class specification: [`docs/proposals/emoji-proposal-approval-rubric.md`](docs/proposals/emoji-proposal-approval-rubric.md)
+- Organ-by-organ audit: [`docs/proposals/2026-organ-submission-audit.md`](docs/proposals/2026-organ-submission-audit.md)
+- Current proposal release: [`submissions/v1.7.0/`](submissions/v1.7.0/)
+
+Authorship is fixed for this slate: Kidney uses the complete eight-person author list in v1.7.0; Liver and
+Stomach list only Shuhan He. The 2026 submission window closes at the end of day on 2026-07-31.
+
 ## ⏳ Deadlines
 
 | Due | What | Where |
@@ -23,11 +36,12 @@ attachments in this send package.
 
 ## 🏆 What actually wins
 
-**Write proposals from [`docs/proposals/TEMPLATE-emoji-proposal.md`](docs/proposals/TEMPLATE-emoji-proposal.md).
-Nothing else.** Evidence: [`docs/plans/2026-07-09-winners-vs-losers.md`](docs/plans/2026-07-09-winners-vs-losers.md),
-comparing 55 proposals whose emoji were encoded against 29 from the same registers that were not.
+Use the current [`best-in-class specification`](docs/proposals/emoji-proposal-approval-rubric.md) as the
+controlling project standard and the [`proposal template`](docs/proposals/TEMPLATE-emoji-proposal.md) as the
+drafting structure. The specification incorporates the current Unicode rules, the accepted Emoji 18.0
+cohort, and the earlier [`winners-versus-not-encoded analysis`](docs/plans/2026-07-09-winners-vs-losers.md).
 
-| | Winners (55) | Losers (29) |
+| | Accepted (55) | Not encoded (29) |
 |---|---|---|
 | Median words | **907** | 1,485 |
 | Median images | **26** | 18 |
@@ -36,11 +50,13 @@ comparing 55 proposals whose emoji were encoded against 29 from the same registe
 | Cites a petition or social media | 45% | **75%** |
 | Uses awareness / stigma / advocacy language | **1%** | **13%** |
 
-Six rules, each earned from that data:
+Six drafting rules supported by that directional comparison:
 
-1. **Structure wins nothing.** Losers fill in the headings too. Never conclude a proposal was sound because
+1. **Structure wins nothing.** Not-encoded proposals fill in the headings too. Never conclude a proposal was sound because
    it had the right sections.
-2. **Under 1,200 words, over 20 images.** Losers write 60% more prose and show a third fewer screenshots.
+2. **Prefer concise, evidence-dense writing.** A useful drafting target is under 1,200 words and over 20
+   relevant images, but neither is a Unicode rule. The comparison group wrote 60% more prose and showed a
+   third fewer images.
 3. **Write `N/A`.** Especially for Completeness and Compatibility. Arguing every factor drowns the strong ones.
 4. **No petitions, no Instagram, no `Frequently Requested`.** Disallowed evidence, offered unprompted.
 5. **No cause language.** *"A proposal may be advanced despite a 'cause' argument, but will not be advanced

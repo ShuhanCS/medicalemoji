@@ -1,213 +1,298 @@
-# Emoji Proposal Approval Rubric
+# Best-in-Class Emoji Submission Specification
 
-Last checked: 2026-05-13
+Version: 2.0
 
-Primary Unicode guidance:
-https://www.unicode.org/emoji/proposals.html
+Last checked: 2026-07-20
 
-Unicode Emoji Submission FAQ:
-https://www.unicode.org/faq/emoji_submission
+Applies to: Kidney, Liver, and Stomach proposals for the 2026 Unicode intake
 
-Unicode Emoji Proposal Agreement and License:
-https://www.unicode.org/emoji/emoji-proposal-agreement.pdf
+## Decision
 
-Official Unicode Emoji Submission Form:
-https://forms.gle/6KSiYHrUdBkTMNaB8
+There is no single accepted proposal that should be copied verbatim. The best submission model is a
+composite of:
 
-## Purpose
+1. The current Unicode requirements, which control even when older accepted proposals used a different
+   format.
+2. The strongest repeatable practices in the historical accepted-proposal corpus.
+3. The clearest differences between accepted proposals and a comparison group of proposals that were not
+   encoded.
+4. The latest Emoji 18.0 accepted cohort and the Emoji 19.0+ priorities published by the Emoji Standard &
+   Research Working Group (ESR).
 
-Use this rubric before circulating, exporting, or submitting any Medical Emoji proposal. The goal is not to make the proposal longer. The goal is to make the proposal harder to decline by making every required Unicode criterion explicit, evidence-backed, and easy to review.
+The closest single general-purpose exemplar is Treasure Chest, L2/24-255. It is concise, treats the emoji as
+a broad building block, states independent utility, and answers the exclusion factors directly:
 
-This rubric applies to kidney and to future Medical Emoji concepts. A proposal should not be submitted until all must-pass gates are complete and the score is at least 90/100. For a high-stakes resubmission, target 100/100 before filing.
+https://www.unicode.org/L2/L2024/24255-treasure-chest-emoji.pdf
 
-## Must-Pass Gates
+Fingerprint, L2/23-258, is a stronger model for reproducible evidence and disciplined technical presentation:
 
-If any gate below is incomplete, do not submit.
+https://www.unicode.org/L2/L2023/23258-fingerprint-emoji.pdf
 
-| Gate | Required Outcome | Evidence To Save |
-| --- | --- | --- |
-| Eligibility | Concept is not already approved, not currently `Prioritization Pending` or `Under Consideration`, and not barred by the four-year declined-proposal rule. | Unicode status-page check, date checked, direct ESR/Unicode clarification if the decline-date clock is ambiguous. |
-| Single submission strategy | No unresolved parallel submission for the same concept. If another group filed, the path is coordinated, withdrawn, replaced, or explicitly accepted by Unicode. | Email confirmation, partner proposal PDF if available, submission date, proposed name, and Unicode confirmation if any. |
-| Public PDF | Final proposal is a publicly accessible HTTPS PDF without login. | Public URL and archived copy in the repo. |
-| Official form | Submission uses the official Unicode form only. | Submission confirmation saved in the packet. |
-| Image rights | Submitter can make the required rights/license warranty. | Ownership, work-for-hire, assignment, public-domain, or open-license documentation. |
-| Required images | Color and black-and-white images are included at 18x18 and 72x72 pixels. Grayscale is not acceptable. | Source image plus all four rendered sizes. |
-| Required frequency evidence | Proposal includes all required screenshots: Google Search, Google Video Search, Google Trends Web, Google Trends Image, and Google Books Ngram. | Screenshots, capture date, browser, region, query, and full URL. |
-| Elephant comparator | Trends and Ngram screenshots include `elephant` as the comparator. | Trends and Ngram screenshots. |
-| No excluded category | Proposal is not a logo, brand, third-party IP, UI icon, signage, specific person, specific building/landmark, deity, unsupported flag, text-containing image, directional variation, or exact-image request. | Review note in manifest. |
+Meteor, L2/25-257, is the clearest current model for a genuine interoperability proposal, but its compatibility
+case must not be copied by a concept that lacks equivalent system evidence:
 
-## Scoring Rubric
+https://www.unicode.org/L2/L2025/25257-emoji-meteor.pdf
 
-Use this score as a practical readiness check. The score is not a Unicode score and does not predict approval by itself.
+## Controlling sources
 
-| Area | Points | Approval Standard |
-| --- | ---: | --- |
-| Eligibility and coordination | 15 | Re-review eligibility is confirmed, duplicate/parallel-submission risk is resolved, and the proposal is the single coordinated filing for the concept. |
-| Submission format | 10 | First page has title, submitters, main point of contact, date, identification, keywords, category, required images, and image-rights statement. |
-| Image package and rights | 15 | Images are owned or properly licensed, credit is recorded, all four required sizes exist, and the 18x18 image is recognizable. |
-| Frequency evidence | 20 | All required screenshots are captured reproducibly, with `elephant` comparator where required, and the proposal cites the evidence plainly. |
-| Inclusion factors | 15 | Proposal convincingly addresses multiple meanings, sequences, breaks new ground, distinctiveness, high usage, completeness if applicable, and compatibility if applicable. |
-| Exclusion factors | 10 | Proposal directly answers already represented, overly specific, open-ended, transient, and faulty-comparison concerns. |
-| Global/universal case | 5 | Proposal shows broad worldwide or cross-system relevance without relying on US-only, specialty-only, or cause-only framing. |
-| Review quality | 5 | At least one domain reviewer and one Unicode/process reviewer have reviewed the final PDF. |
-| Archive and packet control | 5 | Packet folder has synchronized versioned files, manifest, changelog/version update, and archived evidence. |
-
-## Strong Proposal Criteria
-
-### 1. The Concept Is Broad But Not Open-Ended
-
-A strong emoji proposal identifies a concept that many people would use across different contexts. It should not be so broad that it becomes vague, and it should not create an obvious demand for a long open-ended list.
-
-For medical emoji, the safest framing is usually:
-
-- Patient-facing concept.
-- Public-health concept.
-- Common clinical or everyday concept.
-- Useful across multiple diseases, treatments, symptoms, and education contexts.
-- Not merely a specialty logo or awareness campaign.
-
-For kidney, the global/universal argument should be functional and contextual: filtration, urine, kidney-function testing, dialysis, transplant, donation, kidney stones, diabetes, hypertension, medication safety, and chronic disease. Do not overclaim that a kidney silhouette is as universally iconic as a heart.
-
-### 2. The Proposal Is Evidence-First
-
-Unicode asks for empirical evidence and screenshots. Support letters, petitions, social-media examples, hashtags, and anecdotes can help with coalition context, but they do not replace the required frequency evidence.
-
-Required frequency screenshots:
-
-- Google Search with result count:
-  https://www.google.com/search?q=kidney
-- Google Video Search with result count:
-  https://www.google.com/search?tbm=vid&q=kidney
-- Google Trends Web Search with `elephant` comparator:
-  https://trends.google.com/trends/explore?date=all&q=elephant,kidney
-- Google Trends Image Search with `elephant` comparator:
-  https://trends.google.com/trends/explore?date=all_2008&gprop=images&q=elephant,kidney
-- Google Books Ngram Viewer with `elephant` comparator:
-  https://books.google.com/ngrams/graph?content=elephant%2Ckidney&year_start=1500&year_end=2019&corpus=en-2019&smoothing=3
-
-Capture screenshots in a private browser window when possible. Save the query, URL, browser, region, capture date, and any visible result counts.
-
-### 3. The Image Proves The Concept Is Legible
-
-The proposed image is not final vendor art. It is evidence that the concept can be represented distinctly at emoji size.
-
-Image requirements:
-
-- Color 18x18.
-- Color 72x72.
-- Black-and-white 18x18.
-- Black-and-white 72x72.
-- No grayscale substitute.
-- No text inside the emoji image.
-- No logo, brand, third-party IP, signage, or exact vendor request.
-
-For kidney, the design should acknowledge the main risk: a kidney can look like a bean at small sizes. The stronger approach is a paired organ with simple urinary/anatomical cues, plus side-by-side review against bean and existing anatomy emoji.
-
-### 4. The Proposal Avoids Weak Arguments
-
-Avoid these as primary arguments:
-
-- `This cause is important.`
-- `Many people signed or asked for it.`
-- `Another organ exists, so this organ should exist.`
-- `This would complete all medical emoji.`
-- `Supporters endorse it, so usage is proven.`
-- `The exact image should be encoded.`
-
-Better framing:
-
-- The concept has high expected usage.
-- It expresses multiple durable meanings.
-- It works in sequences.
-- Existing emoji do not represent it clearly.
-- The image is distinct enough at small size.
-- It is not transient, overly specific, or open-ended.
-
-### 5. The Global Case Is Explicit
-
-For medical concepts, avoid a US-only or society-only proposal. Include global burden and international use where the evidence supports it.
-
-Good global evidence can include:
-
-- WHO or other global-health sources.
-- Peer-reviewed global burden studies.
-- International coalition support.
-- Non-English search evidence if a concept has strong regional usage and the terms are validated by native speakers.
-- Cross-system care contexts such as diagnosis, treatment, donation, transplant, testing, and patient education.
-
-For kidney, use global facts carefully and distinguish chronic kidney disease from broader kidney disease. Current internal sources include WHO, CDC, and the Lancet / GBD 2023 CKD analysis.
-
-## Proposal Review Checklist
-
-Before marking a packet `SUBMIT`, answer every question below.
-
-- [ ] Is the exact proposed name final?
-- [ ] Are keywords search-oriented and not just repeats of the name?
-- [ ] Is the proposed category justified?
-- [ ] Are all submitters confirmed?
-- [ ] Is one main point of contact confirmed?
-- [ ] Is the date current?
-- [ ] Are all required images inserted at the top of page one?
-- [ ] Is the image-rights statement final?
-- [ ] Are all inclusion factors addressed?
-- [ ] Are all exclusion factors addressed?
-- [ ] Are all claims cited with stable links or screenshots?
-- [ ] Are the required frequency screenshots captured and archived?
-- [ ] Do Trends and Ngram include `elephant`?
-- [ ] Are petitions, hashtags, and anecdotal requests excluded from frequency evidence?
-- [ ] Does the proposal avoid cause-only framing?
-- [ ] Does the proposal avoid faulty comparison to existing emoji?
-- [ ] Does the proposal answer the open-ended-category objection?
-- [ ] Does the proposal explain why existing emoji and sequences are insufficient?
-- [ ] Does the proposal include a global/universal use case?
-- [ ] Has a domain reviewer checked factual claims?
-- [ ] Has a Unicode/process reviewer checked format and criteria?
-- [ ] Is the final PDF public and accessible without login?
-- [ ] Has the submission confirmation been archived?
-
-## Packet Control Requirements
-
-Use the repo's submission packet semver rules:
-
-- `MAJOR`: legal/entity/signature/offer structure changed, or a submitted package is being replaced.
-- `MINOR`: substantive response change, scope change, pricing method change, added/removed attachment, changed claim, or changed supplier diversity commitment.
-- `PATCH`: typo, formatting, filename cleanup, or non-substantive clarification.
-
-If any file in a packet changes, create the next synchronized packet version and copy or rename every retained submission file to the new version number, even if the retained file content did not change.
-
-Every packet folder must include:
-
-- `manifest.md`.
-- Packet version.
-- Date prepared.
-- Proposal identifier.
-- Source guidance version reviewed.
-- Files included and each file role: `SUBMIT`, `SIGNATURE_REQUIRED`, or `REFERENCE_ONLY`.
-- Approval status, signer/submitter, and known blockers.
-- Change notes from the previous packet version.
-
-## Minimum Bar For Circulation
-
-Use this lower bar before circulating to collaborators:
-
-- Proposal text is complete enough to review end to end.
-- Known gaps are clearly marked.
-- The image-rights position is stated.
-- Supporters and submitters are not represented as final unless confirmed.
-- Eligibility and duplicate-submission risks are visible.
-- Reviewers know exactly what feedback is needed.
-
-## Minimum Bar For Submission
-
-Use this higher bar before filing:
-
-- Score is 90/100 or higher, preferably 100/100.
-- Every must-pass gate is complete.
-- No unresolved legal/image-rights issue remains.
-- No unresolved duplicate-submission issue remains.
-- No unresolved re-review eligibility issue remains.
-- All evidence screenshots are in the packet.
-- The final PDF has no draft notes, placeholders, or unconfirmed names.
-- The public PDF URL works in a logged-out browser.
-- The official Unicode form is ready to submit:
+- Current proposal guidelines, updated 2026-05-20:
+  https://www.unicode.org/emoji/proposals.html
+- Emoji Proposal Agreement and License:
+  https://www.unicode.org/emoji/emoji-proposal-agreement.pdf
+- Official submission form:
   https://forms.gle/6KSiYHrUdBkTMNaB8
+- Emoji 19.0+ ESR priorities:
+  https://www.unicode.org/L2/L2025/25128-esr-priorities.pdf
+- Emoji 18.0 accepted proposal chart:
+  https://www.unicode.org/emoji/charts-18.0/emoji-proposals.html
+- UTC #185 minutes recording the Emoji 18.0 acceptances:
+  https://www.unicode.org/L2/L2025/25226.htm
+- Current proposal status definitions:
+  https://www.unicode.org/emoji/emoji-proposals-status.html
+
+The 2026 submission window closes at the end of day on 2026-07-31. The PDF must be publicly accessible
+without a login and submitted through the official form.
+
+## Evidence base and limits
+
+### Historical comparison
+
+The repository's prior structured comparison covered:
+
+- 55 proposal documents from 2020 onward associated with emoji encoded in Emoji 13.1 through 17.0.
+- 29 community proposal documents from similar registers that do not appear in the accepted-proposal chart.
+
+The second group is a "not encoded" comparison group, not a proven list of proposals declined solely because
+of document quality. The results are directional and should not be read as causal.
+
+| Measure | Accepted (n=55) | Not encoded (n=29) |
+| --- | ---: | ---: |
+| Median words | 907 | 1,485 |
+| Median pages | 7 | 9 |
+| Median extracted images | 26 | 18 |
+| Median explicit `N/A` count | 1 | 0 |
+| Answers faulty comparison | 92% | 72% |
+| States a sort location | 30% | 10% |
+| Includes Trends evidence | 87% | 65% |
+| Shows the `elephant` comparator | 32% | 13% |
+| Cites petitions or social media | 45% | 75% |
+| Uses cause or advocacy language | 1 accepted document | 13 not-encoded documents |
+
+The useful signal is evidence density and disciplined argument, not a hard word or page limit.
+
+### Emoji 18.0 update
+
+The eight accepted proposal documents for the nine Emoji 18.0 characters are:
+
+- L2/25-252, Leftwards and Rightwards Thumb Signs:
+  https://www.unicode.org/L2/L2025/25252-emoji-thumb-point.pdf
+- L2/25-253, Pickle:
+  https://www.unicode.org/L2/L2025/25253-emoji-pickle.pdf
+- L2/25-254, Monarch Butterfly:
+  https://www.unicode.org/L2/L2025/25254-emoji-butterfly.pdf
+- L2/25-255, Eraser:
+  https://www.unicode.org/L2/L2025/25255-emoji-eraser.pdf
+- L2/25-256, Lighthouse:
+  https://www.unicode.org/L2/L2025/25256-emoji-lighthouse.pdf
+- L2/25-257, Meteor:
+  https://www.unicode.org/L2/L2025/25257-emoji-meteor.pdf
+- L2/25-258, Net With Handle:
+  https://www.unicode.org/L2/L2025/25258-emoji-net.pdf
+- L2/25-259, Squinting Face:
+  https://www.unicode.org/L2/L2025/25259-emoji-squinting-face.pdf
+
+The face was later changed to Cracking Face using L2/26-048:
+
+https://www.unicode.org/L2/L2026/26048-cracked-smiling-face-emoji.pdf
+
+The Emoji 18 documents range from 7 to 19 pages. Their median is 9 pages and their median extracted image
+count is 55. Text extraction is unreliable for the image-only Eraser PDF, so word counts are not treated as a
+quality measure for that cohort.
+
+UTC #185 records that the theme of the Emoji 18 set was compatibility. ESR's Emoji 19.0+ priorities then set a
+higher benchmark around cited empirical use, compatibility with popular systems where real, and improvements
+to the experience of existing emoji. These are current-cycle signals, not new automatic eligibility rules.
+
+## What best-in-class means
+
+A best-in-class proposal is complete, easy to verify, visually credible at 18 pixels, concise enough to review
+quickly, and strong on its own merits. It does not try to win by importance, advocacy, professional prestige,
+or comparison with weaker historical emoji.
+
+### 1. Must-pass filing gates
+
+If any gate is unresolved, label the proposal `NOT READY TO SUBMIT` regardless of its score.
+
+| Gate | Required outcome |
+| --- | --- |
+| Eligibility | The concept is confirmed eligible, not already approved, and not blocked by status or the four-year rule. Save the confirmation. |
+| Coordination | No unresolved duplicate or parallel submission exists for the concept. |
+| Authorship | Every submitter has explicitly agreed to be named. One person is the main point of contact. Multiple names use semicolons. |
+| Public PDF | The exact final PDF has a stable public HTTPS URL that works logged out. |
+| Official form | The exact public PDF is filed through the official form before the deadline. |
+| Rights | The submitter can make the required ownership or open-license warranty. |
+| Required art | Color and true black-and-white images at exactly 18x18 and 72x72 appear at the top of page 1. |
+| Frequency evidence | All five required screenshots are present, dated, reproducible, and legible. |
+| Comparator and scope | Trends and Ngram show `elephant`; tools with range/location settings use the widest possible range. |
+| Selection factors | Every current inclusion and exclusion factor is answered; unsupported positive factors are marked `Not applicable`. |
+| Automatic-decline screen | No logo, brand, protected work, UI icon, signage, text, exact-image demand, directional variant, or other excluded category is present. |
+| Final QA | The PDF has no draft note, stale date, placeholder, broken image, clipped text, unreadable screenshot, or contradictory status statement. |
+
+### 2. First-page contract
+
+The top of page 1 must contain, in this order or an equally obvious arrangement:
+
+- `Proposal for Emoji: <name>`.
+- Submitter names and one named main point of contact.
+- Current revision date.
+- Suggested name, search-oriented keywords that do not repeat the name, category, and useful sort location.
+- Color and black-and-white 18x18 and 72x72 images.
+- A direct image-rights and license statement by the person authorized to make it.
+
+The reviewer should be able to validate identity, scope, imagery, and rights without leaving page 1.
+
+### 3. Evidence standard
+
+Required evidence is necessary but not sufficient. Every factual claim used to earn a selection factor must
+also be supported by a screenshot or citation.
+
+Required screenshots:
+
+1. Google Search, with visible result count.
+2. Google Video Search, with visible result count.
+3. Google Trends Web Search, concept versus `elephant`, Worldwide, widest date range.
+4. Google Trends Image Search, concept versus `elephant`, Worldwide, widest date range.
+5. Google Books Ngram Viewer, concept versus `elephant`, widest available date range.
+
+For every capture, record the date, complete query URL, location, range, search mode, and any category filter.
+Use a private browser when possible. Do not silently crop away the settings or the result needed to reproduce
+the claim.
+
+Best-in-class evidence also does the following:
+
+- Uses recent captures for a current filing unless an older snapshot adds historical value.
+- Separates frequency evidence from examples of meaning.
+- Cites durable dictionary, standards, academic, or institutional sources for metaphorical and factual claims.
+- Explains ambiguous search terms and any filtering.
+- Never uses petitions, calls for an emoji, hashtags, endorsements, or awareness campaigns as usage evidence.
+- Does not claim worldwide relevance from U.S.-only data.
+
+### 4. Selection-factor standard
+
+#### Multiple meanings
+
+Use only established non-pun meanings backed by citations. Mark `Not applicable` when the literal concept is
+the real case. A short valid `N/A` is stronger than a speculative list.
+
+#### Use in sequences
+
+Give a small set of combinations that create distinct, plausible messages. Do not list every adjacent medical
+emoji. Show what becomes clearer because the proposed emoji exists.
+
+#### Breaks new ground
+
+Answer `Yes` or `No` immediately. Identify the nearest current emoji and explain the semantic gap in ordinary
+communication. Do not rely on the existence of other body-part emoji.
+
+#### Distinctiveness
+
+Prove, rather than assert, recognizability. Include:
+
+- A nearest-emoji comparison board at 18x18 and 72x72.
+- Color and black-and-white comparisons.
+- The essential silhouette cues and which details vendors may vary.
+- A small recognition test with people who were not told the answer in advance.
+
+The pass target for the internal recognition test is at least 80% correct unprompted identification at 18x18,
+with no single wrong concept dominating more than 10% of responses. This is an internal quality gate, not a
+Unicode rule.
+
+#### Expected usage
+
+Lead with the five required reproducible sources and numerical observations. Add only cited, durable contexts
+that show breadth. Disease burden or professional importance cannot substitute for actual use of the concept.
+
+#### Completeness and compatibility
+
+Mark each `Not applicable` unless there is compelling evidence. An organ does not complete a finite anatomy
+set. Compatibility earns weight only when a popular social app, standard, or operating system already uses the
+same or nearly identical pictograph at demonstrably high frequency.
+
+### 5. Exclusion-factor standard
+
+Write these answers before polishing the inclusion case:
+
+- `Already representable`: identify the strongest substitute or sequence and explain the remaining ambiguity.
+- `Overly specific`: show that the proposed concept is a broad building block, not a disease, procedure,
+  specialty, campaign, subtype, or branded image.
+- `Open-ended`: explain why this concept stands independently and does not imply that every organ must follow.
+- `Transient`: support durable use over time rather than asserting that anatomy is old.
+- `Faulty comparison`: state that existing organs do not justify this one and restate the independent evidence.
+
+### 6. Writing and layout standard
+
+- Prefer 800 to 1,200 words of argument, excluding screenshot labels and URLs, when the case fits. This is a
+  drafting target, not a Unicode limit.
+- Use direct section names that mirror the current guidelines.
+- Put the conclusion first in each factor.
+- Use tables only when they reduce reviewer effort.
+- Keep screenshots large enough to read at 100% zoom.
+- Avoid large blank pages, stranded headings, split labels, and long raw URLs that disrupt the page.
+- Use page numbers and a stable document title.
+- Do not add biographies, endorsements, press language, or campaign history unless directly required.
+
+## Authorship rules for the 2026 organ slate
+
+- Kidney must list the complete confirmed author set:
+  Shuhan He; Edgar Lerma; Caitlyn Vlasschaert; Jade M. Teakell; Harish Seethapathy; Jarone Lee;
+  Danielle Miller; Timur Erk.
+- Liver lists Shuhan He only.
+- Stomach lists Shuhan He only.
+- Shuhan He is the main point of contact for all three.
+
+Credentials and affiliations are optional in the PDF. Names must be consistent between the PDF, public file,
+and official form.
+
+## Internal 100-point readiness score
+
+This is a project control, not a Unicode score or approval prediction.
+
+| Area | Points | Full-credit standard |
+| --- | ---: | --- |
+| Eligibility and coordination | 15 | Confirmation archived; no duplicate filing risk; authorship confirmed. |
+| First-page format | 10 | Every current first-page requirement is correct and easy to find. |
+| Image package and rights | 15 | Rights are clear; four exact assets pass technical checks and unprompted recognition. |
+| Frequency and empirical evidence | 20 | Five current, reproducible captures plus citations for material usage claims. |
+| Inclusion factors | 15 | Each factor is direct, evidenced, and uses `N/A` where appropriate. |
+| Exclusion factors | 10 | Strongest reviewer objections are answered specifically. |
+| Worldwide and durable case | 5 | Evidence is worldwide where available and avoids cause-only framing. |
+| Independent review | 5 | Domain/factual and Unicode/process reviewers sign off on the final PDF. |
+| Packet and filing control | 5 | Versioned packet, clean PDF, public URL, and filing record are synchronized. |
+
+Minimum to circulate: 80/100 with every known gap labeled.
+
+Minimum to file: 90/100, every must-pass gate complete.
+
+Target for these resubmissions: 100/100 before filing.
+
+## One-at-a-time audit and correction workflow
+
+For each concept, complete the following before moving to the next:
+
+1. Freeze the exact author list and confirm one point of contact.
+2. Red-team the strongest `Already representable`, `Overly specific`, and `Open-ended` objections.
+3. Verify every factual claim has a citation or remove it.
+4. Recapture all five required evidence sources with current, widest-range settings.
+5. Build nearest-emoji art comparisons and run the 18x18 recognition test.
+6. Revise the source, update the date, and rebuild the PDF.
+7. Render every page and inspect it visually.
+8. Run technical checks for image dimensions/colors, text extraction, fonts, encryption, links, and file size.
+9. Obtain domain/factual and Unicode/process signoff on the exact PDF.
+10. Publish the exact PDF, verify the logged-out URL, file the official form, and archive confirmation.
+
+## Definition of submission-worthy
+
+A proposal is submission-worthy only when it has no unresolved must-pass gate, scores at least 90/100, and a
+reviewer can verify the authorship, rights, art, evidence, and independent selection case without relying on
+outside campaign context. Eligibility alone means the proposal may be filed; it does not mean the proposal is
+ready or likely to advance.
