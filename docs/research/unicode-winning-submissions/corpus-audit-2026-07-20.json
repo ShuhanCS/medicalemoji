@@ -1,0 +1,60 @@
+{
+  "accepted_pdf_archive": {
+    "document_count": 55,
+    "median_all_pdf_image_objects": 40,
+    "median_objects_with_type_image": 30,
+    "median_pages": 7,
+    "median_unique_underlying_image_object_ids": 24,
+    "warning": "PDF image-object counts are implementation details, not counts of meaningful screenshots. Masks, duplicated objects, and scanned pages produce materially different totals."
+  },
+  "accepted_text_archive": {
+    "document_count": 55,
+    "feature_document_counts": {
+      "answers_already_representable": 53,
+      "answers_faulty_comparison": 51,
+      "answers_open_ended": 52,
+      "answers_overly_specific": 51,
+      "answers_transient": 52,
+      "literal_sort_location": 33,
+      "mentions_broader_social_terms": 27,
+      "mentions_cause_terms": 1,
+      "mentions_elephant": 18,
+      "mentions_exclusion": 52,
+      "mentions_google_trends": 45,
+      "mentions_petition_instagram_or_twitter": 25,
+      "mentions_trends_anywhere": 50,
+      "normalized_sort_location_or_order": 45
+    },
+    "median_explicit_na_count": 1,
+    "median_words": 907,
+    "word_measurement": "stored pdftotext text-layer count"
+  },
+  "generated_by": "python evidence/emoji_proposal_corpus_audit.py --pdf-dir tmp/pdfs/rubric-audit",
+  "historical_29_document_comparison": {
+    "reason": "No cohort manifest, source documents, extracted texts, or analysis code for the 29 documents exists in repository history.",
+    "reproducible": false
+  },
+  "medical_emoji_declined_draft_archive": {
+    "document_count": 15,
+    "feature_document_counts": {
+      "answers_already_representable": 15,
+      "answers_faulty_comparison": 15,
+      "answers_open_ended": 15,
+      "answers_overly_specific": 15,
+      "answers_transient": 15,
+      "literal_sort_location": 0,
+      "mentions_broader_social_terms": 13,
+      "mentions_cause_terms": 7,
+      "mentions_elephant": 3,
+      "mentions_exclusion": 15,
+      "mentions_google_trends": 13,
+      "mentions_petition_instagram_or_twitter": 13,
+      "mentions_trends_anywhere": 13,
+      "normalized_sort_location_or_order": 15
+    },
+    "median_explicit_na_count": 0,
+    "median_words": 1522,
+    "word_measurement": "regex token count over tracked markdown"
+  },
+  "schema_version": "1.0.0"
+}

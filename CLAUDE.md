@@ -19,16 +19,18 @@ Use `docs/proposals/TEMPLATE-emoji-proposal.md`. Do not write a proposal from sc
 2020 drafts in `docs/proposals/archive-2020-emojination-drafts/` — none of them ever reached Unicode's
 document register.
 
-Evidence: `docs/plans/2026-07-09-winners-vs-losers.md` (55 encoded proposals vs 29 that were not).
+Evidence: `docs/research/unicode-winning-submissions/analysis.md`. The former 55-versus-29 comparison is
+retired because its 29-document cohort and analysis code were not preserved.
 
-- Structure wins nothing. 94% of winners have an exclusion section; so do 93% of losers.
-- Under 1,200 words of prose, over 20 images. Losers write 60% more and show a third fewer screenshots.
+- Current Unicode requirements control. Historical accepted proposals are examples, not exemptions.
+- Structure is necessary, not sufficient. All 15 confirmed declined project drafts answer the exclusions.
+- There is no validated winning word, page, or image-count threshold.
 - Write `N/A` for Completeness and Compatibility unless there is a compelling example.
 - Never cite petitions, hashtags, Instagram, or a `Frequently Requested` section. Disallowed evidence.
-- Never use awareness, stigma, or advocacy language. It appears 13x more often in proposals that failed.
+- Never use awareness, stigma, or advocacy as the reason for encoding.
 - Never write "the heart and lungs were encoded, so the kidney should be." Textbook Faulty Comparison.
-- Draft the Open-ended answer first, naming the neighbours we will not propose. If it cannot be written
-  honestly, the proposal is not ready. It forbids filing kidney, liver and stomach together.
+- Draft the Open-ended answer first. Kidney, Liver, and Stomach may be filed as separate one-emoji proposals,
+  but each must stand independently and cannot rely on completing an anatomy set.
 - The submission form rejects company names. A named individual must submit.
 - Artwork must contain no text, digits or barcodes. That is an automatic decline.
 

@@ -279,8 +279,9 @@ on a unicode.org page; the leadership page lists chairs only).
 
 ### Correction: the organization is not required
 
-Reading all 55 proposals written since 2020 whose emoji were encoded shows the above conclusion was drawn
-too strongly. Individuals win regularly, and alone:
+The tracked 55-document accepted reference set shows the above conclusion was drawn too strongly. It is not
+every successful proposal and includes repeated expert and committee authors, but it is enough to disprove an
+organization requirement. Individuals are among the successful submitters:
 
 - `L2/24-249` Orca, Marcos Del Sol Vives, a personal email address.
 - `L2/24-255` Treasure Chest, Jacob Dow. `L2/24-251` Bigfoot, Andrew Pignato. `L2/23-255` Leafless Tree,
@@ -289,9 +290,9 @@ too strongly. Individuals win regularly, and alone:
   in the same window as our fifteen drafts, encoded in Emoji 14.0.
 
 Christian Krenek alone authored or co-authored the slide, the bird's nest, the heavy equals sign, the flute
-and the x-ray. **What separates winners is craft, not letterhead.** An organization helps because it
-teaches the craft and knows the route, and it is not a substitute for the craft. See
-[how to write a winning proposal](../plans/2026-07-09-how-to-write-a-winning-emoji-proposal.md).
+and the x-ray. The defensible conclusion is narrower: letterhead is not required, and proposal craft and
+process knowledge still matter. The corpus does not isolate what caused approval. See the
+[proposal evidence audit](../research/unicode-winning-submissions/analysis.md).
 
 ---
 

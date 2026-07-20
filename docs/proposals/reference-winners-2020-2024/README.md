@@ -1,14 +1,25 @@
-# Every emoji proposal since 2020 that succeeded
+# Accepted proposal reference set, L2/20 through L2/24
 
-Fifty-five proposals, written 2020 or later, whose emoji were encoded in Emoji 13.1 through 17.0.
-Identified from Unicode's official [emoji proposals chart](https://unicode.org/emoji/charts/emoji-proposals.html),
-cross-referenced to the L2 document registers, downloaded and converted 2026-07-09.
+Fifty-five documents associated with emoji encoded in Emoji 14.0 through 17.0. The files have L2 document
+dates from 2020 through 2024, but some underlying proposals were drafted earlier. This is a reference set,
+not every successful emoji submission and not a clean sample of independent public submitters. It includes
+repeated expert authors and at least one Emoji Subcommittee strategy document.
+
+The set was identified from Unicode's official accepted-proposal chart, cross-referenced to the L2 document
+registers, downloaded, and converted on 2026-07-09:
+
+https://www.unicode.org/emoji/charts/emoji-proposals.html
 
 Source PDFs are not committed (121 MB). Each file links to its PDF on unicode.org. The evidence
 screenshots live in the PDFs, so text extracted here understates how much evidence each proposal carried.
 
-See [`../../plans/2026-07-09-winners-vs-losers.md`](../../plans/2026-07-09-winners-vs-losers.md)
-for what separates them from proposals that failed.
+The former winners-versus-losers comparison has been retired. See the reproducibility audit:
+
+[`../../research/unicode-winning-submissions/analysis.md`](../../research/unicode-winning-submissions/analysis.md)
+
+Text-layer word counts are extraction measurements, not prose-quality scores. Eye Bags Face has a near-empty
+text layer even though the 11-page PDF is substantive. Embedded PDF image counts are also not screenshot
+counts because masks, repeated objects, and scans change the totals.
 
 | Doc | Emoji version | Title | Authors | Words |
 |---|---|---|---|---|

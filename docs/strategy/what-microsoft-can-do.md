@@ -8,7 +8,7 @@ Every item below is something an individual submitter structurally cannot supply
 
 ---
 
-## The two named reasons a good proposal gets declined
+## Two named reasons a good proposal can be declined
 
 From Unicode's own FAQ, verbatim:[^1]
 
@@ -21,8 +21,8 @@ And:
 > Standard should not be burdened with emoji-like pictographic symbols that are never 'emojified' by major
 > vendors."
 
-So a proposal that is already well-formed fails for exactly two reasons. **Microsoft can speak to both.**
-Shuhan can speak to neither.
+The FAQ says these are examples, not the only two decline reasons. **Microsoft can still supply unusually
+strong evidence on both.** Shuhan cannot independently make a commitment on Microsoft's behalf.
 
 ---
 
@@ -34,9 +34,11 @@ vendor.
 A written statement from Rhew's organization that Microsoft intends to implement the proposed characters in
 Segoe UI Emoji directly removes one of the two named decline reasons.
 
-**No proposal in our corpus has ever carried one.** I searched all 55 winners and all 29 losers. The word
-"vendor" appears only in discussions of how vendors *draw* existing emoji, never as a commitment to ship. A
-vendor commitment letter would be novel, on-point, and impossible for an individual submitter to obtain.
+**No document in the tracked 55-document accepted reference set carries one.** The former 29-document
+comparison corpus was not preserved and cannot support this claim. In the accepted texts, the word "vendor"
+appears in discussions of how vendors draw emoji, not as a commitment to ship. A vendor commitment letter
+would therefore be unusual and directly relevant, although no public evidence establishes how much weight it
+would receive.
 
 This is the ask. It is not a favour to a colleague, it is a statement of product intent, and it belongs in
 `Other Information` of the proposal and in a short covering letter.

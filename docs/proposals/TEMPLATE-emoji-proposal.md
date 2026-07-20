@@ -3,13 +3,13 @@
 Fill every `{{PLACEHOLDER}}`. Delete every `> guidance` block before export. Export to PDF, host it
 publicly, and submit the link through <https://forms.gle/6KSiYHrUdBkTMNaB8>.
 
-Derived from all 55 proposals written since 2020 whose emoji were encoded, measured against 29 proposals
-from the same registers whose emoji never were. Evidence in
-[`winners-vs-losers.md`](../plans/2026-07-09-winners-vs-losers.md).
+Controlled by the current
+[`best-in-class specification`](emoji-proposal-approval-rubric.md) and Unicode's current guidelines:
+https://www.unicode.org/emoji/proposals.html
 
-> **Budget before you start.** Winners: median **907 words**, **7 pages**, **26 images**. Losers: **1,485
-> words**, **9 pages**, **18 images**. Losers write more and show less. Every paragraph you add past 1,200
-> words is evidence you did not gather a screenshot.
+The archived 55-versus-29 comparison has been retired because the 29-document cohort and analysis code were
+not preserved. There is no validated winning word, page, or image-count threshold. Write only the prose
+needed to make a complete, reproducible case.
 
 ---
 
@@ -34,9 +34,8 @@ from the same registers whose emoji never were. Evidence in
 
 > *"Do not repeat the name of the emoji. Consider terms that people would use to find this emoji."*
 >
-> Winners: orca → `killer whale`. Lung → `breath, inhalation, exhalation, respiration`.
-> Heart → `heartbeat, pulse, center`. Unicode adopted all three verbatim.
-> Our declined kidney → `Kidney`. That is the emoji's name.
+> Examples: orca -> `killer whale`. Lung -> `breath, inhalation, exhalation, respiration`.
+> Heart -> `heartbeat, pulse, center`. Our declined kidney used `Kidney`, which only repeated the name.
 >
 > Fingerprint (`L2/23-258`, encoded) filed sixteen: `biometric; crime; crime scene; criminal; dactylogram;
 > dactyloscopy; dermatoglyphics; finger; fingerprint; identification; identity; latent; minutia; phalange;
@@ -44,10 +43,10 @@ from the same registers whose emoji never were. Evidence in
 
 **Category:** {{group}} {{subgroup}}
 
-> Format matches Emoji Ordering, e.g. `Objects medical` or `Animals & Nature animal-marine`.
-> Only 30% of winners state this and 10% of losers do. It costs one line.
+> Format matches Emoji Ordering, e.g. `Objects medical` or `Animals & Nature animal-marine`. Category is a
+> current required field. A separate sort-location field is not required by the 2026 format.
 
-**Sort location:** after {{EXISTING EMOJI}}
+**Optional suggested sort location:** after {{EXISTING EMOJI}}
 
 ---
 
@@ -69,26 +68,24 @@ from the same registers whose emoji never were. Evidence in
 
 - *"I certify that I am the creator of this image and have appropriate licenses for use by the UTC."*
   (Treasure Chest, `L2/24-255`, encoded)
-- *"Credit: {{ARTIST}}. Free for use in conjunction with this proposal."* (Lung, `L2/19-149`, encoded)
+- *"Artwork by {{ARTIST}}, created as a work for hire or assigned to {{RIGHTS OWNER}}. I certify that the
+  Submitter owns all IP Rights in these images."*
 - *"{{SOURCE}} ({{CC-BY-SA / CC0 / public domain}}), {{URL where the licence is clearly stated}}"*
   (Orca, `L2/24-249`, encoded)
 
-> Omitting this is an automatic rejection. The requirement holds *"even if the image(s) has been developed
-> by the Submitter with the assistance of AI tools."* Separately, you will sign an irrevocable, perpetual,
-> worldwide, royalty-free licence inside the form. Clear it with counsel before commissioning art.
+> Omitting the rights information is an automatic rejection. A historical credit-only line is not a safe
+> current model. The requirement holds *"even if the image(s) has been developed by the Submitter with the
+> assistance of AI tools."* Separately, the form grants an irrevocable, perpetual, worldwide, royalty-free
+> licence. Clear ownership before commissioning art.
 
 ---
 
-## 3. Reference emoji
+## 3. Factors for inclusion
 
-{{EXISTING EMOJI}} — and **elephant**, the mandated comparison term.
+> The nearest existing emoji belongs in Breaks new ground and Already representable. `elephant` is the
+> required frequency comparator; it is not a substitute for identifying the strongest semantic alternative.
 
----
-
-## 4. Factors for inclusion
-
-> Answer all seven, in this order. **Write `N/A` where honest.** Winners use `N/A` a median of once;
-> losers, zero times. Losers argue every factor and win none. The guidelines say plainly:
+> Answer all seven, in this order. **Write `N/A` where honest.** The guidelines say plainly:
 > *"Mark this as n/a unless there are compelling examples."*
 
 **a. Multiple meanings.** {{METAPHORS AND SYMBOLISM, or `N/A`}}
@@ -134,11 +131,10 @@ from the same registers whose emoji never were. Evidence in
 
 ---
 
-## 5. Counterarguments to factors for exclusion
+## 4. Counterarguments to factors for exclusion
 
-> Head the section like this, after Apple's `L2/18-080`. Answer each by name. Winners answer Faulty
-> Comparison 92% of the time; losers 72%. That gap is the single largest structural difference between the
-> two groups.
+> Answer every current exclusion factor by name. This is a current Unicode requirement, not a historical
+> success correlation.
 
 **a. Already representable.** {{NO, BECAUSE...}}
 
@@ -159,8 +155,9 @@ from the same registers whose emoji never were. Evidence in
 > Apple: *"we don't expect such discussion to lead to proposals for a large number of additions beyond the
 > current proposal."*
 >
-> Name the neighbours you are declining to propose. For a kidney, that means the pancreas, the gallbladder
-> and the spleen, by name. **This sentence forbids filing the kidney alongside the liver and the stomach.**
+> Name the strongest neighboring concepts a reviewer may raise and explain why this concept independently
+> merits consideration. Do not promise that no other organ will ever be proposed. Unicode requires one emoji
+> per proposal but does not forbid three separate organ proposals in the same cycle.
 
 **d. Transient.** {{WHY IT IS NOT A FAD}}
 
@@ -177,7 +174,7 @@ from the same registers whose emoji never were. Evidence in
 
 ---
 
-## 6. Other information
+## 5. Other information
 
 {{DESIGN GUIDANCE FOR VENDORS}}
 
@@ -187,12 +184,13 @@ from the same registers whose emoji never were. Evidence in
 
 ---
 
-## 7. Evidence of frequency
+## 6. Evidence of frequency
 
 > *"Please read this section and follow all the instructions; otherwise your proposal will likely be
 > rejected."* All five sources. Each a **screenshot**. `elephant` in the Trends and Ngram screenshots.
 >
-> Only 32% of winners show the elephant comparator; 13% of losers do. Do it.
+> Include the elephant comparator because the current instructions require it, not because a historical
+> percentage predicts approval.
 
 | Source | Screenshot | Notes |
 |---|---|---|
@@ -208,36 +206,35 @@ browser window."*
 > Copied from Apple's `L2/18-080`. Our packets never stated a capture method, and
 > `previous-proposal-review.md` lists that as a top failure.
 
-**Search craft, all mandatory:**
+**Search craft:**
 
 - **Hyphenate multiword terms.** `[blood-bag]`, not `[blood bag]`. *"Otherwise the search data you supply
   will likely be rejected."*
-- **Search the object, never the phrase.** Apple: *"searching for 'person with wheelchair'… did not produce
-  significant results."* Search `[kidney]`, never `[kidney emoji]`.
+- **Search the proposed concept, not calls for an emoji.** Explain disambiguation or category terms when a
+  query has unrelated meanings. Do not use `[kidney emoji]` as frequency evidence for `[kidney]`.
 - **Use a qualifying category in Trends, and say so in one sentence.** Orca: *"it has been selected as
-  'animal' instead of 'search term' to get correct results regardless of naming or language."* Almost
-  nobody does this.
-- **Add another language if the concept is stronger elsewhere.** Orca conceded the global loss and won in
-  South America.
-- **Optional, and free credibility:** Wikipedia pageviews, as Orca did. Extra reproducible sources cost
-  nothing.
+  'animal' instead of 'search term' to get correct results regardless of naming or language."*
+- **Add another language when the concept is stronger elsewhere.** This is conditional, not a requirement
+  for every proposal.
+- **Optional:** Add a reproducible supplemental source only when it proves something the five required
+  sources do not.
 
 **Never include:**
 
 - Petitions, `change.org`, hashtags, Instagram, Twitter. *"Petitions or 'frequent requests' play no role in
-  emoji encoding approval, and are not acceptable as evidence for citation."* Cited by 75% of losers and 45%
-  of winners. It is the strongest single warning sign in the corpus.
+  emoji encoding approval, and are not acceptable as evidence for citation."* Follow the current rule even
+  when an old accepted proposal did otherwise.
 - A `Frequently Requested` section. It was in Unicode's 2020 template. It is now disallowed evidence.
 - **Cause arguments.** *"Please do not justify the addition of an emoji because it furthers a 'cause,' no
-  matter how worthwhile. A proposal may be advanced despite a 'cause' argument… but will not be advanced
-  because of it."* Awareness, stigma and advocacy language appears in 13% of losers and 1% of winners.
+  matter how worthwhile. A proposal may be advanced despite a 'cause' argument, but will not be advanced
+  because of it."*
 
 ---
 
 ## Pre-flight
 
-- [ ] Open-ended answer drafted first, naming the neighbours we will not propose
-- [ ] Under 1,200 words of prose; at least 20 images
+- [ ] Open-ended answer drafted first, explaining why this concept stands independently
+- [ ] No unnecessary prose; every material claim has a readable screenshot or citation
 - [ ] `N/A` written wherever honest, especially Completeness and Compatibility
 - [ ] Keywords contain no form of the emoji's name
 - [ ] Artwork contains no text, digits or barcodes; 18×18 and 72×72; colour and black and white; not grayscale
@@ -245,6 +242,6 @@ browser window."*
 - [ ] All five sources screenshotted; `elephant` in Trends and Ngram
 - [ ] Capture statement with month, year and private-window method
 - [ ] Zero petitions, zero social media, zero awareness language
-- [ ] One emoji per proposal
+- [ ] One emoji per proposal; parallel proposals each make an independent Open-ended case
 - [ ] Confirm the concept was not declined in the last four years
 - [ ] PDF hosted publicly; link submitted through the form

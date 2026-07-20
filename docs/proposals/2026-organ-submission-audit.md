@@ -32,8 +32,8 @@ The audit used:
   https://www.unicode.org/L2/L2025/25128-esr-priorities.pdf
 - The eight accepted proposal documents behind the nine Emoji 18.0 characters:
   https://www.unicode.org/emoji/charts-18.0/emoji-proposals.html
-- The historical comparison of 55 accepted documents and 29 not-encoded comparison documents:
-  `docs/plans/2026-07-09-winners-vs-losers.md`
+- The corrected accepted-proposal and confirmed-decline evidence audit:
+  `docs/research/unicode-winning-submissions/analysis.md`
 - Rendered inspection of every page in all three v1.7.0 PDFs.
 - Pixel-level inspection of all twelve required PNG assets.
 - Technical checks using `pdfinfo`, `pdffonts`, `pdftotext`, and `pdfimages`.

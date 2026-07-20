@@ -1,8 +1,10 @@
 # The 2020 to 2021 Emojination drafts
 
-Fifteen emoji proposals, recovered from `Emoji Proposals-20260710T003129Z-2-001.zip` and converted from
-`.docx` to markdown on 2026-07-09. **None of these ever became an L2 document.** They are the paper trail
-of everything this project submitted and lost.
+Fifteen emoji proposal drafts, recovered from `Emoji Proposals-20260710T003129Z-2-001.zip` and converted from
+`.docx` to markdown on 2026-07-09. **None became an L2 document.** Their concepts and dates correspond to
+Declined rows in Unicode's public proposal-status export, making this the repository's confirmed project
+failure archive. The public status data does not disclose every review reason, and the archive may not contain
+every proposal the project ever submitted.
 
 Fourteen of the sixteen files in the archive carry the title `… Emoji Proposal for Emojination`. A
 sixteenth, `Proposal for Emoji_ Tarsier.docx`, is unrelated to this project and was not imported.
@@ -47,7 +49,8 @@ Emoji 14.0, uses Bing Search, and contains the line `E. Frequently requested n/a
 these drafts. They were written to the template of the day, and the template of the day worked for other
 people.
 
-So the failure was not the writing. Do not conclude that it was.
+This proves that structural completeness alone did not advance them. It does not prove that writing and
+evidence quality played no role; Unicode's public status only says the selection criteria were not fulfilled.
 
 ### What has since become disqualifying
 
@@ -82,16 +85,23 @@ better destination, which is precisely the argument of
 Note also that six of the fifteen asked for the `MEDICAL` category. Those six are devices. Every proposal
 for an **organ** asked for `body parts`. The split in our own drafts is the split the standard still has.
 
-### Why they died, as best the record shows
+### What the record can and cannot explain
 
-Not the format. Two things separate these from the crutch:
+The status export confirms decline but does not publish a factor-by-factor rationale. The defensible findings
+are:
 
-1. **Nobody carried them.** Every medical emoji in the standard was filed by Emojination or its people.
-   These drafts are titled "for Emojination" and none of them reached the document register. Whatever
-   handoff was meant to happen did not.
-2. **The organs are open-ended.** The kidney's own exclusion section had to argue that adding a kidney
-   would not require adding every other organ. Fourteen organ and device proposals filed together answer
-   that question the wrong way.
+1. **They stopped before the L2 register.** An analysis limited to public L2 documents omits this early-screen
+   failure mode entirely.
+2. **The old evidence packages do not meet the current rules.** Most lack Ngram and elephant, and most include
+   social-media or frequent-request material that current instructions reject.
+3. **The organ slate raises an Open-ended risk.** Filing several organs together does not automatically fail
+   them and is not prohibited. It does require each one to show an independent, broad use case rather than a
+   claim that Unicode should complete an anatomy set.
+
+Do not infer that an organization is required. X-Ray, L2/20-214, was filed by two individuals and encoded in
+Emoji 14.0:
+
+https://www.unicode.org/L2/L2020/20214-x-ray-emoji.pdf
 
 See [`docs/strategy/unicode-map-and-strategy.md`](../../strategy/unicode-map-and-strategy.md) for the full
 provenance evidence.

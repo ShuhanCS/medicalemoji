@@ -39,30 +39,26 @@ attachments in this send package.
 Use the current [`best-in-class specification`](docs/proposals/emoji-proposal-approval-rubric.md) as the
 controlling project standard and the [`proposal template`](docs/proposals/TEMPLATE-emoji-proposal.md) as the
 drafting structure. The specification incorporates the current Unicode rules, the accepted Emoji 18.0
-cohort, and the earlier [`winners-versus-not-encoded analysis`](docs/plans/2026-07-09-winners-vs-losers.md).
+cohort, and the corrected [`proposal evidence audit`](docs/research/unicode-winning-submissions/analysis.md).
 
-| | Accepted (55) | Not encoded (29) |
-|---|---|---|
-| Median words | **907** | 1,485 |
-| Median images | **26** | 18 |
-| Has an exclusion section | 94% | 93% |
-| Answers Faulty comparison | **92%** | 72% |
-| Cites a petition or social media | 45% | **75%** |
-| Uses awareness / stigma / advocacy language | **1%** | **13%** |
+The earlier 55-versus-29 comparison is retired: the 29-document manifest, documents, and analysis code were
+never preserved, so its percentages and claimed winning thresholds are not reproducible. The tracked accepted
+archive still provides useful descriptions - 55 documents, median 907 extractable words and 7 pages - but not
+an approval model. PDF image-object counts are not screenshot counts.
 
-Six drafting rules supported by that directional comparison:
+Six current drafting rules:
 
-1. **Structure wins nothing.** Not-encoded proposals fill in the headings too. Never conclude a proposal was sound because
-   it had the right sections.
-2. **Prefer concise, evidence-dense writing.** A useful drafting target is under 1,200 words and over 20
-   relevant images, but neither is a Unicode rule. The comparison group wrote 60% more prose and showed a
-   third fewer images.
-3. **Write `N/A`.** Especially for Completeness and Compatibility. Arguing every factor drowns the strong ones.
-4. **No petitions, no Instagram, no `Frequently Requested`.** Disallowed evidence, offered unprompted.
-5. **No cause language.** *"A proposal may be advanced despite a 'cause' argument, but will not be advanced
-   because of it."* Awareness and stigma appear thirteen times more often in the documents that failed.
-6. **Draft the Open-ended answer first.** Do not argue that Unicode should encode a complete organ or
-   medical set. Every concept must stand on independent evidence.
+1. **Meet every current requirement.** Older accepted proposals do not override the 2026 instructions.
+2. **Structure is necessary, not sufficient.** All 15 confirmed declined Medical Emoji drafts answered every
+   exclusion heading.
+3. **Write `N/A` when instructed.** Especially for Completeness and Compatibility when there is no compelling
+   example.
+4. **No petitions, calls for an emoji, or `Frequently Requested` evidence.** Current Unicode instructions say
+   they are unacceptable.
+5. **Do not make a cause the justification.** Importance, awareness, and stigma cannot replace expected-use
+   evidence.
+6. **Draft the Open-ended answer first.** Kidney, Liver, and Stomach may be filed as three one-emoji proposals,
+   but each must stand independently and must not argue for completing an anatomy set.
 
 Never write "the heart and lungs were encoded, so the kidney should be." That is the textbook Faulty
 Comparison, and it is how a medical-importance argument tends to phrase itself.
@@ -85,15 +81,15 @@ https://github.com/ShuhanCS/medicalemoji/tree/codex/eligible-2026-slate/submissi
 Additional evidence-gated drafts for Ultrasound, Maze, and First Aid Kit:
 https://github.com/ShuhanCS/medicalemoji/tree/codex/eligible-2026-slate/submissions/v1.5.0
 
-Latest Kidney, Stomach, and Liver review release, pending eligibility, evidence, and small-size design clearance:
+Latest Kidney, Stomach, and Liver review release, confirmed eligible and pending evidence and small-size design clearance:
 https://github.com/ShuhanCS/medicalemoji/tree/codex/eligible-2026-slate/submissions/v1.7.0
 
 The `v1.7.0` release contains redesigned Kidney, Stomach, and Liver artwork and revised proposal PDFs with
 all five required frequency screenshots embedded in each PDF. It is a review release, not authority to file:
-the recorded 2022-11-04 decline notices remain an eligibility gate for the intake closing 2026-07-31;
-Stomach and Liver still rely on historical 2020 Search, Video, and Trends captures; and Liver's Trends
-screenshots are United States-only. A 2026-07-12 refresh attempt was blocked by Google Trends HTTP 429 and a
-Google Search CAPTCHA. See [`submissions/v1.7.0/manifest.md`](submissions/v1.7.0/manifest.md).
+Shuhan has confirmed eligibility, while Stomach and Liver still rely on historical 2020 Search, Video, and
+Trends captures and Liver's Trends screenshots are United States-only. A 2026-07-12 refresh attempt was
+blocked by Google Trends HTTP 429 and a Google Search CAPTCHA. See
+[`submissions/v1.7.0/manifest.md`](submissions/v1.7.0/manifest.md).
 
 The `v1.5.0` release contains full drafts for Ultrasound, Maze, and First Aid Kit. Maze now uses a mouse-maze
 paradigm. All three have original artwork and a fresh Google Books comparison; all remain evidence-gated until

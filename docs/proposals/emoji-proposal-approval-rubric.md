@@ -1,6 +1,6 @@
 # Best-in-Class Emoji Submission Specification
 
-Version: 2.0
+Version: 2.1
 
 Last checked: 2026-07-20
 
@@ -14,8 +14,8 @@ composite of:
 1. The current Unicode requirements, which control even when older accepted proposals used a different
    format.
 2. The strongest repeatable practices in the historical accepted-proposal corpus.
-3. The clearest differences between accepted proposals and a comparison group of proposals that were not
-   encoded.
+3. Reproducible descriptive observations from accepted proposals and from this project's confirmed declined
+   drafts. These observations are not an approval model.
 4. The latest Emoji 18.0 accepted cohort and the Emoji 19.0+ priorities published by the Emoji Standard &
    Research Working Group (ESR).
 
@@ -53,32 +53,59 @@ https://www.unicode.org/L2/L2025/25257-emoji-meteor.pdf
 The 2026 submission window closes at the end of day on 2026-07-31. The PDF must be publicly accessible
 without a login and submitted through the official form.
 
-## Evidence base and limits
+## Evidence hierarchy and limits
 
-### Historical comparison
+Every requirement in this specification has one of four evidence levels:
 
-The repository's prior structured comparison covered:
+- `U - Unicode requirement`: stated in the current official guidelines, agreement, form, or status rules.
+- `D - Current decision evidence`: stated in UTC minutes, ESR priorities, or the current accepted cohort.
+- `O - Observed practice`: a reproducible descriptive pattern in proposal documents. It does not prove cause.
+- `I - Internal control`: a project quality gate chosen to reduce filing risk. It is not a Unicode rule or an
+  approval predictor.
 
-- 55 proposal documents from 2020 onward associated with emoji encoded in Emoji 13.1 through 17.0.
-- 29 community proposal documents from similar registers that do not appear in the accepted-proposal chart.
+When sources conflict, `U` controls. A historical accepted proposal is never permission to ignore a current
+requirement.
 
-The second group is a "not encoded" comparison group, not a proven list of proposals declined solely because
-of document quality. The results are directional and should not be read as causal.
+### Audit of the historical comparison
 
-| Measure | Accepted (n=55) | Not encoded (n=29) |
-| --- | ---: | ---: |
-| Median words | 907 | 1,485 |
-| Median pages | 7 | 9 |
-| Median extracted images | 26 | 18 |
-| Median explicit `N/A` count | 1 | 0 |
-| Answers faulty comparison | 92% | 72% |
-| States a sort location | 30% | 10% |
-| Includes Trends evidence | 87% | 65% |
-| Shows the `elephant` comparator | 32% | 13% |
-| Cites petitions or social media | 45% | 75% |
-| Uses cause or advocacy language | 1 accepted document | 13 not-encoded documents |
+The former 55-versus-29 "winners versus losers" study is not reliable enough to support numeric approval
+claims. The repository contains the 55 accepted texts, but it contains no membership manifest, source files,
+extracted texts, or analysis code for the 29-document comparison group. Repository history confirms those
+artifacts were never committed. The report also incorrectly claimed that every submitted proposal from 2017
+through 2021 received an L2 document. This project's 15 confirmed declined drafts did not.
 
-The useful signal is evidence density and disciplined argument, not a hard word or page limit.
+The groups were also not matched: the accepted documents have L2 dates from 2020 through 2024, while the
+unavailable comparison was described as 2017 through 2021. At least 17 of the 55 accepted documents name
+Jennifer Daniel or the Emoji Subcommittee, and one is a committee strategy document rather than an ordinary
+public submission. Register absence, chart absence, and formal decline are different outcomes. Current status
+can also change: a proposal may be under consideration or later succeed through another document.
+
+The exact 29-document percentages and causal statements derived from them are retired. They must not be used
+to set word, page, image, sort-location, social-media, or cause-language thresholds.
+
+### What is reproducible
+
+The tracked accepted archive contains 55 documents associated with Emoji 14.0 through 17.0. Direct
+recomputation finds:
+
+- Median extractable text: 907 words; 919.5 after excluding the one near-empty text layer.
+- Median pages: 7.
+- Median explicit case-insensitive `N/A` count: 1.
+- The exclusion terms appear in 52 of 55; Faulty comparison in 51 of 55; elephant in 18 of 55.
+- A literal `sort location` match appears in 33 of 55, while normalized `sort location` or `sort order`
+  appears in 45 of 55. The former reported 30% rate cannot be reproduced.
+- Depending on whether masks, repeated objects, or unique PDF object IDs are counted, the median PDF image
+  total is 40, 30, or 24. PDF object counts are not counts of meaningful screenshots.
+
+The confirmed declined Medical Emoji archive contains 15 drafts. All 15 answer every exclusion heading,
+13 mention social-media or petition terms, 7 contain the audited cause terms, and only 3 mention elephant.
+This is useful project-specific failure evidence, but it still does not establish why each proposal was
+declined.
+
+Reproduction code and the detailed audit are in:
+
+- `evidence/emoji_proposal_corpus_audit.py`
+- `docs/research/unicode-winning-submissions/analysis.md`
 
 ### Emoji 18.0 update
 
@@ -105,9 +132,9 @@ The face was later changed to Cracking Face using L2/26-048:
 
 https://www.unicode.org/L2/L2026/26048-cracked-smiling-face-emoji.pdf
 
-The Emoji 18 documents range from 7 to 19 pages. Their median is 9 pages and their median extracted image
-count is 55. Text extraction is unreliable for the image-only Eraser PDF, so word counts are not treated as a
-quality measure for that cohort.
+The Emoji 18 documents range from 7 to 19 pages. Text extraction is unreliable for the image-only Eraser PDF,
+and embedded-image counts vary with PDF construction, so neither word count nor PDF object count is treated as
+a quality threshold for that cohort.
 
 UTC #185 records that the theme of the Emoji 18 set was compatibility. ESR's Emoji 19.0+ priorities then set a
 higher benchmark around cited empirical use, compatibility with popular systems where real, and improvements
@@ -123,20 +150,20 @@ or comparison with weaker historical emoji.
 
 If any gate is unresolved, label the proposal `NOT READY TO SUBMIT` regardless of its score.
 
-| Gate | Required outcome |
-| --- | --- |
-| Eligibility | The concept is confirmed eligible, not already approved, and not blocked by status or the four-year rule. Save the confirmation. |
-| Coordination | No unresolved duplicate or parallel submission exists for the concept. |
-| Authorship | Every submitter has explicitly agreed to be named. One person is the main point of contact. Multiple names use semicolons. |
-| Public PDF | The exact final PDF has a stable public HTTPS URL that works logged out. |
-| Official form | The exact public PDF is filed through the official form before the deadline. |
-| Rights | The submitter can make the required ownership or open-license warranty. |
-| Required art | Color and true black-and-white images at exactly 18x18 and 72x72 appear at the top of page 1. |
-| Frequency evidence | All five required screenshots are present, dated, reproducible, and legible. |
-| Comparator and scope | Trends and Ngram show `elephant`; tools with range/location settings use the widest possible range. |
-| Selection factors | Every current inclusion and exclusion factor is answered; unsupported positive factors are marked `Not applicable`. |
-| Automatic-decline screen | No logo, brand, protected work, UI icon, signage, text, exact-image demand, directional variant, or other excluded category is present. |
-| Final QA | The PDF has no draft note, stale date, placeholder, broken image, clipped text, unreadable screenshot, or contradictory status statement. |
+| Gate | Level | Required outcome |
+| --- | --- | --- |
+| Eligibility | U | The concept is confirmed eligible, not already approved, and not blocked by status or the four-year rule. Save the confirmation. |
+| Coordination | U/I | No unresolved duplicate exists for the concept. Coordinate parallel authors where possible. |
+| Authorship | U/I | Every submitter has explicitly agreed to be named. One person is the main point of contact. Multiple names use semicolons. |
+| Public PDF | U | The exact final PDF has a stable public HTTPS URL that works logged out. |
+| Official form | U | The exact public PDF is filed through the official form before the deadline. |
+| Rights | U | The submitter can make the required ownership or open-license warranty. |
+| Required art | U | Color and true black-and-white images at exactly 18x18 and 72x72 appear at the top of page 1. |
+| Frequency evidence | U | All five required screenshots are present, reproducible, and legible. |
+| Comparator and scope | U | Trends and Ngram show `elephant`; tools with range/location settings use the widest possible range. |
+| Selection factors | U | Every current inclusion and exclusion factor is answered; unsupported positive factors are marked `Not applicable`. |
+| Automatic-decline screen | U | No logo, brand, protected work, UI icon, signage, text, exact-image demand, directional variant, or other excluded category is present. |
+| Final QA | I | The PDF has no draft note, stale date, placeholder, broken image, clipped text, unreadable screenshot, or contradictory status statement. |
 
 ### 2. First-page contract
 
@@ -145,11 +172,13 @@ The top of page 1 must contain, in this order or an equally obvious arrangement:
 - `Proposal for Emoji: <name>`.
 - Submitter names and one named main point of contact.
 - Current revision date.
-- Suggested name, search-oriented keywords that do not repeat the name, category, and useful sort location.
+- Suggested name, search-oriented keywords that do not repeat the name, and category.
 - Color and black-and-white 18x18 and 72x72 images.
 - A direct image-rights and license statement by the person authorized to make it.
 
-The reviewer should be able to validate identity, scope, imagery, and rights without leaving page 1.
+The reviewer should be able to validate identity, scope, imagery, and rights without leaving page 1. A suggested
+sort location can be included as optional reviewer assistance, but the current format requires category, not a
+separate sort-location field.
 
 ### 3. Evidence standard
 
@@ -168,7 +197,7 @@ For every capture, record the date, complete query URL, location, range, search 
 Use a private browser when possible. Do not silently crop away the settings or the result needed to reproduce
 the claim.
 
-Best-in-class evidence also does the following:
+Best-in-class evidence also does the following (`I`, unless the current guideline states otherwise):
 
 - Uses recent captures for a current filing unless an older snapshot adds historical value.
 - Separates frequency evidence from examples of meaning.
@@ -231,8 +260,8 @@ Write these answers before polishing the inclusion case:
 
 ### 6. Writing and layout standard
 
-- Prefer 800 to 1,200 words of argument, excluding screenshot labels and URLs, when the case fits. This is a
-  drafting target, not a Unicode limit.
+- Use no more prose than the case needs. There is no validated winning word, page, or image-count threshold.
+  A short proposal is useful only when it remains complete and evidentially strong.
 - Use direct section names that mirror the current guidelines.
 - Put the conclusion first in each factor.
 - Use tables only when they reduce reviewer effort.
@@ -252,6 +281,12 @@ Write these answers before polishing the inclusion case:
 
 Credentials and affiliations are optional in the PDF. Names must be consistent between the PDF, public file,
 and official form.
+
+Unicode requires one emoji per proposal; it does not forbid one submitter from filing three separate proposals
+in the same cycle. Kidney, Liver, and Stomach may therefore be filed as three documents. Because parallel organ
+proposals intensify the `Open-ended` objection, each document must avoid a set-completion argument and prove why
+that organ independently deserves one of the limited annual additions. Do not promise that no other organ will
+be proposed, and do not claim that filing one organ logically requires the other two.
 
 ## Internal 100-point readiness score
 

@@ -1,16 +1,20 @@
-# Unicode Winning Submissions Research
+# Unicode Accepted-Proposal Research
 
-This folder tracks accepted Unicode emoji proposal documents so Medical Emoji can compare kidney, stomach, and future packets against successful precedent.
+This folder tracks accepted Unicode emoji proposal documents and the audit of what those documents can and
+cannot establish. Accepted precedent is descriptive; it is not an approval model and never overrides the
+current guidelines.
 
 ## Files
 
 - `accepted-emoji-proposals-manifest.json` - machine-readable manifest of all accepted proposal rows pulled from Unicode's accepted-proposals chart.
-- `analysis.md` - practical analysis of what accepted proposals tend to do well and how that should shape kidney/stomach.
+- `analysis.md` - reproducibility and methodology audit, including the retired 55-versus-29 comparison.
+- `corpus-audit-2026-07-20.json` - generated measurements from the tracked accepted and confirmed-decline
+  archives.
 
 ## Primary Source
 
 Unicode Emoji Proposals chart:
-https://unicode.org/emoji/charts/emoji-proposals.html
+https://www.unicode.org/emoji/charts/emoji-proposals.html
 
 Unicode proposal guidelines:
 https://www.unicode.org/emoji/proposals.html
