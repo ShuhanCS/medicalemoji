@@ -2,7 +2,8 @@
 
 Prepared: 2026-07-12
 
-Status: **Design-reviewed submission candidates. Confirm eligibility and refresh the identified evidence before filing.**
+Status: **Confirmed eligible submission candidates. Refresh the identified evidence and complete the
+one-by-one proposal review before filing.**
 
 Guidance reviewed: Unicode's `Guidelines for Submitting Unicode Emoji Proposals`, updated 2026-05-20.
 
@@ -40,12 +41,12 @@ was fabricated or substituted.
 
 ## Filing gate
 
-The content and PDFs are complete, but the recorded decline notices for Kidney, Stomach, and Liver are dated
-2022-11-04. Unicode's live guidance says emoji declined within the last four years are not eligible for
-re-review, while the 2026 intake closes 2026-07-31. Do not file these three PDFs in the current intake unless
-Unicode confirms that the concepts are eligible under its controlling-date interpretation.
+Shuhan He has confirmed that Kidney, Stomach, and Liver are eligible for the 2026 intake. Preserve the written
+confirmation in the filing record. Eligibility is settled; the v1.7.0 PDFs are not yet submission-ready.
+Complete the one-by-one review in the
+[2026 submission slate specification](../../docs/proposals/2026-submission-slate-spec.md).
 
-After eligibility is confirmed, the individual submitter must:
+After each proposal passes the content, evidence, art, and technical gates, the individual submitter must:
 
 1. Review the final publicly hosted PDF.
 2. Accept the Unicode Emoji Proposal Agreement and License.

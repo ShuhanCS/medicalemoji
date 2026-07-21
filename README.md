@@ -7,6 +7,7 @@ active submission slate. Eligibility is settled; submission quality is not. The 
 audited and must be corrected one at a time before filing:
 
 - Best-in-class specification: [`docs/proposals/emoji-proposal-approval-rubric.md`](docs/proposals/emoji-proposal-approval-rubric.md)
+- One-by-one slate and review spec: [`docs/proposals/2026-submission-slate-spec.md`](docs/proposals/2026-submission-slate-spec.md)
 - Organ-by-organ audit: [`docs/proposals/2026-organ-submission-audit.md`](docs/proposals/2026-organ-submission-audit.md)
 - Current proposal release: [`submissions/v1.7.0/`](submissions/v1.7.0/)
 
