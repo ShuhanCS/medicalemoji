@@ -10,7 +10,7 @@ This release contains nine independent proposal packets for re-eligible Medical 
 | Blood Bag | Complete packet | `blood-bag/blood-bag_emoji_proposal_SUBMIT.pdf` | Refresh 2020 Search, Video, and Trends captures if a clean session is available |
 | Pill Box | Complete packet | `pill-box/pill-box_emoji_proposal_SUBMIT.pdf` | Refresh 2020 Search, Video, and Trends captures if a clean session is available |
 | Weight Scale | Evidence-gated draft | `weight-scale/weight-scale_emoji_proposal_DRAFT.pdf` | Add fresh Web and Image Trends captures against `elephant` |
-| White Blood Cell | Evidence-gated draft | `white-blood-cell/white-blood-cell_emoji_proposal_DRAFT.pdf` | Replace archived Web Trends comparator and add Image Trends against `elephant` |
+| White Blood Cell | Selected 2026 review candidate | `white-blood-cell/white-blood-cell_emoji_proposal_DRAFT.pdf` | Refresh Search and Video; replace Web Trends and add Image Trends against `elephant`; pass Microbe/generic-cell recognition test |
 | Inhaler | Evidence-gated draft | `inhaler/inhaler_emoji_proposal_DRAFT.pdf` | Add Google Video; replace both archived Trends charts with Worldwide `elephant` comparisons |
 | IV Bag | Evidence-gated draft | `iv-bag/iv-bag_emoji_proposal_DRAFT.pdf` | Add fresh Web and Image Trends captures against `elephant` |
 | Leg Cast | Evidence-gated draft | `leg-cast/leg-cast_emoji_proposal_DRAFT.pdf` | Replace both archived Trends comparators with `elephant`; resolve modifier complexity |
@@ -32,7 +32,7 @@ Do not file all nine. Eligibility only determines what may be considered; it doe
 1. **Advance CT Scan for Microsoft review now.** It has the strongest combined packet: all five evidence categories, comparatively strong published-book usage, a recognizable small-size form, and distinct appointment/procedure meanings not carried by X-Ray.
 2. **Use Weight Scale as the challenger after Trends recapture.** It has the largest recovered Search and Video counts and broad nonclinical use, but it is not filing-complete today.
 3. **Keep Blood Bag as the second complete fallback.** It has a complete evidence set and a clear transfusion/donation meaning, but Drop of Blood is a stronger existing-emoji substitute than X-Ray is for CT Scan.
-4. **Hold White Blood Cell, Inhaler, Pill Box, IV Bag, Leg Cast, and Pill Pack unless new evidence materially changes the comparison.** Their current cases carry greater overlap, visual ambiguity, prior recognition concerns, modifier complexity, or evidence gaps.
+4. **White Blood Cell is now selected for the active 2026 slate and must be reevaluated under the current proposal rubric.** Hold Inhaler, Pill Box, IV Bag, Leg Cast, and Pill Pack unless a later slate decision changes scope.
 
 Pill Pack and Pill Box should not both be filed in the same intake. Blood Bag and IV Bag should also be treated as a portfolio choice because their monochrome silhouettes are closely related.
 

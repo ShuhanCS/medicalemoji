@@ -1,18 +1,20 @@
 # Medical Emoji
 
-## Current 2026 organ slate
+## Current 2026 submission slate
 
-Shuhan He has confirmed that Kidney, Liver, and Stomach are eligible for the 2026 intake and will be the
-active submission slate. Eligibility is settled; submission quality is not. The current v1.7.0 PDFs have been
-audited and must be corrected one at a time before filing:
+The active 2026 submission slate is White Blood Cell, Kidney, Stomach, and Liver. Shuhan He has confirmed the
+three organs are eligible, and White Blood Cell is outside the four-year resubmission bar after its 2020
+decline. Eligibility is settled; submission quality is not. The proposals must be corrected one at a time
+before filing:
 
 - Best-in-class specification: [`docs/proposals/emoji-proposal-approval-rubric.md`](docs/proposals/emoji-proposal-approval-rubric.md)
 - One-by-one slate and review spec: [`docs/proposals/2026-submission-slate-spec.md`](docs/proposals/2026-submission-slate-spec.md)
 - Organ-by-organ audit: [`docs/proposals/2026-organ-submission-audit.md`](docs/proposals/2026-organ-submission-audit.md)
-- Current proposal release: [`submissions/v1.7.0/`](submissions/v1.7.0/)
+- Organ baseline: [`submissions/v1.7.0/`](submissions/v1.7.0/)
+- White Blood Cell baseline: [`submissions/v1.3.0/white-blood-cell/`](submissions/v1.3.0/white-blood-cell/)
 
-Authorship is fixed for this slate: Kidney uses the complete eight-person author list in v1.7.0; Liver and
-Stomach list only Shuhan He. The 2026 submission window closes at the end of day on 2026-07-31.
+Authorship is fixed for this slate: Kidney uses the complete eight-person author list in v1.7.0; White Blood
+Cell, Stomach, and Liver list only Shuhan He. The 2026 submission window closes at the end of day on 2026-07-31.
 
 ## ⏳ Deadlines
 
@@ -153,7 +155,7 @@ proposal workspaces. Status rows are from Unicode's live public proposal-status 
 | Spine | Active site candidate | `Spine` declined 2020-10-27; `Spine` declined 2024-04-05 | Declined | 2024-04-05 | 2028-04-05 | Do not resubmit before 2028 unless Unicode confirms a materially different concept is eligible. |
 | Intestines | Active site candidate | `Intestines` declined 2020-12-18; `Intestines` declined 2024-04-04 | Declined | 2024-04-04 | 2028-04-04 | Do not resubmit before 2028 unless Unicode confirms eligibility. |
 | ECG / EKG | Active site candidate | `ECG` declined 2020-12-18; `ECG` declined 2024-04-05 | Declined | 2024-04-05 | 2028-04-05 | Do not resubmit before 2028 unless Unicode confirms eligibility. |
-| White Blood Cell | Active site candidate | `White Blood Cell` declined 2020-12-18 | Declined | 2020-12-18 | 2024-12-18 | Draft complete in `submissions/v1.3.0/`; replace Trends evidence. |
+| White Blood Cell | Active 2026 slate | `White Blood Cell` declined 2020-12-18 | Reeligible; selected for 2026 review | 2020-12-18 | 2024-12-18 | Review first; refresh Search and Video, replace Web Trends, add Image Trends, and pass an 18x18 recognition test against Microbe and generic-cell imagery. |
 | Blood Bag | Active site candidate | `Blood bag` declined 2017-05-16; `Blood Bag (B)` declined 2020-12-18 | Declined | 2020-12-18 | 2024-12-18 | Current filing choice in `submissions/v1.3.0/`; refresh evidence, factor labels, metadata, citations, and ownership language before filing. |
 | Pill Pack | Active site candidate | `Pill Pack` declined 2020-12-18 | Declined | 2020-12-18 | 2024-12-18 | Draft complete; hold behind Pill Box and finish Trends only if advanced. |
 | Weight Scale | Active site candidate | `Bathroom Scale` expired 2018-02-27; `Weight Scale (B)` declined 2020-12-18 | Declined | 2020-12-18 | 2024-12-18 | Challenger draft complete; add two Trends captures. |

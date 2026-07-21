@@ -1,6 +1,6 @@
 # 2026 Emoji Submission Slate and One-by-One Review Specification
 
-Version: 1.0.0
+Version: 1.1.0
 
 Date: 2026-07-21
 
@@ -12,11 +12,12 @@ https://www.unicode.org/emoji/proposals.html
 
 ## Decision
 
-Prepare exactly three emoji proposals for the 2026 intake:
+Prepare exactly four emoji proposals for the 2026 intake:
 
-1. Kidney
-2. Stomach
-3. Liver
+1. White Blood Cell
+2. Kidney
+3. Stomach
+4. Liver
 
 Each concept will be a separate proposal PDF and a separate submission-form entry. They are not presented as
 an anatomy set, and no proposal may depend on the other two for its selection case.
@@ -28,14 +29,19 @@ slate decision, not because related files already exist in the repository.
 
 | Order | Proposal | Baseline packet | Prior internal baseline | Why this order |
 | ---: | --- | --- | ---: | --- |
-| 1 | Kidney | [v1.7.0 Kidney](../../submissions/v1.7.0/kidney/) | 79/100 | Strongest current frequency package; remaining risk is concentrated in art recognition, citations, and final filing controls. |
-| 2 | Stomach | [v1.7.0 Stomach](../../submissions/v1.7.0/stomach/) | 77/100 | Strong semantic and silhouette case; four frequency captures must be refreshed and enlarged. |
-| 3 | Liver | [v1.7.0 Liver](../../submissions/v1.7.0/liver/) | 64/100 | Requires the most work: current worldwide evidence, stronger small-size art, and better support for usage claims. |
+| 1 | White Blood Cell | [v1.3.0 White Blood Cell](../../submissions/v1.3.0/white-blood-cell/) | Not yet rescored | Newly selected fourth proposal; first determine whether its cell paradigm is recognizable and independently selective before investing in the full filing packet. |
+| 2 | Kidney | [v1.7.0 Kidney](../../submissions/v1.7.0/kidney/) | 79/100 | Strongest current frequency package; remaining risk is concentrated in art recognition, citations, and final filing controls. |
+| 3 | Stomach | [v1.7.0 Stomach](../../submissions/v1.7.0/stomach/) | 77/100 | Strong semantic and silhouette case; four frequency captures must be refreshed and enlarged. |
+| 4 | Liver | [v1.7.0 Liver](../../submissions/v1.7.0/liver/) | 64/100 | Requires the most work: current worldwide evidence, stronger small-size art, and better support for usage claims. |
 
 The baseline scores came from the earlier readiness audit. They are not Unicode scores or approval
 probabilities, and each proposal must be rescored after correction under the current proposal-level rubric.
 
 ## Fixed authorship
+
+### White Blood Cell
+
+Submitter and main point of contact: Shuhan He only.
 
 ### Kidney
 
@@ -54,12 +60,13 @@ Submitter and main point of contact: Shuhan He only.
 
 Submitter and main point of contact: Shuhan He only.
 
-Do not copy the Kidney author list into Stomach or Liver. Credentials and affiliations are optional; names must
-match the proposal PDF and submission form exactly.
+Do not copy the Kidney author list into White Blood Cell, Stomach, or Liver. Credentials and affiliations are
+optional; names must match the proposal PDF and submission form exactly.
 
 ## Source and release policy
 
-- Treat `submissions/v1.7.0/` as the immutable reviewed baseline.
+- Treat `submissions/v1.7.0/` as the immutable organ baseline and the White Blood Cell folder in
+  `submissions/v1.3.0/` as its immutable baseline.
 - Build substantive corrected proposals into the next versioned packet, expected to be
   `submissions/v1.8.0/`.
 - Keep editable Markdown, exact-size PNGs, source artwork, evidence screenshots, and the generated PDF together
@@ -159,6 +166,23 @@ Do not begin the next concept until this report and the corrected files are comp
 
 ## Proposal-specific review focus
 
+### White Blood Cell
+
+- Preserve Shuhan He as the sole submitter and main point of contact.
+- Refresh the 2020 Google Search and Video captures; replace the noncompliant Web Trends comparison and add
+  Image Trends, both worldwide against `elephant`.
+- Test the 18x18 color and black-and-white art against Microbe, Drop of Blood, Soap, Bubbles, and a generic
+  cell. The lobed nucleus must remain visible without making the image look like a face or cartoon germ.
+- Decide whether unprompted viewers recognize `white blood cell`, the broader `blood cell`, or only `cell`.
+  Revise the paradigm if Microbe or generic cell dominates.
+- Cite or remove claims about immunity, infection, inflammation, white-cell counts, laboratory results,
+  chemotherapy monitoring, education, and research.
+- Keep the concept at the broad leukocyte category. Do not imply that Unicode should add every blood cell,
+  immune-cell subtype, laboratory value, or disease marker.
+- Directly rebut Microbe, Drop of Blood, Test Tube, Microscope, and Shield as substitutes.
+- Keep Completeness and Compatibility as `N/A`; retain Multiple meanings or sequences only where the examples
+  are independently useful and not merely clinical labels.
+
 ### Kidney
 
 - Preserve the complete eight-person author list.
@@ -184,14 +208,14 @@ Do not begin the next concept until this report and the corrected files are comp
 
 ## Cross-slate consistency pass
 
-After the three individual reviews:
+After the four individual reviews:
 
 1. Confirm the author lists and main contact one final time.
 2. Confirm that each proposal has a distinct independent-use case and no set-completion argument.
-3. Compare all three 18x18 glyphs side by side in color and black-and-white.
+3. Compare all four 18x18 glyphs side by side in color and black-and-white.
 4. Harmonize shared terminology without duplicating unsupported claims.
 5. Confirm that dates, category names, rights statements, evidence methods, and file naming are consistent.
-6. Re-render and inspect all three final PDFs.
+6. Re-render and inspect all four final PDFs.
 7. Verify that every proposal independently meets every must-pass gate.
 
 ## Status vocabulary
@@ -224,8 +248,9 @@ A proposal is finished only when:
 
 | Target date | Deliverable |
 | --- | --- |
-| 2026-07-23 | Kidney corrected packet and readiness decision |
-| 2026-07-25 | Stomach corrected packet and readiness decision |
+| 2026-07-22 | White Blood Cell corrected packet and readiness decision |
+| 2026-07-24 | Kidney corrected packet and readiness decision |
+| 2026-07-26 | Stomach corrected packet and readiness decision |
 | 2026-07-28 | Liver corrected packet and readiness decision |
 | 2026-07-29 | Cross-slate consistency and final PDF inspection |
 | 2026-07-30 | Public URLs, final authorization, and intended filing day |
@@ -233,6 +258,7 @@ A proposal is finished only when:
 
 ## Execution ledger
 
+- [ ] White Blood Cell reviewed, corrected, and marked `READY TO PUBLISH`.
 - [ ] Kidney reviewed, corrected, and marked `READY TO PUBLISH`.
 - [ ] Stomach reviewed, corrected, and marked `READY TO PUBLISH`.
 - [ ] Liver reviewed, corrected, and marked `READY TO PUBLISH`.
