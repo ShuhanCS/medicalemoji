@@ -219,15 +219,19 @@ browser window."*
 - **Optional:** Add a reproducible supplemental source only when it proves something the five required
   sources do not.
 
-**Never include:**
+**Do not use as frequency evidence or as the reason for encoding:**
 
-- Petitions, `change.org`, hashtags, Instagram, Twitter. *"Petitions or 'frequent requests' play no role in
-  emoji encoding approval, and are not acceptable as evidence for citation."* Follow the current rule even
-  when an old accepted proposal did otherwise.
+- Petitions, `change.org`, hashtags, or social-media calls requesting the emoji. *"Petitions or 'frequent
+  requests' play no role in emoji encoding approval, and are not acceptable as evidence for citation."*
+  Follow the current rule even when an old accepted proposal did otherwise. An illustrative mockup of ordinary
+  use is different from presenting calls for the emoji as frequency evidence.
 - A `Frequently Requested` section. It was in Unicode's 2020 template. It is now disallowed evidence.
-- **Cause arguments.** *"Please do not justify the addition of an emoji because it furthers a 'cause,' no
-  matter how worthwhile. A proposal may be advanced despite a 'cause' argument, but will not be advanced
-  because of it."*
+- **A cause as the selection justification.** *"Please do not justify the addition of an emoji because it
+  furthers a 'cause,' no matter how worthwhile. A proposal may be advanced despite a 'cause' argument, but
+  will not be advanced because of it."* Cause-related meanings may be described when they are established and
+  cited, but the proposal must still win on independent communicative use and the selection factors. Monarch
+  Butterfly is the accepted counterexample that makes this distinction important:
+  https://www.unicode.org/L2/L2025/25254-emoji-butterfly.pdf
 
 ---
 
@@ -241,7 +245,7 @@ browser window."*
 - [ ] Licence sentence present and true
 - [ ] All five sources screenshotted; `elephant` in Trends and Ngram
 - [ ] Capture statement with month, year and private-window method
-- [ ] Zero petitions, zero social media, zero awareness language
+- [ ] No petitions or social-media calls used as evidence; no cause used as the reason for encoding
 - [ ] One emoji per proposal; parallel proposals each make an independent Open-ended case
 - [ ] Confirm the concept was not declined in the last four years
 - [ ] PDF hosted publicly; link submitted through the form

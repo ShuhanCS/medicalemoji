@@ -1,6 +1,6 @@
 # Best-in-Class Emoji Submission Specification
 
-Version: 2.1
+Version: 2.2
 
 Last checked: 2026-07-20
 
@@ -8,27 +8,36 @@ Applies to: Kidney, Liver, and Stomach proposals for the 2026 Unicode intake
 
 ## Decision
 
-There is no single accepted proposal that should be copied verbatim. The best submission model is a
-composite of:
+This specification evaluates proposal documents, not L2 numbering or registry mechanics. L2 identifiers are
+used only to cite source PDFs.
+
+There is no single accepted proposal that should be copied verbatim. The best submission model is a composite
+of:
 
 1. The current Unicode requirements, which control even when older accepted proposals used a different
    format.
 2. The strongest repeatable practices in the historical accepted-proposal corpus.
-3. Reproducible descriptive observations from accepted proposals and from this project's confirmed declined
-   drafts. These observations are not an approval model.
+3. Direct review of accepted proposal arguments, evidence, artwork, and page design, plus this project's
+   confirmed declined drafts. These observations are not an approval model.
 4. The latest Emoji 18.0 accepted cohort and the Emoji 19.0+ priorities published by the Emoji Standard &
    Research Working Group (ESR).
 
-The closest single general-purpose exemplar is Treasure Chest, L2/24-255. It is concise, treats the emoji as
-a broad building block, states independent utility, and answers the exclusion factors directly:
+The closest current general-purpose exemplar is Lighthouse. It has a clean first page, follows the current
+factor order, presents all five frequency sources, uses `N/A` directly, and answers the exclusions without
+trying to win by importance:
+
+https://www.unicode.org/L2/L2025/25256-emoji-lighthouse.pdf
+
+Treasure Chest is the strongest concise exemplar. It treats the emoji as a broad building block, states
+independent utility, and answers the exclusion factors directly in four pages:
 
 https://www.unicode.org/L2/L2024/24255-treasure-chest-emoji.pdf
 
-Fingerprint, L2/23-258, is a stronger model for reproducible evidence and disciplined technical presentation:
+Fingerprint is the strongest model for reproducible evidence and disciplined technical presentation:
 
 https://www.unicode.org/L2/L2023/23258-fingerprint-emoji.pdf
 
-Meteor, L2/25-257, is the clearest current model for a genuine interoperability proposal, but its compatibility
+Meteor is the clearest current model for a genuine interoperability proposal, but its compatibility
 case must not be copied by a concept that lacks equivalent system evidence:
 
 https://www.unicode.org/L2/L2025/25257-emoji-meteor.pdf
@@ -66,13 +75,77 @@ Every requirement in this specification has one of four evidence levels:
 When sources conflict, `U` controls. A historical accepted proposal is never permission to ignore a current
 requirement.
 
-### Audit of the historical comparison
+## What the proposal review actually found
+
+The review covered the first page of 63 accepted proposal PDFs, complete page-by-page review of six
+representative accepted proposals, and the full text of 15 confirmed declined Medical Emoji proposal drafts.
+The accepted set included the latest cohort. The declined drafts' original embedded images are no longer
+available, so no visual claim is made about that group.
+
+### Repeatable strengths in successful proposals
+
+- The first page lets a reviewer identify the concept, submitters, date, keywords/category, artwork, and rights
+  quickly. This is especially consistent in recent proposals because the current rules require it.
+- The proposal defines a narrow semantic gap, names the strongest existing substitute, and explains what the
+  new character would express that the substitute cannot.
+- Selection factors are treated as tests, not boxes to inflate. Strong proposals use `N/A` instead of inventing
+  meanings, completeness, or compatibility.
+- Frequency screenshots are readable and interpreted. Stronger documents preserve query settings, dates,
+  comparators, and limitations so the evidence can be reproduced.
+- The artwork's identity comes from a silhouette or a few stable cues that survive at 18x18, not from internal
+  detail visible only at 72x72.
+- The exclusions are answered against the proposal's real failure modes, especially Already representable,
+  Overly specific, and Open-ended.
+- Genuine compatibility can be decisive, but only when an existing popular system uses the same pictograph at
+  demonstrably high frequency.
+
+### Repeatable risks in the confirmed declined proposals
+
+The 15 confirmed declined drafts are not a controlled experiment, and Unicode did not publish complete
+reviewer reasoning. They nevertheless expose relevant proposal-level risks:
+
+- Clinical burden, professional importance, or desired awareness was often asked to do the work of expected
+  communicative use.
+- Petitions, calls for an emoji, Instagram, or Twitter appeared in 13 of 15 drafts. Those are not acceptable
+  frequency evidence under the current rules.
+- All 15 contained the exclusion-section skeleton. Completeness of headings did not rescue a weak concept-level
+  case.
+- Open-ended answers often argued that a symbol would be broadly important without showing why that candidate
+  was independently selective and would not imply an unbounded organ set.
+- The old evidence packages do not meet today's five-source, `elephant`, widest-range, and reproducibility
+  instructions.
+
+These are risk indicators, not proof that a particular word or section caused a decline. Medical subject matter
+is confounded with this archive and must not be treated as a negative factor by itself.
+
+### Accepted counterexamples that corrected this rubric
+
+- Monarch Butterfly was accepted despite extensive awareness and advocacy context. Unicode's rule is that a
+  cause cannot be the reason for encoding, not that cause-related words may never appear. Its independent
+  compatibility case was central:
+  https://www.unicode.org/L2/L2025/25254-emoji-butterfly.pdf
+- X-Ray shows that medical importance can provide background when the proposal also establishes an iconic,
+  recognizable, broadly usable building block. Importance still cannot substitute for expected use:
+  https://www.unicode.org/L2/L2020/20214-x-ray-emoji.pdf
+- Orca was accepted even though several screenshots in the final PDF render as broken or blank warning icons.
+  Its reasoning can be learned from; its layout is not a quality model:
+  https://www.unicode.org/L2/L2024/24249-orca-emoji.pdf
+- Thumb Point explains that a requested Google Video count was unavailable, and Eraser is substantially
+  image-based. These are evidence that accepted proposals can contain exceptions or technically awkward PDFs,
+  not permission to plan a best-in-class filing around an exception:
+  https://www.unicode.org/L2/L2025/25252-emoji-thumb-point.pdf
+  https://www.unicode.org/L2/L2025/25255-emoji-eraser.pdf
+
+There is no validated hard limit for pages, words, or embedded PDF image objects. Recent accepted proposals
+range from compact to long and from polished to awkward. The controllable target is reviewer effort: complete,
+legible, reproducible, and no longer than the case needs.
+
+## Method note on the historical comparison
 
 The former 55-versus-29 "winners versus losers" study is not reliable enough to support numeric approval
-claims. The repository contains the 55 accepted texts, but it contains no membership manifest, source files,
-extracted texts, or analysis code for the 29-document comparison group. Repository history confirms those
-artifacts were never committed. The report also incorrectly claimed that every submitted proposal from 2017
-through 2021 received an L2 document. This project's 15 confirmed declined drafts did not.
+claims. The repository contains the 55 accepted texts, but no membership manifest, source files, extracted
+texts, or analysis code for the 29-document comparison group. Repository history confirms those artifacts were
+never committed.
 
 The groups were also not matched: the accepted documents have L2 dates from 2020 through 2024, while the
 unavailable comparison was described as 2017 through 2021. At least 17 of the 55 accepted documents name
@@ -83,7 +156,7 @@ can also change: a proposal may be under consideration or later succeed through 
 The exact 29-document percentages and causal statements derived from them are retired. They must not be used
 to set word, page, image, sort-location, social-media, or cause-language thresholds.
 
-### What is reproducible
+### Reproducible corpus measurements
 
 The tracked accepted archive contains 55 documents associated with Emoji 14.0 through 17.0. Direct
 recomputation finds:
@@ -107,7 +180,7 @@ Reproduction code and the detailed audit are in:
 - `evidence/emoji_proposal_corpus_audit.py`
 - `docs/research/unicode-winning-submissions/analysis.md`
 
-### Emoji 18.0 update
+### Latest accepted proposal set
 
 The eight accepted proposal documents for the nine Emoji 18.0 characters are:
 
@@ -143,8 +216,8 @@ to the experience of existing emoji. These are current-cycle signals, not new au
 ## What best-in-class means
 
 A best-in-class proposal is complete, easy to verify, visually credible at 18 pixels, concise enough to review
-quickly, and strong on its own merits. It does not try to win by importance, advocacy, professional prestige,
-or comparison with weaker historical emoji.
+quickly, and strong on its own merits. Importance, advocacy, professional prestige, and comparison with weaker
+historical emoji may provide context, but cannot be the reason for encoding.
 
 ### 1. Must-pass filing gates
 
@@ -203,7 +276,8 @@ Best-in-class evidence also does the following (`I`, unless the current guidelin
 - Separates frequency evidence from examples of meaning.
 - Cites durable dictionary, standards, academic, or institutional sources for metaphorical and factual claims.
 - Explains ambiguous search terms and any filtering.
-- Never uses petitions, calls for an emoji, hashtags, endorsements, or awareness campaigns as usage evidence.
+- Never uses petitions, calls for an emoji, hashtags, endorsements, or campaign advocacy as frequency evidence.
+  Cause-related usage may be described when it is established, cited, and not the reason for encoding.
 - Does not claim worldwide relevance from U.S.-only data.
 
 ### 4. Selection-factor standard

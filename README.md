@@ -38,13 +38,14 @@ attachments in this send package.
 
 Use the current [`best-in-class specification`](docs/proposals/emoji-proposal-approval-rubric.md) as the
 controlling project standard and the [`proposal template`](docs/proposals/TEMPLATE-emoji-proposal.md) as the
-drafting structure. The specification incorporates the current Unicode rules, the accepted Emoji 18.0
-cohort, and the corrected [`proposal evidence audit`](docs/research/unicode-winning-submissions/analysis.md).
+drafting structure. The specification incorporates the current Unicode rules and a direct
+[`proposal evidence audit`](docs/research/unicode-winning-submissions/analysis.md) of accepted and confirmed
+declined proposal documents: their arguments, evidence, artwork, and layout. Lighthouse is the closest current
+all-around model; Treasure Chest is the concise model; Fingerprint is the technical-evidence model; and Meteor
+is the genuine-compatibility model. No accepted proposal should be copied wholesale.
 
-The earlier 55-versus-29 comparison is retired: the 29-document manifest, documents, and analysis code were
-never preserved, so its percentages and claimed winning thresholds are not reproducible. The tracked accepted
-archive still provides useful descriptions - 55 documents, median 907 extractable words and 7 pages - but not
-an approval model. PDF image-object counts are not screenshot counts.
+The older 55-versus-29 comparison is retained only as a methodology warning because its negative cohort was
+not preserved. It does not supply a validated approval formula or hard word, page, or image-count threshold.
 
 Six current drafting rules:
 
@@ -132,11 +133,11 @@ Unicode's guidelines page says:
 - The page body still contains some stale 2025 text, so date-sensitive submissions should be verified with Unicode/ESR before filing.
 
 Important practical note: the three private decline notices for Kidney, Stomach, and Liver are dated
-`2022-11-04`. Four elapsed years have not passed by `2026-07-31`, so this workspace treats the three organs
-as ineligible for the current intake. Their revised `v1.7.0` review packets remain future assets unless
-Unicode confirms eligibility. Ten concepts are
-clearly re-eligible now: the nine in `submissions/v1.3.0/` plus Maze in `submissions/v1.5.0/`. Ultrasound and
-First Aid Kit have no matching public status rows and are treated as first-time public-sheet concepts.
+`2022-11-04`, so the ordinary four-year date calculation would extend past this intake. Shuhan He has confirmed
+that Unicode considers all three eligible for the 2026 cycle. The project therefore treats them as eligible and
+will preserve the written confirmation in the filing record. Ten other concepts are clearly re-eligible now:
+the nine in `submissions/v1.3.0/` plus Maze in `submissions/v1.5.0/`. Ultrasound and First Aid Kit have no
+matching public status rows and are treated as first-time public-sheet concepts.
 
 ## Emoji Submission Status
 
@@ -145,9 +146,9 @@ proposal workspaces. Status rows are from Unicode's live public proposal-status 
 
 | Concept | Repo source | Unicode public status rows | Latest public status | Last public date submitted | Reeligible by submitted-date clock | Next step |
 | --- | --- | --- | --- | --- | --- | --- |
-| Kidney / Kidneys | Active site candidate | `Kidney` declined 2019-12-17; `KIDNEYS` declined 2022-07-19; private decline notice 2022-11-04 | Declined | 2022 | After 2026-11-04 | Working candidate in `submissions/v1.7.0/`; improve small-size recognition and do not file in the intake closing 2026-07-31 without Unicode eligibility confirmation. |
-| Liver | Active site candidate | `Liver` declined 2020-12-18; `Liver` declined 2022-07-30; private decline notice 2022-11-04 | Declined | 2022 | After 2026-11-04 | Working candidate in `submissions/v1.7.0/`; improve small-size recognition, replace stale 2020 evidence including U.S.-only Trends captures, and confirm eligibility before filing. |
-| Stomach | Active site candidate | `Stomach` declined 2020-10-27; `Stomach` declined 2022-07-28; private decline notice 2022-11-04 | Declined | 2022 | After 2026-11-04 | Working candidate in `submissions/v1.7.0/`; replace stale 2020 Search, Video, and Trends evidence and confirm eligibility before filing. |
+| Kidney / Kidneys | Active site candidate | `Kidney` declined 2019-12-17; `KIDNEYS` declined 2022-07-19; private decline notice 2022-11-04 | Confirmed eligible for 2026 | 2022 | After 2026-11-04 by date alone; separately confirmed eligible | Working candidate in `submissions/v1.7.0/`; add the full author list, improve small-size recognition, refresh evidence, and archive the eligibility confirmation. |
+| Liver | Active site candidate | `Liver` declined 2020-12-18; `Liver` declined 2022-07-30; private decline notice 2022-11-04 | Confirmed eligible for 2026 | 2022 | After 2026-11-04 by date alone; separately confirmed eligible | Working candidate in `submissions/v1.7.0/`; improve small-size recognition, replace stale 2020 evidence including U.S.-only Trends captures, and archive the eligibility confirmation. |
+| Stomach | Active site candidate | `Stomach` declined 2020-10-27; `Stomach` declined 2022-07-28; private decline notice 2022-11-04 | Confirmed eligible for 2026 | 2022 | After 2026-11-04 by date alone; separately confirmed eligible | Working candidate in `submissions/v1.7.0/`; replace stale 2020 Search, Video, and Trends evidence and archive the eligibility confirmation. |
 | Spine | Active site candidate | `Spine` declined 2020-10-27; `Spine` declined 2024-04-05 | Declined | 2024-04-05 | 2028-04-05 | Do not resubmit before 2028 unless Unicode confirms a materially different concept is eligible. |
 | Intestines | Active site candidate | `Intestines` declined 2020-12-18; `Intestines` declined 2024-04-04 | Declined | 2024-04-04 | 2028-04-04 | Do not resubmit before 2028 unless Unicode confirms eligibility. |
 | ECG / EKG | Active site candidate | `ECG` declined 2020-12-18; `ECG` declined 2024-04-05 | Declined | 2024-04-05 | 2028-04-05 | Do not resubmit before 2028 unless Unicode confirms eligibility. |
