@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="72" height="72" preserveAspectRatio="xMinYMin meet" viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="72" height="72"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-72)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="72" height="72" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<ellipse cx="36.0" cy="36.0" rx="26.0" ry="26.0" style="stroke: rgb(55%,63%,67%); stroke-linecap: butt; stroke-width: 2.5; fill: rgb(86%,90%,91%); fill-rule: evenodd;"/>
+			<circle cx="15" cy="25" r="4" style="stroke: rgb(55%,63%,67%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(86%,90%,91%); fill-rule: evenodd;"/>
+			<circle cx="19" cy="45" r="4" style="stroke: rgb(55%,63%,67%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(86%,90%,91%); fill-rule: evenodd;"/>
+			<circle cx="34" cy="55" r="4" style="stroke: rgb(55%,63%,67%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(86%,90%,91%); fill-rule: evenodd;"/>
+			<circle cx="50" cy="46" r="4" style="stroke: rgb(55%,63%,67%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(86%,90%,91%); fill-rule: evenodd;"/>
+			<circle cx="55" cy="27" r="4" style="stroke: rgb(55%,63%,67%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(86%,90%,91%); fill-rule: evenodd;"/>
+			<circle cx="41" cy="14" r="4" style="stroke: rgb(55%,63%,67%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(86%,90%,91%); fill-rule: evenodd;"/>
+			<circle cx="25" cy="14" r="4" style="stroke: rgb(55%,63%,67%); stroke-linecap: butt; stroke-width: 1.2; fill: rgb(86%,90%,91%); fill-rule: evenodd;"/>
+			<ellipse cx="29.5" cy="37.5" rx="9.5" ry="8.5" style="stroke: rgb(42%,29%,60%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(42%,29%,60%); fill-rule: evenodd;"/>
+			<ellipse cx="43.0" cy="33.0" rx="9.0" ry="9.0" style="stroke: rgb(42%,29%,60%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(42%,29%,60%); fill-rule: evenodd;"/>
+			<ellipse cx="40.5" cy="45.5" rx="8.5" ry="7.5" style="stroke: rgb(42%,29%,60%); stroke-linecap: butt; stroke-width: 1.5; fill: rgb(42%,29%,60%); fill-rule: evenodd;"/>
+		</g>
+	</g>
+</svg>

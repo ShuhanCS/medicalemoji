@@ -10,8 +10,12 @@ before filing:
 - Best-in-class specification: [`docs/proposals/emoji-proposal-approval-rubric.md`](docs/proposals/emoji-proposal-approval-rubric.md)
 - One-by-one slate and review spec: [`docs/proposals/2026-submission-slate-spec.md`](docs/proposals/2026-submission-slate-spec.md)
 - Organ-by-organ audit: [`docs/proposals/2026-organ-submission-audit.md`](docs/proposals/2026-organ-submission-audit.md)
-- Organ baseline: [`submissions/v1.7.0/`](submissions/v1.7.0/)
-- White Blood Cell baseline: [`submissions/v1.3.0/white-blood-cell/`](submissions/v1.3.0/white-blood-cell/)
+- Current complete versioned package: [`submissions/v1.8.0/`](submissions/v1.8.0/)
+- Historical organ baseline: [`submissions/v1.7.0/`](submissions/v1.7.0/)
+- Historical White Blood Cell baseline: [`submissions/v1.3.0/white-blood-cell/`](submissions/v1.3.0/white-blood-cell/)
+
+Submission packages are immutable semver snapshots. Every update creates a new complete version folder; files
+that did not change are copied forward byte for byte. The next substantive proposal revision will be v1.9.0.
 
 Authorship is fixed for this slate: Kidney uses the complete eight-person author list in v1.7.0; White Blood
 Cell, Stomach, and Liver list only Shuhan He. The 2026 submission window closes at the end of day on 2026-07-31.

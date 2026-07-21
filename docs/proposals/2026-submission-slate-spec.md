@@ -1,6 +1,6 @@
 # 2026 Emoji Submission Slate and One-by-One Review Specification
 
-Version: 1.1.0
+Version: 1.2.0
 
 Date: 2026-07-21
 
@@ -29,10 +29,10 @@ slate decision, not because related files already exist in the repository.
 
 | Order | Proposal | Baseline packet | Prior internal baseline | Why this order |
 | ---: | --- | --- | ---: | --- |
-| 1 | White Blood Cell | [v1.3.0 White Blood Cell](../../submissions/v1.3.0/white-blood-cell/) | Not yet rescored | Newly selected fourth proposal; first determine whether its cell paradigm is recognizable and independently selective before investing in the full filing packet. |
-| 2 | Kidney | [v1.7.0 Kidney](../../submissions/v1.7.0/kidney/) | 79/100 | Strongest current frequency package; remaining risk is concentrated in art recognition, citations, and final filing controls. |
-| 3 | Stomach | [v1.7.0 Stomach](../../submissions/v1.7.0/stomach/) | 77/100 | Strong semantic and silhouette case; four frequency captures must be refreshed and enlarged. |
-| 4 | Liver | [v1.7.0 Liver](../../submissions/v1.7.0/liver/) | 64/100 | Requires the most work: current worldwide evidence, stronger small-size art, and better support for usage claims. |
+| 1 | White Blood Cell | [v1.8.0 White Blood Cell](../../submissions/v1.8.0/white-blood-cell/) | Not yet rescored | Newly selected fourth proposal; first determine whether its cell paradigm is recognizable and independently selective before investing in the full filing packet. |
+| 2 | Kidney | [v1.8.0 Kidney](../../submissions/v1.8.0/kidney/) | 79/100 | Strongest current frequency package; remaining risk is concentrated in art recognition, citations, and final filing controls. |
+| 3 | Stomach | [v1.8.0 Stomach](../../submissions/v1.8.0/stomach/) | 77/100 | Strong semantic and silhouette case; four frequency captures must be refreshed and enlarged. |
+| 4 | Liver | [v1.8.0 Liver](../../submissions/v1.8.0/liver/) | 64/100 | Requires the most work: current worldwide evidence, stronger small-size art, and better support for usage claims. |
 
 The baseline scores came from the earlier readiness audit. They are not Unicode scores or approval
 probabilities, and each proposal must be rescored after correction under the current proposal-level rubric.
@@ -65,10 +65,13 @@ optional; names must match the proposal PDF and submission form exactly.
 
 ## Source and release policy
 
-- Treat `submissions/v1.7.0/` as the immutable organ baseline and the White Blood Cell folder in
-  `submissions/v1.3.0/` as its immutable baseline.
-- Build substantive corrected proposals into the next versioned packet, expected to be
-  `submissions/v1.8.0/`.
+- The complete consolidated starting snapshot is [`submissions/v1.8.0/`](../../submissions/v1.8.0/). Treat it
+  as immutable after commit.
+- Its White Blood Cell files were copied byte for byte from `submissions/v1.3.0/`; its Kidney, Stomach, and
+  Liver files were copied byte for byte from `submissions/v1.7.0/`.
+- Every update creates a new complete semver folder. Copy every untouched file byte for byte into the new
+  folder and change only the reviewed proposal plus package control files.
+- The first substantive proposal correction will create `submissions/v1.9.0/` from v1.8.0.
 - Keep editable Markdown, exact-size PNGs, source artwork, evidence screenshots, and the generated PDF together
   for each concept.
 - Do not publish or submit a mixed packet whose source, PDF, public URL, and form answers refer to different
