@@ -5,6 +5,22 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.37.0] - 2026-07-21
+
+### Added
+- Added five standalone, copy-ready agent specifications for Kidney, White Blood Cell, Stomach, Liver, and
+  Pill Pack.
+- Added collision-safe prerelease SemVer lanes so separate agents can work concurrently from one frozen
+  baseline without overwriting canonical package versions.
+
+### Changed
+- Clarified that agent work may proceed in parallel while canonical cumulative package promotion remains
+  ordered: Kidney, White Blood Cell, Stomach, Liver, then Pill Pack if it passes its go/no-go gate.
+
+### Verification
+- Advanced the project version from `0.36.0` to `0.37.0`; proposal release `v1.8.0` remains the frozen canonical
+  baseline until the coordinator promotes accepted agent work.
+
 ## [0.36.0] - 2026-07-21
 
 ### Changed

@@ -10,6 +10,7 @@ proposals must be corrected one at a time before filing:
 
 - Best-in-class specification: [`docs/proposals/emoji-proposal-approval-rubric.md`](docs/proposals/emoji-proposal-approval-rubric.md)
 - Serial slate, semver, and agent handoff spec: [`docs/proposals/2026-submission-slate-spec.md`](docs/proposals/2026-submission-slate-spec.md)
+- Standalone parallel agent specs: [`docs/proposals/agent-specs/`](docs/proposals/agent-specs/)
 - Organ-by-organ audit: [`docs/proposals/2026-organ-submission-audit.md`](docs/proposals/2026-organ-submission-audit.md)
 - Current complete versioned package: [`submissions/v1.8.0/`](submissions/v1.8.0/)
 - Historical organ baseline: [`submissions/v1.7.0/`](submissions/v1.7.0/)
