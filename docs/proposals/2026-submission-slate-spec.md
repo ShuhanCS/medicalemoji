@@ -1,6 +1,6 @@
-# 2026 Emoji Submission Slate and One-by-One Review Specification
+# 2026 Emoji Submission Slate and Serial Agent Execution Specification
 
-Version: 1.2.0
+Version: 1.3.0
 
 Date: 2026-07-21
 
@@ -12,27 +12,33 @@ https://www.unicode.org/emoji/proposals.html
 
 ## Decision
 
-Prepare exactly four emoji proposals for the 2026 intake:
+Work through five proposal workstreams in this strict order:
 
-1. White Blood Cell
-2. Kidney
+1. Kidney
+2. White Blood Cell
 3. Stomach
 4. Liver
+5. Pill Pack, as a provisional new workstream that must pass a go/no-go gate before it joins the filing slate
 
-Each concept will be a separate proposal PDF and a separate submission-form entry. They are not presented as
-an anatomy set, and no proposal may depend on the other two for its selection case.
+Only Kidney is active now. The other workstreams are queued agent handoffs, not permission to edit proposal
+packages in parallel. Each concept that advances will have a separate proposal PDF and a separate
+submission-form entry. The organs are not presented as an anatomy set, and no proposal may depend on another
+candidate for its selection case.
 
-No other Medical Emoji concept is in scope for this intake. A concept can be added only by an explicit new
-slate decision, not because related files already exist in the repository.
+Kidney, White Blood Cell, Stomach, and Liver remain the filing slate. Pill Pack is an explicit new evaluation
+workstream, but it does not become a filing commitment until it demonstrates a strong independent case against
+Pill, resolves its overlap with Pill Box, avoids confusion with the PillPack brand, and passes the same evidence
+and recognition gates as the other proposals. No other Medical Emoji concept is in scope for this intake.
 
 ## Review order
 
 | Order | Proposal | Baseline packet | Prior internal baseline | Why this order |
 | ---: | --- | --- | ---: | --- |
-| 1 | White Blood Cell | [v1.8.0 White Blood Cell](../../submissions/v1.8.0/white-blood-cell/) | Not yet rescored | Newly selected fourth proposal; first determine whether its cell paradigm is recognizable and independently selective before investing in the full filing packet. |
-| 2 | Kidney | [v1.8.0 Kidney](../../submissions/v1.8.0/kidney/) | 79/100 | Strongest current frequency package; remaining risk is concentrated in art recognition, citations, and final filing controls. |
+| 1 | Kidney | [v1.8.0 Kidney](../../submissions/v1.8.0/kidney/) | 79/100 | Active proposal. It has the strongest current frequency package; remaining risk is concentrated in art recognition, citations, and final filing controls. |
+| 2 | White Blood Cell | [v1.8.0 White Blood Cell](../../submissions/v1.8.0/white-blood-cell/) | Not yet rescored | Determine whether its cell paradigm is recognizable and independently selective before investing in the full filing packet. |
 | 3 | Stomach | [v1.8.0 Stomach](../../submissions/v1.8.0/stomach/) | 77/100 | Strong semantic and silhouette case; four frequency captures must be refreshed and enlarged. |
 | 4 | Liver | [v1.8.0 Liver](../../submissions/v1.8.0/liver/) | 64/100 | Requires the most work: current worldwide evidence, stronger small-size art, and better support for usage claims. |
+| 5 | Pill Pack | [v1.3.0 Pill Pack](../../submissions/v1.3.0/pill-pack/) | Not yet rescored | Provisional go/no-go evaluation. The existing draft lacks compliant Trends evidence and must overcome Pill/Pill Box substitution, name confusion, and small-size recognition risk. |
 
 The baseline scores came from the earlier readiness audit. They are not Unicode scores or approval
 probabilities, and each proposal must be rescored after correction under the current proposal-level rubric.
@@ -60,8 +66,14 @@ Submitter and main point of contact: Shuhan He only.
 
 Submitter and main point of contact: Shuhan He only.
 
-Do not copy the Kidney author list into White Blood Cell, Stomach, or Liver. Credentials and affiliations are
-optional; names must match the proposal PDF and submission form exactly.
+### Pill Pack
+
+Provisional submitter and main point of contact: Shuhan He only, matching the current v1.3.0 draft. Reconfirm
+this before revising the proposal; do not restore names from the 2020 Emojination draft without each person's
+explicit current consent.
+
+Do not copy the Kidney author list into White Blood Cell, Stomach, Liver, or Pill Pack. Credentials and
+affiliations are optional; names must match the proposal PDF and submission form exactly.
 
 ## Source and release policy
 
@@ -72,6 +84,16 @@ optional; names must match the proposal PDF and submission form exactly.
 - Every update creates a new complete semver folder. Copy every untouched file byte for byte into the new
   folder and change only the reviewed proposal plus package control files.
 - The first substantive proposal correction will create `submissions/v1.9.0/` from v1.8.0.
+- Do not reserve later version numbers by concept. An agent claims the next version only after the preceding
+  agent's package is committed to the integration branch.
+- Use `MINOR` for proposal prose, citations, evidence, artwork, generated PDF, rubric/template changes, or
+  adding a pre-filing candidate. Use `PATCH` only for a non-substantive packaging or metadata correction that
+  changes no claim, evidence interpretation, artwork paradigm, rights statement, or decision.
+- A research note may be committed without a new submission snapshot only when it changes nothing under
+  `submissions/`. Any committed change to a proposal, its evidence, artwork, PDF, or package controls requires
+  a new complete semver snapshot.
+- When Pill Pack reaches its turn, copy its full v1.3.0 baseline into the then-current complete package and
+  revise it there. Do not edit v1.3.0 or add Pill Pack retroactively to v1.8.0.
 - Keep editable Markdown, exact-size PNGs, source artwork, evidence screenshots, and the generated PDF together
   for each concept.
 - Do not publish or submit a mixed packet whose source, PDF, public URL, and form answers refer to different
@@ -83,7 +105,35 @@ optional; names must match the proposal PDF and submission form exactly.
 
 ## One-by-one review protocol
 
-Only one proposal is active at a time. Finish its review report and corrected packet before starting the next.
+Only one proposal is active at a time. Finish its review report and corrected semver package, commit it, and
+hand the new integration commit to the next agent before that agent writes proposal files.
+
+## Agent isolation, release lock, and handoff
+
+Each proposal agent works in a dedicated Git worktree and branch. The coordinator owns the integration branch
+and activates only one proposal branch at a time.
+
+1. Fetch the remote and start the agent branch from the coordinator's exact handoff commit, not from `master`
+   and not from an older proposal branch.
+2. Confirm a clean worktree and record the starting commit, highest committed submission-package version, and
+   active concept before editing.
+3. Read this specification, the current package manifest, the best-in-class rubric, the concept's current
+   source/PDF, and every relevant prior audit.
+4. Copy the entire latest package into the next semver folder. Verify that untouched files are byte-identical.
+5. Change only the active concept and the new package's `VERSION`, `manifest.md`, and `CHANGELOG.md`. Update root
+   release metadata when required by repository policy.
+6. Rebuild only PDFs whose source or embedded assets changed. Keep all evidence, artwork sources, exact-size
+   PNGs, editable proposal source, and the generated PDF together.
+7. Run content, image, link, and PDF checks; render every changed PDF page and inspect it visually.
+8. Commit the complete snapshot and report the commit, package version, files changed, checks run, readiness
+   score, and open blockers. Do not push, publish a PDF, file the Unicode form, or merge without coordinator
+   authorization.
+9. The coordinator verifies and integrates the commit. Only then may the next proposal agent begin writable
+   work from that new integration commit.
+
+Read-only research by queued agents is allowed, but it must not modify the repository or claim a package
+version. If two agents accidentally create the same version, neither package is integrated until one is
+rebased onto the other's accepted handoff and assigned the next available semver.
 
 ### Step 1: Freeze identity, eligibility, and rights
 
@@ -103,7 +153,7 @@ The review must answer:
 1. What ordinary messages require this concept?
 2. What is the nearest existing emoji or sequence, and what can it not express?
 3. Does the concept represent a broad building block rather than a disease, specialty, subtype, or campaign?
-4. Why is this candidate independently selective among other organs?
+4. Why is this candidate independently useful despite its nearest related concepts?
 5. Which inclusion factors are genuinely supported, and which should be `N/A`?
 6. Does every factual or metaphorical claim have a durable citation?
 7. Would the proposal remain persuasive if all burden, awareness, prestige, and deservingness language were
@@ -128,7 +178,8 @@ use may be described when established and cited, but cannot be the reason for en
 ### Step 4: Audit the artwork at actual size
 
 - Verify color and true black-and-white PNGs at exactly 18x18 and 72x72 pixels.
-- Compare the 18x18 art against the nearest existing emoji and against the other two proposed organs.
+- Compare the 18x18 art against the nearest existing emoji and against other active proposals where visual
+  confusion is plausible.
 - Test unprompted recognition with reviewers who were not told the intended answer.
 - Target at least 80% correct unprompted identification at 18x18, with no wrong concept dominating more than
   10% of responses. This is an internal gate, not a Unicode rule.
@@ -188,6 +239,7 @@ Do not begin the next concept until this report and the corrected files are comp
 
 ### Kidney
 
+- This is the active agent. Expected first release: `v1.9.0`, provided no intervening package is committed.
 - Preserve the complete eight-person author list.
 - Test recognition against Beans, Anatomical Heart, Lungs, Droplet, and food-like kidney shapes.
 - Strengthen the explanation of the semantic gap without relying on the existence of other organ emoji.
@@ -209,16 +261,90 @@ Do not begin the next concept until this report and the corrected files are comp
 - Cite or remove medical, cultural, culinary, and metaphorical usage claims.
 - Treat Multiple meanings, Completeness, and Compatibility as `N/A` unless compelling evidence survives review.
 
+### Pill Pack
+
+- Treat the v1.3.0 folder as historical source material, not as a filing-ready packet.
+- Begin with a go/no-go memo that tests the generic name `Blister Pack` against `Pill Pack`, including the risk
+  of confusion with the PillPack pharmacy brand. Do not use brand evidence as a compatibility argument.
+- Reconfirm current eligibility, the public status record, duplicate-proposal status, sole authorship, artwork
+  ownership, and whether Pill Box is being held or advanced. Pill Pack and Pill Box must not both be filed in
+  the same intake without an explicit overlap decision.
+- Build the independent-use case around sealed doses, remaining supply, dispensing, and finite medication
+  courses only if evidence shows that the existing Pill emoji and ordinary sequences cannot communicate the
+  same ideas clearly.
+- Recapture all five required frequency sources from scratch. The archived draft is missing Web Trends, uses
+  the wrong Image Trends comparator, and contains stale 2020 Search and Video evidence.
+- Test color and black-and-white art at 18x18 against Pill, Pill Box, keypad, remote control, calendar grid, and
+  generic packaging. Revise or stop if unprompted reviewers do not identify a blister medication pack.
+- Remove burden, opioid-crisis, adherence-advocacy, and professional-importance language unless a narrowly
+  relevant factual statement is durably cited and does not substitute for expected usage.
+- Exit with either `ADVANCE TO FILING SLATE` and a complete corrected semver package, or `DO NOT ADVANCE` with a
+  documented evidence-based reason. A no-go decision must not be disguised as a high readiness score.
+
+## Proposal agent briefs
+
+Use one brief per fresh agent context. Replace `<HANDOFF_COMMIT>` and `<NEXT_VERSION>` only after the preceding
+proposal has been integrated.
+
+### Kidney agent — active now
+
+Start a dedicated worktree branch from the current integration commit. Read this specification,
+`submissions/v1.8.0/manifest.md`, `submissions/v1.8.0/BEST-IN-CLASS-RUBRIC.md`, the v1.8.0 Kidney source and PDF,
+and the Kidney section of `2026-organ-submission-audit.md`. Create the next complete submission snapshot,
+expected to be v1.9.0. Preserve the exact eight-author order. Correct citations and selection-factor prose,
+create nearest-emoji comparisons, run and document unprompted 18x18 recognition testing, revise artwork if the
+gate fails, rebuild and inspect the PDF, and issue a new readiness score. Commit the complete package but do not
+publish or submit it. Return the commit, version, verification, score, and blockers to the coordinator.
+
+### White Blood Cell agent — queued after Kidney
+
+Do not write until the coordinator supplies `<HANDOFF_COMMIT>` and `<NEXT_VERSION>`. Start a dedicated worktree
+branch from that exact commit and copy the entire latest package. Preserve Shuhan He as sole submitter. Refresh
+Search and Video, replace Web Trends, add Image Trends, and use worldwide `elephant` comparisons. Test the
+18x18 paradigm against Microbe, Drop of Blood, Soap, Bubbles, and generic cells; distinguish leukocyte from a
+cartoon germ. Correct claims and citations, rebuild and inspect the PDF, issue a readiness decision, and commit
+the complete new package. Return the commit and blockers; do not publish or submit.
+
+### Stomach agent — queued after White Blood Cell
+
+Do not write until the preceding package is integrated. Start from `<HANDOFF_COMMIT>`, claim `<NEXT_VERSION>`,
+and copy the complete latest package. Preserve Shuhan He as sole submitter. Replace the four 2020 Search, Video,
+Web Trends, and Image Trends captures; validate the existing Ngram evidence; cite or remove claims about
+appetite, nausea, intuition, and courage; and test the J-shaped art against Liver, Anatomical Heart, food, and
+generic organs. Rebuild and visually inspect the PDF, rescore it, commit the complete package, and return the
+handoff details without publishing or submitting.
+
+### Liver agent — queued after Stomach
+
+Do not write until the preceding package is integrated. Start from `<HANDOFF_COMMIT>`, claim `<NEXT_VERSION>`,
+and copy the complete latest package. Preserve Shuhan He as sole submitter. Replace every 2020 capture with
+current worldwide evidence, especially the U.S.-only Trends images; improve and retest both 18x18 paradigms;
+compare them with Stomach, Anatomical Heart, meat/food, and generic organs; and cite or remove medical, cultural,
+culinary, and metaphorical claims. Rebuild and inspect the PDF, rescore it, commit the complete package, and
+return the handoff details without publishing or submitting.
+
+### Pill Pack agent — queued provisional evaluation
+
+Do not write until the preceding package is integrated and the coordinator activates this workstream. Start
+from `<HANDOFF_COMMIT>`, claim `<NEXT_VERSION>`, and copy the complete latest package. Import the complete
+v1.3.0 Pill Pack folder as historical source, then evaluate `Blister Pack` as a safer generic name. Confirm
+eligibility, duplicates, authorship, rights, and the Pill Box portfolio decision. Build all five current
+frequency captures; red-team Pill as an adequate substitute; and test 18x18 recognition against Pill, Pill Box,
+keypad, remote, calendar, and generic packaging. If the concept passes, create a corrected package and readiness
+report. If it fails, create a no-go report without manufacturing a filing packet. Commit the complete semver
+snapshot only if proposal-package files changed; otherwise commit only the research decision and explain why no
+submission version was created. Never publish or submit without Shuhan He's authorization.
+
 ## Cross-slate consistency pass
 
-After the four individual reviews:
+After every proposal still intended for filing completes individual review:
 
 1. Confirm the author lists and main contact one final time.
 2. Confirm that each proposal has a distinct independent-use case and no set-completion argument.
-3. Compare all four 18x18 glyphs side by side in color and black-and-white.
+3. Compare every intended filing glyph side by side in color and black-and-white.
 4. Harmonize shared terminology without duplicating unsupported claims.
 5. Confirm that dates, category names, rights statements, evidence methods, and file naming are consistent.
-6. Re-render and inspect all four final PDFs.
+6. Re-render and inspect every final PDF.
 7. Verify that every proposal independently meets every must-pass gate.
 
 ## Status vocabulary
@@ -251,21 +377,23 @@ A proposal is finished only when:
 
 | Target date | Deliverable |
 | --- | --- |
-| 2026-07-22 | White Blood Cell corrected packet and readiness decision |
-| 2026-07-24 | Kidney corrected packet and readiness decision |
+| 2026-07-23 | Kidney corrected packet and readiness decision |
+| 2026-07-25 | White Blood Cell corrected packet and readiness decision |
 | 2026-07-26 | Stomach corrected packet and readiness decision |
 | 2026-07-28 | Liver corrected packet and readiness decision |
-| 2026-07-29 | Cross-slate consistency and final PDF inspection |
-| 2026-07-30 | Public URLs, final authorization, and intended filing day |
+| 2026-07-29 | Pill Pack go/no-go decision and, only if advanced, corrected packet |
+| 2026-07-30 | Cross-slate consistency, final PDF inspection, public URLs, and final authorization |
 | 2026-07-31 | Contingency only; official window closes at end of day |
 
 ## Execution ledger
 
-- [ ] White Blood Cell reviewed, corrected, and marked `READY TO PUBLISH`.
 - [ ] Kidney reviewed, corrected, and marked `READY TO PUBLISH`.
+- [ ] White Blood Cell reviewed, corrected, and marked `READY TO PUBLISH`.
 - [ ] Stomach reviewed, corrected, and marked `READY TO PUBLISH`.
 - [ ] Liver reviewed, corrected, and marked `READY TO PUBLISH`.
+- [ ] Pill Pack evaluated and marked either `ADVANCE TO FILING SLATE` or `DO NOT ADVANCE`.
+- [ ] Every proposal-package update has its own immutable semver snapshot and committed handoff.
 - [ ] Cross-slate consistency pass complete.
 - [ ] Public URLs verified without login.
 - [ ] Final filing authorization recorded.
-- [ ] Three submission confirmations archived.
+- [ ] One submission confirmation archived for every proposal actually filed.

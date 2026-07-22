@@ -5,6 +5,24 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.36.0] - 2026-07-21
+
+### Changed
+- Made Kidney the first active proposal in a strictly serial review queue, followed by White Blood Cell,
+  Stomach, and Liver.
+- Added Pill Pack as a provisional fifth workstream with an explicit go/no-go gate for naming, Pill/Pill Box
+  overlap, evidence, authorship, rights, and 18-pixel recognizability.
+- Added copy-ready handoff instructions for separate proposal agents working from sequential integration
+  commits in isolated worktrees.
+- Required a new complete immutable submission-package semver snapshot for every committed proposal, evidence,
+  artwork, PDF, or package-control update.
+
+### Verification
+- Reconciled the review order, authorship, package-release policy, cross-slate pass, schedule, and execution
+  ledger in the controlling submission specification.
+- Advanced the project version from `0.35.0` to `0.36.0`; proposal release `v1.8.0` remains unchanged because
+  this release defines execution policy and does not modify proposal-package content.
+
 ## [0.30.0] - 2026-07-20
 
 ### Added

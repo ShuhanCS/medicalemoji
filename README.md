@@ -2,13 +2,14 @@
 
 ## Current 2026 submission slate
 
-The active 2026 submission slate is White Blood Cell, Kidney, Stomach, and Liver. Shuhan He has confirmed the
-three organs are eligible, and White Blood Cell is outside the four-year resubmission bar after its 2020
-decline. Eligibility is settled; submission quality is not. The proposals must be corrected one at a time
-before filing:
+The active 2026 filing slate is Kidney, White Blood Cell, Stomach, and Liver, reviewed serially in that order.
+Pill Pack is a provisional fifth workstream and must pass a go/no-go review before joining the filing slate.
+Shuhan He has confirmed the three organs are eligible, and White Blood Cell is outside the four-year
+resubmission bar after its 2020 decline. Eligibility is settled for those four; submission quality is not. The
+proposals must be corrected one at a time before filing:
 
 - Best-in-class specification: [`docs/proposals/emoji-proposal-approval-rubric.md`](docs/proposals/emoji-proposal-approval-rubric.md)
-- One-by-one slate and review spec: [`docs/proposals/2026-submission-slate-spec.md`](docs/proposals/2026-submission-slate-spec.md)
+- Serial slate, semver, and agent handoff spec: [`docs/proposals/2026-submission-slate-spec.md`](docs/proposals/2026-submission-slate-spec.md)
 - Organ-by-organ audit: [`docs/proposals/2026-organ-submission-audit.md`](docs/proposals/2026-organ-submission-audit.md)
 - Current complete versioned package: [`submissions/v1.8.0/`](submissions/v1.8.0/)
 - Historical organ baseline: [`submissions/v1.7.0/`](submissions/v1.7.0/)
@@ -17,8 +18,10 @@ before filing:
 Submission packages are immutable semver snapshots. Every update creates a new complete version folder; files
 that did not change are copied forward byte for byte. The next substantive proposal revision will be v1.9.0.
 
-Authorship is fixed for this slate: Kidney uses the complete eight-person author list in v1.7.0; White Blood
-Cell, Stomach, and Liver list only Shuhan He. The 2026 submission window closes at the end of day on 2026-07-31.
+Authorship is fixed for the filing slate: Kidney uses the complete eight-person author list in v1.7.0; White
+Blood Cell, Stomach, and Liver list only Shuhan He. The provisional Pill Pack brief also starts with Shuhan He
+only and requires reconfirmation before revision. The 2026 submission window closes at the end of day on
+2026-07-31.
 
 ## ⏳ Deadlines
 
