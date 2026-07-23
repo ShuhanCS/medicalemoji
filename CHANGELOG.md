@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.21.1] - 2026-07-23
+
+### Added
+- Added Emoji Image Evidence Database v1.0.0: a traceable 10-proposal historical visual corpus, Unicode-aligned image rubric, reproducible source-page rehydrator, and deterministic Kidney v2.0.0 image inspection.
+
+### Changed
+- Recorded that Kidney v2.0.0 meets the required image dimensions but its black-and-white samples contain opaque grayscale values and need a strictly binary black-and-white revision before submission.
+
 ## [0.21.0] - 2026-07-23
 
 ### Changed
