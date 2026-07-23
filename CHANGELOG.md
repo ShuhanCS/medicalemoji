@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.21.3] - 2026-07-23
+
+### Added
+- Added an executable GPT2 implementation spec for a semver Kidney v2.1.0 artwork revision, with exact asset names, binary black-and-white requirements, automated gates, and blinded-recognition protocol.
+
 ## [0.21.2] - 2026-07-23
 
 ### Changed
