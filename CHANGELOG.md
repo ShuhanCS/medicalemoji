@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.21.0] - 2026-07-23
+
+### Changed
+- Added kidney submission packet v2.0.0, stating that Conductscience Foundation owns the example artwork and has granted the submitter the rights required for the Unicode proposal.
+
 ## [0.20.0] - 2026-07-23
 
 ### Changed
