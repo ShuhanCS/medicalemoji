@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """Deterministically inspect the four Unicode emoji proposal image samples.
 
-This tool records file-level evidence. It does not substitute for the blinded
-human recognition test specified in unicode-image-rubric.v1.md.
+This tool records file-level evidence for any Unicode emoji proposal candidate.
+It does not substitute for the blinded human recognition test specified in
+proposal-image-rubric.v1.md.
 """
 
 from __future__ import annotations
@@ -15,12 +16,7 @@ from pathlib import Path
 
 from PIL import Image
 
-EXPECTED_FILES = {
-    "color_18": "v2.0.0_kidney_color_18x18_SUBMIT.png",
-    "color_72": "v2.0.0_kidney_color_72x72_SUBMIT.png",
-    "bw_18": "v2.0.0_kidney_bw_18x18_SUBMIT.png",
-    "bw_72": "v2.0.0_kidney_bw_72x72_SUBMIT.png",
-}
+SAMPLE_LABELS = ("color_18", "color_72", "bw_18", "bw_72")
 
 
 def luminance(rgb: tuple[int, int, int]) -> float:
@@ -124,9 +120,15 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--input-dir", type=Path, required=True)
     parser.add_argument("--output", type=Path, required=True)
+    parser.add_argument("--asset-set", required=True, help="Human-readable candidate and package version, for example 'Stomach proposal v1.0.0'.")
+    parser.add_argument("--color-18", required=True, help="Filename of the color 18x18 PNG inside --input-dir.")
+    parser.add_argument("--color-72", required=True, help="Filename of the color 72x72 PNG inside --input-dir.")
+    parser.add_argument("--bw-18", required=True, help="Filename of the black-and-white 18x18 PNG inside --input-dir.")
+    parser.add_argument("--bw-72", required=True, help="Filename of the black-and-white 72x72 PNG inside --input-dir.")
     args = parser.parse_args()
 
-    paths = {label: args.input_dir / filename for label, filename in EXPECTED_FILES.items()}
+    filenames = {label: getattr(args, label) for label in SAMPLE_LABELS}
+    paths = {label: args.input_dir / filename for label, filename in filenames.items()}
     missing = [str(path) for path in paths.values() if not path.is_file()]
     if missing:
         raise SystemExit("Missing expected image files:\n" + "\n".join(missing))
@@ -141,9 +143,10 @@ def main() -> None:
         )
 
     output = {
-        "schema_version": "1.0.0",
-        "dataset_version": "1.0.0",
-        "asset_set": "Kidney proposal v2.0.0",
+        "schema_version": "1.1.0",
+        "dataset_version": "1.1.0",
+        "asset_set": args.asset_set,
+        "input_files": filenames,
         "method": "Deterministic file inspection; visual recognition must be tested separately with blinded participants.",
         "unicode_format_gate": {
             "all_required_dimensions_match": all(

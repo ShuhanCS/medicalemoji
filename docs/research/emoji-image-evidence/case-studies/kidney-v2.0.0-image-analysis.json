@@ -1,7 +1,13 @@
 {
-  "schema_version": "1.0.0",
-  "dataset_version": "1.0.0",
+  "schema_version": "1.1.0",
+  "dataset_version": "1.1.0",
   "asset_set": "Kidney proposal v2.0.0",
+  "input_files": {
+    "color_18": "v2.0.0_kidney_color_18x18_SUBMIT.png",
+    "color_72": "v2.0.0_kidney_color_72x72_SUBMIT.png",
+    "bw_18": "v2.0.0_kidney_bw_18x18_SUBMIT.png",
+    "bw_72": "v2.0.0_kidney_bw_72x72_SUBMIT.png"
+  },
   "method": "Deterministic file inspection; visual recognition must be tested separately with blinded participants.",
   "unicode_format_gate": {
     "all_required_dimensions_match": true,

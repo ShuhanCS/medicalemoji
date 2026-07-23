@@ -1,6 +1,6 @@
 {
-  "schema_version": "1.0.0",
-  "dataset_version": "1.0.0",
+  "schema_version": "1.1.0",
+  "dataset_version": "1.1.0",
   "created_at": "2026-07-23",
   "purpose": "A curated, traceable visual benchmark for Medical Emoji proposal artwork. This dataset is descriptive and does not establish that artwork alone caused encoding.",
   "source_register": {
@@ -49,7 +49,7 @@
       "encoded_emoji": "U+1FAD8 beans",
       "emoji_version": "14.0",
       "visual_family": "food / bean-like silhouette",
-      "relevance": "Primary confusability comparator for a single-kidney silhouette.",
+      "relevance": "Primary confusability comparator for a single bean-shaped candidate silhouette.",
       "image_evidence": "Three color proposal alternatives are visible on page 1. The proposal page does not show the present-day four-sample layout.",
       "source_pdf": "https://www.unicode.org/L2/L2020/20226-beans-emoji.pdf",
       "sample_page": 1
@@ -82,7 +82,7 @@
       "encoded_emoji": "U+1FAF7 fingerprint",
       "emoji_version": "16.0",
       "visual_family": "symbol / line-dense",
-      "relevance": "Tests whether a concept can retain its defining structural cue in monochrome; useful for judging the kidney black-and-white variant.",
+      "relevance": "Tests whether a concept can retain its defining structural cue in monochrome; useful for assessing black-and-white variants with a line-based defining feature.",
       "image_evidence": "Black-and-white and color examples are visible on page 1. The samples are evidence of a clear defining cue, not a prescription for organ art.",
       "source_pdf": "https://www.unicode.org/L2/L2023/23258-fingerprint-emoji.pdf",
       "sample_page": 1

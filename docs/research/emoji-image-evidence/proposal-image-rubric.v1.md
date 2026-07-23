@@ -1,6 +1,6 @@
 # Unicode Image Rubric for Emoji Proposal Artwork
 
-Version: `1.0.0`  
+Version: `1.1.0`
 Date: 2026-07-23
 
 ## Evidence labels
@@ -25,9 +25,9 @@ Unicode does not publish a visual point score, a preferred illustration style, a
 | --- | ---: | --- | --- |
 | Required four-sample format | Gate | Unicode requirement | Exact 18x18 and 72x72 pixel dimensions; color plus black-and-white; no grayscale treatment. As a conservative file check, black-and-white art should use only pure black and white for opaque pixels; edge antialiasing may use transparency, not opaque gray. |
 | Native-size concept recognition | 30 | Operational test of Unicode recognizability | A blinded, no-context test of at least 30 independent adult participants: at least 80% top-1 correct in color 18x18 and at least 70% in black-and-white 18x18. |
-| Confusability against the nearest alternatives | 20 | Operational test of “distinctive enough” | In a forced-choice test containing Kidney, beans, stomach, ear, balloon, and drop, Kidney is selected at least 75% of the time for each 18x18 mode; no single wrong alternative exceeds 15%. |
-| 72x72 visual hierarchy | 15 | Operational test | At 72x72, blinded participants identify Kidney at least 90%; visual annotation identifies one primary silhouette cue and no more than two secondary cues required for recognition. |
-| Color independence | 10 | Operational test | The black-and-white version retains the same primary silhouette and key differentiator as color. It cannot require the organ's red/brown color to be understood. |
+| Confusability against the nearest alternatives | 20 | Operational test of “distinctive enough” | In a forced-choice test containing the candidate and its five most plausible alternatives, the candidate is selected at least 75% of the time for each 18x18 mode; no single wrong alternative exceeds 15%. |
+| 72x72 visual hierarchy | 15 | Operational test | At 72x72, blinded participants identify the candidate at least 90%; visual annotation identifies one primary silhouette cue and no more than two secondary cues required for recognition. |
+| Color independence | 10 | Operational test | The black-and-white version retains the same primary silhouette and key differentiator as color. It cannot require a candidate-specific color association to be understood. |
 | Background and rendering resilience | 10 | Operational test | Samples remain visibly separable from both white and near-black backgrounds; no text, gradients, shadows, or thin detail is required to convey the concept. |
 | Vendor flexibility | 10 | Unicode paradigm principle + operational test | The proposal names only the invariant cues. A renderer can change palette, line style, and minor anatomy while preserving recognition. |
 | Evidence quality | 5 | Operational test | File checks, source vector, and a recorded blind-test protocol/results are included; assertions are not substituted for test results. |
@@ -45,40 +45,40 @@ An unrun recognition or confusability test receives **0** for that dimension. Th
 
 ## What the historical corpus supports
 
-The 10-record seed corpus is linked in `winning-image-corpus.v1.json`; all outcomes and source documents are official Unicode records. It supports only these descriptive lessons:
+The 10-record seed corpus is linked in `unicode-winning-image-corpus.v1.json`; all outcomes and source documents are official Unicode records. It supports only these descriptive lessons:
 
 1. The current format is newer than several successful proposals. Heart (Organ), Lung, Beans, Treasure Chest, and Falling Debris do not visibly show the complete current four-sample layout on their first page. Historical success is not permission to omit current requirements.
 2. The clearest current-format seed example is Orca (`L2/24-249`): its tiny samples preserve an instantly legible body outline and a small number of high-contrast landmark cues.
 3. Successful proposals sometimes simplify deliberately. Treasure Chest states that, at small resolution, only gold coins should be used because other contents muddle. This supports reducing nonessential detail; it does not support copying any particular art style.
-4. A shape-adjacent encoded emoji can be a real confound. Beans (`L2/20-226`) is therefore a mandatory forced-choice alternative for Kidney; “bean-like” is not a hypothetical objection.
-5. The two direct anatomical-organ precedents use more than a generic bean outline: Heart exposes vessels/chambers and Lung exposes paired lobes/trachea. That is a useful hypothesis for Kidney, not a Unicode mandate.
+4. A shape-adjacent encoded emoji can be a real confound. Any candidate sharing a compact bean-like silhouette, for example, should include Beans (`L2/20-226`) in its forced-choice alternatives rather than treating that confusion as hypothetical.
+5. The direct anatomical-organ precedents use more than a generic outline: Heart exposes vessels/chambers and Lung exposes paired lobes/trachea. For an organ candidate, that supports testing whether one structural landmark improves recognition; it is not a Unicode mandate.
 
-## Kidney-specific test card
+## Reusable candidate test card
 
 ### Stimuli
 
-- Color 18x18, black-and-white 18x18, color 72x72, black-and-white 72x72.
+- Candidate color 18x18, black-and-white 18x18, color 72x72, black-and-white 72x72.
 - Matching white and near-black backgrounds.
 - Randomized trials using the same display scaling for every participant.
 
 ### Task 1: unprompted recognition
 
-Show one sample for three seconds. Ask: “What does this image depict?” Score a response as correct only if it says *kidney* or an unambiguous synonym. Do not present the proposal title, description, or candidate list.
+Show one sample for three seconds. Ask: “What does this image depict?” Score a response as correct only if it names the candidate or an unambiguous synonym. Do not present the proposal title, description, or candidate list.
 
 ### Task 2: forced-choice confusability
 
-Show the same sample with randomized answer order: Kidney, beans, stomach, ear, balloon, drop, other. This identifies the actual failure mode that open text answers can conceal.
+Before testing, select the five most plausible alternatives from the historical corpus, existing emoji, and pilot open-text responses. Show the same sample with randomized answer order: Candidate, Alternative 1, Alternative 2, Alternative 3, Alternative 4, Alternative 5, Other. This identifies the actual failure mode that open text answers can conceal.
 
 ### Task 3: cue audit
 
-Ask participants who answered Kidney which feature guided them. Code responses independently as: organ/bean silhouette, hilum indentation, ureter, red-brown organ color, or other. If color or a barely visible ureter is the only cue at 18px, the black-and-white design needs revision.
+Before testing, prepare a candidate-specific cue inventory with one primary silhouette cue and up to two secondary cues. Ask participants who answered correctly which feature guided them. Code responses against that inventory and `other`. If a color-only or barely visible secondary cue is the only cue at 18px, the black-and-white design needs revision.
 
 ### Design decision rules
 
-- If *beans* is the main error: deepen/clarify the medial indentation and separate the ureter from the body silhouette.
-- If *ear* or *balloon* is the main error: move the ureter attachment and reduce the outer ear-like rim.
-- If *stomach* is the main error: make the bean-shaped renal contour and lower ureter direction clearer.
-- If black-and-white fails while color passes: make the black silhouette/negative space do the identifying work before adding interior anatomy.
+- If one alternative is the main error: identify the shared visual feature, then strengthen the candidate's invariant cue rather than adding decorative detail.
+- If several alternatives are selected: simplify the 18px design to one primary silhouette and one high-contrast differentiator.
+- If black-and-white fails while color passes: make the black silhouette/negative space do the identifying work before adding interior detail.
+- If 72px succeeds but 18px fails: redraw the 18px sample as native pixel-aware art rather than mechanically reducing the 72px illustration.
 
 ## Limits
 

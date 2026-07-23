@@ -19,7 +19,7 @@ def main() -> None:
     parser.add_argument(
         "--corpus",
         type=Path,
-        default=Path(__file__).with_name("winning-image-corpus.v1.json"),
+        default=Path(__file__).with_name("unicode-winning-image-corpus.v1.json"),
         help="Path to the versioned corpus manifest.",
     )
     parser.add_argument(

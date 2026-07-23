@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.21.2] - 2026-07-23
+
+### Changed
+- Generalized Emoji Image Evidence Database to v1.1.0 for all Medical Emoji submissions, with a parameterized four-sample inspector, generic blinded-test rubric, neutral corpus annotations, and candidate-specific case studies.
+
 ## [0.21.1] - 2026-07-23
 
 ### Added
