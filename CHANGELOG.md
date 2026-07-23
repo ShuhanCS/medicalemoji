@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.20.0] - 2026-07-23
+
+### Changed
+- Added synchronized kidney submission packet v1.2.0 with revised substantive argument, updated single-kidney reference artwork, a regenerated visual-review board, and a new PDF.
+- Reframed the Kidney proposal around everyday communication, concrete substitute failures, native-size visual distinction, and a bounded evidence-based case rather than anatomy-category completion.
+
 ## [0.19.11] - 2026-05-15
 
 ### Added
