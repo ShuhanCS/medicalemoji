@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72">
+  <title>Liver emoji color reference artwork</title>
+  <desc>Original textless asymmetric liver paradigm with a strong lobe boundary and protruding gallbladder cue for 18-pixel recognition.</desc>
+  <rect width="72" height="72" fill="#ffffff"/>
+  <defs><radialGradient id="liver-body" cx="37%" cy="27%" r="88%">
+      <stop offset="0" stop-color="#D46461"/>
+      <stop offset="0.48" stop-color="#A83C43"/>
+      <stop offset="0.84" stop-color="#7F2732"/>
+      <stop offset="1" stop-color="#641C29"/>
+    </radialGradient>
+    <linearGradient id="gall" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#84AD58"/>
+      <stop offset="1" stop-color="#4F7C37"/>
+    </linearGradient>
+    <radialGradient id="liver-shine" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient></defs>
+<g transform="rotate(2 36 35)">
+    <path d="M 5 31 C 7 19 18 10 33 10 C 47 10 61 15 67 23 C 71 28 68 34 62 37 C 55 41 49 40 44 44 C 41 47 43 51 39 55 C 35 60 29 62 21 61 C 12 60 6 55 4 47 C 2 41 3 35 5 31 Z" fill="url(#liver-body)" stroke="#5E1D26" stroke-width="3.4" stroke-linejoin="round"/>
+    <path d="M 42 14 C 42 24 40 34 37 43" fill="none" stroke="#5E1D26" stroke-width="3.5" stroke-linecap="round" opacity="0.95"/>
+    <path d="M 39 42 C 43 40 47 43 46 49 C 45 56 42 61 38 59 C 34 57 35 51 36 47 C 37 45 38 43 39 42 Z" fill="url(#gall)" stroke="#2F5428" stroke-width="2.5" stroke-linejoin="round"/>
+    <ellipse cx="23" cy="20" rx="9" ry="4.5" transform="rotate(-16 23 20)" fill="url(#liver-shine)"/>
+    <ellipse cx="18" cy="18" rx="2" ry="1.1" transform="rotate(-16 18 18)" fill="#FFFFFF" opacity="0.78"/>
+  </g>
+</svg>
