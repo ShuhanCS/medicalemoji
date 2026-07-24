@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kidney Emoji 18x18 Visual Review</title>
+  <style>
+    :root {
+      --bg: #f5f7fb;
+      --card: #ffffff;
+      --ink: #111827;
+      --muted: #4b5563;
+      --line: #d5dce8;
+      --soft: #eef2f7;
+      --good: #0f766e;
+      --risk: #b45309;
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      width: 1120px;
+      min-height: 760px;
+      padding: 28px;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+    }
+
+    h1 { margin: 0 0 6px; font-size: 25px; line-height: 1.15; }
+    .dek { margin: 0 0 18px; max-width: 1020px; color: var(--muted); font-size: 15px; line-height: 1.42; }
+    .strip, .card { background: var(--card); border: 1px solid var(--line); border-radius: 8px; }
+    .strip { padding: 16px; margin-bottom: 16px; }
+    .strip-title, .card-title { font-size: 13px; font-weight: 700; color: #1f2937; }
+    .strip-title { margin-bottom: 12px; }
+    .actual-row { display: grid; grid-template-columns: repeat(6, 1fr); gap: 12px; }
+    .actual-cell {
+      min-height: 76px;
+      padding: 10px;
+      border: 1px solid var(--soft);
+      border-radius: 6px;
+      background: #ffffff;
+    }
+    .actual-cell.dark { background: #111827; color: #ffffff; }
+    .actual-label { display: block; margin-bottom: 8px; font-size: 11px; color: inherit; opacity: .78; }
+    .actual-icon { width: 18px; height: 18px; display: inline-block; vertical-align: middle; }
+    .actual-repeat { display: flex; align-items: center; gap: 8px; min-height: 22px; }
+    .white-tile {
+      width: 24px;
+      height: 24px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background: #ffffff;
+      border: 1px solid #d5dce8;
+      border-radius: 4px;
+    }
+    .grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+    .card { min-height: 330px; padding: 16px; }
+    .card-title { min-height: 34px; margin-bottom: 14px; line-height: 1.25; }
+    .preview-row { display: flex; align-items: center; gap: 16px; margin-bottom: 14px; }
+    .native72, .zoom108 {
+      width: 112px;
+      height: 112px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid var(--soft);
+      border-radius: 6px;
+      background: #ffffff;
+    }
+    .native72 img { width: 72px; height: 72px; object-fit: contain; }
+    .zoom108 img { width: 108px; height: 108px; object-fit: contain; image-rendering: auto; }
+    .mini { display: flex; flex-direction: column; gap: 6px; align-items: center; width: 64px; }
+    .mini-box {
+      width: 36px;
+      height: 36px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid var(--soft);
+      border-radius: 6px;
+      background: #ffffff;
+    }
+    .mini-label { font-size: 10px; color: var(--muted); text-align: center; line-height: 1.2; }
+    .note { margin: 0 0 10px; color: #374151; font-size: 12px; line-height: 1.38; }
+    .pass, .risk {
+      display: inline-block;
+      margin-bottom: 8px;
+      padding: 3px 7px;
+      border-radius: 999px;
+      font-size: 11px;
+      font-weight: 700;
+    }
+    .pass { color: var(--good); background: #d9f4ef; }
+    .risk { color: var(--risk); background: #fef3c7; }
+    .bean18, .bean72, .organ18, .organ72 { display: inline-flex; align-items: center; justify-content: center; flex: 0 0 auto; }
+    .bean18 { width: 18px; height: 18px; }
+    .bean72 { width: 72px; height: 72px; }
+    .bean18::before, .bean72::before {
+      content: "";
+      display: block;
+      width: 62%;
+      height: 78%;
+      border-radius: 58% 42% 56% 44%;
+      background: linear-gradient(135deg, #8b3f31, #b76854 52%, #6f2f27);
+      transform: rotate(32deg);
+    }
+    .organ18 { width: 18px; height: 18px; gap: 2px; }
+    .organ18::before, .organ18::after {
+      content: "";
+      width: 8px;
+      height: 12px;
+      display: block;
+      border-radius: 60% 45% 58% 42%;
+      background: #be4b57;
+    }
+    .organ18::before { transform: rotate(-18deg); }
+    .organ18::after { transform: rotate(18deg); }
+    .organ72 { width: 72px; height: 72px; gap: 7px; }
+    .organ72::before, .organ72::after {
+      content: "";
+      width: 27px;
+      height: 43px;
+      display: block;
+      border-radius: 60% 45% 58% 42%;
+      background: #be4b57;
+    }
+    .organ72::before { transform: rotate(-18deg); }
+    .organ72::after { transform: rotate(18deg); }
+    .footer {
+      margin-top: 14px;
+      color: var(--muted);
+      font-size: 11px;
+      line-height: 1.35;
+    }
+  </style>
+</head>
+<body>
+  <h1>Kidney Emoji 18x18 Visual Review</h1>
+  <p class="dek">Candidate board for checking whether the single-kidney proposal art remains legible at actual emoji size and separates from bean-like and generic organ shapes. Independent cold-recognition review is still required before filing.</p>
+
+  <section class="strip">
+    <div class="strip-title">Actual 18px comparison strip</div>
+    <div class="actual-row">
+      <div class="actual-cell">
+        <span class="actual-label">Color on light</span>
+        <div class="actual-repeat"><img class="actual-icon" src="../../images/v2.1.0_kidney_color_18x18_SUBMIT.png" alt="Kidney color 18px"><img class="actual-icon" src="../../images/v2.1.0_kidney_color_18x18_SUBMIT.png" alt=""></div>
+      </div>
+      <div class="actual-cell dark">
+        <span class="actual-label">Color on dark</span>
+        <div class="actual-repeat"><img class="actual-icon" src="../../images/v2.1.0_kidney_color_18x18_SUBMIT.png" alt="Kidney color 18px on dark"><img class="actual-icon" src="../../images/v2.1.0_kidney_color_18x18_SUBMIT.png" alt=""></div>
+      </div>
+      <div class="actual-cell">
+        <span class="actual-label">B/W on light</span>
+        <div class="actual-repeat"><img class="actual-icon" src="../../images/v2.1.0_kidney_bw_18x18_SUBMIT.png" alt="Kidney black-and-white 18px"><img class="actual-icon" src="../../images/v2.1.0_kidney_bw_18x18_SUBMIT.png" alt=""></div>
+      </div>
+      <div class="actual-cell dark">
+        <span class="actual-label">B/W on white tiles</span>
+        <div class="actual-repeat"><span class="white-tile"><img class="actual-icon" src="../../images/v2.1.0_kidney_bw_18x18_SUBMIT.png" alt="Kidney black-and-white 18px on white tile"></span><span class="white-tile"><img class="actual-icon" src="../../images/v2.1.0_kidney_bw_18x18_SUBMIT.png" alt=""></span></div>
+      </div>
+      <div class="actual-cell">
+        <span class="actual-label">Bean-like silhouette</span>
+        <div class="actual-repeat"><span class="bean18" aria-label="Bean-like comparator"></span><span class="bean18" aria-hidden="true"></span></div>
+      </div>
+      <div class="actual-cell">
+        <span class="actual-label">Generic paired organ</span>
+        <div class="actual-repeat"><span class="organ18" aria-label="Generic paired organ"></span><span class="organ18" aria-hidden="true"></span></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="grid">
+    <section class="card">
+      <div class="card-title">Kidney color: actual size and native 72px</div>
+      <div class="preview-row">
+        <div class="mini"><div class="mini-box"><img class="actual-icon" src="../../images/v2.1.0_kidney_color_18x18_SUBMIT.png" alt="Kidney color 18px"></div><div class="mini-label">actual 18px</div></div>
+        <div class="native72"><img src="../../images/v2.1.0_kidney_color_72x72_SUBMIT.png" alt="Kidney color 72px"></div>
+      </div>
+      <span class="pass">CANDIDATE</span>
+      <p class="note">The large maroon organ form and tan urinary-system cue remain visible at 18px. The native 72px image shows the intended anatomy without requiring exact vendor reproduction.</p>
+      <p class="note">Primary cue: one kidney silhouette with a hilum and short urinary-system cue.</p>
+    </section>
+
+    <section class="card">
+      <div class="card-title">Kidney black-and-white: actual size and native 72px</div>
+      <div class="preview-row">
+        <div class="mini"><div class="mini-box"><img class="actual-icon" src="../../images/v2.1.0_kidney_bw_18x18_SUBMIT.png" alt="Kidney black-and-white 18px"></div><div class="mini-label">actual 18px</div></div>
+        <div class="native72"><img src="../../images/v2.1.0_kidney_bw_72x72_SUBMIT.png" alt="Kidney black-and-white 72px"></div>
+      </div>
+      <span class="pass">CANDIDATE</span>
+      <p class="note">The black-and-white image uses a solid black renal silhouette, white hilum landmark, and black ureter with a white rim. Fully opaque pixels are strictly black or white.</p>
+      <p class="note">The 18px version is intentionally native-size simplified; independent cold-recognition review remains required.</p>
+    </section>
+
+    <section class="card">
+      <div class="card-title">Bean-like comparator: key confusion risk</div>
+      <div class="preview-row">
+        <div class="mini"><div class="mini-box"><span class="bean18" aria-label="Bean-like comparator 18px"></span></div><div class="mini-label">actual 18px</div></div>
+        <div class="native72"><span class="bean72" aria-label="Bean-like comparator 72px"></span></div>
+      </div>
+      <span class="pass">TEST TARGET</span>
+      <p class="note">A food-bean silhouette has no hilum or urinary-system cue. The kidney candidate is a single organ with both of those cues.</p>
+      <p class="note">The proposal states that this is not a food-bean emoji; the independent test must confirm that readers see the distinction.</p>
+    </section>
+
+    <section class="card">
+      <div class="card-title">Generic paired organ: context risk</div>
+      <div class="preview-row">
+        <div class="mini"><div class="mini-box"><span class="organ18" aria-label="Generic paired organ 18px"></span></div><div class="mini-label">actual 18px</div></div>
+        <div class="native72"><span class="organ72" aria-label="Generic paired organ 72px"></span></div>
+      </div>
+      <span class="risk">COMPARISON RISK</span>
+      <p class="note">Generic paired-organ marks are deliberately different from the single-kidney candidate. The kidney-specific cues are its side-facing hilum, short urinary-system cue, and use context.</p>
+      <p class="note">This supports the v2.1.0 proposal framing: everyday utility and visual cues, not silhouette alone.</p>
+    </section>
+  </div>
+
+  <div class="footer">Packet: v2.1.0. Deterministic format checks passed; blinded recognition testing and exported-public-PDF review remain required before filing.</div>
+</body>
+</html>

@@ -14,3 +14,4 @@ Each case study is a candidate-specific application of the reusable [proposal im
 ## Current case studies
 
 - `kidney-v2.0.0-image-analysis.json` — deterministic inspection only. Its human recognition and confusability tests have not been run.
+- `kidney-v2.1.0-image-analysis.json` — current deterministic-passing revision. Its human recognition and confusability tests have not been run.

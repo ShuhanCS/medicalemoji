@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.22.0] - 2026-07-24
+
+### Added
+- Added Kidney submission packet v2.1.0 with a native-size artwork revision, regenerated PDF and visual-review board, source vectors, and recorded image-evidence case study.
+
+### Changed
+- Replaced Kidney B&W proposal art with strict black-and-white rendering; v2.1.0 passes the deterministic format, palette, margin, white-background visibility, and silhouette-alignment gates. Human recognition testing remains a filing hold.
+
 ## [0.21.3] - 2026-07-23
 
 ### Added
