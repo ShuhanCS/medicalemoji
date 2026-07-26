@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.47.0] - 2026-07-26
+
+### Changed
+- Recast the four active proposal agents' shared instructions as flexible, goal-oriented guidance grounded in
+  historical accepted and declined proposals.
+- Removed mandatory case-brief, claim-ledger, gate-status, and self-authored rejection-case requirements while
+  retaining current-rule compliance, candidate-specific arguments, evidence discipline, and section-by-section
+  decision guidance.
+- Advanced the shared guidance to `1.1.0`, the agent coordination index and Kidney specification to `1.5.0`,
+  the other three active specifications to `1.3.0`, and the workspace to `0.47.0`.
+
 ## [0.46.3] - 2026-07-26
 
 ### Added

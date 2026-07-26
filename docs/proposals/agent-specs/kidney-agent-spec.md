@@ -1,6 +1,6 @@
 # Kidney Proposal Agent Specification
 
-Version: 1.4.0
+Version: 1.5.0
 
 Status: Completed in canonical package v1.10.0; retain for audit only
 
@@ -59,13 +59,13 @@ do not invent missing records. Confirm that the artwork rights statement and CC0
 
 ## Work required
 
-Before editing proposal prose, create `kidney/CASE-BRIEF.md` and `kidney/CLAIM-LEDGER.md` under the active
-package and pass every gate in the shared case-building instructions. Do not draft from the rubric's example
-sentence patterns. If the result is `CASE BLOCKED`, repair the evidence or case and report the blocker instead
-of polishing generic text.
+Use the shared proposal-building guidance to study the historical record and develop the strongest
+candidate-specific case before polishing the prose. The guidance does not require a separate case brief,
+claim ledger, gate status, or self-authored rejection argument. Do not draft from the rubric's example
+sentence patterns.
 
-1. Audit every proposal claim against the current rubric after the case is `CASE READY`. Remove cause,
-   prestige, burden, or deservingness language that substitutes for expected use.
+1. Audit every proposal claim against the current rubric. Remove cause, prestige, burden, or deservingness
+   language that substitutes for expected use.
 2. Strengthen the independent semantic case against Beans, Droplet, Anatomical Heart, Lungs, and generic
    medical sequences. Do not argue that Unicode should complete an organ set.
 3. Verify every 2026 Search, Video, Web Trends, Image Trends, and Ngram capture for readability, query settings,

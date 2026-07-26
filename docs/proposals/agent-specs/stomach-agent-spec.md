@@ -1,6 +1,6 @@
 # Stomach Proposal Agent Specification
 
-Version: 1.2.0
+Version: 1.3.0
 
 Status: Ready to assign
 
@@ -52,10 +52,10 @@ confirmation records.
 
 ## Work required
 
-Before editing proposal prose, create `stomach/CASE-BRIEF.md` and `stomach/CLAIM-LEDGER.md` under the active
-package and pass every gate in the shared case-building instructions. Do not draft from the rubric's example
-sentence patterns. If the result is `CASE BLOCKED`, repair the evidence or case and report the blocker instead
-of polishing generic text.
+Use the shared proposal-building guidance to study the historical record and develop the strongest
+candidate-specific case before polishing the prose. The guidance does not require a separate case brief,
+claim ledger, gate status, or self-authored rejection argument. Do not draft from the rubric's example
+sentence patterns.
 
 1. Replace the 2020 Google Search and Video captures with current, readable captures showing result counts.
 2. Replace the 2020 Web and Image Trends captures with worldwide, widest-range comparisons against `elephant`.
