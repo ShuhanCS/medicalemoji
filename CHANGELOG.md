@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.44.1] - 2026-07-26
+
+### Changed
+- Added Adrienne Balk to the confirmed Liver proposal author byline while retaining David Rhew's and Heena
+  Purohit's Microsoft affiliations.
+- Rewrote the substantive Liver criteria with concrete organ-specific messages, visual cues, evidence, and
+  counterarguments; retained concise answers where a criterion is genuinely not applicable.
+- Created the immutable `1.12.0-liver.5` submission package and synchronized rubric `3.1.1`.
+- Required all new workspace, rubric, and submission-package identifiers to use Semantic Versioning 2.0.0.
+
 ## [0.44.0] - 2026-07-26
 
 ### Changed
