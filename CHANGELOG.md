@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.45.2] - 2026-07-26
+
+### Added
+- Added the complete five-seat exact-hash ESR/UTC-readiness panel record for Stomach candidate
+  `1.12.0-candidate.3`, including the independent verdicts, coordinator synthesis, and action ledger.
+
+### Changed
+- Withdrew three non-reproducible page-clipping observations after fresh 160 and 200 DPI renders confirmed the
+  complete heading and clean five-page layout.
+- Advanced the workspace version from `0.45.1` to `0.45.2`.
+
 ## [0.45.1] - 2026-07-26
 
 ### Changed
