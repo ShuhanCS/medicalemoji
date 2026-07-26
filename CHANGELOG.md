@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.46.1] - 2026-07-26
+
+### Changed
+- Ran a separated five-seat compliance, ESR-selection, editorial, visual, and skeptical-decision panel on the
+  exact `1.12.0-liver.5` PDF hash.
+- Preserved the split verdicts and recorded `REVISE AND RERUN` rather than averaging away editorial and
+  skeptical objections.
+- Accepted narrow source, sequence, Open-ended, and plain-language revisions; rejected a false page-8 clipping
+  report using the full-page render and extracted text.
+- Kept eligibility and artwork rights as settled inputs and left the proposal PDF and package version unchanged.
+
 ## [0.46.0] - 2026-07-26
 
 ### Added
