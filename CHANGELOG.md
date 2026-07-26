@@ -5,6 +5,27 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.43.1] - 2026-07-26
+
+### Changed
+- Added David Rhew, MD and Heena Purohit to the Liver proposal author byline alongside Shuhan He.
+- Preserved Shuhan He as the submitter, main point of contact, and artwork-rights certifier.
+- Created the immutable `v1.12.0-liver.3` package and rebuilt its reviewer-facing PDF.
+- Advanced the application/workspace version from `0.43.0` to `0.43.1`.
+
+## [0.43.0] - 2026-07-26
+
+### Changed
+- Rebuilt the best-in-class rubric as a section-by-section proposal-writing guide grounded in the current
+  Unicode requirements and repeatable patterns from accepted submissions.
+- Defined an educated-general-reader voice, plain-language paragraph formulas, and explicit guidance for every
+  inclusion factor, exclusion factor, evidence source, and design-information section.
+- Separated reviewer-facing proposal prose from internal QA so algorithms, hashes, thresholds, asset manifests,
+  machine-validation results, and release gates do not leak into submission PDFs.
+- Updated the reusable proposal template and README pre-flight rules to enforce the same language and jargon
+  boundary.
+- Advanced the application/workspace version from `0.42.1` to `0.43.0`.
+
 ## [0.42.1] - 2026-07-26
 
 ### Changed

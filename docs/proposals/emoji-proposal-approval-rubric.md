@@ -1,6 +1,6 @@
 # Best-in-Class Emoji Submission Specification
 
-Version: 2.4
+Version: 3.0.0
 
 Last checked: 2026-07-26
 
@@ -245,7 +245,7 @@ The top of page 1 must contain, in this order or an equally obvious arrangement:
 - `Proposal for Emoji: <name>`.
 - Submitter names and one named main point of contact.
 - Current revision date.
-- Suggested name, search-oriented keywords that do not repeat the name, and category.
+- Search-oriented keywords that do not repeat the proposal name, and the proposed category.
 - Color and black-and-white 18x18 and 72x72 images.
 - A direct image-rights and license statement by the person authorized to make it.
 
@@ -280,71 +280,262 @@ Best-in-class evidence also does the following (`I`, unless the current guidelin
   Cause-related usage may be described when it is established, cited, and not the reason for encoding.
 - Does not claim worldwide relevance from U.S.-only data.
 
-### 4. Selection-factor standard
+### 4. Section-by-section argument guide
+
+This guide separates three things that are easy to conflate:
+
+- `Unicode asks`: the question the current guideline requires the proposal to answer.
+- `Accepted pattern`: a repeated, useful practice observed in accepted proposals. It is descriptive, not a
+  causal approval formula.
+- `Drafting pattern`: the recommended reviewer-facing shape for this project.
+
+The accepted corpus is heterogeneous. Its median extractable text is 907 words, but accepted documents range
+from compact to long and from polished to awkward. Exclusion terms appear in 52 of 55 tracked accepted texts,
+and the median text contains one explicit `N/A`. These measurements support direct answers and honest omission;
+they do not establish a winning length or magic phrase.
+
+#### Title, submitter, and date
+
+**Unicode asks:** Identify the proposed emoji, the individual submitters, one main point of contact, and the
+current revision date.
+
+**Accepted pattern:** Strong recent first pages treat this as metadata, not a pitch. The title names the entity;
+the names and date are easy to scan; no slogan or biography interrupts the required information.
+
+**Drafting pattern:** Use the exact title `Proposal for Emoji: <name>`, one compact submitter line, one main
+contact, and an ISO date. Do not spend a paragraph establishing credentials, institutional prestige, or campaign
+history.
+
+#### Identification
+
+**Unicode asks:** Supply suggested search-oriented keywords and the proposed category. The 2026 format does not
+require a separate CLDR short-name or sort-location field, and keywords must not merely repeat the proposal name.
+
+**Accepted pattern:** Strong proposals give concrete synonyms, actions, associations, or meanings that help a
+person find the emoji. They keep the category line short and use the current Emoji Ordering vocabulary.
+
+**Drafting pattern:** Use a compact keyword list and one category line. Add prose only when a name is genuinely
+ambiguous. Prefer familiar search words over technical taxonomies or an exhaustive medical vocabulary.
+
+#### Images and license
+
+**Unicode asks:** Put color and true black-and-white images at 18x18 and 72x72 at the top of page 1, followed by
+a rights statement that satisfies the current agreement.
+
+**Accepted pattern:** The best first pages show the four images in a simple matrix and state ownership or the
+open license directly. The artwork is allowed to carry the visual claim before the proposal discusses it.
+
+**Drafting pattern:** Show the assets, then use one precise ownership/license paragraph. If the art is external,
+include the source and license URL. Do not narrate commissioning, AI assistance, file conversion, asset hashes,
+or the validation pipeline unless a legal fact makes that information necessary.
 
 #### Multiple meanings
 
-Use only established non-pun meanings backed by citations. Mark `Not applicable` when the literal concept is
-the real case. A short valid `N/A` is stronger than a speculative list.
+**Unicode asks:** Does the proposed emoji have established metaphorical references, symbolism, or meanings beyond
+the literal entity? Puns do not count, and the guideline says to use `N/A` without compelling examples.
+
+**Accepted pattern:** Strong answers begin with the literal meaning, then give a small number of recognizable
+extensions. Treasure Chest moves from valuables to discovery and sentimental value through concrete situations,
+not abstract claims of versatility.
+
+**Drafting pattern:** Start with one conclusion sentence. Follow with two to four established meanings, each
+understandable without specialist knowledge, and cite a dictionary or durable source when the meaning is not
+self-evident. Do not relabel clinical use cases as metaphor. Use `Not applicable` rather than inventing a pun.
 
 #### Use in sequences
 
-Give a small set of combinations that create distinct, plausible messages. Do not list every adjacent medical
-emoji. Show what becomes clearer because the proposed emoji exists.
+**Unicode asks:** Can the character combine with existing emoji to make an additional, understandable message?
+The guideline says to use `N/A` without compelling examples.
+
+**Accepted pattern:** Useful answers present a few short combinations and translate each into ordinary language.
+The second emoji changes or narrows the message; it is not merely adjacent decoration. Some accepted historical
+proposals say the emoji stands alone, but that does not answer the current positive factor.
+
+**Drafting pattern:** Give two to five `candidate + existing emoji: resulting message` examples. Choose the
+clearest combinations, not every medically related emoji. If the sequences would require explanation longer than
+the message, write `Not applicable`.
 
 #### Breaks new ground
 
-Answer `Yes` or `No` immediately. Identify the nearest current emoji and explain the semantic gap in ordinary
-communication. Do not rely on the existence of other body-part emoji.
+**Unicode asks:** Answer `Yes` or `No`: does the candidate add a meaning that is new and different rather than a
+variant of an existing emoji or sequence?
+
+**Accepted pattern:** Strong answers name the closest current substitute and identify the ordinary message it
+cannot convey. Treasure Chest distinguishes discovery and sentimental value from money; Lighthouse identifies a
+maritime guidance structure not expressed by a house, flashlight, or wave.
+
+**Drafting pattern:** Use `Yes.` or `No.` first. Then write: `[closest emoji or sequence] expresses [existing
+meaning], but it does not express [remaining meaning]. [Candidate] adds [broad communicative function].` Do not
+argue that the field, disease, or organ is important, or that similar emoji already exist.
 
 #### Distinctiveness
 
-Prove, rather than assert, recognizability. Include:
+**Unicode asks:** Explain why most people should recognize the intended entity without foreknowledge at typical
+emoji size, especially 18x18.
 
-- A nearest-emoji comparison at 18x18 and 72x72.
-- Color and black-and-white comparisons.
-- The essential silhouette cues and which details vendors may vary.
-- A reproducible computer-validation report with pinned comparator assets, hashes, declared thresholds, and
-  machine-readable output.
+**Accepted pattern:** Strong answers name a few visible cues and the nearest visual confusion. Treasure Chest
+points to the open rounded chest and coins; Apple's accessibility proposal explains why a hearing aid needed an
+ear to establish its identity. The explanation stays on what a person can see.
 
-For Kidney, the coordinator-selected computer gate requires exact dimensions, a true black-and-white palette,
-foreground connectedness, normalized silhouette IoU no greater than 0.72, and 64-bit difference-hash distance
-of at least 16 against each declared comparator. This is an internal technical-separability control, not a
-Unicode rule or a claim about human semantic recognition. No human-recognition panel is required.
+**Drafting pattern:** Write: `[Candidate] is shown with [two to four stable visible cues]. At 18 pixels, [primary
+cue] distinguishes it from [nearest visual alternatives]. Vendors may vary [nonessential details] while keeping
+[essential cues].` State that recognition was tested only if genuine human-recognition evidence exists.
 
-#### Expected usage
+Computer checks remain useful internal controls for dimensions, palette, connectedness, and geometric
+separation. Their algorithms, hashes, pinned assets, thresholds, pass/fail language, and machine-readable reports
+belong in `READINESS`, validation, or QA records, not the submission PDF. Terms such as `intersection-over-union`,
+`difference hash`, `declared confuser`, and `machine-visible separation` do not establish human recognition and
+must not appear in reviewer-facing proposal prose.
 
-Lead with the five required reproducible sources and numerical observations. Add only cited, durable contexts
-that show breadth. Disease burden or professional importance cannot substitute for actual use of the concept.
+#### Expected usage level
 
-#### Completeness and compatibility
+**Unicode asks:** Provide the five required frequency screenshots and enough interpretation to show current and
+historical use of the concept.
 
-Mark each `Not applicable` unless there is compelling evidence. An organ does not complete a finite anatomy
-set. Compatibility earns weight only when a popular social app, standard, or operating system already uses the
-same or nearly identical pictograph at demonstrably high frequency.
+**Accepted pattern:** Strong proposals state what the evidence shows, preserve the query and settings, and
+concede an unfavorable result rather than hiding it. Orca explicitly notes where `elephant` performs better and
+then explains the narrower regional evidence. Fingerprint labels searches and dates so the reader can reproduce
+them.
 
-### 5. Exclusion-factor standard
+**Drafting pattern:** Lead with one synthesis sentence about breadth, durability, or relative interest. Give the
+observed figures and settings next to their screenshots. Explain ambiguous searches and any limitation in one
+plain sentence. Result counts are estimates of indexed pages, not counts of users or intended emoji uses. Disease
+prevalence, professional importance, or an organization's audience cannot substitute for concept-frequency data.
 
-Write these answers before polishing the inclusion case:
+#### Completeness
 
-- `Already representable`: identify the strongest substitute or sequence and explain the remaining ambiguity.
-- `Overly specific`: show that the proposed concept is a broad building block, not a disease, procedure,
-  specialty, campaign, subtype, or branded image.
-- `Open-ended`: explain why this concept stands independently and does not imply that every organ must follow.
-- `Transient`: support durable use over time rather than asserting that anatomy is old.
-- `Faulty comparison`: state that existing organs do not justify this one and restate the independent evidence.
+**Unicode asks:** Does the candidate close a genuinely fixed set, such as the zodiac, four card suits, or blood
+types? Scientific and taxonomic categories are not fixed sets for this purpose.
 
-### 6. Writing and layout standard
+**Accepted pattern:** Concise successful proposals commonly write `N/A`. A positive answer works only when the
+proposal can name the finite set, its existing members, and how this one addition closes it.
 
-- Use no more prose than the case needs. There is no validated winning word, page, or image-count threshold.
-  A short proposal is useful only when it remains complete and evidentially strong.
-- Use direct section names that mirror the current guidelines.
-- Put the conclusion first in each factor.
+**Drafting pattern:** For an organ, write `Not applicable.` Do not convert an anatomy taxonomy into a finite set
+or say that existing body-part emoji create an entitlement to another.
+
+#### Compatibility
+
+**Unicode asks:** Is the same pictograph already used at high frequency in a popular existing system, making
+Unicode encoding necessary for interoperability?
+
+**Accepted pattern:** Genuine compatibility proposals identify the systems, show the actual pictographs, and
+explain the mismatch encoding would resolve. Meteor is the clearest current model because its case concerns
+inconsistent vendor implementations, not generic popularity or similar imagery online.
+
+**Drafting pattern:** Unless equivalent system evidence exists, write `Not applicable.` If it does exist, name
+the systems, show the same pictograph in use, quantify or document high usage, and state the exact interoperability
+problem. Stickers, search images, branding, and ordinary social-media posts are not compatibility by themselves.
+
+#### Already represented
+
+**Unicode asks:** Can an existing emoji or short sequence already express the concept, even if it does not use the
+same picture?
+
+**Accepted pattern:** Strong answers volunteer the reviewer's best substitute and explain the remaining ambiguity.
+Fingerprint addresses Index Pointing Up directly; Treasure Chest explains why money emoji cannot carry discovery
+or sentimental value. Merely saying “there is no stomach emoji” does not answer the test.
+
+**Drafting pattern:** Write: `[strongest substitute] can express [overlap], but it cannot clearly express [specific
+remaining meanings].` Address meaning before appearance, and do not construct an implausibly long sequence just
+to make the candidate look necessary.
+
+#### Overly specific
+
+**Unicode asks:** Is the proposal a narrow subtype when a broader existing or proposed character would serve?
+
+**Accepted pattern:** Strong answers define the general class the image represents and explain why its visible
+form is a recognizable example rather than a request for a narrow subtype. Treasure Chest explains that the coins
+make the broad concept readable without limiting the meaning to coins.
+
+**Drafting pattern:** State the broad communicative category first, then distinguish the candidate from a disease,
+procedure, specialty, brand, model, species variant, or decorative style. Do not defend specificity by saying
+that Unicode already encoded something equally narrow; that becomes faulty comparison.
+
+#### Open-ended
+
+**Unicode asks:** Would accepting this candidate invite an unbounded series of equally valid additions, with no
+principled reason to choose this one?
+
+**Accepted pattern:** Strong answers supply a limiting principle. A terse “not part of a set” works only when it
+is obviously true. Better answers identify the neighboring concepts a reviewer will raise and show why this
+candidate's independent meanings, usage, or function make it separately selectable.
+
+**Drafting pattern:** Name the likely follow-on candidates and explain the boundary that prevents automatic
+expansion. For organs, do not promise that no other organ will ever be proposed and do not argue that anatomy
+should be completed. Show why this organ stands on its own under the same criteria.
+
+#### Transient
+
+**Unicode asks:** Is expected use durable, rather than tied to a fad, temporary event, campaign, or product?
+
+**Accepted pattern:** Strong answers point to a long-lived concept, established expression, historical record, or
+Books Ngram evidence. Treasure Chest ties the symbol to longstanding cross-cultural use and a durable literary
+trope rather than merely asserting that treasure is old.
+
+**Drafting pattern:** Give one conclusion sentence and one or two dated, cited indicators of continuity. Avoid
+unsupported phrases such as “since the beginning of time” or assuming that biological age proves communicative
+durability.
+
+#### Faulty comparison
+
+**Unicode asks:** Is the proposal justified primarily because a similar, less useful, or less important emoji was
+encoded in the past?
+
+**Accepted pattern:** Strong answers disclaim analogy briefly and restate the independent basis: current use,
+distinct meaning, and recognizability. They do not reopen a catalog of historical inconsistencies.
+
+**Drafting pattern:** Write: `This proposal does not depend on [existing emoji] being encoded. Its case rests on
+[candidate's independent use, meanings, and visual identity].` Never write “Heart and Lungs exist, so Kidney
+should too.”
+
+#### Other information
+
+**Unicode asks:** Supply genuinely helpful information not covered above, especially design considerations.
+
+**Accepted pattern:** The most useful answers advise vendors which visual cues are essential and which may vary.
+Treasure Chest recommends a simple coin-filled design because other contents become unclear at small sizes.
+
+**Drafting pattern:** Use one short paragraph about vendor freedom and essential cues. Add naming or cultural
+ambiguity only when it changes implementation. Do not put biographies, advocacy, internal scores, test methods,
+release status, asset manifests, or project workflow here.
+
+#### Evidence of frequency
+
+**Unicode asks:** Include readable screenshots for Google Search, Google Video Search, Google Trends Web Search,
+Google Trends Image Search, and Google Books Ngram Viewer; use `elephant` where required and preserve the widest
+available ranges.
+
+**Accepted pattern:** Strong evidence sections label each source, show the screenshot at readable size, and add a
+short interpretation rather than forcing the reviewer to infer the result. They record dates and settings,
+explain ambiguous terms, and acknowledge weak comparisons.
+
+**Drafting pattern:** For each source use: `Captured <date> using <query/settings>. The displayed result shows
+<observation>. <One limitation or disambiguation sentence, if needed>.` Keep the complete reproducible URL with
+the capture record; in the PDF, use a readable link treatment that does not break the page. Never describe a
+search-result count as a user count, and never use petitions, hashtags, calls for the emoji, or endorsements as
+frequency evidence.
+
+### 5. Writing, language, and layout standard
+
+- Write for an educated general reader who knows the Unicode criteria but does not know medicine, computer
+  vision, software engineering, or this project's workflow.
+- Prefer ordinary words, direct sentences, concrete examples, and active voice. Use “meaning that existing emoji
+  cannot express” instead of “semantic gap,” and “closest visual alternatives” instead of “declared confusers.”
+- If a specialist term is essential to the concept, define it once immediately in plain English. Do not use a
+  technical term merely because it sounds more precise.
+- Keep internal QA language out of the proposal. Do not publish algorithms, hashes, thresholds, gates, pass/fail
+  reports, pinned-asset language, or machine-validation statistics unless Unicode specifically requests them.
+- Give each paragraph one job: conclusion first, strongest evidence or example second, nearest objection when
+  relevant, then stop.
+- Use no more prose than the case needs. There is no validated winning word, page, or image-count threshold. A
+  short proposal is useful only when it remains complete and evidentially strong.
+- Use direct section names that mirror the current guidelines, and preserve their current order.
 - Use tables only when they reduce reviewer effort.
 - Keep screenshots large enough to read at 100% zoom.
-- Avoid large blank pages, stranded headings, split labels, and long raw URLs that disrupt the page.
+- Avoid large blank pages, stranded headings or paragraphs, split labels, and long raw URLs that disrupt the page.
 - Use page numbers and a stable document title.
-- Do not add biographies, endorsements, press language, or campaign history unless directly required.
+- Do not add biographies, endorsements, press language, campaign history, or internal release status unless
+  directly required.
 
 ## Authorship rules for the 2026 organ slate
 

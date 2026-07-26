@@ -11,6 +11,16 @@ The archived 55-versus-29 comparison has been retired because the 29-document co
 not preserved. There is no validated winning word, page, or image-count threshold. Write only the prose
 needed to make a complete, reproducible case.
 
+**Audience and voice:** Write for an educated general reader who understands the Unicode selection factors but
+does not know medicine, computer vision, software engineering, or this project's workflow. Use ordinary words,
+direct sentences, and concrete examples. Define an unavoidable specialist term once in plain English. Every
+paragraph should state its conclusion first, give the strongest evidence or example, answer the nearest
+objection when relevant, and stop.
+
+**Submission/QA boundary:** The PDF explains the visible result and its communicative value. Internal scripts,
+hashes, pinned assets, geometric metrics, thresholds, gates, machine-readable reports, and release status stay
+in `READINESS`, validation, or QA records. They are not Unicode evidence and must not leak into the proposal.
+
 ---
 
 ## Title: Proposal for Emoji: {{EMOJI_NAME}}
@@ -28,23 +38,23 @@ needed to make a complete, reproducible case.
 
 ## 1. Identification
 
-**CLDR short name:** {{lowercase name, e.g. `kidney`}}
-
-**CLDR keywords:** {{keyword}}; {{keyword}}; {{keyword}}; {{keyword}}
+**Suggested keywords:** {{keyword}}; {{keyword}}; {{keyword}}; {{keyword}}
 
 > *"Do not repeat the name of the emoji. Consider terms that people would use to find this emoji."*
 >
 > Examples: orca -> `killer whale`. Lung -> `breath, inhalation, exhalation, respiration`.
 > Heart -> `heartbeat, pulse, center`. Our declined kidney used `Kidney`, which only repeated the name.
->
-> Fingerprint (`L2/23-258`, encoded) filed sixteen: `biometric; crime; crime scene; criminal; dactylogram;
-> dactyloscopy; dermatoglyphics; finger; fingerprint; identification; identity; latent; minutia; phalange;
-> phalanx; ridge.` Be generous and specific.
+> Accepted proposals range from one keyword to long lists; there is no validated winning count. Choose familiar
+> findability terms over volume or a technical thesaurus.
 
-**Category:** {{group}} {{subgroup}}
+**Suggested category:** {{group}} {{subgroup}}
 
 > Format matches Emoji Ordering, e.g. `Objects medical` or `Animals & Nature animal-marine`. Category is a
-> current required field. A separate sort-location field is not required by the 2026 format.
+> current required field. A separate CLDR short-name or sort-location field is not required by the 2026 format.
+>
+> **Accepted pattern:** Keep Identification compact. Use familiar synonyms, actions, and associations that help
+> a person find the emoji. Add a paragraph only when the proposed name is genuinely ambiguous; do not turn the
+> keyword line into an exhaustive medical taxonomy.
 
 **Optional suggested sort location:** after {{EXISTING EMOJI}}
 
@@ -63,6 +73,10 @@ needed to make a complete, reproducible case.
 >
 > **The image must contain no text, no digits, no barcodes and no letters.** *"Includes text: We no longer
 > encode emoji that include text."* That is an automatic decline.
+>
+> **Reviewer-facing rule:** Show the four required images and state the rights clearly. Do not describe asset
+> generation, file conversion, hashes, AI prompting, deterministic validation, or other production steps unless
+> a legal fact makes one of them necessary.
 
 **License:** {{ONE OF:}}
 
@@ -92,10 +106,17 @@ needed to make a complete, reproducible case.
 
 > Puns do not count. Treasure Chest earned this one with everyday specificity: *"finding an earring under a
 > car seat or a keepsake in your grandma's attic."* If you cannot do that, write `N/A`.
+>
+> **Paragraph pattern:** `[Candidate] has the literal meaning [meaning] and the established figurative or
+> symbolic meanings [two to four examples].` Use a dictionary or durable source when a meaning is not
+> self-evident. Do not relabel clinical use cases as metaphor.
 
 **b. Use in sequences.** {{SEQUENCES, or `N/A`}}
 
-> Orca: *"The character is a singular emoji, can be used by itself and does not need any modifiers."*
+> **Paragraph pattern:** Give two to five short examples in the form `candidate + existing emoji: resulting
+> message`. The combination must create or narrow a meaning; mere adjacency does not earn the factor. Some
+> accepted historical proposals say the emoji can stand alone, but that does not answer the current positive
+> factor. Write `N/A` when no compelling sequence exists.
 
 **c. Breaks new ground.** {{Yes/No}}. {{WHY}}
 
@@ -103,8 +124,9 @@ needed to make a complete, reproducible case.
 > 🧹 broom, an emoji for vacuum cleaner would not break new ground."* Name the nearest existing emoji and
 > say precisely what it cannot express.
 >
-> Orca: *"the orca is a new animal species that cannot be represented by any sequence of currently existing
-> emojis."*
+> **Paragraph pattern:** `Yes. [Closest emoji or sequence] expresses [existing meaning], but it does not express
+> [remaining meaning]. [Candidate] adds [broad communicative function].` The subject's importance is not the
+> missing meaning, and the existence of similar emoji is not evidence.
 
 **d. Distinctiveness.** {{WHY IT READS AT 18×18}}
 
@@ -113,7 +135,15 @@ needed to make a complete, reproducible case.
 >
 > Apple's accessibility set explained why each glyph had to be drawn as it was: *"the image of a hearing aid
 > would not be sufficiently distinctive at emoji scale; it needs to be shown with an ear in order to
-> establish its identity."* Show that you tested the failure mode.
+> establish its identity."*
+>
+> **Paragraph pattern:** `[Candidate] is shown with [two to four stable visible cues]. At 18 pixels, [primary
+> cue] distinguishes it from [nearest visual alternatives]. Vendors may vary [nonessential details] while
+> keeping [essential cues].`
+>
+> Describe only what a human reviewer can see. Keep `intersection-over-union`, difference hashes, pinned assets,
+> thresholds, connectedness checks, and “machine-visible separation” in internal QA. Do not claim recognition
+> testing unless genuine human-recognition evidence exists.
 
 **e. Usage level.** {{ONE PARAGRAPH INTERPRETING THE EVIDENCE IN SECTION 7}}
 
@@ -121,6 +151,11 @@ needed to make a complete, reproducible case.
 > **Concede the weakness here.** Orca did: *"Google Trends shows that the popularity worldwide of the orca
 > is less than that of the elephant."* Then it won a narrower comparison. A reviewer who catches you hiding
 > a weakness stops believing your strengths.
+>
+> **Paragraph pattern:** Start with one synthesis sentence about breadth, durability, or relative interest.
+> Then state the observed figures and settings beside the screenshots. Explain ambiguous queries and unfavorable
+> results plainly. Search-result counts are estimates of indexed pages, not users or intended emoji uses;
+> disease prevalence and professional importance are not frequency evidence.
 
 **f. Completeness.** {{`N/A` unless the emoji closes a genuinely FIXED set}}
 
@@ -128,6 +163,11 @@ needed to make a complete, reproducible case.
 > **Writing anything but `N/A` here invites the Open-ended rejection.**
 
 **g. Compatibility.** {{`N/A` unless it exists on Snapchat, X or QQ with evidence}}
+
+> **Paragraph pattern when positive:** `Yes. [Named popular systems] use [the same pictograph] at documented
+> frequency, but represent or transmit it inconsistently. Encoding [candidate] resolves [specific
+> interoperability problem].` Meteor is the current exemplar. Stickers, search images, branding, and ordinary
+> social-media posts are not compatibility by themselves. Otherwise write `N/A`.
 
 ---
 
@@ -141,10 +181,17 @@ needed to make a complete, reproducible case.
 > Name the sequence a reviewer would propose, and kill it. Fingerprint (`L2/23-258`, encoded): *"One might
 > argue that FINGERPRINT could be represented by 'index pointing up' (U+261D), but this character shows an
 > entire hand and does not show friction ridge structure. It is a different emoji entirely."*
+>
+> **Paragraph pattern:** `[Strongest substitute] can express [overlap], but it cannot clearly express [specific
+> remaining meanings].` Address meaning before appearance. “No emoji exists for this picture” is not enough.
 
 **b. Overly specific.** {{WHY IT IS A CATEGORY, NOT A SUBTYPE}}
 
 > The test is 🍣 sushi: the emoji stands for sushi in general; maguro would be overly specific.
+>
+> **Paragraph pattern:** `[Candidate] represents the broad category [category], not the narrower subtype
+> [subtype]. The proposed visual cues identify the category without limiting its meaning to [specific form].`
+> Do not defend specificity by comparing the candidate with a narrow historical emoji.
 
 **c. Open-ended.** {{WHAT YOU WILL NOT COME BACK FOR}}
 
@@ -158,11 +205,19 @@ needed to make a complete, reproducible case.
 > Name the strongest neighboring concepts a reviewer may raise and explain why this concept independently
 > merits consideration. Do not promise that no other organ will ever be proposed. Unicode requires one emoji
 > per proposal but does not forbid three separate organ proposals in the same cycle.
+>
+> **Paragraph pattern:** Name the likely follow-on candidates, state the limiting principle, and show why this
+> candidate's own meanings, usage, and function make it separately selectable. “Not part of a set” is sufficient
+> only when that is obviously and literally true.
 
 **d. Transient.** {{WHY IT IS NOT A FAD}}
 
 > Treasure Chest: *"Treasure is a concept that has existed for thousands of years across many cultures…a
 > literary trope since the early 1800s."* This is what the Books Ngram long baseline is for.
+>
+> **Paragraph pattern:** `[Candidate] is durable rather than tied to a temporary event or campaign. [Dated,
+> cited historical or long-range evidence] shows continuous use.` Biological age alone does not prove durable
+> communicative use.
 
 **e. Faulty comparison.** {{THIS EMOJI DOES NOT DEPEND ON ANALOGY}}
 
@@ -171,6 +226,9 @@ needed to make a complete, reproducible case.
 > **Never write "the heart and lungs were encoded, so the kidney should be."** That is the textbook faulty
 > comparison and it is how a medical-importance argument tends to be phrased. Earlier encodings are context,
 > never justification.
+>
+> **Paragraph pattern:** `This proposal does not depend on [existing emoji] being encoded. Its case rests on
+> [candidate's independent use, meanings, and visual identity].`
 
 ---
 
@@ -181,6 +239,10 @@ needed to make a complete, reproducible case.
 > Treasure Chest used this to steer the artwork: *"the contents of the treasure chest can be varied but for
 > the sake of simplicity it is recommended that only gold coins be used. At small resolutions, other
 > contents may become muddled."* You are advising the people who will draw it.
+>
+> Use one short paragraph naming the essential cues and the details vendors may vary. Add naming or cultural
+> ambiguity only when it changes implementation. Do not put internal scores, validation methods, release gates,
+> biographies, or campaign history here.
 
 ---
 
@@ -198,7 +260,11 @@ needed to make a complete, reproducible case.
 | Google Video Search | {{screenshot}} | `tbm=vid` |
 | Google Trends: Web | {{screenshot}} | `date=all`, **must include `elephant`** |
 | Google Trends: Image | {{screenshot}} | `gprop=images`, **must include `elephant`** |
-| Google Books Ngram | {{screenshot}} | 1500–2019, `corpus=en-2019`, `smoothing=3`, **must include `elephant`** |
+| Google Books Ngram | {{screenshot}} | Widest available range and current corpus, **must include `elephant`** |
+
+> **Source paragraph pattern:** `Captured {{DATE}} using {{QUERY AND SETTINGS}}. The displayed result shows
+> {{OBSERVATION}}. {{ONE LIMITATION OR DISAMBIGUATION SENTENCE, IF NEEDED}}.` Label each screenshot and keep it
+> readable at 100% zoom. Do not force the reviewer to infer the finding from the image.
 
 **Capture statement:** *"All data are from {{MONTH YEAR}}; each data item was obtained using a new private
 browser window."*
@@ -239,6 +305,9 @@ browser window."*
 
 - [ ] Open-ended answer drafted first, explaining why this concept stands independently
 - [ ] No unnecessary prose; every material claim has a readable screenshot or citation
+- [ ] Written for a general reader; unavoidable specialist terms are defined once in plain English
+- [ ] Every factor starts with its conclusion and gives only the strongest evidence or examples
+- [ ] No internal QA jargon, algorithms, hashes, thresholds, gates, asset manifests, or release status in the PDF
 - [ ] `N/A` written wherever honest, especially Completeness and Compatibility
 - [ ] Keywords contain no form of the emoji's name
 - [ ] Artwork contains no text, digits or barcodes; 18×18 and 72×72; colour and black and white; not grayscale

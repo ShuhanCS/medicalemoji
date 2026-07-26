@@ -68,7 +68,7 @@ is the genuine-compatibility model. No accepted proposal should be copied wholes
 The older 55-versus-29 comparison is retained only as a methodology warning because its negative cohort was
 not preserved. It does not supply a validated approval formula or hard word, page, or image-count threshold.
 
-Six current drafting rules:
+Nine current drafting rules:
 
 1. **Meet every current requirement.** Older accepted proposals do not override the 2026 instructions.
 2. **Structure is necessary, not sufficient.** All 15 confirmed declined Medical Emoji drafts answered every
@@ -81,9 +81,32 @@ Six current drafting rules:
    evidence.
 6. **Draft the Open-ended answer first.** Kidney, Liver, and Stomach may be filed as three one-emoji proposals,
    but each must stand independently and must not argue for completing an anatomy set.
+7. **Write for an educated general reader.** Assume the reviewer knows the Unicode criteria but not medicine,
+   computer vision, software, or this project's internal workflow. Prefer ordinary words, direct sentences, and
+   concrete examples. Define an unavoidable specialist term once in plain English.
+8. **Keep internal QA out of the proposal.** Validation scripts, hashes, pinned assets, intersection-over-union,
+   difference hashes, thresholds, gates, and machine-readable reports belong in internal readiness records. The
+   PDF should describe the visible result and why it matters to a human reviewer, not narrate how the project
+   tested it.
+9. **Give every paragraph one job.** State the factor's conclusion first, provide the strongest example or
+   evidence, answer the nearest substitute or objection when relevant, and stop. Do not turn a filing document
+   into a research report, campaign brief, or production log.
 
 Never write "the heart and lungs were encoded, so the kidney should be." That is the textbook Faulty
 Comparison, and it is how a medical-importance argument tends to phrase itself.
+
+### Submission voice and jargon boundary
+
+The controlling voice is plain, evidence-led, and reviewer-facing. Use familiar phrases such as "meaning that
+existing emoji cannot express," "visible at 18 pixels," and "closest existing emoji." Avoid internal or academic
+phrases such as "semantic gap," "declared confuser," "machine-visible separation," "normalized silhouette
+IoU," and "64-bit difference-hash distance" in a submission PDF. A specialist term is acceptable only when it
+is necessary to the concept itself and is immediately explained in ordinary language.
+
+The [`best-in-class specification`](docs/proposals/emoji-proposal-approval-rubric.md) explains what Unicode is
+testing in every proposal section, what accepted proposals repeatedly do, the recommended paragraph pattern,
+and common failure modes. The [`proposal template`](docs/proposals/TEMPLATE-emoji-proposal.md) turns those
+findings into copy-ready drafting prompts.
 
 Our own record: [`docs/proposals/archive-2019-published/`](docs/proposals/archive-2019-published/) holds the
 two proposals that won. [`docs/proposals/archive-2020-emojination-drafts/`](docs/proposals/archive-2020-emojination-drafts/)
