@@ -1,0 +1,48 @@
+[
+  {
+    "name": "anatomical_heart",
+    "kind": "Noto Emoji",
+    "source_url": "https://raw.githubusercontent.com/googlefonts/noto-emoji/8998f5dd683424a73e2314a8c1f1e359c19e8742/png/128/emoji_u1fac0.png",
+    "source_sha256": "d085a08da7477258c7c9d97b336c1cd9890b2759da3212455d641cb88bb49673",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/master/LICENSE"
+  },
+  {
+    "name": "beans",
+    "kind": "Noto Emoji",
+    "source_url": "https://raw.githubusercontent.com/googlefonts/noto-emoji/8998f5dd683424a73e2314a8c1f1e359c19e8742/png/128/emoji_u1fad8.png",
+    "source_sha256": "e37d8c68eb71eb2eb9845e1bc57d92ebd566f01fba48c33117c9fc55a4b3d8d9",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/master/LICENSE"
+  },
+  {
+    "name": "meat_on_bone",
+    "kind": "Noto Emoji",
+    "source_url": "https://raw.githubusercontent.com/googlefonts/noto-emoji/8998f5dd683424a73e2314a8c1f1e359c19e8742/png/128/emoji_u1f356.png",
+    "source_sha256": "c35bb6b51f8abed799d429a01a90d6d82eda8c9f129a62061eec4f99ea254c35",
+    "license_url": "https://github.com/googlefonts/noto-emoji/blob/master/LICENSE"
+  },
+  {
+    "name": "kidney",
+    "kind": "Medical Emoji project proposal asset",
+    "source_path_18": "submissions/v1.11.0/kidney/images/kidney_color_18x18_SUBMIT.png",
+    "source_path_72": "submissions/v1.11.0/kidney/images/kidney_color_72x72_SUBMIT.png",
+    "source_sha256_18": "86da05075456926c625272323423467b1cbfc6f985791ef82e2244cc1eafbdfe",
+    "source_sha256_72": "8fffc60295fd37b2a24401832268b9330eb1a1535a6f39521fdcba2c0fa94bb1",
+    "license": "Medical Emoji project artwork; see submissions/v1.11.0/ARTWORK-LICENSE.md"
+  },
+  {
+    "name": "liver",
+    "kind": "Medical Emoji project proposal asset",
+    "source_path_18": "submissions/v1.11.0/liver/images/liver_color_18x18_SUBMIT.png",
+    "source_path_72": "submissions/v1.11.0/liver/images/liver_color_72x72_SUBMIT.png",
+    "source_sha256_18": "682cbe299bb1944c4fbe632a851655ebe78820a0be158878bc1720486a83d29f",
+    "source_sha256_72": "8a83e8f930ba4e47042b437c01c93a5d8dfbf4dfaa3db3e3acba88152633bd6f",
+    "license": "Medical Emoji project artwork; see submissions/v1.11.0/ARTWORK-LICENSE.md"
+  },
+  {
+    "name": "generic_organ",
+    "kind": "deterministic test control",
+    "source": "scripts/validate_stomach_artwork.py:generic_blob",
+    "source_sha256_18": "4f5a7d7654dcb807a58a1293dcf2c3b8dacbf761a083c0eea6fb45be507f56af",
+    "license": "Original Medical Emoji project test asset"
+  }
+]

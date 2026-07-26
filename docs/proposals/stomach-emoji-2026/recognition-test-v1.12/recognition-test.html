@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Stomach 18px Recognition Test</title>
+  <style>
+    :root { color-scheme: light; font-family: Arial, sans-serif; }
+    body { margin: 0; background: #f3f5f7; color: #17202a; }
+    main { width: min(720px, calc(100% - 32px)); margin: 40px auto; }
+    .card { background: #fff; border: 1px solid #d9dee5; border-radius: 14px; padding: 28px; box-shadow: 0 8px 26px rgba(24, 39, 55, .08); }
+    h1 { margin-top: 0; font-size: 26px; }
+    h2 { font-size: 20px; }
+    p, label { line-height: 1.5; }
+    label { display: block; font-weight: 700; margin: 18px 0 6px; }
+    input, select, button { font: inherit; }
+    input, select { width: 100%; box-sizing: border-box; padding: 10px 12px; border: 1px solid #aeb8c4; border-radius: 8px; }
+    button { border: 0; border-radius: 8px; padding: 11px 16px; background: #135bd8; color: #fff; font-weight: 700; cursor: pointer; margin: 18px 8px 0 0; }
+    button.secondary { background: #536273; }
+    button:disabled { opacity: .45; cursor: not-allowed; }
+    .stimulus-wrap { display: grid; place-items: center; width: 180px; height: 180px; margin: 28px auto; background: #f7f7f7; border: 1px solid #d8d8d8; }
+    .stimulus { width: 18px; height: 18px; image-rendering: auto; }
+    .board { display: block; max-width: 100%; height: auto; margin: 20px auto; border: 1px solid #d9dee5; }
+    .muted { color: #566270; }
+    .warning { padding: 12px; background: #fff4d6; border: 1px solid #e5c65c; border-radius: 8px; }
+    .hidden { display: none; }
+    code { background: #eef1f4; padding: 2px 5px; border-radius: 4px; }
+  </style>
+</head>
+<body>
+<main>
+  <section class="card">
+    <div id="setup">
+      <h1>18px Recognition Test</h1>
+      <p class="warning">Facilitator: do not name the concept, describe the artwork, or let the participant inspect the file path.</p>
+      <p>Keep browser zoom at 100%. The glyph is shown at its actual 18x18 CSS-pixel size.</p>
+      <label for="participant">Anonymous participant code</label>
+      <input id="participant" autocomplete="off" placeholder="P01">
+      <button id="start">Start randomized test</button>
+      <button id="export" class="secondary">Export all responses.csv</button>
+      <p id="count" class="muted"></p>
+    </div>
+
+    <div id="free-response" class="hidden">
+      <h2 id="pass-title">Unprompted pass</h2>
+      <p>Ask exactly: <strong>What is this?</strong></p>
+      <div class="stimulus-wrap">
+        <img id="stimulus" class="stimulus" alt="Unlabeled 18 pixel test image">
+      </div>
+      <label for="answer">Record the complete free-text answer</label>
+      <input id="answer" autocomplete="off">
+      <button id="save-pass">Save answer and continue</button>
+    </div>
+
+    <div id="forced-choice" class="hidden">
+      <h2>Forced-choice confuser pass</h2>
+      <p>Only show this step after both free responses have been saved.</p>
+      <img id="color-board" class="board" src="../validation-v1.12/comparison-color-18.png" alt="Color comparison board">
+      <label for="color-choice">Which labeled item matches the color test image?</label>
+      <select id="color-choice"></select>
+      <img id="bw-board" class="board" src="../validation-v1.12/comparison-bw-18.png" alt="Black-and-white comparison board">
+      <label for="bw-choice">Which labeled item matches the black-and-white test image?</label>
+      <select id="bw-choice"></select>
+      <label for="notes">Facilitator notes, optional</label>
+      <input id="notes" autocomplete="off">
+      <button id="finish">Save participant</button>
+    </div>
+
+    <div id="complete" class="hidden">
+      <h2>Participant saved</h2>
+      <p>The raw response is stored locally in this Firefox profile.</p>
+      <button id="next">Start next participant</button>
+      <button id="export-complete" class="secondary">Export responses.csv</button>
+    </div>
+  </section>
+</main>
+<script>
+  const assets = {
+    color: '../candidate-v1.12/images/stomach_color_18x18_SUBMIT.png',
+    black_and_white: '../candidate-v1.12/images/stomach_bw_18x18_SUBMIT.png'
+  };
+  const choices = ['Select one', 'Stomach', 'Anatomical Heart', 'Beans', 'Meat on Bone', 'Kidney', 'Liver', 'Generic Organ'];
+  const accepted = value => /^(human\s+)?stomach$/i.test(value.trim());
+  const rows = () => JSON.parse(localStorage.getItem('stomach-recognition-v1.12') || '[]');
+  let record = null;
+  let order = [];
+  let passIndex = 0;
+
+  const show = id => {
+    for (const section of ['setup', 'free-response', 'forced-choice', 'complete']) {
+      document.getElementById(section).classList.toggle('hidden', section !== id);
+    }
+  };
+  const updateCount = () => document.getElementById('count').textContent = `${rows().length} participant response(s) stored locally.`;
+  const populate = id => {
+    const select = document.getElementById(id);
+    select.innerHTML = '';
+    for (const choice of choices) {
+      const option = document.createElement('option');
+      option.value = choice === 'Select one' ? '' : choice;
+      option.textContent = choice;
+      select.append(option);
+    }
+  };
+  const renderPass = () => {
+    const mode = order[passIndex];
+    document.getElementById('pass-title').textContent = `Unprompted pass ${passIndex + 1} of 2`;
+    document.getElementById('stimulus').src = assets[mode];
+    document.getElementById('answer').value = '';
+    show('free-response');
+    document.getElementById('answer').focus();
+  };
+  const csvCell = value => `"${String(value ?? '').replaceAll('"', '""')}"`;
+  const exportCsv = () => {
+    const header = ['participant_code','presentation_order','color_free_text','color_accepted','bw_free_text','bw_accepted','color_forced_choice','bw_forced_choice','notes'];
+    const data = rows();
+    const csv = [header, ...data.map(row => header.map(key => row[key]))].map(line => line.map(csvCell).join(',')).join('\r\n') + '\r\n';
+    const link = document.createElement('a');
+    link.href = URL.createObjectURL(new Blob([csv], {type: 'text/csv'}));
+    link.download = 'responses.csv';
+    link.click();
+    URL.revokeObjectURL(link.href);
+  };
+
+  populate('color-choice');
+  populate('bw-choice');
+  updateCount();
+
+  document.getElementById('start').onclick = () => {
+    const participant = document.getElementById('participant').value.trim();
+    if (!participant) return alert('Enter an anonymous participant code.');
+    if (rows().some(row => row.participant_code === participant)) return alert('That participant code already exists.');
+    order = crypto.getRandomValues(new Uint8Array(1))[0] % 2 ? ['color', 'black_and_white'] : ['black_and_white', 'color'];
+    passIndex = 0;
+    record = {participant_code: participant, presentation_order: order.join('_first_then_')};
+    renderPass();
+  };
+  document.getElementById('save-pass').onclick = () => {
+    const value = document.getElementById('answer').value.trim();
+    if (!value) return alert('Record the participant response before continuing.');
+    const mode = order[passIndex];
+    const prefix = mode === 'color' ? 'color' : 'bw';
+    record[`${prefix}_free_text`] = value;
+    record[`${prefix}_accepted`] = accepted(value) ? 'yes' : 'no';
+    passIndex += 1;
+    if (passIndex < 2) renderPass(); else show('forced-choice');
+  };
+  document.getElementById('finish').onclick = () => {
+    const color = document.getElementById('color-choice').value;
+    const bw = document.getElementById('bw-choice').value;
+    if (!color || !bw) return alert('Record both forced-choice answers.');
+    record.color_forced_choice = color;
+    record.bw_forced_choice = bw;
+    record.notes = document.getElementById('notes').value.trim();
+    const data = rows();
+    data.push(record);
+    localStorage.setItem('stomach-recognition-v1.12', JSON.stringify(data));
+    updateCount();
+    show('complete');
+  };
+  document.getElementById('next').onclick = () => {
+    document.getElementById('participant').value = '';
+    document.getElementById('notes').value = '';
+    populate('color-choice');
+    populate('bw-choice');
+    show('setup');
+  };
+  document.getElementById('export').onclick = exportCsv;
+  document.getElementById('export-complete').onclick = exportCsv;
+</script>
+</body>
+</html>
