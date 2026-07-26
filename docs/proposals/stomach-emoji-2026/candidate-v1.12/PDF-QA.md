@@ -38,6 +38,6 @@ Status: **PASS AS CANDIDATE**
 ## Final-promotion condition
 
 This QA record applies only to the candidate hash above. All five frequency exhibits are current and pass PDF
-inspection. Freeze the exact author list before promotion. If the proposal, artwork, evidence, or PDF builder
-changes, rebuild the final packet and repeat technical and page-by-page visual inspection. Do not reuse this
-result for a PDF with a different hash.
+inspection. After Shuhan approves the exact four image assets, record the approval and hashes, rebuild the final
+packet, and repeat technical and page-by-page visual inspection. Do not reuse this result for a PDF with a
+different hash.

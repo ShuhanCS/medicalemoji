@@ -69,7 +69,8 @@ do not invent missing records. Confirm that the artwork rights statement and CC0
    laboratory or medication claims. Remove plausible but unsupported use sequences.
 5. Build a nearest-emoji comparison at actual 18x18 and 72x72 sizes in color and black-and-white.
 6. Run the reproducible computer validator with pinned comparator sources, hashes, declared thresholds, and
-   machine-readable output. No human-recognition panel is required.
+   machine-readable output. Present the exact four final assets and comparison board to Shuhan He at actual
+   size and record his dated `APPROVE` or `REVISE` decision. No human-recognition panel is required.
 7. If the art fails the computer thresholds, revise the source so the medial notch, hilum, and short attachment survive in both small
    paradigms without turning the image into a bean, bulb, balloon, or food icon.
 8. Rebuild the PDF whenever source text or embedded assets change using

@@ -4,7 +4,7 @@ Date: 2026-07-26
 
 Packet version: `1.12.0-candidate.3`
 
-Status: **FINAL CONTENT CANDIDATE - PUBLICATION AND FILING OPEN**
+Status: **STRONG CANDIDATE — SHUHAN IMAGE APPROVAL OPEN**
 
 ## Settled passes
 
@@ -23,11 +23,13 @@ Status: **FINAL CONTENT CANDIDATE - PUBLICATION AND FILING OPEN**
 
 | Gate | Status | Remaining action |
 | --- | --- | --- |
-| Final promotion | Candidate only | Freeze the exact author list, rebuild and inspect the exact PDF if anything changes, then promote the immutable packet to `submissions/v1.12.0/`. |
+| Shuhan image approval | Open | Show Shuhan the exact four assets at actual size beside the comparison boards and record dated `APPROVE` or `REVISE`. No participant panel is required. |
+| Final promotion | Candidate only | After Shuhan approves the exact assets, record their hashes, rebuild once, repeat PDF QA, and promote the immutable packet to `submissions/v1.12.0/`. |
 | Public URL and form | Not authorized | Publish and file only after explicit authorization from Shuhan He. |
 
-Internal guide score: **97/100 as a candidate**. The content, artwork, evidence, and technical checks are ready.
-The remaining points concern immutable packet promotion and public filing, not proposal quality.
+Internal guide score: **90/100 as a candidate**. The remaining points are gated by Shuhan's exact-asset
+approval and final packet promotion, not by eligibility, rights, artwork completeness, proposal structure, or
+frequency evidence.
 
-Promote this candidate to `submissions/v1.12.0/` only after freezing the exact author list and repeating PDF QA
-on the exact file that will be published.
+Do not promote this candidate to `submissions/v1.12.0/` or rename it `_SUBMIT` until Shuhan approves the exact
+four assets.

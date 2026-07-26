@@ -1,65 +1,40 @@
-# Stomach 18px Recognition Test
+# Stomach Image Approval Record
 
-Version: 1.1.0
+Version: 2.0.0
 
-Status: Optional research aid
+Status: Crowd-recognition procedure retired; Shuhan approval required
 
-## Purpose
+## Decision
 
-Optionally study how general viewers identify the selected Stomach glyph without being told the concept. This
-study is not required for the v1.12 submission and does not control publication or filing readiness.
+The former twelve-person recognition test is not a submission requirement and must not block the Stomach
+proposal. The HTML runner and blank response file remain only as historical development artifacts. Do not
+recruit participants, set a sample-size threshold, calculate a recognition percentage, or present this folder
+as Unicode-required evidence.
 
-## Participants
+## Required human image gate
 
-- Recruit at least 12 people who did not create or review the artwork.
-- Do not tell participants that the target is a stomach, organ, medical symbol, or emoji proposal.
-- Assign anonymous participant codes `P01` through `P12` or higher.
-- Do not collect names or unnecessary personal information.
+Shuhan He personally reviews:
 
-## Materials
+- `../candidate-v1.12/images/stomach_color_18x18_SUBMIT.png`
+- `../candidate-v1.12/images/stomach_bw_18x18_SUBMIT.png`
+- `../candidate-v1.12/images/stomach_color_72x72_SUBMIT.png`
+- `../candidate-v1.12/images/stomach_bw_72x72_SUBMIT.png`
+- the matching actual-size color and black-and-white comparison boards in `../validation-v1.12/`
 
-- Color stimulus: `../candidate-v1.12/images/stomach_color_18x18_SUBMIT.png`
-- Black-and-white stimulus: `../candidate-v1.12/images/stomach_bw_18x18_SUBMIT.png`
-- Confuser boards: `../validation-v1.12/comparison-color-18.png` and
-  `../validation-v1.12/comparison-bw-18.png`
-- Response sheet: `responses.csv`
-- Randomized local runner: `recognition-test.html`
+Display the assets at actual size on a neutral background. Shuhan records either `APPROVE` or `REVISE` for the
+intended Stomach read and its essential cues. His decision is the complete human approval gate.
 
-Show each glyph at its actual 18x18 pixel size on a neutral background. Do not zoom it for the participant.
+## Approval record
 
-## Procedure
+Create or update `RESULT.md` with:
 
-1. Randomize participants between color-first and black-and-white-first orders.
-2. Show the first 18x18 stimulus alone.
-3. Ask exactly: `What is this?`
-4. Record the complete free-text response before giving any hint or choices.
-5. Show the second stimulus in a separate pass and repeat the same question.
-6. Present the matching confuser board and record one forced-choice answer.
-7. Do not correct or coach the participant until all responses are recorded.
+- reviewer: Shuhan He;
+- decision date;
+- `APPROVE` or `REVISE`;
+- SHA-256 hashes for the exact four reviewed assets;
+- comparison-board version or hashes;
+- any requested revision; and
+- the Git commit containing the approved assets.
 
-## Suggested scoring for an optional study
-
-Accepted unprompted answers are `stomach`, `human stomach`, or an unambiguous equivalent-language
-translation. `Organ`, `body part`, `gut`, `blob`, `bean`, `liver`, `kidney`, `heart`, `meat`, `pouch`, and
-`balloon` are not accepted as correct unprompted identifications.
-
-For a consistent study record, report whether:
-
-- at least 10 of 12 participants identify Stomach correctly in the color pass;
-- at least 10 of 12 participants identify Stomach correctly in the black-and-white pass; and
-- no single wrong concept dominates either pass.
-
-Preserve the raw responses. Do not replace them with a percentage-only summary.
-
-## Local runner
-
-Open `recognition-test.html` in Firefox at 100% zoom. It randomizes color-first versus black-and-white-first,
-prevents forced choice until both free responses are recorded, stores anonymous rows in that browser profile,
-and exports a CSV matching `responses.csv`. Keep one facilitator in control of the browser so participants do
-not see the image filenames or source paths.
-
-## Result record
-
-If the optional study is run, add a signed and dated `RESULT.md` containing participant count, exact asset
-SHA-256 hashes, color score, black-and-white score, forced-choice score, dominant wrong answers, the stated
-benchmark result, and the Git commit containing `responses.csv`.
+Any material artwork change invalidates the prior approval and requires the exact replacement assets to return
+to Shuhan. Computer validation may support the review but cannot replace his decision.

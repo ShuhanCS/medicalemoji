@@ -1,6 +1,6 @@
 # Stomach Emoji Artwork Specification
 
-Status: concept approved and rebuilt as deterministic v1.11.0 submission artwork; recognition testing remains open
+Status: concept approved and rebuilt as deterministic v1.11.0 submission artwork; Shuhan's exact-asset approval remains open
 
 Generator: `gpt-image-2`, high quality, 1024x1024 edit workflow
 
@@ -73,5 +73,6 @@ At 72x72 pixels:
 
 The generated raster remains a design reference, not a Unicode submission asset. The selected geometry has
 been rebuilt as project-authored SVG artwork with exact-size color and true black-and-white PNG exports in
-v1.11.0. Before filing, complete deterministic comparator validation, blind human recognition testing, and
-final review of the artwork-rights record.
+v1.11.0. Before filing, complete deterministic comparator validation, obtain Shuhan's dated approval of the
+exact four assets at actual size, and complete final review of the artwork-rights record. No participant panel
+or blind recognition study is required.

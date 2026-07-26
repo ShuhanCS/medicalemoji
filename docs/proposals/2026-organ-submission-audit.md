@@ -8,6 +8,10 @@ Scope: Kidney, Liver, and Stomach
 
 Standard: `docs/proposals/emoji-proposal-approval-rubric.md`
 
+Policy update: the former crowd-based recognition requirement is retired. Final human image approval means
+Shuhan He's dated approval of the exact four assets at actual size beside their nearest alternatives. The
+authorship statements below describe the audited v1.7.0 PDFs, not the current byline source of truth.
+
 ## Executive result
 
 All three PDFs are formally well structured, technically clean, and eligible according to Shuhan He's
@@ -15,8 +19,8 @@ confirmed 2026 slate. None is yet best-in-class submission-ready.
 
 | Proposal | Internal score | Status | Main reason it is not ready |
 | --- | ---: | --- | --- |
-| Kidney | 79/100 | Strongest; revise before filing | The 18x18 art needs an unprompted recognition test and nearest-emoji comparison; material usage claims need more citations; final review, public URL, and filing controls are incomplete. |
-| Stomach | 77/100 | Promising; revise before filing | Four of five frequency captures are from 2020, Search/Video screenshots are small, and final art recognition/reviewer/publication gates remain open. |
+| Kidney | 79/100 | Strongest; revise before filing | The 18x18 art needs a nearest-emoji comparison and Shuhan's final visual approval; material usage claims need more citations; final review, public URL, and filing controls are incomplete. |
+| Stomach | 77/100 | Promising; revise before filing | Four of five frequency captures are from 2020, Search/Video screenshots are small, and Shuhan's final image approval plus publication gates remain open. |
 | Liver | 64/100 | Not ready | Its own PDF says the U.S.-only 2020 Trends captures must be replaced; the 18x18 black silhouette is not self-identifying; most usage claims lack citations. |
 
 The scores are internal controls, not Unicode scores or approval predictions. A proposal cannot be marked
@@ -47,7 +51,8 @@ The audit used:
 - Kidney lists the required complete eight-person author set with semicolons:
   Shuhan He; Edgar Lerma; Caitlyn Vlasschaert; Jade M. Teakell; Harish Seethapathy; Jarone Lee;
   Danielle Miller; Timur Erk.
-- Liver and Stomach each list only Shuhan He, as required.
+- The audited v1.7.0 Liver and Stomach PDFs list only Shuhan He. This is a historical finding, not a current
+  authorship rule; later consent records add David Rhew and Heena Purohit.
 - Each PDF includes color and true two-color black-and-white PNGs at exactly 18x18 and 72x72.
 - Shuhan He makes a direct first-page ownership warranty, releases the artwork under CC0 1.0, and grants the
   rights required by Unicode's proposal agreement.
@@ -67,7 +72,7 @@ The audit used:
 2. No logged-out public HTTPS URL exists for the exact final PDF.
 3. The final official-form filing and confirmation have not occurred.
 4. No final domain/factual reviewer and Unicode/process reviewer signoff is recorded against the exact PDFs.
-5. No unprompted 18x18 recognition test or nearest-current-emoji comparison board is included.
+5. No recorded Shuhan approval of the exact assets or nearest-current-emoji comparison board is included.
 6. Many factual statements are asserted without citations. Current guidance says claims used for selection
    factors require screenshots or citations.
 7. Any revised PDF must carry the new revision date, not 2026-07-12.
@@ -121,12 +126,12 @@ Files:
   reinforce the visual-confusion objection.
 - The nearest-emoji comparison is verbal only. The PDF does not show Kidney beside Beans, Droplet,
   Anatomical Heart, Lungs, and Brain at actual 18x18 size.
-- No unprompted recognition result establishes that a general viewer sees `kidney` rather than `bean`.
+- No recorded Shuhan approval establishes that the final actual-size image is acceptable against Beans.
 
 ### Required correction before filing
 
-1. Test the current 18x18 art with unprompted viewers and record the confusion matrix.
-2. If the art misses the internal threshold, revise the small master to preserve a visible medial notch and
+1. Present the current 18x18 art and nearest alternatives to Shuhan and record `APPROVE` or `REVISE`.
+2. If Shuhan requests revision, update the small master to preserve a visible medial notch and
    short anatomical attachment in both color and black-and-white.
 3. Add one compact nearest-emoji comparison figure at 18x18 and 72x72.
 4. Add citations for the material multiple-meaning and ordinary-use claims; remove any context that is only a
@@ -143,7 +148,8 @@ Files:
 
 ### Strengths
 
-- The correct sole submitter, Shuhan He, is clearly named.
+- The audited PDF names Shuhan He. Current authorship must instead follow the latest concept-specific consent
+  record.
 - Page 1 is complete and the rights statement is direct.
 - Marking multiple meanings, completeness, and compatibility `Not applicable` is disciplined and follows the
   current guidance better than inventing weak positive factors.
@@ -172,7 +178,7 @@ Files:
 1. Replace all four 2020 web captures with current 2026 Search, Video, Worldwide Web Trends, and Worldwide
    Image Trends captures. Keep the 2026 Ngram if its settings remain current and legible.
 2. Remove every `must be refreshed` draft sentence from the final PDF after evidence replacement.
-3. Redesign or simplify the 18x18 black-and-white art until unprompted viewers identify the organ reliably.
+3. Redesign or simplify the 18x18 black-and-white art until Shuhan approves the intended Liver read.
 4. Add a visual comparison against Stomach, Anatomical Heart, meat/food substitutes, and other body-part
    emoji.
 5. Cite the high-value direct-use claims and remove low-value lists that cannot be evidenced succinctly.
@@ -187,7 +193,8 @@ Files:
 
 ### Strengths
 
-- The correct sole submitter, Shuhan He, is clearly named.
+- The audited PDF names Shuhan He. Current authorship must instead follow the latest concept-specific consent
+  record.
 - The multiple-meaning section is the strongest of the three and cites `butterflies in the stomach` and the
   verb sense of `stomach`.
 - The sequence examples connect direct bodily sensation with emotion, appetite, food, and care.
@@ -214,8 +221,8 @@ Files:
 1. Replace all four 2020 web captures with current 2026 Search, Video, Worldwide Web Trends, and Worldwide
    Image Trends captures.
 2. Enlarge Search and Video screenshots in the rebuilt PDF.
-3. Run the unprompted 18x18 recognition test and compare against Nauseated Face, food emoji, Anatomical Heart,
-   and the proposed Liver/Kidney art.
+3. Present the 18x18 assets beside Nauseated Face, food emoji, Anatomical Heart, and the proposed Liver/Kidney
+   art; record Shuhan's `APPROVE` or `REVISE` decision.
 4. Cite or remove `gut feeling` and the material clinical/everyday-use claims.
 5. Tighten the final page flow without shrinking evidence.
 6. Obtain final reviewers, public URL, and filing records.

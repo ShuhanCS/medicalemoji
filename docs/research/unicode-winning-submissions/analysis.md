@@ -226,8 +226,8 @@ documents with known outcomes, as long as observations are labeled descriptive a
 
 ## Implications for the 2026 organ slate
 
-- Kidney has the strongest current frequency package, but needs the complete confirmed author list and a hard
-  18x18 recognition test against Beans.
+- Kidney has the strongest current frequency package, but needs the complete confirmed author list and Shuhan's
+  actual-size approval of the final art against Beans.
 - Stomach has the strongest multiple-meaning case and clearest silhouette, but its historical captures need a
   current reproducibility review.
 - Liver has the largest evidence and distinctiveness gap because its Trends evidence is old and U.S.-only and

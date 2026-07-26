@@ -380,6 +380,11 @@ ear to establish its identity. The explanation stays on what a person can see.
 **Drafting pattern:** Write: `[Candidate] is shown with [two to four stable visible cues]. At 18 pixels, [primary
 cue] distinguishes it from [nearest visual alternatives]. Vendors may vary [nonessential details] while keeping
 [essential cues].`
+**Internal human approval:** Shuhan He reviews the exact 18x18 and 72x72 color and black-and-white assets at
+actual size beside the nearest visual alternatives and records a dated `APPROVE` or `REVISE` decision. His
+approval is the complete human image gate for this project. No participant panel, blind test, crowd study,
+minimum sample size, recognition percentage, or confusion matrix is required. Any material artwork change
+invalidates the prior approval and returns the final assets to Shuhan.
 
 Computer checks remain useful internal controls for dimensions, palette, connectedness, and geometric
 separation. Their algorithms, hashes, pinned assets, thresholds, pass/fail language, and machine-readable reports
@@ -535,14 +540,17 @@ petitions, hashtags, calls for the emoji, or endorsements as frequency evidence.
 - Do not add biographies, endorsements, press language, campaign history, or internal release status unless
   directly required.
 
-## Authorship rules for the 2026 organ slate
+## Authorship source of truth
 
 - A proposal may have one or many individual submitters. The confirmed byline for that proposal controls; there
   is no project-wide author-count rule.
 - Separate multiple names with semicolons. Credentials and affiliations are optional, and a proposal may list
   more than one affiliation for an author when accurate.
+- Before editing a byline, read the proposal's latest consent, author-verification, or source-ledger record and
+  preserve every confirmed individual in the recorded order. A later explicit confirmation supersedes an older
+  record.
 - Freeze the exact author names, credentials, and affiliations before the final PDF is built. Keep them
-  consistent in the PDF, public file, and official form.
+  consistent in the source record, PDF, public file, and official form.
 - Name one main point of contact even when a proposal has several authors or affiliations.
 - Preserve written confirmation that every person agreed to be named. Do not add, remove, or reorder authors to
   satisfy an assumed preferred author count.
@@ -561,7 +569,7 @@ This is a project control, not a Unicode score or approval prediction.
 | --- | ---: | --- |
 | Eligibility and coordination | 15 | Confirmation archived; no duplicate filing risk; authorship confirmed. |
 | First-page format | 10 | Every current first-page requirement is correct and easy to find. |
-| Image package and rights | 15 | Rights are clear; four exact assets pass the declared deterministic technical checks. |
+| Image package and rights | 15 | Rights are clear; four exact assets pass technical checks and have Shuhan's recorded actual-size approval. |
 | Frequency and empirical evidence | 20 | Five current, reproducible captures plus citations for material usage claims. |
 | Inclusion factors | 15 | Each factor is direct, evidenced, and uses `N/A` where appropriate. |
 | Exclusion factors | 10 | Strongest reviewer objections are answered specifically. |
@@ -583,7 +591,8 @@ For each concept, complete the following before moving to the next:
 2. Red-team the strongest `Already representable`, `Overly specific`, and `Open-ended` objections.
 3. Verify every factual claim has a citation or remove it.
 4. Recapture all five required evidence sources with current, widest-range settings.
-5. Build nearest-emoji art comparisons and run the reproducible 18x18 computer validation.
+5. Build nearest-emoji art comparisons, run the reproducible 18x18 computer validation, and obtain Shuhan's
+   dated approval of the exact four final assets at actual size.
 6. Revise the source, update the date, and rebuild the PDF.
 7. Render every page and inspect it visually.
 8. Run technical checks for image dimensions/colors, text extraction, fonts, encryption, links, and file size.

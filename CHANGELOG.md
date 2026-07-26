@@ -12,6 +12,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Removed the Stomach human-recognition study as a submission-readiness gate.
 - Rewrote the Stomach proposal in direct, plain advocate language and replaced raw evidence URLs with readable links.
 - Compacted the Google Trends evidence layout and rebuilt the candidate PDF for page-by-page inspection.
+- Replaced crowd-based and percentage-based image-recognition gates with Shuhan He's dated approval of each
+  proposal's exact 18x18 and 72x72 color and black-and-white assets at actual size.
+- Made each proposal's latest consent, author-verification, or source-ledger record authoritative for authorship.
 - Advanced the Stomach packet to `1.12.0-candidate.3`, the rubric to `3.1.0`, and the workspace to `0.44.0`.
 
 ## [0.43.2] - 2026-07-26

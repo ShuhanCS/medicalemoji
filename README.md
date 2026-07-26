@@ -22,8 +22,8 @@ that did not change are copied forward byte for byte. The next substantive propo
 
 Stomach `v1.11.0` replaces the compact prior glyph with a project-authored long-inlet, deep-concavity,
 distinct-outlet vector paradigm. Its proposal PDF is rebuilt and visually verified; the proposal remains
-revision-required until four historical 2020 evidence captures and the recognition/comparator gates are
-completed.
+revision-required until four historical 2020 evidence captures are resolved and Shuhan He approves the exact
+final assets after actual-size comparator review.
 
 Kidney `v1.12.0-kidney.3` preserves the approved paired-organ paradigm and all ten authors, including David
 Rhew and Heena Purohit, while aligning the proposal and PDF with rubric 3.1.0. Required rights now appear on
@@ -31,10 +31,12 @@ page 1, internal validation language is removed from reviewer-facing prose, and 
 answers are sharpened. The prerelease remains not ready to submit while one internal Lungs comparison and the
 external eligibility-record, duplicate-coordination, publication, and filing gates remain open.
 
-Authorship is fixed for the filing slate: Kidney uses the complete consenting ten-person author list in v1.10.0, adding
-David Rhew and Heena Purohit to the eight previously listed submitters; White Blood Cell, Stomach, and Liver
-list only Shuhan He. The provisional Pill Pack brief also starts with Shuhan He only and requires
-reconfirmation before revision. The 2026 submission window closes at the end of day on 2026-07-31.
+Authorship is concept-specific and controlled by each proposal's latest consent or source record, not by a
+reusable guide. Kidney currently uses its confirmed ten-person list. Stomach and Liver use Shuhan He, David
+Rhew, and Heena Purohit, with Shuhan He as main point of contact. White Blood Cell and the provisional Pill Pack
+brief must be reconfirmed from their own records before revision; no proposal may silently default to “Shuhan
+He only” or inherit another concept's author list. The 2026 submission window closes at the end of day on
+2026-07-31.
 
 ## ⏳ Deadlines
 
@@ -70,7 +72,7 @@ is the genuine-compatibility model. No accepted proposal should be copied wholes
 The older 55-versus-29 comparison is retained only as a methodology warning because its negative cohort was
 not preserved. It does not supply a validated approval formula or hard word, page, or image-count threshold.
 
-Nine current drafting rules:
+Ten current drafting rules:
 
 1. **Meet every current requirement.** Older accepted proposals do not override the 2026 instructions.
 2. **Structure is necessary, not sufficient.** All 15 confirmed declined Medical Emoji drafts answered every
@@ -93,6 +95,10 @@ Nine current drafting rules:
 9. **Give every paragraph one job.** State the factor's conclusion first, provide the strongest example or
    evidence, answer the nearest substitute or objection when relevant, and stop. Do not turn a filing document
    into a research report, campaign brief, or production log.
+10. **Shuhan approves the final images.** Show Shuhan He the exact 18x18 and 72x72 color and black-and-white
+    assets at actual size beside their nearest visual alternatives. His dated `APPROVE` decision is the human
+    image gate. No participant panel, crowd study, blind test, sample size, or recognition percentage is
+    required.
 
 Never write "the heart and lungs were encoded, so the kidney should be." That is the textbook Faulty
 Comparison, and it is how a medical-importance argument tends to phrase itself.
@@ -198,7 +204,7 @@ proposal workspaces. Status rows are from Unicode's live public proposal-status 
 | Spine | Active site candidate | `Spine` declined 2020-10-27; `Spine` declined 2024-04-05 | Declined | 2024-04-05 | 2028-04-05 | Do not resubmit before 2028 unless Unicode confirms a materially different concept is eligible. |
 | Intestines | Active site candidate | `Intestines` declined 2020-12-18; `Intestines` declined 2024-04-04 | Declined | 2024-04-04 | 2028-04-04 | Do not resubmit before 2028 unless Unicode confirms eligibility. |
 | ECG / EKG | Active site candidate | `ECG` declined 2020-12-18; `ECG` declined 2024-04-05 | Declined | 2024-04-05 | 2028-04-05 | Do not resubmit before 2028 unless Unicode confirms eligibility. |
-| White Blood Cell | Active 2026 slate | `White Blood Cell` declined 2020-12-18 | Reeligible; selected for 2026 review | 2020-12-18 | 2024-12-18 | Review first; refresh Search and Video, replace Web Trends, add Image Trends, and pass an 18x18 recognition test against Microbe and generic-cell imagery. |
+| White Blood Cell | Active 2026 slate | `White Blood Cell` declined 2020-12-18 | Reeligible; selected for 2026 review | 2020-12-18 | 2024-12-18 | Review first; refresh Search and Video, replace Web Trends, add Image Trends, and obtain Shuhan's approval of the exact 18x18 assets after comparison with Microbe and generic-cell imagery. |
 | Blood Bag | Active site candidate | `Blood bag` declined 2017-05-16; `Blood Bag (B)` declined 2020-12-18 | Declined | 2020-12-18 | 2024-12-18 | Current filing choice in `submissions/v1.3.0/`; refresh evidence, factor labels, metadata, citations, and ownership language before filing. |
 | Pill Pack | Active site candidate | `Pill Pack` declined 2020-12-18 | Declined | 2020-12-18 | 2024-12-18 | Draft complete; hold behind Pill Box and finish Trends only if advanced. |
 | Weight Scale | Active site candidate | `Bathroom Scale` expired 2018-02-27; `Weight Scale (B)` declined 2020-12-18 | Declined | 2020-12-18 | 2024-12-18 | Challenger draft complete; add two Trends captures. |
