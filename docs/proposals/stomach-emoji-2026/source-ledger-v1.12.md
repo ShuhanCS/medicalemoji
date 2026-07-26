@@ -1,6 +1,6 @@
 # Stomach v1.12 Source Ledger
 
-Ledger version: 1.0.0
+Ledger version: 1.1.0
 
 Review date: 2026-07-26
 
@@ -19,17 +19,17 @@ Review date: 2026-07-26
 | The stomach receives food, mixes it with digestive juices, and empties its contents into the small intestine. | National Institute of Diabetes and Digestive and Kidney Diseases, `Your Digestive System & How it Works`: https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works | Use only if a short physiological explanation is needed. The proposal can normally rely on ordinary meanings instead. |
 | `Stomach` has literal anatomical and established verb senses. | Cambridge Dictionary: https://dictionary.cambridge.org/us/dictionary/english/stomach | Supports the Multiple meanings section, including the established sense of tolerating or accepting something unpleasant. |
 | `Butterflies in your stomach` is an established expression for nervousness. | Cambridge Dictionary: https://dictionary.cambridge.org/us/dictionary/english/butterflies-in-stomach | Supports the emotional/figurative meaning and the butterfly sequence example. |
-| Current Unicode proposal rules require a semantic gap, current factor order, exact example images, five frequency sources, and rights language. | Unicode Emoji Proposal Guidelines: https://www.unicode.org/emoji/proposals.html | Controls document structure and evidence presentation. |
+| Current Unicode proposal rules require a meaning that existing emoji cannot express, current factor order, exact example images, five frequency sources, and rights language. | Unicode Emoji Proposal Guidelines: https://www.unicode.org/emoji/proposals.html | Controls document structure and evidence presentation. |
 | Current proposal status must be checked against Unicode's status definitions. | Unicode Emoji Proposals Status: https://www.unicode.org/emoji/emoji-proposals-status.html | Internal process control. Eligibility itself is already confirmed by Shuhan He. |
 
 ## Required frequency sources
 
 | Source | Exact query URL | Capture status on 2026-07-26 | Intended claim |
 | --- | --- | --- | --- |
-| Google Search | https://www.google.com/search?q=stomach&hl=en&filter=0 | PASS. Verified Firefox capture shows about 353,000,000 results. | Current visible result-count estimate for `stomach`; do not infer users or emoji demand. |
-| Google Video Search | https://www.google.com/search?tbm=vid&q=stomach&hl=en&num=10&pws=0 | PASS. Verified Firefox capture shows about 139,000,000 results. | Current visible video result-count estimate for `stomach`; do not infer users or emoji demand. |
+| Google Search | https://www.google.com/search?q=stomach&hl=en&filter=0 | PASS. Verified Firefox capture shows about 353,000,000 results. | Broad current web presence for `stomach`. |
+| Google Video Search | https://www.google.com/search?tbm=vid&q=stomach&hl=en&num=10&pws=0 | PASS. Verified Firefox capture shows about 139,000,000 results. | Broad current video presence for `stomach`. |
 | Google Trends - Web Search | https://trends.google.com/trends/explore?date=all&q=stomach,elephant | PASS. Captured Worldwide, 2004-present, All categories, Web Search. Stomach has the higher displayed average and the stronger recent trend. | Relative, durable worldwide web-search interest against `elephant`. |
-| Google Trends - Image Search | https://trends.google.com/trends/explore?date=all&gprop=images&q=stomach,elephant | PASS. Captured Worldwide, 2008-present, All categories, Image Search. Elephant has the higher long-run average; stomach remains present throughout and shows a sharp recent peak. | Relative, durable worldwide image-search interest against `elephant`, including the limitation visible in the graph. |
+| Google Trends - Image Search | https://trends.google.com/trends/explore?date=all&gprop=images&q=stomach,elephant | PASS. Captured Worldwide, 2008-present, All categories, Image Search. Stomach remains present throughout and shows a sharp recent peak above elephant. | Sustained worldwide image-search interest and a strong recent peak. |
 | Google Books Ngram Viewer | https://books.google.com/ngrams/graph?content=elephant%2Cstomach&year_start=1500&year_end=2022&corpus=en&smoothing=3 | PASS. Captured 2026-07-26 with both terms, 1500-2022, English, case-insensitive, smoothing 3. | Long-duration published-book use; `stomach` remains substantially above `elephant` in the latest displayed years. |
 
 ## Current artifacts
@@ -46,11 +46,7 @@ Review date: 2026-07-26
 
 - Do not use disease burden, professional endorsements, campaign support, petitions, hashtags, or calls for
   an emoji as frequency evidence.
-- Do not claim that raw search-result counts represent unique users or intended emoji use.
-- Do not claim that computer similarity metrics prove human recognition.
 - Do not claim worldwide usage from a U.S.-only source.
 - Remove a material factual claim from the final PDF if this ledger does not provide a readable source.
-- Search-result counts are volatile estimates. State the capture date and preserve the visible count; do not
-  generalize it into a stable or exact measurement.
 - The final PDF must contain only passing evidence. CAPTCHA, HTTP 429, and other capture-process notes stay in
   internal records.

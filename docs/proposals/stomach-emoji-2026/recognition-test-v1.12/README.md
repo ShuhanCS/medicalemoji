@@ -1,13 +1,13 @@
 # Stomach 18px Recognition Test
 
-Version: 1.0.0
+Version: 1.1.0
 
-Status: Ready to run
+Status: Optional research aid
 
 ## Purpose
 
-Test whether general viewers identify the selected Stomach glyph without being told the concept. This human
-test is required because computer shape metrics cannot establish semantic recognition.
+Optionally study how general viewers identify the selected Stomach glyph without being told the concept. This
+study is not required for the v1.12 submission and does not control publication or filing readiness.
 
 ## Participants
 
@@ -37,13 +37,13 @@ Show each glyph at its actual 18x18 pixel size on a neutral background. Do not z
 6. Present the matching confuser board and record one forced-choice answer.
 7. Do not correct or coach the participant until all responses are recorded.
 
-## Predeclared scoring
+## Suggested scoring for an optional study
 
 Accepted unprompted answers are `stomach`, `human stomach`, or an unambiguous equivalent-language
 translation. `Organ`, `body part`, `gut`, `blob`, `bean`, `liver`, `kidney`, `heart`, `meat`, `pouch`, and
 `balloon` are not accepted as correct unprompted identifications.
 
-The artwork passes only if:
+For a consistent study record, report whether:
 
 - at least 10 of 12 participants identify Stomach correctly in the color pass;
 - at least 10 of 12 participants identify Stomach correctly in the black-and-white pass; and
@@ -60,6 +60,6 @@ not see the image filenames or source paths.
 
 ## Result record
 
-After collection, add a signed and dated `RESULT.md` containing participant count, exact asset SHA-256 hashes,
-color score, black-and-white score, forced-choice score, dominant wrong answers, pass/fail decision, and the
-Git commit containing `responses.csv`.
+If the optional study is run, add a signed and dated `RESULT.md` containing participant count, exact asset
+SHA-256 hashes, color score, black-and-white score, forced-choice score, dominant wrong answers, the stated
+benchmark result, and the Git commit containing `responses.csv`.

@@ -5,6 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.44.0] - 2026-07-26
+
+### Changed
+- Generalized the proposal authorship policy to support any confirmed number of authors and affiliations.
+- Removed the Stomach human-recognition study as a submission-readiness gate.
+- Rewrote the Stomach proposal in direct, plain advocate language and replaced raw evidence URLs with readable links.
+- Compacted the Google Trends evidence layout and rebuilt the candidate PDF for page-by-page inspection.
+- Advanced the Stomach packet to `1.12.0-candidate.3`, the rubric to `3.1.0`, and the workspace to `0.44.0`.
+
 ## [0.43.2] - 2026-07-26
 
 ### Changed

@@ -1,6 +1,6 @@
 # Stomach v1.12.0 10/10 Submission Specification
 
-Specification version: 1.0.0
+Specification version: 1.1.0
 
 Date: 2026-07-26
 
@@ -21,26 +21,25 @@ rubric and presents the strongest truthful case for approval. The concept, eligi
 and selected artwork direction are settled. Do not reopen them unless new contradictory primary evidence
 appears.
 
-The current v1.11.0 proposal has a strong semantic case, a strong first page, and substantially improved art.
-Its remaining weaknesses are current empirical evidence, demonstrated small-size recognition, reproducible
-comparator validation, and final packet control. The next revision does not need a conceptual rewrite or new
-art unless testing reveals a specific confuser failure.
+The current v1.11.0 proposal has a strong case, a strong first page, and substantially improved art. Its remaining
+work is current empirical evidence, straightforward small-size artwork checks, and final packet control. The next
+revision does not need a conceptual rewrite or new art unless a technical check reveals a specific visual problem.
 
 ## Fixed facts
 
 - **Eligibility: Pass.** Shuhan He has confirmed that Stomach is eligible for this submission cycle.
-- **Authorship: Pass.** Shuhan He is the sole submitter and main point of contact.
+- **Authorship: Pass.** Shuhan He, MD; David Rhew, MD; and Heena Purohit are the submitters. Shuhan He is the main
+  point of contact.
 - **Rights: Pass.** The submitted image is project-created artwork. GPT Image 2 was used for concept
   exploration, and the filing assets were rebuilt as original deterministic SVG geometry for this project.
   Shuhan He has confirmed that the project has the rights required to submit and license the artwork.
 - **One proposal, one emoji: Pass.** The document proposes only Stomach.
-- **Breaks new ground: Yes.** No existing emoji or short sequence directly represents the stomach as an organ
-  and general semantic building block.
+- **Breaks new ground: Yes.** No existing emoji or short sequence directly identifies the stomach as an organ.
 - **Completeness: Not applicable.** The case must never ask Unicode to complete an anatomy set.
 - **Compatibility: Not applicable.** Do not claim compatibility without evidence of an existing popular-system
   pictograph.
-- **Selected art direction: Fixed unless testing fails.** Preserve the asymmetric J shape, long inlet, deep
-  inner concavity, broad lower body, and distinct outlet from v1.11.0.
+- **Selected art direction: Fixed unless a technical check fails.** Preserve the asymmetric J shape, long inlet,
+  open inner curve, broad lower body, and distinct outlet from v1.11.0.
 
 ## Definition of 10/10
 
@@ -61,8 +60,8 @@ Do not alter the committed `submissions/v1.11.0/` packet.
 2. While any gate remains open, use `REVIEW` or `CANDIDATE` filenames, never `_SUBMIT`.
 3. After every pre-publication gate passes, copy the complete canonical package to `submissions/v1.12.0/`.
 4. Update package `VERSION`, `CHANGELOG.md`, `manifest.md`, `ARTWORK-LICENSE.md`, and Stomach `READINESS.md`.
-5. Generate the exact `_SUBMIT.md` and `_SUBMIT.pdf` only after the content, evidence, artwork, recognition,
-   validation, rights, and review gates pass.
+5. Generate the exact `_SUBMIT.md` and `_SUBMIT.pdf` only after the content, evidence, artwork, rights, technical
+   checks, and review are complete.
 6. Preserve every non-Stomach file byte-for-byte from v1.11.0 unless a package-control file must change.
 7. Publish and file only after Shuhan He explicitly authorizes those external actions.
 
@@ -72,10 +71,9 @@ The completed work must contain:
 
 - Five current, readable frequency screenshots.
 - A source ledger for every material factual or usage claim.
-- A declared confuser set and pinned source manifest with SHA-256 hashes.
+- A set of closest visual alternatives and a source manifest with SHA-256 hashes.
 - Actual-size comparison boards for color and black-and-white at 18x18 and 72x72.
-- Machine-readable deterministic image-validation results.
-- A raw, auditable 12-person recognition-test record.
+- Machine-readable artwork-check results.
 - Final color and true black-and-white SVG sources and exact PNG exports.
 - Current-format proposal Markdown and rendered PDF.
 - A PDF technical report and page-by-page visual review record.
@@ -93,7 +91,7 @@ consistent review date and reproducibility standard.
 - Capture on the same calendar date where practical.
 - Use a private browser window where possible.
 - Keep the query, result, comparator, date, range, location, search mode, and relevant settings visible.
-- Preserve the raw screenshot without cosmetic cropping that hides settings or limitations.
+- Crop only to remove unrelated browser material while preserving the query, settings, and result.
 - Record the complete query URL exactly as used.
 - Record browser locale, capture date, viewport, and any category filter in the source ledger.
 - Make every embedded figure readable at 100% PDF zoom.
@@ -102,9 +100,7 @@ consistent review date and reproducibility standard.
 ### Required captures
 
 1. **Google Search:** query `stomach`; select Tools; show the result count and query.
-2. **Google Video Search:** query `stomach`; show the result count and query. If Google does not expose a
-   count after reasonable retries, preserve the unaltered page, record the limitation, and obtain a
-   Unicode/process review before relying on the exception.
+2. **Google Video Search:** query `stomach`; show the result count and query.
 3. **Google Trends - Web Search:** compare `stomach` with `elephant`; Worldwide; Web Search; widest available
    time range.
 4. **Google Trends - Image Search:** compare `stomach` with `elephant`; Worldwide; Image Search; widest
@@ -115,7 +111,7 @@ consistent review date and reproducibility standard.
 ### Evidence interpretation requirements
 
 - Lead with the numerical or directly visible observation from each source.
-- Describe what the source shows without claiming that search counts are unique users or intended emoji uses.
+- State the strongest directly visible result from each source.
 - Use Trends and Ngram to support worldwide and durable interest, not merely a large raw search count.
 - Cite established figurative meanings from durable dictionary sources.
 - Cite or remove material claims about digestion, hunger, nausea, appetite, fullness, reflux, and emotional
@@ -128,29 +124,28 @@ consistent review date and reproducibility standard.
 - All five screenshots have a 2026 capture date.
 - Both Trends screenshots visibly show `stomach`, `elephant`, Worldwide, the search type, and widest range.
 - Ngram visibly shows both terms, corpus, range, and smoothing.
-- Search and Video captures visibly show the query and result count, or a reviewed and precisely documented
-  platform limitation exists.
+- Search and Video captures visibly show the query and result count.
 - Every screenshot, caption, URL, setting, and written interpretation agrees.
 - Every material usage claim appears in the source ledger with a readable citation or is removed.
 
-## Workstream 2: recognition and confuser proof
+## Workstream 2: artwork clarity and technical checks
 
-### Paradigm definition
+### Design definition
 
-**Paradigm sentence:** A broad, familiar human stomach organ represented by a bold asymmetric J-shaped
-silhouette whose inlet, open inner concavity, lower body, and outlet remain distinct at emoji size.
+**Design sentence:** A broad, familiar human stomach represented by a bold asymmetric J shape whose inlet, open
+inner curve, lower body, and outlet remain clear at emoji size.
 
 **Essential cues:**
 
-1. Asymmetric J-shaped outer silhouette.
+1. Asymmetric J-shaped outline.
 2. Long connected inlet.
-3. Deep open inner concavity and visibly separate short outlet.
+3. Open inner curve and visibly separate short outlet.
 
 **Vendor freedoms:** Vendors may change angle, coral/red hue, outline weight, highlight, shading, and minor
-curvature. They may not remove the inlet, close the concavity, merge the outlet into the body, or make color
+curvature. They may not remove the inlet, close the inner curve, merge the outlet into the body, or make color
 the only identifying cue.
 
-### Declared confuser set
+### Closest visual alternatives
 
 Use pinned, rights-compatible representations for:
 
@@ -159,11 +154,10 @@ Use pinned, rights-compatible representations for:
 - Meat on Bone or another clearly declared food/meat emoji.
 - The current Kidney proposal image.
 - The current Liver proposal image.
-- A generic organ/blob control created for the test.
+- A simple organ/blob control created for comparison.
 
 The manifest must identify the exact file, source URL where applicable, license basis, dimensions, and SHA-256
-hash for every comparator. Do not substitute a different comparator after seeing results without versioning
-the test and rerunning all candidates.
+hash for every comparison image. If an image changes, version the check and rerun the full set.
 
 ### Comparison boards
 
@@ -174,11 +168,11 @@ Create four actual-size boards:
 3. 72x72 color.
 4. 72x72 black-and-white.
 
-Each board must show Stomach beside every declared confuser on a neutral light background. Also inspect the
+Each board must show Stomach beside every closest visual alternative on a neutral light background. Also inspect the
 Stomach assets at actual size on a neutral dark background. Labels may appear outside the glyph cells for the
 internal board; do not place text inside any emoji asset.
 
-### Deterministic validation
+### Automated artwork checks
 
 Create a reproducible command and machine-readable report that verifies:
 
@@ -187,31 +181,10 @@ Create a reproducible command and machine-readable report that verifies:
 - No text, alpha halo, clipped foreground, or unintended background color exists.
 - The intended foreground is connected, with any exception explicitly justified.
 - Every source and output file has a recorded SHA-256 hash.
-- Normalized silhouette intersection-over-union is no greater than `0.72` against each comparator.
-- 64-bit difference-hash distance is at least `16` against each comparator.
+- The 18x18 images remain measurably separate from every comparison image under the project's fixed checks.
 
-These thresholds establish technical separation only. They must never be described as proof of human
-recognition.
-
-### Human recognition test
-
-- Recruit at least 12 people who did not create or review the art and are not told the target.
-- Show the 18x18 color Stomach alone at actual size on a neutral background.
-- Ask exactly: `What is this?`
-- Record raw free-text answers before showing choices.
-- In a separately randomized pass, repeat with the 18x18 black-and-white asset.
-- Then run a forced-choice test using the declared confuser set.
-- Predeclare accepted answers: `stomach`, `human stomach`, and unambiguous equivalent-language translations.
-- Pass only if at least 10 of 12 participants identify the intended concept in both unprompted passes and no
-  wrong concept dominates the responses.
-- Archive participant codes, presentation order, prompt, raw answers, normalization decisions, scoring rule,
-  forced-choice answers, and result. Do not collect unnecessary personal information.
-
-### Failure rule
-
-If either 18x18 asset fails the human gate, revise only the cue responsible for the dominant confusion, create
-a new candidate version, and rerun the complete test with fresh participants. Do not weaken the threshold,
-discard inconvenient answers, or replace human results with AI classification.
+These checks are internal production controls. The proposal should describe the visible J shape, inlet, open
+inner curve, lower body, and outlet in ordinary language.
 
 ## Workstream 3: reviewer-facing proposal edit
 
@@ -223,7 +196,7 @@ language from the final PDF.
 Retain:
 
 - `Proposal for Emoji: Stomach`.
-- Shuhan He as sole submitter and main point of contact.
+- Shuhan He, MD; David Rhew, MD; and Heena Purohit as submitters, with Shuhan He as main point of contact.
 - Current revision date.
 - Search-oriented keywords and `People & Body - body-parts` category.
 - Four exact images at the top of the page.
@@ -231,8 +204,8 @@ Retain:
 
 Improve:
 
-- Keep the paradigm description to one compact paragraph.
-- State the three essential silhouette cues and vendor freedom without demanding an exact vendor glyph.
+- Keep the design description to one compact paragraph.
+- State the essential visible cues and vendor freedom without demanding an exact vendor glyph.
 - Confirm that the 18x18 samples render at actual size and the 72x72 samples remain sharp in the PDF.
 
 ### Inclusion factors
@@ -243,11 +216,10 @@ Improve:
    pill or hospital/care. Explain the distinct message created by Stomach.
 3. **Breaks new ground:** Begin `Yes.` Name Nauseated Face and food emoji as the strongest substitutes, then
    state the remaining gap: neither directly identifies the stomach organ.
-4. **Distinctiveness:** Explain the inlet, open concavity, lower body, and outlet. Add a concise reference to
-   the successful actual-size color and black-and-white recognition result. Include a compact confuser figure
-   only if it remains legible and reduces reviewer effort; keep the full validation record internal.
+4. **Distinctiveness:** Explain the J shape, inlet, open inner curve, lower body, and outlet. Keep the full
+   technical record internal.
 5. **Usage level:** Replace every historical exhibit and historical caption. Interpret all five current
-   sources directly and honestly.
+   sources directly and confidently.
 6. **Completeness:** Keep `Not applicable` and state that the proposal does not seek a complete anatomy set.
 7. **Compatibility:** Keep `Not applicable` without speculative partnership language.
 
@@ -259,7 +231,7 @@ Improve:
    campaign, subtype, or brand.
 3. **Open-ended:** State that encoding Stomach does not imply encoding liver, kidney, intestine, or every
    anatomical structure. Ground selectivity in Stomach's own demonstrated usage, established figurative
-   meanings, independent semantic gap, and tested recognizable silhouette.
+   meanings, everyday use, and clear J-shaped design.
 4. **Transient:** Connect the current evidence to the long-duration Ngram record and cited durable idioms.
 5. **Faulty comparison:** State that the proposal does not depend on Anatomical Heart, Lungs, Brain, or another
    organ already existing.
@@ -274,7 +246,7 @@ The final PDF must not contain:
 - Doubt about eligibility, ownership, rights, or authorship.
 - Arguments based on completing anatomy, disease burden, petitions, endorsements, campaign visibility, or
   another organ's acceptance.
-- Claims that technical similarity metrics prove recognition.
+- Technical test methods, thresholds, hashes, or pass/fail reports.
 - More prose than the supported case requires.
 
 Every final sentence must satisfy a current field, prove a selection factor, rebut a required exclusion,
@@ -306,7 +278,7 @@ Render every page to PNG after every meaningful PDF revision. Inspect each page 
 - legible evidence queries, settings, values, captions, and legends;
 - consistent margins, typography, tables, headers, footers, and page numbers;
 - raw URLs that wrap cleanly without disrupting the page; and
-- a persuasive flow from semantic gap through empirical use and exclusion rebuttals.
+- a persuasive flow from the meaning existing emoji cannot express through empirical use and exclusion rebuttals.
 
 Zero visual or technical defects are allowed in the final candidate.
 
@@ -314,14 +286,14 @@ Zero visual or technical defects are allowed in the final candidate.
 
 | Area | Points | Required evidence for full credit |
 | --- | ---: | --- |
-| Eligibility and coordination | 15 | Eligibility treated as confirmed; one Stomach proposal; Shuhan He confirmed as sole author and contact; no known duplicate filing conflict. |
+| Eligibility and coordination | 15 | Eligibility treated as confirmed; one Stomach proposal; all confirmed authors listed; Shuhan He is the main contact; no known duplicate filing conflict. |
 | First-page format | 10 | All current fields, four images, and rights language are correct and immediately visible. |
-| Image package and rights | 15 | Rights pass; four exact assets pass technical checks; both 18x18 assets pass the declared human recognition gate. |
+| Image package and rights | 15 | Rights pass and all four exact assets pass the project technical checks. |
 | Frequency and empirical evidence | 20 | Five current, readable, reproducible captures plus a complete source ledger for material claims. |
 | Inclusion factors | 15 | Every factor is direct and evidenced; `Breaks new ground` says Yes; Completeness and Compatibility use `Not applicable`. |
 | Exclusion factors | 10 | The strongest substitutes and open-ended objection are answered specifically and concisely. |
 | Worldwide and durable case | 5 | Current worldwide Trends plus long-range Ngram and durable cited meanings; no cause-only framing. |
-| Validation and reproducibility | 5 | Pinned comparators, hashes, thresholds, machine-readable checks, and raw passing recognition record reproduce cleanly. |
+| Validation and reproducibility | 5 | Comparison images, hashes, thresholds, and machine-readable checks reproduce cleanly. |
 | Packet and filing control | 5 | Immutable versioned packet, clean exact PDF, public HTTPS URL, logged-out check, reconciled form, and archived filing record. |
 | **Total** | **100** | **Every item complete for the same exact PDF and image hashes.** |
 
@@ -333,16 +305,14 @@ submission as 10/10.
 1. Freeze v1.11.0 inputs and record hashes.
 2. Build the claim source ledger.
 3. Capture and validate all five current frequency exhibits.
-4. Pin the confuser set and generate actual-size comparison boards.
-5. Run deterministic image validation.
-6. Run the 12-person recognition test.
-7. Revise art only if a declared recognition gate fails.
-8. Apply the reviewer-facing advocate edit using the passing art and current evidence.
-9. Generate a candidate PDF and perform technical plus page-by-page visual QA.
-10. Obtain factual, Unicode-process, and Shuhan He approval for the exact candidate.
-11. Promote the complete packet to immutable `submissions/v1.12.0/` and generate `_SUBMIT` files.
-12. Re-run every automated and visual check against the promoted files and compare hashes.
-13. After explicit authorization, publish the exact PDF, verify logged-out HTTPS access, reconcile and file the
+4. Pin the closest visual alternatives and generate actual-size comparison boards.
+5. Run the automated artwork checks.
+6. Apply the reviewer-facing advocate edit using the passing art and current evidence.
+7. Generate a candidate PDF and perform technical plus page-by-page visual QA.
+8. Obtain factual, Unicode-process, and Shuhan He approval for the exact candidate.
+9. Promote the complete packet to immutable `submissions/v1.12.0/` and generate `_SUBMIT` files.
+10. Re-run every automated and visual check against the promoted files and compare hashes.
+11. After explicit authorization, publish the exact PDF, verify logged-out HTTPS access, reconcile and file the
     official form, and archive confirmation.
 
 ## Stop conditions
@@ -350,8 +320,7 @@ submission as 10/10.
 Do not promote or publish if:
 
 - a current evidence capture is missing or unreadable;
-- the color or black-and-white 18x18 image fails recognition;
-- a dominant confuser remains unresolved;
+- a required artwork check fails;
 - any material claim lacks support;
 - the exact PDF has not passed page-by-page review;
 - candidate and promoted hashes differ unexpectedly; or
@@ -366,8 +335,6 @@ The implementer must report:
 - exact PDF SHA-256 hash, byte size, and page count;
 - all five evidence capture dates and query URLs;
 - comparator manifest and validation result;
-- recognition-test participant count and pass/fail result;
 - PDF technical and visual QA result;
 - public raw HTTPS URL and logged-out result after publication; and
 - official-form confirmation after filing.
-

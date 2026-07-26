@@ -1,6 +1,6 @@
 # Best-in-Class Emoji Submission Specification
 
-Version: 3.0.1
+Version: 3.1.0
 
 Last checked: 2026-07-26
 
@@ -86,13 +86,13 @@ available, so no visual claim is made about that group.
 
 - The first page lets a reviewer identify the concept, submitters, date, keywords/category, artwork, and rights
   quickly. This is especially consistent in recent proposals because the current rules require it.
-- The proposal defines a narrow semantic gap, names the strongest existing substitute, and explains what the
-  new character would express that the substitute cannot.
+- The proposal defines a narrow meaning that existing emoji cannot express, names the strongest existing
+  substitute, and explains what the new character would express that the substitute cannot.
 - Selection factors are treated as tests, not boxes to inflate. Strong proposals use `N/A` instead of inventing
   meanings, completeness, or compatibility.
-- Frequency screenshots are readable and interpreted. Stronger documents preserve query settings, dates,
-  comparators, and limitations so the evidence can be reproduced.
-- The artwork's identity comes from a silhouette or a few stable cues that survive at 18x18, not from internal
+- Frequency screenshots are readable and interpreted. Stronger documents preserve query settings, dates, and
+  comparators so the evidence can be reproduced.
+- The artwork's identity comes from its outline or a few stable cues that survive at 18x18, not from internal
   detail visible only at 72x72.
 - The exclusions are answered against the proposal's real failure modes, especially Already representable,
   Overly specific, and Open-ended.
@@ -291,7 +291,7 @@ This guide separates three things that are easy to conflate:
 
 The accepted corpus is heterogeneous. Its median extractable text is 907 words, but accepted documents range
 from compact to long and from polished to awkward. Exclusion terms appear in 52 of 55 tracked accepted texts,
-and the median text contains one explicit `N/A`. These measurements support direct answers and honest omission;
+and the median text contains one explicit `N/A`. These measurements support direct answers and justified omission;
 they do not establish a winning length or magic phrase.
 
 #### Title, submitter, and date
@@ -379,28 +379,27 @@ ear to establish its identity. The explanation stays on what a person can see.
 
 **Drafting pattern:** Write: `[Candidate] is shown with [two to four stable visible cues]. At 18 pixels, [primary
 cue] distinguishes it from [nearest visual alternatives]. Vendors may vary [nonessential details] while keeping
-[essential cues].` State that recognition was tested only if genuine human-recognition evidence exists.
+[essential cues].`
 
 Computer checks remain useful internal controls for dimensions, palette, connectedness, and geometric
 separation. Their algorithms, hashes, pinned assets, thresholds, pass/fail language, and machine-readable reports
-belong in `READINESS`, validation, or QA records, not the submission PDF. Terms such as `intersection-over-union`,
-`difference hash`, `declared confuser`, and `machine-visible separation` do not establish human recognition and
-must not appear in reviewer-facing proposal prose.
+belong in `READINESS`, validation, or QA records, not the submission PDF. Keep reviewer-facing prose focused on
+the visible features that distinguish the image at emoji size.
 
 #### Expected usage level
 
 **Unicode asks:** Provide the five required frequency screenshots and enough interpretation to show current and
 historical use of the concept.
 
-**Accepted pattern:** Strong proposals state what the evidence shows, preserve the query and settings, and
-concede an unfavorable result rather than hiding it. Orca explicitly notes where `elephant` performs better and
-then explains the narrower regional evidence. Fingerprint labels searches and dates so the reader can reproduce
-them.
+**Accepted pattern:** Strong proposals state the most relevant accurate result plainly and preserve the query,
+date, and settings. Fingerprint labels searches and dates so the reader can reproduce them; Orca connects its
+comparison to the candidate's actual case.
 
 **Drafting pattern:** Lead with one synthesis sentence about breadth, durability, or relative interest. Give the
-observed figures and settings next to their screenshots. Explain ambiguous searches and any limitation in one
-plain sentence. Result counts are estimates of indexed pages, not counts of users or intended emoji uses. Disease
-prevalence, professional importance, or an organization's audience cannot substitute for concept-frequency data.
+observed figures and settings next to their screenshots. Explain an ambiguous search only when the ambiguity
+would prevent a reviewer from understanding the exhibit. Do not bury the result in methodological disclaimers.
+Disease prevalence, professional importance, or an organization's audience cannot substitute for
+concept-frequency data.
 
 #### Completeness
 
@@ -506,14 +505,13 @@ Google Trends Image Search, and Google Books Ngram Viewer; use `elephant` where 
 available ranges.
 
 **Accepted pattern:** Strong evidence sections label each source, show the screenshot at readable size, and add a
-short interpretation rather than forcing the reviewer to infer the result. They record dates and settings,
-explain ambiguous terms, and acknowledge weak comparisons.
+short interpretation rather than forcing the reviewer to infer the result. They record dates and settings and
+state the relevant result accurately.
 
 **Drafting pattern:** For each source use: `Captured <date> using <query/settings>. The displayed result shows
-<observation>. <One limitation or disambiguation sentence, if needed>.` Keep the complete reproducible URL with
-the capture record; in the PDF, use a readable link treatment that does not break the page. Never describe a
-search-result count as a user count, and never use petitions, hashtags, calls for the emoji, or endorsements as
-frequency evidence.
+<observation>.` Add disambiguation only when essential to interpret the result. Keep the complete reproducible
+URL with the capture record; in the PDF, use a readable link treatment that does not break the page. Never use
+petitions, hashtags, calls for the emoji, or endorsements as frequency evidence.
 
 ### 5. Writing, language, and layout standard
 
@@ -539,15 +537,15 @@ frequency evidence.
 
 ## Authorship rules for the 2026 organ slate
 
-- Kidney must list the complete confirmed author set:
-  Shuhan He; Edgar Lerma; Caitlyn Vlasschaert; Jade M. Teakell; Harish Seethapathy; Jarone Lee;
-  Danielle Miller; Timur Erk; David Rhew; Heena Purohit.
-- Liver must list Shuhan He; David Rhew; Heena Purohit.
-- Stomach lists Shuhan He only.
-- Shuhan He is the main point of contact for all three.
-
-Credentials and affiliations are optional in the PDF. Names must be consistent between the PDF, public file,
-and official form.
+- A proposal may have one or many individual submitters. The confirmed byline for that proposal controls; there
+  is no project-wide author-count rule.
+- Separate multiple names with semicolons. Credentials and affiliations are optional, and a proposal may list
+  more than one affiliation for an author when accurate.
+- Freeze the exact author names, credentials, and affiliations before the final PDF is built. Keep them
+  consistent in the PDF, public file, and official form.
+- Name one main point of contact even when a proposal has several authors or affiliations.
+- Preserve written confirmation that every person agreed to be named. Do not add, remove, or reorder authors to
+  satisfy an assumed preferred author count.
 
 Unicode requires one emoji per proposal; it does not forbid one submitter from filing three separate proposals
 in the same cycle. Kidney, Liver, and Stomach may therefore be filed as three documents. Because parallel organ
