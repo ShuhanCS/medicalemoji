@@ -6,7 +6,7 @@
 - Retains David Rhew's and Heena Purohit's Microsoft affiliations without inventing an affiliation for Adrienne.
 - Rewrites substantive inclusion and exclusion answers with concrete Liver-specific messages, visual cues,
   evidence, and counterarguments while keeping true not-applicable answers concise.
-- Synchronizes the packaged guide to rubric `3.1.1` and records the SemVer-only packet rule.
+- Synchronizes the packaged guide to rubric `3.2.1`, its review-panel requirement, and the SemVer-only packet rule.
 - Rebuilds and revalidates the exact reviewer-facing `SUBMIT` PDF.
 - Carries unrelated proposal components forward byte for byte from `1.12.0-liver.4`.
 

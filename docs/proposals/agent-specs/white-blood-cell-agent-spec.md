@@ -1,6 +1,6 @@
 # White Blood Cell Proposal Agent Specification
 
-Version: 1.0.0
+Version: 1.1.0
 
 Status: Ready to assign
 
@@ -86,6 +86,13 @@ duplicate status, artwork ownership, and the CC0 rights statement without invent
 - Render and visually inspect every PDF page for evidence readability, clipping, blank pages, broken images, and
   layout defects.
 - Report any browser/CAPTCHA, dependency, or human-testing limitation rather than working around it silently.
+
+## Panel feedback loop
+
+Submit the exact final artifact hash to the repeatable [`ESR/UTC-readiness panel`](../review-panel/README.md).
+Answer every written action with `ACCEPT`, `REJECT WITH REASON`, or `DEFER WITH OWNER AND DATE`. Material
+changes require a new hash and panel rerun. Treat the panel as an internal red team, never named-person or
+Unicode feedback.
 
 ## Completion and handoff
 

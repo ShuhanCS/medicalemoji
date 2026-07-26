@@ -5,15 +5,32 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [0.44.1] - 2026-07-26
+## [0.45.1] - 2026-07-26
 
 ### Changed
 - Added Adrienne Balk to the confirmed Liver proposal author byline while retaining David Rhew's and Heena
   Purohit's Microsoft affiliations.
 - Rewrote the substantive Liver criteria with concrete organ-specific messages, visual cues, evidence, and
   counterarguments; retained concise answers where a criterion is genuinely not applicable.
-- Created the immutable `1.12.0-liver.5` submission package and synchronized rubric `3.1.1`.
+- Created the immutable `1.12.0-liver.5` submission package and synchronized rubric `3.2.1`.
 - Required all new workspace, rubric, and submission-package identifiers to use Semantic Versioning 2.0.0.
+
+## [0.45.0] - 2026-07-26
+
+### Added
+- Added a repeatable five-seat ESR/UTC-readiness panel with independent compliance, selection, proposal-
+  mentoring, visual/implementation, and skeptical-decision reviews.
+- Added an artifact-hashed panel dossier generator and a written action-ledger contract for proposal agents.
+- Added an initial cross-slate panel report for Kidney, White Blood Cell, Stomach, Liver, and provisional Pill
+  Pack.
+
+### Changed
+- Made panel reruns a pre-filing requirement after any material proposal, evidence, artwork, rights, authorship,
+  or PDF change.
+- Documented named public experts only as sources for review lenses, with explicit safeguards against
+  impersonation, fake endorsements, private-view speculation, or approval predictions.
+- Advanced the rubric from `3.1.0` to `3.2.0`, the slate specification from `1.6.0` to `1.7.0`, and the
+  workspace from `0.44.0` to `0.45.0`.
 
 ## [0.44.0] - 2026-07-26
 

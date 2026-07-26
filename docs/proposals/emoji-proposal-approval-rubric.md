@@ -1,6 +1,6 @@
 # Best-in-Class Emoji Submission Specification
 
-Version: 3.1.1
+Version: 3.2.1
 
 Last checked: 2026-07-26
 
@@ -237,6 +237,7 @@ If any gate is unresolved, label the proposal `NOT READY TO SUBMIT` regardless o
 | Selection factors | U | Every current inclusion and exclusion factor is answered; unsupported positive factors are marked `Not applicable`. |
 | Automatic-decline screen | U | No logo, brand, protected work, UI icon, signage, text, exact-image demand, directional variant, or other excluded category is present. |
 | Final QA | I | The PDF has no draft note, stale date, placeholder, broken image, clipped text, unreadable screenshot, or contradictory status statement. |
+| Independent panel | I | The exact final artifact has a complete five-seat ESR/UTC-readiness panel record, no unresolved hard blocker, and an action-by-action proposal-agent response. |
 
 ### 2. First-page contract
 
@@ -596,8 +597,10 @@ For each concept, complete the following before moving to the next:
 6. Revise the source, update the date, and rebuild the PDF.
 7. Render every page and inspect it visually.
 8. Run technical checks for image dimensions/colors, text extraction, fonts, encryption, links, and file size.
-9. Obtain domain/factual and Unicode/process signoff on the exact PDF.
-10. Publish the exact PDF, verify the logged-out URL, file the official form, and archive confirmation.
+9. Run the reusable [ESR/UTC-readiness panel](review-panel/README.md) on the exact artifact hash. Resolve or
+   explicitly reject every action with evidence; rerun all affected seats after material changes.
+10. Obtain domain/factual and Unicode/process signoff on the exact PDF.
+11. Publish the exact PDF, verify the logged-out URL, file the official form, and archive confirmation.
 
 Every workspace, rubric, and submission-package version introduced by this workflow must be valid Semantic
 Versioning 2.0.0. Concept-lane revisions use a prerelease identifier, such as `1.12.0-liver.5`, rather than an

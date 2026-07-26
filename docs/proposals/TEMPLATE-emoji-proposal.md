@@ -325,4 +325,5 @@ browser window."*
 - [ ] No petitions or social-media calls used as evidence; no cause used as the reason for encoding
 - [ ] One emoji per proposal; parallel proposals each make an independent Open-ended case
 - [ ] Confirm the concept was not declined in the last four years
+- [ ] Five-seat ESR/UTC-readiness panel completed against this exact artifact hash; action ledger closed
 - [ ] PDF hosted publicly; link submitted through the form

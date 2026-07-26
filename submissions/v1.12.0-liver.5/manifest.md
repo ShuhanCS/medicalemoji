@@ -17,7 +17,7 @@ https://www.unicode.org/emoji/proposals.html
 | Component | Provenance | Status in v1.12.0-liver.5 |
 | --- | --- | --- |
 | Ideal proposal template | v1.11.0 | Carried forward byte for byte |
-| Best-in-class rubric | rubric 3.1.1 | Synchronized with the current section-by-section guide and SemVer packet rule |
+| Best-in-class rubric | rubric 3.2.1 | Synchronized with the current section-by-section guide, review panel, and SemVer packet rule |
 | White Blood Cell | v1.11.0 | Carried forward byte for byte |
 | Kidney | v1.11.0 | Carried forward byte for byte |
 | Stomach | v1.11.0 | Carried forward byte for byte |
