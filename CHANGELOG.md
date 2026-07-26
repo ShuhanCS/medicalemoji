@@ -5,14 +5,6 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [0.43.1] - 2026-07-26
-
-### Changed
-- Added David Rhew, MD and Heena Purohit to the Liver proposal author byline alongside Shuhan He.
-- Preserved Shuhan He as the submitter, main point of contact, and artwork-rights certifier.
-- Created the immutable `v1.12.0-liver.3` package and rebuilt its reviewer-facing PDF.
-- Advanced the application/workspace version from `0.43.0` to `0.43.1`.
-
 ## [0.43.0] - 2026-07-26
 
 ### Changed

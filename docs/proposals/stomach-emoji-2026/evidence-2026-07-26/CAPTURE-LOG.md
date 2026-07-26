@@ -20,11 +20,11 @@ Locale requested: English
 
 ## Accepted artifacts
 
-- `stomach_google_search_2026-07-26_CANDIDATE.png` — `f29d1d2a3a6157d49143ed149b79deb9bf4069d21e6a31971621225dc4363c08`
-- `stomach_google_video_search_2026-07-26_CANDIDATE.png` — `365bdd213219dddb712ec43a1670f5874f142b03adf426773db2394b4c2a3708`
-- `stomach_google_trends_web_elephant_2026-07-26_CANDIDATE.png` — `c939e23b61b874c8f0acff8a2d6c9730eddeaa9d2f9840c482231f37d19c752d`
-- `stomach_google_trends_image_elephant_2026-07-26_CANDIDATE.png` — `61b4ac92b52a9b68736f09e78f2e36be44e92ff74d033e3e60a439c5c3ce1d2e`
-- `stomach_google_books_ngram_elephant_2026-07-26_CANDIDATE.png` — `2e79d604ad5a9361f67d820fc762090c53ce2bc3e0df1cdaed5fe7da0242c8cb`
+- `stomach_google_search_2026-07-26_CANDIDATE.png` — `c2c4ef08dafa59a6b07014dd1172f8d0dd71d1dd92dfe2dc4525cc4cd0a6f6b5`
+- `stomach_google_video_search_2026-07-26_CANDIDATE.png` — `99b9ffb9facdee2c221bde83be0f063e77d17345d43baec928c3920cca0113a9`
+- `stomach_google_trends_web_elephant_2026-07-26_CANDIDATE.png` — `4d6ee031ac1a03656c85b711ba1f399e375ea521d87ad319ae4c8386d72d5387`
+- `stomach_google_trends_image_elephant_2026-07-26_CANDIDATE.png` — `2c0a6977df088b357c16eed3ae8641fc5ba50ff5bc43fd21e6438ed865f471be`
+- `stomach_google_books_ngram_elephant_2026-07-26_CANDIDATE.png` — `7f3b174662547b54dca6bce4f9fc4a3f08d64df4d8f7f6a1fa470424734dd3a1`
 
 ## Capture notes
 

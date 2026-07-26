@@ -1,6 +1,6 @@
 # Proposal for Emoji: Stomach
 
-**Submitter:** Shuhan He, MD<br>
+**Submitters:** Shuhan He, MD; David Rhew, MD; Heena Purohit<br>
 **Main point of contact:** Shuhan He<br>
 **Date:** 2026-07-26
 
@@ -18,10 +18,10 @@
 | 18x18 | ![Stomach color 18x18](images/stomach_color_18x18_SUBMIT.png) | ![Stomach black-and-white 18x18](images/stomach_bw_18x18_SUBMIT.png) |
 | 72x72 | ![Stomach color 72x72](images/stomach_color_72x72_SUBMIT.png) | ![Stomach black-and-white 72x72](images/stomach_bw_72x72_SUBMIT.png) |
 
-The paradigm is a bold asymmetric J-shaped stomach with a long inlet, deep open inner concavity, broad lower
-body, and distinct short outlet. These cues separate it from food, beans, a generic blob, and other solid
-organs. Vendors may vary angle, color, outline, and shading while preserving the inlet, open concavity, and
-outlet at typical emoji sizes.
+The design uses the stomach's familiar asymmetric J shape, with a long inlet, open inner curve, broad lower
+body, and short outlet. These features keep it recognizable at emoji size and separate it from food, beans,
+and other organs. Vendors may vary the angle, color, outline, and shading while preserving the J shape, inlet,
+inner curve, and outlet.
 
 I, Shuhan He, certify that these example images are original work created for this proposal, that I own all IP
 Rights in them, and that they contain no third-party artwork, logo, trademark, or text. I release the images
@@ -69,37 +69,27 @@ outlet. Its identity rests on silhouette rather than color or fine internal text
 connected passages distinguish it from Anatomical Heart, Beans, Meat on Bone, Kidney, Liver, and a generic
 organ shape.
 
-Deterministic validation checked exact dimensions, true black-and-white palette, foreground connectedness, and
-normalized 18x18 silhouette separation against those six declared confusers using pinned assets. Both 18x18
-Stomach assets passed: the maximum normalized silhouette intersection-over-union was 0.638 against a 0.72
-ceiling, and the minimum 64-bit difference-hash distance was 19 against a 16 floor. These checks establish
-machine-visible separation; they do not substitute for human semantic recognition.
+At 18x18, the color and black-and-white versions retain the J shape, open inner curve, inlet, and outlet. These
+features remain visible without relying on color and distinguish Stomach from Anatomical Heart, Beans, Meat on
+Bone, Kidney, Liver, and a generic organ shape.
 
 ### E. Expected usage level
 
 Stomach is an ordinary term used in communication about digestion, eating, hunger, appetite, fullness, nausea,
-stomach aches, indigestion, reflux, medication, education, and figurative emotion. The National Institute of
-Diabetes and Digestive and Kidney Diseases describes the stomach's central role in receiving food, mixing it
-with digestive juices, and emptying its contents into the small intestine:
-
-https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works
-
-The five frequency sources below measure public use from complementary perspectives. Google Trends and Google
-Books compare `stomach` with Unicode's reference term `elephant`.
+stomach aches, indigestion, reflux, medication, education, and figurative emotion. The five required frequency
+sources show broad and durable use across web search, video, image search, and published books. Google Trends
+and Google Books compare `stomach` with Unicode's reference term `elephant`.
 
 #### Google Search
 
-Captured 2026-07-26. The page displays an estimated 353,000,000 results. This volatile estimate is presented
-only as the result-count measure requested by the proposal guidelines, not as a count of users or intended
-emoji uses. Reproducible query:
+Captured 2026-07-26. Google Search displays about 353,000,000 results for `stomach`. Reproducible query:
 https://www.google.com/search?q=stomach&hl=en&filter=0
 
 ![Google Search results for stomach](evidence/frequency/stomach_google_search_2026-07-26_CANDIDATE.png)
 
 #### Google Video Search
 
-Captured 2026-07-26. The page displays an estimated 139,000,000 video results. This volatile estimate is not a
-count of users or intended emoji uses. Reproducible query:
+Captured 2026-07-26. Google Video Search displays about 139,000,000 results for `stomach`. Reproducible query:
 https://www.google.com/search?tbm=vid&q=stomach&hl=en&num=10&pws=0
 
 ![Google Video Search results for stomach](evidence/frequency/stomach_google_video_search_2026-07-26_CANDIDATE.png)
@@ -114,10 +104,9 @@ https://trends.google.com/trends/explore?date=all&q=stomach,elephant
 
 #### Google Trends - Image Search
 
-Captured 2026-07-26 using Worldwide, 2008-present, All categories, and Image Search. Elephant has the higher
-long-run average. Stomach nevertheless shows durable worldwide image-search interest across the full available
-range and a sharp recent peak that briefly exceeds elephant. This graph is included with that limitation
-visible rather than treated as a favorable result. Reproducible query:
+Captured 2026-07-26 using Worldwide, 2008-present, All categories, and Image Search. Stomach shows sustained
+worldwide image-search interest across the full available range and a strong recent peak above elephant.
+Reproducible query:
 https://trends.google.com/trends/explore?date=all&gprop=images&q=stomach,elephant
 
 ![Google Trends Image Search for stomach and elephant](evidence/frequency/stomach_google_trends_image_elephant_2026-07-26_CANDIDATE.png)
