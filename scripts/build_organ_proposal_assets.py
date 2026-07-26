@@ -130,59 +130,56 @@ def kidney_svg(color: bool, small: bool = False) -> str:
 
 def stomach_svg(color: bool, small: bool = False) -> str:
     body = (
-        "M 25 6 C 21 6 19 9 19 13 L 19 24 C 19 31 16 36 11 39 "
-        "C 5 42 3 48 5 54 C 7 60 13 61 17 56 C 21 51 23 50 28 54 "
-        "C 35 61 46 64 56 59 C 65 54 68 42 63 34 C 59 28 53 26 45 27 "
-        "C 37 28 33 24 33 18 L 33 12 C 33 8 30 6 25 6 Z"
+        "M 29 4 C 33 4 35 6 35 9 L 35 13 C 35 17 38 19 43 20 "
+        "C 47 18 52 20 56 23 C 64 29 66 39 63 48 C 60 58 52 65 43 67 "
+        "C 34 69 27 65 22 59 C 19 55 17 51 14 50 C 11 49 9 52 8 56 "
+        "C 7 60 8 65 7 67 C 7 69 5 70 3 69 C 1 69 1 67 1 65 "
+        "C 0 57 2 50 8 46 C 12 43 18 42 23 45 C 28 47 33 47 37 43 "
+        "C 42 39 43 33 40 28 C 39 26 37 24 34 23 C 28 21 24 17 23 12 "
+        "L 22 8 C 22 5 25 4 29 4 Z"
     )
     if color:
         definitions = """
-    <radialGradient id="stomach-body" cx="35%" cy="27%" r="84%">
-      <stop offset="0" stop-color="#F07A78"/>
-      <stop offset="0.5" stop-color="#D95161"/>
-      <stop offset="0.84" stop-color="#A92F49"/>
-      <stop offset="1" stop-color="#84243B"/>
-    </radialGradient>
+    <linearGradient id="stomach-body" x1="0" y1="0" x2="0.55" y2="1">
+      <stop offset="0" stop-color="#FF6A63"/>
+      <stop offset="0.62" stop-color="#F04B46"/>
+      <stop offset="1" stop-color="#E33133"/>
+    </linearGradient>
     <radialGradient id="stomach-shine" cx="50%" cy="50%" r="50%">
-      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.82"/>
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.72"/>
       <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
     </radialGradient>
         """
-        internal = "" if small else '<path d="M 29 16 C 27 26 31 34 39 37" fill="none" stroke="#B73550" stroke-width="2.2" stroke-linecap="round" opacity="0.75"/>'
+        stroke_width = "2.8" if small else "2.6"
+        highlight = (
+            '<ellipse cx="47" cy="25" rx="4.1" ry="2.5" transform="rotate(-50 47 25)" fill="url(#stomach-shine)"/>'
+            if small
+            else '<ellipse cx="47" cy="24" rx="6.2" ry="3.4" transform="rotate(-50 47 24)" fill="url(#stomach-shine)"/>'
+        )
         artwork = f"""
-  <g transform="rotate(-6 36 36)">
-    <path d="{body}" fill="url(#stomach-body)" stroke="#6D1E34" stroke-width="2.6" stroke-linejoin="round"/>
-    {internal}
-    <ellipse cx="25" cy="17" rx="5.8" ry="3.3" transform="rotate(-24 25 17)" fill="url(#stomach-shine)"/>
-    <ellipse cx="22.5" cy="14" rx="1.7" ry="1" transform="rotate(-24 22.5 14)" fill="#FFFFFF" opacity="0.85"/>
-  </g>"""
+  <path d="{body}" fill="url(#stomach-body)" stroke="#78122C" stroke-width="{stroke_width}" stroke-linejoin="round"/>
+  {highlight}"""
         return svg_document(
             "Stomach emoji color reference artwork",
-            "Original textless J-shaped stomach paradigm with a joined inlet and short outlet.",
+            "Original textless J-shaped stomach paradigm with a long inlet, deep inner concavity, and distinct short outlet.",
             definitions,
             artwork,
         )
 
     if small:
         artwork = f"""
-  <g transform="rotate(-6 36 36)">
-    <path d="{body}" fill="#000000" stroke="#000000" stroke-width="2.5" stroke-linejoin="round"/>
-  </g>"""
+  <path d="{body}" fill="#000000" stroke="#000000" stroke-width="2.8" stroke-linejoin="round"/>"""
         return svg_document(
             "Stomach emoji black-and-white 18-pixel reference artwork",
-            "Original textless black silhouette for the 18-pixel J-shaped stomach paradigm.",
+            "Original textless black silhouette with a long inlet, deep inner concavity, and distinct outlet.",
             "",
             artwork,
         )
-    internal = '<path d="M 29 16 C 27 26 31 34 39 37" fill="none" stroke="#000000" stroke-width="2.2" stroke-linecap="round"/>'
     artwork = f"""
-  <g transform="rotate(-6 36 36)">
-    <path d="{body}" fill="#FFFFFF" stroke="#000000" stroke-width="2.8" stroke-linejoin="round"/>
-    {internal}
-  </g>"""
+  <path d="{body}" fill="#FFFFFF" stroke="#000000" stroke-width="2.9" stroke-linejoin="round"/>"""
     return svg_document(
         "Stomach emoji black-and-white reference artwork",
-        "Original textless black-and-white J-shaped stomach paradigm.",
+        "Original textless black-and-white J-shaped stomach paradigm with a long inlet and distinct outlet.",
         "",
         artwork,
     )

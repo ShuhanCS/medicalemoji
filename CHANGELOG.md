@@ -5,6 +5,26 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.40.0] - 2026-07-26
+
+### Added
+- Added the complete immutable `v1.11.0` submission snapshot with the corrected Stomach artwork, exact-size
+  assets, readiness record, updated proposal source, and rebuilt PDF.
+
+### Changed
+- Rebuilt the Stomach paradigm around a long visible inlet, deep open inner concavity, asymmetric lower body,
+  and distinct outlet so the silhouette remains recognizable at 18x18.
+- Updated the reusable organ-art generator to reproduce the corrected Stomach color and true black-and-white
+  SVG/PNG assets.
+- Advanced the application/workspace version from `0.39.0` to `0.40.0` and the proposal package from `v1.10.0`
+  to `v1.11.0`.
+
+### Verification
+- Confirmed all four Stomach PNGs have exact dimensions and the black-and-white assets contain only black and
+  white pixels.
+- Rebuilt the seven-page Stomach PDF and visually inspected every page for artwork, image, text, link,
+  pagination, and clipping defects.
+
 ## [0.37.0] - 2026-07-21
 
 ### Added
