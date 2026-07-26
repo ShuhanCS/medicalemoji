@@ -7,6 +7,9 @@ Controlled by the current
 [`best-in-class specification`](emoji-proposal-approval-rubric.md) and Unicode's current guidelines:
 https://www.unicode.org/emoji/proposals.html
 
+Before filling this template, pass the concept and image gates in the root
+[`Medical Emoji Proposal Guide`](../../PROPOSAL-GUIDE.md).
+
 The archived 55-versus-29 comparison has been retired because the 29-document cohort and analysis code were
 not preserved. There is no validated winning word, page, or image-count threshold. Write only the prose
 needed to make a complete, reproducible case.
@@ -102,6 +105,10 @@ needed to make a complete, reproducible case.
 > Answer Yes or No, then justify. The killer test is Unicode's own: *"because there is already an emoji for
 > 🧹 broom, an emoji for vacuum cleaner would not break new ground."* Name the nearest existing emoji and
 > say precisely what it cannot express.
+>
+> **Project decision rule:** a normal filing candidate must answer `Yes`. This means a new semantic building
+> block, not a novel or obscure underlying subject. If the honest answer is `No`, stop unless a genuine,
+> high-frequency compatibility need in a popular existing system has been documented and escalated.
 >
 > Orca: *"the orca is a new animal species that cannot be represented by any sequence of currently existing
 > emojis."*
@@ -242,6 +249,7 @@ browser window."*
 - [ ] `N/A` written wherever honest, especially Completeness and Compatibility
 - [ ] Keywords contain no form of the emoji's name
 - [ ] Artwork contains no text, digits or barcodes; 18×18 and 72×72; colour and black and white; not grayscale
+- [ ] Both 18x18 assets passed the project unprompted-recognition gate against declared confusers
 - [ ] Licence sentence present and true
 - [ ] All five sources screenshotted; `elephant` in Trends and Ngram
 - [ ] Capture statement with month, year and private-window method

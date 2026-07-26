@@ -5,6 +5,29 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.40.0] - 2026-07-26
+
+### Added
+- Added a root-level 2026 Medical Emoji Proposal Guide that consolidates the current Unicode format, explicit
+  proposal go/no decisions, the recovered accepted-proposal research, confirmed-decline lessons, and an agent
+  operating contract.
+- Added a detailed image study of accepted proposals and the canonical v1.10.0 Medical Emoji first pages.
+
+### Changed
+- Made `Breaks new ground = Yes` the normal project filing rule while distinguishing a new semantic building
+  block from scientific novelty, obscure subject matter, or anatomy-set completion.
+- Required both deterministic image checks and unprompted human recognition at actual 18x18 size; computer
+  similarity metrics alone no longer clear the semantic-recognition gate.
+- Promoted the guide into the repository README, proposal template, research index, and approval rubric.
+
+### Verification
+- Rechecked the official 2026 Unicode proposal instructions, Emoji 18.0 accepted set, UTC #185 decision
+  record, and ESR Emoji 19.0+ priorities against their official URLs.
+- Rendered and visually inspected the accepted exemplar first pages and all four canonical v1.10.0 proposal
+  first pages.
+- Advanced the project version from `0.39.0` to `0.40.0`; proposal release `v1.10.0` remains unchanged because
+  this release changes research and quality policy rather than a proposal packet.
+
 ## [0.37.0] - 2026-07-21
 
 ### Added

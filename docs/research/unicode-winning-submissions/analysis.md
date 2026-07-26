@@ -74,6 +74,45 @@ The accepted first pages show the proposed glyph at keyboard scale, not only as 
 art has a distinctive outer shape and only a few essential internal cues. Details that disappear in true
 black-and-white or at 18x18 cannot carry the recognition case.
 
+#### Artwork case study: what survives at 18x18
+
+The accepted proposal first pages were re-rendered and visually inspected at actual and enlarged scale on
+2026-07-26. The reusable design signal is not a shared illustration style. It is a compact paradigm whose
+identity survives removal of color, shading, and fine detail.
+
+| Proposal | Stable small-size cues | Main lesson |
+| --- | --- | --- |
+| Treasure Chest | Open lid, rectangular container, visible cavity, few round contents | The outer object and one interior cue remain coherent in both palettes. |
+| Lighthouse | Tall tapered tower, lantern cap, lateral beam | A simple attached cue can turn a generic building into a specific function. |
+| Fingerprint | Rounded fingertip boundary and nested ridge flow | Interior structure may carry identity when it is bold, sparse, and separated by negative space. |
+| Meteor | Round leading mass and long directional tail | Two-part action silhouettes can separate nearby concepts such as Fire and Shooting Star. |
+| Monarch Butterfly | Symmetric wing outline, black border, high-contrast orange fields | Color strengthens subtype identity, but the butterfly silhouette still has to survive without it. |
+| Pickle | Curved taper and irregular surface marks | Color alone is insufficient; shape and texture separate Pickle from Cucumber. |
+| Thumb Point | Distinct hand pose compared directly with neighboring gesture emoji | A crowded category requires an explicit visual-neighbor comparison. |
+| Net With Handle | Circular hoop, visible mesh, diagonal handle | Three bold structural cues create a readable tool paradigm. |
+| Anatomical Heart and Lungs | Recognizable outer anatomy plus large attached vessels or airway | Medical art works best when anatomy is simplified into iconic silhouette and appendages. |
+
+This review also exposed important exceptions. Eraser's document is substantially image-based; Orca has
+broken or blank evidence figures; several pre-2026 proposals show only old-format image/license fields; and
+the committee-authored Cracked Smiling Face revision does not model the public four-image intake format.
+Acceptance therefore cannot be treated as certification of every PDF or art choice.
+
+#### Current v1.10.0 image baseline
+
+The four current first pages were rendered from `submissions/v1.10.0/` and inspected on 2026-07-26.
+
+| Concept | 18x18 finding | Quality conclusion |
+| --- | --- | --- |
+| Kidney | The color sample can read as a bean or bulb. The black-and-white sample loses the hilum and attached structure and reads as a filled irregular form. | Deterministic IoU and perceptual-hash separation passes, but the v1.10.0 report itself correctly says that it does not measure semantic recognition. Human testing remains necessary. |
+| Stomach | The color J-shape is the clearest current organ silhouette. The black-and-white sample loses part of the internal curve. | Closest to an acceptable paradigm, but recognition is untested. |
+| Liver | The black-and-white sample is a horizontal blob; the color sample can read as meat or a generic red organ. | Redesign is required before filing. |
+| White Blood Cell | The nucleus and membrane cues collapse into a small dot or generic cell. | It must be distinguished from Microbe, Drop of Blood, and generic-cell imagery before filing. |
+
+File dimensions, palette checks, connected components, silhouette IoU, and image hashes are valuable
+engineering controls. They cannot answer the semantic question, "What does a person think this is?" A
+best-in-class internal gate therefore needs both reproducible computer checks and an unprompted human test at
+actual 18x18 size. This is a project quality standard, not a Unicode-mandated sample size or threshold.
+
 ### 5. Make evidence readable and reproducible
 
 Current best practice is to include all five requested sources and preserve the query, settings, range,

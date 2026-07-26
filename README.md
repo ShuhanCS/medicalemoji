@@ -1,5 +1,26 @@
 # Medical Emoji
 
+## Start here: how to build a proposal worth filing
+
+The controlling agent playbook is the
+[`Medical Emoji Proposal Guide (2026)`](PROPOSAL-GUIDE.md). It consolidates the current 2026 format, the
+accepted-proposal audit, the confirmed-decline lessons, and an image-quality gate based on actual 18x18
+recognition rather than file dimensions alone.
+
+The most important answers are explicit:
+
+| Question | Answer |
+| --- | --- |
+| Does a normal filing candidate **break new ground**? | **Yes.** It must add a useful semantic building block that no existing emoji or reasonable sequence expresses. |
+| Does that mean a scientifically novel or obscure subject? | **No.** The vocabulary gap is new; the underlying concept should already be familiar and widely used. |
+| Should an organ claim **Completeness**? | **No - use `N/A`.** Anatomy is not a fixed set. |
+| Is medical importance or awareness enough? | **No.** It cannot replace ordinary-use evidence. |
+| Do correct dimensions prove good artwork? | **No.** Both 18x18 assets must pass unprompted recognition against declared confusers. |
+
+For Kidney, Stomach, Liver, and White Blood Cell, `Breaks new ground = Yes` is defensible. That answer is
+necessary, not sufficient: each proposal must still pass usage, distinctiveness, Open-ended, evidence,
+rights, review, public-URL, and filing gates independently.
+
 ## Current 2026 submission slate
 
 The active 2026 filing slate is Kidney, White Blood Cell, Stomach, and Liver, reviewed serially in that order.
@@ -47,9 +68,10 @@ attachments in this send package.
 
 ## 🏆 What actually wins
 
-Use the current [`best-in-class specification`](docs/proposals/emoji-proposal-approval-rubric.md) as the
-controlling project standard and the [`proposal template`](docs/proposals/TEMPLATE-emoji-proposal.md) as the
-drafting structure. The specification incorporates the current Unicode rules and a direct
+Use the root [`proposal guide`](PROPOSAL-GUIDE.md) as the practical agent entry point, the current
+[`best-in-class specification`](docs/proposals/emoji-proposal-approval-rubric.md) as the detailed approval
+standard, and the [`proposal template`](docs/proposals/TEMPLATE-emoji-proposal.md) as the drafting structure.
+These incorporate the current Unicode rules and a direct
 [`proposal evidence audit`](docs/research/unicode-winning-submissions/analysis.md) of accepted and confirmed
 declined proposal documents: their arguments, evidence, artwork, and layout. Lighthouse is the closest current
 all-around model; Treasure Chest is the concise model; Fingerprint is the technical-evidence model; and Meteor

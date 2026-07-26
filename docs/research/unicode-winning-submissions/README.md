@@ -6,8 +6,11 @@ current guidelines.
 
 ## Files
 
+- [`../../../PROPOSAL-GUIDE.md`](../../../PROPOSAL-GUIDE.md) - root-level practical guide for proposal agents,
+  including the 2026 format, explicit Yes/No decision rules, image-quality workflow, and no-file gates.
 - `accepted-emoji-proposals-manifest.json` - machine-readable manifest of all accepted proposal rows pulled from Unicode's accepted-proposals chart.
-- `analysis.md` - reproducibility and methodology audit, including the retired 55-versus-29 comparison.
+- `analysis.md` - reproducibility and methodology audit, including the retired 55-versus-29 comparison and the
+  accepted-versus-current artwork study.
 - `corpus-audit-2026-07-20.json` - generated measurements from the tracked accepted and confirmed-decline
   archives.
 

@@ -11,6 +11,10 @@ The controlling audit is:
 
 `docs/research/unicode-winning-submissions/analysis.md`
 
+The root-level practical guide for agents is:
+
+`PROPOSAL-GUIDE.md`
+
 The reproducible measurement program is:
 
 `evidence/emoji_proposal_corpus_audit.py`
