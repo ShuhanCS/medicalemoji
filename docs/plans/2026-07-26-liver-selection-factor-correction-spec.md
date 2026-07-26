@@ -1,6 +1,6 @@
 # Liver Selection-Factor Correction Specification
 
-**Spec version:** 1.0.0
+**Spec version:** 1.0.1
 
 **Date:** 2026-07-26
 
@@ -75,7 +75,7 @@ The Liver revision must address those risks directly. â€œBreaks new ground: Yesâ
 
 ## Factual baseline
 
-The public proposal must distinguish encoded emoji from proposal candidates.
+The public proposal must keep the Liver case independent and limit semantic comparisons to currently encoded emoji or clearly identified generic controls. Separate submission candidates, artwork, and evidence are out of scope.
 
 Current encoded anatomical emoji relevant to this comparison include:
 
@@ -83,7 +83,7 @@ Current encoded anatomical emoji relevant to this comparison include:
 - Anatomical Heart (`U+1FAC0`)
 - Lungs (`U+1FAC1`)
 
-There is no encoded Liver emoji and no encoded Stomach emoji in the current official emoji test data. Kidney and Stomach artwork in this repository are proposal candidates, not current emoji. They must never be described or visually presented as if already encoded.
+There is no encoded Liver emoji in the current official emoji test data. The Liver proposal must not include or rely on material from separate submissions.
 
 Cut of Meat and Beans may be discussed as ambiguous substitutes, but neither reliably identifies the liver. General medical emoji can add context, but they do not supply the missing body-site term.
 
@@ -93,7 +93,7 @@ The next Liver revision should use the following substance. Minor copyediting is
 
 ### C. Breaks new ground
 
-> **Yes.** No current emoji or reliable emoji sequence identifies the liver. Anatomical Heart, Lungs, and Brain identify different body parts; Cut of Meat and Beans do not reliably identify a liver. Medical-context emoji can convey testing, imaging, medication, or care, but none supplies the missing body-site term. Liver therefore adds a distinct literal semantic building block for ordinary messages that explicitly identify the organ. This claim does not depend on the existence of other organ emoji, on completing an anatomy set, or on the proposed Kidney or Stomach candidates.
+> **Yes.** No current emoji or reliable emoji sequence identifies the liver. Anatomical Heart, Lungs, and Brain identify different body parts; Cut of Meat and Beans do not reliably identify a liver. Medical-context emoji can convey testing, imaging, medication, or care, but none supplies the missing body-site term. Liver therefore adds a distinct literal semantic building block for ordinary messages that explicitly identify the organ. This claim does not depend on the existence of other organ emoji or on completing an anatomy set.
 
 ### Already representable
 
@@ -111,7 +111,7 @@ The final open-ended paragraph must not claim that Liver is the most common, mos
 
 ## Comparison-board policy
 
-The public Liver PDF should compare the candidate primarily with **currently encoded** items and clearly identified generic controls. It should not foreground the proposed Kidney or Stomach candidates; doing so makes an anatomy-slate argument visually even when the prose disclaims one.
+The public Liver PDF should compare the candidate only with **currently encoded** items and clearly identified generic controls. It must not include artwork, names, or evidence from separate submissions; doing so would create a visual anatomy-slate argument even when the prose disclaims one.
 
 Preferred public comparison set:
 
@@ -122,7 +122,7 @@ Preferred public comparison set:
 - Cut of Meat; and
 - Beans or a clearly labeled generic-organ control.
 
-If unencoded Kidney or Stomach art is retained for an internal QA board, the board must be excluded from the public submission or label every such image **unencoded proposal candidate**. It must not be evidence for Section C.
+Any internal cross-candidate QA material must remain outside the Liver submission package and must not be evidence for Section C.
 
 ## Other corrections bundled into the next Liver revision
 
@@ -144,8 +144,8 @@ The correction is complete only when all of the following are true:
 - Section C begins with **Yes** and explains the missing semantic term before discussing nearby emoji.
 - Section C does not use existing body-part emoji as precedent or request category completion.
 - The open-ended and faulty-comparison exclusions state an independent, selective basis for Liver.
-- No public-facing sentence describes Stomach, Kidney, or any other proposal candidate as an existing emoji.
-- The public comparison board does not visually imply that the three proposed organs are an official or inseparable set.
+- No public-facing Liver content refers to or depicts a separate submission candidate.
+- The public comparison board does not visually imply an official or inseparable anatomy set.
 - Every named encoded comparator is verified against the current official `emoji-test.txt` data.
 - Claims about usage or comparative standing are backed by reproducible evidence; unsupported superlatives are removed.
 - The Ngram prose and screenshot use the same settings and interpretation.
@@ -155,8 +155,8 @@ The correction is complete only when all of the following are true:
 
 ## Verification procedure
 
-1. Search the public Liver sources and extracted PDF text for `stomach`, `kidney`, `breaks new ground`, `open-ended`, and `faulty comparison`.
-2. Review every occurrence of Kidney or Stomach and remove it unless it is essential, explicitly labeled unencoded, and does not support the selection argument.
+1. Search the public Liver sources and extracted PDF text for `breaks new ground`, `open-ended`, and `faulty comparison`, plus the names of every other active submission candidate.
+2. Remove every reference to, depiction of, or comparison with a separate submission candidate.
 3. Verify encoded names and code points against the official current emoji test file.
 4. Regenerate the PDF using the repository's normal build path.
 5. Render every page to images and inspect at full-page and detail scale.
@@ -166,7 +166,7 @@ The correction is complete only when all of the following are true:
 
 ## Versioning and implementation boundary
 
-This specification is versioned independently as **1.0.0**. It does not change the repository package version (`0.39.0`) because it is a decision/specification document and does not alter the generated submission artifact or application behavior.
+This specification is versioned independently as **1.0.1**. It does not change the repository package version (`0.39.0`) because it is a decision/specification document and does not alter the generated submission artifact or application behavior.
 
 Do not rewrite a frozen historical snapshot. Implement this in the next available Liver submission revision after checking the final state of the coordinated `v1.10.0` work. If `v1.10.0` is already the immutable published snapshot, create the next semantically appropriate patch revision rather than editing it in place.
 
