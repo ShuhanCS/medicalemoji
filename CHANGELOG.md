@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.19.12] - 2026-07-26
+
+### Added
+- Added the final-submission specification for a winning 2026 Unicode emoji filing, including historical winning-profile targets, conditional Blood Pressure Cuff selection, hard evidence/artwork/vendor-support gates, and final delivery controls.
+
 ## [0.19.11] - 2026-05-15
 
 ### Added
