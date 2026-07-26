@@ -107,18 +107,11 @@ The v2.1.0 package may be marked `SUBMIT` only when all of the following are tru
 
 If any gate fails, retain the package as `REFERENCE_ONLY` and record the exact failure. Do not rationalize a failure as acceptable because a historical proposal used a different format.
 
-## 6. Human-recognition evidence required after rendering
+## 6. Optional supplemental visual feedback
 
-Automated checks are necessary but not sufficient. Use the rubric's blinded protocol before asserting that the artwork is recognizable:
+No participant study is required to prepare or file this package. The proposal may state only what the completed deterministic checks and native-size visual-review board establish; it must not claim independent recognition testing.
 
-- At least 30 independent adults, with no proposal title or description shown.
-- Three-second unprompted recognition trials for color/B&W at 18px and 72px.
-- Forced-choice alternatives: Kidney, Beans, stomach, ear, balloon, drop, other.
-- Record the selected answer and the cue reported by each correct respondent.
-
-The target is at least 80% correct unprompted recognition for color 18px, 70% for B&W 18px, 90% at 72px, and at least 75% forced-choice selection of Kidney in each 18px mode. No wrong alternative may exceed 15%.
-
-Do not invent, simulate, or imply participant results. Until the test is run, the proposal may state only that the assets passed deterministic format checks.
+Optional feedback may be collected to guide a future revision. If it is collected, record its scope and results accurately. Do not invent, simulate, or imply participant results.
 
 ## 7. Revision logic after a test
 
@@ -141,5 +134,5 @@ Use only the Medical Emoji project's original vector work. Conductscience Founda
 3. Create native 18px and 72px color/B&W final files with the exact names above.
 4. Run the generic analyzer and satisfy every automated gate.
 5. Update the v2.1.0 packet, manifests, review board, source vectors, and semver metadata.
-6. Record unrun human testing honestly; do not assign recognition points without data.
+6. Do not invent or imply recognition-study results; record only completed checks.
 7. Commit and push the new package with a project semver patch bump.

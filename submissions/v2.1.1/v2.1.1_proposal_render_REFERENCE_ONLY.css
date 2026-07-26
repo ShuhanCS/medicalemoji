@@ -1,0 +1,81 @@
+@page {
+  size: letter;
+  margin: 0.5in;
+}
+
+html {
+  color: #111111;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10.5pt;
+  line-height: 1.33;
+}
+
+body {
+  margin: 0;
+  max-width: none;
+}
+
+header#title-block-header,
+figcaption {
+  display: none;
+}
+
+h1, h2, h3 {
+  color: #111111;
+  line-height: 1.15;
+  break-after: avoid;
+}
+
+h1 {
+  margin: 0 0 12pt;
+  font-size: 21pt;
+}
+
+h2 {
+  margin: 15pt 0 7pt;
+  font-size: 15pt;
+}
+
+h3 {
+  margin: 11pt 0 5pt;
+  font-size: 12pt;
+}
+
+p {
+  margin: 0 0 7pt;
+}
+
+figure {
+  margin: 3pt 0 7pt;
+  break-inside: avoid;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+table {
+  width: 100%;
+  margin: 7pt 0 9pt;
+  border-collapse: collapse;
+  font-size: 9pt;
+  break-inside: avoid;
+}
+
+th, td {
+  padding: 4pt 5pt;
+  border: 0.5pt solid #9ca3af;
+  text-align: left;
+  vertical-align: top;
+}
+
+th {
+  background: #edf2f7;
+  font-weight: 700;
+}
+
+a {
+  color: #0d47a1;
+  overflow-wrap: anywhere;
+}

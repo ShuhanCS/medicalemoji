@@ -2,7 +2,8 @@
 """Deterministically inspect the four Unicode emoji proposal image samples.
 
 This tool records file-level evidence for any Unicode emoji proposal candidate.
-It does not substitute for the blinded human recognition test specified in
+It does not measure human recognition. A blinded human-recognition test is an
+optional supplemental evidence method specified in
 proposal-image-rubric.v1.md.
 """
 
@@ -147,7 +148,7 @@ def main() -> None:
         "dataset_version": "1.1.0",
         "asset_set": args.asset_set,
         "input_files": filenames,
-        "method": "Deterministic file inspection; visual recognition must be tested separately with blinded participants.",
+        "method": "Deterministic file inspection; it does not establish visual recognition. Any optional participant study must be recorded separately.",
         "unicode_format_gate": {
             "all_required_dimensions_match": all(
                 analysis[label]["matches_required_dimensions"]

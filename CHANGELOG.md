@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.22.1] - 2026-07-26
+
+### Added
+- Added the synchronized Kidney submission packet v2.1.1 with regenerated submission PDF and native-size visual-review board.
+
+### Changed
+- Refocused the submission-facing visual argument on the single-kidney silhouette, medial hilum, and urinary-system cue; removed participant-study language from the public proposal materials.
+- Clarified that the reusable evidence rubric's participant protocol is optional supplemental internal evidence, not a Unicode filing condition.
+
 ## [0.22.0] - 2026-07-24
 
 ### Added

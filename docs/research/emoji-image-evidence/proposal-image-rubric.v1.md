@@ -1,6 +1,6 @@
 # Unicode Image Rubric for Emoji Proposal Artwork
 
-Version: `1.1.0`
+Version: `1.1.1`
 Date: 2026-07-23
 
 ## Evidence labels
@@ -17,20 +17,20 @@ Unicode requires four example images at the top of the proposal: color and black
 
 Primary source: https://www.unicode.org/emoji/proposals.html
 
-Unicode does not publish a visual point score, a preferred illustration style, a required number of internal details, or a specific recognition percentage. Therefore the score below is an internal decision tool, and every threshold is explicitly labeled as operational.
+Unicode does not publish a visual point score, a preferred illustration style, a required number of internal details, or a specific recognition percentage. Therefore the score below is an internal decision tool, and every threshold is explicitly labeled as operational. Optional participant tests strengthen internal evidence but are not Unicode filing conditions.
 
 ## Internal scorecard (100 points after format gate)
 
 | Dimension | Points | Evidence label | Passing evidence |
 | --- | ---: | --- | --- |
 | Required four-sample format | Gate | Unicode requirement | Exact 18x18 and 72x72 pixel dimensions; color plus black-and-white; no grayscale treatment. As a conservative file check, black-and-white art should use only pure black and white for opaque pixels; edge antialiasing may use transparency, not opaque gray. |
-| Native-size concept recognition | 30 | Operational test of Unicode recognizability | A blinded, no-context test of at least 30 independent adult participants: at least 80% top-1 correct in color 18x18 and at least 70% in black-and-white 18x18. |
+| Native-size concept recognition | 30 | Optional operational test of Unicode recognizability | A blinded, no-context test of at least 30 independent adult participants: at least 80% top-1 correct in color 18x18 and at least 70% in black-and-white 18x18. |
 | Confusability against the nearest alternatives | 20 | Operational test of “distinctive enough” | In a forced-choice test containing the candidate and its five most plausible alternatives, the candidate is selected at least 75% of the time for each 18x18 mode; no single wrong alternative exceeds 15%. |
-| 72x72 visual hierarchy | 15 | Operational test | At 72x72, blinded participants identify the candidate at least 90%; visual annotation identifies one primary silhouette cue and no more than two secondary cues required for recognition. |
+| 72x72 visual hierarchy | 15 | Optional operational test | At 72x72, blinded participants identify the candidate at least 90%; visual annotation identifies one primary silhouette cue and no more than two secondary cues required for recognition. |
 | Color independence | 10 | Operational test | The black-and-white version retains the same primary silhouette and key differentiator as color. It cannot require a candidate-specific color association to be understood. |
 | Background and rendering resilience | 10 | Operational test | Samples remain visibly separable from both white and near-black backgrounds; no text, gradients, shadows, or thin detail is required to convey the concept. |
 | Vendor flexibility | 10 | Unicode paradigm principle + operational test | The proposal names only the invariant cues. A renderer can change palette, line style, and minor anatomy while preserving recognition. |
-| Evidence quality | 5 | Operational test | File checks, source vector, and a recorded blind-test protocol/results are included; assertions are not substituted for test results. |
+| Evidence quality | 5 | Operational test | File checks and source vector are included; where a recognition study is run, its protocol/results are recorded and assertions are not substituted for test results. |
 
 ## Interpretation
 
@@ -41,7 +41,7 @@ Unicode does not publish a visual point score, a preferred illustration style, a
 | 70–79 | Revise or test before relying on the image argument. |
 | Below 70 | The image evidence is not yet persuasive under Unicode's 18x18 recognizability standard. |
 
-An unrun recognition or confusability test receives **0** for that dimension. This is intentionally conservative: “looks recognizable to us” is not evidence that most people recognize the intended paradigm without foreknowledge.
+An unrun recognition or confusability test receives **0** for that optional internal-score dimension. This is intentionally conservative: “looks recognizable to us” is not evidence that most people recognize the intended paradigm without foreknowledge. An unrun optional test does not make an otherwise compliant Unicode packet ineligible or create a filing hold; it simply cannot be cited as evidence.
 
 ## What the historical corpus supports
 
