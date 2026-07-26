@@ -5,6 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.43.2] - 2026-07-26
+
+### Changed
+- Strengthened the Liver proposal's Open-ended answer with concept-specific usage and visual boundaries.
+- Replaced two internal terms with plain reviewer-facing language while retaining the Microsoft affiliations.
+- Updated the proposal rubric to `3.0.1` so its Liver authorship rule matches the confirmed three-author byline.
+- Created and rebuilt the immutable `v1.12.0-liver.4` submission package.
+- Advanced the application/workspace version from `0.43.1` to `0.43.2`.
+
 ## [0.43.1] - 2026-07-26
 
 ### Changed
