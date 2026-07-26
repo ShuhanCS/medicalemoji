@@ -1,14 +1,14 @@
 # Kidney Proposal Agent Specification
 
-Version: 1.0.0
+Version: 1.1.0
 
 Status: Ready to assign
 
 ## Mission
 
-Produce a complete, reviewable Kidney proposal prerelease package that corrects the known v1.8.0 weaknesses
+Produce a complete, reviewable Kidney proposal prerelease package that corrects the known v1.9.0 weaknesses
 without altering any canonical or shared files. The result must be suitable for coordinator promotion to the
-first canonical post-v1.8.0 release, expected to be `v1.9.0`.
+next canonical release, expected to be `v1.10.0`.
 
 Do not publish or submit the proposal.
 
@@ -17,12 +17,12 @@ Do not publish or submit the proposal.
 - Receive the exact `BASE_COMMIT` from the coordinator.
 - Create or use an isolated worktree on branch `agent/kidney-2026` from that exact commit.
 - Confirm `git status --short --branch` is clean before editing.
-- Copy the complete `submissions/v1.8.0/` directory byte for byte to
-  `submissions/v1.9.0-kidney.1/`.
-- Set the copied package `VERSION` to `1.9.0-kidney.1` and update only its package `manifest.md` and
+- Copy the complete `submissions/v1.9.0/` directory byte for byte to
+  `submissions/v1.10.0-kidney.1/`.
+- Set the copied package `VERSION` to `1.10.0-kidney.1` and update only its package `manifest.md` and
   `CHANGELOG.md` plus files inside its `kidney/` folder.
-- Never edit `v1.8.0`. Every later Kidney update creates a complete new immutable package named
-  `v1.9.0-kidney.2`, `.3`, and so on.
+- Never edit `v1.9.0`. Every later Kidney update creates a complete new immutable package named
+  `v1.10.0-kidney.2`, `.3`, and so on.
 - Do not edit root release metadata or another proposal lane. Commit only this lane's files.
 
 ## Required reading before editing
@@ -32,11 +32,11 @@ Read all of the following completely:
 - `docs/proposals/2026-submission-slate-spec.md`
 - `docs/proposals/emoji-proposal-approval-rubric.md`
 - `docs/proposals/2026-organ-submission-audit.md`, especially the Kidney audit
-- `submissions/v1.8.0/manifest.md`
-- `submissions/v1.8.0/BEST-IN-CLASS-RUBRIC.md`
-- `submissions/v1.8.0/IDEAL-EMOJI-PROPOSAL-TEMPLATE.md`
-- `submissions/v1.8.0/kidney/kidney_emoji_proposal_SUBMIT.md`
-- The entire rendered v1.8.0 Kidney PDF
+- `submissions/v1.9.0/manifest.md`
+- `submissions/v1.9.0/BEST-IN-CLASS-RUBRIC.md`
+- `submissions/v1.9.0/IDEAL-EMOJI-PROPOSAL-TEMPLATE.md`
+- `submissions/v1.9.0/kidney/kidney_emoji_proposal_SUBMIT.md`
+- The entire rendered v1.9.0 Kidney PDF
 
 Verify the current official requirements against:
 
@@ -50,7 +50,7 @@ for browser research and evidence capture; use raw Playwright only if gstack can
 Preserve this exact author order, separated by semicolons:
 
 Shuhan He; Edgar Lerma; Caitlyn Vlasschaert; Jade M. Teakell; Harish Seethapathy; Jarone Lee; Danielle Miller;
-Timur Erk.
+Timur Erk; David Rhew; Heena Purohit.
 
 Shuhan He remains the main point of contact. Do not add credentials or affiliations unless they are verified
 and improve the filing. Archive or clearly identify the eligibility confirmation and author consent status;
@@ -83,7 +83,7 @@ do not invent missing records. Confirm that the artwork rights statement and CC0
 - Confirm all four PNGs are exactly 18x18 or 72x72 and black-and-white assets use no gray or color pixels.
 - Confirm every Markdown image/link resolves locally and the proposal contains no placeholder, stale draft
   note, contradictory status, broken image, or unverified factual assertion.
-- Compare copied files outside `kidney/` and package controls with v1.8.0 by hash; they must be byte-identical.
+- Compare copied files outside `kidney/` and package controls with v1.9.0 by hash; they must be byte-identical.
 - Run `git diff --check`.
 - Inspect PDF page count, encryption, fonts, text extraction, hyperlinks, and file size.
 - Render every PDF page to images and inspect at normal zoom for clipping, unreadable evidence, blank pages,

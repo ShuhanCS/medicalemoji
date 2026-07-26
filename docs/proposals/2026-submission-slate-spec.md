@@ -1,8 +1,8 @@
 # 2026 Emoji Submission Slate and Serial Agent Execution Specification
 
-Version: 1.4.0
+Version: 1.5.0
 
-Date: 2026-07-21
+Date: 2026-07-26
 
 Deadline: End of day 2026-07-31
 
@@ -35,7 +35,7 @@ and recognition gates as the other proposals. No other Medical Emoji concept is 
 
 | Order | Proposal | Baseline packet | Prior internal baseline | Why this order |
 | ---: | --- | --- | ---: | --- |
-| 1 | Kidney | [v1.8.0 Kidney](../../submissions/v1.8.0/kidney/) | 79/100 | Active proposal. It has the strongest current frequency package; remaining risk is concentrated in art recognition, citations, and final filing controls. |
+| 1 | Kidney | [v1.9.0 Kidney](../../submissions/v1.9.0/kidney/) | 77/100 provisional | David Rhew and Heena Purohit are now named; consent, art recognition, citations, PDF flow, and final filing controls remain open. |
 | 2 | White Blood Cell | [v1.8.0 White Blood Cell](../../submissions/v1.8.0/white-blood-cell/) | Not yet rescored | Determine whether its cell paradigm is recognizable and independently selective before investing in the full filing packet. |
 | 3 | Stomach | [v1.8.0 Stomach](../../submissions/v1.8.0/stomach/) | 77/100 | Strong semantic and silhouette case; four frequency captures must be refreshed and enlarged. |
 | 4 | Liver | [v1.8.0 Liver](../../submissions/v1.8.0/liver/) | 64/100 | Requires the most work: current worldwide evidence, stronger small-size art, and better support for usage claims. |
@@ -55,7 +55,7 @@ Submitter and main point of contact: Shuhan He only.
 List all authors in this order, separated by semicolons:
 
 Shuhan He; Edgar Lerma; Caitlyn Vlasschaert; Jade M. Teakell; Harish Seethapathy; Jarone Lee; Danielle Miller;
-Timur Erk.
+Timur Erk; David Rhew; Heena Purohit.
 
 Main point of contact: Shuhan He.
 
@@ -80,11 +80,13 @@ affiliations are optional; names must match the proposal PDF and submission form
 
 - The complete consolidated starting snapshot is [`submissions/v1.8.0/`](../../submissions/v1.8.0/). Treat it
   as immutable after commit.
+- The current canonical package is [`submissions/v1.9.0/`](../../submissions/v1.9.0/). It adds David Rhew and
+  Heena Purohit to Kidney while preserving v1.8.0 as the frozen baseline.
 - Its White Blood Cell files were copied byte for byte from `submissions/v1.3.0/`; its Kidney, Stomach, and
   Liver files were copied byte for byte from `submissions/v1.7.0/`.
 - Every update creates a new complete semver folder. Copy every untouched file byte for byte into the new
   folder and change only the reviewed proposal plus package control files.
-- The first substantive proposal correction will create `submissions/v1.9.0/` from v1.8.0.
+- The next substantive proposal correction will create `submissions/v1.10.0/` from v1.9.0.
 - Parallel agents use the unique prerelease lanes assigned in
   [`agent-specs/README.md`](agent-specs/README.md). They do not claim canonical version numbers.
 - Use `MINOR` for proposal prose, citations, evidence, artwork, generated PDF, rubric/template changes, or
@@ -242,8 +244,9 @@ Do not promote the next concept into a canonical package until the preceding can
 
 ### Kidney
 
-- This is the active agent. Expected first release: `v1.9.0`, provided no intervening package is committed.
-- Preserve the complete eight-person author list.
+- This is the active proposal. The current authorship correction is `v1.9.0`; the next substantive correction
+  is expected to be `v1.10.0`, provided no intervening package is committed.
+- Preserve the complete ten-person author list and archive explicit consent for the exact filing copy.
 - Test recognition against Beans, Anatomical Heart, Lungs, Droplet, and food-like kidney shapes.
 - Strengthen the explanation of the semantic gap without relying on the existence of other organ emoji.
 - Verify citations for ordinary use, metaphorical meanings, donation/transplant contexts, and medical claims.
