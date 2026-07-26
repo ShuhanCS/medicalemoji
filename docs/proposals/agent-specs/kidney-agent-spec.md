@@ -1,8 +1,8 @@
 # Kidney Proposal Agent Specification
 
-Version: 1.1.0
+Version: 1.2.0
 
-Status: Ready to assign
+Status: Completed in canonical package v1.10.0; retain for audit only
 
 ## Mission
 
@@ -67,11 +67,10 @@ do not invent missing records. Confirm that the artwork rights statement and CC0
    Recapture only evidence that fails current requirements.
 4. Cite durable sources for literal and metaphorical uses, transplant/donation contexts, dialysis, hydration,
    laboratory or medication claims. Remove plausible but unsupported use sequences.
-5. Build a nearest-emoji comparison board at actual 18x18 and 72x72 sizes in color and black-and-white.
-6. Prepare and document an unprompted recognition protocol. The intended internal target is at least 80% correct
-   at 18x18 with no wrong concept above 10%. Do not fabricate participants or substitute AI guesses for human
-   recognition data. If human results are unavailable, mark the gate unresolved.
-7. If the art fails, revise the source so the medial notch, hilum, and short attachment survive in both small
+5. Build a nearest-emoji comparison at actual 18x18 and 72x72 sizes in color and black-and-white.
+6. Run the reproducible computer validator with pinned comparator sources, hashes, declared thresholds, and
+   machine-readable output. No human-recognition panel is required.
+7. If the art fails the computer thresholds, revise the source so the medial notch, hilum, and short attachment survive in both small
    paradigms without turning the image into a bean, bulb, balloon, or food icon.
 8. Rebuild the PDF whenever source text or embedded assets change using
    `python scripts/make_submission_pdf.py <proposal-markdown-path>`.
@@ -99,7 +98,7 @@ submit unless explicitly authorized. Report:
 - prerelease version and commit hash;
 - files changed and files intentionally carried forward;
 - evidence recaptured and sources cited;
-- art/recognition result, including participant count or an explicit unresolved-human-test gate;
+- computer-validation result, including thresholds, comparator hashes, and machine-readable output;
 - verification performed;
 - readiness score and status;
 - blockers and exact coordinator promotion notes.

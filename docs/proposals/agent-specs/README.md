@@ -1,6 +1,6 @@
 # 2026 Proposal Agent Coordination Index
 
-Version: 1.1.0
+Version: 1.2.0
 
 Date: 2026-07-26
 
@@ -11,7 +11,7 @@ works from the same coordinator-supplied `BASE_COMMIT` in an isolated Git worktr
 
 | Concept | Standalone specification | Branch | First prerelease lane |
 | --- | --- | --- | --- |
-| Kidney | [`kidney-agent-spec.md`](kidney-agent-spec.md) | `agent/kidney-2026` | `v1.10.0-kidney.1` |
+| Kidney | [`kidney-agent-spec.md`](kidney-agent-spec.md) | Completed | Canonical `v1.10.0` |
 | White Blood Cell | [`white-blood-cell-agent-spec.md`](white-blood-cell-agent-spec.md) | `agent/white-blood-cell-2026` | `v1.9.0-white-blood-cell.1` |
 | Stomach | [`stomach-agent-spec.md`](stomach-agent-spec.md) | `agent/stomach-2026` | `v1.9.0-stomach.1` |
 | Liver | [`liver-agent-spec.md`](liver-agent-spec.md) | `agent/liver-2026` | `v1.9.0-liver.1` |
@@ -25,9 +25,8 @@ for example `v1.10.0-kidney.2`. An agent never edits an earlier lane snapshot.
 The coordinator gives every agent the same `BASE_COMMIT`, which must contain canonical package `v1.8.0` and
 these specifications. Agents must not start from `master`, an older branch tip, or another agent's branch.
 
-The Kidney agent copies the current `submissions/v1.9.0/` folder to its assigned prerelease folder. Agents for
-the other four already-assigned lanes may continue from the coordinator-supplied v1.8.0 base and hand back
-concept-only deltas. Pill Pack also imports its complete historical concept folder from
+The Kidney lane is complete in canonical `v1.10.0`. Agents for the other four already-assigned lanes may
+continue from the coordinator-supplied v1.8.0 base and hand back concept-only deltas. Pill Pack also imports its complete historical concept folder from
 `submissions/v1.3.0/pill-pack/`. Agents may change only their unique prerelease folder. They must not change
 README files, the controlling slate specification, root `CHANGELOG.md`, `package.json`, `package-lock.json`,
 another lane, or any canonical package.
@@ -40,7 +39,7 @@ coordinator control so parallel branches do not collide.
 Do not merge agent branches wholesale. After reviewing a lane, the coordinator applies only its accepted
 concept delta to a fresh copy of the latest canonical package and creates the next cumulative canonical minor:
 
-1. Kidney authorship metadata is canonical in `v1.9.0`; the accepted Kidney review delta becomes `v1.10.0`.
+1. Kidney authorship and the accepted review delta are canonical in `v1.10.0`.
 2. White Blood Cell is applied on top of `v1.10.0` and becomes `v1.11.0`.
 3. Stomach is applied on top of `v1.11.0` and becomes `v1.12.0`.
 4. Liver is applied on top of `v1.12.0` and becomes `v1.13.0`.

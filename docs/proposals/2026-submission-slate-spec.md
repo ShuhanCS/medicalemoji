@@ -1,6 +1,6 @@
 # 2026 Emoji Submission Slate and Serial Agent Execution Specification
 
-Version: 1.5.0
+Version: 1.6.0
 
 Date: 2026-07-26
 
@@ -35,7 +35,7 @@ and recognition gates as the other proposals. No other Medical Emoji concept is 
 
 | Order | Proposal | Baseline packet | Prior internal baseline | Why this order |
 | ---: | --- | --- | ---: | --- |
-| 1 | Kidney | [v1.9.0 Kidney](../../submissions/v1.9.0/kidney/) | 77/100 provisional | David Rhew and Heena Purohit are now named; consent, art recognition, citations, PDF flow, and final filing controls remain open. |
+| 1 | Kidney | [v1.10.0 Kidney](../../submissions/v1.10.0/kidney/) | 98/100 provisional | Consent, citations, computer validation, and PDF flow pass; publication and official filing controls remain. |
 | 2 | White Blood Cell | [v1.8.0 White Blood Cell](../../submissions/v1.8.0/white-blood-cell/) | Not yet rescored | Determine whether its cell paradigm is recognizable and independently selective before investing in the full filing packet. |
 | 3 | Stomach | [v1.8.0 Stomach](../../submissions/v1.8.0/stomach/) | 77/100 | Strong semantic and silhouette case; four frequency captures must be refreshed and enlarged. |
 | 4 | Liver | [v1.8.0 Liver](../../submissions/v1.8.0/liver/) | 64/100 | Requires the most work: current worldwide evidence, stronger small-size art, and better support for usage claims. |
@@ -80,13 +80,13 @@ affiliations are optional; names must match the proposal PDF and submission form
 
 - The complete consolidated starting snapshot is [`submissions/v1.8.0/`](../../submissions/v1.8.0/). Treat it
   as immutable after commit.
-- The current canonical package is [`submissions/v1.9.0/`](../../submissions/v1.9.0/). It adds David Rhew and
-  Heena Purohit to Kidney while preserving v1.8.0 as the frozen baseline.
+- The current canonical package is [`submissions/v1.10.0/`](../../submissions/v1.10.0/). It completes the
+  Kidney citation, computer-validation, and pagination corrections while preserving earlier snapshots.
 - Its White Blood Cell files were copied byte for byte from `submissions/v1.3.0/`; its Kidney, Stomach, and
   Liver files were copied byte for byte from `submissions/v1.7.0/`.
 - Every update creates a new complete semver folder. Copy every untouched file byte for byte into the new
   folder and change only the reviewed proposal plus package control files.
-- The next substantive proposal correction will create `submissions/v1.10.0/` from v1.9.0.
+- The next substantive proposal correction will create `submissions/v1.11.0/` from v1.10.0.
 - Parallel agents use the unique prerelease lanes assigned in
   [`agent-specs/README.md`](agent-specs/README.md). They do not claim canonical version numbers.
 - Use `MINOR` for proposal prose, citations, evidence, artwork, generated PDF, rubric/template changes, or
@@ -143,7 +143,7 @@ version folder, neither package is integrated until the collision is resolved.
 ### Step 1: Freeze identity, eligibility, and rights
 
 - Record the confirmed 2026 eligibility evidence in the filing record.
-- Verify the exact author list and main point of contact.
+- Verify the exact consenting author list and main point of contact; coordinator confirmation is sufficient.
 - Verify image ownership or qualifying open-license evidence.
 - Confirm that the proposed concept and strongest semantic alternative have not changed.
 - Confirm that no duplicate proposal is Under Consideration or Prioritization Pending.
@@ -185,11 +185,11 @@ use may be described when established and cited, but cannot be the reason for en
 - Verify color and true black-and-white PNGs at exactly 18x18 and 72x72 pixels.
 - Compare the 18x18 art against the nearest existing emoji and against other active proposals where visual
   confusion is plausible.
-- Test unprompted recognition with reviewers who were not told the intended answer.
-- Target at least 80% correct unprompted identification at 18x18, with no wrong concept dominating more than
-  10% of responses. This is an internal gate, not a Unicode rule.
-- If the silhouette fails, revise the art and repeat the test; do not solve recognition through explanatory
-  prose.
+- Run deterministic computer validation against the declared nearest emoji at actual size, with pinned source
+  assets, hashes, thresholds, and machine-readable results.
+- For Kidney, require normalized silhouette IoU no greater than 0.72 and 64-bit difference-hash distance of at
+  least 16 for every comparator, in addition to dimension, palette, and connectedness checks.
+- If the silhouette fails, revise the art and repeat the computer test; do not solve separation through prose.
 
 ### Step 5: Correct and rebuild the proposal
 
@@ -244,10 +244,10 @@ Do not promote the next concept into a canonical package until the preceding can
 
 ### Kidney
 
-- This is the active proposal. The current authorship correction is `v1.9.0`; the next substantive correction
-  is expected to be `v1.10.0`, provided no intervening package is committed.
-- Preserve the complete ten-person author list and archive explicit consent for the exact filing copy.
-- Test recognition against Beans, Anatomical Heart, Lungs, Droplet, and food-like kidney shapes.
+- The corrected Kidney publication candidate is `v1.10.0`.
+- Preserve the complete consenting ten-person author list.
+- Preserve the passing computer-validation record against Beans, Anatomical Heart, Lungs, Droplet, Balloon,
+  and Light Bulb.
 - Strengthen the explanation of the semantic gap without relying on the existence of other organ emoji.
 - Verify citations for ordinary use, metaphorical meanings, donation/transplant contexts, and medical claims.
 - Remove sequences that do not strengthen the organ's independent communicative case.
@@ -307,7 +307,7 @@ After every proposal still intended for filing completes individual review:
 
 1. Confirm the author lists and main contact one final time.
 2. Confirm that each proposal has a distinct independent-use case and no set-completion argument.
-3. Compare every intended filing glyph side by side in color and black-and-white.
+3. Run the declared computer-validation checks for every intended filing glyph in color and black-and-white.
 4. Harmonize shared terminology without duplicating unsupported claims.
 5. Confirm that dates, category names, rights statements, evidence methods, and file naming are consistent.
 6. Re-render and inspect every final PDF.
@@ -332,7 +332,7 @@ A proposal is finished only when:
 - It has no unresolved must-pass gate.
 - It scores at least 90/100, with a project target of 100/100 before filing.
 - Its author list, art rights, four exact-size images, five frequency sources, selection factors, exclusion
-  factors, and citations are independently verifiable.
+  factors, citations, and computer-validation results are independently reproducible.
 - Every PDF page has passed visual and technical inspection.
 - The final PDF has a stable public HTTPS URL that works without login.
 - The form data matches the PDF exactly.

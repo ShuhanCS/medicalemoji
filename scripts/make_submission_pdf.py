@@ -30,6 +30,7 @@ body { font-family: Helvetica, Arial, sans-serif; font-size: 10.5pt; line-height
 h1 { font-size: 20pt; margin: 0 0 16pt; }
 h2 { font-size: 14pt; margin: 22pt 0 8pt; break-after: avoid; }
 h3 { font-size: 11.5pt; margin: 16pt 0 6pt; break-after: avoid; }
+h4 { font-size: 10.5pt; margin: 14pt 0 6pt; break-after: avoid; }
 p { margin: 0 0 8pt; break-inside: avoid; orphans: 3; widows: 3; }
 a { color: #1a4fd6; text-decoration: none; word-break: break-all; }
 code { font-family: Consolas, monospace; font-size: 9.5pt; background: #f3f3f3; padding: 0 2pt; border-radius: 2pt; }
@@ -38,6 +39,7 @@ p:has(+ p > img) { break-after: avoid; }
 table { border-collapse: collapse; width: 100%; margin: 8pt 0 12pt; break-inside: avoid; font-size: 9.5pt; }
 th, td { border: 0.5pt solid #999; padding: 4pt 6pt; text-align: left; vertical-align: top; }
 th { background: #f0f0f0; }
+.page-break { break-before: page; }
 """
 
 
