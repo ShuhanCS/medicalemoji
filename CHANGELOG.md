@@ -5,6 +5,22 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.41.0] - 2026-07-26
+
+### Added
+- Added the approved White Blood Cell final-submission improvement specification covering artwork,
+  recognition, evidence, proposal writing, validation, review, publication, and filing.
+- Added an affirmative execution sequence for producing and submitting canonical proposal package `v1.11.0`
+  before the 2026-07-31 intake deadline.
+
+### Changed
+- Recorded confirmed eligibility, permission, and image rights, and defined the promotion path from the
+  immutable White Blood Cell audit lane into canonical proposal package `v1.11.0`.
+
+### Verification
+- Advanced the project from `0.40.1` to `0.41.0`; proposal release `v1.10.0` remains unchanged because this
+  release specifies improvements without changing submission content.
+
 ## [0.40.1] - 2026-07-26
 
 ### Changed
