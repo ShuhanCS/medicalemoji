@@ -35,7 +35,7 @@ and recognition gates as the other proposals. No other Medical Emoji concept is 
 
 | Order | Proposal | Baseline packet | Prior internal baseline | Why this order |
 | ---: | --- | --- | ---: | --- |
-| 1 | Kidney | [v1.10.0 Kidney](../../submissions/v1.10.0/kidney/) | 98/100 provisional | Consent, citations, computer validation, and PDF flow pass; publication and official filing controls remain. |
+| 1 | Kidney | [v1.12.0-kidney.1 review lane](../../submissions/v1.12.0-kidney.1/kidney/) | 93/100 provisional | Paired artwork and PDF are rebuilt; corrected geometric validation has one open Lungs comparison and semantic computer validation remains open. |
 | 2 | White Blood Cell | [v1.8.0 White Blood Cell](../../submissions/v1.8.0/white-blood-cell/) | Not yet rescored | Determine whether its cell paradigm is recognizable and independently selective before investing in the full filing packet. |
 | 3 | Stomach | [v1.8.0 Stomach](../../submissions/v1.8.0/stomach/) | 77/100 | Strong semantic and silhouette case; four frequency captures must be refreshed and enlarged. |
 | 4 | Liver | [v1.8.0 Liver](../../submissions/v1.8.0/liver/) | 64/100 | Requires the most work: current worldwide evidence, stronger small-size art, and better support for usage claims. |
@@ -80,13 +80,17 @@ affiliations are optional; names must match the proposal PDF and submission form
 
 - The complete consolidated starting snapshot is [`submissions/v1.8.0/`](../../submissions/v1.8.0/). Treat it
   as immutable after commit.
-- The current canonical package is [`submissions/v1.10.0/`](../../submissions/v1.10.0/). It completes the
-  Kidney citation, computer-validation, and pagination corrections while preserving earlier snapshots.
+- The current canonical package is [`submissions/v1.11.0/`](../../submissions/v1.11.0/). It carries the
+  corrected Kidney packet forward and adds the corrected Stomach artwork snapshot.
+- The current Kidney artwork-review lane is
+  [`submissions/v1.12.0-kidney.1/`](../../submissions/v1.12.0-kidney.1/). It does not claim the canonical
+  `v1.12.0` slot reserved by the Stomach execution specification.
 - Its White Blood Cell files were copied byte for byte from `submissions/v1.3.0/`; its Kidney, Stomach, and
   Liver files were copied byte for byte from `submissions/v1.7.0/`.
 - Every update creates a new complete semver folder. Copy every untouched file byte for byte into the new
   folder and change only the reviewed proposal plus package control files.
-- The next substantive proposal correction will create `submissions/v1.11.0/` from v1.10.0.
+- Canonical `v1.12.0` is reserved by the current Stomach execution specification; parallel concept work uses
+  prerelease lanes and is promoted into the next available canonical snapshot.
 - Parallel agents use the unique prerelease lanes assigned in
   [`agent-specs/README.md`](agent-specs/README.md). They do not claim canonical version numbers.
 - Use `MINOR` for proposal prose, citations, evidence, artwork, generated PDF, rubric/template changes, or
@@ -244,10 +248,13 @@ Do not promote the next concept into a canonical package until the preceding can
 
 ### Kidney
 
-- The corrected Kidney publication candidate is `v1.10.0`.
+- The canonical Kidney publication candidate is `v1.10.0`; paired-artwork review is isolated in
+  `v1.12.0-kidney.1` until its computer gates pass.
 - Preserve the complete consenting ten-person author list.
-- Preserve the passing computer-validation record against Beans, Anatomical Heart, Lungs, Droplet, Balloon,
-  and Light Bulb.
+- Preserve the corrected border-connected-background segmentation and do not reuse the invalid alpha-only
+  measurements from v1.10.0.
+- Resolve or formally supersede the one open Lungs IoU result and add a reproducible semantic computer test
+  against kidney, beans, lungs, uterus, heart, and generic-organ labels.
 - Strengthen the explanation of the semantic gap without relying on the existence of other organ emoji.
 - Verify citations for ordinary use, metaphorical meanings, donation/transplant contexts, and medical claims.
 - Remove sequences that do not strengthen the organ's independent communicative case.

@@ -1,6 +1,6 @@
 # Kidney Emoji — Design Specification
 
-Status: draft for review · 2026-06-05
+Status: superseded by `../kidney-emoji-2026-07/design-spec.md` · 2026-07-26
 Author: Medical Emoji design pass
 Supersedes the artwork in `submissions/v0.13.4/images/` (not the proposal text yet — see §10)
 

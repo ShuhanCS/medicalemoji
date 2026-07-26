@@ -13,6 +13,7 @@ proposals must be corrected one at a time before filing:
 - Standalone parallel agent specs: [`docs/proposals/agent-specs/`](docs/proposals/agent-specs/)
 - Organ-by-organ audit: [`docs/proposals/2026-organ-submission-audit.md`](docs/proposals/2026-organ-submission-audit.md)
 - Current complete versioned package: [`submissions/v1.11.0/`](submissions/v1.11.0/)
+- Current Kidney artwork-review prerelease: [`submissions/v1.12.0-kidney.1/`](submissions/v1.12.0-kidney.1/)
 - Historical organ baseline: [`submissions/v1.7.0/`](submissions/v1.7.0/)
 - Historical White Blood Cell baseline: [`submissions/v1.3.0/white-blood-cell/`](submissions/v1.3.0/white-blood-cell/)
 
@@ -23,6 +24,10 @@ Stomach `v1.11.0` replaces the compact prior glyph with a project-authored long-
 distinct-outlet vector paradigm. Its proposal PDF is rebuilt and visually verified; the proposal remains
 revision-required until four historical 2020 evidence captures and the recognition/comparator gates are
 completed.
+
+Kidney `v1.12.0-kidney.1` restores a simplified paired-organ paradigm based on the approved GPT Image 2
+direction. Exact-size deterministic assets and updated proposal language are present for review; the
+prerelease remains revision-required while its semantic computer test and one Lungs silhouette gate are open.
 
 Authorship is fixed for the filing slate: Kidney uses the complete consenting ten-person author list in v1.10.0, adding
 David Rhew and Heena Purohit to the eight previously listed submitters; White Blood Cell, Stomach, and Liver

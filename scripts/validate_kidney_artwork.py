@@ -64,20 +64,59 @@ def download_comparator(codepoint: str, expected_sha256: str) -> tuple[Image.Ima
     return Image.open(io.BytesIO(data)).convert("RGBA"), url
 
 
-def alpha_mask(image: Image.Image, threshold: int = 32) -> list[list[bool]]:
+def foreground_mask(image: Image.Image, threshold: int = 32) -> list[list[bool]]:
+    """Separate artwork from transparent or border-connected near-white canvas pixels."""
     rgba = image.convert("RGBA")
+    width, height = rgba.size
+    background_candidate = [[False for _ in range(width)] for _ in range(height)]
+    for y in range(height):
+        for x in range(width):
+            red, green, blue, alpha = rgba.getpixel((x, y))
+            background_candidate[y][x] = alpha <= threshold or min(red, green, blue) >= 248
+
+    background: set[tuple[int, int]] = set()
+    queue: deque[tuple[int, int]] = deque()
+    for x in range(width):
+        for y in (0, height - 1):
+            if background_candidate[y][x] and (x, y) not in background:
+                background.add((x, y))
+                queue.append((x, y))
+    for y in range(height):
+        for x in (0, width - 1):
+            if background_candidate[y][x] and (x, y) not in background:
+                background.add((x, y))
+                queue.append((x, y))
+
+    while queue:
+        current_x, current_y = queue.popleft()
+        for delta_y in (-1, 0, 1):
+            for delta_x in (-1, 0, 1):
+                if delta_x == 0 and delta_y == 0:
+                    continue
+                next_x = current_x + delta_x
+                next_y = current_y + delta_y
+                point = (next_x, next_y)
+                if (
+                    0 <= next_x < width
+                    and 0 <= next_y < height
+                    and background_candidate[next_y][next_x]
+                    and point not in background
+                ):
+                    background.add(point)
+                    queue.append(point)
+
     return [
-        [rgba.getpixel((x, y))[3] > threshold for x in range(rgba.width)]
-        for y in range(rgba.height)
+        [(x, y) not in background for x in range(width)]
+        for y in range(height)
     ]
 
 
 def normalize_mask(image: Image.Image) -> list[list[bool]]:
-    alpha = image.convert("RGBA").getchannel("A")
-    bbox = alpha.point(lambda value: 255 if value > 32 else 0).getbbox()
+    source = mask_image(foreground_mask(image))
+    bbox = source.getbbox()
     if bbox is None:
         raise ValueError("Image has no visible foreground")
-    crop = alpha.crop(bbox)
+    crop = source.crop(bbox)
     crop.thumbnail((16, 16), Image.Resampling.LANCZOS)
     canvas = Image.new("L", (18, 18), 0)
     canvas.paste(crop, ((18 - crop.width) // 2, (18 - crop.height) // 2))
@@ -158,7 +197,7 @@ def validate_asset(path: Path, expected: tuple[int, int, bool]) -> dict[str, Any
     image = Image.open(path).convert("RGBA")
     visible_pixels = [pixel for pixel in image.get_flattened_data() if pixel[3] > 0]
     visible_rgb = sorted({pixel[:3] for pixel in visible_pixels})
-    mask = alpha_mask(image)
+    mask = foreground_mask(image)
     components = connected_components(mask)
     visible_count = sum(components)
     largest_share = components[0] / visible_count if visible_count else 0.0
@@ -328,9 +367,9 @@ Reproduce with:
 
 ```powershell
 python scripts/validate_kidney_artwork.py `
-  --proposal-dir submissions/v1.10.0/kidney `
-  --json-output submissions/v1.10.0/kidney/validation/computer-validation.json `
-  --markdown-output submissions/v1.10.0/kidney/validation/computer-validation.md
+  --proposal-dir {report['proposal_dir']} `
+  --json-output {report['proposal_dir']}/validation/computer-validation.json `
+  --markdown-output {report['proposal_dir']}/validation/computer-validation.md
 ```
 """
 
