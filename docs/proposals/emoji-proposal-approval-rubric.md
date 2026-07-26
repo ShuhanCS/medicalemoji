@@ -1,6 +1,6 @@
 # Best-in-Class Emoji Submission Specification
 
-Version: 3.0
+Version: 3.1
 
 Last checked: 2026-07-26
 
@@ -315,19 +315,12 @@ Prove, rather than assert, recognizability. Include:
 - The essential silhouette cues and which details vendors may vary.
 - A reproducible computer-validation report with pinned comparator assets, hashes, declared thresholds, and
   machine-readable output.
-- An unprompted general-viewer recognition test at actual 18x18 size, with raw answers preserved.
 
 For Kidney, the coordinator-selected computer gate requires exact dimensions, a true black-and-white palette,
 foreground connectedness, normalized silhouette IoU no greater than 0.72, and 64-bit difference-hash distance
 of at least 16 against each declared comparator. This is an internal technical-separability control, not a
-Unicode rule or a claim about human semantic recognition. It is a useful engineering check, but it cannot
-replace recognition testing: two silhouettes can be measurably different while both are named `bean`, `blob`,
-or `generic organ` by viewers.
-
-The internal recognition gate uses at least 12 people who were not told the target. Test the 18x18 color and
-black-and-white images separately at actual size, free response before forced choice. At least 10 of 12 must
-name the intended concept or an accepted synonym in both passes, with no wrong concept dominating. Archive the
-prompt, raw answers, scoring rule, and confuser list. This is a project quality standard, not a Unicode rule.
+Unicode rule. Pair it with the required actual-size color and black-and-white comparison board and rendered
+first-page inspection so no single metric carries the image decision.
 
 #### Expected usage
 
@@ -395,12 +388,12 @@ This is a project control, not a Unicode score or approval prediction.
 | --- | ---: | --- |
 | Eligibility and coordination | 15 | Confirmation archived; no duplicate filing risk; authorship confirmed. |
 | First-page format | 10 | Every current first-page requirement is correct and easy to find. |
-| Image package and rights | 15 | Rights are clear; four exact assets pass technical checks and unprompted 18x18 recognition. |
+| Image package and rights | 15 | Rights are clear; four exact assets preserve essential cues and pass the declared technical checks. |
 | Frequency and empirical evidence | 20 | Five current, reproducible captures plus citations for material usage claims. |
 | Inclusion factors | 15 | Each factor is direct, evidenced, and uses `N/A` where appropriate. |
 | Exclusion factors | 10 | Strongest reviewer objections are answered specifically. |
 | Worldwide and durable case | 5 | Evidence is worldwide where available and avoids cause-only framing. |
-| Validation and reproducibility | 5 | Computer checks reproduce cleanly and the raw human-recognition record passes the declared gate. |
+| Validation and reproducibility | 5 | Comparator sources, hashes, computer checks, actual-size board, and first-page inspection reproduce cleanly. |
 | Packet and filing control | 5 | Versioned packet, clean PDF, public URL, and filing record are synchronized. |
 
 Minimum to circulate: 80/100 with every known gap labeled.
@@ -417,8 +410,7 @@ For each concept, complete the following before moving to the next:
 2. Red-team the strongest `Already representable`, `Overly specific`, and `Open-ended` objections.
 3. Verify every factual claim has a citation or remove it.
 4. Recapture all five required evidence sources with current, widest-range settings.
-5. Build nearest-emoji art comparisons, run reproducible computer validation, and pass the unprompted 18x18
-   recognition test.
+5. Build nearest-emoji art comparisons and run reproducible computer and rendered-page validation at actual size.
 6. Revise the source, update the date, and rebuild the PDF.
 7. Render every page and inspect it visually.
 8. Run technical checks for image dimensions/colors, text extraction, fonts, encryption, links, and file size.

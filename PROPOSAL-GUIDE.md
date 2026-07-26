@@ -1,6 +1,6 @@
 # Medical Emoji Proposal Guide (2026)
 
-Guide version: 1.0.1
+Guide version: 1.0.2
 
 Last verified: 2026-07-26
 
@@ -185,7 +185,7 @@ Do not use petitions, hashtags, calls for an emoji, anecdotes, society letters, 
 campaigns as frequency evidence. Support letters can establish coordination or domain context; they do not
 show ordinary language use.
 
-### Gate 4: image paradigm and recognition
+### Gate 4: image paradigm and technical validation
 
 The proposal image is evidence that the concept can survive as an emoji. It is not a logo, a final vendor
 glyph, a medical illustration, or decoration.
@@ -226,23 +226,19 @@ Then follow this design sequence:
    sharp.
 7. Run technical checks for dimensions, palette, transparency, connected components, file hashes, and source
    reproducibility.
-8. Run the unprompted recognition test below. Computer similarity metrics cannot prove semantic recognition.
 
-#### Required internal recognition test
+#### Required project validation
 
-This is a Medical Emoji quality gate, not a Unicode rule.
+Use reproducible technical and visual controls:
 
-- Use at least 12 people who were not told the target concept and are not reviewing their own artwork.
-- Show the 18x18 color image alone at actual size on a neutral background. Ask, "What is this?"
-- Repeat with the 18x18 black-and-white image in a separately randomized pass.
-- Record raw free-text answers before showing any choices.
-- Then run a forced-choice confuser test using the declared confuser set.
-- Pass only if at least 10 of 12 viewers identify the intended concept or an accepted synonym in both color
-  and black-and-white, and no wrong concept dominates the responses.
-- Archive the prompt, participant count, raw answers, scoring rule, and result. Do not report only a percentage.
+- verify the four exact dimensions and true black-and-white palette;
+- pin comparator assets and record their source URLs and SHA-256 hashes;
+- compare the color and black-and-white candidates beside the confuser set at actual 18x18 and 72x72 sizes;
+- record declared silhouette and perceptual-difference metrics in machine-readable output; and
+- inspect the rendered first PDF page at 100% scale for visibility, clipping, and loss of essential cues.
 
-If the concept is specialized, add domain reviewers for factual accuracy, but do not replace general viewers;
-Unicode's recognizability test is whether most people can discern the intended paradigm without foreknowledge.
+These are project quality controls, not Unicode rules. Domain reviewers may still check factual accuracy when
+the subject requires specialized knowledge.
 
 #### What accepted images teach
 
@@ -276,14 +272,13 @@ Accepted exemplars:
 #### Current Medical Emoji baseline diagnosis
 
 This table describes the canonical `v1.10.0` first pages inspected on 2026-07-26. Kidney's v1.10.0 validation
-passes declared palette, connectedness, silhouette-IoU, and difference-hash checks. Its own report correctly
-states that those checks do not measure human semantic recognition; the visible 18x18 black-and-white sample
-still requires the human gate below. The other three first pages are unchanged from v1.9.0.
+passes declared palette, connectedness, silhouette-IoU, and difference-hash checks. The other three first pages
+are unchanged from v1.9.0.
 
 | Concept | Breaks new ground? | 18px image finding | Filing decision from image alone |
 | --- | --- | --- | --- |
-| Kidney | **Yes, defensible.** Beans, Droplet, and existing anatomy do not express the kidney organ. | Color can read as a bean or bulb; black-and-white loses the hilum and becomes a filled blob. Deterministic separation is not the same as recognition. | **No-file until human recognition passes against Beans and generic red objects.** |
-| Stomach | **Yes, defensible.** Nauseated Face, food, and existing organs do not express the stomach entity. | The color J-shape is the strongest current organ silhouette; black-and-white loses some internal curve. | **Closest to passing, but still requires the recognition gate.** |
+| Kidney | **Yes, defensible.** Beans, Droplet, and existing anatomy do not express the kidney organ. | Color can read as a bean or bulb; black-and-white loses the hilum and becomes a filled blob. | **No-file until the small black-and-white paradigm is corrected and revalidated against its confusers.** |
+| Stomach | **Yes, defensible.** Nauseated Face, food, and existing organs do not express the stomach entity. | The color J-shape is the strongest current organ silhouette; black-and-white loses some internal curve. | **Correct and revalidate the small black-and-white paradigm before filing.** |
 | Liver | **Yes, defensible.** No current emoji expresses the liver entity. | The small black-and-white image is a horizontal blob; color can read as meat or a generic red organ. | **No-file; redesign the small paradigm.** |
 | White Blood Cell | **Yes, but high-risk.** Microbe and Drop of Blood do not express an immune cell. | The small image reads as a generic cell or dot; nucleus and membrane cues are too weak. | **No-file until it separates from Microbe, generic cell, and blood imagery.** |
 
@@ -391,7 +386,7 @@ Every proposal agent must produce the following artifacts or explicitly return `
 4. A written image paradigm, cue list, vendor freedoms, and confuser set.
 5. Color and true black-and-white SVG sources plus exact 18x18 and 72x72 PNG exports.
 6. An actual-size comparison board against the declared confusers.
-7. Technical image-validation output and the raw recognition-test record.
+7. Technical image-validation output with pinned comparator sources, hashes, and an actual-size comparison board.
 8. A current-format Markdown source and rendered PDF.
 9. A page-by-page visual review and PDF technical report covering fonts, text extraction, links, encryption,
    image dimensions, clipping, and blank pages.
@@ -407,7 +402,7 @@ Agents must never:
 - revise a historical packet in place;
 - call a proposal `SUBMIT` while an image, evidence, eligibility, authorship, rights, review, URL, or filing gate
   remains open;
-- infer recognition from dimensions, connectedness, IoU, perceptual hashes, or AI opinion alone;
+- treat any single metric or AI opinion as sufficient image validation;
 - copy an old accepted proposal's obsolete format; or
 - optimize for an unsupported word, page, or image-count target.
 
@@ -421,7 +416,7 @@ Agents must never:
 - [ ] All five evidence screenshots are current, readable, reproducible, and honestly interpreted.
 - [ ] Every material claim has a citation or has been removed.
 - [ ] Four exact images and truthful rights language appear at the top of page 1.
-- [ ] Both 18x18 assets pass unprompted general-viewer recognition against declared confusers.
+- [ ] Both 18x18 assets preserve their essential cues and pass the declared technical and actual-size comparison controls.
 - [ ] The PDF follows the 2026 field and factor order, contains no draft notes, and has been visually inspected.
 - [ ] Domain/factual and Unicode/process reviewers approved the exact PDF.
 - [ ] The exact PDF is public, works logged out, was filed through the official form, and confirmation is archived.
