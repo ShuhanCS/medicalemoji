@@ -35,7 +35,7 @@ and recognition gates as the other proposals. No other Medical Emoji concept is 
 
 | Order | Proposal | Baseline packet | Prior internal baseline | Why this order |
 | ---: | --- | --- | ---: | --- |
-| 1 | Kidney | [v1.12.0-kidney.2 review lane](../../submissions/v1.12.0-kidney.2/kidney/) | 93/100 provisional | Paired artwork and PDF are rebuilt; David Rhew and Heena Purohit are explicitly preserved as sourced co-authors; one Lungs comparison and semantic computer validation remain open. |
+| 1 | Kidney | [v1.12.0-kidney.3 review lane](../../submissions/v1.12.0-kidney.3/kidney/) | 92/100 provisional | Rubric 3.1.0 prose, page-one rights, evidence captions, and PDF layout are corrected; all ten authors remain; one internal Lungs comparison and external filing gates remain open. |
 | 2 | White Blood Cell | [v1.8.0 White Blood Cell](../../submissions/v1.8.0/white-blood-cell/) | Not yet rescored | Determine whether its cell paradigm is recognizable and independently selective before investing in the full filing packet. |
 | 3 | Stomach | [v1.8.0 Stomach](../../submissions/v1.8.0/stomach/) | 77/100 | Strong semantic and silhouette case; four frequency captures must be refreshed and enlarged. |
 | 4 | Liver | [v1.8.0 Liver](../../submissions/v1.8.0/liver/) | 64/100 | Requires the most work: current worldwide evidence, stronger small-size art, and better support for usage claims. |
@@ -83,7 +83,7 @@ affiliations are optional; names must match the proposal PDF and submission form
 - The current canonical package is [`submissions/v1.11.0/`](../../submissions/v1.11.0/). It carries the
   corrected Kidney packet forward and adds the corrected Stomach artwork snapshot.
 - The current Kidney artwork-review lane is
-  [`submissions/v1.12.0-kidney.2/`](../../submissions/v1.12.0-kidney.2/). It does not claim the canonical
+  [`submissions/v1.12.0-kidney.3/`](../../submissions/v1.12.0-kidney.3/). It does not claim the canonical
   `v1.12.0` slot reserved by the Stomach execution specification.
 - Its White Blood Cell files were copied byte for byte from `submissions/v1.3.0/`; its Kidney, Stomach, and
   Liver files were copied byte for byte from `submissions/v1.7.0/`.
@@ -248,13 +248,13 @@ Do not promote the next concept into a canonical package until the preceding can
 
 ### Kidney
 
-- The canonical Kidney publication candidate is `v1.10.0`; paired-artwork and verified-authorship review is
-  isolated in `v1.12.0-kidney.2` until its computer gates pass.
+- The current Kidney publication candidate is isolated in `v1.12.0-kidney.3`; it preserves the approved paired
+  artwork and verified ten-author byline while the remaining internal and external gates are closed.
 - Preserve the complete consenting ten-person author list.
 - Preserve the corrected border-connected-background segmentation and do not reuse the invalid alpha-only
   measurements from v1.10.0.
-- Resolve or formally supersede the one open Lungs IoU result and add a reproducible semantic computer test
-  against kidney, beans, lungs, uterus, heart, and generic-organ labels.
+- Resolve the one open Lungs IoU result without weakening the predeclared threshold, or retain it transparently
+  as an internal warning if the approved artwork is preserved.
 - Strengthen the explanation of the semantic gap without relying on the existence of other organ emoji.
 - Verify citations for ordinary use, metaphorical meanings, donation/transplant contexts, and medical claims.
 - Remove sequences that do not strengthen the organ's independent communicative case.

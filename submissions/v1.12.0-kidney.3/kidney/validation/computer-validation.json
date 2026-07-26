@@ -1,0 +1,253 @@
+{
+  "schema_version": "1.0.0",
+  "validation_date": "2026-07-26",
+  "proposal_dir": "submissions/v1.12.0-kidney.3/kidney",
+  "method": "Deterministic technical validation of dimensions, black-and-white palette, foreground connectedness, normalized alpha-mask intersection-over-union, and 64-bit difference hash. This measures machine-visible separation, not human semantic recognition.",
+  "thresholds": {
+    "max_normalized_iou": 0.72,
+    "min_dhash_distance_64": 16,
+    "max_connected_components": 2,
+    "min_largest_component_share": 0.95
+  },
+  "noto_commit": "8998f5dd683424a73e2314a8c1f1e359c19e8742",
+  "noto_license_url": "https://github.com/googlefonts/noto-emoji/blob/master/LICENSE",
+  "assets": [
+    {
+      "file": "kidney_color_18x18_SUBMIT.png",
+      "dimensions": [
+        18,
+        18
+      ],
+      "expected_dimensions": [
+        18,
+        18
+      ],
+      "dimensions_pass": true,
+      "black_and_white_required": false,
+      "visible_rgb_count": 233,
+      "visible_rgb_values": null,
+      "palette_pass": true,
+      "connected_components": 1,
+      "largest_component_share": 1.0,
+      "connectedness_pass": true,
+      "pass": true
+    },
+    {
+      "file": "kidney_color_72x72_SUBMIT.png",
+      "dimensions": [
+        72,
+        72
+      ],
+      "expected_dimensions": [
+        72,
+        72
+      ],
+      "dimensions_pass": true,
+      "black_and_white_required": false,
+      "visible_rgb_count": 1532,
+      "visible_rgb_values": null,
+      "palette_pass": true,
+      "connected_components": 1,
+      "largest_component_share": 1.0,
+      "connectedness_pass": true,
+      "pass": true
+    },
+    {
+      "file": "kidney_bw_18x18_SUBMIT.png",
+      "dimensions": [
+        18,
+        18
+      ],
+      "expected_dimensions": [
+        18,
+        18
+      ],
+      "dimensions_pass": true,
+      "black_and_white_required": true,
+      "visible_rgb_count": 2,
+      "visible_rgb_values": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          255,
+          255,
+          255
+        ]
+      ],
+      "palette_pass": true,
+      "connected_components": 1,
+      "largest_component_share": 1.0,
+      "connectedness_pass": true,
+      "pass": true
+    },
+    {
+      "file": "kidney_bw_72x72_SUBMIT.png",
+      "dimensions": [
+        72,
+        72
+      ],
+      "expected_dimensions": [
+        72,
+        72
+      ],
+      "dimensions_pass": true,
+      "black_and_white_required": true,
+      "visible_rgb_count": 2,
+      "visible_rgb_values": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          255,
+          255,
+          255
+        ]
+      ],
+      "palette_pass": true,
+      "connected_components": 1,
+      "largest_component_share": 1.0,
+      "connectedness_pass": true,
+      "pass": true
+    }
+  ],
+  "silhouette_comparisons": [
+    {
+      "proposal_asset": "kidney_color_18x18_SUBMIT.png",
+      "comparator": "anatomical_heart",
+      "normalized_iou": 0.558,
+      "dhash_distance_64": 29,
+      "max_iou": 0.72,
+      "min_dhash_distance": 16,
+      "source_url": "https://raw.githubusercontent.com/googlefonts/noto-emoji/8998f5dd683424a73e2314a8c1f1e359c19e8742/png/128/emoji_u1fac0.png",
+      "source_sha256": "d085a08da7477258c7c9d97b336c1cd9890b2759da3212455d641cb88bb49673",
+      "pass": true
+    },
+    {
+      "proposal_asset": "kidney_color_18x18_SUBMIT.png",
+      "comparator": "balloon",
+      "normalized_iou": 0.471,
+      "dhash_distance_64": 30,
+      "max_iou": 0.72,
+      "min_dhash_distance": 16,
+      "source_url": "https://raw.githubusercontent.com/googlefonts/noto-emoji/8998f5dd683424a73e2314a8c1f1e359c19e8742/png/128/emoji_u1f388.png",
+      "source_sha256": "7efbfa64b59cbee4a61a17b1d5af8887cb70dda9b94e9e8463a557fe6e01cd11",
+      "pass": true
+    },
+    {
+      "proposal_asset": "kidney_color_18x18_SUBMIT.png",
+      "comparator": "beans",
+      "normalized_iou": 0.684,
+      "dhash_distance_64": 27,
+      "max_iou": 0.72,
+      "min_dhash_distance": 16,
+      "source_url": "https://raw.githubusercontent.com/googlefonts/noto-emoji/8998f5dd683424a73e2314a8c1f1e359c19e8742/png/128/emoji_u1fad8.png",
+      "source_sha256": "e37d8c68eb71eb2eb9845e1bc57d92ebd566f01fba48c33117c9fc55a4b3d8d9",
+      "pass": true
+    },
+    {
+      "proposal_asset": "kidney_color_18x18_SUBMIT.png",
+      "comparator": "droplet",
+      "normalized_iou": 0.469,
+      "dhash_distance_64": 30,
+      "max_iou": 0.72,
+      "min_dhash_distance": 16,
+      "source_url": "https://raw.githubusercontent.com/googlefonts/noto-emoji/8998f5dd683424a73e2314a8c1f1e359c19e8742/png/128/emoji_u1f4a7.png",
+      "source_sha256": "f523b07e40891a9765bac75766fc426c4cbcf405eaf9bde95a2657971755a463",
+      "pass": true
+    },
+    {
+      "proposal_asset": "kidney_color_18x18_SUBMIT.png",
+      "comparator": "light_bulb",
+      "normalized_iou": 0.446,
+      "dhash_distance_64": 30,
+      "max_iou": 0.72,
+      "min_dhash_distance": 16,
+      "source_url": "https://raw.githubusercontent.com/googlefonts/noto-emoji/8998f5dd683424a73e2314a8c1f1e359c19e8742/png/128/emoji_u1f4a1.png",
+      "source_sha256": "3b57447c18ca9a6bd2df7f17fdf22fb5ee1135bd07fda592e2a34c705060c1c2",
+      "pass": true
+    },
+    {
+      "proposal_asset": "kidney_color_18x18_SUBMIT.png",
+      "comparator": "lungs",
+      "normalized_iou": 0.75,
+      "dhash_distance_64": 23,
+      "max_iou": 0.72,
+      "min_dhash_distance": 16,
+      "source_url": "https://raw.githubusercontent.com/googlefonts/noto-emoji/8998f5dd683424a73e2314a8c1f1e359c19e8742/png/128/emoji_u1fac1.png",
+      "source_sha256": "61dc72e8d34d51870196ae3a2fd0644a44e283781fe2ef9d9456a0d8eeec8e32",
+      "pass": false
+    },
+    {
+      "proposal_asset": "kidney_bw_18x18_SUBMIT.png",
+      "comparator": "anatomical_heart",
+      "normalized_iou": 0.481,
+      "dhash_distance_64": 25,
+      "max_iou": 0.72,
+      "min_dhash_distance": 16,
+      "source_url": "https://raw.githubusercontent.com/googlefonts/noto-emoji/8998f5dd683424a73e2314a8c1f1e359c19e8742/png/128/emoji_u1fac0.png",
+      "source_sha256": "d085a08da7477258c7c9d97b336c1cd9890b2759da3212455d641cb88bb49673",
+      "pass": true
+    },
+    {
+      "proposal_asset": "kidney_bw_18x18_SUBMIT.png",
+      "comparator": "balloon",
+      "normalized_iou": 0.318,
+      "dhash_distance_64": 32,
+      "max_iou": 0.72,
+      "min_dhash_distance": 16,
+      "source_url": "https://raw.githubusercontent.com/googlefonts/noto-emoji/8998f5dd683424a73e2314a8c1f1e359c19e8742/png/128/emoji_u1f388.png",
+      "source_sha256": "7efbfa64b59cbee4a61a17b1d5af8887cb70dda9b94e9e8463a557fe6e01cd11",
+      "pass": true
+    },
+    {
+      "proposal_asset": "kidney_bw_18x18_SUBMIT.png",
+      "comparator": "beans",
+      "normalized_iou": 0.508,
+      "dhash_distance_64": 27,
+      "max_iou": 0.72,
+      "min_dhash_distance": 16,
+      "source_url": "https://raw.githubusercontent.com/googlefonts/noto-emoji/8998f5dd683424a73e2314a8c1f1e359c19e8742/png/128/emoji_u1fad8.png",
+      "source_sha256": "e37d8c68eb71eb2eb9845e1bc57d92ebd566f01fba48c33117c9fc55a4b3d8d9",
+      "pass": true
+    },
+    {
+      "proposal_asset": "kidney_bw_18x18_SUBMIT.png",
+      "comparator": "droplet",
+      "normalized_iou": 0.403,
+      "dhash_distance_64": 26,
+      "max_iou": 0.72,
+      "min_dhash_distance": 16,
+      "source_url": "https://raw.githubusercontent.com/googlefonts/noto-emoji/8998f5dd683424a73e2314a8c1f1e359c19e8742/png/128/emoji_u1f4a7.png",
+      "source_sha256": "f523b07e40891a9765bac75766fc426c4cbcf405eaf9bde95a2657971755a463",
+      "pass": true
+    },
+    {
+      "proposal_asset": "kidney_bw_18x18_SUBMIT.png",
+      "comparator": "light_bulb",
+      "normalized_iou": 0.364,
+      "dhash_distance_64": 28,
+      "max_iou": 0.72,
+      "min_dhash_distance": 16,
+      "source_url": "https://raw.githubusercontent.com/googlefonts/noto-emoji/8998f5dd683424a73e2314a8c1f1e359c19e8742/png/128/emoji_u1f4a1.png",
+      "source_sha256": "3b57447c18ca9a6bd2df7f17fdf22fb5ee1135bd07fda592e2a34c705060c1c2",
+      "pass": true
+    },
+    {
+      "proposal_asset": "kidney_bw_18x18_SUBMIT.png",
+      "comparator": "lungs",
+      "normalized_iou": 0.563,
+      "dhash_distance_64": 25,
+      "max_iou": 0.72,
+      "min_dhash_distance": 16,
+      "source_url": "https://raw.githubusercontent.com/googlefonts/noto-emoji/8998f5dd683424a73e2314a8c1f1e359c19e8742/png/128/emoji_u1fac1.png",
+      "source_sha256": "61dc72e8d34d51870196ae3a2fd0644a44e283781fe2ef9d9456a0d8eeec8e32",
+      "pass": true
+    }
+  ],
+  "overall_pass": false
+}

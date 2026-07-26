@@ -13,7 +13,7 @@ proposals must be corrected one at a time before filing:
 - Standalone parallel agent specs: [`docs/proposals/agent-specs/`](docs/proposals/agent-specs/)
 - Organ-by-organ audit: [`docs/proposals/2026-organ-submission-audit.md`](docs/proposals/2026-organ-submission-audit.md)
 - Current complete versioned package: [`submissions/v1.11.0/`](submissions/v1.11.0/)
-- Current Kidney artwork-review prerelease: [`submissions/v1.12.0-kidney.2/`](submissions/v1.12.0-kidney.2/)
+- Current Kidney rubric-alignment prerelease: [`submissions/v1.12.0-kidney.3/`](submissions/v1.12.0-kidney.3/)
 - Historical organ baseline: [`submissions/v1.7.0/`](submissions/v1.7.0/)
 - Historical White Blood Cell baseline: [`submissions/v1.3.0/white-blood-cell/`](submissions/v1.3.0/white-blood-cell/)
 
@@ -25,10 +25,11 @@ distinct-outlet vector paradigm. Its proposal PDF is rebuilt and visually verifi
 revision-required until four historical 2020 evidence captures and the recognition/comparator gates are
 completed.
 
-Kidney `v1.12.0-kidney.2` restores a simplified paired-organ paradigm based on the approved GPT Image 2
-direction and explicitly preserves David Rhew and Heena Purohit as co-authors and submitters with sourced
-Microsoft affiliations. The prerelease remains revision-required while its semantic computer test and one
-Lungs silhouette gate are open.
+Kidney `v1.12.0-kidney.3` preserves the approved paired-organ paradigm and all ten authors, including David
+Rhew and Heena Purohit, while aligning the proposal and PDF with rubric 3.1.0. Required rights now appear on
+page 1, internal validation language is removed from reviewer-facing prose, and the evidence and exclusion
+answers are sharpened. The prerelease remains not ready to submit while one internal Lungs comparison and the
+external eligibility-record, duplicate-coordination, publication, and filing gates remain open.
 
 Authorship is fixed for the filing slate: Kidney uses the complete consenting ten-person author list in v1.10.0, adding
 David Rhew and Heena Purohit to the eight previously listed submitters; White Blood Cell, Stomach, and Liver
