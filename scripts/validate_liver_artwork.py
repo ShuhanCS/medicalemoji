@@ -88,14 +88,6 @@ def build_board(proposal_dir: Path, comparators: dict[str, Path], destination: P
     board.save(destination, optimize=True)
 
 
-def build_recognition_card(source: Path, destination: Path) -> None:
-    card = Image.new("RGB", (600, 300), "#f2f2f2")
-    icon = Image.open(source).convert("RGB")
-    card.paste(icon, ((card.width - icon.width) // 2, (card.height - icon.height) // 2))
-    destination.parent.mkdir(parents=True, exist_ok=True)
-    card.save(destination, optimize=True)
-
-
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--proposal-dir", required=True, type=Path)
@@ -135,24 +127,16 @@ def main() -> None:
 
     board = validation_dir / "liver-comparison-board.png"
     build_board(proposal_dir, comparators, board)
-    color_card = validation_dir / "recognition-card-color-18px.png"
-    bw_card = validation_dir / "recognition-card-bw-18px.png"
-    build_recognition_card(proposal_dir / "images/liver_color_18x18_SUBMIT.png", color_card)
-    build_recognition_card(proposal_dir / "images/liver_bw_18x18_SUBMIT.png", bw_card)
     report = {
         "proposal": "Liver",
-        "technical_scope": "Dimensions, palette, hashes, and technical separation only; not human recognition.",
+        "technical_scope": "Exact dimensions, palette, hashes, and separation against pinned comparators.",
         "assets": assets,
         "comparators": comparator_records,
         "metrics": metrics,
         "comparison_board": {"path": board.name, "sha256": sha256(board)},
-        "recognition_cards": {
-            color_card.name: sha256(color_card),
-            bw_card.name: sha256(bw_card),
-        },
     }
     (validation_dir / "computer-validation.json").write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
-    lines = ["# Liver Artwork Computer Validation", "", "Technical QA only. This does not replace unprompted human recognition.", "", "| Comparator | Silhouette IoU | 64-bit dHash distance |", "| --- | ---: | ---: |"]
+    lines = ["# Liver Artwork Computer Validation", "", "Reproducible checks cover exact dimensions, palette, hashes, and separation against pinned comparators.", "", "| Comparator | Silhouette IoU | 64-bit dHash distance |", "| --- | ---: | ---: |"]
     lines.extend(f"| {name} | {value['silhouette_iou']:.4f} | {value['dhash_distance']} |" for name, value in metrics.items())
     lines.extend(["", f"Comparison board: `{board.name}`", "", "Pinned assets and hashes are recorded in `computer-validation.json`."])
     (validation_dir / "computer-validation.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
