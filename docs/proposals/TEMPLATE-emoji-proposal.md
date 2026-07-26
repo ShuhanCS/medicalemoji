@@ -10,6 +10,10 @@ https://www.unicode.org/emoji/proposals.html
 Before filling this template, pass the concept and image gates in the root
 [`Medical Emoji Proposal Guide`](../../PROPOSAL-GUIDE.md).
 
+The final PDF is an affirmative case for approval. Red-team in internal review files, then delete failed
+iterations, scores, TODOs, blocker language, and agent uncertainty. Answer required exclusions as concise
+rebuttals without inventing additional arguments against the proposal. Remain accurate; do not self-litigate.
+
 The archived 55-versus-29 comparison has been retired because the 29-document cohort and analysis code were
 not preserved. There is no validated winning word, page, or image-count threshold. Write only the prose
 needed to make a complete, reproducible case.

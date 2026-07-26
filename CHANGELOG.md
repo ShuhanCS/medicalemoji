@@ -5,6 +5,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.40.1] - 2026-07-26
+
+### Changed
+- Made winning advocacy an explicit proposal rule: red-team privately, then submit the strongest accurate
+  affirmative case rather than exporting internal doubts or self-litigating in the final PDF.
+- Required exclusion sections to operate as concise rebuttals and added a final advocate edit that removes
+  failed iterations, internal scores, TODOs, blocker language, and agent uncertainty from submission copy.
+- Clarified that best-foot-forward writing never permits false claims, hidden contradictions, or misleading
+  evidence.
+
+### Verification
+- Advanced the guide from `1.0.0` to `1.0.1` and the project from `0.40.0` to `0.40.1`; proposal release
+  `v1.10.0` remains unchanged because no proposal packet was edited.
+
 ## [0.40.0] - 2026-07-26
 
 ### Added

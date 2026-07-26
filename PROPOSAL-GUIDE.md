@@ -1,6 +1,6 @@
 # Medical Emoji Proposal Guide (2026)
 
-Guide version: 1.0.0
+Guide version: 1.0.1
 
 Last verified: 2026-07-26
 
@@ -33,6 +33,49 @@ This resolves a common misunderstanding:
 - We **do want** a new semantic capability in the emoji vocabulary.
 - We **do not want** a scientifically novel, obscure, overly specific, or visually experimental subject.
 - We **do not want** to argue that a new organ is justified because Heart and Lungs already exist.
+
+## Submission posture: advocate for approval; do not self-litigate
+
+**The purpose of every submission is to get the emoji approved.** Every final PDF must put the project's
+strongest accurate case forward. It should help the reviewer reach `Yes`; it must not read like an internal
+audit, a debate transcript, or a brief against our own proposal.
+
+The controlling rule is:
+
+> **Red-team privately. Submit persuasively.**
+
+Internal review should be skeptical and exhaustive so weak concepts, claims, evidence, and images are fixed or
+stopped before filing. The submission should contain the final passing work and the clearest affirmative case.
+Keep the two records separate:
+
+| Keep in internal review files | Put in the submitted proposal |
+| --- | --- |
+| Failed image variants, raw miscues, rejected claims, internal scores, unresolved gates, TODOs, and speculative objections | Final passing images, strongest reproducible evidence, supported claims, current required fields, and concise answers to actual exclusion factors |
+| Debate about whether the concept should be filed | The reason the eligible, cleared concept should be approved |
+| Every possible argument against us | The strongest likely objection, answered directly and then closed |
+| Process narration and agent uncertainty | Reviewer-facing evidence and conclusions |
+
+Submission-writing rules:
+
+1. **Lead with the winning conclusion.** Write `Yes - this breaks new ground because...`, not a page of doubt
+   before the answer.
+2. **Treat exclusion sections as rebuttals, not prosecution briefs.** Name the real substitute or objection,
+   answer it with evidence, and move on. Do not invent additional reasons to reject the proposal.
+3. **Do not export internal language.** Remove `weak`, `risk`, `blocked`, `not ready`, `might fail`, `must be
+   refreshed`, TODOs, internal thresholds, abandoned alternatives, and review commentary from the final PDF.
+4. **Use only decision-relevant limitations.** If a material evidence limitation must be disclosed for
+   accuracy, state it precisely and immediately explain why the complete evidence still supports approval.
+5. **Do not apologize for the proposal.** Avoid hesitant, defensive, or self-deprecating framing. Make every
+   supported claim directly.
+6. **Do not include internal scoring or approval predictions.** The submission proves the criteria; it does
+   not narrate our confidence level or ask the reviewer to resolve our internal debate.
+7. **Run a final advocate edit.** Every sentence must do at least one job: satisfy a current requirement,
+   prove a selection factor, rebut a required exclusion, establish rights, or guide vendor design. Delete
+   sentences that only create doubt.
+
+Putting our best foot forward does not permit false claims, selective cropping, hidden contradictions, or
+misleading evidence. It means fixing defects before filing and presenting the strongest truthful version of
+the case without litigating against ourselves in the submission.
 
 ## What this guide is based on
 
@@ -352,7 +395,9 @@ Every proposal agent must produce the following artifacts or explicitly return `
 8. A current-format Markdown source and rendered PDF.
 9. A page-by-page visual review and PDF technical report covering fonts, text extraction, links, encryption,
    image dimensions, clipping, and blank pages.
-10. The exact public PDF URL, logged-out accessibility check, official-form confirmation, and archived filing
+10. A final advocate edit confirming that internal doubts, failed iterations, scores, TODOs, and self-defeating
+    commentary remain in review records rather than the submitted PDF.
+11. The exact public PDF URL, logged-out accessibility check, official-form confirmation, and archived filing
     record.
 
 Agents must never:

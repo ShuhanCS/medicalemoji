@@ -353,6 +353,12 @@ Write these answers before polishing the inclusion case:
 
 ### 6. Writing and layout standard
 
+- Write the final submission as an affirmative case for approval. Red-team privately, then remove internal
+  doubts, failed iterations, scores, TODOs, blocker language, and process narration from the submitted PDF.
+- Treat required exclusion sections as concise rebuttals. Answer the strongest real objection; do not invent
+  additional arguments against the proposal or self-litigate after the answer is complete.
+- Disclose a material limitation when accuracy requires it, then explain why the complete evidence still
+  supports approval. Best-foot-forward writing must remain truthful and reproducible.
 - Use no more prose than the case needs. There is no validated winning word, page, or image-count threshold.
   A short proposal is useful only when it remains complete and evidentially strong.
 - Use direct section names that mirror the current guidelines.
