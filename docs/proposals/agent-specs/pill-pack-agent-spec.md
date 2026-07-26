@@ -1,6 +1,6 @@
 # Pill Pack / Blister Pack Proposal Agent Specification
 
-Version: 1.0.0
+Version: 1.1.0
 
 Status: Ready to assign as a provisional go/no-go workstream
 
@@ -101,6 +101,13 @@ reject this medication-packaging lane.
   rendered page at normal zoom.
 - Report blocked Google sessions, missing dependencies, unresolved authorship/rights, and missing Shuhan image
   approval honestly.
+
+## Panel feedback loop
+
+Submit the exact final artifact hash to the repeatable [`ESR/UTC-readiness panel`](../review-panel/README.md).
+Answer every written action with `ACCEPT`, `REJECT WITH REASON`, or `DEFER WITH OWNER AND DATE`. Material
+changes require a new hash and panel rerun. Treat the panel as an internal red team, never named-person or
+Unicode feedback.
 
 ## Decision and handoff
 

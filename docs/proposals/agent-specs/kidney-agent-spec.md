@@ -1,6 +1,6 @@
 # Kidney Proposal Agent Specification
 
-Version: 1.2.0
+Version: 1.3.0
 
 Status: Completed in canonical package v1.10.0; retain for audit only
 
@@ -89,6 +89,13 @@ do not invent missing records. Confirm that the artwork rights statement and CC0
 - Render every PDF page to images and inspect at normal zoom for clipping, unreadable evidence, blank pages,
   awkward breaks, and incorrect page numbers.
 - Run repository lint/build only if dependencies are installed; report unavailable checks honestly.
+
+## Panel feedback loop
+
+Submit the exact final artifact hash to the repeatable [`ESR/UTC-readiness panel`](../review-panel/README.md).
+Answer every written action with `ACCEPT`, `REJECT WITH REASON`, or `DEFER WITH OWNER AND DATE`. Material
+changes require a new hash and panel rerun. Treat the panel as an internal red team, never named-person or
+Unicode feedback.
 
 ## Completion and handoff
 

@@ -1,6 +1,6 @@
 # Stomach Proposal Agent Specification
 
-Version: 1.0.0
+Version: 1.1.0
 
 Status: Ready to assign
 
@@ -82,6 +82,13 @@ confirmation records.
 - Render every PDF page and visually inspect it at normal zoom for readability, clipping, broken images, blank
   pages, stranded headings, and incorrect pagination.
 - Report missing dependencies, blocked Google captures, or unavailable human testing explicitly.
+
+## Panel feedback loop
+
+Submit the exact final artifact hash to the repeatable [`ESR/UTC-readiness panel`](../review-panel/README.md).
+Answer every written action with `ACCEPT`, `REJECT WITH REASON`, or `DEFER WITH OWNER AND DATE`. Material
+changes require a new hash and panel rerun. Treat the panel as an internal red team, never named-person or
+Unicode feedback.
 
 ## Completion and handoff
 

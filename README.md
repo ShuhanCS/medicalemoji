@@ -10,6 +10,7 @@ proposals must be corrected one at a time before filing:
 
 - Best-in-class specification: [`docs/proposals/emoji-proposal-approval-rubric.md`](docs/proposals/emoji-proposal-approval-rubric.md)
 - Serial slate, semver, and agent handoff spec: [`docs/proposals/2026-submission-slate-spec.md`](docs/proposals/2026-submission-slate-spec.md)
+- Repeatable ESR/UTC-readiness panel: [`docs/proposals/review-panel/README.md`](docs/proposals/review-panel/README.md)
 - Standalone parallel agent specs: [`docs/proposals/agent-specs/`](docs/proposals/agent-specs/)
 - Organ-by-organ audit: [`docs/proposals/2026-organ-submission-audit.md`](docs/proposals/2026-organ-submission-audit.md)
 - Current complete versioned package: [`submissions/v1.11.0/`](submissions/v1.11.0/)
@@ -98,6 +99,11 @@ Ten current drafting rules:
     assets at actual size beside their nearest visual alternatives. His dated `APPROVE` decision is the human
     image gate. No participant panel, crowd study, blind test, sample size, or recognition percentage is
     required.
+
+Before filing, run the five-seat [ESR/UTC-readiness panel](docs/proposals/review-panel/README.md) against the
+exact final artifact. This is an independent internal red team, not a crowd image-recognition test and not an
+actual Unicode review. Named experts provide public-source provenance for review lenses only; the project must
+never claim they reviewed, endorsed, recommended, or predicted the outcome of a Medical Emoji proposal.
 
 Never write "the heart and lungs were encoded, so the kidney should be." That is the textbook Faulty
 Comparison, and it is how a medical-importance argument tends to phrase itself.

@@ -1,6 +1,6 @@
 # 2026 Emoji Submission Slate and Serial Agent Execution Specification
 
-Version: 1.6.0
+Version: 1.7.0
 
 Date: 2026-07-26
 
@@ -225,6 +225,12 @@ use may be described when established and cited, but cannot be the reason for en
 
 ### Step 7: Issue a readiness decision
 
+Before issuing the decision, run the five-seat
+[ESR/UTC-readiness panel](review-panel/README.md) against the exact artifact hash. First-pass seats review
+independently; the coordinator preserves dissent and sends the action ledger back to the proposal agent. A
+material correction requires a new hash and another run. This panel is an internal red team, not actual
+Unicode or named-person feedback.
+
 Create a concept-specific review report containing:
 
 - A must-pass gate table.
@@ -330,7 +336,8 @@ After every proposal still intended for filing completes individual review:
 5. Harmonize shared terminology without duplicating unsupported claims.
 6. Confirm that dates, category names, rights statements, evidence methods, and file naming are consistent.
 7. Re-render and inspect every final PDF.
-8. Verify that every proposal independently meets every must-pass gate.
+8. Run the five-seat ESR/UTC-readiness panel on every exact final artifact and close its action ledger.
+9. Verify that every proposal independently meets every must-pass gate.
 
 ## Status vocabulary
 
@@ -353,6 +360,7 @@ A proposal is finished only when:
 - Its author list, art rights, four exact-size images, five frequency sources, selection factors, exclusion
   factors, citations, and computer-validation results are independently reproducible.
 - Every PDF page has passed visual and technical inspection.
+- Its exact artifact hash has a complete panel record with no unresolved blocker and a closed action ledger.
 - The final PDF has a stable public HTTPS URL that works without login.
 - The form data matches the PDF exactly.
 - Shuhan He has reviewed the exact filing copy and authorized the external submission.

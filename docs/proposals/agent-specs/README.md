@@ -1,6 +1,6 @@
 # 2026 Proposal Agent Coordination Index
 
-Version: 1.2.0
+Version: 1.3.0
 
 Date: 2026-07-26
 
@@ -61,3 +61,11 @@ https://www.unicode.org/emoji/proposals.html
 Official proposal status definitions:
 
 https://www.unicode.org/emoji/emoji-proposals-status.html
+
+## Required panel handoff
+
+Before a lane can be promoted, its exact final artifact must complete the repeatable
+[`ESR/UTC-readiness panel`](../review-panel/README.md). The proposal agent receives the panel's written action
+ledger and must answer every action with `ACCEPT`, `REJECT WITH REASON`, or `DEFER WITH OWNER AND DATE`.
+Material changes create a new artifact hash and require another panel run. The panel is an internal simulation;
+no agent may attribute its feedback or verdict to a named expert, ESR, UTC, or Unicode.
