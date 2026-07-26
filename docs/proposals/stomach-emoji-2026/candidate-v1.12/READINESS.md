@@ -4,7 +4,7 @@ Date: 2026-07-26
 
 Packet version: `1.12.0-candidate.2`
 
-Status: **STRONG CANDIDATE — HUMAN RECOGNITION GATE OPEN**
+Status: **STRONG CANDIDATE — SHUHAN IMAGE APPROVAL OPEN**
 
 ## Settled passes
 
@@ -23,13 +23,13 @@ Status: **STRONG CANDIDATE — HUMAN RECOGNITION GATE OPEN**
 
 | Gate | Status | Remaining action |
 | --- | --- | --- |
-| Human recognition | Open | Collect at least 12 unprompted responses using `recognition-test-v1.12/`; require at least 10/12 correct for both color and black-and-white. |
-| Final promotion | Candidate only | After recognition passes, record the aggregate, rebuild once, repeat PDF QA, and promote the immutable packet to `submissions/v1.12.0/`. |
+| Shuhan image approval | Open | Show Shuhan the exact four assets at actual size beside the comparison boards and record dated `APPROVE` or `REVISE`. No participant panel is required. |
+| Final promotion | Candidate only | After Shuhan approves the exact assets, record their hashes, rebuild once, repeat PDF QA, and promote the immutable packet to `submissions/v1.12.0/`. |
 | Public URL and form | Not authorized | Publish and file only after explicit authorization from Shuhan He. |
 
-Internal guide score: **90/100 as a candidate**. The remaining points are gated by actual human-recognition
-results and final packet promotion, not by eligibility, rights, artwork completeness, proposal structure, or
+Internal guide score: **90/100 as a candidate**. The remaining points are gated by Shuhan's exact-asset
+approval and final packet promotion, not by eligibility, rights, artwork completeness, proposal structure, or
 frequency evidence.
 
-Do not promote this candidate to `submissions/v1.12.0/` or rename it `_SUBMIT` until the human-recognition gate
-passes.
+Do not promote this candidate to `submissions/v1.12.0/` or rename it `_SUBMIT` until Shuhan approves the exact
+four assets.

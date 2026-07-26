@@ -1,6 +1,6 @@
 # Best-in-Class Emoji Submission Specification
 
-Version: 3.0.0
+Version: 3.1.0
 
 Last checked: 2026-07-26
 
@@ -379,7 +379,13 @@ ear to establish its identity. The explanation stays on what a person can see.
 
 **Drafting pattern:** Write: `[Candidate] is shown with [two to four stable visible cues]. At 18 pixels, [primary
 cue] distinguishes it from [nearest visual alternatives]. Vendors may vary [nonessential details] while keeping
-[essential cues].` State that recognition was tested only if genuine human-recognition evidence exists.
+[essential cues].`
+
+**Internal human approval:** Shuhan He reviews the exact 18x18 and 72x72 color and black-and-white assets at
+actual size beside the nearest visual alternatives and records a dated `APPROVE` or `REVISE` decision. His
+approval is the complete human image gate for this project. No participant panel, blind test, crowd study,
+minimum sample size, recognition percentage, or confusion matrix is required. Any material artwork change
+invalidates the prior approval and returns the final assets to Shuhan.
 
 Computer checks remain useful internal controls for dimensions, palette, connectedness, and geometric
 separation. Their algorithms, hashes, pinned assets, thresholds, pass/fail language, and machine-readable reports
@@ -537,17 +543,20 @@ frequency evidence.
 - Do not add biographies, endorsements, press language, campaign history, or internal release status unless
   directly required.
 
-## Authorship rules for the 2026 organ slate
+## Authorship source of truth
 
-- Kidney must list the complete confirmed author set:
-  Shuhan He; Edgar Lerma; Caitlyn Vlasschaert; Jade M. Teakell; Harish Seethapathy; Jarone Lee;
-  Danielle Miller; Timur Erk; David Rhew; Heena Purohit.
-- Liver lists Shuhan He only.
-- Stomach lists Shuhan He only.
-- Shuhan He is the main point of contact for all three.
+Authorship is proposal-specific and must never be inferred from this reusable rubric. Before editing a byline,
+read the concept's latest consent, author-verification, or source-ledger record and preserve every confirmed
+individual in the recorded order. Do not remove coauthors merely because Shuhan He is the main point of contact
+or artwork-rights certifier, and do not add historical names without current consent.
 
-Credentials and affiliations are optional in the PDF. Names must be consistent between the PDF, public file,
-and official form.
+Current confirmed records use the ten-person Kidney byline and the three-person Stomach and Liver bylines:
+Shuhan He; David Rhew; Heena Purohit for the latter two. White Blood Cell and Pill Pack must be reconfirmed from
+their own current records before revision. If a later signed or explicit confirmation changes a byline, that
+record controls and this status summary must be updated.
+
+Credentials and affiliations are optional in the PDF. Names must be consistent among the source record, exact
+PDF, public file, and official form. One confirmed author must be named as the main point of contact.
 
 Unicode requires one emoji per proposal; it does not forbid one submitter from filing three separate proposals
 in the same cycle. Kidney, Liver, and Stomach may therefore be filed as three documents. Because parallel organ
@@ -563,7 +572,7 @@ This is a project control, not a Unicode score or approval prediction.
 | --- | ---: | --- |
 | Eligibility and coordination | 15 | Confirmation archived; no duplicate filing risk; authorship confirmed. |
 | First-page format | 10 | Every current first-page requirement is correct and easy to find. |
-| Image package and rights | 15 | Rights are clear; four exact assets pass the declared deterministic technical checks. |
+| Image package and rights | 15 | Rights are clear; four exact assets pass technical checks and have Shuhan's recorded actual-size approval. |
 | Frequency and empirical evidence | 20 | Five current, reproducible captures plus citations for material usage claims. |
 | Inclusion factors | 15 | Each factor is direct, evidenced, and uses `N/A` where appropriate. |
 | Exclusion factors | 10 | Strongest reviewer objections are answered specifically. |
@@ -585,7 +594,8 @@ For each concept, complete the following before moving to the next:
 2. Red-team the strongest `Already representable`, `Overly specific`, and `Open-ended` objections.
 3. Verify every factual claim has a citation or remove it.
 4. Recapture all five required evidence sources with current, widest-range settings.
-5. Build nearest-emoji art comparisons and run the reproducible 18x18 computer validation.
+5. Build nearest-emoji art comparisons, run the reproducible 18x18 computer validation, and obtain Shuhan's
+   dated approval of the exact four final assets at actual size.
 6. Revise the source, update the date, and rebuild the PDF.
 7. Render every page and inspect it visually.
 8. Run technical checks for image dimensions/colors, text extraction, fonts, encryption, links, and file size.

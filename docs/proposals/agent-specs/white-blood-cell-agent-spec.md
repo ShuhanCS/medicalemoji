@@ -45,8 +45,10 @@ Use primary sources and the repository-preferred gstack browse workflow for web 
 
 ## Fixed identity and scope
 
-Shuhan He is the sole submitter and main point of contact. Do not restore author names from historical drafts
-without explicit current consent. Keep the concept at the broad leukocyte/white-blood-cell level; do not imply
+The current v1.8.0 draft lists Shuhan He as submitter and main point of contact, but the latest
+concept-specific consent/source record controls. Reconfirm it before revision and preserve every confirmed
+coauthor. Do not restore historical names without current consent. Keep the concept at the broad
+leukocyte/white-blood-cell level; do not imply
 that Unicode should encode every immune-cell subtype, laboratory result, or disease marker. Verify eligibility,
 duplicate status, artwork ownership, and the CC0 rights statement without inventing missing evidence.
 
@@ -63,11 +65,11 @@ duplicate status, artwork ownership, and the CC0 rights statement without invent
    chemotherapy monitoring, education, and research. Disease burden cannot be the encoding case.
 7. Build color and black-and-white comparison boards at 18x18 and 72x72 against Microbe, Drop of Blood, Soap,
    Bubbles, and a generic cell.
-8. Prepare an unprompted human recognition test that distinguishes `white blood cell`, `blood cell`, `cell`,
-   `microbe/germ`, and unrelated answers. Target 80% correct at 18x18 with no wrong concept above 10%. Never
-   fabricate responses or treat AI image labels as human results.
+8. Present the exact four final assets at actual size beside `microbe/germ`, generic cell, and the other declared
+   alternatives to Shuhan He. Record his dated `APPROVE` or `REVISE` decision; no participant panel, sample
+   size, or recognition percentage is required.
 9. Revise the paradigm if the lobed nucleus disappears or the image reads as a face, germ, bubble, or generic
-   cell. Re-run technical and recognition checks after any art change.
+   cell. Re-run technical checks and obtain fresh Shuhan approval after any art change.
 10. Rewrite the proposal under the current factor order, using `N/A` for unsupported factors and directly
     answering Already representable, Overly specific, Open-ended, Transient, and Faulty comparison.
 11. Rebuild the PDF with `python scripts/make_submission_pdf.py <proposal-markdown-path>` and add
@@ -89,7 +91,8 @@ duplicate status, artwork ownership, and the CC0 rights statement without invent
 
 Commit only the complete White Blood Cell prerelease lane. Do not push, merge, publish, or submit unless
 explicitly authorized. Report the branch, base commit, prerelease version, commit hash, changed files, evidence
-captures, citations, recognition result, verification, score, status, blockers, and coordinator promotion notes.
+captures, citations, Shuhan's visual-approval result, verification, score, status, blockers, and coordinator
+promotion notes.
 
 Allowed status: `REVISION REQUIRED`, `BLOCKED`, or `READY TO PUBLISH`. `READY TO SUBMIT` is forbidden until the
 exact PDF has a verified logged-out URL, matching form data, confirmed authorship, and Shuhan He's authorization.

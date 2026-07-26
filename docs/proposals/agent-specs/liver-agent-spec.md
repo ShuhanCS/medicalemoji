@@ -44,9 +44,10 @@ task.
 
 ## Fixed identity and scope
 
-Shuhan He is the sole submitter and main point of contact. Keep Liver independent of an anatomy-set argument.
-Verify eligibility, duplicate status, artwork ownership, and rights. Do not invent missing confirmation or
-review records.
+The current confirmed submitters are Shuhan He, David Rhew, and Heena Purohit; Shuhan He is the main point of
+contact. Preserve the latest concept-specific consent/source record if it changes. Keep Liver independent of an
+anatomy-set argument. Verify eligibility, duplicate status, artwork ownership, and rights. Do not invent missing
+confirmation or review records.
 
 ## Work required
 
@@ -60,8 +61,9 @@ review records.
 6. Red-team Stomach, Anatomical Heart, meat/food emoji, Beans, and generic organ imagery as substitutes or
    confusion targets.
 7. Build comparison boards at 18x18 and 72x72 in color and black-and-white.
-8. Prepare an unprompted human recognition test targeting 80% correct at 18x18 with no wrong concept above 10%.
-   Never fabricate participants or substitute AI labels for human results.
+8. Present the exact four final assets at actual size beside the declared alternatives to Shuhan He and record
+   his dated `APPROVE` or `REVISE` decision. No participant panel, sample size, or recognition percentage is
+   required.
 9. Rework both small silhouettes until the liver reads reliably without depending on internal details that
    disappear at emoji size. Retest after each art revision.
 10. Keep Multiple meanings, Completeness, and Compatibility as `N/A` unless strong cited evidence survives
@@ -85,7 +87,8 @@ review records.
 
 Commit only the complete Liver prerelease lane. Do not push, merge, publish, or submit unless explicitly
 authorized. Report branch, base commit, prerelease version, commit hash, files changed, evidence/citations,
-recognition result, verification, readiness score/status, blockers, and coordinator promotion notes.
+Shuhan's visual-approval result, verification, readiness score/status, blockers, and coordinator promotion
+notes.
 
 Allowed status: `REVISION REQUIRED`, `BLOCKED`, or `READY TO PUBLISH`. Never claim `READY TO SUBMIT` without a
 verified public PDF URL, reconciled form data, author confirmation, and Shuhan He's approval.

@@ -50,8 +50,9 @@ Use primary sources and gstack browse for current research/evidence capture unle
 
 ## Identity, name, and portfolio gates
 
-The current v1.3.0 draft names Shuhan He as sole submitter and main point of contact. Reconfirm that choice.
-Never restore historical coauthors without explicit current consent. Confirm current eligibility, duplicate
+The current v1.3.0 draft names Shuhan He as submitter and main point of contact. Reconfirm the complete byline
+from the latest concept-specific record and preserve every confirmed individual. Never restore historical
+coauthors without explicit current consent. Confirm current eligibility, duplicate
 status, artwork ownership, and rights without inventing records.
 
 Evaluate `Blister Pack`, `Medication Blister Pack`, and `Pill Pack` as generic names and search terms. PillPack
@@ -78,9 +79,9 @@ reject this medication-packaging lane.
    language unless a narrowly relevant factual statement is cited and does not substitute for expected use.
 6. Build comparison boards at 18x18 and 72x72 against Pill, Pill Box, Package, Calendar, keypad, remote control,
    and generic packaging in color and black-and-white.
-7. Prepare unprompted human recognition testing for `blister pack/medicine pack` versus keypad, remote,
-   calendar, pills, and packaging. Target 80% correct at 18x18 with no wrong concept above 10%. Never fabricate
-   participants or substitute AI labels for human results.
+7. Present the exact four final assets at actual size beside keypad, remote, calendar, pills, and packaging to
+   Shuhan He. Record his dated `APPROVE` or `REVISE` decision; no participant panel, sample size, or recognition
+   percentage is required.
 8. Revise the art only if the concept survives the substitute and evidence gates. Keep it textless, generic,
    vendor-flexible, and recognizable without brand colors, dosage text, logos, or a fixed tablet count.
 9. If advancing, rewrite every current inclusion and exclusion factor, rebuild the PDF with
@@ -98,8 +99,8 @@ reject this medication-packaging lane.
 - Run `git diff --check`.
 - If a PDF is rebuilt, inspect pages, fonts, encryption, text extraction, hyperlinks, file size, and every
   rendered page at normal zoom.
-- Report blocked Google sessions, missing dependencies, unresolved authorship/rights, and unavailable human
-  testing honestly.
+- Report blocked Google sessions, missing dependencies, unresolved authorship/rights, and missing Shuhan image
+  approval honestly.
 
 ## Decision and handoff
 
@@ -111,5 +112,5 @@ The final decision must be exactly one of:
 - `DO NOT ADVANCE`
 
 Commit only the complete Pill Pack prerelease decision package. Do not push, merge, publish, or submit unless
-explicitly authorized. Report branch, base commit, version, commit hash, files changed, evidence, recognition
-result, decision, readiness score if applicable, blockers, and coordinator promotion notes.
+explicitly authorized. Report branch, base commit, version, commit hash, files changed, evidence, Shuhan's
+visual-approval result, decision, readiness score if applicable, blockers, and coordinator promotion notes.

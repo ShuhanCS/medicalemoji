@@ -5,6 +5,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.44.0] - 2026-07-26
+
+### Changed
+- Replaced crowd-based, blind, and percentage-based image-recognition gates with Shuhan He's dated approval of
+  each proposal's exact 18x18 and 72x72 color and black-and-white assets at actual size.
+- Retired the Stomach twelve-person recognition procedure and converted its record into a direct Shuhan
+  `APPROVE` or `REVISE` workflow tied to exact asset hashes.
+- Made each proposal's latest consent, author-verification, or source-ledger record authoritative for authorship
+  instead of hard-coding “Shuhan He only” in reusable guides.
+- Corrected current Stomach and Liver guidance to preserve Shuhan He, David Rhew, and Heena Purohit as confirmed
+  submitters, with Shuhan He as main point of contact.
+- Advanced the rubric from `3.0.0` to `3.1.0` and the workspace from `0.43.1` to `0.44.0`.
+
 ## [0.43.1] - 2026-07-26
 
 ### Changed

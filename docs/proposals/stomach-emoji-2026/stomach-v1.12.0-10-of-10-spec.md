@@ -22,14 +22,15 @@ and selected artwork direction are settled. Do not reopen them unless new contra
 appears.
 
 The current v1.11.0 proposal has a strong semantic case, a strong first page, and substantially improved art.
-Its remaining weaknesses are current empirical evidence, demonstrated small-size recognition, reproducible
+Its remaining weaknesses are current empirical evidence, Shuhan's final small-size image approval, reproducible
 comparator validation, and final packet control. The next revision does not need a conceptual rewrite or new
-art unless testing reveals a specific confuser failure.
+art unless review reveals a specific confuser failure.
 
 ## Fixed facts
 
 - **Eligibility: Pass.** Shuhan He has confirmed that Stomach is eligible for this submission cycle.
-- **Authorship: Pass.** Shuhan He is the sole submitter and main point of contact.
+- **Authorship: Pass.** The latest record confirms Shuhan He, David Rhew, and Heena Purohit as submitters;
+  Shuhan He is the main point of contact.
 - **Rights: Pass.** The submitted image is project-created artwork. GPT Image 2 was used for concept
   exploration, and the filing assets were rebuilt as original deterministic SVG geometry for this project.
   Shuhan He has confirmed that the project has the rights required to submit and license the artwork.
@@ -61,7 +62,7 @@ Do not alter the committed `submissions/v1.11.0/` packet.
 2. While any gate remains open, use `REVIEW` or `CANDIDATE` filenames, never `_SUBMIT`.
 3. After every pre-publication gate passes, copy the complete canonical package to `submissions/v1.12.0/`.
 4. Update package `VERSION`, `CHANGELOG.md`, `manifest.md`, `ARTWORK-LICENSE.md`, and Stomach `READINESS.md`.
-5. Generate the exact `_SUBMIT.md` and `_SUBMIT.pdf` only after the content, evidence, artwork, recognition,
+5. Generate the exact `_SUBMIT.md` and `_SUBMIT.pdf` only after the content, evidence, artwork, Shuhan approval,
    validation, rights, and review gates pass.
 6. Preserve every non-Stomach file byte-for-byte from v1.11.0 unless a package-control file must change.
 7. Publish and file only after Shuhan He explicitly authorizes those external actions.
@@ -75,7 +76,7 @@ The completed work must contain:
 - A declared confuser set and pinned source manifest with SHA-256 hashes.
 - Actual-size comparison boards for color and black-and-white at 18x18 and 72x72.
 - Machine-readable deterministic image-validation results.
-- A raw, auditable 12-person recognition-test record.
+- A dated record of Shuhan's approval of the exact four image assets at actual size.
 - Final color and true black-and-white SVG sources and exact PNG exports.
 - Current-format proposal Markdown and rendered PDF.
 - A PDF technical report and page-by-page visual review record.
@@ -133,7 +134,7 @@ consistent review date and reproducibility standard.
 - Every screenshot, caption, URL, setting, and written interpretation agrees.
 - Every material usage claim appears in the source ledger with a readable citation or is removed.
 
-## Workstream 2: recognition and confuser proof
+## Workstream 2: visual approval and confuser review
 
 ### Paradigm definition
 
@@ -193,25 +194,23 @@ Create a reproducible command and machine-readable report that verifies:
 These thresholds establish technical separation only. They must never be described as proof of human
 recognition.
 
-### Human recognition test
+### Shuhan visual approval
 
-- Recruit at least 12 people who did not create or review the art and are not told the target.
-- Show the 18x18 color Stomach alone at actual size on a neutral background.
-- Ask exactly: `What is this?`
-- Record raw free-text answers before showing choices.
-- In a separately randomized pass, repeat with the 18x18 black-and-white asset.
-- Then run a forced-choice test using the declared confuser set.
-- Predeclare accepted answers: `stomach`, `human stomach`, and unambiguous equivalent-language translations.
-- Pass only if at least 10 of 12 participants identify the intended concept in both unprompted passes and no
-  wrong concept dominates the responses.
-- Archive participant codes, presentation order, prompt, raw answers, normalization decisions, scoring rule,
-  forced-choice answers, and result. Do not collect unnecessary personal information.
+- Show Shuhan He the exact 18x18 and 72x72 color and black-and-white Stomach assets at actual size on a neutral
+  background.
+- Show the matching actual-size comparison boards with the declared nearest visual alternatives.
+- Ask for a direct `APPROVE` or `REVISE` decision on the intended Stomach read and the essential visible cues.
+- Record the date, exact asset SHA-256 hashes, comparison-board version, decision, and any requested revision.
+- Shuhan's `APPROVE` decision is the complete human image gate. No participant recruitment, blind test, sample
+  size, raw-response archive, recognition percentage, or confusion matrix is required.
+- Any material image change invalidates the approval and requires the exact replacement assets to return to
+  Shuhan.
 
 ### Failure rule
 
-If either 18x18 asset fails the human gate, revise only the cue responsible for the dominant confusion, create
-a new candidate version, and rerun the complete test with fresh participants. Do not weaken the threshold,
-discard inconvenient answers, or replace human results with AI classification.
+If Shuhan records `REVISE`, change only the cue responsible for the concern, create a new candidate version,
+rerun the technical checks, and return the exact revised assets for a new decision. Do not treat computer or AI
+classification as a substitute for his approval.
 
 ## Workstream 3: reviewer-facing proposal edit
 
@@ -223,7 +222,7 @@ language from the final PDF.
 Retain:
 
 - `Proposal for Emoji: Stomach`.
-- Shuhan He as sole submitter and main point of contact.
+- Shuhan He, David Rhew, and Heena Purohit as submitters, with Shuhan He as main point of contact.
 - Current revision date.
 - Search-oriented keywords and `People & Body - body-parts` category.
 - Four exact images at the top of the page.
@@ -243,9 +242,9 @@ Improve:
    pill or hospital/care. Explain the distinct message created by Stomach.
 3. **Breaks new ground:** Begin `Yes.` Name Nauseated Face and food emoji as the strongest substitutes, then
    state the remaining gap: neither directly identifies the stomach organ.
-4. **Distinctiveness:** Explain the inlet, open concavity, lower body, and outlet. Add a concise reference to
-   the successful actual-size color and black-and-white recognition result. Include a compact confuser figure
-   only if it remains legible and reduces reviewer effort; keep the full validation record internal.
+4. **Distinctiveness:** Explain the inlet, open concavity, lower body, and outlet. Include a compact confuser
+   figure only if it remains legible and reduces reviewer effort; keep Shuhan's approval and the full validation
+   record internal.
 5. **Usage level:** Replace every historical exhibit and historical caption. Interpret all five current
    sources directly and honestly.
 6. **Completeness:** Keep `Not applicable` and state that the proposal does not seek a complete anatomy set.
@@ -314,14 +313,14 @@ Zero visual or technical defects are allowed in the final candidate.
 
 | Area | Points | Required evidence for full credit |
 | --- | ---: | --- |
-| Eligibility and coordination | 15 | Eligibility treated as confirmed; one Stomach proposal; Shuhan He confirmed as sole author and contact; no known duplicate filing conflict. |
+| Eligibility and coordination | 15 | Eligibility treated as confirmed; one Stomach proposal; the latest record confirms Shuhan He, David Rhew, and Heena Purohit as authors with Shuhan as contact; no known duplicate filing conflict. |
 | First-page format | 10 | All current fields, four images, and rights language are correct and immediately visible. |
-| Image package and rights | 15 | Rights pass; four exact assets pass technical checks; both 18x18 assets pass the declared human recognition gate. |
+| Image package and rights | 15 | Rights pass; four exact assets pass technical checks and receive Shuhan's dated actual-size approval. |
 | Frequency and empirical evidence | 20 | Five current, readable, reproducible captures plus a complete source ledger for material claims. |
 | Inclusion factors | 15 | Every factor is direct and evidenced; `Breaks new ground` says Yes; Completeness and Compatibility use `Not applicable`. |
 | Exclusion factors | 10 | The strongest substitutes and open-ended objection are answered specifically and concisely. |
 | Worldwide and durable case | 5 | Current worldwide Trends plus long-range Ngram and durable cited meanings; no cause-only framing. |
-| Validation and reproducibility | 5 | Pinned comparators, hashes, thresholds, machine-readable checks, and raw passing recognition record reproduce cleanly. |
+| Validation and reproducibility | 5 | Pinned comparators, hashes, thresholds, machine-readable checks, and Shuhan's exact-asset approval record reproduce cleanly. |
 | Packet and filing control | 5 | Immutable versioned packet, clean exact PDF, public HTTPS URL, logged-out check, reconciled form, and archived filing record. |
 | **Total** | **100** | **Every item complete for the same exact PDF and image hashes.** |
 
@@ -335,8 +334,8 @@ submission as 10/10.
 3. Capture and validate all five current frequency exhibits.
 4. Pin the confuser set and generate actual-size comparison boards.
 5. Run deterministic image validation.
-6. Run the 12-person recognition test.
-7. Revise art only if a declared recognition gate fails.
+6. Obtain Shuhan's dated `APPROVE` or `REVISE` decision on the exact four assets at actual size.
+7. Revise art only if Shuhan requests it or a declared technical gate fails.
 8. Apply the reviewer-facing advocate edit using the passing art and current evidence.
 9. Generate a candidate PDF and perform technical plus page-by-page visual QA.
 10. Obtain factual, Unicode-process, and Shuhan He approval for the exact candidate.
@@ -350,7 +349,7 @@ submission as 10/10.
 Do not promote or publish if:
 
 - a current evidence capture is missing or unreadable;
-- the color or black-and-white 18x18 image fails recognition;
+- Shuhan has not approved the exact color and black-and-white assets;
 - a dominant confuser remains unresolved;
 - any material claim lacks support;
 - the exact PDF has not passed page-by-page review;
@@ -366,7 +365,7 @@ The implementer must report:
 - exact PDF SHA-256 hash, byte size, and page count;
 - all five evidence capture dates and query URLs;
 - comparator manifest and validation result;
-- recognition-test participant count and pass/fail result;
+- Shuhan image-approval date, exact hashes, and `APPROVE` result;
 - PDF technical and visual QA result;
 - public raw HTTPS URL and logged-out result after publication; and
 - official-form confirmation after filing.

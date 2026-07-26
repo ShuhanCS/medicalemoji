@@ -43,9 +43,11 @@ Use primary sources and gstack browse for browser research/evidence capture unle
 
 ## Fixed identity and scope
 
-Shuhan He is the sole submitter and main point of contact. Keep the proposal independently about Stomach; do
-not use anatomy-set completeness or the existence of other organ emoji as justification. Verify eligibility,
-duplicate status, artwork ownership, and rights. Do not infer or fabricate confirmation records.
+The current confirmed submitters are Shuhan He, David Rhew, and Heena Purohit; Shuhan He is the main point of
+contact. Preserve the latest concept-specific consent/source record if it changes. Keep the proposal
+independently about Stomach; do not use anatomy-set completeness or the existence of other organ emoji as
+justification. Verify eligibility, duplicate status, artwork ownership, and rights. Do not infer or fabricate
+confirmation records.
 
 ## Work required
 
@@ -59,8 +61,9 @@ duplicate status, artwork ownership, and rights. Do not infer or fabricate confi
    substitutes. Explain the remaining semantic gap without overclaiming clinical importance.
 7. Build color and black-and-white comparison boards at 18x18 and 72x72 against Liver, Anatomical Heart, food,
    and generic internal-organ shapes.
-8. Prepare and document an unprompted human recognition test. Target 80% correct identification at 18x18 with
-   no wrong concept above 10%. Never fabricate participants or use AI labels as human recognition evidence.
+8. Present the exact four final assets at actual size beside the declared alternatives to Shuhan He and record
+   his dated `APPROVE` or `REVISE` decision. No participant panel, sample size, or recognition percentage is
+   required.
 9. Revise the J-shaped silhouette if it reads as liver, meat, bean, hook, or generic organ. Recheck both color
    and monochrome assets after revision.
 10. Rewrite selection and exclusion factors where needed, especially Open-ended, Already representable, and
@@ -84,7 +87,8 @@ duplicate status, artwork ownership, and rights. Do not infer or fabricate confi
 
 Commit only the complete Stomach prerelease lane. Do not push, merge, publish, or submit unless explicitly
 authorized. Report branch, base commit, prerelease version, commit hash, files changed, evidence and citations,
-recognition result, verification, readiness score/status, blockers, and coordinator promotion notes.
+Shuhan's visual-approval result, verification, readiness score/status, blockers, and coordinator promotion
+notes.
 
 Allowed status: `REVISION REQUIRED`, `BLOCKED`, or `READY TO PUBLISH`. Do not use `READY TO SUBMIT` before a
 verified public URL, form reconciliation, author confirmation, and Shuhan He's approval exist.

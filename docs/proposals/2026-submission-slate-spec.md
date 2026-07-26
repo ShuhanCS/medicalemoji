@@ -29,7 +29,7 @@ candidate for its selection case.
 Kidney, White Blood Cell, Stomach, and Liver remain the filing slate. Pill Pack is an explicit new evaluation
 workstream, but it does not become a filing commitment until it demonstrates a strong independent case against
 Pill, resolves its overlap with Pill Box, avoids confusion with the PillPack brand, and passes the same evidence
-and recognition gates as the other proposals. No other Medical Emoji concept is in scope for this intake.
+and Shuhan-approval gates as the other proposals. No other Medical Emoji concept is in scope for this intake.
 
 ## Review order
 
@@ -44,11 +44,17 @@ and recognition gates as the other proposals. No other Medical Emoji concept is 
 The baseline scores came from the earlier readiness audit. They are not Unicode scores or approval
 probabilities, and each proposal must be rescored after correction under the current proposal-level rubric.
 
-## Fixed authorship
+## Concept-specific authorship
+
+The latest explicit consent, author-verification, or source-ledger record for each concept controls. This
+specification records current status but must never override a newer confirmation. Preserve every confirmed
+individual; do not default a proposal to Shuhan He alone, remove a coauthor because Shuhan is the contact or
+rights certifier, or copy one concept's byline into another.
 
 ### White Blood Cell
 
-Submitter and main point of contact: Shuhan He only.
+The current v1.8.0 draft lists Shuhan He as submitter and main point of contact. Reconfirm against the current
+White Blood Cell record before revision.
 
 ### Kidney
 
@@ -61,20 +67,20 @@ Main point of contact: Shuhan He.
 
 ### Stomach
 
-Submitter and main point of contact: Shuhan He only.
+Current confirmed submitters: Shuhan He; David Rhew; Heena Purohit. Main point of contact: Shuhan He.
 
 ### Liver
 
-Submitter and main point of contact: Shuhan He only.
+Current confirmed submitters: Shuhan He; David Rhew; Heena Purohit. Main point of contact: Shuhan He.
 
 ### Pill Pack
 
-Provisional submitter and main point of contact: Shuhan He only, matching the current v1.3.0 draft. Reconfirm
+The current v1.3.0 draft lists Shuhan He as provisional submitter and main point of contact. Reconfirm
 this before revising the proposal; do not restore names from the 2020 Emojination draft without each person's
 explicit current consent.
 
-Do not copy the Kidney author list into White Blood Cell, Stomach, Liver, or Pill Pack. Credentials and
-affiliations are optional; names must match the proposal PDF and submission form exactly.
+Credentials and affiliations are optional; names must match the controlling source record, proposal PDF, and
+submission form exactly.
 
 ## Source and release policy
 
@@ -194,6 +200,9 @@ use may be described when established and cited, but cannot be the reason for en
 - For Kidney, require normalized silhouette IoU no greater than 0.72 and 64-bit difference-hash distance of at
   least 16 for every comparator, in addition to dimension, palette, and connectedness checks.
 - If the silhouette fails, revise the art and repeat the computer test; do not solve separation through prose.
+- Present the exact four final assets at actual size beside the nearest visual alternatives to Shuhan He. Record
+  his dated `APPROVE` or `REVISE` decision. No participant panel, blind test, sample size, or recognition
+  percentage is required.
 
 ### Step 5: Correct and rebuild the proposal
 
@@ -231,13 +240,14 @@ Do not promote the next concept into a canonical package until the preceding can
 
 ### White Blood Cell
 
-- Preserve Shuhan He as the sole submitter and main point of contact.
+- Reconfirm the current White Blood Cell byline from its own author record; do not assume sole authorship from
+  an older draft. Preserve Shuhan He as main point of contact unless that record changes.
 - Refresh the 2020 Google Search and Video captures; replace the noncompliant Web Trends comparison and add
   Image Trends, both worldwide against `elephant`.
 - Test the 18x18 color and black-and-white art against Microbe, Drop of Blood, Soap, Bubbles, and a generic
   cell. The lobed nucleus must remain visible without making the image look like a face or cartoon germ.
-- Decide whether unprompted viewers recognize `white blood cell`, the broader `blood cell`, or only `cell`.
-  Revise the paradigm if Microbe or generic cell dominates.
+- Obtain Shuhan's approval of the exact four assets after actual-size comparison with Microbe, generic cell,
+  and the other declared alternatives. Revise if he does not approve the intended read.
 - Cite or remove claims about immunity, infection, inflammation, white-cell counts, laboratory results,
   chemotherapy monitoring, education, and research.
 - Keep the concept at the broad leukocyte category. Do not imply that Unicode should add every blood cell,
@@ -269,7 +279,8 @@ Do not promote the next concept into a canonical package until the preceding can
 ### Liver
 
 - Replace every 2020 frequency capture, especially U.S.-only Trends, with current worldwide evidence.
-- Rework the 18x18 color and black-and-white silhouettes until unprompted reviewers identify Liver reliably.
+- Rework the 18x18 color and black-and-white silhouettes until Shuhan approves the intended Liver read at
+  actual size.
 - Compare against Stomach, Anatomical Heart, meat/food imagery, and generic organ shapes.
 - Cite or remove medical, cultural, culinary, and metaphorical usage claims.
 - Treat Multiple meanings, Completeness, and Compatibility as `N/A` unless compelling evidence survives review.
@@ -279,7 +290,7 @@ Do not promote the next concept into a canonical package until the preceding can
 - Treat the v1.3.0 folder as historical source material, not as a filing-ready packet.
 - Begin with a go/no-go memo that tests the generic name `Blister Pack` against `Pill Pack`, including the risk
   of confusion with the PillPack pharmacy brand. Do not use brand evidence as a compatibility argument.
-- Reconfirm current eligibility, the public status record, duplicate-proposal status, sole authorship, artwork
+- Reconfirm current eligibility, the public status record, duplicate-proposal status, authorship, artwork
   ownership, and whether Pill Box is being held or advanced. Pill Pack and Pill Box must not both be filed in
   the same intake without an explicit overlap decision.
 - Build the independent-use case around sealed doses, remaining supply, dispensing, and finite medication
@@ -288,7 +299,7 @@ Do not promote the next concept into a canonical package until the preceding can
 - Recapture all five required frequency sources from scratch. The archived draft is missing Web Trends, uses
   the wrong Image Trends comparator, and contains stale 2020 Search and Video evidence.
 - Test color and black-and-white art at 18x18 against Pill, Pill Box, keypad, remote control, calendar grid, and
-  generic packaging. Revise or stop if unprompted reviewers do not identify a blister medication pack.
+  generic packaging. Revise or stop if Shuhan does not approve the intended blister-medication-pack read.
 - Remove burden, opioid-crisis, adherence-advocacy, and professional-importance language unless a narrowly
   relevant factual statement is durably cited and does not substitute for expected usage.
 - Exit with either `ADVANCE TO FILING SLATE` and a complete corrected semver package, or `DO NOT ADVANCE` with a
@@ -315,10 +326,11 @@ After every proposal still intended for filing completes individual review:
 1. Confirm the author lists and main contact one final time.
 2. Confirm that each proposal has a distinct independent-use case and no set-completion argument.
 3. Run the declared computer-validation checks for every intended filing glyph in color and black-and-white.
-4. Harmonize shared terminology without duplicating unsupported claims.
-5. Confirm that dates, category names, rights statements, evidence methods, and file naming are consistent.
-6. Re-render and inspect every final PDF.
-7. Verify that every proposal independently meets every must-pass gate.
+4. Obtain Shuhan's dated approval of every exact final four-asset image set at actual size.
+5. Harmonize shared terminology without duplicating unsupported claims.
+6. Confirm that dates, category names, rights statements, evidence methods, and file naming are consistent.
+7. Re-render and inspect every final PDF.
+8. Verify that every proposal independently meets every must-pass gate.
 
 ## Status vocabulary
 

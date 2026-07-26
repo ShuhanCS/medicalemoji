@@ -33,6 +33,10 @@ in `READINESS`, validation, or QA records. They are not Unicode evidence and mus
 > The submission form's Submitter field states: *"The name must be of an individual. Names of organizations
 > or companies will not be considered."* Name a person. Affiliations belong in parentheses.
 > Update the date on every revision.
+>
+> **Authorship source of truth:** Use the concept's latest consent, author-verification, or source-ledger record.
+> Preserve every confirmed individual and the recorded order. Never default to “Shuhan He only,” remove a
+> coauthor because Shuhan is the contact or rights certifier, or copy another proposal's byline.
 
 ---
 
@@ -142,8 +146,10 @@ in `READINESS`, validation, or QA records. They are not Unicode evidence and mus
 > keeping [essential cues].`
 >
 > Describe only what a human reviewer can see. Keep `intersection-over-union`, difference hashes, pinned assets,
-> thresholds, connectedness checks, and “machine-visible separation” in internal QA. Do not claim recognition
-> testing unless genuine human-recognition evidence exists.
+> thresholds, connectedness checks, and “machine-visible separation” in internal QA. Shuhan He approves the
+> exact four final assets after viewing them at actual size beside the nearest visual alternatives. Record his
+> dated `APPROVE` decision internally; no participant panel, blind test, crowd study, sample size, or recognition
+> percentage is required.
 
 **e. Usage level.** {{ONE PARAGRAPH INTERPRETING THE EVIDENCE IN SECTION 7}}
 
@@ -308,6 +314,8 @@ browser window."*
 - [ ] Written for a general reader; unavoidable specialist terms are defined once in plain English
 - [ ] Every factor starts with its conclusion and gives only the strongest evidence or examples
 - [ ] No internal QA jargon, algorithms, hashes, thresholds, gates, asset manifests, or release status in the PDF
+- [ ] Exact four final image assets received Shuhan's dated actual-size `APPROVE` decision
+- [ ] Authorship matches the latest concept-specific consent/source record; no default sole-author assumption
 - [ ] `N/A` written wherever honest, especially Completeness and Compatibility
 - [ ] Keywords contain no form of the emoji's name
 - [ ] Artwork contains no text, digits or barcodes; 18×18 and 72×72; colour and black and white; not grayscale
