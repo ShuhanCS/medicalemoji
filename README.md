@@ -4,8 +4,8 @@
 
 The controlling agent playbook is the
 [`Medical Emoji Proposal Guide (2026)`](PROPOSAL-GUIDE.md). It consolidates the current 2026 format, the
-accepted-proposal audit, the confirmed-decline lessons, and an image-quality gate based on actual 18x18
-recognition rather than file dimensions alone.
+accepted-proposal audit, the confirmed-decline lessons, and an image-quality gate based on reproducible
+technical checks and actual-size comparison rather than file dimensions alone.
 
 The most important answers are explicit:
 
@@ -15,7 +15,7 @@ The most important answers are explicit:
 | Does that mean a scientifically novel or obscure subject? | **No.** The vocabulary gap is new; the underlying concept should already be familiar and widely used. |
 | Should an organ claim **Completeness**? | **No - use `N/A`.** Anatomy is not a fixed set. |
 | Is medical importance or awareness enough? | **No.** It cannot replace ordinary-use evidence. |
-| Do correct dimensions prove good artwork? | **No.** Both 18x18 assets must pass unprompted recognition against declared confusers. |
+| Do correct dimensions prove good artwork? | **No.** Both 18x18 assets must preserve their essential cues and pass declared technical and actual-size comparison controls. |
 
 For Kidney, Stomach, Liver, and White Blood Cell, `Breaks new ground = Yes` is defensible. That answer is
 necessary, not sufficient: each proposal must still pass usage, distinctiveness, Open-ended, evidence,
@@ -33,17 +33,18 @@ proposals must be corrected one at a time before filing:
 - Serial slate, semver, and agent handoff spec: [`docs/proposals/2026-submission-slate-spec.md`](docs/proposals/2026-submission-slate-spec.md)
 - Standalone parallel agent specs: [`docs/proposals/agent-specs/`](docs/proposals/agent-specs/)
 - Organ-by-organ audit: [`docs/proposals/2026-organ-submission-audit.md`](docs/proposals/2026-organ-submission-audit.md)
-- Current complete versioned package: [`submissions/v1.10.0/`](submissions/v1.10.0/)
+- Current complete versioned package: [`submissions/v1.11.0/`](submissions/v1.11.0/)
 - Historical organ baseline: [`submissions/v1.7.0/`](submissions/v1.7.0/)
 - Historical White Blood Cell baseline: [`submissions/v1.3.0/white-blood-cell/`](submissions/v1.3.0/white-blood-cell/)
 
 Submission packages are immutable semver snapshots. Every update creates a new complete version folder; files
-that did not change are copied forward byte for byte. The next substantive proposal revision will be v1.11.0.
+that did not change are copied forward byte for byte. The current substantive proposal revision is v1.11.0.
 
-Authorship is fixed for the filing slate: Kidney uses the complete consenting ten-person author list in v1.10.0, adding
-David Rhew and Heena Purohit to the eight previously listed submitters; White Blood Cell, Stomach, and Liver
-list only Shuhan He. The provisional Pill Pack brief also starts with Shuhan He only and requires
-reconfirmation before revision. The 2026 submission window closes at the end of day on 2026-07-31.
+Authorship is fixed for the filing slate: Kidney uses the complete consenting ten-person author list in v1.10.0,
+adding David Rhew and Heena Purohit to the eight previously listed submitters; White Blood Cell lists Shuhan He,
+David Rhew, and Heena Purohit; Stomach and Liver list only Shuhan He. The provisional Pill Pack brief also starts
+with Shuhan He only and requires reconfirmation before revision. The 2026 submission window closes at the end of
+day on 2026-07-31.
 
 ## ⏳ Deadlines
 
@@ -179,13 +180,13 @@ proposal workspaces. Status rows are from Unicode's live public proposal-status 
 
 | Concept | Repo source | Unicode public status rows | Latest public status | Last public date submitted | Reeligible by submitted-date clock | Next step |
 | --- | --- | --- | --- | --- | --- | --- |
-| Kidney / Kidneys | Active site candidate | `Kidney` declined 2019-12-17; `KIDNEYS` declined 2022-07-19; private decline notice 2022-11-04 | Confirmed eligible for 2026 | 2022 | After 2026-11-04 by date alone; separately confirmed eligible | Working candidate in `submissions/v1.7.0/`; add the full author list, improve small-size recognition, refresh evidence, and archive the eligibility confirmation. |
-| Liver | Active site candidate | `Liver` declined 2020-12-18; `Liver` declined 2022-07-30; private decline notice 2022-11-04 | Confirmed eligible for 2026 | 2022 | After 2026-11-04 by date alone; separately confirmed eligible | Working candidate in `submissions/v1.7.0/`; improve small-size recognition, replace stale 2020 evidence including U.S.-only Trends captures, and archive the eligibility confirmation. |
+| Kidney / Kidneys | Active site candidate | `Kidney` declined 2019-12-17; `KIDNEYS` declined 2022-07-19; private decline notice 2022-11-04 | Confirmed eligible for 2026 | 2022 | After 2026-11-04 by date alone; separately confirmed eligible | Working candidate in `submissions/v1.7.0/`; add the full author list, improve small-size separation, refresh evidence, and archive the eligibility confirmation. |
+| Liver | Active site candidate | `Liver` declined 2020-12-18; `Liver` declined 2022-07-30; private decline notice 2022-11-04 | Confirmed eligible for 2026 | 2022 | After 2026-11-04 by date alone; separately confirmed eligible | Working candidate in `submissions/v1.7.0/`; improve small-size separation, replace stale 2020 evidence including U.S.-only Trends captures, and archive the eligibility confirmation. |
 | Stomach | Active site candidate | `Stomach` declined 2020-10-27; `Stomach` declined 2022-07-28; private decline notice 2022-11-04 | Confirmed eligible for 2026 | 2022 | After 2026-11-04 by date alone; separately confirmed eligible | Working candidate in `submissions/v1.7.0/`; replace stale 2020 Search, Video, and Trends evidence and archive the eligibility confirmation. |
 | Spine | Active site candidate | `Spine` declined 2020-10-27; `Spine` declined 2024-04-05 | Declined | 2024-04-05 | 2028-04-05 | Do not resubmit before 2028 unless Unicode confirms a materially different concept is eligible. |
 | Intestines | Active site candidate | `Intestines` declined 2020-12-18; `Intestines` declined 2024-04-04 | Declined | 2024-04-04 | 2028-04-04 | Do not resubmit before 2028 unless Unicode confirms eligibility. |
 | ECG / EKG | Active site candidate | `ECG` declined 2020-12-18; `ECG` declined 2024-04-05 | Declined | 2024-04-05 | 2028-04-05 | Do not resubmit before 2028 unless Unicode confirms eligibility. |
-| White Blood Cell | Active 2026 slate | `White Blood Cell` declined 2020-12-18 | Reeligible; selected for 2026 review | 2020-12-18 | 2024-12-18 | Review first; refresh Search and Video, replace Web Trends, add Image Trends, and pass an 18x18 recognition test against Microbe and generic-cell imagery. |
+| White Blood Cell | Active 2026 slate | `White Blood Cell` declined 2020-12-18 | Reeligible; selected for 2026 review | 2020-12-18 | 2024-12-18 | Refresh Search and Video, replace Web Trends, add Image Trends, and pass technical and actual-size comparisons against Microbe and generic-cell imagery. |
 | Blood Bag | Active site candidate | `Blood bag` declined 2017-05-16; `Blood Bag (B)` declined 2020-12-18 | Declined | 2020-12-18 | 2024-12-18 | Current filing choice in `submissions/v1.3.0/`; refresh evidence, factor labels, metadata, citations, and ownership language before filing. |
 | Pill Pack | Active site candidate | `Pill Pack` declined 2020-12-18 | Declined | 2020-12-18 | 2024-12-18 | Draft complete; hold behind Pill Box and finish Trends only if advanced. |
 | Weight Scale | Active site candidate | `Bathroom Scale` expired 2018-02-27; `Weight Scale (B)` declined 2020-12-18 | Declined | 2020-12-18 | 2024-12-18 | Challenger draft complete; add two Trends captures. |

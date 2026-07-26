@@ -29,7 +29,7 @@ candidate for its selection case.
 Kidney, White Blood Cell, Stomach, and Liver remain the filing slate. Pill Pack is an explicit new evaluation
 workstream, but it does not become a filing commitment until it demonstrates a strong independent case against
 Pill, resolves its overlap with Pill Box, avoids confusion with the PillPack brand, and passes the same evidence
-and recognition gates as the other proposals. No other Medical Emoji concept is in scope for this intake.
+and image-validation gates as the other proposals. No other Medical Emoji concept is in scope for this intake.
 
 ## Review order
 
@@ -39,7 +39,7 @@ and recognition gates as the other proposals. No other Medical Emoji concept is 
 | 2 | White Blood Cell | [v1.8.0 White Blood Cell](../../submissions/v1.8.0/white-blood-cell/) | Not yet rescored | Determine whether its cell paradigm is recognizable and independently selective before investing in the full filing packet. |
 | 3 | Stomach | [v1.8.0 Stomach](../../submissions/v1.8.0/stomach/) | 77/100 | Strong semantic and silhouette case; four frequency captures must be refreshed and enlarged. |
 | 4 | Liver | [v1.8.0 Liver](../../submissions/v1.8.0/liver/) | 64/100 | Requires the most work: current worldwide evidence, stronger small-size art, and better support for usage claims. |
-| 5 | Pill Pack | [v1.3.0 Pill Pack](../../submissions/v1.3.0/pill-pack/) | Not yet rescored | Provisional go/no-go evaluation. The existing draft lacks compliant Trends evidence and must overcome Pill/Pill Box substitution, name confusion, and small-size recognition risk. |
+| 5 | Pill Pack | [v1.3.0 Pill Pack](../../submissions/v1.3.0/pill-pack/) | Not yet rescored | Provisional go/no-go evaluation. The existing draft lacks compliant Trends evidence and must overcome Pill/Pill Box substitution, name confusion, and small-size separation risk. |
 
 The baseline scores came from the earlier readiness audit. They are not Unicode scores or approval
 probabilities, and each proposal must be rescored after correction under the current proposal-level rubric.
@@ -48,7 +48,7 @@ probabilities, and each proposal must be rescored after correction under the cur
 
 ### White Blood Cell
 
-Submitter and main point of contact: Shuhan He only.
+Submitters: Shuhan He; David Rhew; Heena Purohit. Main point of contact: Shuhan He.
 
 ### Kidney
 
@@ -73,8 +73,9 @@ Provisional submitter and main point of contact: Shuhan He only, matching the cu
 this before revising the proposal; do not restore names from the 2020 Emojination draft without each person's
 explicit current consent.
 
-Do not copy the Kidney author list into White Blood Cell, Stomach, Liver, or Pill Pack. Credentials and
-affiliations are optional; names must match the proposal PDF and submission form exactly.
+Do not copy the full Kidney author list into Stomach, Liver, or Pill Pack. White Blood Cell has its separately
+confirmed three-author list. Credentials and affiliations are optional; names must match the proposal PDF and
+submission form exactly.
 
 ## Source and release policy
 
@@ -227,7 +228,7 @@ Do not promote the next concept into a canonical package until the preceding can
 
 ### White Blood Cell
 
-- Preserve Shuhan He as the sole submitter and main point of contact.
+- Preserve Shuhan He, David Rhew, and Heena Purohit as submitters, with Shuhan He as main point of contact.
 - Refresh the 2020 Google Search and Video captures; replace the noncompliant Web Trends comparison and add
   Image Trends, both worldwide against `elephant`.
 - Test the 18x18 color and black-and-white art against Microbe, Drop of Blood, Soap, Bubbles, and a generic

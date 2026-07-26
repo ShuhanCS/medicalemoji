@@ -9,7 +9,7 @@ Target intake deadline: 2026-07-31, end of day
 ## Fixed decisions
 
 - White Blood Cell is approved for the 2026 filing slate.
-- Shuhan He is the sole submitter and main point of contact.
+- Shuhan He, David Rhew, and Heena Purohit are the submitters; Shuhan He is the main point of contact.
 - Eligibility is confirmed.
 - Permission to publish and submit is confirmed.
 - Shuhan He confirms that he owns or controls the proposed image rights and can make Unicode's required
@@ -32,7 +32,7 @@ Create and submit a best-in-class White Blood Cell proposal that:
 
 Controlling project guide:
 
-`PROPOSAL-GUIDE.md`, version 1.0.1
+`PROPOSAL-GUIDE.md`, version 1.0.2
 
 Controlling external guidance:
 
@@ -129,24 +129,25 @@ Store the results as:
 - `validation/computer-validation.md`;
 - a committed export and validation script.
 
-Technical metrics support the art record; human recognition establishes semantic clarity.
+Technical metrics, pinned comparator assets, and actual-size visual review establish the reproducible image
+record.
 
-## Improvement 2: complete unprompted recognition evidence
+## Improvement 2: complete actual-size comparison evidence
 
-Use the repository's current recognition standard.
+Use the repository's current technical and visual validation standard.
 
-1. Recruit at least 12 adults who have not seen the proposal or intended name.
-2. Show the color and black-and-white 18x18 images at actual size on a neutral background in separately
-   randomized passes.
-3. Ask `What is this?` and record the first free-text answer verbatim before showing choices.
-4. Follow with a forced-choice comparison using White Blood Cell, Microbe, Drop of Blood, generic cell, and
-   unrelated controls.
-5. Count `white blood cell`, `WBC`, `leukocyte`, or a named white-cell subtype as exact recognition.
-6. Archive the prompt, presentation method, participant count, raw responses, coding decisions, and results.
-7. Iterate the artwork with fresh participants until both palettes reach at least 10 of 12 exact-recognition
-   responses and no alternative concept dominates.
+1. Pin every comparator asset to a source URL, revision, license, and SHA-256 hash.
+2. Show the colour and black-and-white candidates beside Microbe, Drop of Blood, Soap, Bubbles, and a generic
+   cell at actual 18x18 and 72x72 sizes.
+3. Record exact dimensions, two-colour palette compliance, connected components, source/export hashes,
+   silhouette overlap, and dark-feature separation.
+4. Preserve the generated colour and black-and-white comparison boards.
+5. Inspect the rendered proposal's first page at 100% scale for visibility, clipping, and loss of essential
+   membrane or nucleus cues.
+6. Iterate until both palettes pass the declared reproducible thresholds and visual inspection.
 
-The raw free-response record remains the primary recognition result; forced choice supplies confuser detail.
+No single metric is treated as sufficient; the record combines source provenance, machine-readable checks,
+actual-size boards, and rendered-page inspection.
 
 ## Improvement 3: capture the complete frequency set
 
@@ -197,7 +198,7 @@ Include at the top:
 
 - Define the semantic gap before discussing background.
 - State `Breaks new ground: Yes` immediately.
-- Use the recognition results and actual-size comparison boards to establish distinctiveness.
+- Use the technical results and actual-size comparison boards to establish distinctiveness.
 - Present all five frequency sources with readable screenshots and concise numerical interpretation.
 - Keep Multiple meanings, Completeness, and Compatibility as direct `N/A` answers.
 - Use the strongest two or three ordinary communication contexts, supported by durable citations.
@@ -269,7 +270,7 @@ https://forms.gle/6KSiYHrUdBkTMNaB8
 | --- | --- |
 | 2026-07-26 | Three 18-pixel art families and manual evidence session |
 | 2026-07-27 | Selected art, complete computer validation, and five-source evidence set |
-| 2026-07-28 | Human recognition results and final art exports |
+| 2026-07-28 | Actual-size comparison review and final art exports |
 | 2026-07-29 | Affirmative proposal source and fully rendered `v1.11.0` PDF |
 | 2026-07-30 | Factual and Unicode-process review, final QA, and public PDF |
 | 2026-07-31 | Status recheck, form submission, and confirmation archive |
@@ -280,7 +281,7 @@ https://forms.gle/6KSiYHrUdBkTMNaB8
 - [ ] The rights statement reflects Shuhan He's confirmed ownership or control and required license grant.
 - [ ] All five current frequency captures are readable, reproducible, and interpreted.
 - [ ] Four exact-size images and editable sources pass reproducible computer validation.
-- [ ] Both 18x18 variants pass unprompted general-viewer recognition.
+- [ ] Both 18x18 variants preserve their essential cues and pass technical and actual-size comparison controls.
 - [ ] Every material factual claim has a durable citation.
 - [ ] The proposal follows the current field and factor order.
 - [ ] The final advocate edit leaves only reviewer-facing submission content.

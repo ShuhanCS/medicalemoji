@@ -32,7 +32,7 @@ h2 { font-size: 14pt; margin: 22pt 0 8pt; break-after: avoid; }
 h3 { font-size: 11.5pt; margin: 16pt 0 6pt; break-after: avoid; }
 h4 { font-size: 10.5pt; margin: 14pt 0 6pt; break-after: avoid; }
 p { margin: 0 0 8pt; break-inside: avoid; orphans: 3; widows: 3; }
-a { color: #1a4fd6; text-decoration: none; word-break: break-all; }
+a { color: #1a4fd6; text-decoration: none; word-break: normal; overflow-wrap: anywhere; }
 code { font-family: Consolas, monospace; font-size: 9.5pt; background: #f3f3f3; padding: 0 2pt; border-radius: 2pt; }
 img { break-inside: avoid; max-width: 100%; max-height: 7.5in; }
 p:has(+ p > img) { break-after: avoid; }

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72">
+  <title>White Blood Cell color proposal artwork</title>
+  <desc>A pale irregular cell with a bold connected three-lobed purple nucleus.</desc>
+  <rect width="72" height="72" fill="#ffffff"/>
+  <path d="M36 7C42 7 46 11 50 13C55 12 60 15 61 20C65 24 64 29 66 34C67 40 63 44 61 49C59 55 53 56 48 60C43 64 37 62 32 65C26 65 22 61 17 59C12 56 12 50 9 45C6 40 9 35 8 30C8 24 13 21 15 17C19 12 25 13 30 9C32 8 34 7 36 7Z" fill="#e8f5f7" stroke="#6f9299" stroke-width="3" stroke-linejoin="round"/>
+  <ellipse cx="31" cy="25" rx="9" ry="8" fill="#67419a"/>
+  <ellipse cx="40" cy="36" rx="9" ry="10" fill="#67419a"/>
+  <ellipse cx="31" cy="48" rx="10" ry="8" fill="#67419a"/>
+  <path d="M34 29L37 32M36 41L34 44" stroke="#67419a" stroke-width="7" stroke-linecap="round"/>
+</svg>

@@ -5,6 +5,40 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.42.0] - 2026-07-26
+
+### Added
+- Added the immutable `v1.11.0` White Blood Cell implementation snapshot with revised vector-native colour
+  and true black-and-white artwork, purpose-built 18x18 sources, exact exports, and comparison boards.
+- Added deterministic artwork building, computer validation, actual-size comparison boards, and final-packet
+  preflight scripts.
+- Added current Google Trends Web, Google Trends Image, and Google Books Ngram evidence with reproducible URLs,
+  exported Trends data, and an evidence log.
+- Added current Google Search and Video Search captures for White Blood Cell and `elephant`, with visible result
+  counts and official-form rounding values.
+- Added pinned comparator provenance and machine-readable silhouette and internal-feature checks for both
+  palettes at actual emoji size.
+- Added the affirmative proposal source aligned to the live 2026 form's five-keyword maximum and expanded
+  `elephant` comparison requirement.
+- Added the rubric 3.0.0 correction specification and synchronized the repository and submission-package
+  copies of the 17-section approval guide.
+
+### Changed
+- Advanced the proposal package from `1.10.0` to `1.11.0` for the substantive White Blood Cell artwork,
+  evidence, proposal, and validation revision.
+- Added David Rhew and Heena Purohit as White Blood Cell authors while retaining Shuhan He as the main point of
+  contact and artwork rights holder.
+- Rewrote the reviewer-facing White Blood Cell argument to follow rubric 3.0.0, including plain-language
+  distinctiveness, normalized non-applicable answers, and a bounded open-ended response.
+- Built the final 11-page PDF, removed internal provenance language from its comparison exhibits, and added a
+  17-section readiness record.
+
+### Verification
+- Rebuilt all four PNG assets from committed SVG sources and passed deterministic validation against Microbe,
+  Drop of Blood, Soap, Bubbles, and a generic-cell control.
+- Verified the actual-size comparison exhibits at 18x18 and 72x72 in both colour and black and white.
+- Reconciled the proposal fields against the live 2026 Unicode submission form.
+
 ## [0.41.0] - 2026-07-26
 
 ### Added
