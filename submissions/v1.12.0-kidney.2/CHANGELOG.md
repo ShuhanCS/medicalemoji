@@ -1,0 +1,68 @@
+# Submission Package Changelog
+
+## 1.12.0-kidney.2 - 2026-07-26
+
+- Preserves David Rhew and Heena Purohit as individual co-authors and submitters in the Kidney filing header.
+- Identifies David Rhew as Global Chief Medical Officer and VP Healthcare at Microsoft and Heena Purohit as
+  Director of AI Startups at Microsoft for Startups.
+- Adds public institutional source URLs for both affiliations and rebuilds the Kidney proposal PDF.
+- Carries the paired artwork, evidence, scoring, and open computer-validation gates forward unchanged from
+  `v1.12.0-kidney.1`.
+
+## 1.12.0-kidney.1 - 2026-07-26
+
+- Adds the approved GPT Image 2 paired-kidney concept as a design reference.
+- Rebuilds the paired geometry as project-authored SVG masters and exact color and black-and-white PNGs at
+  18x18 and 72x72.
+- Updates the Kidney proposal from a single-kidney paradigm to two vertically offset, inward-facing kidneys
+  with short central vessels and ureters.
+- Corrects the validator's foreground segmentation so opaque white canvas pixels are excluded from silhouette
+  measurements.
+- Records the one open geometric comparison instead of weakening the predeclared threshold.
+- Carries White Blood Cell, Stomach, Liver, the proposal template, and the rubric forward byte for byte from
+  canonical v1.11.0.
+
+## 1.11.0 - 2026-07-26
+
+- Replaces the Stomach artwork with a project-authored vector redraw based on the approved long-inlet,
+  deep-concavity, distinct-outlet design direction.
+- Adds purpose-built color and true black-and-white SVG and PNG assets at 18x18 and 72x72.
+- Updates the Stomach proposal date and distinctiveness language and rebuilds the proposal PDF.
+- Adds a Stomach readiness record that preserves the current evidence, recognition, publication, and filing
+  blockers.
+- Carries Kidney, White Blood Cell, Liver, the proposal template, and the rubric forward byte for byte from
+  v1.10.0.
+
+## 1.10.0 - 2026-07-26
+
+- Records confirmed consent for all ten Kidney submitters without requiring a separate internal consent
+  artifact.
+- Replaces the Kidney human-recognition gate with reproducible deterministic computer validation against six
+  pinned Noto Emoji comparators.
+- Adds authoritative dictionary, NIH/NIDDK, MedlinePlus, and Unicode citations for material proposal claims.
+- Removes weak or redundant Kidney sequence examples.
+- Rebuilds the Kidney PDF with deliberate evidence-section page breaks and corrected heading flow.
+- Updates the packaged best-in-class rubric to version 2.4 for the computer-validation decision.
+- Carries White Blood Cell, Stomach, Liver, artwork-license, and proposal-template components forward unchanged
+  from v1.9.0.
+
+## 1.9.0 - 2026-07-26
+
+- Adds David Rhew and Heena Purohit as individual submitters on the Kidney proposal while preserving all eight
+  previously listed submitters and Shuhan He as the main point of contact.
+- Updates the Kidney proposal revision date and rebuilds its PDF.
+- Adds a Kidney readiness review recording the remaining authorship-consent, citation, recognition, layout,
+  publication, and filing gates.
+- Updates the packaged best-in-class rubric to version 2.3 so its fixed authorship control matches the proposal.
+- Carries the White Blood Cell, Stomach, Liver, artwork-license, and proposal-template components forward
+  unchanged from v1.8.0.
+
+## 1.8.0 - 2026-07-21
+
+- Creates the first consolidated four-proposal 2026 submission snapshot.
+- Adds the research-derived ideal proposal template, version 1.0.0.
+- Adds the best-in-class proposal rubric, version 2.2, beside the template.
+- Carries White Blood Cell forward unchanged from submission package v1.3.0.
+- Carries Kidney, Stomach, and Liver forward unchanged from submission package v1.7.0.
+- Establishes immutable semver snapshot rules: every package update creates a new complete folder, while
+  untouched files are copied forward byte for byte.
