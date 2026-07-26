@@ -8,6 +8,7 @@ Shuhan He has confirmed the three organs are eligible, and White Blood Cell is o
 resubmission bar after its 2020 decline. Eligibility is settled for those four; submission quality is not. The
 proposals must be corrected one at a time before filing:
 
+- Case-building and drafting instructions: [`docs/proposals/CASE-BUILDING-AND-DRAFTING-INSTRUCTIONS.md`](docs/proposals/CASE-BUILDING-AND-DRAFTING-INSTRUCTIONS.md)
 - Best-in-class specification: [`docs/proposals/emoji-proposal-approval-rubric.md`](docs/proposals/emoji-proposal-approval-rubric.md)
 - Serial slate, semver, and agent handoff spec: [`docs/proposals/2026-submission-slate-spec.md`](docs/proposals/2026-submission-slate-spec.md)
 - Repeatable ESR/UTC-readiness panel: [`docs/proposals/review-panel/README.md`](docs/proposals/review-panel/README.md)

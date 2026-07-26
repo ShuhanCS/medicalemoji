@@ -1,6 +1,6 @@
 # 2026 Proposal Agent Coordination Index
 
-Version: 1.3.0
+Version: 1.4.0
 
 Date: 2026-07-26
 
@@ -19,6 +19,17 @@ works from the same coordinator-supplied `BASE_COMMIT` in an isolated Git worktr
 
 These are valid SemVer prerelease versions. A second immutable update in a lane increments the final number,
 for example `v1.10.0-kidney.2`. An agent never edits an earlier lane snapshot.
+
+## Shared case-building gate for the active four
+
+The Stomach, Kidney, Liver, and White Blood Cell agents must follow
+[`../CASE-BUILDING-AND-DRAFTING-INSTRUCTIONS.md`](../CASE-BUILDING-AND-DRAFTING-INSTRUCTIONS.md) before revising
+proposal prose. Each creates a concept-specific `CASE-BRIEF.md` and `CLAIM-LEDGER.md` in its active concept
+folder and reaches `CASE READY` before drafting. Pill Pack is not included in this assignment.
+
+The shared approval rubric and template are downstream compliance checks. They are not fill-in-the-blank
+writing systems, and their example patterns must not be copied across proposals. Candidate-specific evidence,
+substitute analysis, priority, meaning, and visual identity must drive the writing.
 
 ## Frozen baseline and collision rule
 

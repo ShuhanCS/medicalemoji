@@ -1,6 +1,6 @@
 # Liver Proposal Agent Specification
 
-Version: 1.1.0
+Version: 1.2.0
 
 Status: Ready to assign
 
@@ -26,6 +26,7 @@ Do not publish or submit the proposal.
 Read completely:
 
 - `docs/proposals/2026-submission-slate-spec.md`
+- `docs/proposals/CASE-BUILDING-AND-DRAFTING-INSTRUCTIONS.md`
 - `docs/proposals/emoji-proposal-approval-rubric.md`
 - The Liver audit in `docs/proposals/2026-organ-submission-audit.md`
 - `submissions/v1.8.0/manifest.md`
@@ -50,6 +51,11 @@ anatomy-set argument. Verify eligibility, duplicate status, artwork ownership, a
 confirmation or review records.
 
 ## Work required
+
+Before editing proposal prose, create `liver/CASE-BRIEF.md` and `liver/CLAIM-LEDGER.md` under the active
+package and pass every gate in the shared case-building instructions. Do not draft from the rubric's example
+sentence patterns. If the result is `CASE BLOCKED`, repair the evidence or case and report the blocker instead
+of polishing generic text.
 
 1. Replace the 2020 Google Search and Video captures with current, readable evidence.
 2. Replace the old Web and Image Trends captures, especially U.S.-only charts, with worldwide widest-range

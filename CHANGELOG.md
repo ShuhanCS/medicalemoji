@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [0.45.3] - 2026-07-26
+## [0.46.2] - 2026-07-26
 
 ### Added
 - Added the complete five-seat exact-hash ESR/UTC-readiness panel record for Kidney package
@@ -15,8 +15,32 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Recorded `STOP THIS CYCLE` for the frozen artifact while the four-year eligibility conflict remains open;
   even if eligibility is accepted, the conditional result remains `REVISE AND RERUN` for substantive and
   artwork corrections.
-- Advanced the workspace version from `0.45.2` to `0.45.3`. The immutable Kidney artifact remains
+- Advanced the workspace version from `0.46.1` to `0.46.2`. The immutable Kidney artifact remains
   `1.12.0-kidney.3` because this review did not alter its prose, evidence, artwork, or PDF bytes.
+
+## [0.46.1] - 2026-07-26
+
+### Changed
+- Ran a separated five-seat compliance, ESR-selection, editorial, visual, and skeptical-decision panel on the
+  exact `1.12.0-liver.5` PDF hash.
+- Preserved the split verdicts and recorded `REVISE AND RERUN` rather than averaging away editorial and
+  skeptical objections.
+- Accepted narrow source, sequence, Open-ended, and plain-language revisions; rejected a false page-8 clipping
+  report using the full-page render and extracted text.
+- Kept eligibility and artwork rights as settled inputs and left the proposal PDF and package version unchanged.
+
+## [0.46.0] - 2026-07-26
+
+### Added
+- Added a shared case-building and drafting specification for the Stomach, Kidney, Liver, and White Blood Cell
+  agents, with required case briefs, claim ledgers, anti-generic gates, section ownership, and adversarial
+  review before compliance scoring.
+
+### Changed
+- Made the rubric and template downstream compliance checks instead of prose-generation systems in the four
+  active agent specifications.
+- Advanced the agent coordination index to `1.4.0`, Kidney specification to `1.4.0`, the other three active
+  specifications to `1.2.0`, and the workspace to `0.46.0`.
 
 ## [0.45.2] - 2026-07-26
 

@@ -1,6 +1,6 @@
 # White Blood Cell Proposal Agent Specification
 
-Version: 1.1.0
+Version: 1.2.0
 
 Status: Ready to assign
 
@@ -29,6 +29,7 @@ Do not publish or submit the proposal.
 Read completely:
 
 - `docs/proposals/2026-submission-slate-spec.md`
+- `docs/proposals/CASE-BUILDING-AND-DRAFTING-INSTRUCTIONS.md`
 - `docs/proposals/emoji-proposal-approval-rubric.md`
 - `submissions/v1.8.0/manifest.md`
 - `submissions/v1.8.0/BEST-IN-CLASS-RUBRIC.md`
@@ -53,6 +54,11 @@ that Unicode should encode every immune-cell subtype, laboratory result, or dise
 duplicate status, artwork ownership, and the CC0 rights statement without inventing missing evidence.
 
 ## Work required
+
+Before editing proposal prose, create `white-blood-cell/CASE-BRIEF.md` and
+`white-blood-cell/CLAIM-LEDGER.md` under the active package and pass every gate in the shared case-building
+instructions. Do not draft from the rubric's example sentence patterns. If the result is `CASE BLOCKED`,
+repair the evidence or case and report the blocker instead of polishing generic text.
 
 1. Recapture Google Search and Google Video Search; the archived 2020 captures are stale.
 2. Replace Web Trends with a worldwide widest-range comparison against `elephant` and add the missing Image
