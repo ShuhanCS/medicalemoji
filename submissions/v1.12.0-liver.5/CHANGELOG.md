@@ -8,6 +8,8 @@
   evidence, and counterarguments while keeping true not-applicable answers concise.
 - Synchronizes the packaged guide to rubric `3.2.1`, its review-panel requirement, and the SemVer-only packet rule.
 - Rebuilds and revalidates the exact reviewer-facing `SUBMIT` PDF.
+- Records a five-seat internal panel recommendation on the exact PDF hash without reopening settled eligibility
+  or rights inputs.
 - Carries unrelated proposal components forward byte for byte from `1.12.0-liver.4`.
 
 ## 1.12.0-liver.4 - 2026-07-26

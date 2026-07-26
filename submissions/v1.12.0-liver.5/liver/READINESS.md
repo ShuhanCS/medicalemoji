@@ -49,6 +49,7 @@ three points are publication and filing controls, not proposal-content defects.
 | Source ledger | Pass | `SOURCE-LEDGER.md` maps every material claim to a source or direct artwork observation. |
 | Proposal source and PDF | Pass | Current factor order, advocate language, evidence figures, and final SUBMIT filenames are in place. |
 | PDF review | Pass | `validation/PDF-REVIEW.md` records technical and page-by-page review of the exact PDF. |
+| Proposal panel | Pass | The five-seat internal review recommends onward on SHA-256 `1db805e55e4e148f68ca76c107dfba511d45863db9ea0384a17769981b402fe1`. |
 | Public URL and filing | Open | Publish the exact PDF, verify logged out, reconcile the form, file, and archive confirmation. |
 
 ## Exact next actions
