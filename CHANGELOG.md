@@ -5,6 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.41.0] - 2026-07-26
+
+### Added
+- Added an execution-ready Stomach v1.12.0 specification defining the evidence, recognition, comparator,
+  proposal-editing, PDF QA, and filing controls required for a 100/100 internal readiness score.
+
+### Changed
+- Recorded Stomach eligibility and artwork rights as settled inputs so the next revision focuses on current
+  empirical evidence, demonstrated small-size recognition, and reviewer-facing quality.
+- Advanced the application/workspace version from `0.40.0` to `0.41.0`; the canonical proposal package remains
+  `v1.11.0` until the new specification's gates pass.
+
 ## [0.40.0] - 2026-07-26
 
 ### Added
