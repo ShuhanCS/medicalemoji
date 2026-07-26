@@ -1,0 +1,90 @@
+{
+  "proposal": "Liver",
+  "technical_scope": "Dimensions, palette, hashes, and technical separation only; not human recognition.",
+  "assets": {
+    "liver_color_18x18_SUBMIT.png": {
+      "sha256": "f59008ba65d0cd48bf0c62be47815ada8c9b14a63ff595049ba6f60447c0356d",
+      "dimensions": [
+        18,
+        18
+      ],
+      "colors": 189
+    },
+    "liver_color_72x72_SUBMIT.png": {
+      "sha256": "165b382051d036e885e721086e09a3b1380f88f2d54f260d94d560a37120e1db",
+      "dimensions": [
+        72,
+        72
+      ],
+      "colors": 1052
+    },
+    "liver_bw_18x18_SUBMIT.png": {
+      "sha256": "b4b10eb3df92ee776712dd3c5afc8edf274e80e131cbfcc80fd4a6e93e822920",
+      "dimensions": [
+        18,
+        18
+      ],
+      "colors": 2
+    },
+    "liver_bw_72x72_SUBMIT.png": {
+      "sha256": "e6e3e96e6476ebac6d8052e92bab86ff823fbd739739962cf6c3b58a6ac083c1",
+      "dimensions": [
+        72,
+        72
+      ],
+      "colors": 2
+    }
+  },
+  "comparators": {
+    "Anatomical Heart": {
+      "sha256": "d085a08da7477258c7c9d97b336c1cd9890b2759da3212455d641cb88bb49673",
+      "source": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/png/128/emoji_u1fac0.png"
+    },
+    "Lungs": {
+      "sha256": "61dc72e8d34d51870196ae3a2fd0644a44e283781fe2ef9d9456a0d8eeec8e32",
+      "source": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/png/128/emoji_u1fac1.png"
+    },
+    "Brain": {
+      "sha256": "21693f4e82fbe351a509fb81b0daedad297fb27c1217c88fd0169ea3871bbd28",
+      "source": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/png/128/emoji_u1f9e0.png"
+    },
+    "Cut of Meat": {
+      "sha256": "55a3c9e9c08d30feb1548be3069b4fc63808591a795f6d693cb01b7eca2118cf",
+      "source": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/png/128/emoji_u1f969.png"
+    },
+    "Beans": {
+      "sha256": "e37d8c68eb71eb2eb9845e1bc57d92ebd566f01fba48c33117c9fc55a4b3d8d9",
+      "source": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/png/128/emoji_u1fad8.png"
+    }
+  },
+  "metrics": {
+    "Anatomical Heart": {
+      "silhouette_iou": 0.5748,
+      "dhash_distance": 28
+    },
+    "Lungs": {
+      "silhouette_iou": 0.6853,
+      "dhash_distance": 22
+    },
+    "Brain": {
+      "silhouette_iou": 0.7683,
+      "dhash_distance": 26
+    },
+    "Cut of Meat": {
+      "silhouette_iou": 0.6741,
+      "dhash_distance": 33
+    },
+    "Beans": {
+      "silhouette_iou": 0.5996,
+      "dhash_distance": 26
+    }
+  },
+  "comparison_board": {
+    "path": "liver-comparison-board.png",
+    "sha256": "d924b05a7f59eb5df40b4f90097d6075ff21d84c8917ae771d3f3f64a55a5c6d"
+  },
+  "recognition_cards": {
+    "recognition-card-color-18px.png": "253bebb767b976820ffc53174ed11ded8f59b56eea5368736592241fdc15f128",
+    "recognition-card-bw-18px.png": "e22865adf9a08f87e59e5af267bbf5762427b05ba6ddf23610f79d8f976655a6"
+  }
+}

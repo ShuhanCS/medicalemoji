@@ -189,7 +189,8 @@ def liver_svg(color: bool, small: bool = False) -> str:
       <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
     </radialGradient>
         """
-        seam = "" if small else '<path d="M 43 13 C 42 25 40 36 38 47" fill="none" stroke="#76242F" stroke-width="2.1" stroke-linecap="round" opacity="0.82"/>'
+        seam = ('<path d="M 43 13 C 42 25 40 36 38 47" fill="none" stroke="#76242F" '
+                f'stroke-width="{3.4 if small else 2.1}" stroke-linecap="round" opacity="0.9"/>')
         gall_size = ("M 41 45 C 45 44 48 47 47 52 C 46 57 43 60 40 58 C 37 56 37 52 38 49 C 39 47 40 46 41 45 Z" if not small else "M 42 46 C 46 46 47 50 45 54 C 43 57 39 55 39 52 C 39 49 40 47 42 46 Z")
         artwork = f"""
   <g transform="rotate(4 36 35)">
@@ -209,7 +210,9 @@ def liver_svg(color: bool, small: bool = False) -> str:
     if small:
         artwork = f"""
   <g transform="rotate(4 36 35)">
-    <path d="{body}" fill="#000000" stroke="#000000" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="{body}" fill="#FFFFFF" stroke="#000000" stroke-width="4.6" stroke-linejoin="round"/>
+    <path d="M 43 13 C 42 25 40 36 38 47" fill="none" stroke="#000000" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 41 44 C 46 43 49 47 48 52 C 47 58 43 61 39 58 C 36 55 37 50 38 47 C 39 46 40 45 41 44 Z" fill="#000000"/>
   </g>"""
         return svg_document(
             "Liver emoji black-and-white 18-pixel reference artwork",
@@ -310,9 +313,15 @@ def main() -> None:
         default=DEFAULT_RELEASE,
         help=f"Submission release directory name (default: {DEFAULT_RELEASE})",
     )
+    parser.add_argument(
+        "--organ",
+        choices=tuple(BUILDERS),
+        help="Build only one organ instead of rewriting every organ in the release.",
+    )
     args = parser.parse_args()
     release = ROOT / "submissions" / args.release
-    for organ in BUILDERS:
+    organs = (args.organ,) if args.organ else tuple(BUILDERS)
+    for organ in organs:
         build_organ(organ, release)
     print(f"Built organ proposal artwork under {release}")
 

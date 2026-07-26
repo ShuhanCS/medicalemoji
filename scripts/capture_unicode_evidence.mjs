@@ -40,6 +40,11 @@ const CONCEPTS = {
     term: "first aid kit",
     searchTerm: "first-aid-kit",
   },
+  liver: {
+    slug: "liver",
+    term: "liver",
+    searchTerm: "liver",
+  },
 };
 
 
@@ -55,7 +60,7 @@ function parseArgs(argv) {
     if (key in values && parts.length) values[key] = parts.join("=");
   }
   if (values.concept !== "all" && !(values.concept in CONCEPTS)) {
-    throw new Error(`Unknown concept '${values.concept}'. Use maze, ultrasound, first-aid-kit, or all.`);
+    throw new Error(`Unknown concept '${values.concept}'. Use maze, ultrasound, first-aid-kit, liver, or all.`);
   }
   if (!(["firefox", "chrome"].includes(values.browser))) {
     throw new Error(`Unknown browser '${values.browser}'. Use firefox or chrome.`);
