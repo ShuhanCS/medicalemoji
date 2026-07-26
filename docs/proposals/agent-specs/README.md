@@ -1,6 +1,6 @@
 # 2026 Proposal Agent Coordination Index
 
-Version: 1.5.0
+Version: 1.5.1
 
 Date: 2026-07-26
 
@@ -25,13 +25,13 @@ for example `v1.10.0-kidney.2`. An agent never edits an earlier lane snapshot.
 The Stomach, Kidney, Liver, and White Blood Cell agents must follow
 [`../CASE-BUILDING-AND-DRAFTING-INSTRUCTIONS.md`](../CASE-BUILDING-AND-DRAFTING-INSTRUCTIONS.md) before revising
 proposal prose. It directs them to study the historical acceptance and decline record, understand the goal of
-each Unicode section, and make the strongest honest candidate-specific argument. Pill Pack is not included in
+each Unicode section, and make a compelling candidate-specific argument. Pill Pack is not included in
 this assignment.
 
 The shared approval rubric and template are downstream compliance checks. They are not fill-in-the-blank
 writing systems, and their example patterns must not be copied across proposals. Candidate-specific evidence,
 substitute analysis, priority, meaning, and visual identity must drive the writing. The shared guidance does
-not require new process documents, formal gate statuses, or a self-authored rejection case.
+not require new process documents or formal gate statuses.
 
 ## Frozen baseline and collision rule
 

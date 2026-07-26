@@ -1,6 +1,6 @@
 # Kidney Proposal Agent Specification
 
-Version: 1.5.0
+Version: 1.5.1
 
 Status: Completed in canonical package v1.10.0; retain for audit only
 
@@ -59,10 +59,9 @@ do not invent missing records. Confirm that the artwork rights statement and CC0
 
 ## Work required
 
-Use the shared proposal-building guidance to study the historical record and develop the strongest
-candidate-specific case before polishing the prose. The guidance does not require a separate case brief,
-claim ledger, gate status, or self-authored rejection argument. Do not draft from the rubric's example
-sentence patterns.
+Use the shared proposal-building guidance to study the historical record and develop a compelling
+candidate-specific case before polishing the prose. It does not require a separate case brief, claim ledger,
+or gate status. Do not draft from the rubric's example sentence patterns.
 
 1. Audit every proposal claim against the current rubric. Remove cause, prestige, burden, or deservingness
    language that substitutes for expected use.

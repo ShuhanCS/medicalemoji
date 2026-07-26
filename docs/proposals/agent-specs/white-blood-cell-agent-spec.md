@@ -1,6 +1,6 @@
 # White Blood Cell Proposal Agent Specification
 
-Version: 1.3.0
+Version: 1.3.1
 
 Status: Ready to assign
 
@@ -55,10 +55,9 @@ duplicate status, artwork ownership, and the CC0 rights statement without invent
 
 ## Work required
 
-Use the shared proposal-building guidance to study the historical record and develop the strongest
-candidate-specific case before polishing the prose. The guidance does not require a separate case brief,
-claim ledger, gate status, or self-authored rejection argument. Do not draft from the rubric's example
-sentence patterns.
+Use the shared proposal-building guidance to study the historical record and develop a compelling
+candidate-specific case before polishing the prose. It does not require a separate case brief, claim ledger,
+or gate status. Do not draft from the rubric's example sentence patterns.
 
 1. Recapture Google Search and Google Video Search; the archived 2020 captures are stale.
 2. Replace Web Trends with a worldwide widest-range comparison against `elephant` and add the missing Image

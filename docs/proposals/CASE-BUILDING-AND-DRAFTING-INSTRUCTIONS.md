@@ -1,6 +1,6 @@
 # Proposal-Building Instructions for Agents
 
-Version: 1.1.0
+Version: 1.1.1
 
 Date: 2026-07-26
 
@@ -8,9 +8,9 @@ Applies to: Stomach, Kidney, Liver, and White Blood Cell
 
 ## Goal
 
-Create the strongest honest proposal for the assigned candidate: current-rule compliant, grounded in evidence,
-easy for the Unicode Emoji Standard & Research Working Group to understand, and persuasive on the selection
-factors that genuinely apply.
+Create a compelling proposal for the assigned candidate: current-rule compliant, grounded in evidence, easy
+for the Unicode Emoji Standard & Research Working Group to understand, and persuasive on the selection factors
+that apply.
 
 This is guidance, not a script or a scoring exercise. Use judgment. The proposals should not sound alike, and
 the agent is not required to produce separate process documents, use prescribed sentence patterns, or pass an
@@ -37,8 +37,7 @@ reasoning and evidence choices, not the wording. In particular:
   equivalent.
 - Meteor shows how powerful Compatibility can be when the same pictograph already has genuine popular-system
   use. Do not imitate that argument without equivalent evidence.
-- Orca shows that an honest `N/A` or a modest interpretation of weak evidence is more credible than stretching
-  a factor.
+- Orca shows that a direct `N/A` is better than stretching a factor that does not support the candidate.
 - Confirmed declines show that importance, disease burden, awareness, prestige, and lists of possible uses do
   not replace a demonstrated communication need.
 
@@ -71,20 +70,18 @@ or wording. Give a factor only the space justified by this candidate's case.
 | Use in sequences | Whether a few natural combinations express recognizable messages better than the existing emoji set. Prefer clear examples over an exhaustive list. |
 | Breaks new ground | What useful semantic or visual unit is currently missing, especially after considering the closest substitute. |
 | Distinctiveness | Why the proposed image remains identifiable at emoji size and distinguishable from likely confusers while leaving vendors normal design freedom. |
-| Expected usage | What each required evidence source actually indicates about likely use. Preserve reproducible settings and explain weak or mixed results accurately. |
+| Expected usage | How the required evidence supports likely use. Preserve reproducible settings and interpret each result proportionately. |
 | Completeness | Whether the candidate fills a genuinely established set. Use `N/A` when the argument would only be an anatomy checklist. |
 | Compatibility | Whether the same pictograph already has meaningful use in a popular system. Visual resemblance or a niche icon set is not enough. |
-| Already representable | Why the best existing single emoji or short sequence does not convey the central meaning precisely enough. Address the strongest real substitute, not a convenient straw man. |
+| Already representable | Why existing emoji or a short sequence does not convey the candidate's central meaning precisely enough. |
 | Overly specific | Why the candidate is a durable, broadly understood category rather than a subtype, one-off event, campaign, or specialist result. |
 | Open-ended | Why selecting this candidate does not require Unicode to encode every neighboring organ, cell, or medical concept. Use a candidate-specific reason rather than generic independence language. |
 | Transient | Why the underlying meaning and visual concept are durable rather than dependent on a temporary campaign or news cycle. |
 | Faulty comparison | Clarify the limited purpose of evidence comparators or precedents without claiming that another emoji's existence creates an entitlement. Keep this concise. |
 | Other information | Add only implementation-relevant context that materially helps the decision and does not fit above. |
 
-The required negative factors are part of the Unicode format, but the proposal should not read like litigation
-against itself. Answer the real issue directly and confidently. Do not invent extra objections, write a
-rejection memo, or bury the strongest case under qualifications. Likewise, do not conceal a material weakness
-or manufacture support for an inapplicable positive factor.
+Answer every required factor directly in affirmative proposal language. Give an exclusion factor only the
+space needed to establish why it does not apply to this candidate.
 
 ## Make the prose persuasive and human
 
@@ -99,8 +96,8 @@ or manufacture support for an inapplicable positive factor.
   readiness labels, and agent instructions are not proposal arguments.
 - Use `N/A` without apology when a positive factor genuinely does not apply.
 
-Write as a knowledgeable advocate addressing a fair but selective working group. Be confident, accurate, and
-specific. Do not imitate legal briefing, audit prose, academic overqualification, or marketing copy.
+Write as a knowledgeable advocate. Be confident, accurate, and specific. Do not imitate legal briefing, audit
+prose, academic overqualification, or marketing copy.
 
 ## Agent workflow
 
@@ -121,5 +118,5 @@ The agent should adapt this sequence to the maturity of the assigned proposal:
 
 The agent may keep research notes or a claim ledger when useful, but no additional file or status is required
 by this shared guidance. Follow the concept-specific lane specification for required deliverables and report
-unresolved factual or compliance blockers honestly. Do not publish, submit, email, push, merge, or deploy
-without explicit authorization.
+anything that prevents a compliant final artifact. Do not publish, submit, email, push, merge, or deploy without
+explicit authorization.
