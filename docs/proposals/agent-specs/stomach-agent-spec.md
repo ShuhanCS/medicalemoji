@@ -1,6 +1,6 @@
 # Stomach Proposal Agent Specification
 
-Version: 1.1.0
+Version: 1.2.0
 
 Status: Ready to assign
 
@@ -26,6 +26,7 @@ Do not publish or submit the proposal.
 Read completely:
 
 - `docs/proposals/2026-submission-slate-spec.md`
+- `docs/proposals/CASE-BUILDING-AND-DRAFTING-INSTRUCTIONS.md`
 - `docs/proposals/emoji-proposal-approval-rubric.md`
 - The Stomach audit in `docs/proposals/2026-organ-submission-audit.md`
 - `submissions/v1.8.0/manifest.md`
@@ -50,6 +51,11 @@ justification. Verify eligibility, duplicate status, artwork ownership, and righ
 confirmation records.
 
 ## Work required
+
+Before editing proposal prose, create `stomach/CASE-BRIEF.md` and `stomach/CLAIM-LEDGER.md` under the active
+package and pass every gate in the shared case-building instructions. Do not draft from the rubric's example
+sentence patterns. If the result is `CASE BLOCKED`, repair the evidence or case and report the blocker instead
+of polishing generic text.
 
 1. Replace the 2020 Google Search and Video captures with current, readable captures showing result counts.
 2. Replace the 2020 Web and Image Trends captures with worldwide, widest-range comparisons against `elephant`.
