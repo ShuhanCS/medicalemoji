@@ -4,7 +4,7 @@ Specification version: 1.0.0
 
 Date: 2026-07-26
 
-Status: **Document complete; publication and filing in progress**
+Status: **Document published; official form filing in progress**
 
 Target proposal package: `submissions/v1.11.0/white-blood-cell/`
 
@@ -314,5 +314,5 @@ https://forms.gle/6KSiYHrUdBkTMNaB8
   in the submitted PDF.
 - [x] The final PDF passes technical checks and visual inspection of every page.
 - [ ] Rubric score is 100/100 and every must-pass gate is complete.
-- [ ] The exact PDF is public through a stable logged-out HTTPS URL.
+- [x] The exact PDF is public through a stable logged-out HTTPS URL.
 - [ ] The official form matches the PDF and the confirmation record is archived.

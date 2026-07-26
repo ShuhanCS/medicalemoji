@@ -11,9 +11,9 @@ Controlling rubric: `BEST-IN-CLASS-RUBRIC.md`, version 3.0.0
 ## Outcome
 
 The final proposal document passes all 17 section-by-section drafting guides, the artwork and evidence gates,
-the technical packet preflight, and visual inspection of all 11 rendered PDF pages. Its internal readiness
-score is 95/100. Publishing the exact PDF and archiving the official-form confirmation complete the remaining
-five packet-and-filing points.
+the technical packet preflight, and visual inspection of all 11 rendered PDF pages. Its internal document
+readiness score is 95/100. The exact PDF is now public at an immutable commit-addressed URL; archiving the
+official-form confirmation completes the remaining packet-and-filing gate.
 
 ## Seventeen-section review
 
@@ -56,7 +56,17 @@ five packet-and-filing points.
 - Hyperlinks: 10 unique HTTPS links embedded.
 - Reviewer-facing terms: no placeholders, workflow markers, hashes, thresholds, machine-validation language, or internal report links.
 - Visual QA: all 11 pages rendered at 150 DPI and inspected; no clipping, overlap, broken image, stranded heading, or blank page.
-- PDF SHA-256: recorded at publication time so the public artifact and filed artifact can be matched exactly.
+- PDF SHA-256: `DE655E196131FDB90DC4391827BFEE3171084432E36FA07CFB29CB516D23B712`.
+
+## Publication record
+
+Commit: `c8fd31e92c7391644d67456146fc1495ccf72cc0`
+
+Public PDF:
+
+https://raw.githubusercontent.com/ShuhanCS/medicalemoji/c8fd31e92c7391644d67456146fc1495ccf72cc0/submissions/v1.11.0/white-blood-cell/white-blood-cell_emoji_proposal_SUBMIT.pdf
+
+Logged-out verification: HTTP 200, `application/octet-stream`, 1,742,049 bytes.
 
 David Rhew affiliation reference:
 
@@ -68,7 +78,7 @@ https://www.unicode.org/emoji/proposals.html
 
 ## Final filing controls
 
-- [ ] Publish the exact PDF at a stable logged-out HTTPS URL and record its SHA-256.
-- [ ] Reconcile the public PDF URL and rounded Search/Video values with the official form.
+- [x] Publish the exact PDF at a stable logged-out HTTPS URL and record its SHA-256.
+- [x] Reconcile the public PDF URL and rounded Search/Video values with the official form.
 - [ ] Complete the agreement and electronic-signature step.
 - [ ] Archive the submission confirmation, timestamp, commit SHA, public URL, and PDF SHA-256.

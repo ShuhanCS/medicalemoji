@@ -4,7 +4,7 @@ Package version: 1.11.0
 
 Created: 2026-07-26
 
-Status: **White Blood Cell document complete; publication and form filing in progress.**
+Status: **White Blood Cell document published; official form filing in progress.**
 
 Official deadline: End of day 2026-07-31
 
@@ -67,4 +67,5 @@ package control files.
 - Google Search and Video plus matching `elephant` pages: captured and documented in Firefox Private Browsing
   on 2026-07-26.
 - Proposal PDF: built, technically validated, and visually inspected across all 11 pages.
-- Public logged-out URL, form filing, and confirmation archive: operational filing steps in progress.
+- Public logged-out URL: verified at commit `c8fd31e92c7391644d67456146fc1495ccf72cc0`.
+- Form filing and confirmation archive: operational filing steps in progress.
