@@ -1,6 +1,6 @@
 # Stomach Case Brief
 
-Version: 1.2.0
+Version: 1.3.0
 
 Assessment date: 2026-07-26
 
@@ -8,23 +8,23 @@ Assessment date: 2026-07-26
 
 | Field | Frozen value |
 | --- | --- |
-| Package | `1.12.0-candidate.7` |
-| Candidate commit | `09c7a8153232093a84093db2b1f0a71d1c22dce9` |
+| Package | `1.12.0-candidate.8` |
+| Candidate commit | `f760632b64414ac9195b59eff7a26f693c9628eb` |
 | Proposal source | `candidate-v1.12/stomach_emoji_proposal_CANDIDATE.md`; SHA-256 `c14d73d24843e9be309fc6f01eca17fa549b0c30c40d7dfd44ab9122e1190305` |
-| Reviewer PDF | `candidate-v1.12/stomach_emoji_proposal_CANDIDATE.pdf`; SHA-256 `f40404327f55b6e0c1e82b5c88196608a9160a87edaf7d6aadafd9cf2b729b87` |
+| Reviewer PDF | `candidate-v1.12/stomach_emoji_proposal_CANDIDATE.pdf`; SHA-256 `d0dd75346ac654a94d220241a5abef7f01eee9ae646d18583412fc607af81b46` |
 | Official guidance | Checked 2026-07-26: https://www.unicode.org/emoji/proposals.html |
 | Eligibility and prior status | Eligibility is a settled project input from Shuhan He dated 2026-07-26. Unicode's request/status checks remain the filing control; the proposal does not narrate an eligibility dispute. |
 | Authorship | The ordered byline is Shuhan He, MD; David Rhew, MD; Heena Purohit. Shuhan He is the main point of contact. The source is Shuhan He's 2026-07-26 direction in `source-ledger-v1.12.md`; separate written consent records for David Rhew and Heena Purohit are not yet archived. |
-| Image rights | Shuhan He's 2026-07-26 confirmation, project-authored SVG geometry, the PDF page-1 certification, and `submissions/v1.11.0/ARTWORK-LICENSE.md` cover the exact candidate assets. |
+| Image rights | Shuhan He's 2026-07-26 confirmation, the project-created GPT Image 2 source, the PDF page-1 certification, and `submissions/v1.11.0/ARTWORK-LICENSE.md` cover the exact candidate assets. |
 
 ### Exact artwork
 
 | Asset | SHA-256 |
 | --- | --- |
-| `images/stomach_color_18x18_SUBMIT.png` | `93f3a656314c6743cabdff594ba062e7e74c2caaa60942689d4f118ea2608cff` |
-| `images/stomach_bw_18x18_SUBMIT.png` | `6f4bbcdc3200b9841b597a11ee96132d382f48b7e6bc085e5089ca658dca3235` |
-| `images/stomach_color_72x72_SUBMIT.png` | `9dc9a13200e7e6b53f3006f0c2ea6b528161ea24543f54223744eb43fff6762c` |
-| `images/stomach_bw_72x72_SUBMIT.png` | `1b93265a60651fb4a199470b9ba3492edc6f29a8bb6cff3c8b6fb84c49ffb20a` |
+| `images/stomach_color_18x18_SUBMIT.png` | `bb0159f241e6163ea9eae2851640125ab90bdc4c69301ef76077c8c6dc10e046` |
+| `images/stomach_bw_18x18_SUBMIT.png` | `73ed28b740ddaf4c11ac1246d7a0ca8906ac87d082bc48fa1afabf76c26a78d8` |
+| `images/stomach_color_72x72_SUBMIT.png` | `750fb57ced6cd0e0bf2394686770c91f832ae13b9b8db49965ae486dff9c5068` |
+| `images/stomach_bw_72x72_SUBMIT.png` | `4d24ea39a0d5ff12542e6912a7e304394d8ab14d725d606b221f0f6f3dfedfdc` |
 
 ### Prior decisions and open records
 
@@ -35,6 +35,8 @@ Assessment date: 2026-07-26
 - Candidate.7 turns the boundary into a positive Stomach-specific selection principle: one familiar J-shaped
   organ connects literal digestion with appetite, fullness, tolerance, and nervous anticipation. It no longer
   introduces gut or intestine as competing concepts in reviewer-facing prose.
+- Candidate.8 replaces the separate SVG approximation with exact-size derivatives of the approved GPT Image 2
+  artwork. The color and matching black-and-white assets pass the full deterministic validation set.
 - The exact-asset decision, David Rhew and Heena Purohit consent records, immutable promotion, public URL, and
   Shuhan's filing authorization remain outside the proposal's substantive case and are not yet complete.
 - The five frequency captures are current as of 2026-07-26 and do not require recapture unless the artifact or
@@ -190,3 +192,21 @@ Stomach symbol, Already represented explains why short substitutes cover only in
 Open-ended states the positive boundary without introducing another organ as a competing candidate.
 
 Candidate.7 result: **DRAFT READY FOR COMPLIANCE** and **READY FOR FOCUSED PANEL RERUN**.
+
+## Candidate.8 approved-artwork correction
+
+| Field | Value |
+| --- | --- |
+| Package | `1.12.0-candidate.8` |
+| Candidate commit | `f760632b64414ac9195b59eff7a26f693c9628eb` |
+| Proposal source SHA-256 | `c14d73d24843e9be309fc6f01eca17fa549b0c30c40d7dfd44ab9122e1190305` |
+| Reviewer PDF SHA-256 | `d0dd75346ac654a94d220241a5abef7f01eee9ae646d18583412fc607af81b46` |
+| PDF artifact review | Pass: 5 US-Letter pages, 5,502 extracted characters, 13 link annotations, no blank or clipped page, and every evidence heading remains with its exhibit. |
+| Artwork | The four exact samples are deterministic derivatives of the approved 1024x1024 GPT Image 2 source, SHA-256 `250389e208e3d71488e1895b49c7d4fd69e95507eb3d06f73060db7b34767d7a`. |
+
+Candidate.8 corrects the artwork mismatch without changing the proposal argument. Both color and black-and-white
+assets pass dimensions, two-color palette where required, foreground connectedness, and all six confuser
+comparisons. The maximum normalized silhouette IoU improved from `0.638` to `0.584`; the minimum 64-bit
+difference-hash distance is `22`, above the fixed `16` floor.
+
+Candidate.8 result: **DRAFT READY FOR COMPLIANCE** and **READY FOR ARTWORK-FOCUSED PANEL RERUN**.
