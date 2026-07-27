@@ -5,6 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.48.6] - 2026-07-26
+
+### Added
+- Generated GPT Image 2 Liver concept boards `1.0.0` and `1.0.1`, covering color, black-and-white concept,
+  and tiny-size previews for Candidates A, B, and C.
+- Added a reproducible generation record with exact prompts, model settings, SHA-256 hashes, and visual review.
+
+### Changed
+- Corrected the initial concept board's long lobe divisions and simplified Candidate C's underside in version
+  `1.0.1`; Candidate A is the lead direction and Candidate B remains the silhouette control.
+- Advanced the workspace version from `0.48.5` to `0.48.6`.
+
 ## [0.48.5] - 2026-07-26
 
 ### Added
