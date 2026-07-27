@@ -4,7 +4,7 @@ Package version: 1.12.0
 
 Created: 2026-07-26
 
-Status: **White Blood Cell panel corrections complete; publication verification in progress.**
+Status: **White Blood Cell panel corrections complete; public PDF verified; no filing action performed.**
 
 Official deadline: End of day 2026-07-31
 
@@ -70,5 +70,6 @@ helpers, and package control files.
 - Frequency screenshots: normalized losslessly to RGB so the PDF renders consistently across Poppler backends.
 - Case-building review: accepted Fingerprint and declined 2020 White Blood Cell lessons applied; generic case
   phrases replaced with the candidate-specific host-cell communication gap.
-- Public logged-out URL: recorded after the release commit is pushed.
+- Public logged-out URL: verified at the immutable release commit:
+  https://raw.githubusercontent.com/ShuhanCS/medicalemoji/d6f433b527e71d1a319df9557a83097b2576cea1/submissions/v1.12.0/white-blood-cell/white-blood-cell_emoji_proposal_SUBMIT.pdf
 - Form filing and confirmation archive: intentionally not performed in this workstream.

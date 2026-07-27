@@ -88,13 +88,14 @@ Panel result: unanimous 5-0 advance to Shuhan He's final filing decision; 97/100
 
 ## Publication record
 
-Release commit: recorded after the package is committed and pushed.
+Release commit: `d6f433b527e71d1a319df9557a83097b2576cea1`
 
 Public PDF:
 
-The immutable commit-addressed v1.12.0 URL is recorded after publication.
+https://raw.githubusercontent.com/ShuhanCS/medicalemoji/d6f433b527e71d1a319df9557a83097b2576cea1/submissions/v1.12.0/white-blood-cell/white-blood-cell_emoji_proposal_SUBMIT.pdf
 
-Local release file: 1,746,449 bytes.
+Logged-out verification: HTTP 200, `application/octet-stream`, 1,746,449 bytes; downloaded SHA-256 matches the
+release artifact exactly.
 
 David Rhew affiliation reference:
 
@@ -106,7 +107,7 @@ https://www.unicode.org/emoji/proposals.html
 
 ## Final filing controls
 
-- [ ] Publish the exact PDF at a stable logged-out HTTPS URL and record its SHA-256.
+- [x] Publish the exact PDF at a stable logged-out HTTPS URL and record its SHA-256.
 - [ ] Reconcile the public PDF URL and rounded Search/Video values with the official form.
 - [ ] Complete the agreement and electronic-signature step.
 - [ ] Archive the submission confirmation, timestamp, commit SHA, public URL, and PDF SHA-256.
