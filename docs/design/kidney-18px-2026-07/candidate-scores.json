@@ -1,0 +1,472 @@
+{
+  "P1_hi_off_color": {
+    "anatomical_heart": {
+      "iou": 0.494,
+      "dhash": 28
+    },
+    "balloon": {
+      "iou": 0.431,
+      "dhash": 23
+    },
+    "beans": {
+      "iou": 0.573,
+      "dhash": 18
+    },
+    "droplet": {
+      "iou": 0.395,
+      "dhash": 29
+    },
+    "light_bulb": {
+      "iou": 0.369,
+      "dhash": 27
+    },
+    "lungs": {
+      "iou": 0.588,
+      "dhash": 32
+    },
+    "_components": [
+      119
+    ]
+  },
+  "P1_hi_off_bw": {
+    "anatomical_heart": {
+      "iou": 0.494,
+      "dhash": 28
+    },
+    "balloon": {
+      "iou": 0.431,
+      "dhash": 23
+    },
+    "beans": {
+      "iou": 0.573,
+      "dhash": 18
+    },
+    "droplet": {
+      "iou": 0.395,
+      "dhash": 29
+    },
+    "light_bulb": {
+      "iou": 0.369,
+      "dhash": 27
+    },
+    "lungs": {
+      "iou": 0.588,
+      "dhash": 32
+    },
+    "_components": [
+      119
+    ]
+  },
+  "P2_hi_off2_color": {
+    "anatomical_heart": {
+      "iou": 0.494,
+      "dhash": 28
+    },
+    "balloon": {
+      "iou": 0.438,
+      "dhash": 23
+    },
+    "beans": {
+      "iou": 0.514,
+      "dhash": 18
+    },
+    "droplet": {
+      "iou": 0.392,
+      "dhash": 31
+    },
+    "light_bulb": {
+      "iou": 0.365,
+      "dhash": 27
+    },
+    "lungs": {
+      "iou": 0.54,
+      "dhash": 32
+    },
+    "_components": [
+      56,
+      54
+    ]
+  },
+  "P2_hi_off2_bw": {
+    "anatomical_heart": {
+      "iou": 0.488,
+      "dhash": 28
+    },
+    "balloon": {
+      "iou": 0.431,
+      "dhash": 23
+    },
+    "beans": {
+      "iou": 0.508,
+      "dhash": 18
+    },
+    "droplet": {
+      "iou": 0.386,
+      "dhash": 31
+    },
+    "light_bulb": {
+      "iou": 0.359,
+      "dhash": 27
+    },
+    "lungs": {
+      "iou": 0.535,
+      "dhash": 32
+    },
+    "_components": [
+      55,
+      54
+    ]
+  },
+  "P3_hi_tilt_color": {
+    "anatomical_heart": {
+      "iou": 0.476,
+      "dhash": 30
+    },
+    "balloon": {
+      "iou": 0.404,
+      "dhash": 23
+    },
+    "beans": {
+      "iou": 0.548,
+      "dhash": 16
+    },
+    "droplet": {
+      "iou": 0.385,
+      "dhash": 29
+    },
+    "light_bulb": {
+      "iou": 0.358,
+      "dhash": 25
+    },
+    "lungs": {
+      "iou": 0.573,
+      "dhash": 28
+    },
+    "_components": [
+      57,
+      56
+    ]
+  },
+  "P3_hi_tilt_bw": {
+    "anatomical_heart": {
+      "iou": 0.476,
+      "dhash": 30
+    },
+    "balloon": {
+      "iou": 0.404,
+      "dhash": 23
+    },
+    "beans": {
+      "iou": 0.548,
+      "dhash": 16
+    },
+    "droplet": {
+      "iou": 0.385,
+      "dhash": 29
+    },
+    "light_bulb": {
+      "iou": 0.358,
+      "dhash": 25
+    },
+    "lungs": {
+      "iou": 0.573,
+      "dhash": 28
+    },
+    "_components": [
+      57,
+      56
+    ]
+  },
+  "P4_lo_notch_color": {
+    "anatomical_heart": {
+      "iou": 0.491,
+      "dhash": 29
+    },
+    "balloon": {
+      "iou": 0.436,
+      "dhash": 22
+    },
+    "beans": {
+      "iou": 0.571,
+      "dhash": 17
+    },
+    "droplet": {
+      "iou": 0.392,
+      "dhash": 32
+    },
+    "light_bulb": {
+      "iou": 0.366,
+      "dhash": 28
+    },
+    "lungs": {
+      "iou": 0.586,
+      "dhash": 27
+    },
+    "_components": [
+      117
+    ]
+  },
+  "P4_lo_notch_bw": {
+    "anatomical_heart": {
+      "iou": 0.491,
+      "dhash": 29
+    },
+    "balloon": {
+      "iou": 0.436,
+      "dhash": 22
+    },
+    "beans": {
+      "iou": 0.571,
+      "dhash": 17
+    },
+    "droplet": {
+      "iou": 0.392,
+      "dhash": 32
+    },
+    "light_bulb": {
+      "iou": 0.366,
+      "dhash": 28
+    },
+    "lungs": {
+      "iou": 0.586,
+      "dhash": 27
+    },
+    "_components": [
+      117
+    ]
+  },
+  "P5_deep_hi_color": {
+    "anatomical_heart": {
+      "iou": 0.434,
+      "dhash": 31
+    },
+    "balloon": {
+      "iou": 0.371,
+      "dhash": 26
+    },
+    "beans": {
+      "iou": 0.539,
+      "dhash": 19
+    },
+    "droplet": {
+      "iou": 0.337,
+      "dhash": 34
+    },
+    "light_bulb": {
+      "iou": 0.313,
+      "dhash": 30
+    },
+    "lungs": {
+      "iou": 0.556,
+      "dhash": 33
+    },
+    "_components": [
+      113
+    ]
+  },
+  "P5_deep_hi_bw": {
+    "anatomical_heart": {
+      "iou": 0.423,
+      "dhash": 31
+    },
+    "balloon": {
+      "iou": 0.359,
+      "dhash": 26
+    },
+    "beans": {
+      "iou": 0.528,
+      "dhash": 19
+    },
+    "droplet": {
+      "iou": 0.326,
+      "dhash": 34
+    },
+    "light_bulb": {
+      "iou": 0.302,
+      "dhash": 30
+    },
+    "lungs": {
+      "iou": 0.545,
+      "dhash": 33
+    },
+    "_components": [
+      111
+    ]
+  },
+  "P6_hi_ur_color": {
+    "anatomical_heart": {
+      "iou": 0.532,
+      "dhash": 30
+    },
+    "balloon": {
+      "iou": 0.479,
+      "dhash": 25
+    },
+    "beans": {
+      "iou": 0.557,
+      "dhash": 20
+    },
+    "droplet": {
+      "iou": 0.433,
+      "dhash": 33
+    },
+    "light_bulb": {
+      "iou": 0.406,
+      "dhash": 31
+    },
+    "lungs": {
+      "iou": 0.615,
+      "dhash": 28
+    },
+    "_components": [
+      124
+    ]
+  },
+  "P6_hi_ur_bw": {
+    "anatomical_heart": {
+      "iou": 0.532,
+      "dhash": 30
+    },
+    "balloon": {
+      "iou": 0.479,
+      "dhash": 25
+    },
+    "beans": {
+      "iou": 0.557,
+      "dhash": 20
+    },
+    "droplet": {
+      "iou": 0.433,
+      "dhash": 33
+    },
+    "light_bulb": {
+      "iou": 0.406,
+      "dhash": 31
+    },
+    "lungs": {
+      "iou": 0.615,
+      "dhash": 28
+    },
+    "_components": [
+      124
+    ]
+  },
+  "P7_slim_hi_color": {
+    "anatomical_heart": {
+      "iou": 0.549,
+      "dhash": 29
+    },
+    "balloon": {
+      "iou": 0.494,
+      "dhash": 22
+    },
+    "beans": {
+      "iou": 0.547,
+      "dhash": 19
+    },
+    "droplet": {
+      "iou": 0.436,
+      "dhash": 32
+    },
+    "light_bulb": {
+      "iou": 0.408,
+      "dhash": 30
+    },
+    "lungs": {
+      "iou": 0.547,
+      "dhash": 29
+    },
+    "_components": [
+      116
+    ]
+  },
+  "P7_slim_hi_bw": {
+    "anatomical_heart": {
+      "iou": 0.537,
+      "dhash": 29
+    },
+    "balloon": {
+      "iou": 0.481,
+      "dhash": 22
+    },
+    "beans": {
+      "iou": 0.536,
+      "dhash": 17
+    },
+    "droplet": {
+      "iou": 0.424,
+      "dhash": 32
+    },
+    "light_bulb": {
+      "iou": 0.396,
+      "dhash": 30
+    },
+    "lungs": {
+      "iou": 0.537,
+      "dhash": 29
+    },
+    "_components": [
+      114
+    ]
+  },
+  "P8_hi_tilt2_color": {
+    "anatomical_heart": {
+      "iou": 0.491,
+      "dhash": 26
+    },
+    "balloon": {
+      "iou": 0.428,
+      "dhash": 23
+    },
+    "beans": {
+      "iou": 0.527,
+      "dhash": 18
+    },
+    "droplet": {
+      "iou": 0.392,
+      "dhash": 29
+    },
+    "light_bulb": {
+      "iou": 0.366,
+      "dhash": 25
+    },
+    "lungs": {
+      "iou": 0.578,
+      "dhash": 30
+    },
+    "_components": [
+      59,
+      58
+    ]
+  },
+  "P8_hi_tilt2_bw": {
+    "anatomical_heart": {
+      "iou": 0.491,
+      "dhash": 26
+    },
+    "balloon": {
+      "iou": 0.428,
+      "dhash": 23
+    },
+    "beans": {
+      "iou": 0.527,
+      "dhash": 18
+    },
+    "droplet": {
+      "iou": 0.392,
+      "dhash": 29
+    },
+    "light_bulb": {
+      "iou": 0.366,
+      "dhash": 25
+    },
+    "lungs": {
+      "iou": 0.578,
+      "dhash": 30
+    },
+    "_components": [
+      59,
+      58
+    ]
+  }
+}
