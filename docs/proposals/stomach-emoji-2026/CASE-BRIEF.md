@@ -8,12 +8,12 @@ Assessment date: 2026-07-27
 
 | Field | Current value |
 | --- | --- |
-| Package | `1.13.0-candidate.2` |
+| Package | `1.13.0-candidate.3` |
 | Proposal source | `candidate-v1.13/stomach_emoji_proposal_v1.13.md`; SHA-256 `b649c019d56be2fabf05d99512ac06daa525ccf68f01c21f08a6a5ea396670a8` |
 | Reviewer PDF | `candidate-v1.13/stomach_emoji_proposal_v1.13.pdf`; SHA-256 `1884f5dac1e5b0079219c2202ee256128936c08b106ea2deff30774aa7ef7456` |
 | Official guidance | Checked 2026-07-26: https://www.unicode.org/emoji/proposals.html |
 | Eligibility and prior status | Eligibility is a settled project input from Shuhan He dated 2026-07-26. Unicode's request/status checks remain the filing control; the proposal does not narrate an eligibility dispute. |
-| Authorship | The ordered byline is Shuhan He, MD; David Rhew, MD; Heena Purohit. Shuhan He is the main point of contact. The source is Shuhan He's 2026-07-26 direction in `source-ledger-v1.12.md`; separate written consent records for David Rhew and Heena Purohit are not yet archived. |
+| Authorship | The ordered byline is Shuhan He, MD; David Rhew, MD; Heena Purohit. Shuhan He is the main point of contact. `candidate-v1.13/COAUTHOR-CONSENT.md` records Shuhan's 2026-07-27 confirmation that both coauthors consented to this exact byline. |
 | Image rights | Shuhan He's 2026-07-26 confirmation, the project-created GPT Image 2 source, the PDF page-1 certification, and `submissions/v1.11.0/ARTWORK-LICENSE.md` cover the exact candidate assets. |
 
 ### Exact artwork
@@ -43,8 +43,9 @@ Assessment date: 2026-07-27
 - v1.13 Candidate.2 preserves those improvements while restoring the settled eligibility record, removing
   reviewer-facing cross-filing discussion, tightening Open-ended around Stomach's bounded literal-and-figurative
   meanings, and correcting the Google Books page break.
-- The exact-asset decision, David Rhew and Heena Purohit consent records, canonical promotion, public URL, and
-  Shuhan's filing authorization remain outside the proposal's substantive case and are not yet complete.
+- v1.13 Candidate.3 records Shuhan's dated approval of the exact four artwork files and his confirmation that
+  David Rhew and Heena Purohit consented to the exact ordered byline. Canonical promotion, the public URL, and
+  Shuhan's filing authorization remain outside the proposal's substantive case.
 - The five frequency captures are current as of 2026-07-26 and do not require recapture unless the artifact or
   filing date changes enough to make them stale.
 
@@ -250,3 +251,14 @@ Open-ended limit. It does not claim completion, compatibility, eligibility evide
 coauthor consent, publication, or filing.
 
 Candidate.2 result: **CANDIDATE COMPLETE; AUTHOR-CONTROLLED FILING RECORDS OPEN**.
+
+## Candidate.3 author-control closure
+
+| Field | Value |
+| --- | --- |
+| Package | `1.13.0-candidate.3` |
+| Exact-art decision | `APPROVE`, Shuhan He, 2026-07-27; tied to the four unchanged hashes in `candidate-v1.13/IMAGE-APPROVAL.md`. |
+| Coauthor consent | Confirmed by Shuhan He on 2026-07-27 for David Rhew, MD, and Heena Purohit; recorded in `candidate-v1.13/COAUTHOR-CONSENT.md`. |
+| Proposal and PDF | Byte-identical to Candidate.2; source SHA-256 `b649c019d56be2fabf05d99512ac06daa525ccf68f01c21f08a6a5ea396670a8`, PDF SHA-256 `1884f5dac1e5b0079219c2202ee256128936c08b106ea2deff30774aa7ef7456`. |
+
+Candidate.3 result: **CANDIDATE COMPLETE; READY FOR CANONICAL COORDINATION**.

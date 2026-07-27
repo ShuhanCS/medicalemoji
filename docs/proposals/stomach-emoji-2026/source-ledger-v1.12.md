@@ -1,19 +1,20 @@
 # Stomach v1.13 Source Ledger
 
-Ledger version: 1.7.0
+Ledger version: 1.8.0
 
 Review date: 2026-07-27
 
 The filename is retained because the v1.12 ledger is the controlling historical record named by the
-finalization specification. This revision reconciles it with `1.13.0-candidate.2`.
+finalization specification. This revision reconciles it with `1.13.0-candidate.3`.
 
 ## Fixed project records
 
 | Claim | Source | Use |
 | --- | --- | --- |
 | Stomach is eligible for the current submission cycle. | Shuhan He confirmation, 2026-07-26. | Settled internal gate; do not narrate an eligibility dispute in the PDF. |
-| Shuhan He, MD; David Rhew, MD; and Heena Purohit are the submitters. Shuhan He is the main point of contact. | Shuhan He direction, 2026-07-26. David Rhew identity reference: https://worldmedicalinnovation.org/speaker/david-rhew-md/ | Page 1 authorship and contact. Separate written consent records for David Rhew and Heena Purohit remain open. |
+| Shuhan He, MD; David Rhew, MD; and Heena Purohit are the submitters. Shuhan He is the main point of contact. | Shuhan He direction, 2026-07-26; Shuhan's consent confirmation, 2026-07-27, recorded in `candidate-v1.13/COAUTHOR-CONSENT.md`. David Rhew identity reference: https://worldmedicalinnovation.org/speaker/david-rhew-md/ | Page 1 authorship and contact. Author-control gate closed. |
 | The project has the rights required to submit and license the selected artwork. | Shuhan He confirmation; project-created GPT Image 2 source at `docs/design/stomach-emoji-2026-07/stomach-gpt-image-2-concept.png`; and `submissions/v1.11.0/ARTWORK-LICENSE.md`. | Page 1 ownership and CC0 statement. |
+| The exact four candidate assets are approved. | Shuhan He `APPROVE`, 2026-07-27, tied to the dimensions and SHA-256 hashes in `candidate-v1.13/IMAGE-APPROVAL.md`. | Exact-art gate closed; any asset-byte change requires renewed approval. |
 
 ## Reviewer-facing claims
 
