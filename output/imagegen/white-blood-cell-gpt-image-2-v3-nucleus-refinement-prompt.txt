@@ -1,0 +1,19 @@
+Image 1 is the edit target: a single white blood cell emoji concept on a perfectly flat #00FF00 chroma-key background.
+
+INTENDED USE
+A production-direction concept for a Unicode emoji proposal. It must remain immediately recognizable at 18x18 pixels after a deterministic vector redraw.
+
+CHANGE ONLY THE NUCLEUS
+Replace the current purple nucleus, which radiates from a central hub, with one continuous segmented nucleus arranged as an elongated diagonal chain. Use exactly three unequal rounded bean-like lobes connected by two short, clearly visible bridges. Arrange them from a large lobe at the upper left, through a medium lobe near the center, to a smaller lobe at the lower right, following a gentle shallow S-curve. The three lobes must read as a connected biological nuclear structure, not as separate dots.
+
+PRESERVE
+Keep the exact single-cell framing, pale white cytoplasm, softly folded irregular outer membrane, cyan-gray edge, generous padding, front-facing viewpoint, material finish, palette, and lighting character of Image 1. Keep a visible pale cytoplasm band around the nucleus on every side.
+
+SMALL-SIZE REQUIREMENTS
+Use a bold, simple nucleus silhouette with open negative space between the bends. Make both bridges thick enough to survive an 18x18 redraw. Keep the nucleus slightly smaller than half the cell body's area. Favor silhouette clarity over microscopic detail.
+
+AVOID
+No central hub. No propeller, fan, flower, clover, trefoil, face, molecule, target, paw print, grapes, germ, spikes, granules, red blood cells, platelets, text, symbols, border, drop shadow, or extra objects. Do not make the three lobes equal or radially symmetrical.
+
+BACKGROUND AND OUTPUT
+The background must remain perfectly flat solid #00FF00 edge to edge, with no shadow, gradient, floor plane, reflection, texture, or lighting variation. Do not use green anywhere inside the cell. Preserve crisp antialiased subject edges.

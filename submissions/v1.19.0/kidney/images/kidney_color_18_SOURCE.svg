@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72">
+  <title>Kidney emoji color reference artwork</title>
+  <desc>Original textless single-kidney paradigm with a hilum, vessel, and ureter.</desc>
+  <rect width="72" height="72" fill="#ffffff"/>
+  <defs><radialGradient id="kidney-body" cx="34%" cy="30%" r="82%">
+      <stop offset="0" stop-color="#D96D68"/>
+      <stop offset="0.48" stop-color="#B44748"/>
+      <stop offset="0.82" stop-color="#842A31"/>
+      <stop offset="1" stop-color="#6B1B24"/>
+    </radialGradient>
+    <linearGradient id="ureter" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F1D8AC"/>
+      <stop offset="1" stop-color="#D6AC72"/>
+    </linearGradient>
+    <linearGradient id="vessel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F0645B"/>
+      <stop offset="1" stop-color="#C93635"/>
+    </linearGradient>
+    <radialGradient id="shine" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient></defs>
+<g transform="translate(33 37) scale(1.22) rotate(-12)">
+    <path d="M 2 -23 C 13 -23 17 -11 12 -1 C 12 4 12 7 11 11 C 13 17 10 24 1 25 C -12 27 -23 19 -26 7 C -29 -1 -27 -10 -23 -16 C -18 -23 -8 -24 2 -23 Z" fill="url(#kidney-body)" stroke="#5E1D26" stroke-width="2.4" stroke-linejoin="round"/>
+    <path d="M 9 9 C 12 13 13 16 15 21" fill="none" stroke="#A9824E" stroke-width="6" stroke-linecap="round"/>
+    <path d="M 9 9 C 12 13 13 16 15 21" fill="none" stroke="url(#ureter)" stroke-width="3.9" stroke-linecap="round"/>
+    <ellipse cx="-12" cy="-9" rx="7.5" ry="4.5" transform="rotate(-28 -12 -9)" fill="url(#shine)"/>
+  </g>
+</svg>

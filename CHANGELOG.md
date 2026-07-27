@@ -5,6 +5,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.51.0] - 2026-07-26
+
+### Changed
+- Added immutable submission snapshot `v1.19.0` with a material White Blood Cell artwork revision: one
+  elongated bent chain of three unequal connected nucleus lobes replaces the earlier radial arrangement.
+- Preserved the established folded membrane and rebuilt the colour and true black-and-white assets from
+  editable 18x18 and 72x72 SVG masters.
+- Updated the proposal's image explanation, Distinctiveness argument, vendor guidance, and image provenance to
+  match the revised artwork exactly.
+
+### Verification
+- Regenerated all four proposal assets and internal comparison boards and passed deterministic artwork
+  validation before rebuilding the reviewer-facing PDF.
+
 ## [0.50.0] - 2026-07-26
 
 ### Changed
