@@ -5,6 +5,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.48.8] - 2026-07-26
+
+### Added
+- Documented ESR's public Emoji 19.0 priorities: empirical cited use, genuine interoperability needs, and
+  improvements to existing emoji user experience.
+- Added a source-backed review of Kidney, Stomach, Liver, Maze, Weight Scale, White Blood Cell, and ECG / EKG,
+  separating priority fit from eligibility and filing readiness.
+
+### Changed
+- Updated README pointers to the current Kidney and Liver prerelease packages and recorded the resulting filing
+  order, evidence challengers, holds, and ECG / EKG procedural no-go.
+- Advanced the workspace version from `0.48.7` to `0.48.8`.
+
 ## [0.48.7] - 2026-07-26
 
 ### Added

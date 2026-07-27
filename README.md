@@ -2,8 +2,11 @@
 
 ## Current 2026 submission slate
 
-The active 2026 filing slate is Kidney, White Blood Cell, Stomach, and Liver, reviewed serially in that order.
-Pill Pack is a provisional fifth workstream and must pass a go/no-go review before joining the filing slate.
+The active 2026 working slate is Kidney, White Blood Cell, Stomach, and Liver, reviewed serially in that order;
+the final filing recommendation is recorded in the Emoji 19.0 review below.
+Weight Scale and Maze are additional evidence-gated candidates under consideration. ECG / EKG is reviewed below
+but is not eligible for the 2026 intake because Unicode records a 2024 decline. Pill Pack remains a provisional
+workstream and must pass a go/no-go review before joining the filing slate.
 Shuhan He has confirmed the three organs are eligible, and White Blood Cell is outside the four-year
 resubmission bar after its 2020 decline. Eligibility is settled for those four; submission quality is not. The
 proposals must be corrected one at a time before filing:
@@ -16,7 +19,8 @@ proposals must be corrected one at a time before filing:
 - Standalone parallel agent specs: [`docs/proposals/agent-specs/`](docs/proposals/agent-specs/)
 - Organ-by-organ audit: [`docs/proposals/2026-organ-submission-audit.md`](docs/proposals/2026-organ-submission-audit.md)
 - Current complete versioned package: [`submissions/v1.11.0/`](submissions/v1.11.0/)
-- Current Kidney rubric-alignment prerelease: [`submissions/v1.12.0-kidney.3/`](submissions/v1.12.0-kidney.3/)
+- Current Kidney case-built prerelease: [`submissions/v1.12.0-kidney.7/`](submissions/v1.12.0-kidney.7/)
+- Current Liver publication prerelease: [`submissions/v1.12.0-liver.11/`](submissions/v1.12.0-liver.11/)
 - Historical organ baseline: [`submissions/v1.7.0/`](submissions/v1.7.0/)
 - Historical White Blood Cell baseline: [`submissions/v1.3.0/white-blood-cell/`](submissions/v1.3.0/white-blood-cell/)
 
@@ -28,11 +32,11 @@ distinct-outlet vector paradigm. Its proposal PDF is rebuilt and visually verifi
 revision-required until four historical 2020 evidence captures are resolved and Shuhan He approves the exact
 final assets after actual-size comparator review.
 
-Kidney `v1.12.0-kidney.3` preserves the approved paired-organ paradigm and all ten authors, including David
-Rhew and Heena Purohit, while aligning the proposal and PDF with rubric 3.1.0. Required rights now appear on
-page 1, internal validation language is removed from reviewer-facing prose, and the evidence and exclusion
-answers are sharpened. The prerelease remains not ready to submit while one internal Lungs comparison and the
-external eligibility-record, duplicate-coordination, publication, and filing gates remain open.
+Kidney `v1.12.0-kidney.7` preserves the paired-organ paradigm and all ten authors, including David Rhew and
+Heena Purohit, while strengthening the ordinary-use, `kidney-shaped`, and Beans-substitution case. The
+prerelease remains not ready to submit while exact-art approval, eligibility and duplicate-coordination
+records, canonical promotion, publication, form reconciliation, authorization, and filing confirmation remain
+open.
 
 Authorship is concept-specific and controlled by each proposal's latest consent or source record, not by a
 reusable guide. Kidney currently uses its confirmed ten-person list. Stomach and Liver use Shuhan He, David
@@ -131,7 +135,7 @@ Medical Emoji is a campaign and proposal workspace for adding high-utility medic
 
 This repository contains the public website, prior support materials, current Unicode research notes, and proposal planning files for the medical emoji concepts the project has pursued.
 
-Last status check: 2026-07-13
+Last status check: 2026-07-26
 
 ## Current Proposal Releases
 
@@ -197,6 +201,77 @@ that Unicode considers all three eligible for the 2026 cycle. The project theref
 will preserve the written confirmation in the filing record. Ten other concepts are clearly re-eligible now:
 the nine in `submissions/v1.3.0/` plus Maze in `submissions/v1.5.0/`. Ultrasound and First Aid Kit have no
 matching public status rows and are treated as first-time public-sheet concepts.
+
+### Public Emoji 19.0 signals
+
+Unicode has not published a medical or health category wish list for this intake. It has published a broader
+selection direction. ESR's roadmap labels Emoji 19.0 as `2026+`, says it is considering a higher benchmark for
+future additions, and names three intake priorities:
+
+1. Empirical evidence of use, with citation.
+2. Compatibility with social apps, other standards, or operating systems.
+3. Improving the user experience of existing emoji.
+
+Primary roadmap:
+
+https://www.unicode.org/L2/L2025/25128-esr-priorities.pdf
+
+ESR's April 2026 report says those priorities remain in force, centered on interoperability and stronger
+inclusion criteria. It also confirms that Emoji 19.0 review began on 2026-04-02 for documents submitted through
+2026-07-31:
+
+https://www.unicode.org/L2/L2026/26098-esr-report-utc187.pdf
+
+Two public records clarify how to apply that direction. UTC #185 records Jennifer Daniel saying that
+compatibility was the theme of the Emoji 18.0 proposed set. Her July 2026 explanation of the accepted set also
+repeatedly values semantic leverage: an image can work as an object, action, metaphor, or missing message, while
+several additions repair inconsistent vendor designs.
+
+https://www.unicode.org/L2/L2025/25226.htm
+
+https://blog.unicode.org/2026/07/why-do-some-new-emoji-look-familiar.html
+
+This is selection pressure, not an automatic compatibility requirement. The current proposal instructions say
+that all factors are considered together and permit `Not applicable` when Compatibility or another positive
+factor is not genuine. For this project, the practical test is therefore:
+
+- Show current, reproducible use rather than medical importance, awareness, endorsements, or requests.
+- Prefer a broadly useful communication building block with established literal, metaphorical, action, or
+  sequence uses.
+- Identify the ordinary message that existing emoji cannot carry.
+- Preserve a distinctive, vendor-flexible identity at 18x18 in color and true black-and-white.
+- Give a candidate-specific reason the concept is not overly specific or the first member of an open-ended set.
+- Claim Compatibility only when the same pictograph is already used at high frequency in a popular app,
+  operating system, or standard and encoding would solve a documented interoperability problem.
+
+### Candidate review against the public signals
+
+Reviewed 2026-07-26 against the sources above and the current Unicode proposal guidelines. `Priority fit`
+measures alignment with the public Emoji 19.0 direction; it is not an approval prediction. `2026 call` also
+accounts for eligibility and the actual state of the packet.
+
+| Concept | Current source and eligibility | Priority fit | Strongest aligned case | Decisive risk | 2026 call |
+| --- | --- | --- | --- | --- | --- |
+| **Kidney** | [`v1.12.0-kidney.7`](submissions/v1.12.0-kidney.7/kidney/); confirmed eligible | **Medium-high** | Strongest mature empirical packet; literal organ plus established `kidney-shaped` use; useful stone/test sequences; observed Beans substitution demonstrates an unmet pictographic use | Beans is already searchable as `kidney`; no genuine compatibility case; paired-organ art and open-ended anatomy boundary must remain convincing | **Finish first; file only after the remaining exact-art, coordination, publication, authorization, and form gates close** |
+| **Stomach** | [`v1.11.0`](submissions/v1.11.0/stomach/); confirmed eligible | **High - strongest semantic fit** | Literal organ, appetite and sensation, the verb `stomach`, `butterflies in the stomach`, and clear sequence uses; the J-shaped silhouette is the clearest organ read at 18px | Four of five frequency captures are from 2020; no compatibility case; byline, exact-art approval, publication, and filing controls remain open | **Priority evidence sprint; advance after current Search, Video, and both Trends captures replace the 2020 exhibits** |
+| **Liver** | [`v1.12.0-liver.11`](submissions/v1.12.0-liver.11/liver/); confirmed eligible and marked ready to publish | **Medium-low** | Current worldwide evidence, documented anatomy/food/testing/medicine uses, selected new artwork, and a direct missing-noun argument | Multiple meanings and Compatibility are correctly `N/A`; the case is mostly literal, and the 18px image can still read as meat or a generic organ | **Conditional third filing; publish only if the final portfolio accepts a weaker Emoji 19.0 fit after Kidney and Stomach** |
+| **Maze** | [`v1.5.0`](submissions/v1.5.0/maze/); re-eligible after 2020 decline | **High concept fit; low readiness** | Physical puzzle plus durable metaphors for complexity, confusion, choice, navigation, learning, and escape; works as both scene and action and has many useful sequences | Four required Google exhibits are missing; Ngram is about `0.67x` `elephant`; two prior declines; the mouse disappears at 18px and the maze can approach a QR-like read | **Evidence challenger only; it may displace a weaker filing only if all four fresh exhibits and final artwork review are unusually strong** |
+| **Weight Scale** | [`v1.3.0`](submissions/v1.3.0/weight-scale/); re-eligible after 2020 decline | **Medium** | Clear 18px appliance; broad weighing action across health, fitness, travel, shipping, and veterinary contexts; strong sequence utility | Web and Image Trends are missing, Search and Video are from 2020, Ngram is substantially below `elephant`, Balance Scale is a plausible substitute, and Compatibility is `N/A` | **Hold as a reserve; do not file without strong fresh Trends evidence that overcomes the substitute case** |
+| **White Blood Cell** | [`v1.9.0`](submissions/v1.9.0/white-blood-cell/); re-eligible after 2020 decline | **Medium-low** | Broad immunity, infection, laboratory, education, and research uses; useful immune-defense and test sequences | These are mostly literal contexts rather than established multiple meanings; Search and Video are stale, both compliant Trends exhibits are missing, and the art can read as Microbe or a generic cell | **Hold; do not file until current evidence and unambiguous 18px recognition materially change the case** |
+| **ECG / EKG** | [2020 archive](docs/proposals/archive-2020-emojination-drafts/ecg-object.md); Unicode records a 2024 decline | **Not actionable in 2026** | The waveform is widely recognizable and could support testing, rhythm, results, monitoring, and heart-related sequences | The public submitted-date clock reaches 2028-04-05, and the actual decline notice may control a later date; the archived draft is not current-format, relies on importance/awareness and obsolete evidence, contains copied Leg Cast text, and does not establish genuine compatibility; a bare waveform also needs a careful UI-icon/signage rebuttal | **Do not submit in 2026 unless Unicode gives written eligibility for a materially different concept; rebuild from zero for 2028 rather than revising the archived prose** |
+
+Current decision order from this review:
+
+1. Finish Kidney because it has the strongest mature evidence packet and concentrated remaining gates.
+2. Refresh Stomach because it has the strongest fit with the multipurpose-building-block signal.
+3. Treat Liver as an optional third filing: it is the closest to publication, but its selection theory is less
+   aligned with the stated Emoji 19.0 emphasis.
+4. Let Maze challenge Liver only after completing all four missing exhibits and passing final small-size review.
+5. Hold Weight Scale and White Blood Cell unless new evidence changes the review materially.
+6. Do not file ECG / EKG in this cycle.
+
+This review does not manufacture a compatibility claim for any candidate. None of the seven current packets
+documents the kind of high-frequency cross-platform pictograph mismatch that drove several Emoji 18.0 choices.
 
 ## Emoji Submission Status
 
