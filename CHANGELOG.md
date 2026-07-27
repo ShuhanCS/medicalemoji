@@ -5,6 +5,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.46.0] - 2026-07-26
+
+### Changed
+- Added immutable submission snapshot `v1.15.0` and made the body's defense cell the primary White Blood Cell
+  meaning, with Microbe framed as the germ or threat it responds to.
+- Replaced the remaining science-led examples with ordinary messages about fighting infection, immune defenses,
+  and low, high, or recovering white-cell counts.
+- Moved biology education and research to secondary support while preserving honest `Not applicable.` answers.
+
+### Verification
+- Rebuilt the proposal PDF and reran artwork validation, submission preflight, PDF checks, dual-renderer page
+  inspection, and the optional five-lens editorial consultation.
+
 ## [0.45.0] - 2026-07-26
 
 ### Changed
