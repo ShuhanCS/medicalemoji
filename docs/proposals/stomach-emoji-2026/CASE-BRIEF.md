@@ -1,17 +1,16 @@
 # Stomach Case Brief
 
-Version: 1.4.0
+Version: 1.5.0
 
-Assessment date: 2026-07-26
+Assessment date: 2026-07-27
 
-## Current frozen candidate
+## Current working candidate
 
-| Field | Frozen value |
+| Field | Current value |
 | --- | --- |
-| Package | `1.12.0-candidate.9` |
-| Candidate commit | `8e4b7d890d41d306d3e642977966f3f62fc0e987` |
-| Proposal source | `candidate-v1.12/stomach_emoji_proposal_CANDIDATE.md`; SHA-256 `f0f2c6306a66ce67fc7ebb79b33bbc2c4a4928c5e7dd169d6eb46351384a9b8f` |
-| Reviewer PDF | `candidate-v1.12/stomach_emoji_proposal_CANDIDATE.pdf`; SHA-256 `8cee9747cc2ffbacd25eb3e8d56b4d9ffbb3fd10b7250e5335d6c552c9c38c31` |
+| Package | `1.13.0-candidate.2` |
+| Proposal source | `candidate-v1.13/stomach_emoji_proposal_v1.13.md`; SHA-256 `b649c019d56be2fabf05d99512ac06daa525ccf68f01c21f08a6a5ea396670a8` |
+| Reviewer PDF | `candidate-v1.13/stomach_emoji_proposal_v1.13.pdf`; SHA-256 `1884f5dac1e5b0079219c2202ee256128936c08b106ea2deff30774aa7ef7456` |
 | Official guidance | Checked 2026-07-26: https://www.unicode.org/emoji/proposals.html |
 | Eligibility and prior status | Eligibility is a settled project input from Shuhan He dated 2026-07-26. Unicode's request/status checks remain the filing control; the proposal does not narrate an eligibility dispute. |
 | Authorship | The ordered byline is Shuhan He, MD; David Rhew, MD; Heena Purohit. Shuhan He is the main point of contact. The source is Shuhan He's 2026-07-26 direction in `source-ledger-v1.12.md`; separate written consent records for David Rhew and Heena Purohit are not yet archived. |
@@ -39,7 +38,12 @@ Assessment date: 2026-07-26
   artwork. The color and matching black-and-white assets pass the full deterministic validation set.
 - Candidate.9 strengthens the sequence examples, states the missing Stomach symbol more directly in Breaks new
   ground, and defines Overly specific around the broad everyday organ concept.
-- The exact-asset decision, David Rhew and Heena Purohit consent records, immutable promotion, public URL, and
+- v1.13 Candidate.1 corrected the interpretation of the Trends exhibits, added `elephant` baselines to Search and
+  Video Search, added the nearest-emoji comparison figure, and supplied corpus evidence for the verb and idioms.
+- v1.13 Candidate.2 preserves those improvements while restoring the settled eligibility record, removing
+  reviewer-facing cross-filing discussion, tightening Open-ended around Stomach's bounded literal-and-figurative
+  meanings, and correcting the Google Books page break.
+- The exact-asset decision, David Rhew and Heena Purohit consent records, canonical promotion, public URL, and
   Shuhan's filing authorization remain outside the proposal's substantive case and are not yet complete.
 - The five frequency captures are current as of 2026-07-26 and do not require recapture unless the artifact or
   filing date changes enough to make them stale.
@@ -229,3 +233,20 @@ new ground, and answers Overly specific with a broad everyday category boundary.
 improvements; no evidence, artwork, rights, authorship, or eligibility claim changed.
 
 Candidate.9 result: **DRAFT READY FOR COMPLIANCE** and **READY FOR FOCUSED PANEL RERUN**.
+
+## Candidate.2 specification reconciliation
+
+| Field | Value |
+| --- | --- |
+| Package | `1.13.0-candidate.2` |
+| Proposal source SHA-256 | `b649c019d56be2fabf05d99512ac06daa525ccf68f01c21f08a6a5ea396670a8` |
+| Reviewer PDF SHA-256 | `1884f5dac1e5b0079219c2202ee256128936c08b106ea2deff30774aa7ef7456` |
+| PDF artifact review | Pass: 8 US-Letter pages, 19 link annotations, embedded subset fonts, extractable text, no blank or clipped page, and readable evidence exhibits. |
+| Artwork | Unchanged from Candidate.8; the four exact hashes remain identical and technical checks pass. |
+
+Candidate.2 reconciles the latest Stomach work with the independent-filing specification. The proposal is
+self-contained, reports the five-source evidence proportionately, and uses a concise Stomach-specific
+Open-ended limit. It does not claim completion, compatibility, eligibility evidence, exact-art approval,
+coauthor consent, publication, or filing.
+
+Candidate.2 result: **CANDIDATE COMPLETE; AUTHOR-CONTROLLED FILING RECORDS OPEN**.

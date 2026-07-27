@@ -5,6 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.49.2] - 2026-07-27
+
+### Changed
+- Advanced the latest Stomach packet to `1.13.0-candidate.2` and reconciled it with the independent-filing
+  specification: eligibility remains a settled project input, and reviewer-facing cross-filing language was
+  removed.
+- Preserved the exact four passing Stomach artwork files and the current evidence while tightening the
+  Open-ended answer around the organ's established literal, appetite, tolerance, fullness, and nervous-use
+  meanings.
+- Corrected the Google Books page break and rebuilt the candidate PDF for a clean page-by-page review.
+- Advanced the workspace version from `0.49.1` to `0.49.2`.
+
 ## [0.49.1] - 2026-07-26
 
 ### Changed

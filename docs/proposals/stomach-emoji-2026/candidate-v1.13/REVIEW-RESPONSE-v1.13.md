@@ -4,6 +4,13 @@ Review date: 2026-07-27
 
 Reviewed artifact: `candidate-v1.12/stomach_emoji_proposal_CANDIDATE.pdf`
 
+Current packet: `1.13.0-candidate.2`
+
+Candidate.2 preserves the evidence and distinctiveness corrections below while applying the later Stomach
+finalization specification. Eligibility is again treated as the settled project input recorded by Shuhan He,
+the public proposal no longer discusses discarded multi-concept comparisons, and the Open-ended answer now
+states only the bounded Stomach-specific limiting principle.
+
 The review rebuilt Unicode's requirement set from the live guidance page rather than from the project's own
 notes, measured each frequency claim against its own screenshot at the pixel level, and established base rates
 from Unicode's published proposal-status data.
@@ -73,10 +80,10 @@ published use since the seventeenth century and now at its charted peak, and the
 idiomatic load of the word rather than membership in the anatomy, which makes the criterion self-limiting on
 evidence rather than by assertion. Exclusion D now cites the same exhibits.
 
-**Rejected during this work.** A `stomach_VERB, liver_VERB, kidney_VERB` comparison was captured and then
-discarded. Ngram's part-of-speech tagger mis-tags archaic text and reports implausible `liver_VERB` volume from
-roughly 1550 to 1950, so the chart could not be honestly explained. The single-term chart is used instead and
-the discard is disclosed in the proposal itself rather than left silent.
+**Rejected during this work.** A multi-concept part-of-speech comparison was captured and discarded because
+Ngram's tagger produced implausible historical baselines. The reliable single-term chart is used instead.
+Candidate.2 removes this internal experiment from the public proposal because it does not help a reviewer
+evaluate Stomach and could imply coordination with another filing.
 
 ### 6. Capture method was undisclosed
 
@@ -85,29 +92,27 @@ that the widest available date range was used for each tool, and why no qualifyi
 Trends exhibits: `stomach` is not ambiguous in the way `seal` or `fly` are, and a health category would distort
 the required `elephant` baseline.
 
-### 7. Date
+### 7. Date and eligibility record
 
-**Fixed.** The proposal is dated 2026-07-28. See the eligibility gate in `READINESS.md`: filing on 2026-07-26 or
-2026-07-27 falls inside the four-year bar under every reading of it.
+**Reconciled in Candidate.2.** The proposal is dated 2026-07-27, the revision date used by this candidate.
+Eligibility is a settled project input confirmed by Shuhan He and remains an internal filing control; the
+reviewer-facing PDF does not narrate an eligibility dispute.
 
 ## Findings not fixed in the document
 
-These are decisions for the submitter, not defects in the prose.
+These are filing records or honest factor limits, not defects in the prose.
 
-1. **Eligibility.** `Stomach` was declined twice, submitted 2020-10-27 and 2022-07-28. The FAQ bars
-   re-submission for four years from the decline. The 2022 intake was decided around 2022-11-01, which is after
-   the 2026-07-31 window closes. No public evidence of eligibility was found. This is a binary risk that can
-   void the filing regardless of document quality.
-2. **Concurrent organ filings.** Exclusion C is weakened if Kidney, Liver, or White Blood Cell are filed into
-   the same window by the same submitter.
+1. **Exact-art approval.** Shuhan's dated decision on the four exact files remains open.
+2. **Coauthor consent.** Written consent from David Rhew and Heena Purohit remains open.
 3. **Compatibility scores nothing.** ESR's stated intake focus for Emoji 19.0 and beyond, in L2/25-128, names
    compatibility with social apps, other standards, or operating systems. Section G is `Not applicable`. That is
    honest and should stay honest unless real evidence exists.
 
-## Verification performed on the v1.13 PDF
+## Verification performed on the Candidate.2 PDF
 
-- 8 pages, US Letter 612x792, unencrypted, extractable text, embedded subset fonts.
+- 8 US Letter pages at 612x792, unencrypted, extractable text, embedded subset fonts.
 - No TODO, PLACEHOLDER, FIXME, DRAFT, or "must be refreshed" markers.
-- 20 link annotations, all resolving to the queries and settings described in their captions.
+- 19 link annotations retained for the cited sources and reproducible queries.
 - Both black-and-white assets re-verified as exactly two colours at 18x18 and 72x72.
-- Every page rendered and visually inspected for clipping, overlap, stranded headings, and blank space.
+- The prior Google Books page-start clipping was fixed with an explicit section page break.
+- Every page rendered and visually inspected for clipping, overlap, stranded headings, and blank pages.

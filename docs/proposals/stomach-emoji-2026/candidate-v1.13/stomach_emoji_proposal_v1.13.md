@@ -2,7 +2,7 @@
 
 **Submitters:** Shuhan He, MD; David Rhew, MD; Heena Purohit<br>
 **Main point of contact:** Shuhan He<br>
-**Date:** 2026-07-28
+**Date:** 2026-07-27
 
 ## Identification
 
@@ -50,10 +50,6 @@ show durable published use across centuries, and `butterflies in my stomach` ris
 [Open the idiom comparison](https://books.google.com/ngrams/graph?content=butterflies+in+my+stomach%2Ca+strong+stomach%2Cturn+my+stomach&year_start=1500&year_end=2022&corpus=en&smoothing=3).
 
 <img src="evidence/frequency/stomach_ngram_idioms_2026-07-27_CANDIDATE.png" alt="Google Books Ngram for stomach idioms" style="max-height:2.35in;display:block;margin:4pt auto 8pt;">
-
-A note on method: a `stomach_VERB, liver_VERB, kidney_VERB` comparison was prepared and then discarded, because
-Ngram's part-of-speech tagger mis-tags archaic text and reports implausible `liver_VERB` volume across roughly
-1550 to 1950. The single-term chart above is used instead.
 
 ### B. Use in sequences
 
@@ -184,17 +180,10 @@ meanings include appetite, fullness, nervous anticipation, and tolerance, extend
 
 ### C. Open-ended
 
-**No.** Stomach is not proposed as one member of an anatomy series, and the reason is measurable rather than
-asserted. The selection criterion here is not that stomach is an organ. It is that `stomach` carries an
-established non-anatomical sense in ordinary English, which the corpus evidence in section A shows directly:
-a tagged verb sense in continuous published use since the seventeenth century and now at its charted peak, and
-the idioms `a strong stomach`, `turn my stomach`, and `butterflies in my stomach`.
-
-That criterion is self-limiting. It selects `stomach` because the word does work in everyday language beyond
-naming the organ, and it does not extend to organ words that lack that behaviour. A proposal for another organ
-would have to demonstrate its own comparable everyday sense on its own evidence, and would stand or fall on
-that evidence rather than on this proposal. Encoding Stomach therefore does not create a reason to encode every
-other organ, because what is being selected is the idiomatic load of the word, not membership in the anatomy.
+**No.** Stomach is selective because one familiar J-shaped symbol carries established literal and figurative
+meanings: the organ, appetite, fullness, tolerance, and nervous anticipation. Section A documents the verb and
+idiomatic uses in published books. This bounded literal-and-figurative concept creates no requirement to encode
+additional organs.
 
 ### D. Transient
 

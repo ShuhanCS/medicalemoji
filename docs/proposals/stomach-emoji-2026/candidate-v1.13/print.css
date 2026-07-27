@@ -25,8 +25,7 @@ h4 {
   page-break-after: avoid;
 }
 
-#google-video-search,
-#google-trends---image-search {
+#google-books-ngram-viewer {
   break-before: page;
   page-break-before: always;
 }
