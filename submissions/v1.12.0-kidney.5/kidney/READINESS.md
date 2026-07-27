@@ -46,8 +46,8 @@ brief `Not applicable` answers, and all required exclusions are answered directl
 | Candidate-specific sections | Pass | Every substantive section has a Kidney-specific meaning, example, evidence result, or visual reason; inapplicable inclusion factors are brief; every exclusion is direct. |
 | Citations | Pass | Material usage and medical claims cite NIDDK, MedlinePlus, HRSA, NHS Blood and Transplant, Unicode, or the embedded frequency evidence. |
 | PDF QA | Pass | The exact eight-page PDF with SHA-256 `19d2568c7655fbaeae31db91a1d65d37971eab4edf2c224f4023673552e77fe5` has embedded fonts, 22 intact links, readable evidence, deliberate pagination, and no clipping or internal-QA leakage. |
-| Internal editorial panel | Pending | The `.4` exact-hash five-lens panel was completed and useful edits were adopted; freeze and record the `.5` follow-up panel after commit. |
-| Public PDF | Open | Publish the exact approved PDF at a stable logged-out HTTPS URL only after internal gates close. |
+| Internal editorial panel | Pass | The exact `.5` hash received five-lens follow-up review. Selection, mentor, visual, scope, and durability are ready for final check; intake remains blocked only by eligibility and publication requirements. |
+| Public PDF | Open | Push commit `746399f31433cb6ac190d23bddeb10f9bcd471ce`, then verify anonymous byte-identical access at the commit-pinned raw GitHub URL recorded in the panel run. |
 | Official form | Open | Reconcile the form with the exact public PDF and archive filing confirmation. |
 
 ## Changes in 1.12.0-kidney.5
