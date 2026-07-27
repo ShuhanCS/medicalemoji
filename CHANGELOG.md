@@ -5,6 +5,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.45.0] - 2026-07-26
+
+### Changed
+- Added immutable submission snapshot `v1.14.0` and reframed White Blood Cell around understandable immunity,
+  personal-health, education, public-science, and research uses.
+- Removed the specialist LOINC and HL7 material from the reviewer-facing proposal and replaced standardized-data
+  language with plain descriptions of white-cell counts.
+- Preserved direct `Not applicable.` answers for Multiple meanings, Completeness, and Compatibility rather than
+  manufacturing unsupported inclusion arguments.
+
+### Verification
+- Rebuilt the proposal PDF and reran artwork validation, submission preflight, link and PDF checks, dual-renderer
+  page inspection, and the optional five-lens editorial consultation.
+
 ## [0.44.0] - 2026-07-26
 
 ### Changed
