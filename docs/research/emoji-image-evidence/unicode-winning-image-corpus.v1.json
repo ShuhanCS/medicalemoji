@@ -1,0 +1,124 @@
+{
+  "schema_version": "1.1.0",
+  "dataset_version": "1.1.0",
+  "created_at": "2026-07-23",
+  "purpose": "A curated, traceable visual benchmark for Medical Emoji proposal artwork. This dataset is descriptive and does not establish that artwork alone caused encoding.",
+  "source_register": {
+    "name": "Unicode Emoji Proposals chart",
+    "url": "https://unicode.org/emoji/charts/emoji-proposals.html",
+    "outcome_definition": "Each record is listed by Unicode as the proposal source for one or more encoded emoji."
+  },
+  "copyright_policy": "Records point to public official documents. Third-party artwork is not copied into this repository.",
+  "records": [
+    {
+      "id": "L2-19-150",
+      "proposal": "Heart (Organ)",
+      "encoded_emoji": "U+1FAC0 anatomical heart",
+      "emoji_version": "13.0",
+      "visual_family": "anatomical organ",
+      "relevance": "Direct anatomical-organ precedent; useful for color, silhouette, and internal-structure comparison.",
+      "image_evidence": "Color sample visible on page 1; the proposal says black-and-white images were pending, so it must not be treated as current-format compliant.",
+      "source_pdf": "https://www.unicode.org/L2/L2019/19150-heart-emoji.pdf",
+      "sample_page": 1
+    },
+    {
+      "id": "L2-19-149",
+      "proposal": "Lung",
+      "encoded_emoji": "U+1FAC1 lungs",
+      "emoji_version": "13.0",
+      "visual_family": "anatomical organ",
+      "relevance": "Direct anatomical-organ precedent; the paired lobes and trachea provide a strong non-bean silhouette.",
+      "image_evidence": "Color sample visible on page 1. It predates the current four-sample requirement and is historical context only.",
+      "source_pdf": "https://www.unicode.org/L2/L2019/19149-lung-emoji.pdf",
+      "sample_page": 1
+    },
+    {
+      "id": "L2-20-214",
+      "proposal": "X-Ray",
+      "encoded_emoji": "U+1FA7B x-ray",
+      "emoji_version": "14.0",
+      "visual_family": "medical concept",
+      "relevance": "Closest successful medical-concept comparator; the visible color and black-and-white samples show a paradigm that survives a monochrome treatment.",
+      "image_evidence": "Color and black-and-white reference samples are visible on page 1; the exact 18x18/72x72 placement must be verified in the original PDF before using it as a format precedent.",
+      "source_pdf": "https://www.unicode.org/L2/L2020/20214-x-ray-emoji.pdf",
+      "sample_page": 1
+    },
+    {
+      "id": "L2-20-226",
+      "proposal": "Beans",
+      "encoded_emoji": "U+1FAD8 beans",
+      "emoji_version": "14.0",
+      "visual_family": "food / bean-like silhouette",
+      "relevance": "Primary confusability comparator for a single bean-shaped candidate silhouette.",
+      "image_evidence": "Three color proposal alternatives are visible on page 1. The proposal page does not show the present-day four-sample layout.",
+      "source_pdf": "https://www.unicode.org/L2/L2020/20226-beans-emoji.pdf",
+      "sample_page": 1
+    },
+    {
+      "id": "L2-21-217",
+      "proposal": "Jellyfish",
+      "encoded_emoji": "U+1FABC jellyfish",
+      "emoji_version": "15.0",
+      "visual_family": "animal / silhouette plus detail",
+      "relevance": "Useful contrast case: a compact radial silhouette needs a small number of high-salience cues rather than anatomical detail.",
+      "image_evidence": "Sample and alternate illustrations are visible on page 1. This is a historical visual comparison, not a current-format template.",
+      "source_pdf": "https://www.unicode.org/L2/L2021/21217-jellyfish-emoji.pdf",
+      "sample_page": 1
+    },
+    {
+      "id": "L2-23-257",
+      "proposal": "Beet",
+      "encoded_emoji": "U+1FADC root vegetable",
+      "emoji_version": "16.0",
+      "visual_family": "food / root vegetable",
+      "relevance": "A second food-shape comparator; leaves and a tapered root are cues that separate it from a generic round or bean form.",
+      "image_evidence": "Color and black-and-white candidate art is visible on page 1. Verify exact native-size samples in the original PDF if it is used for a formal layout comparison.",
+      "source_pdf": "https://www.unicode.org/L2/L2023/23257-beet-emoji.pdf",
+      "sample_page": 1
+    },
+    {
+      "id": "L2-23-258",
+      "proposal": "Fingerprint",
+      "encoded_emoji": "U+1FAF7 fingerprint",
+      "emoji_version": "16.0",
+      "visual_family": "symbol / line-dense",
+      "relevance": "Tests whether a concept can retain its defining structural cue in monochrome; useful for assessing black-and-white variants with a line-based defining feature.",
+      "image_evidence": "Black-and-white and color examples are visible on page 1. The samples are evidence of a clear defining cue, not a prescription for organ art.",
+      "source_pdf": "https://www.unicode.org/L2/L2023/23258-fingerprint-emoji.pdf",
+      "sample_page": 1
+    },
+    {
+      "id": "L2-24-249",
+      "proposal": "Orca",
+      "encoded_emoji": "U+1FACD orca",
+      "emoji_version": "17.0",
+      "visual_family": "animal / silhouette-dependent",
+      "relevance": "Best current-format comparator in this seed set: the first page visibly presents 18x18 and 72x72 examples in color and black-and-white.",
+      "image_evidence": "All four size-and-mode samples are visible in a 2x2 grid on page 1. It demonstrates that the critical 18x18 signal is an unmistakable silhouette, not accumulated internal detail.",
+      "source_pdf": "https://www.unicode.org/L2/L2024/24249-orca-emoji.pdf",
+      "sample_page": 1
+    },
+    {
+      "id": "L2-24-255",
+      "proposal": "Treasure Chest",
+      "encoded_emoji": "U+1FA8E treasure chest",
+      "emoji_version": "17.0",
+      "visual_family": "object / detail hierarchy",
+      "relevance": "A useful object precedent: the proposal limits visual contents to gold coins because other contents become muddled at small resolutions.",
+      "image_evidence": "72px and 18px color samples are visible on page 1. It is a useful small-detail lesson but not a complete present-day format example.",
+      "source_pdf": "https://www.unicode.org/L2/L2024/24255-treasure-chest-emoji.pdf",
+      "sample_page": 1
+    },
+    {
+      "id": "L2-24-257",
+      "proposal": "Falling Debris",
+      "encoded_emoji": "U+1F6D8 landslide",
+      "emoji_version": "17.0",
+      "visual_family": "abstract event / directional silhouette",
+      "relevance": "Shows a successful abstract paradigm where directional mass movement, rather than literal detail, carries recognition at 18px.",
+      "image_evidence": "72px and 18px color samples are visible on page 1. Its historical value is its simplification strategy, not a direct anatomical comparison.",
+      "source_pdf": "https://www.unicode.org/L2/L2024/24257-falling-debris-emoji.pdf",
+      "sample_page": 1
+    }
+  ]
+}

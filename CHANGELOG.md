@@ -7,6 +7,52 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.22.1] - 2026-07-26
+
+### Added
+- Added the synchronized Kidney submission packet v2.1.1 with regenerated submission PDF and native-size visual-review board.
+
+### Changed
+- Refocused the submission-facing visual argument on the single-kidney silhouette, medial hilum, and urinary-system cue; removed participant-study language from the public proposal materials.
+- Clarified that the reusable evidence rubric's participant protocol is optional supplemental internal evidence, not a Unicode filing condition.
+
+## [0.22.0] - 2026-07-24
+
+### Added
+- Added Kidney submission packet v2.1.0 with a native-size artwork revision, regenerated PDF and visual-review board, source vectors, and recorded image-evidence case study.
+
+### Changed
+- Replaced Kidney B&W proposal art with strict black-and-white rendering; v2.1.0 passes the deterministic format, palette, margin, white-background visibility, and silhouette-alignment gates. Human recognition testing remains a filing hold.
+
+## [0.21.3] - 2026-07-23
+
+### Added
+- Added an executable GPT2 implementation spec for a semver Kidney v2.1.0 artwork revision, with exact asset names, binary black-and-white requirements, automated gates, and blinded-recognition protocol.
+
+## [0.21.2] - 2026-07-23
+
+### Changed
+- Generalized Emoji Image Evidence Database to v1.1.0 for all Medical Emoji submissions, with a parameterized four-sample inspector, generic blinded-test rubric, neutral corpus annotations, and candidate-specific case studies.
+
+## [0.21.1] - 2026-07-23
+
+### Added
+- Added Emoji Image Evidence Database v1.0.0: a traceable 10-proposal historical visual corpus, Unicode-aligned image rubric, reproducible source-page rehydrator, and deterministic Kidney v2.0.0 image inspection.
+
+### Changed
+- Recorded that Kidney v2.0.0 meets the required image dimensions but its black-and-white samples contain opaque grayscale values and need a strictly binary black-and-white revision before submission.
+
+## [0.21.0] - 2026-07-23
+
+### Changed
+- Added kidney submission packet v2.0.0, stating that Conductscience Foundation owns the example artwork and has granted the submitter the rights required for the Unicode proposal.
+
+## [0.20.0] - 2026-07-23
+
+### Changed
+- Added synchronized kidney submission packet v1.2.0 with revised substantive argument, updated single-kidney reference artwork, a regenerated visual-review board, and a new PDF.
+- Reframed the Kidney proposal around everyday communication, concrete substitute failures, native-size visual distinction, and a bounded evidence-based case rather than anatomy-category completion.
+
 ## [0.19.11] - 2026-05-15
 
 ### Added

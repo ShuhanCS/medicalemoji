@@ -1,0 +1,178 @@
+{
+  "schema_version": "1.1.0",
+  "dataset_version": "1.1.0",
+  "asset_set": "Kidney proposal v2.1.0",
+  "input_files": {
+    "color_18": "v2.1.0_kidney_color_18x18_SUBMIT.png",
+    "color_72": "v2.1.0_kidney_color_72x72_SUBMIT.png",
+    "bw_18": "v2.1.0_kidney_bw_18x18_SUBMIT.png",
+    "bw_72": "v2.1.0_kidney_bw_72x72_SUBMIT.png"
+  },
+  "method": "Deterministic file inspection; visual recognition must be tested separately with blinded participants.",
+  "unicode_format_gate": {
+    "all_required_dimensions_match": true,
+    "black_and_white_samples_have_neutral_opaque_pixels": true,
+    "black_and_white_samples_have_strict_binary_opaque_palette": true,
+    "note": "Unicode requires black-and-white rather than grayscale. A neutral-RGB palette can still contain many gray values, so the strict-binary field is the conservative automated check. A human must also verify that semi-transparent edge treatment does not create the appearance of shaded grayscale."
+  },
+  "analysis": {
+    "color_18": {
+      "file": "v2.1.0_kidney_color_18x18_SUBMIT.png",
+      "sha256": "d44d2f90defd4286fc6d0cba87d102725b86d8d2f54306ddba85d135f34b3f5f",
+      "size_px": [
+        18,
+        18
+      ],
+      "rgba_mode": "RGBA",
+      "alpha_foreground_pixels_at_or_above_32": 166,
+      "alpha_foreground_fraction": 0.5123,
+      "alpha_bbox_xyxy": [
+        1,
+        1,
+        15,
+        17
+      ],
+      "alpha_bbox_fraction_of_canvas": [
+        0.7778,
+        0.8889
+      ],
+      "alpha_components_4_connected": 1,
+      "opaque_rgb_count": 5,
+      "opaque_pixels_are_grayscale": false,
+      "opaque_palette_is_strict_black_and_white": false,
+      "background_visibility": {
+        "white": {
+          "visible_canvas_fraction": 0.5123,
+          "opaque_palette_min_contrast_ratio": 1.6,
+          "opaque_palette_max_contrast_ratio": 14.29
+        },
+        "near_black": {
+          "visible_canvas_fraction": 0.5123,
+          "opaque_palette_min_contrast_ratio": 1.34,
+          "opaque_palette_max_contrast_ratio": 11.97
+        }
+      },
+      "matches_required_dimensions": true
+    },
+    "color_72": {
+      "file": "v2.1.0_kidney_color_72x72_SUBMIT.png",
+      "sha256": "8245d14f8847fdafc887197d8633b8c2133582de57ee1190ca1b9e48d6e9132c",
+      "size_px": [
+        72,
+        72
+      ],
+      "rgba_mode": "RGBA",
+      "alpha_foreground_pixels_at_or_above_32": 2065,
+      "alpha_foreground_fraction": 0.3983,
+      "alpha_bbox_xyxy": [
+        9,
+        7,
+        57,
+        66
+      ],
+      "alpha_bbox_fraction_of_canvas": [
+        0.6667,
+        0.8194
+      ],
+      "alpha_components_4_connected": 1,
+      "opaque_rgb_count": 314,
+      "opaque_pixels_are_grayscale": false,
+      "opaque_palette_is_strict_black_and_white": false,
+      "background_visibility": {
+        "white": {
+          "visible_canvas_fraction": 0.3978,
+          "opaque_palette_min_contrast_ratio": 1.32,
+          "opaque_palette_max_contrast_ratio": 15.03
+        },
+        "near_black": {
+          "visible_canvas_fraction": 0.3877,
+          "opaque_palette_min_contrast_ratio": 1.28,
+          "opaque_palette_max_contrast_ratio": 14.53
+        }
+      },
+      "matches_required_dimensions": true
+    },
+    "bw_18": {
+      "file": "v2.1.0_kidney_bw_18x18_SUBMIT.png",
+      "sha256": "30a8e7b102c66f720d8b874422e3858c2a69969b99dc8d78acc15902a6542e04",
+      "size_px": [
+        18,
+        18
+      ],
+      "rgba_mode": "RGBA",
+      "alpha_foreground_pixels_at_or_above_32": 166,
+      "alpha_foreground_fraction": 0.5123,
+      "alpha_bbox_xyxy": [
+        1,
+        1,
+        15,
+        17
+      ],
+      "alpha_bbox_fraction_of_canvas": [
+        0.7778,
+        0.8889
+      ],
+      "alpha_components_4_connected": 1,
+      "opaque_rgb_count": 2,
+      "opaque_pixels_are_grayscale": true,
+      "opaque_palette_is_strict_black_and_white": true,
+      "background_visibility": {
+        "white": {
+          "visible_canvas_fraction": 0.4537,
+          "opaque_palette_min_contrast_ratio": 1.0,
+          "opaque_palette_max_contrast_ratio": 21.0
+        },
+        "near_black": {
+          "visible_canvas_fraction": 0.0586,
+          "opaque_palette_min_contrast_ratio": 1.1,
+          "opaque_palette_max_contrast_ratio": 19.17
+        }
+      },
+      "matches_required_dimensions": true
+    },
+    "bw_72": {
+      "file": "v2.1.0_kidney_bw_72x72_SUBMIT.png",
+      "sha256": "df7ea45a9bc5cbd8167f6192caed2498c213694a45ad9818c50c699dfbd6054a",
+      "size_px": [
+        72,
+        72
+      ],
+      "rgba_mode": "RGBA",
+      "alpha_foreground_pixels_at_or_above_32": 2090,
+      "alpha_foreground_fraction": 0.4032,
+      "alpha_bbox_xyxy": [
+        9,
+        7,
+        58,
+        66
+      ],
+      "alpha_bbox_fraction_of_canvas": [
+        0.6806,
+        0.8194
+      ],
+      "alpha_components_4_connected": 1,
+      "opaque_rgb_count": 2,
+      "opaque_pixels_are_grayscale": true,
+      "opaque_palette_is_strict_black_and_white": true,
+      "background_visibility": {
+        "white": {
+          "visible_canvas_fraction": 0.3752,
+          "opaque_palette_min_contrast_ratio": 1.0,
+          "opaque_palette_max_contrast_ratio": 21.0
+        },
+        "near_black": {
+          "visible_canvas_fraction": 0.028,
+          "opaque_palette_min_contrast_ratio": 1.1,
+          "opaque_palette_max_contrast_ratio": 19.17
+        }
+      },
+      "matches_required_dimensions": true
+    },
+    "color_bw_alpha_mask_iou_18px": 1.0,
+    "color_bw_alpha_mask_iou_72px": 0.988
+  },
+  "interpretation_limits": [
+    "Pixel geometry and contrast cannot establish the Unicode requirement that most people recognize the intended entity without foreknowledge.",
+    "A high alpha-mask overlap between color and black-and-white assets supports silhouette consistency but does not prove semantic recognition."
+  ]
+}
