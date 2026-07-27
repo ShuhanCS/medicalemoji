@@ -45,9 +45,9 @@ Stomach adds a specific organ meaning to several short combinations:
 
 ### C. Breaks new ground
 
-**Yes.** Existing faces, food emoji, and Butterfly can show nausea, disgust, eating, or nervousness, but they do
-not identify the stomach or digestion. Stomach adds the organ itself plus its appetite, fullness, tolerance, and
-butterflies meanings.
+**Yes.** Faces, food emoji, and Butterfly can express nausea, eating, disgust, or nervousness, but none identifies
+the stomach or digestion. Stomach adds one recognizable symbol that connects the organ itself with appetite,
+fullness, tolerance, and the familiar butterflies-in-the-stomach expression.
 
 ### D. Distinctiveness
 
@@ -113,9 +113,10 @@ Not applicable. This proposal does not claim compatibility with an emoji from an
 
 ### A. Already represented
 
-Nauseated Face shows nausea or disgust and, with Fork and Knife, sickness after eating. Butterfly with an Anxious
-Face suggests nervous anticipation. These cover symptoms, meals, and mood, but not the stomach, digestion,
-fullness in the stomach, or the verb stomach meaning to tolerate something.
+Nauseated Face can express nausea or disgust and, with Fork and Knife, sickness after eating. Butterfly with an
+Anxious Face can suggest nervous anticipation. Those combinations work for individual situations, but they
+cannot name the stomach itself or provide the common anchor for digestion, fullness, tolerance, and butterflies
+in the stomach.
 
 ### B. Overly specific
 
@@ -124,10 +125,11 @@ nervousness, and tolerance meanings reach beyond any single digestive condition.
 
 ### C. Open-ended
 
-[Gut](https://www.merriam-webster.com/dictionary/gut) is the closest neighbor, but it can mean the whole digestive
-tract, belly, courage, or intuition rather than one organ. Stomach maps directly to one recognizable organ and
-its documented appetite, fullness, verb, and butterflies meanings. That distinction creates no matching need
-for intestine or other organs; anatomy or medical importance alone is insufficient.
+**No.** Stomach is not proposed as one member of an anatomy series. It combines one familiar, visually
+recognizable organ with established everyday meanings for appetite, fullness, tolerance, and nervous
+anticipation. The same J-shaped symbol can express the literal stomach, digestion, a strong stomach, being unable
+to stomach something, and butterflies in the stomach. Selecting this bounded communication concept does not
+create a reason to encode every other organ.
 
 ### D. Transient
 
