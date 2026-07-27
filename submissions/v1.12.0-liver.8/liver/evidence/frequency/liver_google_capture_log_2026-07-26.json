@@ -1,0 +1,37 @@
+{
+  "concept": "liver",
+  "viewport": {
+    "width": 1440,
+    "height": 1100
+  },
+  "records": [
+    {
+      "kind": "Google Search",
+      "result": "About 183,000 results",
+      "url": "https://www.google.com/search?q=liver&hl=en&num=10&pws=0",
+      "filename": "liver_google_search_2026-07-26_SUBMIT.png",
+      "capturedAt": "2026-07-26T21:52:14.251Z"
+    },
+    {
+      "kind": "Google Video Search",
+      "result": "About 72,400,000 results (0.20s)",
+      "url": "https://www.google.com/search?q=liver&hl=en&num=10&pws=0&tbm=vid",
+      "filename": "liver_google_video_search_2026-07-26_SUBMIT.png",
+      "capturedAt": "2026-07-26T21:52:35.925Z"
+    },
+    {
+      "kind": "Google Trends Web Search",
+      "result": "Worldwide, 2004-present, Web Search",
+      "url": "https://trends.google.com/trends/explore?date=all&q=elephant%2Cliver",
+      "filename": "liver_google_trends_web_2026-07-26_SUBMIT.png",
+      "capturedAt": "2026-07-26T21:52:56.526Z"
+    },
+    {
+      "kind": "Google Trends Image Search",
+      "result": "Worldwide, 2008-present, Image Search",
+      "url": "https://trends.google.com/trends/explore?date=all_2008&q=elephant%2Cliver&gprop=images",
+      "filename": "liver_google_trends_image_2026-07-26_SUBMIT.png",
+      "capturedAt": "2026-07-26T21:53:16.547Z"
+    }
+  ]
+}

@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.48.2] - 2026-07-26
+
+### Added
+- Added immutable Liver package `1.12.0-liver.8` with MedlinePlus anatomy and FAO/Codex food sources.
+
+### Changed
+- Updated the fourth Liver author display name from Adrienne Balk to Adi Balk throughout the proposal package.
+- Rebalanced the Liver selection case across anatomy and biology, food and cooking, and healthcare while keeping
+  genuine non-applicable inclusion factors brief and every exclusion factor candidate-specific.
+- Advanced the workspace version from `0.48.1` to `0.48.2`.
+
 ## [0.48.1] - 2026-07-26
 
 ### Added
