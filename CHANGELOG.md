@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.48.3] - 2026-07-26
+
+### Added
+- Added immutable Liver package `1.12.0-liver.9` with a Department of Agriculture-supported duck-liver dinner
+  sequence.
+
+### Changed
+- Humanized the Liver proposal's Open-ended, Distinctiveness, Expected usage, and supporting factor language.
+- Replaced acronym-heavy reviewer-facing source labels with plain institutional names.
+- Advanced the workspace version from `0.48.2` to `0.48.3`.
+
 ## [0.48.2] - 2026-07-26
 
 ### Added
