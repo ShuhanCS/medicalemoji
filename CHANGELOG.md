@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.48.0] - 2026-07-26
+
+### Added
+- Added the definitive White Blood Cell artwork specification, selecting a single organic microscope-icon
+  direction with an asymmetric connected three-lobed nucleus, exact 18x18 and 72x72 construction rules, true
+  black-and-white requirements, a GPT Image production prompt, and objective acceptance gates.
+
+### Changed
+- Reframed the supplied surface-cell image as morphology reference only: broad membrane folds inform the
+  silhouette, while dense fuzz and opaque photorealism are excluded because they hide the nucleus at emoji size.
+
 ## [0.47.0] - 2026-07-26
 
 ### Changed
