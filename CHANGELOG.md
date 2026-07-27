@@ -5,6 +5,21 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.48.1] - 2026-07-26
+
+### Added
+- Added immutable Liver finalization package `1.12.0-liver.7` and a dated approval record for its unchanged
+  exact four artwork assets.
+
+### Changed
+- Applied proposal-building guidance `1.3.0`, including its explicit candidate-specific section standard, to
+  the Liver finalization package.
+- Applied the live proposal-building guidance to remove defensive evidence language, sharpen Open-ended around
+  three established Liver uses, and simplify Faulty comparison.
+- Synchronized the packaged best-in-class specification to `3.3.0` and removed obsolete numeric-score and
+  panel-vote gating from the Liver readiness record.
+- Advanced the workspace version from `0.48.0` to `0.48.1`.
+
 ## [0.48.0] - 2026-07-26
 
 ### Changed
