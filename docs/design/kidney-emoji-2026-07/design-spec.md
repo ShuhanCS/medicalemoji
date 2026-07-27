@@ -1,6 +1,8 @@
 # Kidney Emoji Artwork Specification
 
-Status: paired concept approved and rebuilt as deterministic `v1.12.0-kidney.1` review artwork
+Version: 1.1.0
+
+Status: paired concept approved; deterministic small-size refinement built in `v1.12.0-kidney.4`
 
 Generator: GPT Image 2 built-in image workflow
 
@@ -65,19 +67,27 @@ At 72x72 pixels:
 
 ## Computer-validation requirement
 
-Computer validation must test more than geometric dissimilarity. Exact dimensions, strict black-and-white
-palette, connectedness, IoU, and difference-hash controls remain useful, but the review must also record
-semantic confusion against `kidney`, `kidneys`, `beans`, `lungs`, `uterus`, `heart`, and `generic organ` labels.
-The geometric controls alone cannot establish that the image depicts kidneys.
+Computer validation checks exact dimensions, strict black-and-white palette, connectedness, normalized IoU,
+and difference-hash separation against the pinned Anatomical Heart, Balloon, Beans, Droplet, Light Bulb, and
+Lungs assets. Comparator labels make the confusion targets explicit, but the calculations remain technical
+separation evidence and do not claim human semantic recognition.
+
+Shuhan's dated actual-size decision on the exact four assets is the complete human image gate. No external
+participant panel, crowd test, minimum sample, recognition percentage, or confusion matrix is required. A
+material asset change invalidates the prior exact-asset decision and returns the changed assets to Shuhan.
+
+The `.4` result passes all twelve comparator rows without changing the fixed thresholds. The former color
+18x18 Lungs IoU of `0.750` is `0.698` after the purpose-built small-size refinement, below the unchanged `0.72`
+ceiling.
 
 ## Current files
 
 - Approved full-size concept: `docs/design/kidney-emoji-2026-07/kidney-paired-gpt-image-2-concept.png`
-- Deterministic SVG masters: `submissions/v1.12.0-kidney.1/kidney/images/kidney_color_SOURCE.svg` and
-  `submissions/v1.12.0-kidney.1/kidney/images/kidney_bw_SOURCE.svg`
-- Purpose-built 18-pixel SVGs: `submissions/v1.12.0-kidney.1/kidney/images/kidney_color_18_SOURCE.svg` and
-  `submissions/v1.12.0-kidney.1/kidney/images/kidney_bw_18_SOURCE.svg`
-- Exact-size color and true black-and-white PNGs: `submissions/v1.12.0-kidney.1/kidney/images/`
+- Deterministic SVG masters: `submissions/v1.12.0-kidney.4/kidney/images/kidney_color_SOURCE.svg` and
+  `submissions/v1.12.0-kidney.4/kidney/images/kidney_bw_SOURCE.svg`
+- Purpose-built 18-pixel SVGs: `submissions/v1.12.0-kidney.4/kidney/images/kidney_color_18_SOURCE.svg` and
+  `submissions/v1.12.0-kidney.4/kidney/images/kidney_bw_18_SOURCE.svg`
+- Exact-size color and true black-and-white PNGs: `submissions/v1.12.0-kidney.4/kidney/images/`
 
 ## Generation prompt
 

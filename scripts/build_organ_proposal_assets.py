@@ -48,6 +48,17 @@ def kidney_svg(color: bool, small: bool = False) -> str:
         "C 48 68 42 62 43 54 C 44 47 49 45 50 40 "
         "C 51 36 45 33 44 28 C 42 20 48 14 56 14 Z"
     )
+    if small:
+        left_body = (
+            "M 14 5 C 7 5 4 12 3 24 C 1 38 5 54 14 59 "
+            "C 22 64 28 58 27 49 C 26 42 19 41 18 35 "
+            "C 17 30 25 28 27 22 C 29 12 23 5 14 5 Z"
+        )
+        right_body = (
+            "M 58 26 C 65 26 68 32 69 41 C 70 52 67 64 58 68 "
+            "C 50 70 45 67 46 60 C 47 54 54 53 55 48 "
+            "C 56 44 48 42 46 38 C 44 31 50 26 58 26 Z"
+        )
     if color:
         definitions = """
     <radialGradient id="kidney-body" cx="34%" cy="27%" r="86%">
@@ -67,16 +78,24 @@ def kidney_svg(color: bool, small: bool = False) -> str:
         """
         outline = "2.8" if small else "2.5"
         detail_scale = "0.92" if small else "1"
+        vessel_outer = "3.0" if small else "6.6"
+        vessel_inner = "1.8" if small else "4.0"
+        ureter_outer = "3.0" if small else "6.0"
+        ureter_inner = "1.8" if small else "3.6"
+        artery_path = "M 25 29 C 33 29 40 35 47 38" if small else "M 28 29 C 33 29 38 31 44 30"
+        vein_path = "M 25 35 C 34 35 41 40 48 43" if small else "M 28 35 C 34 34 39 36 44 35"
+        left_ureter = "M 25 37 C 29 46 31 57 31 68" if small else "M 28 37 C 30 43 30 50 30 56"
+        right_ureter = "M 48 46 C 44 54 42 62 42 70" if small else "M 44 41 C 42 47 42 54 42 60"
         artwork = f"""
   <g transform="translate(36 36) scale({detail_scale}) translate(-36 -36)">
-    <path d="M 28 29 C 33 29 38 31 44 30" fill="none" stroke="#651A2B" stroke-width="6.6" stroke-linecap="round"/>
-    <path d="M 28 29 C 33 29 38 31 44 30" fill="none" stroke="#E44442" stroke-width="4.0" stroke-linecap="round"/>
-    <path d="M 28 35 C 34 34 39 36 44 35" fill="none" stroke="#173F7D" stroke-width="6.6" stroke-linecap="round"/>
-    <path d="M 28 35 C 34 34 39 36 44 35" fill="none" stroke="#2F6DC1" stroke-width="4.0" stroke-linecap="round"/>
-    <path d="M 28 37 C 30 43 30 50 30 56" fill="none" stroke="#A9824E" stroke-width="6.0" stroke-linecap="round"/>
-    <path d="M 28 37 C 30 43 30 50 30 56" fill="none" stroke="url(#ureter)" stroke-width="3.6" stroke-linecap="round"/>
-    <path d="M 44 41 C 42 47 42 54 42 60" fill="none" stroke="#A9824E" stroke-width="6.0" stroke-linecap="round"/>
-    <path d="M 44 41 C 42 47 42 54 42 60" fill="none" stroke="url(#ureter)" stroke-width="3.6" stroke-linecap="round"/>
+    <path d="{artery_path}" fill="none" stroke="#651A2B" stroke-width="{vessel_outer}" stroke-linecap="round"/>
+    <path d="{artery_path}" fill="none" stroke="#E44442" stroke-width="{vessel_inner}" stroke-linecap="round"/>
+    <path d="{vein_path}" fill="none" stroke="#173F7D" stroke-width="{vessel_outer}" stroke-linecap="round"/>
+    <path d="{vein_path}" fill="none" stroke="#2F6DC1" stroke-width="{vessel_inner}" stroke-linecap="round"/>
+    <path d="{left_ureter}" fill="none" stroke="#A9824E" stroke-width="{ureter_outer}" stroke-linecap="round"/>
+    <path d="{left_ureter}" fill="none" stroke="url(#ureter)" stroke-width="{ureter_inner}" stroke-linecap="round"/>
+    <path d="{right_ureter}" fill="none" stroke="#A9824E" stroke-width="{ureter_outer}" stroke-linecap="round"/>
+    <path d="{right_ureter}" fill="none" stroke="url(#ureter)" stroke-width="{ureter_inner}" stroke-linecap="round"/>
   </g>
   <path d="{left_body}" fill="url(#kidney-body)" stroke="#5E1628" stroke-width="{outline}" stroke-linejoin="round"/>
   <path d="{right_body}" fill="url(#kidney-body)" stroke="#5E1628" stroke-width="{outline}" stroke-linejoin="round"/>
