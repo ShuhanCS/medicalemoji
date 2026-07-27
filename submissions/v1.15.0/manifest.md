@@ -4,7 +4,7 @@ Package version: 1.15.0
 
 Created: 2026-07-26
 
-Status: **White Blood Cell body-defense revision complete; publication verification in progress.**
+Status: **White Blood Cell v1.15.0 release published and verified.**
 
 Official deadline: End of day 2026-07-31
 
@@ -75,5 +75,6 @@ editorial consultation only; they do not claim a Unicode review, score, vote, or
 - Frequency screenshots: normalized losslessly to RGB so the PDF renders consistently across Poppler backends.
 - Body-defense review: ordinary messages about fighting infection, immune defenses, and recovering white-cell
   counts lead; biology education and research are secondary.
-- Public logged-out URL: recorded after the v1.15.0 release commit is pushed.
+- Public logged-out URL: verified against release commit `bf6e4631a87537e41fea960c2f3c63c9c0f64950`:
+  https://raw.githubusercontent.com/ShuhanCS/medicalemoji/bf6e4631a87537e41fea960c2f3c63c9c0f64950/submissions/v1.15.0/white-blood-cell/white-blood-cell_emoji_proposal_SUBMIT.pdf
 - Form filing and confirmation archive: intentionally not performed in this workstream.
