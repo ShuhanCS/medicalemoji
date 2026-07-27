@@ -1,0 +1,88 @@
+{
+  "viewport": {
+    "width": 1440,
+    "height": 1100
+  },
+  "results": [
+    {
+      "concept": "white blood cell",
+      "grouped": {
+        "query": "white-blood-cell",
+        "url": "https://www.google.com/search?q=white-blood-cell&hl=en&num=10&pws=0",
+        "raw": "About 880,000,000 results (0.81s)",
+        "count": 880000000,
+        "hasAiOverview": true,
+        "capturedAt": "2026-07-27T02:32:05.815Z"
+      },
+      "plain": {
+        "query": "white blood cell",
+        "url": "https://www.google.com/search?q=white+blood+cell&hl=en&num=10&pws=0",
+        "raw": "About 881,000,000 results (0.26s)",
+        "count": 881000000,
+        "hasAiOverview": true,
+        "capturedAt": "2026-07-27T02:32:18.418Z"
+      },
+      "plainOverGrouped": 1.0011363636363637
+    },
+    {
+      "concept": "black swan",
+      "grouped": {
+        "query": "black-swan",
+        "url": "https://www.google.com/search?q=black-swan&hl=en&num=10&pws=0",
+        "raw": "About 258,000,000 results (0.38s)",
+        "count": 258000000,
+        "hasAiOverview": false,
+        "capturedAt": "2026-07-27T02:32:33.030Z"
+      },
+      "plain": {
+        "query": "black swan",
+        "url": "https://www.google.com/search?q=black+swan&hl=en&num=10&pws=0",
+        "raw": "About 258,000,000 results (0.25s)",
+        "count": 258000000,
+        "hasAiOverview": false,
+        "capturedAt": "2026-07-27T02:32:59.603Z"
+      },
+      "plainOverGrouped": 1
+    },
+    {
+      "concept": "first aid kit",
+      "grouped": {
+        "query": "first-aid-kit",
+        "url": "https://www.google.com/search?q=first-aid-kit&hl=en&num=10&pws=0",
+        "raw": "About 377,000,000 results (0.37s)",
+        "count": 377000000,
+        "hasAiOverview": true,
+        "capturedAt": "2026-07-27T02:33:26.207Z"
+      },
+      "plain": {
+        "query": "first aid kit",
+        "url": "https://www.google.com/search?q=first+aid+kit&hl=en&num=10&pws=0",
+        "raw": "About 376,000,000 results (0.36s)",
+        "count": 376000000,
+        "hasAiOverview": true,
+        "capturedAt": "2026-07-27T02:33:52.916Z"
+      },
+      "plainOverGrouped": 0.9973474801061007
+    },
+    {
+      "concept": "elephant",
+      "grouped": {
+        "query": "elephant",
+        "url": "https://www.google.com/search?q=elephant&hl=en&num=10&pws=0",
+        "raw": "About 491,000,000 results (0.33s)",
+        "count": 491000000,
+        "hasAiOverview": false,
+        "capturedAt": "2026-07-27T02:34:19.362Z"
+      },
+      "plain": {
+        "query": "elephant",
+        "url": "https://www.google.com/search?q=elephant&hl=en&num=10&pws=0",
+        "raw": "About 491,000,000 results (0.33s)",
+        "count": 491000000,
+        "hasAiOverview": false,
+        "capturedAt": "2026-07-27T02:34:19.362Z"
+      },
+      "plainOverGrouped": 1
+    }
+  ]
+}
