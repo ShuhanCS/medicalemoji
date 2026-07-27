@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 from pathlib import Path
 
 from PIL import Image
@@ -43,8 +44,14 @@ def main() -> int:
     if missing:
         raise ValueError("missing required files:\n- " + "\n- ".join(missing))
 
-    if (package_dir / "VERSION").read_text(encoding="utf-8").strip() != "1.11.0":
-        raise ValueError("VERSION must be 1.11.0")
+    version = (package_dir / "VERSION").read_text(encoding="utf-8").strip()
+    expected_version = package_dir.name.removeprefix("v")
+    if not re.fullmatch(r"\d+\.\d+\.\d+", version):
+        raise ValueError(f"VERSION must be semantic, found {version!r}")
+    if version != expected_version:
+        raise ValueError(
+            f"VERSION {version!r} must match package directory {package_dir.name!r}"
+        )
 
     proposal_text = proposal.read_text(encoding="utf-8")
     if "{{" in proposal_text or "}}" in proposal_text:

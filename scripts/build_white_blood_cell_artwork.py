@@ -6,7 +6,7 @@ comparison boards against pinned OpenMoji controls.
 
 Usage:
     python scripts/build_white_blood_cell_artwork.py \
-        --proposal-dir submissions/v1.11.0/white-blood-cell \
+        --proposal-dir submissions/v1.12.0/white-blood-cell \
         --board-date 2026-07-26
 """
 
@@ -140,7 +140,7 @@ def build_board(proposal_dir: Path, variant: str, board_date: str) -> Path:
         draw.text((columns[index] + 12, y + 20), header, fill="black", font=font(17, True))
 
     notes = {
-        "White Blood Cell": "Proposed artwork: irregular cell body and connected three-lobed nucleus",
+        "White Blood Cell": "Representative neutrophil paradigm for the broad White Blood Cell category",
         "Microbe": "Nearest microorganism alternative",
         "Drop of Blood": "Nearest blood-related alternative",
         "Soap": "Pale rounded visual alternative",

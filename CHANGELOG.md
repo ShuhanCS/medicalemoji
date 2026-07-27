@@ -5,6 +5,26 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.43.0] - 2026-07-26
+
+### Added
+- Added immutable submission snapshot `v1.12.0` with NCBI, LOINC, and HL7 support for the White Blood Cell
+  paradigm and recurring digital use.
+- Added a reproducible Cairo-based PDF page renderer that verifies the rendered page count and supports
+  cross-renderer visual QA.
+
+### Changed
+- Identified the neutrophil form as the representative image for the broader White Blood Cell category and
+  strengthened the Overly specific and Open-ended boundaries accordingly.
+- Applied the case-building guide's historical lessons from the accepted Fingerprint proposal and declined
+  2020 White Blood Cell draft, replacing generic case language with the specific host-cell communication gap.
+- Normalized the fully opaque frequency screenshots from RGBA to RGB, eliminating the page-6 and page-10
+  Poppler compositing defects, then rebuilt the final PDF.
+
+### Verification
+- Rebuilt and validated the White Blood Cell assets, proposal PDF, and every rendered PDF page.
+- Re-ran the compliance, selection, editorial, visual, and skeptical-decision panel against the corrected PDF.
+
 ## [0.42.0] - 2026-07-26
 
 ### Added
