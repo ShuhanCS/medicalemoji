@@ -5,6 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.48.7] - 2026-07-26
+
+### Added
+- Added immutable Liver package `1.12.0-liver.11` with the user-selected Candidate A artwork direction.
+- Added a reproducible SVG-to-PNG exporter for the four exact Liver proposal images.
+
+### Changed
+- Replaced the prior flattened contour, long diagonal seam, and hanging gallbladder with a deterministic
+  asymmetric-wedge redraw, short curved lobe mark, and nested gallbladder.
+- Updated artwork-dependent proposal text, licensing, approval, validation, readiness, and PDF records.
+- Advanced the workspace version from `0.48.6` to `0.48.7`.
+
 ## [0.48.6] - 2026-07-26
 
 ### Added

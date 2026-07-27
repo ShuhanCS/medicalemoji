@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72">
+  <title>Liver emoji color reference artwork</title>
+  <desc>Project-authored asymmetric liver wedge with a short lobe division and nested gallbladder.</desc>
+  <rect width="72" height="72" fill="#ffffff"/>
+  <defs>
+    <linearGradient id="body" x1="0.18" y1="0.08" x2="0.78" y2="0.92">
+      <stop offset="0" stop-color="#C95150"/>
+      <stop offset="0.55" stop-color="#A7353D"/>
+      <stop offset="1" stop-color="#7A202C"/>
+    </linearGradient>
+    <linearGradient id="gall" x1="0.15" y1="0.12" x2="0.82" y2="0.9">
+      <stop offset="0" stop-color="#A1A744"/>
+      <stop offset="1" stop-color="#667528"/>
+    </linearGradient>
+    <clipPath id="body-clip">
+      <path d="M7 30 C8 20 18 14 31 14 C37 14 41 15 46 17 C52 19 59 19 65 22 C69 24 69 28 66 32 C62 37 56 41 50 44 C46 46 42 47 39 46 C36 46 34 48 31 51 C27 54 22 55 16 54 C10 53 7 49 6 44 C5 38 5 34 7 30 Z"/>
+    </clipPath>
+  </defs>
+  <path d="M7 30 C8 20 18 14 31 14 C37 14 41 15 46 17 C52 19 59 19 65 22 C69 24 69 28 66 32 C62 37 56 41 50 44 C46 46 42 47 39 46 C36 46 34 48 31 51 C27 54 22 55 16 54 C10 53 7 49 6 44 C5 38 5 34 7 30 Z" fill="url(#body)" stroke="#4B1118" stroke-width="3.2" stroke-linejoin="round"/>
+  <path d="M5 39 C13 48 23 50 31 46 C36 43 39 43 43 44 C51 45 61 37 68 29 L70 58 L3 58 Z" fill="#641923" opacity="0.56" clip-path="url(#body-clip)"/>
+  <path d="M14 27 C19 20 27 17 36 18 C28 19 21 22 16 29 Z" fill="#EE7770" opacity="0.58"/>
+  <path d="M44 17 C45 20 45 24 43 28" fill="none" stroke="#4B1118" stroke-width="3" stroke-linecap="round"/>
+  <path d="M33 45 C36 44 39 45 40 47 C40 50 37 52 34 52 C31 52 30 50 31 48 C31 47 32 46 33 45 Z" fill="url(#gall)" stroke="#394414" stroke-width="2.2" stroke-linejoin="round"/>
+  <path d="M33 47 C35 46 37 46 38 47" fill="none" stroke="#C0BF5A" stroke-width="1.2" stroke-linecap="round" opacity="0.72"/>
+</svg>

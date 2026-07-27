@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+  <title>Liver emoji color 18-pixel reference artwork</title>
+  <desc>Purpose-built small asymmetric liver wedge with a nested gallbladder.</desc>
+  <rect width="18" height="18" fill="#ffffff"/>
+  <defs>
+    <clipPath id="body-clip">
+      <path d="M1.6 7.6 C2 4.9 4.5 3.4 7.7 3.4 C9.3 3.4 10.5 3.8 11.7 4.4 C13.2 4.9 15.2 4.9 16.4 5.6 C17.3 6.2 17.1 7.3 16.3 8.2 C15.3 9.4 13.7 10.3 12.2 11 C11.1 11.5 10.2 11.6 9.5 11.4 C8.6 11.3 8 12 7.3 12.7 C6.2 13.8 4.9 14.2 3.7 13.8 C2.2 13.4 1.7 12.2 1.5 10.8 C1.3 9.5 1.2 8.5 1.6 7.6 Z"/>
+    </clipPath>
+  </defs>
+  <path d="M1.6 7.6 C2 4.9 4.5 3.4 7.7 3.4 C9.3 3.4 10.5 3.8 11.7 4.4 C13.2 4.9 15.2 4.9 16.4 5.6 C17.3 6.2 17.1 7.3 16.3 8.2 C15.3 9.4 13.7 10.3 12.2 11 C11.1 11.5 10.2 11.6 9.5 11.4 C8.6 11.3 8 12 7.3 12.7 C6.2 13.8 4.9 14.2 3.7 13.8 C2.2 13.4 1.7 12.2 1.5 10.8 C1.3 9.5 1.2 8.5 1.6 7.6 Z" fill="#AD3E43" stroke="#4B1118" stroke-width="0.78" stroke-linejoin="round"/>
+  <path d="M1.4 10.2 C3.5 12.5 5.9 12.6 7.8 11.5 C9 10.9 10 10.9 11 11.1 C13 11.4 15.4 9.4 17 7.4 L17.6 15 L0.8 15 Z" fill="#701E29" opacity="0.68" clip-path="url(#body-clip)"/>
+  <path d="M11.1 4.4 C11.4 5.2 11.3 6.1 10.8 6.9" fill="none" stroke="#4B1118" stroke-width="0.75" stroke-linecap="round"/>
+  <path d="M8.3 11.5 C9.1 11.2 10 11.5 10.1 12.1 C10 12.8 9.1 13.2 8.3 13 C7.6 12.8 7.4 12.3 7.8 11.9 C7.9 11.7 8.1 11.6 8.3 11.5 Z" fill="#879432" stroke="#394414" stroke-width="0.58" stroke-linejoin="round"/>
+</svg>
