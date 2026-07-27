@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.50.0] - 2026-07-26
+
+### Changed
+- Added immutable submission snapshot `v1.18.0` and revised the White Blood Cell image explanation around the
+  exact recognition sequence visible at 18 pixels: enclosing membrane first, segmented nucleus second.
+- Added vendor guidance to preserve a visible cytoplasm band so the membrane and nucleus remain separate cues.
+
+### Verification
+- Rebuilt the proposal PDF and reran artwork validation, submission preflight, PDF checks, and dual-renderer
+  visual inspection against the exact v1.18.0 filing copy.
+
 ## [0.49.0] - 2026-07-26
 
 ### Changed
