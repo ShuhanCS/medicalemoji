@@ -40,13 +40,13 @@ presentation problem.
 
 ## Same-cycle independence rule
 
-Stomach, Maze, and Kidney may all be filed in the same cycle if each packet matures, but they are three
-independent proposals. Never describe them as a `co-submission`, `medical emoji set`, `organ set`, campaign
+Stomach and Kidney may both be filed in the same cycle, but they are two independent proposals. Never describe
+them as a `co-submission`, `medical emoji set`, `organ set`, campaign
 bundle, or completeness request. Each PDF and form must use its own evidence, byline, artwork, selection theory,
 and positive Open-ended limiting principle without naming another active filing.
 
-Maze creates no Open-ended tension with either organ. Filing Stomach and Kidney together makes an anatomy-set
-objection more foreseeable, but it is not a contradiction: Stomach is bounded by its literal, appetite,
+Filing Stomach and Kidney together makes an anatomy-set objection more foreseeable, but it is not a
+contradiction: Stomach is bounded by its literal, appetite,
 tolerance, fullness, and nervous-anticipation meanings; Kidney is bounded by its shape, stone, testing,
 treatment, donation/transplant, frequency, and substitution evidence. Neither argument promises that no other
 organ will ever be proposed, and neither creates an obligation to encode one.
@@ -56,8 +56,7 @@ organ will ever be proposed, and neither creates an obligation to encode one.
 Do not merge concept branches or candidate folders wholesale. Starting from canonical `submissions/v1.11.0/`,
 the coordinator applies only the accepted Stomach and Kidney deltas and creates cumulative canonical
 `submissions/v1.12.0/`. The package may contain both candidates, but their proposal folders, PDFs, evidence,
-artwork, authorship, readiness conclusions, public URLs, and form entries remain separate. Maze follows its own
-package history and filing record.
+artwork, authorship, readiness conclusions, public URLs, and form entries remain separate.
 
 If either organ needs another revision before acceptance, increment only that concept's candidate or
 prerelease number. Do not mutate an accepted or committed snapshot.

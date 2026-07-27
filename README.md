@@ -2,13 +2,13 @@
 
 ## Current 2026 submission slate
 
-The planned 2026 filing slate is Stomach, Maze, and Kidney, provided all three independent packets close their
-remaining gates. The final filing strategy is recorded in the Emoji 19.0 review below.
-Weight Scale, White Blood Cell, and Liver remain holds or reserves. ECG / EKG is reviewed below
+The planned 2026 filing slate is Stomach and Kidney, provided both independent packets close their remaining
+gates. The final filing strategy is recorded in the Emoji 19.0 review below.
+Maze is not eligible for this cycle. Weight Scale, White Blood Cell, and Liver remain holds or reserves. ECG / EKG is reviewed below
 but is not eligible for the 2026 intake because Unicode records a 2024 decline. Pill Pack remains a provisional
 workstream and must pass a go/no-go review before joining the filing slate.
-Shuhan He has confirmed Stomach and Kidney are eligible, and Maze is outside the four-year resubmission bar
-after its 2020 decline. Eligibility is settled for the planned three; submission quality is not. Each proposal
+Shuhan He has confirmed Stomach and Kidney are eligible. Eligibility is settled for the planned two;
+submission quality is not. Each proposal
 must mature and be filed independently:
 
 - Proposal-building instructions:
@@ -199,9 +199,10 @@ Unicode's guidelines page says:
 Important practical note: the three private decline notices for Kidney, Stomach, and Liver are dated
 `2022-11-04`, so the ordinary four-year date calculation would extend past this intake. Shuhan He has confirmed
 that Unicode considers all three eligible for the 2026 cycle. The project therefore treats them as eligible and
-will preserve the written confirmation in the filing record. Ten other concepts are clearly re-eligible now:
-the nine in `submissions/v1.3.0/` plus Maze in `submissions/v1.5.0/`. Ultrasound and First Aid Kit have no
-matching public status rows and are treated as first-time public-sheet concepts.
+will preserve the written confirmation in the filing record. Nine concepts in `submissions/v1.3.0/` are
+clearly re-eligible by their public dates. Maze is not eligible for this cycle despite what the public
+submitted-date calculation alone suggests. Ultrasound and First Aid Kit have no matching public status rows
+and are treated as first-time public-sheet concepts.
 
 ### Public Emoji 19.0 signals
 
@@ -256,7 +257,7 @@ accounts for eligibility and the actual state of the packet.
 | **Kidney** | [`v1.12.0-kidney.7`](submissions/v1.12.0-kidney.7/kidney/); confirmed eligible | **Medium-high** | Strongest mature empirical packet; literal organ plus established `kidney-shaped` use; useful stone/test sequences; observed Beans substitution demonstrates an unmet pictographic use | Beans is already searchable as `kidney`; no genuine compatibility case; written eligibility and duplicate-coordination records, exact-art approval, and the open-ended anatomy boundary remain open | **Planned filing; close eligibility/coordination, exact-art, candidate-specific Open-ended, publication, authorization, and form gates** |
 | **Stomach** | [`1.12.0-candidate.9`](docs/proposals/stomach-emoji-2026/candidate-v1.12/); confirmed eligible | **High - strongest semantic fit** | Literal organ, appetite and sensation, the verb `stomach`, `butterflies in the stomach`, and clear sequence uses; the J-shaped silhouette is the clearest organ read at 18px; all five required frequency exhibits are current | No compatibility case; written coauthor consent, exact-art approval, canonical promotion, publication, and filing controls remain open | **Lead filing; close consent, exact-art, final QA, promotion, publication, authorization, and form gates** |
 | **Liver** | [`v1.12.0-liver.11`](submissions/v1.12.0-liver.11/liver/); confirmed eligible and marked ready to publish | **Medium-low** | Current worldwide evidence, documented anatomy/food/testing/medicine uses, selected new artwork, and a direct missing-noun argument | Multiple meanings and Compatibility are correctly `N/A`; the case is mostly literal, and the 18px image can still read as meat or a generic organ | **Conditional third filing; publish only if the final portfolio accepts a weaker Emoji 19.0 fit after Kidney and Stomach** |
-| **Maze** | [`v1.5.0`](submissions/v1.5.0/maze/); re-eligible after 2020 decline | **High concept fit; low readiness** | Physical puzzle plus durable metaphors for complexity, confusion, choice, navigation, learning, and escape; works as both scene and action and has many useful sequences | Four required Google exhibits are missing; Ngram is about `0.67x` `elephant`; two prior declines; the mouse disappears at 18px and the maze can approach a QR-like read | **Planned filing if its mature packet closes the evidence and exact-art gates** |
+| **Maze** | [`v1.5.0`](submissions/v1.5.0/maze/); confirmed ineligible for this cycle | **Not actionable in 2026** | Physical puzzle plus durable metaphors for complexity, confusion, choice, navigation, learning, and escape | Eligibility controls; the packet also lacks four required Google exhibits, and the mouse disappears at 18px | **Do not submit this cycle** |
 | **Weight Scale** | [`v1.3.0`](submissions/v1.3.0/weight-scale/); re-eligible after 2020 decline | **Medium** | Clear 18px appliance; broad weighing action across health, fitness, travel, shipping, and veterinary contexts; strong sequence utility | Web and Image Trends are missing, Search and Video are from 2020, Ngram is substantially below `elephant`, Balance Scale is a plausible substitute, and Compatibility is `N/A` | **Hold as a reserve; do not file without strong fresh Trends evidence that overcomes the substitute case** |
 | **White Blood Cell** | [`v1.9.0`](submissions/v1.9.0/white-blood-cell/); re-eligible after 2020 decline | **Medium-low** | Broad immunity, infection, laboratory, education, and research uses; useful immune-defense and test sequences | These are mostly literal contexts rather than established multiple meanings; Search and Video are stale, both compliant Trends exhibits are missing, and the art can read as Microbe or a generic cell | **Hold; do not file until current evidence and unambiguous 18px recognition materially change the case** |
 | **ECG / EKG** | [2020 archive](docs/proposals/archive-2020-emojination-drafts/ecg-object.md); Unicode records a 2024 decline | **Not actionable in 2026** | The waveform is widely recognizable and could support testing, rhythm, results, monitoring, and heart-related sequences | The public submitted-date clock reaches 2028-04-05, and the actual decline notice may control a later date; the archived draft is not current-format, relies on importance/awareness and obsolete evidence, contains copied Leg Cast text, and does not establish genuine compatibility; a bare waveform also needs a careful UI-icon/signage rebuttal | **Do not submit in 2026 unless Unicode gives written eligibility for a materially different concept; rebuild from zero for 2028 rather than revising the archived prose** |
@@ -264,14 +265,13 @@ accounts for eligibility and the actual state of the packet.
 Current decision order from this review:
 
 1. Finalize Stomach as the lead filing; its evidence is current and its remaining gates are concentrated.
-2. Mature Maze independently by completing all four missing exhibits and final small-size artwork review.
-3. Finalize Kidney independently, preserving the honest Beans concession and closing eligibility, duplicate
+2. Finalize Kidney independently, preserving the honest Beans concession and closing eligibility, duplicate
    coordination, exact-art, and candidate-specific Open-ended gates.
-4. File all three only as separate PDFs and form entries. Do not call them a co-submission, coordinated set, or
+3. File both only as separate PDFs and form entries. Do not call them a co-submission, coordinated set, or
    completeness program, and do not cross-reference them.
-5. Hold Liver, Weight Scale, and White Blood Cell unless new evidence or a deliberate portfolio decision changes
+4. Hold Maze as ineligible this cycle. Hold Liver, Weight Scale, and White Blood Cell unless new evidence or a deliberate portfolio decision changes
    the review materially.
-6. Do not file ECG / EKG in this cycle.
+5. Do not file ECG / EKG in this cycle.
 
 This review does not manufacture a compatibility claim for any candidate. None of the seven current packets
 documents the kind of high-frequency cross-platform pictograph mismatch that drove several Emoji 18.0 choices.
@@ -298,7 +298,7 @@ proposal workspaces. Status rows are from Unicode's live public proposal-status 
 | CT Scan | Legacy proposal asset | `CT Scan` declined 2020-12-18 | Declined | 2020-12-18 | 2024-12-18 | Current filing choice in `submissions/v1.3.0/`; refresh 2020 evidence, current factor labels, metadata, and ownership language before filing. |
 | Pill Box | Legacy proposal asset | `Pill Box` declined 2020-10-27 | Declined | 2020-10-27 | 2024-10-27 | First alternate in `submissions/v1.3.0/`; refresh evidence and ownership records, update metadata and factor labels, and improve 18-pixel recognition before filing. |
 | Inhaler | Public 2018 proposal | `Inhaler` declined 2018-07-03 | Declined | 2018-07-03 | 2022-07-03 | Draft complete; add Google Video and global `elephant` Trends evidence. |
-| Maze | Public 2018 and 2020 rows | `Maze` declined 2018-04-12; `Maze` declined 2020-12-18 | Declined | 2020-12-18 | 2024-12-18 | Full mouse-maze draft in `v1.5.0`; capture Search, Video, and both Trends categories. |
+| Maze | Historical draft; not in the 2026 slate | `Maze` declined 2018-04-12; `Maze` declined 2020-12-18 | Confirmed ineligible for this cycle | 2020-12-18 | Public submitted-date clock alone indicates 2024-12-18, but it does not control the current eligibility decision | Do not submit this cycle; preserve `v1.5.0` as historical work. |
 | Ultrasound / Sonogram | New proposal workspace | No matching public status row found | No public row | — | No public resubmission bar identified | Promising alternative in `v1.5.0`; capture four missing Google categories and complete small-size design review before any filing decision. |
 | First Aid Kit | New proposal workspace | No matching `First Aid Kit` row; distinct `First Aid Ointment` expired 2017-11-30 | No matching public row | — | No public resubmission bar identified | Full `v1.5.0` draft; hold unless current evidence overcomes low Ngram and substitute risk. |
 

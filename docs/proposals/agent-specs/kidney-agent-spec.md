@@ -12,8 +12,8 @@ Finalize the current Kidney case-built prerelease as one independent Emoji 19.0 
 confirmed authors, close its remaining eligibility, coordination, artwork, publication, and form gates, and
 hand the accepted Kidney delta to the coordinator for cumulative canonical promotion.
 
-Kidney is one of three planned same-cycle concepts with Stomach and Maze. It is not a co-submission, companion
-organ, anatomy-set member, or campaign bundle. The proposal and form must make no reference to the other filings.
+Kidney is one of two planned same-cycle concepts with Stomach. It is not a co-submission, companion organ,
+anatomy-set member, or campaign bundle. The proposal and form must make no reference to the other filing.
 
 ## Strategic decision
 
@@ -87,7 +87,7 @@ https://www.unicode.org/L2/L2026/26098-esr-report-utc187.pdf
 | Compatibility | Brief `Not applicable`; do not imply that Microsoft, a hospital system, or an emoji reference site supplies compatibility. |
 | Already represented | Lead with Beans as the strongest substitute. Explain that substitution shows demand but creates food ambiguity and does not reliably name the organ in stone, test, dialysis, transplant, or donation messages. |
 | Overly specific | Define Kidney as the common organ noun spanning several established direct uses, not a disease, procedure, specialty, anatomical subtype, or campaign. |
-| Open-ended | State positively that selecting this organ-and-shape concept creates no requirement to encode additional organs. Use Kidney's stone, testing, dialysis, donation/transplant, shape, and substitution evidence as the limiting principle. Do not name Stomach, Maze, the filing slate, or another active proposal. |
+| Open-ended | State positively that selecting this organ-and-shape concept creates no requirement to encode additional organs. Use Kidney's stone, testing, dialysis, donation/transplant, shape, and substitution evidence as the limiting principle. Do not name Stomach, the filing slate, or another active proposal. |
 | Transient | Use the durable Books record and current authoritative terminology for stones, tests, dialysis, transplant, and donation. |
 | Faulty comparison | Existing body-part emoji may be visual comparators only; they do not create an entitlement to encoding. |
 
@@ -101,12 +101,11 @@ reason this selection would create no automatic obligation to encode another org
 
 - Use one public Kidney PDF and one Kidney form entry.
 - Do not use `co-submission`, `medical emoji set`, `organ set`, `campaign slate`, or companion language.
-- Do not reference the Stomach or Maze proposal, their authors, evidence, art, or filing status.
+- Do not reference the Stomach proposal, its authors, evidence, art, or filing status.
 - Do not coordinate wording across the three Open-ended answers beyond avoiding contradictions.
 - Do not say that accepting Kidney should cause Unicode to accept or reject another concept.
-- Preserve Kidney's ten-person byline; do not copy Stomach's or Maze's author list.
+- Preserve Kidney's ten-person byline; do not copy Stomach's author list.
 
-Maze creates no Open-ended tension with Kidney because it is an unrelated broad puzzle/navigation concept.
 Stomach makes the anatomy-catalog objection more visible, but it does not contradict this proposal when both
 documents use different candidate-specific limiting principles and neither requests anatomy completion.
 
@@ -161,7 +160,7 @@ Do not promote, publish, or file if:
 - duplicate-filing coordination remains unresolved;
 - Shuhan has not approved the exact four assets;
 - a material claim is unsupported or an evidence exhibit is unreadable;
-- the proposal refers to Stomach, Maze, a coordinated set, or anatomy completion;
+- the proposal refers to Stomach, a coordinated set, or anatomy completion;
 - Beans is dismissed instead of answered directly;
 - the Open-ended answer implies that another organ must be encoded;
 - the exact PDF has not passed technical and page-by-page review; or

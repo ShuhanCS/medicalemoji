@@ -12,9 +12,9 @@ Finalize the current Stomach candidate as one independent Emoji 19.0 proposal, p
 canonical immutable package, and prepare the exact public PDF and form record for filing after Shuhan He
 authorizes the external actions.
 
-Stomach is one of three planned same-cycle concepts with Maze and Kidney. It is not a co-submission, companion
-character, anatomy-set member, or portfolio bundle. The proposal and form must succeed without mentioning the
-other two filings.
+Stomach is one of two planned same-cycle concepts with Kidney. It is not a co-submission, companion character,
+anatomy-set member, or portfolio bundle. The proposal and form must succeed without mentioning the other
+filing.
 
 ## Strategic decision
 
@@ -85,7 +85,7 @@ https://www.unicode.org/L2/L2026/26098-esr-report-utc187.pdf
 | Compatibility | Brief `Not applicable`; do not imply Microsoft, another vendor, or a medical app supplies compatibility. |
 | Already represented | Give Nauseated Face, food emoji, and Butterfly combinations a fair hearing, then identify the remaining missing organ anchor. |
 | Overly specific | Define Stomach as a familiar organ and everyday language concept, not a disease, procedure, subtype, specialty, or campaign. |
-| Open-ended | State positively that selecting this bounded literal-and-figurative concept creates no requirement to encode additional organs. Do not name Kidney, Maze, the filing slate, or another active proposal. |
+| Open-ended | State positively that selecting this bounded literal-and-figurative concept creates no requirement to encode additional organs. Do not name Kidney, the filing slate, or another active proposal. |
 | Transient | Use the long-range Books record and durable dictionary meanings. |
 | Faulty comparison | Existing body-part emoji may be visual comparators only; they do not create an entitlement to encoding. |
 
@@ -98,12 +98,11 @@ fullness, and nervous-anticipation meanings.
 
 - Use one public Stomach PDF and one Stomach form entry.
 - Do not use `co-submission`, `medical emoji set`, `organ set`, `campaign slate`, or companion language.
-- Do not reference the Maze or Kidney proposal, their authors, evidence, art, or filing status.
+- Do not reference the Kidney proposal, its authors, evidence, art, or filing status.
 - Do not coordinate wording across the three Open-ended answers beyond avoiding contradictions.
 - Do not say that accepting Stomach should cause Unicode to accept or reject another concept.
 - Shared submitters are allowed, but Stomach's exact byline and consent record control this proposal.
 
-Maze creates no Open-ended tension with Stomach because it is an unrelated broad puzzle/navigation concept.
 Kidney makes the anatomy-catalog objection more visible, but it does not contradict this proposal when both
 documents use different candidate-specific limiting principles and neither requests anatomy completion.
 
@@ -151,7 +150,7 @@ Do not promote, publish, or file if:
 - either coauthor consent record is missing;
 - Shuhan has not approved the exact four assets;
 - a material claim is unsupported or an evidence exhibit is unreadable;
-- the proposal refers to Maze, Kidney, a coordinated set, or anatomy completion;
+- the proposal refers to Kidney, a coordinated set, or anatomy completion;
 - the Open-ended answer implies that another organ must be encoded;
 - the exact PDF has not passed technical and page-by-page review; or
 - Shuhan has not authorized the external action.
