@@ -1,12 +1,17 @@
 # Kidney Submission Finalization Specification
 
-Version: 3.0.0
+Version: 3.1.0
 
 Date: 2026-07-27
 
 Status: Ready to execute
 
-Supersedes: 2.0.0 (2026-07-26), which targeted the retired `v1.12.0-kidney` line.
+Supersedes: 3.0.0 (packet v2.1.2) and 2.0.0 (2026-07-26), which targeted the retired
+`v1.12.0-kidney` line.
+
+## Version history
+
+3.1.0 retargets the spec from packet v2.1.2 to v2.2.0 after the CLDR-led case revision.
 
 ## What changed from 2.0.0
 
@@ -16,9 +21,9 @@ byline containing company names, and instructed the editor to keep neighbouring 
 public Open-ended answer. All four are now wrong. It also cited the ESR priorities documents without
 acting on what they say.
 
-| Item | 2.0.0 | 3.0.0 |
+| Item | 2.0.0 | current |
 | --- | --- | --- |
-| Source of truth | `submissions/v1.12.0-kidney.7` | `submissions/v2.1.2` |
+| Source of truth | `submissions/v1.12.0-kidney.7` | `submissions/v2.2.0` |
 | Artwork paradigm | Paired bodies, medial notches, diagonal offset, short central attachment | Single kidney, medial hilum, short ureter cue |
 | Byline | Ten authors including `(Microsoft)` and `(Microsoft for Startups)` | Eight authors, no company names |
 | Open-ended | Do not catalog neighbouring organs publicly | Name Liver, Stomach, Pancreas, Spleen explicitly |
@@ -27,7 +32,7 @@ acting on what they say.
 
 ## Mission
 
-Finalize `submissions/v2.1.2` as one independent Emoji 19.0 proposal, close the remaining
+Finalize `submissions/v2.2.0` as one independent Emoji 19.0 proposal, close the remaining
 eligibility, artwork-approval, publication, and form gates, and file it alone.
 
 ## The controlling strategic fact
@@ -96,7 +101,7 @@ discussed.
 - No disease-burden figures. WHO, Lancet, and CDC prevalence counts are not selection arguments.
 - No petitions, hashtags, or social-media request counts.
 - No support letters in the proposal body. They are retained in
-  `submissions/v2.1.2/v2.1.2_support_letters_REFERENCE_ONLY.md`.
+  `submissions/v2.2.0/v2.2.0_support_letters_REFERENCE_ONLY.md`.
 - No "heart and lungs were encoded, so kidney should be."
 - No reference to Stomach, Liver, a co-submission, an organ set, or anatomy completion.
 - No company names anywhere in the byline or form.
@@ -112,13 +117,13 @@ discussed.
    filing.
 2. Resolve the artwork rights position. The retired lines disagreed: one attributed ownership to
    ConductScience Foundation with rights granted to the submitter, the other had the submitter
-   warranting personal ownership under CC0. v2.1.2 currently asserts only originality and absence of
+   warranting personal ownership under CC0. v2.2.0 asserts only originality and absence of
    third-party material. Choose one and state it.
 3. Present the exact four assets to Shuhan He and record a dated `APPROVE` or `REVISE` tied to file
    hashes.
 4. Raise the image count. Repository analysis notes encoded proposals tend to carry more than twenty
-   images; v2.1.2 has ten. Add evidence captures, not padding.
-5. Never mutate a committed packet. Prose or artwork changes create `submissions/v2.1.3/`.
+   images; v2.2.0 has ten. Add evidence captures, not padding.
+5. Never mutate a committed packet. Prose or artwork changes create `submissions/v2.2.1/`.
 6. Rebuild and inspect the PDF after any change. Confirm intact links, embedded fonts, readable
    evidence, correct pagination, and no `REFERENCE_ONLY` or internal-QA language.
 7. Publish at a logged-out HTTPS URL and verify anonymous access and byte identity before the URL
