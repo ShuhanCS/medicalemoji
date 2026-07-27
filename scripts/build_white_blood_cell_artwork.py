@@ -6,7 +6,7 @@ comparison boards against pinned OpenMoji controls.
 
 Usage:
     python scripts/build_white_blood_cell_artwork.py \
-        --proposal-dir submissions/v1.16.0/white-blood-cell \
+        --proposal-dir submissions/v1.17.0/white-blood-cell \
         --board-date 2026-07-26
 """
 

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72">
+  <title>White Blood Cell color proposal artwork</title>
+  <desc>A pale organic white blood cell with a softly folded membrane and one connected asymmetric three-lobed purple nucleus.</desc>
+  <defs>
+    <linearGradient id="body" x1="18" y1="13" x2="54" y2="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e7f2f2"/>
+    </linearGradient>
+    <linearGradient id="nucleus" x1="25" y1="19" x2="49" y2="55" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7650a3"/>
+      <stop offset="1" stop-color="#4d2c73"/>
+    </linearGradient>
+  </defs>
+  <rect width="72" height="72" fill="#ffffff"/>
+  <path d="M36 7C41 7 44 10 48 11C52 9 58 12 59 17C64 20 62 26 66 30C68 36 63 40 62 46C62 52 56 54 52 58C48 63 42 60 38 65C32 67 28 62 22 62C16 62 15 56 11 52C7 48 10 42 7 36C5 30 10 26 10 21C12 15 18 15 22 11C26 6 32 9 36 7Z" fill="url(#body)" stroke="#668b91" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M22 26C22 20 26 17 31 18C37 19 39 24 37 29C36 32 37 34 40 35C42 35 43 33 44 31C46 28 51 28 54 31C58 34 58 39 56 43C54 46 50 47 47 45C45 44 44 46 44 48C45 52 42 56 38 57C34 58 30 55 30 51C30 47 33 45 37 44C41 43 42 40 40 38C38 36 35 33 32 33C27 35 22 32 22 26Z" fill="url(#nucleus)"/>
+</svg>

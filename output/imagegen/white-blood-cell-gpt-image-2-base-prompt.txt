@@ -1,0 +1,18 @@
+Use case: scientific-educational
+Asset type: Unicode emoji proposal concept artwork
+
+Create one original, highly polished emoji-style pictograph of a WHITE BLOOD CELL. Use a neutrophil only as the visual model for the broad white-blood-cell category.
+
+Scene and background: Center the subject on a perfectly flat solid #00FF00 chroma-key background for later background removal. The background must be one uniform color with no shadows, gradients, texture, reflections, floor plane, or lighting variation. Keep generous padding around the cell. Do not use #00FF00 anywhere in the subject.
+
+Subject and composition: Show exactly one complete cell, front-facing and centered. Its outer form is compact and nearly round but deliberately asymmetric, with five to seven broad, shallow membrane folds. The folds feel soft and organic, never pointed, hairy, spiky, or tentacular. The cytoplasm is cool near-white with a clearly visible muted blue-teal membrane edge.
+
+Primary recognition cue: Inside the cell, show one dominant deep-purple nucleus made from three UNEQUAL rounded lobes connected into one continuous bent chain or shallow S. Use one larger lobe, one medium lobe, and one smaller lobe, joined by clearly visible broad bridges. Place it slightly off-center. It must look like one segmented biological nucleus, not three separate circles, not a clover, flower, face, target, or camera lens. Leave a clear band of pale cytoplasm around the nucleus.
+
+Style: Clean modern emoji rendering with simple bold shapes, restrained soft dimensional depth, strong silhouette, crisp edges, and excellent readability when reduced to 18x18 pixels. The nucleus is the darkest and most saturated feature. Add no more than three to five very broad, extremely low-contrast cytoplasm dimples; these must remain visually secondary.
+
+Required category read: one organic cell first, one connected segmented center second, pale immune cell rather than a germ or red blood drop third.
+
+Do not include text, letters, numbers, labels, watermark, face, eyes, mouth, shield, medical cross, sparkle, blood vessel, red background, red blood cells, other cells, microbe, virus, bacteria, radial spikes, corona, hairs, cilia, tentacles, dense granules, pores, photorealistic fuzz, glossy beads, flower petals, clover arrangement, perfect circular membrane, perfect circular nucleus, cast shadow, contact shadow, or reflection. Do not imitate any existing vendor emoji or third-party artwork.
+
+Output intent: a single isolated concept suitable for redrawing into exact 18x18 and 72x72 colour and true black-and-white proposal assets.

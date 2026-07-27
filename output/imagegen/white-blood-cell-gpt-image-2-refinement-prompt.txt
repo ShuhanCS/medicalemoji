@@ -1,0 +1,7 @@
+Use case: precise-object-edit
+Asset type: Unicode emoji proposal concept artwork
+Input image 1: edit target; preserve its cell silhouette, membrane, cytoplasm, palette, centered framing, chroma-key background, lighting, and clean emoji rendering.
+
+Change only the purple nucleus geometry. Make it read more clearly as a biological segmented neutrophil nucleus and less like an abstract propeller or three-part symbol. Keep exactly three unequal, irregular oval lobes in one slightly elongated bent chain or shallow S. Make the overall nucleus about 10 percent smaller than in the input. Use one larger upper-left lobe, one medium right lobe, and one smaller lower lobe. Connect them with narrower but still clearly visible broad purple bridges so the nucleus remains one continuous feature when reduced to 18x18 pixels. Make the lobes organically irregular rather than perfect circles, and keep a wider band of pale cytoplasm around the nucleus.
+
+Keep everything else unchanged: exactly one front-facing pale cell; same softly irregular compact membrane with broad shallow folds; same muted blue-teal edge; same cool white cytoplasm and subtle dimples; same perfectly flat solid #00FF00 background with no variation; no shadow; no text; no face; no cross; no shield; no other cells; no spikes, hairs, tentacles, dense granules, flower, clover, target, or perfect circles. Do not imitate existing vendor emoji or third-party artwork.

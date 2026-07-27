@@ -7,9 +7,9 @@ semantic recognition.
 
 Usage:
     python scripts/validate_white_blood_cell_artwork.py \
-        --proposal-dir submissions/v1.16.0/white-blood-cell \
-        --json-output submissions/v1.16.0/white-blood-cell/validation/computer-validation.json \
-        --markdown-output submissions/v1.16.0/white-blood-cell/validation/computer-validation.md
+        --proposal-dir submissions/v1.17.0/white-blood-cell \
+        --json-output submissions/v1.17.0/white-blood-cell/validation/computer-validation.json \
+        --markdown-output submissions/v1.17.0/white-blood-cell/validation/computer-validation.md
 """
 
 from __future__ import annotations

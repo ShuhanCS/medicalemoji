@@ -5,6 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.49.0] - 2026-07-26
+
+### Changed
+- Added immutable submission snapshot `v1.17.0` with a new White Blood Cell artwork set translated from the
+  approved GPT Image 2 concept into editable, deterministic colour and true black-and-white masters.
+- Strengthened the 18-pixel silhouette and asymmetric connected nucleus, then updated the proposal's visual
+  explanation to match the exact final assets.
+
+### Verification
+- Rebuilt the four exact-size assets and proposal PDF, and reran deterministic artwork validation and submission
+  preflight against the new package.
+
 ## [0.48.0] - 2026-07-26
 
 ### Added
