@@ -29,8 +29,9 @@ Proposal Agreement and License.
 
 ### A. Multiple meanings
 
-Stomach has several familiar meanings. It names the digestive organ and is commonly used to talk about hunger,
-fullness, nausea, and discomfort. It also appears in established expressions such as
+Stomach names the digestive organ and everyday body area.
+[Merriam-Webster](https://www.merriam-webster.com/dictionary/stomach) also records appetite and the verb meaning
+to tolerate something. Familiar expressions include
 [butterflies in your stomach](https://dictionary.cambridge.org/us/dictionary/english/butterflies-in-stomach),
 [a strong stomach, and being unable to stomach something](https://dictionary.cambridge.org/us/dictionary/english/stomach).
 
@@ -38,9 +39,9 @@ fullness, nausea, and discomfort. It also appears in established expressions suc
 
 Stomach adds a specific organ meaning to several short combinations:
 
-- Stomach + fork and knife: digestion or fullness after a meal.
-- Stomach + nauseated face: an upset stomach or nausea.
-- Stomach + butterfly: butterflies in the stomach or nervous anticipation.
+- Stomach + fork and knife: digestion after a meal.
+- Stomach + nauseated face: an upset stomach.
+- Stomach + butterfly: butterflies in the stomach.
 
 ### C. Breaks new ground
 
@@ -56,10 +57,10 @@ other organs. Vendors may vary color, angle, outline, and shading while keeping 
 
 ### E. Expected usage level
 
-Stomach is an ordinary term used in communication about digestion, eating, hunger, appetite, fullness, nausea,
-stomach aches, indigestion, reflux, medication, education, and figurative emotion. The five required frequency
-sources show broad and durable use across web search, video, image search, and published books. Google Trends
-and Google Books compare `stomach` with Unicode's reference term `elephant`.
+Stomach appears in everyday communication about appetite, fullness after eating,
+[an upset stomach](https://dictionary.cambridge.org/us/dictionary/english/upset), digestion, nervous anticipation,
+and tolerating something unpleasant. The five required sources show broad use in web search, video, image search,
+and published books. Google Trends and Google Books compare `stomach` with Unicode's reference term `elephant`.
 
 #### Google Search
 
@@ -102,7 +103,7 @@ longest available range.
 
 ### F. Completeness
 
-Not applicable. Stomach is independently useful and is not proposed to complete a set of organs.
+Not applicable. Stomach does not complete a recognized closed set.
 
 ### G. Compatibility
 
@@ -118,8 +119,8 @@ stomach, or being unable to stomach something.
 
 ### B. Overly specific
 
-Stomach is a broad, familiar organ, not a disease, procedure, brand, or subtype. It supports ordinary messages
-about food, digestion, sensation, emotion, education, nutrition, and health.
+Stomach names a familiar organ and body area, not a disease, procedure, brand, or subtype. Its appetite,
+nervousness, and tolerance meanings reach beyond any single digestive condition.
 
 ### C. Open-ended
 
@@ -135,8 +136,8 @@ centuries, and current dictionaries document butterflies in the stomach and the 
 
 ### E. Faulty comparison
 
-This proposal does not depend on another organ being encoded. Its case rests on Stomach's frequent everyday use,
-established literal and figurative meanings, and clear J-shaped design.
+`Elephant` appears only as Unicode's required frequency comparator. Anatomical Heart, Lungs, and Brain are not
+precedents that entitle Stomach to encoding.
 
 ## Other Information
 

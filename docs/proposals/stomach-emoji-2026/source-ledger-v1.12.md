@@ -1,6 +1,6 @@
 # Stomach v1.12 Source Ledger
 
-Ledger version: 1.1.0
+Ledger version: 1.2.0
 
 Review date: 2026-07-26
 
@@ -18,7 +18,9 @@ Review date: 2026-07-26
 | --- | --- | --- |
 | The stomach receives food, mixes it with digestive juices, and empties its contents into the small intestine. | National Institute of Diabetes and Digestive and Kidney Diseases, `Your Digestive System & How it Works`: https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works | Use only if a short physiological explanation is needed. The proposal can normally rely on ordinary meanings instead. |
 | `Stomach` has literal anatomical and established verb senses. | Cambridge Dictionary: https://dictionary.cambridge.org/us/dictionary/english/stomach | Supports the Multiple meanings section, including the established sense of tolerating or accepting something unpleasant. |
+| `Stomach` names the organ and body area and also has appetite and verb senses. | Merriam-Webster Dictionary: https://www.merriam-webster.com/dictionary/stomach | Supports the organ, belly/abdomen, appetite, fullness, and tolerate meanings used in Multiple meanings, Expected usage, and Overly specific. |
 | `Butterflies in your stomach` is an established expression for nervousness. | Cambridge Dictionary: https://dictionary.cambridge.org/us/dictionary/english/butterflies-in-stomach | Supports the emotional/figurative meaning and the butterfly sequence example. |
+| `Upset stomach` describes feeling ill, especially after eating or drinking. | Cambridge Dictionary: https://dictionary.cambridge.org/us/dictionary/english/upset | Supports the upset-stomach meaning, Nauseated Face sequence, and substitute analysis. |
 | Current Unicode proposal rules require a meaning that existing emoji cannot express, current factor order, exact example images, five frequency sources, and rights language. | Unicode Emoji Proposal Guidelines: https://www.unicode.org/emoji/proposals.html | Controls document structure and evidence presentation. |
 | Current proposal status must be checked against Unicode's status definitions. | Unicode Emoji Proposals Status: https://www.unicode.org/emoji/emoji-proposals-status.html | Internal process control. Eligibility itself is already confirmed by Shuhan He. |
 
