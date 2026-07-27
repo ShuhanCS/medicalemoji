@@ -80,21 +80,33 @@ async function ensureGoogleAccess(page, label) {
 }
 
 
+/** Matches the string Google prints for its result estimate. */
+const COUNT_TEXT = /^About [\d,]+ results/;
+
+
+/**
+ * Open the Tools panel.
+ *
+ * Google's markup for the toggle varies between loads, and a real
+ * Playwright click hangs on it: the jsaction handler sits on a div whose
+ * overlay swallows the pointer event, so .click() and .click({force:true})
+ * both time out. Dispatching the click event directly is what actually flips
+ * aria-expanded, so that is the primary path and the id is only a hint.
+ */
 async function revealGoogleTools(page) {
-  const toggle = page.locator("#hdtb-tls, [role='button'][aria-controls]").filter({ hasText: /^Tools$/i });
-  for (const attempt of [{ force: false }, { force: true }]) {
-    if (!(await toggle.first().isVisible().catch(() => false))) break;
-    const clicked = await toggle
-      .first()
-      .click({ timeout: 8000, ...attempt })
-      .then(() => true)
-      .catch(() => false);
-    if (clicked) {
-      await page.waitForTimeout(1500);
+  return page.evaluate(() => {
+    const isToggle = (el) =>
+      el.id === "hdtb-tls" ||
+      (el.getAttribute("role") === "button" && el.textContent.trim() === "Tools");
+
+    for (const el of document.querySelectorAll("#hdtb-tls, [role='button']")) {
+      if (!isToggle(el)) continue;
+      if (el.getAttribute("aria-expanded") === "true") return true;
+      el.dispatchEvent(new MouseEvent("click", { bubbles: true, cancelable: true, view: window }));
       return true;
     }
-  }
-  return false;
+    return false;
+  });
 }
 
 
@@ -169,13 +181,36 @@ async function confirmCount(page, query, video, label) {
  * The count lives in the Tools panel. readCount() can pull it from the DOM
  * while the panel is collapsed, which is fine for confirming the value but
  * useless as evidence: the screenshot has to show the number on screen.
+ *
+ * Checked by geometry rather than by the #result-stats id. That id is present
+ * in the DOM even when collapsed, and the node Google actually renders in the
+ * open panel is not always the one carrying it.
  */
+async function countIsOnScreen(page) {
+  return page.evaluate((pattern) => {
+    const re = new RegExp(pattern);
+    for (const el of document.querySelectorAll("*")) {
+      const own = Array.from(el.childNodes)
+        .filter((n) => n.nodeType === Node.TEXT_NODE)
+        .map((n) => n.textContent)
+        .join("")
+        .trim();
+      if (!re.test(own)) continue;
+      const rect = el.getBoundingClientRect();
+      const painted = rect.width > 0 && rect.height > 0;
+      const inViewport = rect.top >= 0 && rect.bottom <= window.innerHeight;
+      if (painted && inViewport) return true;
+    }
+    return false;
+  }, COUNT_TEXT.source);
+}
+
+
 async function exposeCountOnScreen(page, label) {
-  const stats = page.locator("#result-stats").first();
-  for (let attempt = 1; attempt <= 6; attempt += 1) {
-    if (await stats.isVisible().catch(() => false)) return;
+  for (let attempt = 1; attempt <= 8; attempt += 1) {
+    if (await countIsOnScreen(page)) return;
     await revealGoogleTools(page);
-    await page.waitForTimeout(1200);
+    await page.waitForTimeout(1500);
   }
   throw new Error(`${label}: the result count never became visible on screen. Refusing to save.`);
 }
