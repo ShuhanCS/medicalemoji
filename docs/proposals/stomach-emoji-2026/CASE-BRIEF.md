@@ -1,6 +1,6 @@
 # Stomach Case Brief
 
-Version: 1.0.1
+Version: 1.1.0
 
 Assessment date: 2026-07-26
 
@@ -8,10 +8,10 @@ Assessment date: 2026-07-26
 
 | Field | Frozen value |
 | --- | --- |
-| Package | `1.12.0-candidate.5` |
-| Candidate commit | `00dd0cef0c6826ec48b72448d14dffbd8515b3c0` |
-| Proposal source | `candidate-v1.12/stomach_emoji_proposal_CANDIDATE.md`; SHA-256 `d2679d0dd35c56ffef991f6ff9156ba6dd398a86ddffeff8a723042ef60a47f5` |
-| Reviewer PDF | `candidate-v1.12/stomach_emoji_proposal_CANDIDATE.pdf`; SHA-256 `c442a3491fff8544e298a11f79d8234b0e01c76a51bcd0e1f958ad9f8c7da0c5` |
+| Package | `1.12.0-candidate.6` |
+| Candidate commit | `59f69c41ef459146f37cd6011c4eb5cb798f3354` |
+| Proposal source | `candidate-v1.12/stomach_emoji_proposal_CANDIDATE.md`; SHA-256 `5e717999cdd67ac1b455400bbfa8b6f73e288c1540d735cb003893df958cb3ce` |
+| Reviewer PDF | `candidate-v1.12/stomach_emoji_proposal_CANDIDATE.pdf`; SHA-256 `f32647253183b935fcd11ad2ee23903714f6241be977262daab08642d2ebf9f4` |
 | Official guidance | Checked 2026-07-26: https://www.unicode.org/emoji/proposals.html |
 | Eligibility and prior status | Eligibility is a settled project input from Shuhan He dated 2026-07-26. Unicode's request/status checks remain the filing control; the proposal does not narrate an eligibility dispute. |
 | Authorship | The ordered byline is Shuhan He, MD; David Rhew, MD; Heena Purohit. Shuhan He is the main point of contact. The source is Shuhan He's 2026-07-26 direction in `source-ledger-v1.12.md`; separate written consent records for David Rhew and Heena Purohit are not yet archived. |
@@ -51,9 +51,9 @@ Assessment date: 2026-07-26
 
 ## Selection thesis
 
-Stomach supplies a literal organ symbol and established figurative meanings that Nauseated Face plus Fork and
-Knife cannot carry: digestion, fullness, butterflies in the stomach, and being unable to stomach something. It
-is reusable across eating, sensation, and expression.
+Stomach supplies a literal organ and digestion symbol plus appetite, fullness, and tolerance meanings that
+Nauseated Face, meal emoji, and Butterfly/Anxious Face combinations cover only in pieces. Its J-shaped organ is
+the reusable residual unit.
 
 ## Observed communication
 
@@ -67,18 +67,19 @@ is reusable across eating, sensation, and expression.
 
 ## Nearest-substitute analysis
 
-The strongest short substitute is Nauseated Face plus Fork and Knife. It communicates sickness after eating
-well and should be granted that use. It does not name the stomach, convey digestion or fullness, or carry the
-established expressions `butterflies in your stomach` and `cannot stomach something`. Butterfly plus an anxious
-face covers nervous anticipation but not the literal organ or the whole expression. The residual gap remains
-large enough to support the case.
+Nauseated Face shows nausea or disgust and, with Fork and Knife, sickness after eating. Butterfly plus an anxious
+face covers nervous anticipation. Food emoji show a meal. These substitutes receive their strongest readings,
+but none identifies the stomach or digestion, conveys fullness in the stomach, or carries the verb `stomach`
+meaning to tolerate something. The residual gap remains large enough to support the case.
 
 ## Priority and scope
 
-The closest neighboring unencoded concepts are liver, kidney, and intestine. Stomach is not prioritized because
-it appears in an anatomy list or because it is medically important. It combines frequent eating and sensation
-messages with established appetite, nervousness, and tolerance meanings. A neighboring organ supported only by
-anatomy or clinical importance would fail this boundary.
+Gut/intestine is the strongest neighboring concept. Merriam-Webster records `gut` as the whole digestive tract or
+part of it, the belly, courage, or intuition rather than one organ. A single intestine glyph would not map cleanly
+to that range. Stomach maps directly to one recognizable organ and its documented appetite, fullness, verb, and
+butterflies meanings. This does not claim intestine can never qualify independently; it shows why encoding
+Stomach creates no matching need for intestine, liver, kidney, or an anatomy set. Anatomy or clinical importance
+alone would fail this boundary.
 
 ## Positive-factor inventory
 
@@ -127,7 +128,7 @@ Case result: **CASE READY**
 
 ## Adversarial draft review
 
-Candidate.4 passes the name-swap, substitute, scope, repetition, and process-language checks. Two passages still
+Candidate.4 passed the name-swap, substitute, scope, repetition, and process-language checks. Two passages still
 use abstract lists that are weaker than the sourced Stomach case: Expected usage includes `medication`,
 `education`, and `figurative emotion`, while Overly specific includes `sensation`, `emotion`, `education`,
 `nutrition`, and `health`. Replace them with the sourced meanings in this brief. Also make Completeness and
@@ -151,4 +152,23 @@ completed, and Faulty comparison distinguishes the required `elephant` control f
 
 Post-revision result: **DRAFT READY FOR COMPLIANCE**
 
-Next artifact state: **READY FOR PANEL** after this exact package is committed and frozen into a new panel run.
+Candidate.5 panel result: **REVISE AND RERUN**. The skeptical seat required fuller substitute concessions and a
+direct stress test against gut/intestine; those actions are implemented in candidate.6.
+
+## Candidate.6 action response
+
+| Field | Value |
+| --- | --- |
+| Package | `1.12.0-candidate.6` |
+| Proposal source SHA-256 | `5e717999cdd67ac1b455400bbfa8b6f73e288c1540d735cb003893df958cb3ce` |
+| Reviewer PDF SHA-256 | `f32647253183b935fcd11ad2ee23903714f6241be977262daab08642d2ebf9f4` |
+| PDF artifact review | Pass: 5 US-Letter pages, 5,472 extracted characters, 17 links, no blank or clipped page, and all five evidence exhibits readable at normal zoom. |
+| Artwork | Unchanged from the frozen hashes; deterministic validation still passes. |
+
+- `C5-003 ACCEPT`: Breaks new ground and Already represented now grant Nauseated Face, meal, disgust, and
+  Butterfly/Anxious Face uses before stating the literal-organ, digestion, fullness, and verb residual.
+- `C5-004 ACCEPT`: Open-ended now applies the boundary to gut/intestine using the documented mismatch between
+  the broad word `gut` and a single intestine glyph. It does not claim that intestine can never qualify.
+- `C5-001`, `C5-002`, and `C5-005` remain external record or filing actions and are not represented as closed.
+
+Candidate.6 result: **DRAFT READY FOR COMPLIANCE** and **READY FOR PANEL**.
