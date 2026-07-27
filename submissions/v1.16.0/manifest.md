@@ -4,7 +4,7 @@ Package version: 1.16.0
 
 Created: 2026-07-26
 
-Status: **White Blood Cell prose revision complete; publication verification in progress.**
+Status: **White Blood Cell v1.16.0 release published and verified.**
 
 Official deadline: End of day 2026-07-31
 
@@ -77,5 +77,6 @@ editorial consultation only; they do not claim a Unicode review, score, vote, or
   counts lead; biology education and research are secondary.
 - Editorial tightening: NCI and MedlinePlus support is retained in one plain-language sentence, and the nearest
   substitute rebuttal is direct and non-repetitive.
-- Public logged-out URL: recorded after the v1.16.0 release commit is pushed.
+- Public logged-out URL: verified against release commit `571d2ba247370ac9132321a3df8df9a942a3eb96`:
+  https://raw.githubusercontent.com/ShuhanCS/medicalemoji/571d2ba247370ac9132321a3df8df9a942a3eb96/submissions/v1.16.0/white-blood-cell/white-blood-cell_emoji_proposal_SUBMIT.pdf
 - Form filing and confirmation archive: intentionally not performed in this workstream.
