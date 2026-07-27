@@ -6,27 +6,24 @@ Unicode submission window closes **2026-07-31**.
 
 ## The headline finding
 
-The submitted v1.18.0 PDF reports **"About 125 results"** for `white-blood-cell` on Google Search
-against 491,000,000 for `elephant`. That number is wrong.
+The 2026-07-26 PDF reported **"About 125 results"** for `white-blood-cell` on Google Search against
+491,000,000 for `elephant`. That number was wrong.
 
-Re-measured 2026-07-27, three independent page loads per query, same settings the proposal
-documents (`hl=en&num=10&pws=0`, Firefox private profile):
+Re-measured 2026-07-27, three independent loads per query, same documented settings
+(`hl=en&num=10&pws=0`, Firefox private profile):
 
-| Query | Submitted PDF | Re-measured 2026-07-27 |
+| Query | 2026-07-26 PDF | Confirmed 2026-07-27 |
 | --- | --- | --- |
 | `white-blood-cell` Search | about 125 | **about 880,000,000** |
 | `elephant` Search | about 491,000,000 | about 491,000,000 (unchanged) |
-| `white-blood-cell` Video | about 14,100,000 | about 14,000,000 |
+| `white-blood-cell` Video | about 14,100,000 | about 13,900,000 |
 | `elephant` Video | about 86,300,000 | about 84,700,000 |
 
-`elephant` reproduces exactly, which confirms the re-measurement matches the original capture
-conditions. So the 125 was a bad read at capture time, not a settings difference.
+`elephant` reproduces exactly, which confirms the settings match. The 125 was a bad read, not a
+configuration difference.
 
-**This reverses the usage argument on the strongest-weighted factor.** White blood cell now measures
-about **1.79x elephant** on Google Search instead of four orders of magnitude below it.
-
-Hyphenation is not the cause. `scripts/probe_google_hyphen_artifact.mjs` tested Unicode's own
-documentation example and found no grouped-vs-plain gap for any term:
+Hyphenation is not the cause. The probe tested Unicode's own documentation example and found no
+grouped-versus-plain gap for any term:
 
 | Concept | grouped | plain |
 | --- | --- | --- |
@@ -35,77 +32,62 @@ documentation example and found no grouped-vs-plain gap for any term:
 | first aid kit | 377,000,000 | 376,000,000 |
 | elephant | 491,000,000 | 491,000,000 |
 
-Raw data: `evidence/frequency/google_hyphen_artifact_probe.json` and
-`evidence/frequency/white-blood-cell_google_recapture_log_2026-07-27.json`.
+**This reverses the usage argument on the most heavily weighted factor.** Search now measures about
+1.8x `elephant` instead of four orders of magnitude below it. Video, both Trends properties, and Books
+remain below, and Sections 3e and 6 say so plainly.
 
-## What is done
+## Done
 
-- `scripts/probe_google_hyphen_artifact.mjs` - proves the hyphen syntax is not the cause. Runs clean.
-- `scripts/recapture_google_search_evidence.mjs` - recaptures Search + Video for the term and the
-  `elephant` comparator. Loads each query three times and refuses to save unless every reading lands
-  in the same order of magnitude. This guard is what would have caught the 125.
+- Section 6 rewritten on the corrected figures; all four screenshots recaptured with the count visible.
+- Section 3e rewritten. Leads with Search and Video inventory, states that Trends and Books stay well below.
+- Section 3a was "Not applicable"; now argues the secondary symbolic sense of internal defense.
+- Section 3d embeds a recognition figure, original artwork only, proposed image against a generic cell
+  control. Third-party comparator art stays out of the PDF, so the OpenMoji boards in `comparisons/` remain
+  internal review artifacts.
+- Section 5 acknowledges the 2020 declined proposal on Unicode's published status list and notes the
+  re-submission period has elapsed. Vendor design notes softened to suggestions, since a proposal that
+  requests an exact image is automatically declined.
+- `evidence/EVIDENCE-LOG.md` records the correction and the probe table.
+- PDF rebuilt, now fourteen pages.
+- `scripts/validate_white_blood_cell_submission.py --package-dir submissions/v1.18.0` passes.
 
-## What is NOT done - blocking
+### New tooling
 
-**1. The four 2026-07-27 screenshots are not usable yet.**
+- `scripts/probe_google_hyphen_artifact.mjs` - runs each term grouped and unhyphenated to test the syntax.
+- `scripts/recapture_google_search_evidence.mjs` - recaptures Search and Video for the term and the
+  `elephant` comparator. Loads each query three times, refuses to save unless every reading lands in the same
+  order of magnitude, and refuses to save unless the count is actually visible on screen.
+- `scripts/validate_white_blood_cell_submission.py` - now derives required evidence files from the proposal's
+  own image references rather than hardcoded dated filenames, and fails if a count the proposal states does
+  not match a confirmed figure in the capture log. Negative-tested: reverting the Search figure to 125 makes
+  it fail.
+- `scripts/build_white_blood_cell_artwork.py --figure-date` - builds the original-art-only recognition figure.
 
-They are on disk as `*_DRAFT-NO-VISIBLE-COUNT.png`. The counts were read from the DOM
-(`#result-stats` has the text even while the Tools panel is collapsed), but the panel is closed in
-the shot, so the number is not visible on screen. Evidence screenshots have to show the count the
-way the current `*_2026-07-26_SUBMIT.png` files do.
+## Not done
 
-Where it stands: `exposeCountOnScreen()` in the recapture script asserts `#result-stats` is visible
-before saving, and correctly refuses to save. Getting the panel open is the remaining problem.
-Findings from debugging the `#hdtb-tls` toggle:
+**1. The black-and-white 18x18 artwork.** Unchanged, and still the weakest part of the package. The nucleus
+renders as solid black lobes inside a near-circular outline, which reads as a soccer ball at keyboard size.
+Grayscale is not permitted, so the fix is outlined lobes rather than filled, plus a visibly lumpier membrane.
+Section 5 already tells vendors to keep a band of pale cytoplasm around the nucleus; the submitted sample does
+not do it, and the new recognition figure on page 3 shows the gap.
 
-- normal `.click()` hangs (jsaction overlay swallows the pointer event)
-- `.click({force:true})` times out
-- `.evaluate(el => el.click())` toggles `aria-expanded` back to `false`
-- `.dispatchEvent("click")` **does** set `aria-expanded="true"`, but Playwright still reports
-  `#result-stats` as not visible
+Sources: `images/white-blood-cell_bw_18_SOURCE.svg`, `images/white-blood-cell_bw_SOURCE.svg`.
+Rebuild: `python scripts/build_white_blood_cell_artwork.py --proposal-dir submissions/v1.18.0/white-blood-cell
+--board-date 2026-07-26 --figure-date 2026-07-27`.
+Check: `scripts/validate_white_blood_cell_artwork.py`.
 
-Next thing to try: after `dispatchEvent("click")`, find the element whose own text matches
-`/^About [\d,]+ results/` and check its bounding box directly, rather than trusting the
-`#result-stats` id. There may be a second node that is the one actually rendered. A debug snippet
-that enumerates candidates is in the git history of this note's commit message, or just rewrite it.
+**2. The seventeen-section review has not been re-run.** `READINESS.md` carries an amendment block listing
+which of its rows are now stale. Status was moved from `READY TO PUBLISH` to `AMENDED, NOT RE-REVIEWED`.
 
-Fallback if the automation stays stubborn: capture the two Search screenshots by hand in the same
-Firefox profile with Tools open, keep the three-load confirmation from the script as the audit
-trail, and note the manual capture in `evidence/EVIDENCE-LOG.md`.
+**3. Section 3b still lists adjacency pairs**, not ZWJ sequences in Unicode's technical sense. Minor, but it
+is a scored factor and the wording invites the distinction.
 
-Do not ship the `_DRAFT-NO-VISIBLE-COUNT` files.
+**4. Confirm co-submitter paperwork.** Three submitters are named; David Rhew and Heena Purohit each need to
+have signed the Unicode Emoji Proposal Agreement and License on the submission form.
 
-**2. None of the proposal text is edited yet.** `white-blood-cell_emoji_proposal_SUBMIT.md` is
-untouched. Still to do, in priority order:
+## Note on the other three concepts
 
-- **Section 6 Google Search + Video** - rewrite around 880,000,000 vs 491,000,000 and the corrected
-  video figures. Swap in the new screenshots. Update `evidence/EVIDENCE-LOG.md` to match.
-- **Section 3e Usage level** - currently concedes "Its relative Trends and Ngram levels are below
-  `elephant`". With Search now above elephant, this section should lead with the Search and Video
-  result inventory and treat Trends and Ngram as the secondary, weaker signals. Keep it honest:
-  Trends really is 3 vs 72.
-- **Section 3d Distinctiveness** - embed a comparison strip. The boards already exist and are not
-  referenced by the proposal:
-  `comparisons/white-blood-cell_comparison-board_color_2026-07-26.png` and
-  `comparisons/white-blood-cell_comparison-board_black_2026-07-26.png`.
-- **Section 5** - acknowledge the prior submission. Unicode's public ledger has
-  `White Blood Cell | Declined | 12/18/2020`. The four-year bar has elapsed. Three sentences: prior
-  submission, bar elapsed, what is materially different now.
-- **Section 3a Multiple meanings** - currently "Not applicable", which forfeits a scored factor.
-  Write a real paragraph on immune defense as metaphor.
-- **Date** - bump from 2026-07-26 to the actual resubmission date.
-- Rebuild the PDF (`scripts/make_submission_pdf.py`) and re-run
-  `scripts/validate_white_blood_cell_submission.py`.
-
-**3. Artwork is unchanged and still has the problem from the review.** The B&W 18x18 reads as a
-soccer ball: solid black nucleus lobes inside a near-circular outline. Grayscale is not allowed, so
-the fix is outlined lobes plus a lumpier membrane. Section 5 already tells vendors to keep a band of
-pale cytoplasm around the nucleus, but the submitted sample does not do it.
-Source SVGs: `images/white-blood-cell_bw_18_SOURCE.svg`, `images/white-blood-cell_bw_SOURCE.svg`.
-Rebuild with `scripts/build_white_blood_cell_artwork.py`, check with
-`scripts/validate_white_blood_cell_artwork.py`.
-
-## Process item
-
-Three submitters are named. Confirm David Rhew and Heena Purohit have each signed the Unicode Emoji
-Proposal Agreement and License on the submission form.
+Kidney, Liver, and Stomach in `submissions/v1.18.0/` were not touched. Their Google Search evidence was
+captured by the same original process that produced the 125, so their result counts are worth re-checking
+with `scripts/recapture_google_search_evidence.mjs` before filing. The liver and stomach captures are dated
+2020, which is worth a look on its own.

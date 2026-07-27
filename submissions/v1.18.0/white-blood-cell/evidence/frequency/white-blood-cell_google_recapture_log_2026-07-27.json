@@ -11,7 +11,7 @@
       "query": "white-blood-cell",
       "kind": "Google Search",
       "url": "https://www.google.com/search?q=white-blood-cell&hl=en&num=10&pws=0",
-      "result": "About 880,000,000 results (0.20s)",
+      "result": "About 880,000,000 results (0.22s)",
       "count": 880000000,
       "confirmations": [
         880000000,
@@ -19,14 +19,14 @@
         880000000
       ],
       "file": "C:\\Users\\Shuha\\projects\\medicalemoji\\.worktrees\\wbc-proposal-fixes\\submissions\\v1.18.0\\white-blood-cell\\evidence\\frequency\\white-blood-cell_google_search_2026-07-27_SUBMIT.png",
-      "capturedAt": "2026-07-27T02:37:09.596Z"
+      "capturedAt": "2026-07-27T03:55:43.001Z"
     },
     {
       "label": "elephant Google Search",
       "query": "elephant",
       "kind": "Google Search",
       "url": "https://www.google.com/search?q=elephant&hl=en&num=10&pws=0",
-      "result": "About 491,000,000 results (0.25s)",
+      "result": "About 491,000,000 results (0.48s)",
       "count": 491000000,
       "confirmations": [
         491000000,
@@ -34,29 +34,29 @@
         491000000
       ],
       "file": "C:\\Users\\Shuha\\projects\\medicalemoji\\.worktrees\\wbc-proposal-fixes\\submissions\\v1.18.0\\white-blood-cell\\evidence\\frequency\\white-blood-cell_google_search_elephant_2026-07-27_SUBMIT.png",
-      "capturedAt": "2026-07-27T02:38:27.091Z"
+      "capturedAt": "2026-07-27T03:56:11.798Z"
     },
     {
       "label": "white-blood-cell Google Video Search",
       "query": "white-blood-cell",
       "kind": "Google Video Search",
       "url": "https://www.google.com/search?q=white-blood-cell&hl=en&num=10&pws=0&tbm=vid",
-      "result": "About 14,000,000 results (0.27s)",
-      "count": 14000000,
+      "result": "About 13,900,000 results (0.13s)",
+      "count": 13900000,
       "confirmations": [
-        14000000,
-        14000000,
-        14000000
+        13900000,
+        13900000,
+        13900000
       ],
       "file": "C:\\Users\\Shuha\\projects\\medicalemoji\\.worktrees\\wbc-proposal-fixes\\submissions\\v1.18.0\\white-blood-cell\\evidence\\frequency\\white-blood-cell_google_video_search_2026-07-27_SUBMIT.png",
-      "capturedAt": "2026-07-27T02:39:44.104Z"
+      "capturedAt": "2026-07-27T03:56:39.987Z"
     },
     {
       "label": "elephant Google Video Search",
       "query": "elephant",
       "kind": "Google Video Search",
       "url": "https://www.google.com/search?q=elephant&hl=en&num=10&pws=0&tbm=vid",
-      "result": "About 84,700,000 results (0.14s)",
+      "result": "About 84,700,000 results (0.15s)",
       "count": 84700000,
       "confirmations": [
         84700000,
@@ -64,7 +64,7 @@
         84700000
       ],
       "file": "C:\\Users\\Shuha\\projects\\medicalemoji\\.worktrees\\wbc-proposal-fixes\\submissions\\v1.18.0\\white-blood-cell\\evidence\\frequency\\white-blood-cell_google_video_search_elephant_2026-07-27_SUBMIT.png",
-      "capturedAt": "2026-07-27T02:41:00.804Z"
+      "capturedAt": "2026-07-27T03:57:08.004Z"
     }
   ]
 }

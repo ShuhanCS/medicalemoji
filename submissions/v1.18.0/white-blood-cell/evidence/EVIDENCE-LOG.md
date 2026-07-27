@@ -67,7 +67,7 @@ https://www.google.com/search?tbm=vid&q=white-blood-cell&hl=en&num=10&pws=0
 Settings: Firefox Private Browsing, English interface, personalized results disabled, video results,
 Google.com default location with no region override.
 
-Result: About 14,000,000 results, confirmed on three independent loads. Official-form nearest-million value:
+Result: About 13,900,000 results, confirmed on three independent loads. Official-form nearest-million value:
 14 million.
 
 Comparator URL:

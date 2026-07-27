@@ -211,10 +211,115 @@ def build_board(proposal_dir: Path, variant: str, board_date: str) -> Path:
     return output
 
 
+FIGURE_ROWS = [
+    ("White Blood Cell", "color"),
+    ("Generic cell control", "color"),
+    ("White Blood Cell", "black"),
+    ("Generic cell control", "black"),
+]
+
+FIGURE_NOTES = {
+    "White Blood Cell": "Proposed image: one connected, asymmetric three-lobed nucleus inside a folded pale membrane",
+    "Generic cell control": "Control: one round nucleus inside a plain circular outline",
+}
+
+
+def build_submission_figure(proposal_dir: Path, figure_date: str) -> Path:
+    """Build the distinctiveness figure that the proposal itself embeds.
+
+    Deliberately narrower than build_board(). The comparison boards carry
+    OpenMoji comparators under CC BY-SA 4.0, which is fine for internal review
+    but not for a document that certifies CC0 ownership of its artwork and
+    grants Unicode rights over the submission. Every mark in this figure is
+    original to the proposal, so it carries no third-party licence into the PDF.
+    Microbe and Drop of Blood stay in the prose of Section 3d.
+    """
+    width = 1200
+    title_height = 104
+    header_height = 58
+    row_height = 176
+    footer_height = 58
+    height = title_height + header_height + row_height * len(FIGURE_ROWS) + footer_height
+    figure = Image.new("RGB", (width, height), "white")
+    draw = ImageDraw.Draw(figure)
+    columns = [0, 250, 360, 500, 615, 810, 1200]
+    headers = ["Concept", "Rendering", "18x18 actual", "18x18 at 8x", "72x72 actual", "Notes"]
+
+    draw.text((32, 24), "White Blood Cell: recognition at keyboard size", fill="black", font=font(30, True))
+    draw.text(
+        (32, 65),
+        "The proposed image and a generic cell control, shown at actual size and enlarged.",
+        fill="#444444",
+        font=font(17),
+    )
+
+    y = title_height
+    draw.rectangle((0, y, width, y + header_height), fill="#eceff1")
+    for index, header in enumerate(headers):
+        draw.text((columns[index] + 12, y + 18), header, fill="black", font=font(16, True))
+
+    for row_index, (label, variant) in enumerate(FIGURE_ROWS):
+        top = title_height + header_height + row_index * row_height
+        bottom = top + row_height
+        if row_index % 2:
+            draw.rectangle((0, top, width, bottom), fill="#fafafa")
+
+        display_label = "Generic cell diagram" if label == "Generic cell control" else label
+        draw.text((24, top + 64), display_label, fill="black", font=font(19, label == "White Blood Cell"))
+        draw.text(
+            (columns[1] + 12, top + 64),
+            "Colour" if variant == "color" else "Black and white",
+            fill="#333333",
+            font=font(16),
+        )
+
+        image18 = control_cell(proposal_dir, label, 18, variant)
+        image72 = control_cell(proposal_dir, label, 72, variant)
+        centered_paste(figure, image18, (columns[2], top, columns[3], bottom))
+        centered_paste(
+            figure,
+            image18.resize((136, 136), Image.Resampling.NEAREST),
+            (columns[3], top, columns[4], bottom),
+        )
+        centered_paste(figure, image72, (columns[4], top, columns[5], bottom))
+        draw.multiline_text(
+            (columns[5] + 12, top + 48),
+            textwrap.fill(FIGURE_NOTES[label], width=36),
+            fill="#222222",
+            font=font(15),
+            spacing=5,
+        )
+
+    grid_top = title_height
+    grid_bottom = title_height + header_height + row_height * len(FIGURE_ROWS)
+    for x in columns:
+        draw.line((x, grid_top, x, grid_bottom), fill="#aab0b3", width=1)
+    for yline in [title_height, title_height + header_height] + [
+        title_height + header_height + index * row_height for index in range(1, len(FIGURE_ROWS) + 1)
+    ]:
+        draw.line((0, yline, width, yline), fill="#aab0b3", width=1)
+
+    draw.text(
+        (24, grid_bottom + 18),
+        f"All artwork in this figure is original to this proposal. Figure date: {figure_date}.",
+        fill="#333333",
+        font=font(15),
+    )
+
+    output = proposal_dir / "images" / f"white-blood-cell_recognition-figure_{figure_date}.png"
+    output.parent.mkdir(parents=True, exist_ok=True)
+    figure.save(output, optimize=True)
+    return output
+
+
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
     parser.add_argument("--proposal-dir", required=True, type=Path)
     parser.add_argument("--board-date", required=True)
+    parser.add_argument(
+        "--figure-date",
+        help="Build the original-art-only distinctiveness figure that the proposal embeds.",
+    )
     return parser.parse_args()
 
 
@@ -224,6 +329,8 @@ def main() -> int:
         print(path)
     for variant in ("color", "black"):
         print(build_board(args.proposal_dir, variant, args.board_date))
+    if args.figure_date:
+        print(build_submission_figure(args.proposal_dir, args.figure_date))
     return 0
 
 

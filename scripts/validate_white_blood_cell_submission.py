@@ -22,6 +22,18 @@ def main() -> int:
     proposal = proposal_dir / "white-blood-cell_emoji_proposal_SUBMIT.md"
     pdf = proposal.with_suffix(".pdf")
 
+    proposal_text = proposal.read_text(encoding="utf-8") if proposal.is_file() else ""
+
+    # Evidence filenames carry their capture date, so they change whenever a
+    # capture is redone. Deriving them from the proposal's own image references
+    # keeps this check from going stale and, more usefully, fails when the
+    # document points at a file that is not on disk.
+    referenced = [
+        proposal_dir / target
+        for target in re.findall(r"!\[[^\]]*\]\(([^)]+)\)", proposal_text)
+        if not target.startswith(("http://", "https://"))
+    ]
+
     required = [
         package_dir / "VERSION",
         package_dir / "manifest.md",
@@ -29,13 +41,7 @@ def main() -> int:
         package_dir / "ARTWORK-LICENSE.md",
         proposal,
         pdf,
-        proposal_dir / "evidence/frequency/white-blood-cell_google_search_2026-07-26_SUBMIT.png",
-        proposal_dir / "evidence/frequency/white-blood-cell_google_search_elephant_2026-07-26_SUBMIT.png",
-        proposal_dir / "evidence/frequency/white-blood-cell_google_video_search_2026-07-26_SUBMIT.png",
-        proposal_dir / "evidence/frequency/white-blood-cell_google_video_search_elephant_2026-07-26_SUBMIT.png",
-        proposal_dir / "evidence/frequency/white-blood-cell_google_trends_web_elephant_2026-07-26_SUBMIT.png",
-        proposal_dir / "evidence/frequency/white-blood-cell_google_trends_image_elephant_2026-07-26_SUBMIT.png",
-        proposal_dir / "evidence/frequency/white-blood-cell_google_books_ngram_elephant_2026-07-26_SUBMIT.png",
+        *referenced,
         proposal_dir / "validation/computer-validation.json",
         proposal_dir / "comparisons/white-blood-cell_comparison-board_color_2026-07-26.png",
         proposal_dir / "comparisons/white-blood-cell_comparison-board_black_2026-07-26.png",
@@ -43,6 +49,20 @@ def main() -> int:
     missing = [str(path.relative_to(package_dir)) for path in required if not path.is_file()]
     if missing:
         raise ValueError("missing required files:\n- " + "\n- ".join(missing))
+
+    # Every one of the five required sources must actually appear in the PDF.
+    for source in (
+        "google_search",
+        "google_video_search",
+        "google_trends_web",
+        "google_trends_image",
+        "google_books_ngram",
+    ):
+        if not any(source in path.name for path in referenced):
+            raise ValueError(f"proposal does not embed any {source} evidence screenshot")
+
+    if any("DRAFT" in path.name for path in referenced):
+        raise ValueError("proposal references a DRAFT evidence file")
 
     version = (package_dir / "VERSION").read_text(encoding="utf-8").strip()
     expected_version = package_dir.name.removeprefix("v")
@@ -53,7 +73,19 @@ def main() -> int:
             f"VERSION {version!r} must match package directory {package_dir.name!r}"
         )
 
-    proposal_text = proposal.read_text(encoding="utf-8")
+    # The v1.18.0 draft quoted "about 125 results" for a query that returns
+    # about 880,000,000. Every count the proposal states must match a figure
+    # that the capture log confirmed across repeated loads.
+    for log_path in sorted(proposal_dir.glob("evidence/frequency/*_google_recapture_log_*.json")):
+        for record in json.loads(log_path.read_text(encoding="utf-8"))["records"]:
+            if record["count"] is None:
+                raise ValueError(f"{log_path.name}: {record['label']} has no confirmed count")
+            if f"{record['count']:,}" not in proposal_text:
+                raise ValueError(
+                    f"proposal does not state the confirmed {record['label']} count "
+                    f"{record['count']:,} (from {log_path.name})"
+                )
+
     if "{{" in proposal_text or "}}" in proposal_text:
         raise ValueError("proposal contains unresolved placeholders")
     for forbidden in (

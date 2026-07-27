@@ -71,9 +71,19 @@ preserving the enclosing pale cell body and single connected lobed center.
 The design uses neutrophil morphology because neutrophils are the most numerous circulating white blood cells;
 the name and intended meaning remain the broad White Blood Cell category.
 
+The figure below shows the proposed image beside a generic cell diagram, in colour and in black and white, at
+actual keyboard size and enlarged. The generic cell is the harder comparison to win, because Microbe's spikes
+and Drop of Blood's teardrop are already distinct silhouettes while a plain cell shares the proposed outline.
+At 18 pixels the two separate on the interior: the proposal resolves into an off-centre, connected, multi-part
+nucleus, and the control resolves into a single round dot.
+
+![White Blood Cell recognition at keyboard size, compared with a generic cell diagram](images/white-blood-cell_recognition-figure_2026-07-27.png)
+
 [NCBI Bookshelf: Histology, White Blood Cell](https://www.ncbi.nlm.nih.gov/books/NBK563148/)
 
 All artwork displayed in this proposal as proposed emoji artwork is the original work identified in Section 2.
+Every mark in the figure above, including the generic cell control, is original to this proposal. No
+third-party emoji artwork appears anywhere in this document.
 
 ### e. Usage level
 
@@ -186,7 +196,7 @@ Captured 2026-07-27 using the required grouped term `white-blood-cell`. The resu
 ### Google Video Search
 
 Captured 2026-07-27 using the required grouped term `white-blood-cell`. The video result page reports about
-14,000,000 results, compared with about 84,700,000 for `elephant` under the same settings.
+13,900,000 results, compared with about 84,700,000 for `elephant` under the same settings.
 
 [Open the reproducible Google Video Search query](https://www.google.com/search?tbm=vid&q=white-blood-cell&hl=en&num=10&pws=0)
 

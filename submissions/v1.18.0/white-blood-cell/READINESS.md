@@ -2,11 +2,40 @@
 
 Readiness record version: 1.7.0
 
-Date: 2026-07-26
+Date: 2026-07-26. Amended 2026-07-27.
 
 Proposal package: 1.18.0
 
-Status: **READY TO PUBLISH**
+Status: **AMENDED, NOT RE-REVIEWED**
+
+## Amendment, 2026-07-27
+
+The record below was written against the 2026-07-26 nine-page PDF. Four changes have landed since, and the
+seventeen-section review has **not** been re-run against them. Treat the table below as accurate for
+everything it covers except the rows noted here.
+
+1. **The Google Search figure was wrong.** The reviewed PDF reported about 125 results for
+   `white-blood-cell`. Re-measured across three loads it returns about 880,000,000, with `elephant`
+   reproducing exactly at 491,000,000. Section 6 and Section 3e are rewritten around the corrected figures,
+   and the Video figures were refreshed at the same time (13,900,000 against 84,700,000). See
+   `evidence/EVIDENCE-LOG.md`.
+2. **Multiple meanings is no longer N/A.** Section 3a now argues the secondary symbolic sense of internal
+   defense. The statement below that there are three genuine inclusion N/As is superseded: there are now two,
+   Completeness and Compatibility. Row "Multiple meanings" in the table is stale.
+3. **Section 3d embeds a recognition figure.** Original artwork only, the proposed image against a generic
+   cell control. The decision to keep third-party comparator art out of the PDF still holds, and the OpenMoji
+   boards in `comparisons/` remain internal review artifacts.
+4. **Section 5 acknowledges the 2020 declined proposal** and softens the vendor design notes to suggestions.
+
+The PDF is now fourteen pages, so any statement below about "all nine PDF pages" describes a superseded
+build. Dual-renderer inspection has not been repeated.
+
+`scripts/validate_white_blood_cell_submission.py --package-dir submissions/v1.18.0` passes. It now derives
+required evidence files from the proposal's own image references and fails if any count the proposal states
+does not match a figure confirmed in the capture log.
+
+Not done: the black-and-white 18x18 artwork is unchanged and still renders its nucleus as solid lobes inside a
+near-circular outline.
 
 Controlling rubric: `BEST-IN-CLASS-RUBRIC.md`, version 3.1.0
 
