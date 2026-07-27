@@ -1,8 +1,8 @@
 # Kidney Emoji Artwork Specification
 
-Version: 1.1.0
+Version: 1.2.0
 
-Status: paired concept approved; deterministic small-size refinement built in `v1.12.0-kidney.4`
+Status: strongest polished concept promoted at 72px in `v1.12.0-kidney.6`; purpose-built 18px assets retained
 
 Generator: GPT Image 2 built-in image workflow
 
@@ -18,6 +18,8 @@ full vascular tower and other textbook-level detail that fails at 18x18 pixels.
 - `submissions/v1.2.0/kidney/images/kidney_color_72x72_SUBMIT.png`: simplified paired-composition reference.
 - `submissions/v1.10.0/kidney/images/kidney_color_72x72_SUBMIT.png`: rendering-style reference only.
 - `kidney-paired-gpt-image-2-concept.png`: approved GPT Image 2 direction and proportions reference.
+- `kidney-paired-gpt-image-2-submission-master.png`: exact polished color master for the `.6` 72px asset.
+- `kidney-paired-gpt-image-2-bw-master.png`: matched black-and-white master for the `.6` 72px asset.
 - Do not reproduce a reference literally or imitate any vendor's proprietary emoji design.
 
 ## Required silhouette
@@ -76,18 +78,19 @@ Shuhan's dated actual-size decision on the exact four assets is the complete hum
 participant panel, crowd test, minimum sample, recognition percentage, or confusion matrix is required. A
 material asset change invalidates the prior exact-asset decision and returns the changed assets to Shuhan.
 
-The `.4` result passes all twelve comparator rows without changing the fixed thresholds. The former color
+The `.6` combined asset set passes all twelve comparator rows without changing the fixed thresholds. The former color
 18x18 Lungs IoU of `0.750` is `0.698` after the purpose-built small-size refinement, below the unchanged `0.72`
 ceiling.
 
 ## Current files
 
 - Approved full-size concept: `docs/design/kidney-emoji-2026-07/kidney-paired-gpt-image-2-concept.png`
-- Deterministic SVG masters: `submissions/v1.12.0-kidney.4/kidney/images/kidney_color_SOURCE.svg` and
-  `submissions/v1.12.0-kidney.4/kidney/images/kidney_bw_SOURCE.svg`
-- Purpose-built 18-pixel SVGs: `submissions/v1.12.0-kidney.4/kidney/images/kidney_color_18_SOURCE.svg` and
-  `submissions/v1.12.0-kidney.4/kidney/images/kidney_bw_18_SOURCE.svg`
-- Exact-size color and true black-and-white PNGs: `submissions/v1.12.0-kidney.4/kidney/images/`
+- Exact polished masters: `docs/design/kidney-emoji-2026-07/kidney-paired-gpt-image-2-submission-master.png`
+  and `docs/design/kidney-emoji-2026-07/kidney-paired-gpt-image-2-bw-master.png`
+- Purpose-built 18-pixel SVG references: `submissions/v1.12.0-kidney.6/kidney/images/kidney_color_18_SOURCE.svg`
+  and `submissions/v1.12.0-kidney.6/kidney/images/kidney_bw_18_SOURCE.svg`
+- Exact-size color and true black-and-white PNGs: `submissions/v1.12.0-kidney.6/kidney/images/`
+- Reproducible export: `python scripts/export_kidney_gpt2_assets.py --release v1.12.0-kidney.6`
 
 ## Generation prompt
 
@@ -99,7 +102,7 @@ full-height vascular tower, bladder, text, watermark, or decorative background.
 
 ## Submission-production decision
 
-The generated raster is a design reference rather than an exact Unicode submission asset. Its selected
-geometry is rebuilt as project-authored SVG artwork with exact-size color and black-and-white PNG exports in
-the isolated Kidney review package. The package must pass rendered-page inspection and computer validation
-before canonical promotion.
+The strongest generated color and black-and-white masters are now exact source artwork for the 72px submission
+examples. Their detail is deliberately not reduced mechanically to keyboard size: the purpose-built `.5` 18px
+pair is retained because it preserves the diagonal offset and passes the fixed Lungs comparison. The package
+must pass rendered-page inspection, computer validation, and Shuhan's exact-asset review before filing.
