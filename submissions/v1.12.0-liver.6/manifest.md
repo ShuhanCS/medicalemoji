@@ -4,7 +4,7 @@ Package version: 1.12.0-liver.6
 
 Created: 2026-07-26
 
-Status: **Liver content revision ready for exact-artifact review; public URL and filing remain.**
+Status: **Accepted revisions complete; exact-artifact panel split 3-1-1 on strategic selectivity.**
 
 Official deadline: End of day 2026-07-31
 
@@ -35,8 +35,9 @@ https://www.unicode.org/emoji/proposals.html
   actions but cannot name the liver in the two cited ordinary messages.
 - Multiple meanings, Completeness, and Compatibility remain concise `Not applicable` answers.
 - The public proposal names no separate unencoded organ proposal and makes no anatomy-set completion argument.
-- The exact artwork and five frequency exhibits are unchanged. A fresh PDF build, all-page inspection, and
-  five-seat rerun are required before publication.
+- The exact artwork and five frequency exhibits are unchanged. The nine-page PDF passes technical and visual
+  review. The five-seat rerun records three onward recommendations, one revision request, and one stop verdict;
+  a new direct-evidence phase requires Shuhan/coordinator authorization.
 
 ## Immutable snapshot rule
 

@@ -4,23 +4,24 @@ Readiness record version: 1.0.0
 
 Date: 2026-07-26
 
-Status: **READY FOR EXACT-ARTIFACT PANEL**
+Status: **REVISION REQUIRED — STRATEGIC PANEL SPLIT**
 
 ## Practical decision
 
-The revised source passes the required case-building gate and implements accepted panel actions LP-01 through
-LP-05. It preserves `Breaks new ground = Yes`, the four-author byline and Microsoft affiliations, settled rights,
-the exact four artwork assets, all five empirical exhibits, and concise N/A answers. Unsupported use claims are
-removed, and the proposal does not name another unencoded proposal or seek anatomy-set completion.
+The revised source passes the case-building gate and implements accepted actions LP-01 through LP-05. It
+preserves `Breaks new ground = Yes`, the four-author byline and Microsoft affiliations, settled rights, the exact
+four artwork assets, all five empirical exhibits, and concise N/A answers. Unsupported use claims are removed,
+and the proposal names no separate unencoded proposal and makes no anatomy-set completion argument.
 
-A fresh PDF build, technical and visual inspection, and five-seat exact-hash rerun are required before the
-content status can advance. Public hosting and the official form remain later filing controls.
+The rebuilt nine-page PDF passes technical and visual review on SHA-256
+`dd7b9810b204112de662240fb87d92a3d7683eb0f42f7590cc58a2268a55ed49`. The five-seat rerun split 3-1-1:
+three recommend onward, editorial requests another Open-ended revision, and the skeptical seat says new direct
+communication evidence is needed. The panel therefore does not reach the four-seat project threshold.
 
 ## Guide-aligned score before panel rerun
 
-Provisional score: **97/100**. This is an internal readiness measure, not an approval prediction. The remaining
-three points are public hosting and filing controls; the independent-panel gate is temporarily open until the
-new exact hash is reviewed.
+Current score: **97/100**. This is an internal readiness measure, not an approval prediction. No numeric score
+overrides the unresolved internal panel gate. Public hosting and filing controls also remain open.
 
 | Area | Score | Current basis |
 | --- | ---: | --- |
@@ -45,6 +46,13 @@ new exact hash is reviewed.
 | Claim discipline | Pass | `CLAIM-LEDGER.md` maps retained claims and records deliberate exclusions. |
 | Required artwork | Pass | Exact color and true black-and-white assets remain at 18x18 and 72x72. |
 | Frequency evidence | Pass | Five unchanged, reproducible figures remain embedded. |
-| PDF review | Open | Rebuild and inspect the new exact artifact. |
-| Independent panel | Open | Rerun all five seats on the new PDF hash. |
+| PDF review | Pass | Nine pages, 11 links, embedded fonts, extractable text, and all-page 120-DPI visual review pass on the exact hash. |
+| Independent panel | Revise | Three seats recommend onward; editorial says revise; skeptical says stop. See the exact-hash panel record. |
 | Public URL and filing | Open | Publish only after content approval; then verify logged out, reconcile form, file, and archive confirmation. |
+
+## Exact next decision
+
+Shuhan/coordinator decides whether to authorize a new evidence phase for direct Liver pictograph use or
+message-level substitute failure. Another prose-only Open-ended rewrite is rejected because it would risk using
+lexical comparator values as an artificial emoji-selection threshold. If new evidence changes the PDF, create a
+new SemVer prerelease and rerun all five seats.

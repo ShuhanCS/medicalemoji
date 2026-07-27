@@ -15,6 +15,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Implemented accepted five-seat Liver revisions: removed unsupported use claims, replaced opaque sequences
   with two ordinary messages, strengthened the Liver-specific open-ended boundary, simplified visual language,
   and replaced layout-breaking raw proposal links with descriptive clickable text.
+- Recorded the new exact-hash five-seat rerun without averaging away the 3-1-1 strategic split: compliance,
+  selection, and visual recommend onward; editorial requests revision; skeptical recommends stopping this cycle.
 - Advanced the workspace version from `0.46.2` to `0.46.3`.
 
 ## [0.46.2] - 2026-07-26

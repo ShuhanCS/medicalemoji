@@ -11,6 +11,8 @@
 - Uses plain visual language and descriptive hyperlinks while preserving the exact four approved artwork assets
   and five frequency exhibits.
 - Rebuilds the proposal PDF and requires a new five-seat review on the resulting exact artifact hash.
+- Records the exact-hash rerun: three seats recommend onward, editorial requests a stronger selective boundary,
+  and the skeptical seat requires new direct communication evidence rather than another prose-only pass.
 - Carries all unrelated proposal components forward byte for byte from `1.12.0-liver.5`.
 
 ## 1.12.0-liver.5 - 2026-07-26
