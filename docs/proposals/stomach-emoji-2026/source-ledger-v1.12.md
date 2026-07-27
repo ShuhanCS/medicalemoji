@@ -1,6 +1,6 @@
 # Stomach v1.12 Source Ledger
 
-Ledger version: 1.3.0
+Ledger version: 1.4.0
 
 Review date: 2026-07-26
 
@@ -21,7 +21,7 @@ Review date: 2026-07-26
 | `Stomach` names the organ and body area and also has appetite and verb senses. | Merriam-Webster Dictionary: https://www.merriam-webster.com/dictionary/stomach | Supports the organ, belly/abdomen, appetite, fullness, and tolerate meanings used in Multiple meanings, Expected usage, and Overly specific. |
 | `Butterflies in your stomach` is an established expression for nervousness. | Cambridge Dictionary: https://dictionary.cambridge.org/us/dictionary/english/butterflies-in-stomach | Supports the emotional/figurative meaning and the butterfly sequence example. |
 | `Upset stomach` describes feeling ill, especially after eating or drinking. | Cambridge Dictionary: https://dictionary.cambridge.org/us/dictionary/english/upset | Supports the upset-stomach meaning, Nauseated Face sequence, and substitute analysis. |
-| `Gut` may mean the digestive tract or part of it, the belly, courage, or intuition. | Merriam-Webster Dictionary: https://www.merriam-webster.com/dictionary/gut | Supports the Open-ended stress test: `gut` does not map cleanly to a single intestine glyph. |
+| `Gut` may mean the digestive tract or part of it, the belly, courage, or intuition. | Merriam-Webster Dictionary: https://www.merriam-webster.com/dictionary/gut | Internal stress test only. Candidate.7 uses the positive Stomach-specific limiting principle instead of introducing gut or intestine in the PDF. |
 | Current Unicode proposal rules require a meaning that existing emoji cannot express, current factor order, exact example images, five frequency sources, and rights language. | Unicode Emoji Proposal Guidelines: https://www.unicode.org/emoji/proposals.html | Controls document structure and evidence presentation. |
 | Current proposal status must be checked against Unicode's status definitions. | Unicode Emoji Proposals Status: https://www.unicode.org/emoji/emoji-proposals-status.html | Internal process control. Eligibility itself is already confirmed by Shuhan He. |
 

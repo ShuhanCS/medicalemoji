@@ -2,7 +2,7 @@
 
 Date: 2026-07-26
 
-Packet version: `1.12.0-candidate.6`
+Packet version: `1.12.0-candidate.7`
 
 Status: **REVISED CANDIDATE — EXACT-ASSET APPROVAL AND COAUTHOR CONSENT RECORDS OPEN**
 
@@ -16,7 +16,7 @@ Status: **REVISED CANDIDATE — EXACT-ASSET APPROVAL AND COAUTHOR CONSENT RECORD
 | Required artwork | Pass | Exact color and true black-and-white SVG/PNG assets exist at 18x18 and 72x72. |
 | Artwork technical checks | Pass | All four assets passed size, palette, connected-shape, and comparison checks. |
 | Case construction | Pass for candidate | `CASE-BRIEF.md` records a Stomach-specific selection thesis, observed uses, substitute analysis, scope boundary, factor inventory, strongest decline case, and nine passing case gates. |
-| Proposal structure and advocate edit | Pass for candidate | Current 2026 factor order, sourced concrete meanings, three single-reading sequences, full substitute concessions, a sourced intestine/gut stress test, and concise `Not applicable` factors. |
+| Proposal structure and advocate edit | Pass for candidate | Current 2026 factor order, sourced concrete meanings, three single-reading sequences, full substitute concessions, one unified Stomach selection thesis, a positive Open-ended boundary, and concise `Not applicable` factors. |
 | Current Google evidence | Pass | Five current exhibits captured 2026-07-26, tightly cropped to the required query, settings, result, and graph, then visually inspected. |
 | Candidate PDF | Pass | Rebuilt from current evidence and technically and visually checked page by page. |
 
@@ -26,7 +26,7 @@ Status: **REVISED CANDIDATE — EXACT-ASSET APPROVAL AND COAUTHOR CONSENT RECORD
 | --- | --- | --- |
 | Exact-asset approval | Open | Record Shuhan's dated `APPROVE` or `REVISE` decision for the four exact assets and their hashes. |
 | Coauthor consent records | Open | Preserve written confirmation from David Rhew and Heena Purohit that each agrees to be listed as a submitter. |
-| Readiness panel | Complete on candidate.6 | Selection, community, and skeptical seats recommend onward. Intake and visual seats require only the open consent, exact-asset decision, and final filing records. See `docs/proposals/review-panel/runs/2026-07-26-stomach-candidate-6.md`. |
+| Readiness panel | Candidate.7 focused rerun pending | Candidate.6 cleared the selection, community, and skeptical seats. Candidate.7 materially improves Breaks new ground, Already represented, and Open-ended, so those substantive seats must check the new PDF hash before promotion. |
 | Final promotion | Candidate only | After the open records and panel are complete, rebuild once, repeat PDF QA, and promote the immutable packet to `submissions/v1.12.0/`. |
 | Public URL and form | Not authorized | Publish and file only after explicit authorization from Shuhan He. |
 

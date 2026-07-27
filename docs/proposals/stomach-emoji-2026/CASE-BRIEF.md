@@ -1,6 +1,6 @@
 # Stomach Case Brief
 
-Version: 1.1.0
+Version: 1.2.0
 
 Assessment date: 2026-07-26
 
@@ -8,10 +8,10 @@ Assessment date: 2026-07-26
 
 | Field | Frozen value |
 | --- | --- |
-| Package | `1.12.0-candidate.6` |
-| Candidate commit | `59f69c41ef459146f37cd6011c4eb5cb798f3354` |
-| Proposal source | `candidate-v1.12/stomach_emoji_proposal_CANDIDATE.md`; SHA-256 `5e717999cdd67ac1b455400bbfa8b6f73e288c1540d735cb003893df958cb3ce` |
-| Reviewer PDF | `candidate-v1.12/stomach_emoji_proposal_CANDIDATE.pdf`; SHA-256 `f32647253183b935fcd11ad2ee23903714f6241be977262daab08642d2ebf9f4` |
+| Package | `1.12.0-candidate.7` |
+| Candidate commit | `09c7a8153232093a84093db2b1f0a71d1c22dce9` |
+| Proposal source | `candidate-v1.12/stomach_emoji_proposal_CANDIDATE.md`; SHA-256 `c14d73d24843e9be309fc6f01eca17fa549b0c30c40d7dfd44ab9122e1190305` |
+| Reviewer PDF | `candidate-v1.12/stomach_emoji_proposal_CANDIDATE.pdf`; SHA-256 `f40404327f55b6e0c1e82b5c88196608a9160a87edaf7d6aadafd9cf2b729b87` |
 | Official guidance | Checked 2026-07-26: https://www.unicode.org/emoji/proposals.html |
 | Eligibility and prior status | Eligibility is a settled project input from Shuhan He dated 2026-07-26. Unicode's request/status checks remain the filing control; the proposal does not narrate an eligibility dispute. |
 | Authorship | The ordered byline is Shuhan He, MD; David Rhew, MD; Heena Purohit. Shuhan He is the main point of contact. The source is Shuhan He's 2026-07-26 direction in `source-ledger-v1.12.md`; separate written consent records for David Rhew and Heena Purohit are not yet archived. |
@@ -32,6 +32,9 @@ Assessment date: 2026-07-26
 - Candidate.4 was the case-building baseline and resolved the prior panel's prose actions: it tightened the
   three sequence examples, directly answered the strongest short substitutes, replaced Compatibility jargon,
   and applied a concrete Open-ended boundary.
+- Candidate.7 turns the boundary into a positive Stomach-specific selection principle: one familiar J-shaped
+  organ connects literal digestion with appetite, fullness, tolerance, and nervous anticipation. It no longer
+  introduces gut or intestine as competing concepts in reviewer-facing prose.
 - The exact-asset decision, David Rhew and Heena Purohit consent records, immutable promotion, public URL, and
   Shuhan's filing authorization remain outside the proposal's substantive case and are not yet complete.
 - The five frequency captures are current as of 2026-07-26 and do not require recapture unless the artifact or
@@ -51,9 +54,9 @@ Assessment date: 2026-07-26
 
 ## Selection thesis
 
-Stomach supplies a literal organ and digestion symbol plus appetite, fullness, and tolerance meanings that
-Nauseated Face, meal emoji, and Butterfly/Anxious Face combinations cover only in pieces. Its J-shaped organ is
-the reusable residual unit.
+Stomach supplies one recognizable J-shaped symbol that connects the literal organ and digestion with appetite,
+fullness, tolerance, and nervous anticipation. Nauseated Face, meal emoji, and Butterfly/Anxious Face
+combinations cover individual situations, but they cannot provide that common Stomach anchor.
 
 ## Observed communication
 
@@ -69,17 +72,15 @@ the reusable residual unit.
 
 Nauseated Face shows nausea or disgust and, with Fork and Knife, sickness after eating. Butterfly plus an anxious
 face covers nervous anticipation. Food emoji show a meal. These substitutes receive their strongest readings,
-but none identifies the stomach or digestion, conveys fullness in the stomach, or carries the verb `stomach`
-meaning to tolerate something. The residual gap remains large enough to support the case.
+but each works only for an individual situation. None names the stomach itself or provides the common anchor for
+digestion, fullness, tolerance, and butterflies in the stomach.
 
 ## Priority and scope
 
-Gut/intestine is the strongest neighboring concept. Merriam-Webster records `gut` as the whole digestive tract or
-part of it, the belly, courage, or intuition rather than one organ. A single intestine glyph would not map cleanly
-to that range. Stomach maps directly to one recognizable organ and its documented appetite, fullness, verb, and
-butterflies meanings. This does not claim intestine can never qualify independently; it shows why encoding
-Stomach creates no matching need for intestine, liver, kidney, or an anatomy set. Anatomy or clinical importance
-alone would fail this boundary.
+Stomach is not selected merely as one organ in an anatomy series. The limiting principle is the combination of a
+familiar, visually recognizable J-shaped organ with established everyday meanings for appetite, fullness,
+tolerance, nervous anticipation, and digestion. That bounded combination does not establish a reason to encode
+every other organ.
 
 ## Positive-factor inventory
 
@@ -100,8 +101,8 @@ Butterfly plus an anxious face covers nervous anticipation. A reviewer could dec
 organ and digestion meanings do not justify a permanent character within an open-ended anatomy class. Evidence
 that an existing sequence is conventionally understood as the stomach itself would strengthen that objection.
 The current rebuttal is the combination of a missing literal organ, established appetite and tolerance senses,
-the butterflies expression, complete required frequency evidence, and a boundary that anatomy alone does not
-qualify a neighbor.
+the butterflies expression, complete required frequency evidence, and one recognizable symbol that unifies the
+literal and figurative uses without relying on an anatomy series.
 
 ## Visual identity
 
@@ -172,3 +173,20 @@ direct stress test against gut/intestine; those actions are implemented in candi
 - `C5-001`, `C5-002`, and `C5-005` remain external record or filing actions and are not represented as closed.
 
 Candidate.6 result: **DRAFT READY FOR COMPLIANCE** and **READY FOR PANEL**.
+
+## Candidate.7 advocate revision
+
+| Field | Value |
+| --- | --- |
+| Package | `1.12.0-candidate.7` |
+| Candidate commit | `09c7a8153232093a84093db2b1f0a71d1c22dce9` |
+| Proposal source SHA-256 | `c14d73d24843e9be309fc6f01eca17fa549b0c30c40d7dfd44ab9122e1190305` |
+| Reviewer PDF SHA-256 | `f40404327f55b6e0c1e82b5c88196608a9160a87edaf7d6aadafd9cf2b729b87` |
+| PDF artifact review | Pass: 5 US-Letter pages, 5,502 extracted characters, 13 link annotations, no blank or clipped page, and all five evidence exhibits readable at normal zoom. |
+| Artwork | Unchanged from the frozen hashes; all exact assets remain identical. |
+
+Candidate.7 coordinates three sections around one selection thesis. Breaks new ground introduces the common
+Stomach symbol, Already represented explains why short substitutes cover only individual situations, and
+Open-ended states the positive boundary without introducing another organ as a competing candidate.
+
+Candidate.7 result: **DRAFT READY FOR COMPLIANCE** and **READY FOR FOCUSED PANEL RERUN**.
