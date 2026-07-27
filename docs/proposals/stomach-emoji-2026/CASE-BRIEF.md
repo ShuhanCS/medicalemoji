@@ -1,6 +1,6 @@
 # Stomach Case Brief
 
-Version: 1.3.0
+Version: 1.4.0
 
 Assessment date: 2026-07-26
 
@@ -8,10 +8,10 @@ Assessment date: 2026-07-26
 
 | Field | Frozen value |
 | --- | --- |
-| Package | `1.12.0-candidate.8` |
-| Candidate commit | `f760632b64414ac9195b59eff7a26f693c9628eb` |
-| Proposal source | `candidate-v1.12/stomach_emoji_proposal_CANDIDATE.md`; SHA-256 `c14d73d24843e9be309fc6f01eca17fa549b0c30c40d7dfd44ab9122e1190305` |
-| Reviewer PDF | `candidate-v1.12/stomach_emoji_proposal_CANDIDATE.pdf`; SHA-256 `d0dd75346ac654a94d220241a5abef7f01eee9ae646d18583412fc607af81b46` |
+| Package | `1.12.0-candidate.9` |
+| Candidate commit | `8e4b7d890d41d306d3e642977966f3f62fc0e987` |
+| Proposal source | `candidate-v1.12/stomach_emoji_proposal_CANDIDATE.md`; SHA-256 `f0f2c6306a66ce67fc7ebb79b33bbc2c4a4928c5e7dd169d6eb46351384a9b8f` |
+| Reviewer PDF | `candidate-v1.12/stomach_emoji_proposal_CANDIDATE.pdf`; SHA-256 `8cee9747cc2ffbacd25eb3e8d56b4d9ffbb3fd10b7250e5335d6c552c9c38c31` |
 | Official guidance | Checked 2026-07-26: https://www.unicode.org/emoji/proposals.html |
 | Eligibility and prior status | Eligibility is a settled project input from Shuhan He dated 2026-07-26. Unicode's request/status checks remain the filing control; the proposal does not narrate an eligibility dispute. |
 | Authorship | The ordered byline is Shuhan He, MD; David Rhew, MD; Heena Purohit. Shuhan He is the main point of contact. The source is Shuhan He's 2026-07-26 direction in `source-ledger-v1.12.md`; separate written consent records for David Rhew and Heena Purohit are not yet archived. |
@@ -37,6 +37,8 @@ Assessment date: 2026-07-26
   introduces gut or intestine as competing concepts in reviewer-facing prose.
 - Candidate.8 replaces the separate SVG approximation with exact-size derivatives of the approved GPT Image 2
   artwork. The color and matching black-and-white assets pass the full deterministic validation set.
+- Candidate.9 strengthens the sequence examples, states the missing Stomach symbol more directly in Breaks new
+  ground, and defines Overly specific around the broad everyday organ concept.
 - The exact-asset decision, David Rhew and Heena Purohit consent records, immutable promotion, public URL, and
   Shuhan's filing authorization remain outside the proposal's substantive case and are not yet complete.
 - The five frequency captures are current as of 2026-07-26 and do not require recapture unless the artifact or
@@ -210,3 +212,20 @@ comparisons. The maximum normalized silhouette IoU improved from `0.638` to `0.5
 difference-hash distance is `22`, above the fixed `16` floor.
 
 Candidate.8 result: **DRAFT READY FOR COMPLIANCE** and **READY FOR ARTWORK-FOCUSED PANEL RERUN**.
+
+## Candidate.9 submission-language polish
+
+| Field | Value |
+| --- | --- |
+| Package | `1.12.0-candidate.9` |
+| Candidate commit | `8e4b7d890d41d306d3e642977966f3f62fc0e987` |
+| Proposal source SHA-256 | `f0f2c6306a66ce67fc7ebb79b33bbc2c4a4928c5e7dd169d6eb46351384a9b8f` |
+| Reviewer PDF SHA-256 | `8cee9747cc2ffbacd25eb3e8d56b4d9ffbb3fd10b7250e5335d6c552c9c38c31` |
+| PDF artifact review | Pass: 5 US-Letter pages, 5,538 extracted characters, 13 link annotations, no blank or clipped page, and all five evidence exhibits readable at normal zoom. |
+| Artwork | Unchanged from Candidate.8; the four exact hashes remain identical and deterministic validation passes. |
+
+Candidate.9 gives each sequence a specific communication result, makes the missing symbol explicit in Breaks
+new ground, and answers Overly specific with a broad everyday category boundary. These are focused editorial
+improvements; no evidence, artwork, rights, authorship, or eligibility claim changed.
+
+Candidate.9 result: **DRAFT READY FOR COMPLIANCE** and **READY FOR FOCUSED PANEL RERUN**.
