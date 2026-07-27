@@ -5,6 +5,22 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.44.0] - 2026-07-26
+
+### Changed
+- Added immutable submission snapshot `v1.13.0` and removed the OpenMoji comparison boards and attribution
+  from the reviewer-facing White Blood Cell proposal.
+- Retained the pinned OpenMoji assets and deterministic comparisons as internal QA material only.
+- Rebuilt the proposal PDF with only original proposed artwork and evidence screenshots in its image set.
+- Applied the live White Blood Cell finalization specification and normalized the optional panel record to
+  advisory five-lens outcomes without scores, votes, or simulated Unicode endorsement.
+- Advanced the proposal rubric to 3.1.0 with an explicit candidate-specificity standard and applied it across
+  the White Blood Cell proposal.
+
+### Verification
+- Re-ran artwork validation, submission preflight, dual-renderer page inspection, and the optional five-lens
+  editorial consultation against the exact v1.13.0 PDF.
+
 ## [0.43.0] - 2026-07-26
 
 ### Added

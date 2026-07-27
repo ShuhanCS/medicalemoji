@@ -6,8 +6,8 @@ every PDF page.
 
 Usage:
     python scripts/render_submission_pdf_pages.py \
-        submissions/v1.12.0/white-blood-cell/white-blood-cell_emoji_proposal_SUBMIT.pdf \
-        tmp/pdfs/white-blood-cell-v1.12.0
+        submissions/v1.13.0/white-blood-cell/white-blood-cell_emoji_proposal_SUBMIT.pdf \
+        tmp/pdfs/white-blood-cell-v1.13.0
 """
 
 from __future__ import annotations

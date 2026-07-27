@@ -1,0 +1,233 @@
+{
+  "schema_version": "1.0.0",
+  "validation_date": "2026-07-26",
+  "proposal_dir": "submissions/v1.13.0/white-blood-cell",
+  "method": "Deterministic validation of dimensions, true black-and-white palette, foreground connectedness, source/export hashes, and silhouette plus dark-feature separation from declared confusers. This does not measure human semantic recognition.",
+  "thresholds": {
+    "max_silhouette_iou": 0.87,
+    "min_silhouette_dhash_distance_64": 16,
+    "max_feature_iou": 0.65,
+    "min_feature_dhash_distance_64": 12,
+    "max_foreground_components": 2,
+    "min_largest_component_share": 0.5
+  },
+  "openmoji_commit": "d05930b34516a0a3ff00aad0288ee05364cebd8b",
+  "openmoji_license_url": "https://github.com/hfg-gmuend/openmoji/blob/master/LICENSE",
+  "source_hashes": {
+    "white-blood-cell_color_18_SOURCE.svg": "e9cef7b8e9171a519173efed74250aeec25d839ff7acae3a51c255e29a7ed9b1",
+    "white-blood-cell_color_SOURCE.svg": "423f2f43c8face188ef49e7dbac3fb208ab16732dfd4f89b9acacf109b1cd250",
+    "white-blood-cell_bw_18_SOURCE.svg": "f0e8d54afda6557e3f9c357863eb4f94858d46712e474ee60317ee55f236f55a",
+    "white-blood-cell_bw_SOURCE.svg": "059e54a4a31e2ba2c9eaf4cad043034e4c1305510ab3dfa46ae7ead05c144bf2"
+  },
+  "assets": [
+    {
+      "file": "white-blood-cell_color_18x18_SUBMIT.png",
+      "sha256": "60988d3e422feacadf5f9775622f88cbcf2a621bf968bd4be83287011d10f26b",
+      "dimensions": [
+        18,
+        18
+      ],
+      "expected_dimensions": [
+        18,
+        18
+      ],
+      "dimensions_pass": true,
+      "black_and_white_required": false,
+      "visible_rgb_count": 132,
+      "visible_rgb_values": null,
+      "palette_pass": true,
+      "foreground_components": 1,
+      "largest_component_share": 1.0,
+      "connectedness_pass": true,
+      "pass": true
+    },
+    {
+      "file": "white-blood-cell_color_72x72_SUBMIT.png",
+      "sha256": "480c6d6c6ccc9a7df0cdb51ff76dd44345faa7d3adb840ad487cdce1001d4a2f",
+      "dimensions": [
+        72,
+        72
+      ],
+      "expected_dimensions": [
+        72,
+        72
+      ],
+      "dimensions_pass": true,
+      "black_and_white_required": false,
+      "visible_rgb_count": 351,
+      "visible_rgb_values": null,
+      "palette_pass": true,
+      "foreground_components": 1,
+      "largest_component_share": 1.0,
+      "connectedness_pass": true,
+      "pass": true
+    },
+    {
+      "file": "white-blood-cell_bw_18x18_SUBMIT.png",
+      "sha256": "303e7be605281fa90fc58f10bae3c22e95956029d69bab6126aa6d28f746e3f3",
+      "dimensions": [
+        18,
+        18
+      ],
+      "expected_dimensions": [
+        18,
+        18
+      ],
+      "dimensions_pass": true,
+      "black_and_white_required": true,
+      "visible_rgb_count": 2,
+      "visible_rgb_values": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          255,
+          255,
+          255
+        ]
+      ],
+      "palette_pass": true,
+      "foreground_components": 1,
+      "largest_component_share": 1.0,
+      "connectedness_pass": true,
+      "pass": true
+    },
+    {
+      "file": "white-blood-cell_bw_72x72_SUBMIT.png",
+      "sha256": "fd6219326be2fe20b4208ed6e23957df2ae1864b3f553e055793682cf0023260",
+      "dimensions": [
+        72,
+        72
+      ],
+      "expected_dimensions": [
+        72,
+        72
+      ],
+      "dimensions_pass": true,
+      "black_and_white_required": true,
+      "visible_rgb_count": 2,
+      "visible_rgb_values": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          255,
+          255,
+          255
+        ]
+      ],
+      "palette_pass": true,
+      "foreground_components": 2,
+      "largest_component_share": 0.5655,
+      "connectedness_pass": true,
+      "pass": true
+    }
+  ],
+  "comparisons": [
+    {
+      "proposal_variant": "color",
+      "comparator": "microbe",
+      "comparator_sha256_or_method": "2c7daf9b968d76fe060383f062b46e18464901ef0fc29f3db66284025f4f9edb",
+      "silhouette_iou": 0.492,
+      "silhouette_dhash_distance_64": 28,
+      "feature_iou": 0.347,
+      "feature_dhash_distance_64": 28,
+      "pass": true
+    },
+    {
+      "proposal_variant": "color",
+      "comparator": "drop_of_blood",
+      "comparator_sha256_or_method": "34b5cb982bb6be8f865c3426d7d33864db659fdc1943cf0dfc918e6c4d26ab07",
+      "silhouette_iou": 0.636,
+      "silhouette_dhash_distance_64": 25,
+      "feature_iou": 0.392,
+      "feature_dhash_distance_64": 31,
+      "pass": true
+    },
+    {
+      "proposal_variant": "color",
+      "comparator": "soap",
+      "comparator_sha256_or_method": "33677f88a00b3def81e85a878fa697d3b78b251f0a2cee5fa30a8e6ae02b77b5",
+      "silhouette_iou": 0.508,
+      "silhouette_dhash_distance_64": 20,
+      "feature_iou": 0.298,
+      "feature_dhash_distance_64": 26,
+      "pass": true
+    },
+    {
+      "proposal_variant": "color",
+      "comparator": "bubbles",
+      "comparator_sha256_or_method": "6178a28f10f62ff12e4e3f23debe40c55b633036d4e194984f6037579b0faf37",
+      "silhouette_iou": 0.541,
+      "silhouette_dhash_distance_64": 31,
+      "feature_iou": 0.228,
+      "feature_dhash_distance_64": 26,
+      "pass": true
+    },
+    {
+      "proposal_variant": "color",
+      "comparator": "generic_cell",
+      "comparator_sha256_or_method": "generated by validator",
+      "silhouette_iou": 0.86,
+      "silhouette_dhash_distance_64": 19,
+      "feature_iou": 0.5,
+      "feature_dhash_distance_64": 12,
+      "pass": true
+    },
+    {
+      "proposal_variant": "black",
+      "comparator": "microbe",
+      "comparator_sha256_or_method": "5bb0073cc09baaa38bc1bbb6374c4b63514463e01066ea9fe80adcdcccdbf650",
+      "silhouette_iou": 0.293,
+      "silhouette_dhash_distance_64": 32,
+      "feature_iou": 0.136,
+      "feature_dhash_distance_64": 34,
+      "pass": true
+    },
+    {
+      "proposal_variant": "black",
+      "comparator": "drop_of_blood",
+      "comparator_sha256_or_method": "759c6528d386f6b77e07b9edeb886d43e54216785740df203146be0a748c15b3",
+      "silhouette_iou": 0.173,
+      "silhouette_dhash_distance_64": 30,
+      "feature_iou": 0.105,
+      "feature_dhash_distance_64": 28,
+      "pass": true
+    },
+    {
+      "proposal_variant": "black",
+      "comparator": "soap",
+      "comparator_sha256_or_method": "93cf8b5b9e8d89cb1f9f7b64551283a20c8ecaa062b32d71dc8fd39081ece2ea",
+      "silhouette_iou": 0.25,
+      "silhouette_dhash_distance_64": 28,
+      "feature_iou": 0.157,
+      "feature_dhash_distance_64": 30,
+      "pass": true
+    },
+    {
+      "proposal_variant": "black",
+      "comparator": "bubbles",
+      "comparator_sha256_or_method": "9d9dca45464eb96107a689b184133f3ac18f2bf7b2359a79d30a0be826ca12e1",
+      "silhouette_iou": 0.267,
+      "silhouette_dhash_distance_64": 32,
+      "feature_iou": 0.156,
+      "feature_dhash_distance_64": 29,
+      "pass": true
+    },
+    {
+      "proposal_variant": "black",
+      "comparator": "generic_cell",
+      "comparator_sha256_or_method": "generated by validator",
+      "silhouette_iou": 0.371,
+      "silhouette_dhash_distance_64": 17,
+      "feature_iou": 0.371,
+      "feature_dhash_distance_64": 17,
+      "pass": true
+    }
+  ],
+  "overall_pass": true
+}

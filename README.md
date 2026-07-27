@@ -33,12 +33,12 @@ proposals must be corrected one at a time before filing:
 - Serial slate, semver, and agent handoff spec: [`docs/proposals/2026-submission-slate-spec.md`](docs/proposals/2026-submission-slate-spec.md)
 - Standalone parallel agent specs: [`docs/proposals/agent-specs/`](docs/proposals/agent-specs/)
 - Organ-by-organ audit: [`docs/proposals/2026-organ-submission-audit.md`](docs/proposals/2026-organ-submission-audit.md)
-- Current complete versioned package: [`submissions/v1.12.0/`](submissions/v1.12.0/)
+- Current complete versioned package: [`submissions/v1.13.0/`](submissions/v1.13.0/)
 - Historical organ baseline: [`submissions/v1.7.0/`](submissions/v1.7.0/)
 - Historical White Blood Cell baseline: [`submissions/v1.3.0/white-blood-cell/`](submissions/v1.3.0/white-blood-cell/)
 
 Submission packages are immutable semver snapshots. Every update creates a new complete version folder; files
-that did not change are copied forward byte for byte. The current substantive proposal revision is v1.12.0.
+that did not change are copied forward byte for byte. The current substantive proposal revision is v1.13.0.
 
 Authorship is fixed for the filing slate: Kidney uses the complete consenting ten-person author list in v1.10.0,
 adding David Rhew and Heena Purohit to the eight previously listed submitters; White Blood Cell lists Shuhan He,
@@ -81,18 +81,20 @@ is the genuine-compatibility model. No accepted proposal should be copied wholes
 The older 55-versus-29 comparison is retained only as a methodology warning because its negative cohort was
 not preserved. It does not supply a validated approval formula or hard word, page, or image-count threshold.
 
-Six current drafting rules:
+Seven current drafting rules:
 
 1. **Meet every current requirement.** Older accepted proposals do not override the 2026 instructions.
 2. **Structure is necessary, not sufficient.** All 15 confirmed declined Medical Emoji drafts answered every
    exclusion heading.
 3. **Write `N/A` when instructed.** Especially for Completeness and Compatibility when there is no compelling
    example.
-4. **No petitions, calls for an emoji, or `Frequently Requested` evidence.** Current Unicode instructions say
+4. **Make every substantive section candidate-specific.** Give a meaning, example, evidence result, or visual
+   reason; keep genuine inclusion N/As brief, and answer every required exclusion factor directly.
+5. **No petitions, calls for an emoji, or `Frequently Requested` evidence.** Current Unicode instructions say
    they are unacceptable.
-5. **Do not make a cause the justification.** Importance, awareness, and stigma cannot replace expected-use
+6. **Do not make a cause the justification.** Importance, awareness, and stigma cannot replace expected-use
    evidence.
-6. **Draft the Open-ended answer first.** Kidney, Liver, and Stomach may be filed as three one-emoji proposals,
+7. **Draft the Open-ended answer first.** Kidney, Liver, and Stomach may be filed as three one-emoji proposals,
    but each must stand independently and must not argue for completing an anatomy set.
 
 Never write "the heart and lungs were encoded, so the kidney should be." That is the textbook Faulty
