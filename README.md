@@ -2,14 +2,14 @@
 
 ## Current 2026 submission slate
 
-The active 2026 working slate is Kidney, White Blood Cell, Stomach, and Liver, reviewed serially in that order;
-the final filing recommendation is recorded in the Emoji 19.0 review below.
-Weight Scale and Maze are additional evidence-gated candidates under consideration. ECG / EKG is reviewed below
+The planned 2026 filing slate is Stomach, Maze, and Kidney, provided all three independent packets close their
+remaining gates. The final filing strategy is recorded in the Emoji 19.0 review below.
+Weight Scale, White Blood Cell, and Liver remain holds or reserves. ECG / EKG is reviewed below
 but is not eligible for the 2026 intake because Unicode records a 2024 decline. Pill Pack remains a provisional
 workstream and must pass a go/no-go review before joining the filing slate.
-Shuhan He has confirmed the three organs are eligible, and White Blood Cell is outside the four-year
-resubmission bar after its 2020 decline. Eligibility is settled for those four; submission quality is not. The
-proposals must be corrected one at a time before filing:
+Shuhan He has confirmed Stomach and Kidney are eligible, and Maze is outside the four-year resubmission bar
+after its 2020 decline. Eligibility is settled for the planned three; submission quality is not. Each proposal
+must mature and be filed independently:
 
 - Proposal-building instructions:
   https://github.com/ShuhanCS/medicalemoji/blob/master/docs/proposals/CASE-BUILDING-AND-DRAFTING-INSTRUCTIONS.md
@@ -19,6 +19,7 @@ proposals must be corrected one at a time before filing:
 - Standalone parallel agent specs: [`docs/proposals/agent-specs/`](docs/proposals/agent-specs/)
 - Organ-by-organ audit: [`docs/proposals/2026-organ-submission-audit.md`](docs/proposals/2026-organ-submission-audit.md)
 - Current complete versioned package: [`submissions/v1.11.0/`](submissions/v1.11.0/)
+- Current Stomach candidate: [`docs/proposals/stomach-emoji-2026/candidate-v1.12/`](docs/proposals/stomach-emoji-2026/candidate-v1.12/)
 - Current Kidney case-built prerelease: [`submissions/v1.12.0-kidney.7/`](submissions/v1.12.0-kidney.7/)
 - Current Liver publication prerelease: [`submissions/v1.12.0-liver.11/`](submissions/v1.12.0-liver.11/)
 - Historical organ baseline: [`submissions/v1.7.0/`](submissions/v1.7.0/)
@@ -27,10 +28,10 @@ proposals must be corrected one at a time before filing:
 Submission packages are immutable semver snapshots. Every update creates a new complete version folder; files
 that did not change are copied forward byte for byte. The next substantive proposal revision will be v1.12.0.
 
-Stomach `v1.11.0` replaces the compact prior glyph with a project-authored long-inlet, deep-concavity,
-distinct-outlet vector paradigm. Its proposal PDF is rebuilt and visually verified; the proposal remains
-revision-required until four historical 2020 evidence captures are resolved and Shuhan He approves the exact
-final assets after actual-size comparator review.
+Stomach `1.12.0-candidate.9` contains five current evidence exhibits captured on 2026-07-26 and a rebuilt,
+visually verified proposal PDF. Its remaining gates are written consent for the exact three-person byline,
+Shuhan He's approval of the exact four assets, final consistency and PDF review, canonical promotion,
+publication, form reconciliation, authorization, and filing confirmation.
 
 Kidney `v1.12.0-kidney.7` preserves the paired-organ paradigm and all ten authors, including David Rhew and
 Heena Purohit, while strengthening the ordinary-use, `kidney-shaped`, and Beans-substitution case. The
@@ -252,22 +253,24 @@ accounts for eligibility and the actual state of the packet.
 
 | Concept | Current source and eligibility | Priority fit | Strongest aligned case | Decisive risk | 2026 call |
 | --- | --- | --- | --- | --- | --- |
-| **Kidney** | [`v1.12.0-kidney.7`](submissions/v1.12.0-kidney.7/kidney/); confirmed eligible | **Medium-high** | Strongest mature empirical packet; literal organ plus established `kidney-shaped` use; useful stone/test sequences; observed Beans substitution demonstrates an unmet pictographic use | Beans is already searchable as `kidney`; no genuine compatibility case; paired-organ art and open-ended anatomy boundary must remain convincing | **Finish first; file only after the remaining exact-art, coordination, publication, authorization, and form gates close** |
-| **Stomach** | [`v1.11.0`](submissions/v1.11.0/stomach/); confirmed eligible | **High - strongest semantic fit** | Literal organ, appetite and sensation, the verb `stomach`, `butterflies in the stomach`, and clear sequence uses; the J-shaped silhouette is the clearest organ read at 18px | Four of five frequency captures are from 2020; no compatibility case; byline, exact-art approval, publication, and filing controls remain open | **Priority evidence sprint; advance after current Search, Video, and both Trends captures replace the 2020 exhibits** |
+| **Kidney** | [`v1.12.0-kidney.7`](submissions/v1.12.0-kidney.7/kidney/); confirmed eligible | **Medium-high** | Strongest mature empirical packet; literal organ plus established `kidney-shaped` use; useful stone/test sequences; observed Beans substitution demonstrates an unmet pictographic use | Beans is already searchable as `kidney`; no genuine compatibility case; written eligibility and duplicate-coordination records, exact-art approval, and the open-ended anatomy boundary remain open | **Planned filing; close eligibility/coordination, exact-art, candidate-specific Open-ended, publication, authorization, and form gates** |
+| **Stomach** | [`1.12.0-candidate.9`](docs/proposals/stomach-emoji-2026/candidate-v1.12/); confirmed eligible | **High - strongest semantic fit** | Literal organ, appetite and sensation, the verb `stomach`, `butterflies in the stomach`, and clear sequence uses; the J-shaped silhouette is the clearest organ read at 18px; all five required frequency exhibits are current | No compatibility case; written coauthor consent, exact-art approval, canonical promotion, publication, and filing controls remain open | **Lead filing; close consent, exact-art, final QA, promotion, publication, authorization, and form gates** |
 | **Liver** | [`v1.12.0-liver.11`](submissions/v1.12.0-liver.11/liver/); confirmed eligible and marked ready to publish | **Medium-low** | Current worldwide evidence, documented anatomy/food/testing/medicine uses, selected new artwork, and a direct missing-noun argument | Multiple meanings and Compatibility are correctly `N/A`; the case is mostly literal, and the 18px image can still read as meat or a generic organ | **Conditional third filing; publish only if the final portfolio accepts a weaker Emoji 19.0 fit after Kidney and Stomach** |
-| **Maze** | [`v1.5.0`](submissions/v1.5.0/maze/); re-eligible after 2020 decline | **High concept fit; low readiness** | Physical puzzle plus durable metaphors for complexity, confusion, choice, navigation, learning, and escape; works as both scene and action and has many useful sequences | Four required Google exhibits are missing; Ngram is about `0.67x` `elephant`; two prior declines; the mouse disappears at 18px and the maze can approach a QR-like read | **Evidence challenger only; it may displace a weaker filing only if all four fresh exhibits and final artwork review are unusually strong** |
+| **Maze** | [`v1.5.0`](submissions/v1.5.0/maze/); re-eligible after 2020 decline | **High concept fit; low readiness** | Physical puzzle plus durable metaphors for complexity, confusion, choice, navigation, learning, and escape; works as both scene and action and has many useful sequences | Four required Google exhibits are missing; Ngram is about `0.67x` `elephant`; two prior declines; the mouse disappears at 18px and the maze can approach a QR-like read | **Planned filing if its mature packet closes the evidence and exact-art gates** |
 | **Weight Scale** | [`v1.3.0`](submissions/v1.3.0/weight-scale/); re-eligible after 2020 decline | **Medium** | Clear 18px appliance; broad weighing action across health, fitness, travel, shipping, and veterinary contexts; strong sequence utility | Web and Image Trends are missing, Search and Video are from 2020, Ngram is substantially below `elephant`, Balance Scale is a plausible substitute, and Compatibility is `N/A` | **Hold as a reserve; do not file without strong fresh Trends evidence that overcomes the substitute case** |
 | **White Blood Cell** | [`v1.9.0`](submissions/v1.9.0/white-blood-cell/); re-eligible after 2020 decline | **Medium-low** | Broad immunity, infection, laboratory, education, and research uses; useful immune-defense and test sequences | These are mostly literal contexts rather than established multiple meanings; Search and Video are stale, both compliant Trends exhibits are missing, and the art can read as Microbe or a generic cell | **Hold; do not file until current evidence and unambiguous 18px recognition materially change the case** |
 | **ECG / EKG** | [2020 archive](docs/proposals/archive-2020-emojination-drafts/ecg-object.md); Unicode records a 2024 decline | **Not actionable in 2026** | The waveform is widely recognizable and could support testing, rhythm, results, monitoring, and heart-related sequences | The public submitted-date clock reaches 2028-04-05, and the actual decline notice may control a later date; the archived draft is not current-format, relies on importance/awareness and obsolete evidence, contains copied Leg Cast text, and does not establish genuine compatibility; a bare waveform also needs a careful UI-icon/signage rebuttal | **Do not submit in 2026 unless Unicode gives written eligibility for a materially different concept; rebuild from zero for 2028 rather than revising the archived prose** |
 
 Current decision order from this review:
 
-1. Finish Kidney because it has the strongest mature evidence packet and concentrated remaining gates.
-2. Refresh Stomach because it has the strongest fit with the multipurpose-building-block signal.
-3. Treat Liver as an optional third filing: it is the closest to publication, but its selection theory is less
-   aligned with the stated Emoji 19.0 emphasis.
-4. Let Maze challenge Liver only after completing all four missing exhibits and passing final small-size review.
-5. Hold Weight Scale and White Blood Cell unless new evidence changes the review materially.
+1. Finalize Stomach as the lead filing; its evidence is current and its remaining gates are concentrated.
+2. Mature Maze independently by completing all four missing exhibits and final small-size artwork review.
+3. Finalize Kidney independently, preserving the honest Beans concession and closing eligibility, duplicate
+   coordination, exact-art, and candidate-specific Open-ended gates.
+4. File all three only as separate PDFs and form entries. Do not call them a co-submission, coordinated set, or
+   completeness program, and do not cross-reference them.
+5. Hold Liver, Weight Scale, and White Blood Cell unless new evidence or a deliberate portfolio decision changes
+   the review materially.
 6. Do not file ECG / EKG in this cycle.
 
 This review does not manufacture a compatibility claim for any candidate. None of the seven current packets
@@ -280,13 +283,13 @@ proposal workspaces. Status rows are from Unicode's live public proposal-status 
 
 | Concept | Repo source | Unicode public status rows | Latest public status | Last public date submitted | Reeligible by submitted-date clock | Next step |
 | --- | --- | --- | --- | --- | --- | --- |
-| Kidney / Kidneys | Active site candidate | `Kidney` declined 2019-12-17; `KIDNEYS` declined 2022-07-19; private decline notice 2022-11-04 | Confirmed eligible for 2026 | 2022 | After 2026-11-04 by date alone; separately confirmed eligible | Working candidate in `submissions/v1.7.0/`; add the full author list, improve small-size recognition, refresh evidence, and archive the eligibility confirmation. |
+| Kidney / Kidneys | Planned 2026 filing | `Kidney` declined 2019-12-17; `KIDNEYS` declined 2022-07-19; private decline notice 2022-11-04 | Confirmed eligible for 2026 | 2022 | After 2026-11-04 by date alone; separately confirmed eligible | Finalize `v1.12.0-kidney.7` or a successor: archive written eligibility and duplicate-coordination records, obtain exact-art approval, refine Open-ended independently, promote, publish, reconcile the form, and file after authorization. |
 | Liver | Active site candidate | `Liver` declined 2020-12-18; `Liver` declined 2022-07-30; private decline notice 2022-11-04 | Confirmed eligible for 2026 | 2022 | After 2026-11-04 by date alone; separately confirmed eligible | Working candidate in `submissions/v1.7.0/`; improve small-size recognition, replace stale 2020 evidence including U.S.-only Trends captures, and archive the eligibility confirmation. |
-| Stomach | Active site candidate | `Stomach` declined 2020-10-27; `Stomach` declined 2022-07-28; private decline notice 2022-11-04 | Confirmed eligible for 2026 | 2022 | After 2026-11-04 by date alone; separately confirmed eligible | Working candidate in `submissions/v1.7.0/`; replace stale 2020 Search, Video, and Trends evidence and archive the eligibility confirmation. |
+| Stomach | Planned 2026 lead filing | `Stomach` declined 2020-10-27; `Stomach` declined 2022-07-28; private decline notice 2022-11-04 | Confirmed eligible for 2026 | 2022 | After 2026-11-04 by date alone; separately confirmed eligible | Finalize `1.12.0-candidate.9` or a successor: archive coauthor consent, obtain exact-art approval, complete final QA, promote, publish, reconcile the form, and file after authorization. |
 | Spine | Active site candidate | `Spine` declined 2020-10-27; `Spine` declined 2024-04-05 | Declined | 2024-04-05 | 2028-04-05 | Do not resubmit before 2028 unless Unicode confirms a materially different concept is eligible. |
 | Intestines | Active site candidate | `Intestines` declined 2020-12-18; `Intestines` declined 2024-04-04 | Declined | 2024-04-04 | 2028-04-04 | Do not resubmit before 2028 unless Unicode confirms eligibility. |
 | ECG / EKG | Active site candidate | `ECG` declined 2020-12-18; `ECG` declined 2024-04-05 | Declined | 2024-04-05 | 2028-04-05 | Do not resubmit before 2028 unless Unicode confirms eligibility. |
-| White Blood Cell | Active 2026 slate | `White Blood Cell` declined 2020-12-18 | Reeligible; selected for 2026 review | 2020-12-18 | 2024-12-18 | Review first; refresh Search and Video, replace Web Trends, add Image Trends, and obtain Shuhan's approval of the exact 18x18 assets after comparison with Microbe and generic-cell imagery. |
+| White Blood Cell | 2026 hold | `White Blood Cell` declined 2020-12-18 | Reeligible; reviewed for 2026 | 2020-12-18 | 2024-12-18 | Hold unless current evidence and unambiguous 18x18 recognition materially improve the case. |
 | Blood Bag | Active site candidate | `Blood bag` declined 2017-05-16; `Blood Bag (B)` declined 2020-12-18 | Declined | 2020-12-18 | 2024-12-18 | Current filing choice in `submissions/v1.3.0/`; refresh evidence, factor labels, metadata, citations, and ownership language before filing. |
 | Pill Pack | Active site candidate | `Pill Pack` declined 2020-12-18 | Declined | 2020-12-18 | 2024-12-18 | Draft complete; hold behind Pill Box and finish Trends only if advanced. |
 | Weight Scale | Active site candidate | `Bathroom Scale` expired 2018-02-27; `Weight Scale (B)` declined 2020-12-18 | Declined | 2020-12-18 | 2024-12-18 | Challenger draft complete; add two Trends captures. |

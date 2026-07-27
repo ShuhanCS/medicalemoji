@@ -1,32 +1,32 @@
 # 2026 Proposal Agent Coordination Index
 
-Version: 1.6.0
+Version: 1.7.0
 
 Date: 2026-07-26
 
-This directory contains five standalone specifications that may be handed to five separate agents. Each agent
-works from the same coordinator-supplied `BASE_COMMIT` in an isolated Git worktree and branch.
+This directory contains concept-specific execution specifications. Stomach and Kidney are active 2026
+finalization lanes; the other records remain available for their own independent concept work.
 
 ## Agent assignments
 
-| Concept | Standalone specification | Branch | First prerelease lane |
+| Concept | Standalone specification | Current input | Next controlled output |
 | --- | --- | --- | --- |
-| Kidney | [`kidney-agent-spec.md`](kidney-agent-spec.md) | Completed | Canonical `v1.10.0` |
-| White Blood Cell | [`white-blood-cell-agent-spec.md`](white-blood-cell-agent-spec.md) | `agent/white-blood-cell-2026` | `v1.9.0-white-blood-cell.1` |
-| Stomach | [`stomach-agent-spec.md`](stomach-agent-spec.md) | `agent/stomach-2026` | `v1.9.0-stomach.1` |
-| Liver | [`liver-agent-spec.md`](liver-agent-spec.md) | `agent/liver-2026` | `v1.9.0-liver.1` |
-| Pill Pack | [`pill-pack-agent-spec.md`](pill-pack-agent-spec.md) | `agent/pill-pack-2026` | `v1.9.0-pill-pack.1` |
+| Stomach | [`stomach-agent-spec.md`](stomach-agent-spec.md), v2.0.0 | `1.12.0-candidate.9` | Next candidate revision if changed, then cumulative canonical `v1.12.0` |
+| Kidney | [`kidney-agent-spec.md`](kidney-agent-spec.md), v2.0.0 | `v1.12.0-kidney.7` | Complete `v1.12.0-kidney.8` if changed, then cumulative canonical `v1.12.0` |
+| White Blood Cell | [`white-blood-cell-agent-spec.md`](white-blood-cell-agent-spec.md) | Historical lane | Deferred independent revision |
+| Liver | [`liver-agent-spec.md`](liver-agent-spec.md) | `v1.12.0-liver.11` | Deferred independent publication decision |
+| Pill Pack | [`pill-pack-agent-spec.md`](pill-pack-agent-spec.md) | Historical lane | Deferred go/no-go review |
 
-These are valid SemVer prerelease versions. A second immutable update in a lane increments the final number,
-for example `v1.10.0-kidney.2`. An agent never edits an earlier lane snapshot.
+Every committed package snapshot is immutable. Kidney changes increment the final prerelease number; Stomach
+changes increment its candidate number until canonical promotion. An editor never revises an earlier snapshot
+in place.
 
-## Shared proposal-building guidance for the active four
+## Shared proposal-building guidance
 
-The Stomach, Kidney, Liver, and White Blood Cell agents must follow
+Every active concept editor must follow
 [`../CASE-BUILDING-AND-DRAFTING-INSTRUCTIONS.md`](../CASE-BUILDING-AND-DRAFTING-INSTRUCTIONS.md) before revising
-proposal prose. It directs them to study the historical acceptance and decline record, understand the goal of
-each Unicode section, and make a compelling candidate-specific argument. Pill Pack is not included in
-this assignment.
+proposal prose. It directs editors to study the historical acceptance and decline record, understand the goal
+of each Unicode section, and make a compelling candidate-specific argument.
 
 The shared approval rubric and template are downstream compliance checks. They are not fill-in-the-blank
 writing systems, and their example patterns must not be copied across proposals. Candidate-specific evidence,
@@ -38,33 +38,29 @@ comparison boards, readiness scores, artifact hashes, and panel records are opti
 not expand the public proposal or block it unless they expose a real compliance, factual, artwork, or
 presentation problem.
 
-## Frozen baseline and collision rule
+## Same-cycle independence rule
 
-The coordinator gives every agent the same `BASE_COMMIT`, which must contain canonical package `v1.8.0` and
-these specifications. Agents must not start from `master`, an older branch tip, or another agent's branch.
+Stomach, Maze, and Kidney may all be filed in the same cycle if each packet matures, but they are three
+independent proposals. Never describe them as a `co-submission`, `medical emoji set`, `organ set`, campaign
+bundle, or completeness request. Each PDF and form must use its own evidence, byline, artwork, selection theory,
+and positive Open-ended limiting principle without naming another active filing.
 
-The Kidney lane is complete in canonical `v1.10.0`. Agents for the other four already-assigned lanes may
-continue from the coordinator-supplied v1.8.0 base and hand back concept-only deltas. Pill Pack also imports its complete historical concept folder from
-`submissions/v1.3.0/pill-pack/`. Agents may change only their unique prerelease folder. They must not change
-README files, the controlling slate specification, root `CHANGELOG.md`, `package.json`, `package-lock.json`,
-another lane, or any canonical package.
-
-The prerelease folder is the agent branch's explicit SemVer trail. Root project release metadata remains under
-coordinator control so parallel branches do not collide.
+Maze creates no Open-ended tension with either organ. Filing Stomach and Kidney together makes an anatomy-set
+objection more foreseeable, but it is not a contradiction: Stomach is bounded by its literal, appetite,
+tolerance, fullness, and nervous-anticipation meanings; Kidney is bounded by its shape, stone, testing,
+treatment, donation/transplant, frequency, and substitution evidence. Neither argument promises that no other
+organ will ever be proposed, and neither creates an obligation to encode one.
 
 ## Canonical promotion
 
-Do not merge agent branches wholesale. After reviewing a lane, the coordinator applies only its accepted
-concept delta to a fresh copy of the latest canonical package and creates the next cumulative canonical minor:
+Do not merge concept branches or candidate folders wholesale. Starting from canonical `submissions/v1.11.0/`,
+the coordinator applies only the accepted Stomach and Kidney deltas and creates cumulative canonical
+`submissions/v1.12.0/`. The package may contain both candidates, but their proposal folders, PDFs, evidence,
+artwork, authorship, readiness conclusions, public URLs, and form entries remain separate. Maze follows its own
+package history and filing record.
 
-1. Kidney authorship and the accepted review delta are canonical in `v1.10.0`.
-2. White Blood Cell is applied on top of `v1.10.0` and becomes `v1.11.0`.
-3. Stomach is applied on top of `v1.11.0` and becomes `v1.12.0`.
-4. Liver is applied on top of `v1.12.0` and becomes `v1.13.0`.
-5. Pill Pack, only if advanced, is applied on top of `v1.13.0` and becomes `v1.14.0`.
-
-If an agent needs another revision before acceptance, increment that lane's prerelease number. Canonical
-numbers above are expected targets, not reservations that override an intervening coordinator release.
+If either organ needs another revision before acceptance, increment only that concept's candidate or
+prerelease number. Do not mutate an accepted or committed snapshot.
 
 ## External-action boundary
 

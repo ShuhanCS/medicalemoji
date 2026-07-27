@@ -5,6 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.49.0] - 2026-07-26
+
+### Added
+- Added separate version 2.0.0 finalization specifications for the Stomach and Kidney 2026 proposals.
+
+### Changed
+- Updated the Stomach source of truth to `1.12.0-candidate.9`, including its five current evidence exhibits and
+  remaining consent, exact-art, promotion, publication, and filing gates.
+- Documented the independent same-cycle Stomach, Maze, and Kidney strategy, including candidate-specific
+  Open-ended limits and the prohibition on co-submission or anatomy-completion framing.
+- Advanced the workspace version from `0.48.8` to `0.49.0`.
+
 ## [0.48.8] - 2026-07-26
 
 ### Added

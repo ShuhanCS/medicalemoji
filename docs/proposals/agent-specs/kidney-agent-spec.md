@@ -1,119 +1,176 @@
-# Kidney Proposal Agent Specification
+# Kidney Submission Finalization Specification
 
-Version: 1.6.0
+Version: 2.0.0
 
-Status: Completed in canonical package v1.10.0; retain for audit only
+Date: 2026-07-26
+
+Status: Ready to execute
 
 ## Mission
 
-Produce a complete, reviewable Kidney proposal prerelease package that corrects the known v1.9.0 weaknesses
-without altering any canonical or shared files. The result must be suitable for coordinator promotion to the
-next canonical release, expected to be `v1.10.0`.
+Finalize the current Kidney case-built prerelease as one independent Emoji 19.0 proposal, preserve its ten
+confirmed authors, close its remaining eligibility, coordination, artwork, publication, and form gates, and
+hand the accepted Kidney delta to the coordinator for cumulative canonical promotion.
 
-Do not publish or submit the proposal.
+Kidney is one of three planned same-cycle concepts with Stomach and Maze. It is not a co-submission, companion
+organ, anatomy-set member, or campaign bundle. The proposal and form must make no reference to the other filings.
 
-## Git and SemVer assignment
+## Strategic decision
 
-- Receive the exact `BASE_COMMIT` from the coordinator.
-- Create or use an isolated worktree on branch `agent/kidney-2026` from that exact commit.
-- Confirm `git status --short --branch` is clean before editing.
-- Copy the complete `submissions/v1.9.0/` directory byte for byte to
-  `submissions/v1.10.0-kidney.1/`.
-- Set the copied package `VERSION` to `1.10.0-kidney.1` and update only its package `manifest.md` and
-  `CHANGELOG.md` plus files inside its `kidney/` folder.
-- Never edit `v1.9.0`. Every later Kidney update creates a complete new immutable package named
-  `v1.10.0-kidney.2`, `.3`, and so on.
-- Do not edit root release metadata or another proposal lane. Commit only this lane's files.
+Kidney is worth filing because it combines:
 
-## Required reading before editing
+- a strong current five-source frequency package;
+- direct uses for stones, tests, dialysis, transplant, living donation, and paired donation;
+- two concise sequences for `kidney stone` and `kidney tests`;
+- the established non-medical `kidney-shaped` meaning; and
+- observed Beans substitution, which demonstrates both demand for a kidney pictograph and the strongest
+  existing-substitute objection.
 
-Read all of the following completely:
+The proposal must win despite Beans, not pretend Beans is irrelevant. Medical importance, disease burden,
+awareness, organizational prestige, and the existence of Stomach or other organ emoji are not selection
+arguments.
 
-- `docs/proposals/2026-submission-slate-spec.md`
+## Current source of truth
+
+Read these files completely before revising the lane:
+
+- `submissions/v1.12.0-kidney.7/manifest.md`
+- `submissions/v1.12.0-kidney.7/kidney/CASE-BRIEF.md`
+- `submissions/v1.12.0-kidney.7/kidney/READINESS.md`
+- `submissions/v1.12.0-kidney.7/kidney/CLAIM-LEDGER.md`
+- `submissions/v1.12.0-kidney.7/kidney/kidney_emoji_proposal_SUBMIT.md`
+- the entire rendered `kidney_emoji_proposal_SUBMIT.pdf`
 - `docs/proposals/CASE-BUILDING-AND-DRAFTING-INSTRUCTIONS.md`
 - `docs/proposals/emoji-proposal-approval-rubric.md`
-- `docs/proposals/2026-organ-submission-audit.md`, especially the Kidney audit
-- `submissions/v1.9.0/manifest.md`
-- `submissions/v1.9.0/kidney/kidney_emoji_proposal_SUBMIT.md`
-- The entire rendered v1.9.0 Kidney PDF
+- `docs/research/unicode-winning-submissions/analysis.md`
 
-Verify the current official requirements against:
+Current immutable prerelease: `1.12.0-kidney.7`. Never edit it in place.
+
+Official requirements:
 
 https://www.unicode.org/emoji/proposals.html
 
-Use primary or authoritative sources for factual claims. Use the repository-preferred gstack browse workflow
-for browser research and evidence capture; use raw Playwright only if gstack cannot complete the task.
+Emoji 19.0 priorities:
 
-## Fixed identity and rights
+https://www.unicode.org/L2/L2025/25128-esr-priorities.pdf
 
-Preserve this exact author order, separated by semicolons:
+Current ESR confirmation that those priorities remain in force:
 
-Shuhan He; Edgar Lerma; Caitlyn Vlasschaert; Jade M. Teakell; Harish Seethapathy; Jarone Lee; Danielle Miller;
-Timur Erk; David Rhew; Heena Purohit.
+https://www.unicode.org/L2/L2026/26098-esr-report-utc187.pdf
 
-Shuhan He remains the main point of contact. Do not add credentials or affiliations unless they are verified
-and improve the filing. Archive or clearly identify the eligibility confirmation and author consent status;
-do not invent missing records. Confirm that the artwork rights statement and CC0 record cover every final asset.
+## Fixed inputs
+
+- Preserve this exact author order: Shuhan He; Edgar Lerma; Caitlyn Vlasschaert; Jade M. Teakell; Harish
+  Seethapathy; Jarone Lee; Danielle Miller; Timur Erk; David Rhew, MD (Microsoft); Heena Purohit (Microsoft for
+  Startups).
+- Shuhan He is the main point of contact.
+- Authorship, consent, and rights currently pass. Do not add, remove, reorder, or normalize names without a newer
+  controlling record.
+- The five required frequency exhibits currently pass. Do not recapture them merely because prose, artwork, or
+  package controls change.
+- The current proposal uses the established `kidney-shaped` meaning and observed Beans substitution.
+- The four exact `.7` assets pass technical checks but still require Shuhan's dated exact-asset decision.
+- The written Unicode/ESR eligibility record and duplicate-filing coordination evidence remain open.
+- Completeness is `Not applicable`.
+- Compatibility is `Not applicable`; no genuine popular-system interoperability case is documented.
+
+## Required factor strategy
+
+| Factor | Required Kidney treatment |
+| --- | --- |
+| Multiple meanings | Retain the cited `kidney-shaped` furniture, pool, tray, or design sense as an established secondary meaning; do not inflate it into an unsupported metaphor. |
+| Use in sequences | Keep Kidney + Rock for `kidney stone` and Kidney + Test Tube for `kidney tests`; do not pad the section with invented combinations. |
+| Breaks new ground | Answer `Yes` while conceding that Beans is searchable under `kidney`; explain why a Food & Drink pictograph remains ambiguous for the organ and its direct sequences. |
+| Distinctiveness | Explain the paired notched bodies, medial notches, diagonal offset, and short central attachment; address Beans and Lungs without requiring an exact vendor glyph. |
+| Expected usage | Interpret the five current exhibits honestly, including unfiltered `kidney bean` contamination; connect the case to observed kidney phrases rather than medical burden. |
+| Completeness | Brief `Not applicable`; Kidney does not complete a recognized closed set. |
+| Compatibility | Brief `Not applicable`; do not imply that Microsoft, a hospital system, or an emoji reference site supplies compatibility. |
+| Already represented | Lead with Beans as the strongest substitute. Explain that substitution shows demand but creates food ambiguity and does not reliably name the organ in stone, test, dialysis, transplant, or donation messages. |
+| Overly specific | Define Kidney as the common organ noun spanning several established direct uses, not a disease, procedure, specialty, anatomical subtype, or campaign. |
+| Open-ended | State positively that selecting this organ-and-shape concept creates no requirement to encode additional organs. Use Kidney's stone, testing, dialysis, donation/transplant, shape, and substitution evidence as the limiting principle. Do not name Stomach, Maze, the filing slate, or another active proposal. |
+| Transient | Use the durable Books record and current authoritative terminology for stones, tests, dialysis, transplant, and donation. |
+| Faulty comparison | Existing body-part emoji may be visual comparators only; they do not create an entitlement to encoding. |
+
+The current Open-ended argument may name neighboring organs in internal analysis, but the public proposal should
+not catalog them or name the co-filed Stomach. Replace generic language such as `other organs can be judged
+independently` with the candidate-specific conclusion: Kidney's combination of established shape meaning,
+stone/testing phrases, treatment and donation uses, frequency, and observed pictographic substitution is the
+reason this selection would create no automatic obligation to encode another organ.
+
+## Same-cycle submission boundary
+
+- Use one public Kidney PDF and one Kidney form entry.
+- Do not use `co-submission`, `medical emoji set`, `organ set`, `campaign slate`, or companion language.
+- Do not reference the Stomach or Maze proposal, their authors, evidence, art, or filing status.
+- Do not coordinate wording across the three Open-ended answers beyond avoiding contradictions.
+- Do not say that accepting Kidney should cause Unicode to accept or reject another concept.
+- Preserve Kidney's ten-person byline; do not copy Stomach's or Maze's author list.
+
+Maze creates no Open-ended tension with Kidney because it is an unrelated broad puzzle/navigation concept.
+Stomach makes the anatomy-catalog objection more visible, but it does not contradict this proposal when both
+documents use different candidate-specific limiting principles and neither requests anatomy completion.
 
 ## Work required
 
-Use the shared proposal-building guidance to study the historical record and develop a compelling
-candidate-specific case before polishing the prose. It does not require a separate case brief, claim ledger,
-or gate status. Do not draft from the rubric's example sentence patterns.
+1. Archive the written Unicode/ESR record confirming Kidney's eligibility for the 2026 intake beside the prior
+   decline record. If it cannot be archived, stop before filing and obtain controlling written clarification.
+2. Archive evidence that there is no unresolved parallel Kidney filing, or document coordination with the
+   parallel author group.
+3. Present the exact `.7` color and black-and-white assets at 18x18 and 72x72 to Shuhan He and record a dated
+   `APPROVE` or `REVISE` decision tied to the exact files or hashes.
+4. If Shuhan requests an artwork change, copy the complete `.7` package to
+   `submissions/v1.12.0-kidney.8/`, change only package controls and Kidney files, rerun the relevant checks,
+   rebuild the PDF, and obtain approval of the replacements.
+5. If proposal prose changes without artwork changes, still create `.8`; never mutate `.7`.
+6. Refine Open-ended so it uses the positive Kidney-specific limiting principle above and does not name the
+   co-filed Stomach or imply an anatomy program.
+7. Audit Already represented and Breaks new ground together. Preserve the honest Beans concession, Unicode's
+   `kidney` keyword, the food ambiguity, and the distinction between observed substitution and genuine
+   Compatibility.
+8. Verify that the `kidney-shaped` evidence and third-party substitution examples remain accurately cited and
+   that any author overlap or source limitation is disclosed proportionately.
+9. Preserve the five current exhibits unless a concrete query, legibility, citation, or factual defect is found.
+10. Rebuild and inspect the exact PDF after any source or artwork change. Confirm intact links, embedded fonts,
+    readable evidence, correct pagination, no draft markers, and no internal QA or portfolio language.
+11. Treat an internal panel as optional editorial advice. It is not a Unicode requirement and cannot block an
+    otherwise compliant candidate unless it identifies a real factual, compliance, artwork, or presentation
+    defect.
+12. Give the accepted Kidney delta to the coordinator for cumulative promotion with the accepted Stomach
+    candidate into canonical `submissions/v1.12.0/`.
 
-1. Audit every proposal claim against the current rubric. Remove cause, prestige, burden, or deservingness
-   language that substitutes for expected use.
-2. Strengthen the independent semantic case against Beans, Droplet, Anatomical Heart, Lungs, and generic
-   medical sequences. Do not argue that Unicode should complete an organ set.
-3. Verify the five required Search, Video, Web Trends, Image Trends, and Ngram captures for readability, query settings,
-   widest range, worldwide scope where supported, `elephant` comparator, capture date, and reproducibility.
-   Recapture only evidence that fails current requirements.
-4. Cite the material literal, metaphorical, and medical-use claims on which the selection case depends. Combine
-   citations where one authoritative source supports a paragraph; remove unsupported speculative uses.
-5. Use an actual-size nearest-emoji comparison only if it makes the visual case clearer. Present the exact four
-   final assets to Shuhan He at actual size and record his dated `APPROVE` or `REVISE` decision. No
-   human-recognition panel is required.
-6. Use a computer validator only as an optional internal design aid. Do not include its algorithms, hashes,
-   thresholds, scores, or pass/fail narrative in the public proposal.
-7. If Shuhan's actual-size review or an optional design check finds the image unclear, revise the source so the
-   medial notch, hilum, and short attachment survive in both small paradigms without turning the image into a
-   bean, bulb, balloon, or food icon.
-8. Rebuild the PDF whenever source text or embedded assets change using
-   `python scripts/make_submission_pdf.py <proposal-markdown-path>`.
-9. If `kidney/READINESS.md` is maintained, keep it to unresolved official filing conditions, exact changes,
-   and handoff status. Do not assign a proposal score or reproduce internal QA in the public proposal.
+## Canonical promotion and filing
 
-## Required verification
+The coordinator, not the Kidney editor, creates the cumulative canonical package. It must preserve the exact
+accepted Kidney folder while incorporating Stomach separately. Shared package controls may describe both
+component versions, but no proposal may share prose, evidence, images, readiness conclusions, or form data.
 
-- Confirm all four PNGs are exactly 18x18 or 72x72 and black-and-white assets use no gray or color pixels.
-- Confirm every Markdown image/link resolves locally and the proposal contains no placeholder, stale draft
-  note, contradictory status, broken image, or unverified factual assertion.
-- Compare copied files outside `kidney/` and package controls with v1.9.0 by hash; they must be byte-identical.
-- Run `git diff --check`.
-- Inspect PDF page count, encryption, fonts, text extraction, hyperlinks, and file size.
-- Render every PDF page to images and inspect at normal zoom for clipping, unreadable evidence, blank pages,
-  awkward breaks, and incorrect page numbers.
-- Run repository lint/build only if dependencies are installed; report unavailable checks honestly.
+After promotion:
 
-## Optional editorial panel
+1. Rebuild or byte-verify the exact Kidney `_SUBMIT` PDF from the promoted files.
+2. Repeat link, PDF, and page-by-page visual checks against the promoted artifact.
+3. Publish only after explicit authorization.
+4. Verify anonymous, logged-out access to the complete raw HTTPS PDF URL and byte identity.
+5. Reconcile the Kidney form fields, exact ten-person byline, images, date, and public PDF.
+6. File one Kidney form entry and archive the confirmation.
 
-Use the repeatable [`ESR/UTC-readiness panel`](../review-panel/README.md) only when another editorial perspective
-would help. Its feedback is advisory and does not require an action ledger, numeric verdict, or automatic
-rerun. Treat it as internal editorial input, never named-person or Unicode feedback.
+## Stop conditions
 
-## Completion and handoff
+Do not promote, publish, or file if:
 
-Commit the complete prerelease snapshot with a Kidney-specific commit message. Do not push, merge, publish, or
-submit unless explicitly authorized. Report:
+- the controlling written eligibility record is not archived;
+- duplicate-filing coordination remains unresolved;
+- Shuhan has not approved the exact four assets;
+- a material claim is unsupported or an evidence exhibit is unreadable;
+- the proposal refers to Stomach, Maze, a coordinated set, or anatomy completion;
+- Beans is dismissed instead of answered directly;
+- the Open-ended answer implies that another organ must be encoded;
+- the exact PDF has not passed technical and page-by-page review; or
+- Shuhan has not authorized the external action.
 
-- branch and starting commit;
-- prerelease version and commit hash;
-- files changed and files intentionally carried forward;
-- evidence recaptured and sources cited;
-- visual or technical checks used when they materially informed the artwork;
-- verification performed;
-- readiness status;
-- blockers and exact coordinator promotion notes.
+## Completion report
 
-Allowed status: `REVISION REQUIRED`, `BLOCKED`, or `READY TO PUBLISH`. Never claim `READY TO SUBMIT` without the
-public URL, form reconciliation, author confirmation, and Shuhan He's authorization.
+Report the prerelease and canonical versions, commit, exact PDF path and hash, eligibility and coordination
+records, ten-person byline, exact-art approval result, factor changes, evidence disposition, verification
+performed, public raw HTTPS URL, form reconciliation, filing confirmation, and any remaining blocker. Do not
+call the proposal `READY TO SUBMIT` until the public URL, exact form, author records, eligibility record, and
+authorization all agree.

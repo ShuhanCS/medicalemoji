@@ -1,104 +1,164 @@
-# Stomach Proposal Agent Specification
+# Stomach Submission Finalization Specification
 
-Version: 1.4.0
+Version: 2.0.0
 
-Status: Ready to assign
+Date: 2026-07-26
+
+Status: Ready to execute
 
 ## Mission
 
-Produce a complete Stomach prerelease package with current evidence, defensible usage claims, and tested
-small-size artwork. Work only in the assigned prerelease lane so other concept agents can run concurrently.
+Finalize the current Stomach candidate as one independent Emoji 19.0 proposal, promote it into the next
+canonical immutable package, and prepare the exact public PDF and form record for filing after Shuhan He
+authorizes the external actions.
 
-Do not publish or submit the proposal.
+Stomach is one of three planned same-cycle concepts with Maze and Kidney. It is not a co-submission, companion
+character, anatomy-set member, or portfolio bundle. The proposal and form must succeed without mentioning the
+other two filings.
 
-## Git and SemVer assignment
+## Strategic decision
 
-- Receive `BASE_COMMIT` and create branch `agent/stomach-2026` in a dedicated worktree from that commit.
-- Confirm a clean worktree before editing.
-- Copy the complete `submissions/v1.8.0/` package to `submissions/v1.9.0-stomach.1/` byte for byte.
-- Set `VERSION` to `1.9.0-stomach.1`. Change only package `manifest.md`, package `CHANGELOG.md`, and files inside
-  `stomach/`.
-- Never edit a committed package. Further Stomach revisions use `.2`, `.3`, and so on.
-- Do not edit root release metadata, shared specifications, or another lane.
+Stomach is the lead concept because it combines:
 
-## Required reading before editing
+- the literal organ and familiar body area;
+- appetite, fullness, digestion, and upset-stomach uses;
+- the established verb sense meaning to tolerate something;
+- established expressions including `butterflies in the stomach` and `strong stomach`;
+- short, single-reading sequences for meals/fullness, nausea, and nervous anticipation; and
+- a recognizable J-shaped paradigm that remains distinct at emoji size.
 
-Read completely:
+This is the candidate's selection theory. Medical importance, disease burden, awareness, endorsements, and the
+existence of other organ emoji are not part of it.
 
-- `docs/proposals/2026-submission-slate-spec.md`
+## Current source of truth
+
+Read these files completely before changing the candidate:
+
+- `docs/proposals/stomach-emoji-2026/CASE-BRIEF.md`
+- `docs/proposals/stomach-emoji-2026/candidate-v1.12/READINESS.md`
+- `docs/proposals/stomach-emoji-2026/candidate-v1.12/stomach_emoji_proposal_CANDIDATE.md`
+- the entire rendered `candidate-v1.12/stomach_emoji_proposal_CANDIDATE.pdf`
+- `docs/proposals/stomach-emoji-2026/source-ledger-v1.12.md`
+- `docs/proposals/stomach-emoji-2026/evidence-2026-07-26/CAPTURE-LOG.md`
 - `docs/proposals/CASE-BUILDING-AND-DRAFTING-INSTRUCTIONS.md`
 - `docs/proposals/emoji-proposal-approval-rubric.md`
-- The Stomach audit in `docs/proposals/2026-organ-submission-audit.md`
-- `submissions/v1.8.0/manifest.md`
-- `submissions/v1.8.0/stomach/stomach_emoji_proposal_SUBMIT.md`
-- The entire rendered v1.8.0 Stomach PDF
-- Relevant files in `docs/proposals/stomach-emoji-2026/`
+- `docs/research/unicode-winning-submissions/analysis.md`
 
-Verify current requirements at:
+Current candidate: `1.12.0-candidate.9`.
+
+Official requirements:
 
 https://www.unicode.org/emoji/proposals.html
 
-Use primary sources and gstack browse for browser research/evidence capture unless it cannot complete the task.
+Emoji 19.0 priorities:
 
-## Fixed identity and scope
+https://www.unicode.org/L2/L2025/25128-esr-priorities.pdf
 
-The current confirmed submitters are Shuhan He, David Rhew, and Heena Purohit; Shuhan He is the main point of
-contact. Preserve the latest concept-specific consent/source record if it changes. Keep the proposal
-independently about Stomach; do not use anatomy-set completeness or the existence of other organ emoji as
-justification. Verify eligibility, duplicate status, artwork ownership, and rights. Do not infer or fabricate
-confirmation records.
+Current ESR confirmation that those priorities remain in force:
+
+https://www.unicode.org/L2/L2026/26098-esr-report-utc187.pdf
+
+## Fixed inputs
+
+- Eligibility is a settled project input confirmed by Shuhan He. Preserve the written controlling record.
+- Submitters are Shuhan He, MD; David Rhew, MD; and Heena Purohit, in that order. Shuhan He is the main point
+  of contact.
+- Written consent from David Rhew and Heena Purohit is still an open filing record and must be archived.
+- Rights and the project-created GPT Image 2 provenance cover the candidate artwork.
+- All five required frequency exhibits were captured on 2026-07-26 and currently pass. Do not recapture them
+  merely because prose, metadata, or package controls change.
+- The four exact assets pass the technical size and palette checks. Shuhan's dated approval of those exact
+  assets remains open.
+- Completeness is `Not applicable`.
+- Compatibility is `Not applicable`; no genuine popular-system interoperability case is documented.
+
+## Required factor strategy
+
+| Factor | Required Stomach treatment |
+| --- | --- |
+| Multiple meanings | Lead with the literal organ, appetite, the verb `stomach`, `strong stomach`, and `butterflies in the stomach`; retain only cited established meanings. |
+| Use in sequences | Keep the three strongest combinations: meal/fullness, nausea/upset stomach, and butterfly/nervous anticipation. |
+| Breaks new ground | Answer `Yes`; faces and food express symptoms or inputs but do not name the organ that unifies the literal and figurative uses. |
+| Distinctiveness | Explain the J shape, inlet, open inner curve, broad lower body, and separate outlet while leaving vendors normal design freedom. |
+| Expected usage | Interpret the five current exhibits proportionately; do not replace them with importance or awareness evidence. |
+| Completeness | Brief `Not applicable`; Stomach does not complete a recognized closed set. |
+| Compatibility | Brief `Not applicable`; do not imply Microsoft, another vendor, or a medical app supplies compatibility. |
+| Already represented | Give Nauseated Face, food emoji, and Butterfly combinations a fair hearing, then identify the remaining missing organ anchor. |
+| Overly specific | Define Stomach as a familiar organ and everyday language concept, not a disease, procedure, subtype, specialty, or campaign. |
+| Open-ended | State positively that selecting this bounded literal-and-figurative concept creates no requirement to encode additional organs. Do not name Kidney, Maze, the filing slate, or another active proposal. |
+| Transient | Use the long-range Books record and durable dictionary meanings. |
+| Faulty comparison | Existing body-part emoji may be visual comparators only; they do not create an entitlement to encoding. |
+
+The Open-ended answer must not say that Stomach is the only organ that will be proposed, that other organs will
+never be filed, or that other organs can be judged as part of this submission. A truthful limiting principle is
+enough: Stomach is selective because the same familiar symbol carries established organ, appetite, tolerance,
+fullness, and nervous-anticipation meanings.
+
+## Same-cycle submission boundary
+
+- Use one public Stomach PDF and one Stomach form entry.
+- Do not use `co-submission`, `medical emoji set`, `organ set`, `campaign slate`, or companion language.
+- Do not reference the Maze or Kidney proposal, their authors, evidence, art, or filing status.
+- Do not coordinate wording across the three Open-ended answers beyond avoiding contradictions.
+- Do not say that accepting Stomach should cause Unicode to accept or reject another concept.
+- Shared submitters are allowed, but Stomach's exact byline and consent record control this proposal.
+
+Maze creates no Open-ended tension with Stomach because it is an unrelated broad puzzle/navigation concept.
+Kidney makes the anatomy-catalog objection more visible, but it does not contradict this proposal when both
+documents use different candidate-specific limiting principles and neither requests anatomy completion.
 
 ## Work required
 
-Use the shared proposal-building guidance to study the historical record and develop a compelling
-candidate-specific case before polishing the prose. It does not require a separate case brief, claim ledger,
-or gate status. Do not draft from the rubric's example sentence patterns.
+1. Archive written consent from David Rhew and Heena Purohit for the exact Stomach byline.
+2. Present the four exact candidate assets at actual 18x18 and 72x72 sizes to Shuhan He and record a dated
+   `APPROVE` or `REVISE` decision tied to the exact files or hashes.
+3. If Shuhan requests an artwork revision, change only the cue responsible, increment the candidate version,
+   rerun dimensions/palette checks, rebuild the PDF, and obtain approval of the replacements.
+4. Audit the candidate against the factor strategy above. Preserve the current strong Open-ended answer but
+   remove any wording introduced later that names or implies another active filing.
+5. Verify every material meaning and usage claim against the source ledger. Remove unsupported expansion rather
+   than adding disease statistics or organizational endorsements.
+6. Preserve the five current exhibits unless a concrete query, legibility, citation, or factual defect is found.
+7. Advance the working record from `1.12.0-candidate.9` to the next candidate revision when any source, art,
+   evidence, or PDF changes. Update the revision date and rebuild the exact PDF.
+8. Render and inspect every page. Confirm readable evidence, intact links, embedded fonts, correct pagination,
+   no draft markers, and no internal QA or portfolio language.
+9. Treat an internal panel as optional editorial advice. It is not a Unicode requirement and cannot block an
+   otherwise compliant candidate unless it identifies a real factual, compliance, artwork, or presentation
+   defect.
+10. After all gates pass, give the accepted Stomach delta to the coordinator for promotion into canonical
+    `submissions/v1.12.0/`. Do not mutate `submissions/v1.11.0/`.
 
-1. Replace the 2020 Google Search and Video captures with current, readable captures showing result counts.
-2. Replace the 2020 Web and Image Trends captures with worldwide, widest-range comparisons against `elephant`.
-3. Validate the existing Ngram comparison, query, range, date, and readability; recapture it if noncompliant.
-4. Preserve complete URLs and operational capture details in an internal record. In the PDF, show only the
-   query, date, comparator, settings, result, and limitation needed to understand each exhibit.
-5. Cite the material claims about appetite, hunger, nausea, digestion, intuition, courage, stress, and emotional
-   expression on which the selection case depends. Combine citations where practical and keep established
-   meanings that support ordinary communication.
-6. Explain Stomach's relevant semantic and visual distinctions from Face Vomiting, Nauseated Face, food emoji,
-   Anatomical Heart, Liver, and generic organ imagery without turning the section into a catalog of objections.
-7. Use actual-size comparison boards only if they help resolve or explain the artwork.
-8. Present the exact four final assets at actual size, with useful alternatives when needed, to Shuhan He and record
-   his dated `APPROVE` or `REVISE` decision. No participant panel, sample size, or recognition percentage is
-   required.
-9. Revise the J-shaped silhouette if it reads as liver, meat, bean, hook, or generic organ. Recheck both color
-   and monochrome assets after revision.
-10. Rewrite selection and exclusion factors where needed, especially Open-ended, Already representable, and
-    Faulty comparison. Use `N/A` instead of speculative positive factors.
-11. Rebuild the PDF with `python scripts/make_submission_pdf.py <proposal-markdown-path>`. If
-    `stomach/READINESS.md` is maintained, keep it to unresolved official filing conditions and handoff status.
+## Canonical promotion and filing
 
-## Required verification
+The coordinator, not the concept editor, creates the cumulative canonical package. It must incorporate the
+accepted Stomach candidate and the accepted current Kidney delta without mixing their proposal prose, evidence,
+artwork, readiness records, or form data.
 
-- Validate the four exact PNG dimensions and confirm black-and-white files contain only black/white pixels.
-- Validate every local link, evidence caption, date, setting, and source URL.
-- Scan for placeholders, old dates presented as current, draft notes, unsupported claims, and layout artifacts.
-- Hash-compare all carried-forward files outside `stomach/` and package controls with v1.8.0.
-- Run `git diff --check`.
-- Check the PDF's pages, fonts, encryption, text extraction, hyperlinks, and file size.
-- Render every PDF page and visually inspect it at normal zoom for readability, clipping, broken images, blank
-  pages, stranded headings, and incorrect pagination.
-- Report missing dependencies, blocked Google captures, or unavailable human testing explicitly.
+After promotion:
 
-## Optional editorial panel
+1. Rebuild or byte-verify the exact `_SUBMIT` PDF from the promoted files.
+2. Repeat link, PDF, and page-by-page visual checks against the promoted artifact.
+3. Publish only after explicit authorization.
+4. Verify anonymous, logged-out access to the complete raw HTTPS PDF URL and byte identity.
+5. Reconcile the Stomach form fields with the exact PDF.
+6. File one Stomach form entry and archive the confirmation.
 
-Use the repeatable [`ESR/UTC-readiness panel`](../review-panel/README.md) only when another editorial perspective
-would help. Its feedback is advisory and does not require an action ledger, numeric verdict, or automatic
-rerun. Treat it as internal editorial input, never named-person or Unicode feedback.
+## Stop conditions
 
-## Completion and handoff
+Do not promote, publish, or file if:
 
-Commit only the complete Stomach prerelease lane. Do not push, merge, publish, or submit unless explicitly
-authorized. Report branch, base commit, prerelease version, commit hash, files changed, evidence and citations,
-Shuhan's visual-approval result, verification, readiness status, blockers, and coordinator promotion
-notes.
+- either coauthor consent record is missing;
+- Shuhan has not approved the exact four assets;
+- a material claim is unsupported or an evidence exhibit is unreadable;
+- the proposal refers to Maze, Kidney, a coordinated set, or anatomy completion;
+- the Open-ended answer implies that another organ must be encoded;
+- the exact PDF has not passed technical and page-by-page review; or
+- Shuhan has not authorized the external action.
 
-Allowed status: `REVISION REQUIRED`, `BLOCKED`, or `READY TO PUBLISH`. Do not use `READY TO SUBMIT` before a
-verified public URL, form reconciliation, author confirmation, and Shuhan He's approval exist.
+## Completion report
+
+Report the candidate and canonical versions, commit, exact PDF path and hash, byline/consent result, exact-art
+approval result, factor changes, evidence disposition, verification performed, public raw HTTPS URL, form
+reconciliation, filing confirmation, and any remaining blocker. Do not call the proposal `READY TO SUBMIT`
+until the public URL, exact form, author records, and authorization all agree.
