@@ -107,8 +107,14 @@ Shuhan He's prior approval and rights confirmation governs the unchanged four-ar
 
 ## Publication record
 
-Release commit and public PDF URL are recorded after the v1.13.0 release commit is pushed and the artifact is
-verified without login.
+Release commit: `2dbefc48466f4e865d3313020b0772fbf46fdb4e`
+
+Public PDF:
+
+https://raw.githubusercontent.com/ShuhanCS/medicalemoji/2dbefc48466f4e865d3313020b0772fbf46fdb4e/submissions/v1.13.0/white-blood-cell/white-blood-cell_emoji_proposal_SUBMIT.pdf
+
+Logged-out verification: HTTP 200, `application/octet-stream`, 1,530,280 bytes; downloaded SHA-256 matches the
+release artifact exactly.
 
 David Rhew affiliation reference:
 
@@ -120,7 +126,7 @@ https://www.unicode.org/emoji/proposals.html
 
 ## Final filing controls
 
-- [ ] Publish the exact PDF at a stable logged-out HTTPS URL and record its SHA-256.
+- [x] Publish the exact PDF at a stable logged-out HTTPS URL and record its SHA-256.
 - [ ] Reconcile the public PDF URL and rounded Search/Video values with the official form.
 - [ ] Complete the agreement and electronic-signature step.
 - [ ] Archive the submission confirmation, timestamp, commit SHA, public URL, and PDF SHA-256.
