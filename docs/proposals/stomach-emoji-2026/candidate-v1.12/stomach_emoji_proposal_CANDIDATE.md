@@ -45,9 +45,9 @@ Stomach adds a specific organ meaning to several short combinations:
 
 ### C. Breaks new ground
 
-**Yes.** Nauseated Face expresses a symptom, and food emoji show what is eaten, but neither identifies the
-stomach itself. Stomach adds a clear way to talk about the organ, digestion, hunger, fullness, discomfort, and
-familiar expressions such as butterflies in your stomach.
+**Yes.** Existing faces, food emoji, and Butterfly can show nausea, disgust, eating, or nervousness, but they do
+not identify the stomach or digestion. Stomach adds the organ itself plus its appetite, fullness, tolerance, and
+butterflies meanings.
 
 ### D. Distinctiveness
 
@@ -113,9 +113,9 @@ Not applicable. This proposal does not claim compatibility with an emoji from an
 
 ### A. Already represented
 
-Nauseated Face with Fork and Knife can suggest sickness after eating, and Nauseated Face with Pill can suggest
-treatment. Neither sequence identifies the stomach itself or expresses digestion, fullness, butterflies in your
-stomach, or being unable to stomach something.
+Nauseated Face shows nausea or disgust and, with Fork and Knife, sickness after eating. Butterfly with an Anxious
+Face suggests nervous anticipation. These cover symptoms, meals, and mood, but not the stomach, digestion,
+fullness in the stomach, or the verb stomach meaning to tolerate something.
 
 ### B. Overly specific
 
@@ -124,10 +124,10 @@ nervousness, and tolerance meanings reach beyond any single digestive condition.
 
 ### C. Open-ended
 
-Encoding Stomach would not automatically support liver, kidney, intestine, or every anatomical structure.
-Stomach is not proposed merely because it is an organ: it combines frequent everyday messages about hunger,
-fullness, nausea, and digestion with established expressions such as butterflies in your stomach, a strong
-stomach, and cannot stomach something. Anatomy or medical importance alone would not meet that boundary.
+[Gut](https://www.merriam-webster.com/dictionary/gut) is the closest neighbor, but it can mean the whole digestive
+tract, belly, courage, or intuition rather than one organ. Stomach maps directly to one recognizable organ and
+its documented appetite, fullness, verb, and butterflies meanings. That distinction creates no matching need
+for intestine or other organs; anatomy or medical importance alone is insufficient.
 
 ### D. Transient
 

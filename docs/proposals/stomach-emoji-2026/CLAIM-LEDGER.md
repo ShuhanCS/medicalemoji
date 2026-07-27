@@ -1,6 +1,6 @@
 # Stomach Claim Ledger
 
-Version: 1.0.0
+Version: 1.1.0
 
 Review date: 2026-07-26
 
@@ -36,6 +36,7 @@ such and must remain traceable to the cited observations rather than presented a
 | Nauseated Face plus Pill can suggest treatment. | Compositional analysis of existing emoji meanings | A fair secondary substitute; not an established sequence claim. | Already represented only. |
 | Neither substitute identifies the stomach or carries its digestion, fullness, butterflies, and tolerance meanings. | Comparison of the cited Stomach meanings with the semantic content of the existing emoji | Analytical residual-gap conclusion. | Breaks new ground; Already represented. |
 | Stomach does not imply an open-ended anatomy set. | Candidate-specific priority analysis based on the cited everyday and figurative meanings | A limiting principle: anatomy or medical importance alone is insufficient. | Open-ended. |
+| `Gut` does not map cleanly to a single intestine glyph. | Merriam-Webster, https://www.merriam-webster.com/dictionary/gut | `Gut` may mean the digestive tract or part of it, belly, courage, or intuition; this is a representation distinction, not a claim that intestine could never qualify independently. | Open-ended stress test against the strongest neighbor. |
 | Stomach is broader than a disease or procedure. | Merriam-Webster senses cover organ, body area, appetite, and verb; Cambridge covers everyday expressions | A durable category boundary rather than a list of possible medical uses. | Overly specific. |
 | Completeness is not part of the case. | Review of the current Unicode emoji categories and candidate rationale | No recognized closed set is being completed. | Completeness: `Not applicable`. |
 | Compatibility is not part of the case. | No project evidence of significant use of the same pictograph in a popular legacy system | No compatibility claim is supported. | Compatibility: `Not applicable`. |
