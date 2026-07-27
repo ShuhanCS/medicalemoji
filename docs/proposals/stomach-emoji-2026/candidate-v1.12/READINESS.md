@@ -2,20 +2,20 @@
 
 Date: 2026-07-26
 
-Packet version: `1.12.0-candidate.3`
+Packet version: `1.12.0-candidate.4`
 
-Status: **STRONG CANDIDATE — SHUHAN IMAGE APPROVAL OPEN**
+Status: **REVISED CANDIDATE — EXACT-ASSET APPROVAL AND COAUTHOR CONSENT RECORDS OPEN**
 
 ## Settled passes
 
 | Gate | Status | Evidence |
 | --- | --- | --- |
 | Eligibility | Pass | Confirmed by Shuhan He. |
-| Authorship | Pass | Shuhan He, MD; David Rhew, MD; and Heena Purohit are listed as submitters; Shuhan He remains the main point of contact. |
+| Byline and contact | Pass | Shuhan He, MD; David Rhew, MD; and Heena Purohit are listed as submitters; Shuhan He remains the main point of contact. |
 | Rights | Pass | Project-created vector artwork; Shuhan He confirmed submission and licensing rights. |
 | Required artwork | Pass | Exact color and true black-and-white SVG/PNG assets exist at 18x18 and 72x72. |
 | Artwork technical checks | Pass | All four assets passed size, palette, connected-shape, and comparison checks. |
-| Proposal structure and advocate edit | Pass for candidate | Current 2026 factor order, plain-language case for the missing meaning, correct `Not applicable` treatment, and strengthened exclusions. |
+| Proposal structure and advocate edit | Pass for candidate | Current 2026 factor order, plain-language case for the missing meaning, direct sequence rebuttal, clear open-ended boundary, and concise compatibility treatment. |
 | Current Google evidence | Pass | Five current exhibits captured 2026-07-26, tightly cropped to the required query, settings, result, and graph, then visually inspected. |
 | Candidate PDF | Pass | Rebuilt from current evidence and technically and visually checked page by page. |
 
@@ -23,13 +23,11 @@ Status: **STRONG CANDIDATE — SHUHAN IMAGE APPROVAL OPEN**
 
 | Gate | Status | Remaining action |
 | --- | --- | --- |
-| Shuhan image approval | Open | Show Shuhan the exact four assets at actual size beside the comparison boards and record dated `APPROVE` or `REVISE`. No participant panel is required. |
-| Final promotion | Candidate only | After Shuhan approves the exact assets, record their hashes, rebuild once, repeat PDF QA, and promote the immutable packet to `submissions/v1.12.0/`. |
+| Exact-asset approval | Open | Record Shuhan's dated `APPROVE` or `REVISE` decision for the four exact assets and their hashes. |
+| Coauthor consent records | Open | Preserve written confirmation from David Rhew and Heena Purohit that each agrees to be listed as a submitter. |
+| Readiness panel | Pending rerun | Run the five-seat panel on the rebuilt `1.12.0-candidate.4` PDF hash. |
+| Final promotion | Candidate only | After the open records and panel are complete, rebuild once, repeat PDF QA, and promote the immutable packet to `submissions/v1.12.0/`. |
 | Public URL and form | Not authorized | Publish and file only after explicit authorization from Shuhan He. |
 
-Internal guide score: **90/100 as a candidate**. The remaining points are gated by Shuhan's exact-asset
-approval and final packet promotion, not by eligibility, rights, artwork completeness, proposal structure, or
-frequency evidence.
-
-Do not promote this candidate to `submissions/v1.12.0/` or rename it `_SUBMIT` until Shuhan approves the exact
-four assets.
+Do not promote this candidate to `submissions/v1.12.0/` or rename it `_SUBMIT` until the exact-asset approval,
+coauthor consent records, panel rerun, and final PDF QA are complete.

@@ -38,10 +38,9 @@ fullness, nausea, and discomfort. It also appears in established expressions suc
 
 Stomach adds a specific organ meaning to several short combinations:
 
-- Stomach + fork and knife: hunger, a meal's effect, fullness, or digestion.
-- Stomach + nauseated face: an upset stomach, nausea, or a stomach bug.
-- Stomach + butterfly: nervous anticipation or butterflies in the stomach.
-- Stomach + pill: antacid use, digestive treatment, or stomach-specific care.
+- Stomach + fork and knife: digestion or fullness after a meal.
+- Stomach + nauseated face: an upset stomach or nausea.
+- Stomach + butterfly: butterflies in the stomach or nervous anticipation.
 
 ### C. Breaks new ground
 
@@ -107,15 +106,15 @@ Not applicable. Stomach is independently useful and is not proposed to complete 
 
 ### G. Compatibility
 
-Not applicable. This proposal does not rely on a legacy carrier emoji or another encoded pictograph.
+Not applicable. This proposal does not claim compatibility with an emoji from an older system.
 
 ## Factors for Exclusion
 
 ### A. Already represented
 
-Nauseated Face can express nausea, and food emoji can show meals, but neither identifies the stomach. Hospital
-and Pill imply care or treatment without naming the organ. None clearly expresses digestion, hunger, fullness,
-discomfort, or figurative stomach meanings.
+Nauseated Face with Fork and Knife can suggest sickness after eating, and Nauseated Face with Pill can suggest
+treatment. Neither sequence identifies the stomach itself or expresses digestion, fullness, butterflies in your
+stomach, or being unable to stomach something.
 
 ### B. Overly specific
 
@@ -125,9 +124,9 @@ about food, digestion, sensation, emotion, education, nutrition, and health.
 ### C. Open-ended
 
 Encoding Stomach would not automatically support liver, kidney, intestine, or every anatomical structure.
-Stomach stands independently through everyday messages about hunger, fullness, nausea, digestion, and expressions
-such as butterflies in your stomach and cannot stomach something. Any future organ would need to meet the same
-criteria on its own.
+Stomach is not proposed merely because it is an organ: it combines frequent everyday messages about hunger,
+fullness, nausea, and digestion with established expressions such as butterflies in your stomach, a strong
+stomach, and cannot stomach something. Anatomy or medical importance alone would not meet that boundary.
 
 ### D. Transient
 
