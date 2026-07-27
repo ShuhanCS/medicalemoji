@@ -1,17 +1,17 @@
 # Stomach Case Brief
 
-Version: 1.0.0
+Version: 1.0.1
 
 Assessment date: 2026-07-26
 
-## Frozen candidate
+## Current frozen candidate
 
 | Field | Frozen value |
 | --- | --- |
-| Package | `1.12.0-candidate.4` |
-| Candidate commit | `a96d06baaf581d0c599942c73563186e010a30d4` |
-| Proposal source | `candidate-v1.12/stomach_emoji_proposal_CANDIDATE.md`; SHA-256 `7196bb7b7cf32d85564a2bf4e1ce5c9d2288a75b2b68348ffe5d9bb70493b456` |
-| Reviewer PDF | `candidate-v1.12/stomach_emoji_proposal_CANDIDATE.pdf`; SHA-256 `9e70516316b8fec1e30fe880864ad201800853fdd5b07cbf2f38553fd684536d` |
+| Package | `1.12.0-candidate.5` |
+| Candidate commit | `00dd0cef0c6826ec48b72448d14dffbd8515b3c0` |
+| Proposal source | `candidate-v1.12/stomach_emoji_proposal_CANDIDATE.md`; SHA-256 `d2679d0dd35c56ffef991f6ff9156ba6dd398a86ddffeff8a723042ef60a47f5` |
+| Reviewer PDF | `candidate-v1.12/stomach_emoji_proposal_CANDIDATE.pdf`; SHA-256 `c442a3491fff8544e298a11f79d8234b0e01c76a51bcd0e1f958ad9f8c7da0c5` |
 | Official guidance | Checked 2026-07-26: https://www.unicode.org/emoji/proposals.html |
 | Eligibility and prior status | Eligibility is a settled project input from Shuhan He dated 2026-07-26. Unicode's request/status checks remain the filing control; the proposal does not narrate an eligibility dispute. |
 | Authorship | The ordered byline is Shuhan He, MD; David Rhew, MD; Heena Purohit. Shuhan He is the main point of contact. The source is Shuhan He's 2026-07-26 direction in `source-ledger-v1.12.md`; separate written consent records for David Rhew and Heena Purohit are not yet archived. |
@@ -29,9 +29,9 @@ Assessment date: 2026-07-26
 ### Prior decisions and open records
 
 - Eligibility and image rights are settled project inputs.
-- Candidate.4 resolved the prior panel's prose actions: it tightened the three sequence examples, directly
-  answered the strongest short substitutes, replaced Compatibility jargon, and applied a concrete Open-ended
-  boundary.
+- Candidate.4 was the case-building baseline and resolved the prior panel's prose actions: it tightened the
+  three sequence examples, directly answered the strongest short substitutes, replaced Compatibility jargon,
+  and applied a concrete Open-ended boundary.
 - The exact-asset decision, David Rhew and Heena Purohit consent records, immutable promotion, public URL, and
   Shuhan's filing authorization remain outside the proposal's substantive case and are not yet complete.
 - The five frequency captures are current as of 2026-07-26 and do not require recapture unless the artifact or
