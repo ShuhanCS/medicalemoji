@@ -1,6 +1,6 @@
 # Proposal-Building Instructions for Agents
 
-Version: 1.2.0
+Version: 1.3.0
 
 Date: 2026-07-26
 
@@ -97,6 +97,10 @@ or wording. Give a factor only the space justified by this candidate's case.
 
 Answer every required factor directly in affirmative proposal language. Give an exclusion factor only the
 space needed to establish why it does not apply to this candidate.
+
+**Candidate-specific section standard:** Every substantive section must contain a candidate-specific meaning,
+example, evidence result, or visual reason. For inclusion factors that genuinely do not apply, use a brief
+`N/A` instead of manufacturing an argument. Required exclusion factors must still be answered directly.
 
 ## Make the prose persuasive and human
 
