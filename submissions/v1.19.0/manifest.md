@@ -4,7 +4,7 @@ Package version: 1.19.0
 
 Created: 2026-07-26
 
-Status: **White Blood Cell v1.19.0 is ready to publish; immutable release URL verification is pending.**
+Status: **White Blood Cell v1.19.0 release published and verified.**
 
 Official deadline: End of day 2026-07-31
 
@@ -80,5 +80,7 @@ editorial consultation only; they do not claim a Unicode review, score, vote, or
   enclosing membrane first, segmented nucleus second.
 - Supplemental evidence decision: the optional `white-blood-cell-count` query is not included because a
   reproducible result clearly stronger than the mandatory exhibits was not verified.
-- Public logged-out URL: pending the immutable v1.19.0 release commit.
+- Public logged-out URL: verified against release commit
+  `56bf7dc3de0b393ea910adbcc42ab53a2d16980e`:
+  https://raw.githubusercontent.com/ShuhanCS/medicalemoji/56bf7dc3de0b393ea910adbcc42ab53a2d16980e/submissions/v1.19.0/white-blood-cell/white-blood-cell_emoji_proposal_SUBMIT.pdf
 - Form filing and confirmation archive: intentionally not performed in this workstream.

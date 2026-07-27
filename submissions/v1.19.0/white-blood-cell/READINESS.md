@@ -109,13 +109,14 @@ covered by the proposal's rights statement and CC0 release.
 
 ## Publication record
 
-Release commit: pending.
+Release commit: `56bf7dc3de0b393ea910adbcc42ab53a2d16980e`
 
 Public PDF:
 
-Pending the immutable v1.19.0 release commit.
+https://raw.githubusercontent.com/ShuhanCS/medicalemoji/56bf7dc3de0b393ea910adbcc42ab53a2d16980e/submissions/v1.19.0/white-blood-cell/white-blood-cell_emoji_proposal_SUBMIT.pdf
 
-Logged-out verification: pending.
+Logged-out verification: 1,530,363 bytes; SHA-256
+`d3f690b28d2cec6d06ab3c44b694c1715689af5f49d47c4df8b34044e36e2a41`; exact match to the local release PDF.
 
 David Rhew affiliation reference:
 
@@ -127,7 +128,7 @@ https://www.unicode.org/emoji/proposals.html
 
 ## Final filing controls
 
-- [ ] Publish the exact PDF at a stable logged-out HTTPS URL and record its SHA-256.
+- [x] Publish the exact PDF at a stable logged-out HTTPS URL and record its SHA-256.
 - [ ] Reconcile the public PDF URL and rounded Search/Video values with the official form.
 - [ ] Complete the agreement and electronic-signature step.
 - [ ] Archive the submission confirmation, timestamp, commit SHA, public URL, and PDF SHA-256.
