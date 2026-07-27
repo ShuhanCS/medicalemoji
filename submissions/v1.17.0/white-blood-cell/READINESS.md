@@ -108,13 +108,14 @@ Emoji work covered by the proposal's rights statement and CC0 release.
 
 ## Publication record
 
-Release commit: pending
+Release commit: `67bb59e2a7c1659377eb4d61b6cde2dcc30516f4`
 
 Public PDF:
 
-Pending publication of the exact v1.17.0 PDF.
+https://raw.githubusercontent.com/ShuhanCS/medicalemoji/67bb59e2a7c1659377eb4d61b6cde2dcc30516f4/submissions/v1.17.0/white-blood-cell/white-blood-cell_emoji_proposal_SUBMIT.pdf
 
-Logged-out verification: pending release commit publication.
+Logged-out verification: 1,529,464 bytes; SHA-256
+`810c9c5f3992fbc4fe58dc6578d6d79a00d895d5554ebfadae0ead352993526b`; exact match to the local release PDF.
 
 David Rhew affiliation reference:
 
