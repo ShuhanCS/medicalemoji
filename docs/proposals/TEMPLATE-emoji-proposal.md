@@ -14,8 +14,7 @@ needed to make a complete, reproducible case.
 **Audience and voice:** Write for an educated general reader who understands the Unicode selection factors but
 does not know medicine, computer vision, software engineering, or this project's workflow. Use ordinary words,
 direct sentences, and concrete examples. Define an unavoidable specialist term once in plain English. Every
-paragraph should state its conclusion first, give the strongest evidence or example, answer the nearest
-objection when relevant, and stop.
+paragraph should make its point, support it with the most useful evidence or example, and stop.
 
 **Submission/QA boundary:** The PDF explains the visible result and its communicative value. Internal scripts,
 hashes, pinned assets, geometric metrics, thresholds, gates, machine-readable reports, and release status stay
@@ -309,21 +308,21 @@ browser window."*
 
 ## Pre-flight
 
-- [ ] Open-ended answer drafted first, explaining why this concept stands independently
+- [ ] Open-ended answer gives a candidate-specific reason without arguing for a complete set
 - [ ] No unnecessary prose; every material claim has a readable screenshot or citation
 - [ ] Written for a general reader; unavoidable specialist terms are defined once in plain English
-- [ ] Every factor starts with its conclusion and gives only the strongest evidence or examples
+- [ ] Every factor answers the question directly without copied sentence formulas or repeated argument
 - [ ] No internal QA jargon, algorithms, hashes, thresholds, gates, asset manifests, or release status in the PDF
 - [ ] Exact four final image assets received Shuhan's dated actual-size `APPROVE` decision
 - [ ] Authorship matches the latest concept-specific consent/source record; no default sole-author assumption
-- [ ] `N/A` written wherever honest, especially Completeness and Compatibility
+- [ ] `N/A` written wherever applicable, especially Completeness and Compatibility
 - [ ] Keywords contain no form of the emoji's name
 - [ ] Artwork contains no text, digits or barcodes; 18×18 and 72×72; colour and black and white; not grayscale
 - [ ] Licence sentence present and true
 - [ ] All five sources screenshotted; `elephant` in Trends and Ngram
-- [ ] Capture statement with month, year and private-window method
+- [ ] Each frequency exhibit shows the essential query, date, comparator, and settings; operational metadata is archived internally
 - [ ] No petitions or social-media calls used as evidence; no cause used as the reason for encoding
 - [ ] One emoji per proposal; parallel proposals each make an independent Open-ended case
 - [ ] Confirm the concept was not declined in the last four years
-- [ ] Five-seat ESR/UTC-readiness panel completed against this exact artifact hash; action ledger closed
+- [ ] Optional editorial feedback applied only where it improves the proposal
 - [ ] PDF hosted publicly; link submitted through the form

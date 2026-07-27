@@ -1,6 +1,6 @@
 # Stomach Proposal Agent Specification
 
-Version: 1.3.1
+Version: 1.4.0
 
 Status: Ready to assign
 
@@ -30,8 +30,6 @@ Read completely:
 - `docs/proposals/emoji-proposal-approval-rubric.md`
 - The Stomach audit in `docs/proposals/2026-organ-submission-audit.md`
 - `submissions/v1.8.0/manifest.md`
-- `submissions/v1.8.0/BEST-IN-CLASS-RUBRIC.md`
-- `submissions/v1.8.0/IDEAL-EMOJI-PROPOSAL-TEMPLATE.md`
 - `submissions/v1.8.0/stomach/stomach_emoji_proposal_SUBMIT.md`
 - The entire rendered v1.8.0 Stomach PDF
 - Relevant files in `docs/proposals/stomach-emoji-2026/`
@@ -59,22 +57,23 @@ or gate status. Do not draft from the rubric's example sentence patterns.
 1. Replace the 2020 Google Search and Video captures with current, readable captures showing result counts.
 2. Replace the 2020 Web and Image Trends captures with worldwide, widest-range comparisons against `elephant`.
 3. Validate the existing Ngram comparison, query, range, date, and readability; recapture it if noncompliant.
-4. Preserve complete query URLs, dates, settings, filters, and limitations for all five required sources.
-5. Cite or remove claims about appetite, hunger, nausea, digestion, intuition, courage, stress, and emotional
-   expression. Keep only established meanings that support ordinary communication.
-6. Red-team Face Vomiting, Nauseated Face, food emoji, Anatomical Heart, Liver, and generic organ imagery as
-   substitutes. Explain the remaining semantic gap without overclaiming clinical importance.
-7. Build color and black-and-white comparison boards at 18x18 and 72x72 against Liver, Anatomical Heart, food,
-   and generic internal-organ shapes.
-8. Present the exact four final assets at actual size beside the declared alternatives to Shuhan He and record
+4. Preserve complete URLs and operational capture details in an internal record. In the PDF, show only the
+   query, date, comparator, settings, result, and limitation needed to understand each exhibit.
+5. Cite the material claims about appetite, hunger, nausea, digestion, intuition, courage, stress, and emotional
+   expression on which the selection case depends. Combine citations where practical and keep established
+   meanings that support ordinary communication.
+6. Explain Stomach's relevant semantic and visual distinctions from Face Vomiting, Nauseated Face, food emoji,
+   Anatomical Heart, Liver, and generic organ imagery without turning the section into a catalog of objections.
+7. Use actual-size comparison boards only if they help resolve or explain the artwork.
+8. Present the exact four final assets at actual size, with useful alternatives when needed, to Shuhan He and record
    his dated `APPROVE` or `REVISE` decision. No participant panel, sample size, or recognition percentage is
    required.
 9. Revise the J-shaped silhouette if it reads as liver, meat, bean, hook, or generic organ. Recheck both color
    and monochrome assets after revision.
 10. Rewrite selection and exclusion factors where needed, especially Open-ended, Already representable, and
     Faulty comparison. Use `N/A` instead of speculative positive factors.
-11. Rebuild the PDF with `python scripts/make_submission_pdf.py <proposal-markdown-path>` and add
-    `stomach/READINESS.md`.
+11. Rebuild the PDF with `python scripts/make_submission_pdf.py <proposal-markdown-path>`. If
+    `stomach/READINESS.md` is maintained, keep it to unresolved official filing conditions and handoff status.
 
 ## Required verification
 
@@ -88,18 +87,17 @@ or gate status. Do not draft from the rubric's example sentence patterns.
   pages, stranded headings, and incorrect pagination.
 - Report missing dependencies, blocked Google captures, or unavailable human testing explicitly.
 
-## Panel feedback loop
+## Optional editorial panel
 
-Submit the exact final artifact hash to the repeatable [`ESR/UTC-readiness panel`](../review-panel/README.md).
-Answer every written action with `ACCEPT`, `REJECT WITH REASON`, or `DEFER WITH OWNER AND DATE`. Material
-changes require a new hash and panel rerun. Treat the panel as an internal red team, never named-person or
-Unicode feedback.
+Use the repeatable [`ESR/UTC-readiness panel`](../review-panel/README.md) only when another editorial perspective
+would help. Its feedback is advisory and does not require an action ledger, numeric verdict, or automatic
+rerun. Treat it as internal editorial input, never named-person or Unicode feedback.
 
 ## Completion and handoff
 
 Commit only the complete Stomach prerelease lane. Do not push, merge, publish, or submit unless explicitly
 authorized. Report branch, base commit, prerelease version, commit hash, files changed, evidence and citations,
-Shuhan's visual-approval result, verification, readiness score/status, blockers, and coordinator promotion
+Shuhan's visual-approval result, verification, readiness status, blockers, and coordinator promotion
 notes.
 
 Allowed status: `REVISION REQUIRED`, `BLOCKED`, or `READY TO PUBLISH`. Do not use `READY TO SUBMIT` before a

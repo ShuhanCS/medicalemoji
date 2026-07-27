@@ -1,10 +1,10 @@
 # Best-in-Class Emoji Submission Specification
 
-Version: 3.2.1
+Version: 3.3.0
 
 Last checked: 2026-07-26
 
-Applies to: Kidney, Liver, and Stomach proposals for the 2026 Unicode intake
+Applies to: Kidney, Liver, Stomach, and White Blood Cell proposals for the 2026 Unicode intake
 
 ## Decision
 
@@ -221,7 +221,7 @@ historical emoji may provide context, but cannot be the reason for encoding.
 
 ### 1. Must-pass filing gates
 
-If any gate is unresolved, label the proposal `NOT READY TO SUBMIT` regardless of its score.
+If any gate is unresolved, label the proposal `NOT READY TO SUBMIT`.
 
 | Gate | Level | Required outcome |
 | --- | --- | --- |
@@ -237,7 +237,6 @@ If any gate is unresolved, label the proposal `NOT READY TO SUBMIT` regardless o
 | Selection factors | U | Every current inclusion and exclusion factor is answered; unsupported positive factors are marked `Not applicable`. |
 | Automatic-decline screen | U | No logo, brand, protected work, UI icon, signage, text, exact-image demand, directional variant, or other excluded category is present. |
 | Final QA | I | The PDF has no draft note, stale date, placeholder, broken image, clipped text, unreadable screenshot, or contradictory status statement. |
-| Independent panel | I | The exact final artifact has a complete five-seat ESR/UTC-readiness panel record, no unresolved hard blocker, and an action-by-action proposal-agent response. |
 
 ### 2. First-page contract
 
@@ -267,13 +266,14 @@ Required screenshots:
 4. Google Trends Image Search, concept versus `elephant`, Worldwide, widest date range.
 5. Google Books Ngram Viewer, concept versus `elephant`, widest available date range.
 
-For every capture, record the date, complete query URL, location, range, search mode, and any category filter.
-Use a private browser when possible. Do not silently crop away the settings or the result needed to reproduce
-the claim.
+In the PDF, show the query, capture date, comparator, and any range, location, mode, or filter needed to
+understand the result. Keep complete query URLs and other operational capture details in an internal record.
+Use a private browser when possible. Do not crop away the setting or result on which the proposal relies.
 
 Best-in-class evidence also does the following (`I`, unless the current guideline states otherwise):
 
-- Uses recent captures for a current filing unless an older snapshot adds historical value.
+- Uses suitable current evidence for the filing; a compliant capture does not need replacement after an
+  unrelated prose or artwork change.
 - Separates frequency evidence from examples of meaning.
 - Cites durable dictionary, standards, academic, or institutional sources for metaphorical and factual claims.
 - Explains ambiguous search terms and any filtering.
@@ -303,7 +303,7 @@ current revision date.
 **Accepted pattern:** Strong recent first pages treat this as metadata, not a pitch. The title names the entity;
 the names and date are easy to scan; no slogan or biography interrupts the required information.
 
-**Drafting pattern:** Use the exact title `Proposal for Emoji: <name>`, one compact submitter line, one main
+**Guidance:** Use the exact title `Proposal for Emoji: <name>`, one compact submitter line, one main
 contact, and an ISO date. Do not spend a paragraph establishing credentials, institutional prestige, or campaign
 history.
 
@@ -315,7 +315,7 @@ require a separate CLDR short-name or sort-location field, and keywords must not
 **Accepted pattern:** Strong proposals give concrete synonyms, actions, associations, or meanings that help a
 person find the emoji. They keep the category line short and use the current Emoji Ordering vocabulary.
 
-**Drafting pattern:** Use a compact keyword list and one category line. Add prose only when a name is genuinely
+**Guidance:** Use a compact keyword list and one category line. Add prose only when a name is genuinely
 ambiguous. Prefer familiar search words over technical taxonomies or an exhaustive medical vocabulary.
 
 #### Images and license
@@ -326,7 +326,7 @@ a rights statement that satisfies the current agreement.
 **Accepted pattern:** The best first pages show the four images in a simple matrix and state ownership or the
 open license directly. The artwork is allowed to carry the visual claim before the proposal discusses it.
 
-**Drafting pattern:** Show the assets, then use one precise ownership/license paragraph. If the art is external,
+**Guidance:** Show the assets, then use one precise ownership/license paragraph. If the art is external,
 include the source and license URL. Do not narrate commissioning, AI assistance, file conversion, asset hashes,
 or the validation pipeline unless a legal fact makes that information necessary.
 
@@ -339,9 +339,9 @@ the literal entity? Puns do not count, and the guideline says to use `N/A` witho
 extensions. Treasure Chest moves from valuables to discovery and sentimental value through concrete situations,
 not abstract claims of versatility.
 
-**Drafting pattern:** Start with one conclusion sentence. Follow with two to four established meanings, each
-understandable without specialist knowledge, and cite a dictionary or durable source when the meaning is not
-self-evident. Do not relabel clinical use cases as metaphor. Use `Not applicable` rather than inventing a pun.
+**Guidance:** Present the established meanings that materially strengthen this candidate, with a dictionary or
+durable source when the meaning is not self-evident. Do not relabel clinical use cases as metaphor. Use `Not
+applicable` rather than inventing a pun.
 
 #### Use in sequences
 
@@ -352,9 +352,8 @@ The guideline says to use `N/A` without compelling examples.
 The second emoji changes or narrows the message; it is not merely adjacent decoration. Some accepted historical
 proposals say the emoji stands alone, but that does not answer the current positive factor.
 
-**Drafting pattern:** Give two to five `candidate + existing emoji: resulting message` examples. Choose the
-clearest combinations, not every medically related emoji. If the sequences would require explanation longer than
-the message, write `Not applicable`.
+**Guidance:** Give only the clearest combinations. If they require more explanation than the resulting message,
+write `Not applicable`.
 
 #### Breaks new ground
 
@@ -365,9 +364,8 @@ variant of an existing emoji or sequence?
 cannot convey. Treasure Chest distinguishes discovery and sentimental value from money; Lighthouse identifies a
 maritime guidance structure not expressed by a house, flashlight, or wave.
 
-**Drafting pattern:** Use `Yes.` or `No.` first. Then write: `[closest emoji or sequence] expresses [existing
-meaning], but it does not express [remaining meaning]. [Candidate] adds [broad communicative function].` Do not
-argue that the field, disease, or organ is important, or that similar emoji already exist.
+**Guidance:** Answer `Yes` or `No`, then explain the candidate's new meaning in its own natural language. Do not
+copy a shared sentence structure or argue that importance and the existence of similar emoji justify encoding.
 
 #### Distinctiveness
 
@@ -378,19 +376,17 @@ emoji size, especially 18x18.
 points to the open rounded chest and coins; Apple's accessibility proposal explains why a hearing aid needed an
 ear to establish its identity. The explanation stays on what a person can see.
 
-**Drafting pattern:** Write: `[Candidate] is shown with [two to four stable visible cues]. At 18 pixels, [primary
-cue] distinguishes it from [nearest visual alternatives]. Vendors may vary [nonessential details] while keeping
-[essential cues].`
+**Guidance:** Explain the visible cues that make this particular design recognizable at 18 pixels and the
+features vendors should preserve. Use an actual-size comparison only when it makes the visual case clearer.
 **Internal human approval:** Shuhan He reviews the exact 18x18 and 72x72 color and black-and-white assets at
 actual size beside the nearest visual alternatives and records a dated `APPROVE` or `REVISE` decision. His
 approval is the complete human image gate for this project. No participant panel, blind test, crowd study,
 minimum sample size, recognition percentage, or confusion matrix is required. Any material artwork change
 invalidates the prior approval and returns the final assets to Shuhan.
 
-Computer checks remain useful internal controls for dimensions, palette, connectedness, and geometric
-separation. Their algorithms, hashes, pinned assets, thresholds, pass/fail language, and machine-readable reports
-belong in `READINESS`, validation, or QA records, not the submission PDF. Keep reviewer-facing prose focused on
-the visible features that distinguish the image at emoji size.
+Computer checks are optional internal controls. Dimensions and true black-and-white palette must be correct;
+geometric separation scores, hashes, thresholds, and machine-readable reports are not Unicode evidence. Keep
+reviewer-facing prose focused on visible features at emoji size.
 
 #### Expected usage level
 
@@ -401,9 +397,8 @@ historical use of the concept.
 date, and settings. Fingerprint labels searches and dates so the reader can reproduce them; Orca connects its
 comparison to the candidate's actual case.
 
-**Drafting pattern:** Lead with one synthesis sentence about breadth, durability, or relative interest. Give the
-observed figures and settings next to their screenshots. Explain an ambiguous search only when the ambiguity
-would prevent a reviewer from understanding the exhibit. Do not bury the result in methodological disclaimers.
+**Guidance:** Summarize what the exhibits demonstrate, give the essential figures and settings next to their
+screenshots, and explain ambiguity only when it affects interpretation. Do not bury the result in methodology.
 Disease prevalence, professional importance, or an organization's audience cannot substitute for
 concept-frequency data.
 
@@ -415,8 +410,8 @@ types? Scientific and taxonomic categories are not fixed sets for this purpose.
 **Accepted pattern:** Concise successful proposals commonly write `N/A`. A positive answer works only when the
 proposal can name the finite set, its existing members, and how this one addition closes it.
 
-**Drafting pattern:** For an organ, write `Not applicable.` Do not convert an anatomy taxonomy into a finite set
-or say that existing body-part emoji create an entitlement to another.
+**Guidance:** For an organ, a concise `Not applicable` is normally sufficient. Do not convert an anatomy
+taxonomy into a finite set or say that existing body-part emoji create an entitlement to another.
 
 #### Compatibility
 
@@ -427,7 +422,7 @@ Unicode encoding necessary for interoperability?
 explain the mismatch encoding would resolve. Meteor is the clearest current model because its case concerns
 inconsistent vendor implementations, not generic popularity or similar imagery online.
 
-**Drafting pattern:** Unless equivalent system evidence exists, write `Not applicable.` If it does exist, name
+**Guidance:** Unless equivalent system evidence exists, write `Not applicable.` If it does exist, name
 the systems, show the same pictograph in use, quantify or document high usage, and state the exact interoperability
 problem. Stickers, search images, branding, and ordinary social-media posts are not compatibility by themselves.
 
@@ -440,9 +435,8 @@ same picture?
 Fingerprint addresses Index Pointing Up directly; Treasure Chest explains why money emoji cannot carry discovery
 or sentimental value. Merely saying “there is no stomach emoji” does not answer the test.
 
-**Drafting pattern:** Write: `[strongest substitute] can express [overlap], but it cannot clearly express [specific
-remaining meanings].` Address meaning before appearance, and do not construct an implausibly long sequence just
-to make the candidate look necessary.
+**Guidance:** Explain in candidate-specific language why existing emoji or a realistic short sequence is not
+equivalent. Address meaning before appearance.
 
 #### Overly specific
 
@@ -452,7 +446,7 @@ to make the candidate look necessary.
 form is a recognizable example rather than a request for a narrow subtype. Treasure Chest explains that the coins
 make the broad concept readable without limiting the meaning to coins.
 
-**Drafting pattern:** State the broad communicative category first, then distinguish the candidate from a disease,
+**Guidance:** State the broad communicative category first, then distinguish the candidate from a disease,
 procedure, specialty, brand, model, species variant, or decorative style. Do not defend specificity by saying
 that Unicode already encoded something equally narrow; that becomes faulty comparison.
 
@@ -465,9 +459,9 @@ principled reason to choose this one?
 is obviously true. Better answers identify the neighboring concepts a reviewer will raise and show why this
 candidate's independent meanings, usage, or function make it separately selectable.
 
-**Drafting pattern:** Name the likely follow-on candidates and explain the boundary that prevents automatic
-expansion. For organs, do not promise that no other organ will ever be proposed and do not argue that anatomy
-should be completed. Show why this organ stands on its own under the same criteria.
+**Guidance:** Explain the candidate-specific reason selection does not require automatic expansion. Name
+neighboring concepts only when doing so makes that boundary clearer. Do not argue that anatomy should be
+completed.
 
 #### Transient
 
@@ -477,9 +471,8 @@ should be completed. Show why this organ stands on its own under the same criter
 Books Ngram evidence. Treasure Chest ties the symbol to longstanding cross-cultural use and a durable literary
 trope rather than merely asserting that treasure is old.
 
-**Drafting pattern:** Give one conclusion sentence and one or two dated, cited indicators of continuity. Avoid
-unsupported phrases such as “since the beginning of time” or assuming that biological age proves communicative
-durability.
+**Guidance:** Use the most relevant durable evidence of continuity. Do not assume that biological age alone
+proves communicative durability.
 
 #### Faulty comparison
 
@@ -489,9 +482,8 @@ encoded in the past?
 **Accepted pattern:** Strong answers disclaim analogy briefly and restate the independent basis: current use,
 distinct meaning, and recognizability. They do not reopen a catalog of historical inconsistencies.
 
-**Drafting pattern:** Write: `This proposal does not depend on [existing emoji] being encoded. Its case rests on
-[candidate's independent use, meanings, and visual identity].` Never write “Heart and Lungs exist, so Kidney
-should too.”
+**Guidance:** Answer briefly in natural candidate-specific language. Do not restate the entire proposal or argue
+that the existence of one encoded item creates an entitlement to another.
 
 #### Other information
 
@@ -500,7 +492,7 @@ should too.”
 **Accepted pattern:** The most useful answers advise vendors which visual cues are essential and which may vary.
 Treasure Chest recommends a simple coin-filled design because other contents become unclear at small sizes.
 
-**Drafting pattern:** Use one short paragraph about vendor freedom and essential cues. Add naming or cultural
+**Guidance:** Use a short paragraph about vendor freedom and essential cues. Add naming or cultural
 ambiguity only when it changes implementation. Do not put biographies, advocacy, internal scores, test methods,
 release status, asset manifests, or project workflow here.
 
@@ -514,10 +506,10 @@ available ranges.
 short interpretation rather than forcing the reviewer to infer the result. They record dates and settings and
 state the relevant result accurately.
 
-**Drafting pattern:** For each source use: `Captured <date> using <query/settings>. The displayed result shows
-<observation>.` Add disambiguation only when essential to interpret the result. Keep the complete reproducible
-URL with the capture record; in the PDF, use a readable link treatment that does not break the page. Never use
-petitions, hashtags, calls for the emoji, or endorsements as frequency evidence.
+**Guidance:** Label each source, show the essential query and settings, and add a short interpretation. Keep the
+complete URL and operational metadata in the capture record. In the PDF, include a readable source link only
+when it helps verification. Never use petitions, hashtags, calls for the emoji, or endorsements as frequency
+evidence.
 
 ### 5. Writing, language, and layout standard
 
@@ -529,8 +521,7 @@ petitions, hashtags, calls for the emoji, or endorsements as frequency evidence.
   technical term merely because it sounds more precise.
 - Keep internal QA language out of the proposal. Do not publish algorithms, hashes, thresholds, gates, pass/fail
   reports, pinned-asset language, or machine-validation statistics unless Unicode specifically requests them.
-- Give each paragraph one job: conclusion first, strongest evidence or example second, nearest objection when
-  relevant, then stop.
+- Give each paragraph one job: make the point, support it with the most useful evidence or example, then stop.
 - Use no more prose than the case needs. There is no validated winning word, page, or image-count threshold. A
   short proposal is useful only when it remains complete and evidentially strong.
 - Use direct section names that mirror the current guidelines, and preserve their current order.
@@ -557,50 +548,25 @@ petitions, hashtags, calls for the emoji, or endorsements as frequency evidence.
   satisfy an assumed preferred author count.
 
 Unicode requires one emoji per proposal; it does not forbid one submitter from filing three separate proposals
-in the same cycle. Kidney, Liver, and Stomach may therefore be filed as three documents. Because parallel organ
-proposals intensify the `Open-ended` objection, each document must avoid a set-completion argument and prove why
-that organ independently deserves one of the limited annual additions. Do not promise that no other organ will
-be proposed, and do not claim that filing one organ logically requires the other two.
+in the same cycle. Kidney, Liver, and Stomach may therefore be filed as three documents. Each document must make
+its own candidate-specific case and avoid a set-completion argument. Do not promise that no other organ will be
+proposed, and do not claim that filing one organ logically requires the other two.
 
-## Internal 100-point readiness score
-
-This is a project control, not a Unicode score or approval prediction.
-
-| Area | Points | Full-credit standard |
-| --- | ---: | --- |
-| Eligibility and coordination | 15 | Confirmation archived; no duplicate filing risk; authorship confirmed. |
-| First-page format | 10 | Every current first-page requirement is correct and easy to find. |
-| Image package and rights | 15 | Rights are clear; four exact assets pass technical checks and have Shuhan's recorded actual-size approval. |
-| Frequency and empirical evidence | 20 | Five current, reproducible captures plus citations for material usage claims. |
-| Inclusion factors | 15 | Each factor is direct, evidenced, and uses `N/A` where appropriate. |
-| Exclusion factors | 10 | Strongest reviewer objections are answered specifically. |
-| Worldwide and durable case | 5 | Evidence is worldwide where available and avoids cause-only framing. |
-| Validation and reproducibility | 5 | Computer checks, sources, thresholds, hashes, and machine-readable results reproduce cleanly. |
-| Packet and filing control | 5 | Versioned packet, clean PDF, public URL, and filing record are synchronized. |
-
-Minimum to circulate: 80/100 with every known gap labeled.
-
-Minimum to file: 90/100, every must-pass gate complete.
-
-Target for these resubmissions: 100/100 before filing.
-
-## One-at-a-time audit and correction workflow
+## Finalization workflow
 
 For each concept, complete the following before moving to the next:
 
 1. Freeze the exact author list and confirm one point of contact.
-2. Red-team the strongest `Already representable`, `Overly specific`, and `Open-ended` objections.
-3. Verify every factual claim has a citation or remove it.
-4. Recapture all five required evidence sources with current, widest-range settings.
-5. Build nearest-emoji art comparisons, run the reproducible 18x18 computer validation, and obtain Shuhan's
-   dated approval of the exact four final assets at actual size.
-6. Revise the source, update the date, and rebuild the PDF.
-7. Render every page and inspect it visually.
-8. Run technical checks for image dimensions/colors, text extraction, fonts, encryption, links, and file size.
-9. Run the reusable [ESR/UTC-readiness panel](review-panel/README.md) on the exact artifact hash. Resolve or
-   explicitly reject every action with evidence; rerun all affected seats after material changes.
-10. Obtain domain/factual and Unicode/process signoff on the exact PDF.
-11. Publish the exact PDF, verify the logged-out URL, file the official form, and archive confirmation.
+2. Confirm that every official section is present and answers its question directly.
+3. Include the five required frequency exhibits and cite material factual claims. Recapture only evidence that
+   is missing, stale, unreadable, or noncompliant.
+4. Confirm exact image dimensions, true black-and-white assets, rights, and Shuhan's review of the exact final
+   artwork. Use additional comparisons or computer checks only when helpful.
+5. Revise the source, update the date, rebuild the PDF, and inspect every rendered page.
+6. Use an internal panel only when another editorial perspective would help. Its feedback is advisory; no
+   action ledger, numeric verdict, or automatic rerun is required.
+7. Obtain the necessary factual and Unicode-process checks on the exact PDF.
+8. Publish the exact PDF, verify the logged-out URL, file the official form, and archive confirmation.
 
 Every workspace, rubric, and submission-package version introduced by this workflow must be valid Semantic
 Versioning 2.0.0. Concept-lane revisions use a prerelease identifier, such as `1.12.0-liver.5`, rather than an
@@ -608,7 +574,6 @@ informal suffix that cannot be parsed as SemVer.
 
 ## Definition of submission-worthy
 
-A proposal is submission-worthy only when it has no unresolved must-pass gate, scores at least 90/100, and its
-authorship, rights, art, evidence, validation, and independent selection case are reproducible without relying
-on outside campaign context. Eligibility alone means the proposal may be filed; it does not mean the proposal
-is ready or likely to advance.
+A proposal is submission-worthy when the official filing gates are complete, the exact PDF has been checked,
+and the candidate-specific selection case is compelling. Optional internal QA does not create additional filing
+gates unless it reveals an actual compliance, factual, artwork, or presentation problem.

@@ -1,6 +1,6 @@
 # Proposal-Building Instructions for Agents
 
-Version: 1.1.1
+Version: 1.2.0
 
 Date: 2026-07-26
 
@@ -59,6 +59,21 @@ do not imply that every cell type, test result, or disease marker should be enco
 Preserve the latest confirmed authorship, consent, rights, and eligibility records. Shuhan He may be the main
 point of contact without being the only author. Never infer missing approvals or endorsements.
 
+## Separate submission evidence from internal QA
+
+The proposal must contain the evidence, citations, artwork, rights statement, and factor answers required by
+the current Unicode instructions. Present that material in the clearest form needed for a reviewer to
+understand and verify it.
+
+Detailed capture logs, full query URLs, asset hashes, validation scripts, geometric measurements, readiness
+scores, comparison boards, and simulated review records are internal tools. Use them only when they help the
+work. They are not additional Unicode requirements and should not appear in the proposal unless a particular
+item directly clarifies the candidate's case.
+
+Keep enough query, date, comparator, range, and location information with each frequency exhibit to make it
+understandable and reproducible. Archive the remaining capture details outside the PDF. A compliant exhibit
+does not need to be recaptured merely because prose, artwork, or another unrelated part of the package changed.
+
 ## Write each section to help the decision
 
 The table describes what a compelling answer commonly accomplishes. It does not prescribe paragraph length
@@ -70,7 +85,7 @@ or wording. Give a factor only the space justified by this candidate's case.
 | Use in sequences | Whether a few natural combinations express recognizable messages better than the existing emoji set. Prefer clear examples over an exhaustive list. |
 | Breaks new ground | What useful semantic or visual unit is currently missing, especially after considering the closest substitute. |
 | Distinctiveness | Why the proposed image remains identifiable at emoji size and distinguishable from likely confusers while leaving vendors normal design freedom. |
-| Expected usage | How the required evidence supports likely use. Preserve reproducible settings and interpret each result proportionately. |
+| Expected usage | How the required evidence supports likely use. Show the essential query and settings, interpret each result proportionately, and keep operational capture detail outside the proposal. |
 | Completeness | Whether the candidate fills a genuinely established set. Use `N/A` when the argument would only be an anatomy checklist. |
 | Compatibility | Whether the same pictograph already has meaningful use in a popular system. Visual resemblance or a niche icon set is not enough. |
 | Already representable | Why existing emoji or a short sequence does not convey the candidate's central meaning precisely enough. |
@@ -111,10 +126,9 @@ The agent should adapt this sequence to the maturity of the assigned proposal:
    decision. Remove generic repetition and unsupported claims.
 5. Check the finished proposal against the official requirements, repository rubric, and historical evidence.
    The rubric is final quality control, not a fill-in-the-blank writing system.
-6. Rebuild and inspect the PDF, obtain Shuhan He's review of the exact final images, and run the internal
-   ESR/UTC-readiness panel on the exact artifact when the lane specification requires it.
-7. Resolve useful panel feedback while preserving the proposal's clear affirmative case. Material artifact
-   changes require the normal recheck and panel rerun.
+6. Rebuild and inspect the PDF and obtain Shuhan He's review of the exact final images.
+7. If an internal panel is used, treat its feedback as editorial advice. Apply only changes that improve
+   compliance, accuracy, clarity, or persuasion; do not create an objection ledger or automatic rerun cycle.
 
 The agent may keep research notes or a claim ledger when useful, but no additional file or status is required
 by this shared guidance. Follow the concept-specific lane specification for required deliverables and report

@@ -1,6 +1,6 @@
 # White Blood Cell Proposal Agent Specification
 
-Version: 1.3.1
+Version: 1.4.0
 
 Status: Ready to assign
 
@@ -32,8 +32,6 @@ Read completely:
 - `docs/proposals/CASE-BUILDING-AND-DRAFTING-INSTRUCTIONS.md`
 - `docs/proposals/emoji-proposal-approval-rubric.md`
 - `submissions/v1.8.0/manifest.md`
-- `submissions/v1.8.0/BEST-IN-CLASS-RUBRIC.md`
-- `submissions/v1.8.0/IDEAL-EMOJI-PROPOSAL-TEMPLATE.md`
 - `submissions/v1.8.0/white-blood-cell/white-blood-cell_emoji_proposal_DRAFT.md`
 - The entire rendered v1.8.0 White Blood Cell PDF
 - `docs/proposals/archive-2020-emojination-drafts/white-blood-cell-organ.md`
@@ -64,21 +62,24 @@ or gate status. Do not draft from the rubric's example sentence patterns.
    Trends comparison using the same standard.
 3. Verify or recapture the Ngram comparison against `elephant`, including the widest available range and a
    reproducible query record.
-4. Record full query URLs, dates, location, range, search mode, filters, visible result counts, and limitations.
-5. Red-team Microbe, Drop of Blood, Test Tube, Microscope, Shield, and generic-cell imagery as substitutes.
-6. Cite or remove claims about immunity, infection, inflammation, white-cell counts, laboratory testing,
-   chemotherapy monitoring, education, and research. Disease burden cannot be the encoding case.
-7. Build color and black-and-white comparison boards at 18x18 and 72x72 against Microbe, Drop of Blood, Soap,
-   Bubbles, and a generic cell.
-8. Present the exact four final assets at actual size beside `microbe/germ`, generic cell, and the other declared
-   alternatives to Shuhan He. Record his dated `APPROVE` or `REVISE` decision; no participant panel, sample
-   size, or recognition percentage is required.
+4. Preserve full URLs and operational capture details in an internal record. In the PDF, show only the query,
+   date, comparator, settings, result, and limitation needed to understand each exhibit.
+5. Explain White Blood Cell's relevant semantic and visual distinctions from Microbe, Drop of Blood, Test Tube,
+   Microscope, Shield, and generic-cell imagery without turning the section into a catalog of objections.
+6. Cite the material claims about immunity, infection, inflammation, white-cell counts, laboratory testing,
+   treatment monitoring, education, and research on which the selection case depends. Combine citations where
+   practical. Disease burden cannot be the encoding case.
+7. Use actual-size comparison boards only if they help resolve or explain the artwork.
+8. Present the exact four final assets at actual size, with useful alternatives when needed, to Shuhan He.
+   Record his dated `APPROVE` or `REVISE` decision; no participant panel, sample size, or recognition percentage
+   is required.
 9. Revise the paradigm if the lobed nucleus disappears or the image reads as a face, germ, bubble, or generic
    cell. Re-run technical checks and obtain fresh Shuhan approval after any art change.
 10. Rewrite the proposal under the current factor order, using `N/A` for unsupported factors and directly
     answering Already representable, Overly specific, Open-ended, Transient, and Faulty comparison.
-11. Rebuild the PDF with `python scripts/make_submission_pdf.py <proposal-markdown-path>` and add
-    `white-blood-cell/READINESS.md`.
+11. Rebuild the PDF with `python scripts/make_submission_pdf.py <proposal-markdown-path>`. If
+    `white-blood-cell/READINESS.md` is maintained, keep it to unresolved official filing conditions and handoff
+    status.
 
 ## Required verification
 
@@ -92,18 +93,17 @@ or gate status. Do not draft from the rubric's example sentence patterns.
   layout defects.
 - Report any browser/CAPTCHA, dependency, or human-testing limitation rather than working around it silently.
 
-## Panel feedback loop
+## Optional editorial panel
 
-Submit the exact final artifact hash to the repeatable [`ESR/UTC-readiness panel`](../review-panel/README.md).
-Answer every written action with `ACCEPT`, `REJECT WITH REASON`, or `DEFER WITH OWNER AND DATE`. Material
-changes require a new hash and panel rerun. Treat the panel as an internal red team, never named-person or
-Unicode feedback.
+Use the repeatable [`ESR/UTC-readiness panel`](../review-panel/README.md) only when another editorial perspective
+would help. Its feedback is advisory and does not require an action ledger, numeric verdict, or automatic
+rerun. Treat it as internal editorial input, never named-person or Unicode feedback.
 
 ## Completion and handoff
 
 Commit only the complete White Blood Cell prerelease lane. Do not push, merge, publish, or submit unless
 explicitly authorized. Report the branch, base commit, prerelease version, commit hash, changed files, evidence
-captures, citations, Shuhan's visual-approval result, verification, score, status, blockers, and coordinator
+captures, citations, Shuhan's visual-approval result, verification, status, blockers, and coordinator
 promotion notes.
 
 Allowed status: `REVISION REQUIRED`, `BLOCKED`, or `READY TO PUBLISH`. `READY TO SUBMIT` is forbidden until the

@@ -1,6 +1,6 @@
 # Kidney Proposal Agent Specification
 
-Version: 1.5.1
+Version: 1.6.0
 
 Status: Completed in canonical package v1.10.0; retain for audit only
 
@@ -34,8 +34,6 @@ Read all of the following completely:
 - `docs/proposals/emoji-proposal-approval-rubric.md`
 - `docs/proposals/2026-organ-submission-audit.md`, especially the Kidney audit
 - `submissions/v1.9.0/manifest.md`
-- `submissions/v1.9.0/BEST-IN-CLASS-RUBRIC.md`
-- `submissions/v1.9.0/IDEAL-EMOJI-PROPOSAL-TEMPLATE.md`
 - `submissions/v1.9.0/kidney/kidney_emoji_proposal_SUBMIT.md`
 - The entire rendered v1.9.0 Kidney PDF
 
@@ -67,21 +65,23 @@ or gate status. Do not draft from the rubric's example sentence patterns.
    language that substitutes for expected use.
 2. Strengthen the independent semantic case against Beans, Droplet, Anatomical Heart, Lungs, and generic
    medical sequences. Do not argue that Unicode should complete an organ set.
-3. Verify every 2026 Search, Video, Web Trends, Image Trends, and Ngram capture for readability, query settings,
+3. Verify the five required Search, Video, Web Trends, Image Trends, and Ngram captures for readability, query settings,
    widest range, worldwide scope where supported, `elephant` comparator, capture date, and reproducibility.
    Recapture only evidence that fails current requirements.
-4. Cite durable sources for literal and metaphorical uses, transplant/donation contexts, dialysis, hydration,
-   laboratory or medication claims. Remove plausible but unsupported use sequences.
-5. Build a nearest-emoji comparison at actual 18x18 and 72x72 sizes in color and black-and-white.
-6. Run the reproducible computer validator with pinned comparator sources, hashes, declared thresholds, and
-   machine-readable output. Present the exact four final assets and comparison board to Shuhan He at actual
-   size and record his dated `APPROVE` or `REVISE` decision. No human-recognition panel is required.
-7. If the art fails the computer thresholds, revise the source so the medial notch, hilum, and short attachment survive in both small
-   paradigms without turning the image into a bean, bulb, balloon, or food icon.
+4. Cite the material literal, metaphorical, and medical-use claims on which the selection case depends. Combine
+   citations where one authoritative source supports a paragraph; remove unsupported speculative uses.
+5. Use an actual-size nearest-emoji comparison only if it makes the visual case clearer. Present the exact four
+   final assets to Shuhan He at actual size and record his dated `APPROVE` or `REVISE` decision. No
+   human-recognition panel is required.
+6. Use a computer validator only as an optional internal design aid. Do not include its algorithms, hashes,
+   thresholds, scores, or pass/fail narrative in the public proposal.
+7. If Shuhan's actual-size review or an optional design check finds the image unclear, revise the source so the
+   medial notch, hilum, and short attachment survive in both small paradigms without turning the image into a
+   bean, bulb, balloon, or food icon.
 8. Rebuild the PDF whenever source text or embedded assets change using
    `python scripts/make_submission_pdf.py <proposal-markdown-path>`.
-9. Add `kidney/READINESS.md` with the must-pass gate table, updated internal score, findings by severity,
-   exact changes, unresolved blockers, and one permitted status.
+9. If `kidney/READINESS.md` is maintained, keep it to unresolved official filing conditions, exact changes,
+   and handoff status. Do not assign a proposal score or reproduce internal QA in the public proposal.
 
 ## Required verification
 
@@ -95,12 +95,11 @@ or gate status. Do not draft from the rubric's example sentence patterns.
   awkward breaks, and incorrect page numbers.
 - Run repository lint/build only if dependencies are installed; report unavailable checks honestly.
 
-## Panel feedback loop
+## Optional editorial panel
 
-Submit the exact final artifact hash to the repeatable [`ESR/UTC-readiness panel`](../review-panel/README.md).
-Answer every written action with `ACCEPT`, `REJECT WITH REASON`, or `DEFER WITH OWNER AND DATE`. Material
-changes require a new hash and panel rerun. Treat the panel as an internal red team, never named-person or
-Unicode feedback.
+Use the repeatable [`ESR/UTC-readiness panel`](../review-panel/README.md) only when another editorial perspective
+would help. Its feedback is advisory and does not require an action ledger, numeric verdict, or automatic
+rerun. Treat it as internal editorial input, never named-person or Unicode feedback.
 
 ## Completion and handoff
 
@@ -111,9 +110,9 @@ submit unless explicitly authorized. Report:
 - prerelease version and commit hash;
 - files changed and files intentionally carried forward;
 - evidence recaptured and sources cited;
-- computer-validation result, including thresholds, comparator hashes, and machine-readable output;
+- visual or technical checks used when they materially informed the artwork;
 - verification performed;
-- readiness score and status;
+- readiness status;
 - blockers and exact coordinator promotion notes.
 
 Allowed status: `REVISION REQUIRED`, `BLOCKED`, or `READY TO PUBLISH`. Never claim `READY TO SUBMIT` without the

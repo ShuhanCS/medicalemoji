@@ -5,6 +5,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.48.0] - 2026-07-26
+
+### Changed
+- Separated official Unicode submission evidence from optional internal QA throughout the proposal guidance,
+  rubric, slate workflow, template, review panel, and four active agent specifications.
+- Removed the internal 100-point score, mandatory comparison and computer-validation gates, exact-hash panel
+  gate, action ledger, automatic panel reruns, and exact drafting formulas.
+- Kept the five required frequency exhibits, material citations, official factor answers, exact-size artwork,
+  rights, authorship, eligibility, public-PDF, and filing requirements as must-pass conditions.
+- Advanced the shared guidance to `1.2.0`, proposal rubric to `3.3.0`, slate specification to `1.8.0`, panel
+  protocol to `1.1.0`, agent coordination and Kidney specification to `1.6.0`, the other three active agent
+  specifications to `1.4.0`, and the workspace to `0.48.0`.
+
 ## [0.47.2] - 2026-07-26
 
 ### Changed

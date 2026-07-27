@@ -1,6 +1,6 @@
 # Liver Proposal Agent Specification
 
-Version: 1.3.1
+Version: 1.4.0
 
 Status: Ready to assign
 
@@ -30,8 +30,6 @@ Read completely:
 - `docs/proposals/emoji-proposal-approval-rubric.md`
 - The Liver audit in `docs/proposals/2026-organ-submission-audit.md`
 - `submissions/v1.8.0/manifest.md`
-- `submissions/v1.8.0/BEST-IN-CLASS-RUBRIC.md`
-- `submissions/v1.8.0/IDEAL-EMOJI-PROPOSAL-TEMPLATE.md`
 - `submissions/v1.8.0/liver/liver_emoji_proposal_SUBMIT.md`
 - The entire rendered v1.8.0 Liver PDF
 - Relevant files in `docs/proposals/liver-emoji-2026/`
@@ -60,21 +58,23 @@ or gate status. Do not draft from the rubric's example sentence patterns.
 2. Replace the old Web and Image Trends captures, especially U.S.-only charts, with worldwide widest-range
    comparisons against `elephant`.
 3. Validate or recapture the Ngram comparison against `elephant` with the widest available range.
-4. Preserve full query URLs, dates, ranges, locations, modes, filters, visible results, and limitations.
-5. Cite or remove claims about metabolism, detoxification, disease, donation/transplant, food/cuisine, courage,
-   temperament, or other metaphorical and cultural meanings. Medical importance is not expected-use evidence.
-6. Red-team Stomach, Anatomical Heart, meat/food emoji, Beans, and generic organ imagery as substitutes or
-   confusion targets.
-7. Build comparison boards at 18x18 and 72x72 in color and black-and-white.
-8. Present the exact four final assets at actual size beside the declared alternatives to Shuhan He and record
+4. Preserve full URLs and operational capture details in an internal record. In the PDF, show only the query,
+   date, comparator, settings, result, and limitation needed to understand each exhibit.
+5. Cite the material claims about metabolism, disease, donation/transplant, food/cuisine, or cultural meanings
+   on which the selection case depends. Combine citations where practical. Medical importance is not
+   expected-use evidence.
+6. Explain Liver's relevant semantic and visual distinctions from Stomach, Anatomical Heart, meat/food emoji,
+   Beans, and generic organ imagery without turning the section into a catalog of objections.
+7. Use actual-size comparison boards only if they help resolve or explain the artwork.
+8. Present the exact four final assets at actual size, with useful alternatives when needed, to Shuhan He and record
    his dated `APPROVE` or `REVISE` decision. No participant panel, sample size, or recognition percentage is
    required.
 9. Rework both small silhouettes until the liver reads reliably without depending on internal details that
    disappear at emoji size. Retest after each art revision.
 10. Keep Multiple meanings, Completeness, and Compatibility as `N/A` unless strong cited evidence survives
     review. Rewrite Already representable, Overly specific, Open-ended, Transient, and Faulty comparison.
-11. Rebuild the PDF using `python scripts/make_submission_pdf.py <proposal-markdown-path>` and add
-    `liver/READINESS.md`.
+11. Rebuild the PDF using `python scripts/make_submission_pdf.py <proposal-markdown-path>`. If
+    `liver/READINESS.md` is maintained, keep it to unresolved official filing conditions and handoff status.
 
 ## Required verification
 
@@ -88,18 +88,17 @@ or gate status. Do not draft from the rubric's example sentence patterns.
   page breaks, and pagination errors.
 - State any missing dependency, blocked capture, or unavailable human-testing gate honestly.
 
-## Panel feedback loop
+## Optional editorial panel
 
-Submit the exact final artifact hash to the repeatable [`ESR/UTC-readiness panel`](../review-panel/README.md).
-Answer every written action with `ACCEPT`, `REJECT WITH REASON`, or `DEFER WITH OWNER AND DATE`. Material
-changes require a new hash and panel rerun. Treat the panel as an internal red team, never named-person or
-Unicode feedback.
+Use the repeatable [`ESR/UTC-readiness panel`](../review-panel/README.md) only when another editorial perspective
+would help. Its feedback is advisory and does not require an action ledger, numeric verdict, or automatic
+rerun. Treat it as internal editorial input, never named-person or Unicode feedback.
 
 ## Completion and handoff
 
 Commit only the complete Liver prerelease lane. Do not push, merge, publish, or submit unless explicitly
 authorized. Report branch, base commit, prerelease version, commit hash, files changed, evidence/citations,
-Shuhan's visual-approval result, verification, readiness score/status, blockers, and coordinator promotion
+Shuhan's visual-approval result, verification, readiness status, blockers, and coordinator promotion
 notes.
 
 Allowed status: `REVISION REQUIRED`, `BLOCKED`, or `READY TO PUBLISH`. Never claim `READY TO SUBMIT` without a

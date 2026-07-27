@@ -1,6 +1,6 @@
 # 2026 Emoji Submission Slate and Serial Agent Execution Specification
 
-Version: 1.7.0
+Version: 1.8.0
 
 Date: 2026-07-26
 
@@ -33,16 +33,13 @@ and Shuhan-approval gates as the other proposals. No other Medical Emoji concept
 
 ## Review order
 
-| Order | Proposal | Baseline packet | Prior internal baseline | Why this order |
-| ---: | --- | --- | ---: | --- |
-| 1 | Kidney | [v1.12.0-kidney.3 review lane](../../submissions/v1.12.0-kidney.3/kidney/) | 92/100 provisional | Rubric 3.1.0 prose, page-one rights, evidence captions, and PDF layout are corrected; all ten authors remain; one internal Lungs comparison and external filing gates remain open. |
-| 2 | White Blood Cell | [v1.8.0 White Blood Cell](../../submissions/v1.8.0/white-blood-cell/) | Not yet rescored | Determine whether its cell paradigm is recognizable and independently selective before investing in the full filing packet. |
-| 3 | Stomach | [v1.8.0 Stomach](../../submissions/v1.8.0/stomach/) | 77/100 | Strong semantic and silhouette case; four frequency captures must be refreshed and enlarged. |
-| 4 | Liver | [v1.8.0 Liver](../../submissions/v1.8.0/liver/) | 64/100 | Requires the most work: current worldwide evidence, stronger small-size art, and better support for usage claims. |
-| 5 | Pill Pack | [v1.3.0 Pill Pack](../../submissions/v1.3.0/pill-pack/) | Not yet rescored | Provisional go/no-go evaluation. The existing draft lacks compliant Trends evidence and must overcome Pill/Pill Box substitution, name confusion, and small-size recognition risk. |
-
-The baseline scores came from the earlier readiness audit. They are not Unicode scores or approval
-probabilities, and each proposal must be rescored after correction under the current proposal-level rubric.
+| Order | Proposal | Baseline packet | Starting condition | Why this order |
+| ---: | --- | --- | --- | --- |
+| 1 | Kidney | [v1.12.0-kidney.3 review lane](../../submissions/v1.12.0-kidney.3/kidney/) | Advanced draft | Page-one rights, evidence captions, and PDF layout are corrected; all ten authors remain; visual review and external filing gates remain open. |
+| 2 | White Blood Cell | [v1.8.0 White Blood Cell](../../submissions/v1.8.0/white-blood-cell/) | Evidence incomplete | Determine whether its cell paradigm is recognizable and independently selective before investing in the full filing packet. |
+| 3 | Stomach | [v1.8.0 Stomach](../../submissions/v1.8.0/stomach/) | Strong case; stale captures | Strong semantic and silhouette case; four frequency captures must be refreshed and enlarged. |
+| 4 | Liver | [v1.8.0 Liver](../../submissions/v1.8.0/liver/) | Major revision | Requires current worldwide evidence, stronger small-size art, and better support for usage claims. |
+| 5 | Pill Pack | [v1.3.0 Pill Pack](../../submissions/v1.3.0/pill-pack/) | Go/no-go evaluation | The existing draft lacks compliant Trends evidence and must overcome Pill/Pill Box substitution, name confusion, and small-size recognition risk. |
 
 ## Concept-specific authorship
 
@@ -141,7 +138,7 @@ and the canonical package sequence.
    PNGs, editable proposal source, and the generated PDF together.
 7. Run content, image, link, and PDF checks; render every changed PDF page and inspect it visually.
 8. Commit the complete snapshot and report the commit, package version, files changed, checks run, readiness
-   score, and open blockers. Do not push, publish a PDF, file the Unicode form, or merge without coordinator
+   status, and open blockers. Do not push, publish a PDF, file the Unicode form, or merge without coordinator
    authorization.
 9. The coordinator verifies each lane, then promotes accepted concept deltas into cumulative canonical packages
    in the declared order. Do not merge an agent branch wholesale into the integration branch.
@@ -170,7 +167,7 @@ The review must answer:
 3. Does the concept represent a broad building block rather than a disease, specialty, subtype, or campaign?
 4. Why is this candidate independently useful despite its nearest related concepts?
 5. Which inclusion factors are genuinely supported, and which should be `N/A`?
-6. Does every factual or metaphorical claim have a durable citation?
+6. Are the material factual or metaphorical claims carrying the selection case supported by durable citations?
 7. Would the proposal remain persuasive if all burden, awareness, prestige, and deservingness language were
    removed?
 
@@ -186,21 +183,17 @@ Require readable, reproducible screenshots for:
 4. Google Trends Image Search versus `elephant`, worldwide, widest range.
 5. Google Books Ngram Viewer versus `elephant`, widest range.
 
-For each source, preserve the capture date, full query URL, location, time range, search mode, category filter,
-and any ambiguity or limitation. Petitions and social-media calls for the emoji are not evidence. Cause-related
-use may be described when established and cited, but cannot be the reason for encoding.
+For each source, preserve the complete URL and operational metadata in an internal capture record. In the PDF,
+show the query, date, comparator, settings, result, and limitation needed to understand the exhibit. Petitions
+and social-media calls for the emoji are not evidence. Cause-related use may be described when established and
+cited, but cannot be the reason for encoding.
 
 ### Step 4: Audit the artwork at actual size
 
 - Verify color and true black-and-white PNGs at exactly 18x18 and 72x72 pixels.
-- Compare the 18x18 art against the nearest existing emoji and against other active proposals where visual
-  confusion is plausible.
-- Run deterministic computer validation against the declared nearest emoji at actual size, with pinned source
-  assets, hashes, thresholds, and machine-readable results.
-- For Kidney, require normalized silhouette IoU no greater than 0.72 and 64-bit difference-hash distance of at
-  least 16 for every comparator, in addition to dimension, palette, and connectedness checks.
-- If the silhouette fails, revise the art and repeat the computer test; do not solve separation through prose.
-- Present the exact four final assets at actual size beside the nearest visual alternatives to Shuhan He. Record
+- Use actual-size comparisons or optional computer checks when they materially help the design decision. These
+  are internal tools, not Unicode evidence or additional filing gates.
+- Present the exact four final assets at actual size, with visual alternatives when useful, to Shuhan He. Record
   his dated `APPROVE` or `REVISE` decision. No participant panel, blind test, sample size, or recognition
   percentage is required.
 
@@ -225,16 +218,13 @@ use may be described when established and cited, but cannot be the reason for en
 
 ### Step 7: Issue a readiness decision
 
-Before issuing the decision, run the five-seat
-[ESR/UTC-readiness panel](review-panel/README.md) against the exact artifact hash. First-pass seats review
-independently; the coordinator preserves dissent and sends the action ledger back to the proposal agent. A
-material correction requires a new hash and another run. This panel is an internal red team, not actual
-Unicode or named-person feedback.
+The coordinator may consult the optional [ESR/UTC-readiness panel](review-panel/README.md) when another
+editorial perspective would help. Its feedback is advisory; no action ledger, numeric verdict, exact-hash gate,
+or automatic rerun is required. It is not actual Unicode or named-person feedback.
 
 Create a concept-specific review report containing:
 
 - A must-pass gate table.
-- Updated 100-point internal score.
 - Findings ordered by severity.
 - Exact corrections made.
 - Remaining blockers, if any.
@@ -258,7 +248,7 @@ Do not promote the next concept into a canonical package until the preceding can
   chemotherapy monitoring, education, and research.
 - Keep the concept at the broad leukocyte category. Do not imply that Unicode should add every blood cell,
   immune-cell subtype, laboratory value, or disease marker.
-- Directly rebut Microbe, Drop of Blood, Test Tube, Microscope, and Shield as substitutes.
+- Explain the relevant distinction from Microbe, Drop of Blood, Test Tube, Microscope, and Shield directly.
 - Keep Completeness and Compatibility as `N/A`; retain Multiple meanings or sequences only where the examples
   are independently useful and not merely clinical labels.
 
@@ -269,8 +259,8 @@ Do not promote the next concept into a canonical package until the preceding can
 - Preserve the complete consenting ten-person author list.
 - Preserve the corrected border-connected-background segmentation and do not reuse the invalid alpha-only
   measurements from v1.10.0.
-- Resolve the one open Lungs IoU result without weakening the predeclared threshold, or retain it transparently
-  as an internal warning if the approved artwork is preserved.
+- Treat the earlier Lungs IoU result only as optional internal design context; it is not a filing gate or public
+  proposal evidence. Let Shuhan's actual-size review control the artwork decision.
 - Strengthen the explanation of the semantic gap without relying on the existence of other organ emoji.
 - Verify citations for ordinary use, metaphorical meanings, donation/transplant contexts, and medical claims.
 - Remove sequences that do not strengthen the organ's independent communicative case.
@@ -309,7 +299,7 @@ Do not promote the next concept into a canonical package until the preceding can
 - Remove burden, opioid-crisis, adherence-advocacy, and professional-importance language unless a narrowly
   relevant factual statement is durably cited and does not substitute for expected usage.
 - Exit with either `ADVANCE TO FILING SLATE` and a complete corrected semver package, or `DO NOT ADVANCE` with a
-  documented evidence-based reason. A no-go decision must not be disguised as a high readiness score.
+  documented evidence-based reason.
 
 ## Standalone proposal agent specifications
 
@@ -331,12 +321,13 @@ After every proposal still intended for filing completes individual review:
 
 1. Confirm the author lists and main contact one final time.
 2. Confirm that each proposal has a distinct independent-use case and no set-completion argument.
-3. Run the declared computer-validation checks for every intended filing glyph in color and black-and-white.
+3. Confirm exact dimensions and true black-and-white artwork; use additional internal design checks only when
+   helpful.
 4. Obtain Shuhan's dated approval of every exact final four-asset image set at actual size.
 5. Harmonize shared terminology without duplicating unsupported claims.
 6. Confirm that dates, category names, rights statements, evidence methods, and file naming are consistent.
 7. Re-render and inspect every final PDF.
-8. Run the five-seat ESR/UTC-readiness panel on every exact final artifact and close its action ledger.
+8. Use optional editorial consultation where it improves a final artifact.
 9. Verify that every proposal independently meets every must-pass gate.
 
 ## Status vocabulary
@@ -349,18 +340,14 @@ After every proposal still intended for filing completes individual review:
   also complete.
 - `SUBMITTED`: The form was sent and its confirmation was archived.
 
-No score can override an unresolved must-pass gate.
-
 ## Definition of done for each proposal
 
 A proposal is finished only when:
 
 - It has no unresolved must-pass gate.
-- It scores at least 90/100, with a project target of 100/100 before filing.
 - Its author list, art rights, four exact-size images, five frequency sources, selection factors, exclusion
-  factors, citations, and computer-validation results are independently reproducible.
+  factors, and material citations are complete and verifiable.
 - Every PDF page has passed visual and technical inspection.
-- Its exact artifact hash has a complete panel record with no unresolved blocker and a closed action ledger.
 - The final PDF has a stable public HTTPS URL that works without login.
 - The form data matches the PDF exactly.
 - Shuhan He has reviewed the exact filing copy and authorized the external submission.

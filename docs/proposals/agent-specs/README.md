@@ -1,6 +1,6 @@
 # 2026 Proposal Agent Coordination Index
 
-Version: 1.5.1
+Version: 1.6.0
 
 Date: 2026-07-26
 
@@ -32,6 +32,11 @@ The shared approval rubric and template are downstream compliance checks. They a
 writing systems, and their example patterns must not be copied across proposals. Candidate-specific evidence,
 substitute analysis, priority, meaning, and visual identity must drive the writing. The shared guidance does
 not require new process documents or formal gate statuses.
+
+Only current Unicode submission requirements are filing gates. Detailed evidence logs, computer validators,
+comparison boards, readiness scores, artifact hashes, and panel records are optional internal tools. They must
+not expand the public proposal or block it unless they expose a real compliance, factual, artwork, or
+presentation problem.
 
 ## Frozen baseline and collision rule
 
@@ -75,10 +80,9 @@ Official proposal status definitions:
 
 https://www.unicode.org/emoji/emoji-proposals-status.html
 
-## Required panel handoff
+## Optional panel consultation
 
-Before a lane can be promoted, its exact final artifact must complete the repeatable
-[`ESR/UTC-readiness panel`](../review-panel/README.md). The proposal agent receives the panel's written action
-ledger and must answer every action with `ACCEPT`, `REJECT WITH REASON`, or `DEFER WITH OWNER AND DATE`.
-Material changes create a new artifact hash and require another panel run. The panel is an internal simulation;
-no agent may attribute its feedback or verdict to a named expert, ESR, UTC, or Unicode.
+The coordinator may use the repeatable [`ESR/UTC-readiness panel`](../review-panel/README.md) when another
+editorial perspective would help. Its feedback is advisory: no action ledger, numeric verdict, exact-hash gate,
+or automatic rerun is required. Apply suggestions only when they improve the proposal. The panel is an internal
+simulation; no agent may attribute its feedback or verdict to a named expert, ESR, UTC, or Unicode.

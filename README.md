@@ -65,11 +65,11 @@ attachments in this send package.
 ## 🏆 What actually wins
 
 Use the current [`best-in-class specification`](docs/proposals/emoji-proposal-approval-rubric.md) as the
-controlling project standard and the [`proposal template`](docs/proposals/TEMPLATE-emoji-proposal.md) as the
-drafting structure. The specification incorporates the current Unicode rules and a direct
+controlling project standard and the [`proposal template`](docs/proposals/TEMPLATE-emoji-proposal.md) only for
+required structure, not as a source of prose. The specification incorporates the current Unicode rules and a direct
 [`proposal evidence audit`](docs/research/unicode-winning-submissions/analysis.md) of accepted and confirmed
 declined proposal documents: their arguments, evidence, artwork, and layout. Lighthouse is the closest current
-all-around model; Treasure Chest is the concise model; Fingerprint is the technical-evidence model; and Meteor
+all-around model; Treasure Chest is the concise model; Fingerprint is the reproducible-evidence model; and Meteor
 is the genuine-compatibility model. No accepted proposal should be copied wholesale.
 
 The older 55-versus-29 comparison is retained only as a methodology warning because its negative cohort was
@@ -86,8 +86,8 @@ Ten current drafting rules:
    they are unacceptable.
 5. **Do not make a cause the justification.** Importance, awareness, and stigma cannot replace expected-use
    evidence.
-6. **Draft the Open-ended answer first.** Kidney, Liver, and Stomach may be filed as three one-emoji proposals,
-   but each must stand independently and must not argue for completing an anatomy set.
+6. **Answer Open-ended specifically.** Kidney, Liver, and Stomach may be filed as three one-emoji proposals,
+   but each must make its own case and must not argue for completing an anatomy set.
 7. **Write for an educated general reader.** Assume the reviewer knows the Unicode criteria but not medicine,
    computer vision, software, or this project's internal workflow. Prefer ordinary words, direct sentences, and
    concrete examples. Define an unavoidable specialist term once in plain English.
@@ -95,17 +95,16 @@ Ten current drafting rules:
    difference hashes, thresholds, gates, and machine-readable reports belong in internal readiness records. The
    PDF should describe the visible result and why it matters to a human reviewer, not narrate how the project
    tested it.
-9. **Give every paragraph one job.** State the factor's conclusion first, provide the strongest example or
-   evidence, answer the nearest substitute or objection when relevant, and stop. Do not turn a filing document
-   into a research report, campaign brief, or production log.
+9. **Give every paragraph one job.** Make the point, support it with the most useful example or evidence, and
+   stop. Do not turn a filing document into a research report, campaign brief, or production log.
 10. **Shuhan approves the final images.** Show Shuhan He the exact 18x18 and 72x72 color and black-and-white
-    assets at actual size beside their nearest visual alternatives. His dated `APPROVE` decision is the human
-    image gate. No participant panel, crowd study, blind test, sample size, or recognition percentage is
-    required.
+    assets at actual size, using visual alternatives when they help the decision. His dated `APPROVE` decision
+    is the human image gate. No participant panel, crowd study, blind test, sample size, or recognition
+    percentage is required.
 
-Before filing, run the five-seat [ESR/UTC-readiness panel](docs/proposals/review-panel/README.md) against the
-exact final artifact. This is an independent internal red team, not a crowd image-recognition test and not an
-actual Unicode review. Named experts provide public-source provenance for review lenses only; the project must
+The five-seat [ESR/UTC-readiness panel](docs/proposals/review-panel/README.md) is an optional editorial resource,
+not a filing gate or an actual Unicode review. Its feedback does not require an action ledger, numeric verdict,
+or automatic rerun. Named experts provide public-source provenance for review lenses only; the project must
 never claim they reviewed, endorsed, recommended, or predicted the outcome of a Medical Emoji proposal.
 
 Never write "the heart and lungs were encoded, so the kidney should be." That is the textbook Faulty

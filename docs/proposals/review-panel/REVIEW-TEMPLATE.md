@@ -1,6 +1,6 @@
 # Proposal panel review: {{PROPOSAL}}
 
-Panel protocol version: 1.0.0
+Panel protocol version: 1.1.0
 
 Run ID: {{RUN_ID}}
 
@@ -26,72 +26,60 @@ person.
 | Image rights source | TODO |
 | Prior-status source | TODO |
 
-## Seat 1 - Intake gatekeeper
+## Lens 1 - Intake gatekeeper
 
-Verdict: `RECOMMEND ONWARD | REVISE AND RERUN | STOP THIS CYCLE`
+Outcome: `READY FOR FINAL CHECK | REVISION SUGGESTED | FILING BLOCKER`
 
-- Hard gates:
-- Strongest decline rationale:
-- What would change the verdict:
-- Findings and actions:
+- Official requirements checked:
+- Findings and suggestions:
 
-## Seat 2 - ESR selection reviewer
+## Lens 2 - ESR selection reviewer
 
-Verdict: `RECOMMEND ONWARD | REVISE AND RERUN | STOP THIS CYCLE`
+Outcome: `READY FOR FINAL CHECK | REVISION SUGGESTED | FILING BLOCKER`
 
-- Strongest inclusion case:
-- Strongest decline rationale:
-- What would change the verdict:
-- Findings and actions:
+- Most compelling selection case:
+- Findings and suggestions:
 
-## Seat 3 - Community proposal mentor
+## Lens 3 - Community proposal mentor
 
-Verdict: `RECOMMEND ONWARD | REVISE AND RERUN | STOP THIS CYCLE`
+Outcome: `READY FOR FINAL CHECK | REVISION SUGGESTED | FILING BLOCKER`
 
 - One-sentence case:
-- Strongest decline rationale:
-- What would change the verdict:
-- Findings and actions:
+- Findings and suggestions:
 
-## Seat 4 - Visual and implementation reviewer
+## Lens 4 - Visual and implementation reviewer
 
-Verdict: `RECOMMEND ONWARD | REVISE AND RERUN | STOP THIS CYCLE`
+Outcome: `READY FOR FINAL CHECK | REVISION SUGGESTED | FILING BLOCKER`
 
 - Exact assets inspected:
-- Nearest confusers/substitutes:
-- Strongest decline rationale:
-- What would change the verdict:
-- Findings and actions:
+- Visible identity and implementation notes:
+- Findings and suggestions:
 
-## Seat 5 - UTC skeptical reviewer
+## Lens 5 - Scope and durability reviewer
 
-Verdict: `RECOMMEND ONWARD | REVISE AND RERUN | STOP THIS CYCLE`
+Outcome: `READY FOR FINAL CHECK | REVISION SUGGESTED | FILING BLOCKER`
 
-- Permanence and scope test:
-- Strongest decline rationale:
-- What would change the verdict:
-- Findings and actions:
+- Permanence and scope:
+- Findings and suggestions:
 
 ## Coordinator synthesis
 
-Panel result: `RECOMMEND ONWARD | REVISE AND RERUN | STOP THIS CYCLE`
+Overall note: `READY FOR FINAL CHECK | REVISION SUGGESTED | FILING BLOCKER`
 
 Decision basis:
 
-Minority or unresolved objections:
+Other useful observations:
 
-### Action ledger
+### Optional change list
 
-| ID | Severity | Finding | Evidence | Change | Owner | Acceptance condition | Rerun |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| A-001 | TODO | TODO | TODO | TODO | TODO | TODO | TODO |
+| ID | Type | Finding | Evidence | Suggested change |
+| --- | --- | --- | --- | --- |
+| A-001 | TODO | TODO | TODO | TODO |
 
 ## Proposal-agent response
 
 Updated artifact: TODO
 
-Updated SHA-256: TODO
+Updated SHA-256, if recorded: TODO
 
-| Action | Response | Evidence of closure |
-| --- | --- | --- |
-| A-001 | `ACCEPT | REJECT WITH REASON | DEFER WITH OWNER AND DATE` | TODO |
+Summary of changes adopted: TODO
