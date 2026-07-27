@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.48.4] - 2026-07-26
+
+### Added
+- Added immutable Liver package `1.12.0-liver.10` with the final evidence-verification record.
+
+### Changed
+- Strengthened the Liver Open-ended answer with a candidate-specific reason that does not rely on completing an
+  anatomy set.
+- Spelled out the U.S. Department of Agriculture source label throughout the Liver proposal and records.
+- Advanced the workspace version from `0.48.3` to `0.48.4`.
+
 ## [0.48.3] - 2026-07-26
 
 ### Added
