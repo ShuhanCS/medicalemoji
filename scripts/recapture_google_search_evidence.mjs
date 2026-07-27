@@ -20,7 +20,7 @@
  *
  * Usage:
  *   node scripts/recapture_google_search_evidence.mjs \
- *     --slug=white-blood-cell --release=v1.18.0 --term=white-blood-cell
+ *     --slug=white-blood-cell --release=v1.19.0 --term=white-blood-cell
  */
 
 import { homedir } from "node:os";

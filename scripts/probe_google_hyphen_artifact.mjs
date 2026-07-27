@@ -36,7 +36,7 @@ const PROFILE = join(homedir(), ".medicalemoji-google-evidence-firefox");
 const DEFAULT_OUT = join(
   ROOT,
   "submissions",
-  "v1.18.0",
+  "v1.19.0",
   "white-blood-cell",
   "evidence",
   "frequency",

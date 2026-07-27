@@ -1,18 +1,19 @@
-# White Blood Cell v1.18.0 - resume notes
+# White Blood Cell v1.19.0 - resume notes
 
 Branch: `feat/wbc-proposal-fixes`
+Package: v1.19.0. v1.18.0 is frozen at its released state and is not edited.
 Worktree: `C:\Users\Shuha\projects\medicalemoji\.worktrees\wbc-proposal-fixes`
 Unicode submission window closes **2026-07-31**.
 
 ## The headline finding
 
-The 2026-07-26 PDF reported **"About 125 results"** for `white-blood-cell` on Google Search against
+The v1.18.0 PDF, released 2026-07-26, reported **"About 125 results"** for `white-blood-cell` on Google Search against
 491,000,000 for `elephant`. That number was wrong.
 
 Re-measured 2026-07-27, three independent loads per query, same documented settings
 (`hl=en&num=10&pws=0`, Firefox private profile):
 
-| Query | 2026-07-26 PDF | Confirmed 2026-07-27 |
+| Query | v1.18.0 | Confirmed in v1.19.0 |
 | --- | --- | --- |
 | `white-blood-cell` Search | about 125 | **about 880,000,000** |
 | `elephant` Search | about 491,000,000 | about 491,000,000 (unchanged) |
@@ -49,7 +50,7 @@ remain below, and Sections 3e and 6 say so plainly.
   requests an exact image is automatically declined.
 - `evidence/EVIDENCE-LOG.md` records the correction and the probe table.
 - PDF rebuilt, now fourteen pages.
-- `scripts/validate_white_blood_cell_submission.py --package-dir submissions/v1.18.0` passes.
+- `scripts/validate_white_blood_cell_submission.py --package-dir submissions/v1.19.0` passes.
 
 ### New tooling
 
@@ -72,12 +73,12 @@ Section 5 already tells vendors to keep a band of pale cytoplasm around the nucl
 not do it, and the new recognition figure on page 3 shows the gap.
 
 Sources: `images/white-blood-cell_bw_18_SOURCE.svg`, `images/white-blood-cell_bw_SOURCE.svg`.
-Rebuild: `python scripts/build_white_blood_cell_artwork.py --proposal-dir submissions/v1.18.0/white-blood-cell
+Rebuild: `python scripts/build_white_blood_cell_artwork.py --proposal-dir submissions/v1.19.0/white-blood-cell
 --board-date 2026-07-26 --figure-date 2026-07-27`.
 Check: `scripts/validate_white_blood_cell_artwork.py`.
 
-**2. The seventeen-section review has not been re-run.** `READINESS.md` carries an amendment block listing
-which of its rows are now stale. Status was moved from `READY TO PUBLISH` to `AMENDED, NOT RE-REVIEWED`.
+**2. The seventeen-section review has not been re-run.** `READINESS.md` opens with a block listing which of
+its rows are now stale. Status was moved from `READY TO PUBLISH` to `CHANGED SINCE REVIEW, NOT RE-REVIEWED`.
 
 **3. Section 3b still lists adjacency pairs**, not ZWJ sequences in Unicode's technical sense. Minor, but it
 is a scored factor and the wording invites the distinction.
@@ -87,7 +88,7 @@ have signed the Unicode Emoji Proposal Agreement and License on the submission f
 
 ## Note on the other three concepts
 
-Kidney, Liver, and Stomach in `submissions/v1.18.0/` were not touched. Their Google Search evidence was
+Kidney, Liver, and Stomach in `submissions/v1.19.0/` were not touched. Their Google Search evidence was
 captured by the same original process that produced the 125, so their result counts are worth re-checking
 with `scripts/recapture_google_search_evidence.mjs` before filing. The liver and stomach captures are dated
 2020, which is worth a look on its own.

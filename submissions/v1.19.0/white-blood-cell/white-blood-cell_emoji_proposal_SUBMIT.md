@@ -3,7 +3,7 @@
 **Submitters:** Shuhan He, MD; David Rhew, MD (Global Chief Medical Officer and Vice President of Healthcare,
 Microsoft); Heena Purohit (Director, AI Startups, Microsoft)<br>
 **Main point of contact:** Shuhan He<br>
-**Date:** 2026-07-26
+**Date:** 2026-07-27
 
 ## 1. Identification
 
@@ -34,7 +34,14 @@ Unicode Emoji Proposal Agreement and License.
 
 ### a. Multiple meanings
 
-Not applicable.
+Beyond the cell itself, White Blood Cell carries the ordinary sense of a defense that works from the inside.
+Everyday speech already uses the immune system this way: someone says their defenses are down, that they are
+fighting something off, or that they are building up resistance, and none of those sentences is about a
+particular cell. In a message the image can carry that sense as well, standing for holding up under strain,
+recovering strength, or resisting something that is wearing a person down.
+
+This symbolic reading is secondary. The primary meaning stays the literal white blood cell and the white-cell
+count.
 
 ### b. Use in sequences
 
@@ -64,9 +71,19 @@ preserving the enclosing pale cell body and single connected lobed center.
 The design uses neutrophil morphology because neutrophils are the most numerous circulating white blood cells;
 the name and intended meaning remain the broad White Blood Cell category.
 
+The figure below shows the proposed image beside a generic cell diagram, in colour and in black and white, at
+actual keyboard size and enlarged. The generic cell is the harder comparison to win, because Microbe's spikes
+and Drop of Blood's teardrop are already distinct silhouettes while a plain cell shares the proposed outline.
+At 18 pixels the two separate on the interior: the proposal resolves into an off-centre, connected, multi-part
+nucleus, and the control resolves into a single round dot.
+
+![White Blood Cell recognition at keyboard size, compared with a generic cell diagram](images/white-blood-cell_recognition-figure_2026-07-27.png)
+
 [NCBI Bookshelf: Histology, White Blood Cell](https://www.ncbi.nlm.nih.gov/books/NBK563148/)
 
 All artwork displayed in this proposal as proposed emoji artwork is the original work identified in Section 2.
+Every mark in the figure above, including the generic cell control, is original to this proposal. No
+third-party emoji artwork appears anywhere in this document.
 
 ### e. Usage level
 
@@ -75,10 +92,14 @@ body is fighting an infection," "my immune defenses are low," or "my white-cell 
 lets people discuss immunity without using Microbe, which represents the germ rather than the body's response.
 
 These messages apply to personal health updates, conversations about getting sick or recovering, and plain
-explanations of how the immune system works. Biology education and research are secondary uses. The required
-five-source evidence below shows current Search and Video results, recurring Web and Image search interest,
-and durable published-book usage. Its relative Trends and Ngram levels are below `elephant`, while the term
-remains present across the modern record.
+explanations of how the immune system works. Biology education and research are secondary uses.
+
+The five required sources are set out in Section 6 and they do not all point the same way. On Google Search
+the term returns a larger result inventory than `elephant`, about 880,000,000 against about 491,000,000.
+On Google Video Search it returns about one sixth of `elephant`. On Google Trends the indexed interest is
+well below `elephant` in both Web Search and Image Search, and in Google Books the 2022 frequency is about a
+tenth. Taken together they show a term with a very large indexed web presence, a durable and rising published
+record, and a modest share of the query volume that a common animal noun attracts.
 
 White blood cells [help the body fight infection](https://www.cancer.gov/publications/dictionaries/cancer-terms/def/white-blood-cell),
 and [white-cell counts](https://medlineplus.gov/lab-tests/white-blood-count-wbc/) are routinely used to monitor
@@ -133,10 +154,19 @@ responds to.
 
 ## 5. Other information
 
-At 18x18, fine microscopic detail should yield to legibility. Keep a visible band of pale cytoplasm around the
-nucleus so the enclosing membrane and segmented center remain separate cues. Radiating spikes should be avoided
-because they imply Microbe, and the nucleus should remain a single connected feature rather than a face-like
-arrangement. The character name should remain White Blood Cell rather than a leukocyte subtype.
+The notes in this section are design suggestions offered to vendors. This proposal does not request an exact
+image. At 18x18, fine microscopic detail should yield to legibility. We suggest keeping a visible band of pale
+cytoplasm around the nucleus so that the enclosing membrane and the segmented center remain separate cues. We
+suggest avoiding radiating spikes, which imply Microbe, and keeping the nucleus a single connected feature
+rather than a face-like arrangement. We suggest the character name remain White Blood Cell rather than a
+leukocyte subtype.
+
+### Prior submission
+
+A White Blood Cell proposal appears as declined, with a 2020 date, on Unicode's published
+[emoji proposal status list](https://www.unicode.org/emoji/emoji-proposals-status.html). The re-submission
+period described on that page has elapsed. The present document is an independent proposal. It does not
+revise, extend, or rely on the earlier submission, and it should be assessed on the case set out above.
 
 <div class="page-break"></div>
 
@@ -146,29 +176,33 @@ All data are from July 2026 and were obtained in a Firefox Private Browsing wind
 personalized results. Trends use Worldwide, all categories, and the full available period. Books uses the
 English corpus, 1500-2022, and smoothing 3.
 
+Google prints its result totals as estimates, and a single page load will occasionally return a figure orders
+of magnitude away from the one the same query returns on reload. The Search and Video captures below were
+therefore each loaded three times, and the figure reported here is one that held across all three loads.
+
 ### Google Search
 
-Captured 2026-07-26 using the required grouped term `white-blood-cell`. The result page reports about 125
-results, compared with about 491,000,000 for `elephant` under the same settings.
+Captured 2026-07-27 using the required grouped term `white-blood-cell`. The result page reports about
+880,000,000 results, compared with about 491,000,000 for `elephant` under the same settings.
 
 [Open the reproducible Google Search query](https://www.google.com/search?q=white-blood-cell&hl=en&num=10&pws=0)
 
-![Google Search results for white blood cell](evidence/frequency/white-blood-cell_google_search_2026-07-26_SUBMIT.png)
+![Google Search results for white blood cell](evidence/frequency/white-blood-cell_google_search_2026-07-27_SUBMIT.png)
 
-![Google Search results for elephant](evidence/frequency/white-blood-cell_google_search_elephant_2026-07-26_SUBMIT.png)
+![Google Search results for elephant](evidence/frequency/white-blood-cell_google_search_elephant_2026-07-27_SUBMIT.png)
 
 <div class="page-break"></div>
 
 ### Google Video Search
 
-Captured 2026-07-26 using the required grouped term `white-blood-cell`. The video result page reports about
-14,100,000 results, compared with about 86,300,000 for `elephant` under the same settings.
+Captured 2026-07-27 using the required grouped term `white-blood-cell`. The video result page reports about
+13,900,000 results, compared with about 84,700,000 for `elephant` under the same settings.
 
 [Open the reproducible Google Video Search query](https://www.google.com/search?tbm=vid&q=white-blood-cell&hl=en&num=10&pws=0)
 
-![Google Video Search results for white blood cell](evidence/frequency/white-blood-cell_google_video_search_2026-07-26_SUBMIT.png)
+![Google Video Search results for white blood cell](evidence/frequency/white-blood-cell_google_video_search_2026-07-27_SUBMIT.png)
 
-![Google Video Search results for elephant](evidence/frequency/white-blood-cell_google_video_search_elephant_2026-07-26_SUBMIT.png)
+![Google Video Search results for elephant](evidence/frequency/white-blood-cell_google_video_search_elephant_2026-07-27_SUBMIT.png)
 
 <div class="page-break"></div>
 

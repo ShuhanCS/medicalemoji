@@ -2,11 +2,42 @@
 
 Readiness record version: 1.7.0
 
-Date: 2026-07-26
+Date: 2026-07-27
 
-Proposal package: 1.18.0
+Proposal package: 1.19.0
 
-Status: **READY TO PUBLISH**
+Status: **CHANGED SINCE REVIEW, NOT RE-REVIEWED**
+
+## What changed in 1.19.0, and what that means for this record
+
+The seventeen-section review below was performed against the v1.18.0 nine-page PDF. Four changes landed in
+v1.19.0 and the review has **not** been re-run against them. Every row is accurate for what it covers except
+the rows named here.
+
+1. **The Google Search figure in v1.18.0 was wrong.** It reported about 125 results for `white-blood-cell`.
+   Re-measured across three independent loads the query returns about 880,000,000, with `elephant`
+   reproducing exactly at 491,000,000, which confirms the settings matched. Sections 6 and 3e are rewritten
+   on the corrected figures and the Video exhibits were refreshed at the same time (about 13,900,000 against
+   about 84,700,000). The "Required evidence record" section below is superseded; see `evidence/EVIDENCE-LOG.md`.
+2. **Multiple meanings is no longer N/A.** Section 3a argues the secondary symbolic sense of internal defense.
+   There are now two genuine inclusion N/As, Completeness and Compatibility, not three. The "Multiple meanings"
+   row below is stale.
+3. **Distinctiveness embeds a recognition figure.** Original artwork only: the proposed image against a generic
+   cell control. The decision to keep third-party comparator art out of the PDF stands, and the OpenMoji boards
+   in `comparisons/` remain internal review artifacts.
+4. **Other information gains a Prior submission note** and its vendor guidance is softened to explicit
+   suggestions.
+
+The PDF is now fourteen pages, so any statement below about "all nine PDF pages" describes a superseded build.
+Dual-renderer inspection has not been repeated.
+
+`scripts/validate_white_blood_cell_submission.py --package-dir submissions/v1.19.0` passes. It now derives the
+required evidence files from the proposal's own image references instead of hardcoded dated filenames, requires
+all five sources to be embedded, and fails when a count the proposal states does not match a figure confirmed
+in the capture log.
+
+Open item: the black-and-white 18x18 artwork is unchanged and still renders its nucleus as solid lobes inside a
+near-circular outline. See `RESUME-HERE.md`.
 
 Controlling rubric: `BEST-IN-CLASS-RUBRIC.md`, version 3.1.0
 
@@ -80,7 +111,7 @@ Each lens reviewed the exact final PDF recorded under Technical and visual verif
 | Scope and durability reviewer | READY FOR FINAL CHECK | The strongest substitute, subtype boundary, representative-neutrophil choice, permanence, and open-ended concern receive specific answers. |
 
 Coordinator synthesis: no filing blocker or material revision was identified within these advisory scopes.
-Shuhan He approved the artwork direction and confirms that the four assets carried unchanged into v1.18.0 are
+Shuhan He approved the artwork direction and confirms that the four assets carried unchanged into v1.19.0 are
 original Medical Emoji work covered by the proposal's rights statement and CC0 release.
 
 ## Required evidence record
