@@ -2,9 +2,9 @@
 
 Date: 2026-07-26
 
-Packet version: `1.12.0-candidate.8`
+Packet version: `1.12.0-candidate.9`
 
-Status: **REVISED CANDIDATE — EXACT-ASSET APPROVAL AND COAUTHOR CONSENT RECORDS OPEN**
+Status: **REVISED CANDIDATE - EXACT-ASSET APPROVAL AND COAUTHOR CONSENT RECORDS OPEN**
 
 ## Settled passes
 
@@ -26,7 +26,7 @@ Status: **REVISED CANDIDATE — EXACT-ASSET APPROVAL AND COAUTHOR CONSENT RECORD
 | --- | --- | --- |
 | Exact-asset approval | Open | Record Shuhan's dated `APPROVE` or `REVISE` decision for the four exact assets and their hashes. |
 | Coauthor consent records | Open | Preserve written confirmation from David Rhew and Heena Purohit that each agrees to be listed as a submitter. |
-| Readiness panel | Candidate.8 focused rerun pending | Candidate.6 cleared the selection, community, and skeptical seats. Candidate.7 improved the proposal case; Candidate.8 changes the exact artwork, so the panel must check the new PDF and asset hashes before promotion. |
+| Readiness panel | Candidate.9 focused rerun pending | Candidate.6 cleared the selection, community, and skeptical seats. Candidate.7 improved the proposal case; Candidate.8 corrected the exact artwork; Candidate.9 sharpens the sequence, novelty, and scope language, so the panel must check the new PDF before promotion. |
 | Final promotion | Candidate only | After the open records and panel are complete, rebuild once, repeat PDF QA, and promote the immutable packet to `submissions/v1.12.0/`. |
 | Public URL and form | Not authorized | Publish and file only after explicit authorization from Shuhan He. |
 

@@ -37,17 +37,17 @@ to tolerate something. Familiar expressions include
 
 ### B. Use in sequences
 
-Stomach adds a specific organ meaning to several short combinations:
+Stomach gives existing emoji a precise body-related meaning:
 
-- Stomach + fork and knife: digestion after a meal.
-- Stomach + nauseated face: an upset stomach.
-- Stomach + butterfly: butterflies in the stomach.
+- Stomach + Fork and Knife: fullness or digestion after a meal.
+- Stomach + Nauseated Face: an upset stomach.
+- Stomach + Butterfly: nervous anticipation, or "butterflies in the stomach."
 
 ### C. Breaks new ground
 
-**Yes.** Faces, food emoji, and Butterfly can express nausea, eating, disgust, or nervousness, but none identifies
-the stomach or digestion. Stomach adds one recognizable symbol that connects the organ itself with appetite,
-fullness, tolerance, and the familiar butterflies-in-the-stomach expression.
+**Yes.** Faces, food emoji, and Butterfly can express nausea, eating, disgust, or nervousness, but none names the
+stomach itself. Stomach adds one recognizable symbol linking the literal organ and digestion with appetite,
+fullness, tolerance, and butterflies in the stomach.
 
 ### D. Distinctiveness
 
@@ -120,8 +120,8 @@ in the stomach.
 
 ### B. Overly specific
 
-Stomach names a familiar organ and body area, not a disease, procedure, brand, or subtype. Its appetite,
-nervousness, and tolerance meanings reach beyond any single digestive condition.
+Stomach is the general organ concept, not a disease, procedure, brand, or anatomical subtype. Its everyday
+meanings include appetite, fullness, nervous anticipation, and tolerance, extending well beyond medicine.
 
 ### C. Open-ended
 
