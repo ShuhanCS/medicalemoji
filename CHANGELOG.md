@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.48.5] - 2026-07-26
+
+### Added
+- Added Liver artwork redesign specification `1.0.0`, comparing the current assets with accepted Anatomical
+  Heart, X-Ray, Fingerprint, Lighthouse, and Beans proposal artwork.
+
+### Changed
+- Defined a silhouette-first anterior-wedge direction, three-candidate exploration, purpose-built 18px masters,
+  and an exact-asset approval workflow for the next Liver artwork revision.
+- Advanced the workspace version from `0.48.4` to `0.48.5`.
+
 ## [0.48.4] - 2026-07-26
 
 ### Added
