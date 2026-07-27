@@ -5,6 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.46.3] - 2026-07-26
+
+### Added
+- Added immutable Liver package `1.12.0-liver.6` with the case-building guide's required case brief and
+  material-claim ledger.
+
+### Changed
+- Implemented accepted five-seat Liver revisions: removed unsupported use claims, replaced opaque sequences
+  with two ordinary messages, strengthened the Liver-specific open-ended boundary, simplified visual language,
+  and replaced layout-breaking raw proposal links with descriptive clickable text.
+- Advanced the workspace version from `0.46.2` to `0.46.3`.
+
 ## [0.46.2] - 2026-07-26
 
 ### Added
