@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "validation_date": "2026-07-26",
-  "proposal_dir": "C:/Users/Shuha/projects/medicalemoji/submissions/v1.11.0/stomach",
+  "proposal_dir": "docs/proposals/stomach-emoji-2026/candidate-v1.12",
   "method": "Deterministic technical validation of dimensions, black-and-white palette, foreground connectedness, normalized alpha-mask intersection-over-union, and 64-bit difference hash. This measures machine-visible separation, not human semantic recognition.",
   "thresholds": {
     "max_normalized_iou": 0.72,
@@ -12,7 +12,7 @@
   "assets": [
     {
       "file": "stomach_color_18x18_SUBMIT.png",
-      "sha256": "93f3a656314c6743cabdff594ba062e7e74c2caaa60942689d4f118ea2608cff",
+      "sha256": "bb0159f241e6163ea9eae2851640125ab90bdc4c69301ef76077c8c6dc10e046",
       "dimensions": [
         18,
         18
@@ -23,7 +23,7 @@
       ],
       "dimensions_pass": true,
       "black_and_white_required": false,
-      "visible_rgb_count": 178,
+      "visible_rgb_count": 139,
       "visible_rgb_values": null,
       "palette_pass": true,
       "connected_components": 1,
@@ -33,7 +33,7 @@
     },
     {
       "file": "stomach_color_72x72_SUBMIT.png",
-      "sha256": "9dc9a13200e7e6b53f3006f0c2ea6b528161ea24543f54223744eb43fff6762c",
+      "sha256": "750fb57ced6cd0e0bf2394686770c91f832ae13b9b8db49965ae486dff9c5068",
       "dimensions": [
         72,
         72
@@ -44,7 +44,7 @@
       ],
       "dimensions_pass": true,
       "black_and_white_required": false,
-      "visible_rgb_count": 1067,
+      "visible_rgb_count": 863,
       "visible_rgb_values": null,
       "palette_pass": true,
       "connected_components": 1,
@@ -54,7 +54,7 @@
     },
     {
       "file": "stomach_bw_18x18_SUBMIT.png",
-      "sha256": "6f4bbcdc3200b9841b597a11ee96132d382f48b7e6bc085e5089ca658dca3235",
+      "sha256": "73ed28b740ddaf4c11ac1246d7a0ca8906ac87d082bc48fa1afabf76c26a78d8",
       "dimensions": [
         18,
         18
@@ -86,7 +86,7 @@
     },
     {
       "file": "stomach_bw_72x72_SUBMIT.png",
-      "sha256": "1b93265a60651fb4a199470b9ba3492edc6f29a8bb6cff3c8b6fb84c49ffb20a",
+      "sha256": "4d24ea39a0d5ff12542e6912a7e304394d8ab14d725d606b221f0f6f3dfedfdc",
       "dimensions": [
         72,
         72
@@ -169,8 +169,8 @@
     {
       "proposal_asset": "stomach_color_18x18",
       "comparator": "anatomical_heart",
-      "normalized_iou": 0.599,
-      "dhash_distance_64": 26,
+      "normalized_iou": 0.525,
+      "dhash_distance_64": 25,
       "max_iou": 0.72,
       "min_dhash_distance": 16,
       "pass": true
@@ -178,16 +178,7 @@
     {
       "proposal_asset": "stomach_color_18x18",
       "comparator": "beans",
-      "normalized_iou": 0.638,
-      "dhash_distance_64": 19,
-      "max_iou": 0.72,
-      "min_dhash_distance": 16,
-      "pass": true
-    },
-    {
-      "proposal_asset": "stomach_color_18x18",
-      "comparator": "meat_on_bone",
-      "normalized_iou": 0.58,
+      "normalized_iou": 0.584,
       "dhash_distance_64": 24,
       "max_iou": 0.72,
       "min_dhash_distance": 16,
@@ -195,9 +186,18 @@
     },
     {
       "proposal_asset": "stomach_color_18x18",
+      "comparator": "meat_on_bone",
+      "normalized_iou": 0.492,
+      "dhash_distance_64": 25,
+      "max_iou": 0.72,
+      "min_dhash_distance": 16,
+      "pass": true
+    },
+    {
+      "proposal_asset": "stomach_color_18x18",
       "comparator": "kidney",
-      "normalized_iou": 0.628,
-      "dhash_distance_64": 23,
+      "normalized_iou": 0.546,
+      "dhash_distance_64": 22,
       "max_iou": 0.72,
       "min_dhash_distance": 16,
       "pass": true
@@ -205,8 +205,8 @@
     {
       "proposal_asset": "stomach_color_18x18",
       "comparator": "liver",
-      "normalized_iou": 0.542,
-      "dhash_distance_64": 27,
+      "normalized_iou": 0.511,
+      "dhash_distance_64": 26,
       "max_iou": 0.72,
       "min_dhash_distance": 16,
       "pass": true
@@ -214,8 +214,8 @@
     {
       "proposal_asset": "stomach_color_18x18",
       "comparator": "generic_organ",
-      "normalized_iou": 0.535,
-      "dhash_distance_64": 26,
+      "normalized_iou": 0.509,
+      "dhash_distance_64": 25,
       "max_iou": 0.72,
       "min_dhash_distance": 16,
       "pass": true
@@ -223,25 +223,7 @@
     {
       "proposal_asset": "stomach_black_and_white_18x18",
       "comparator": "anatomical_heart",
-      "normalized_iou": 0.576,
-      "dhash_distance_64": 21,
-      "max_iou": 0.72,
-      "min_dhash_distance": 16,
-      "pass": true
-    },
-    {
-      "proposal_asset": "stomach_black_and_white_18x18",
-      "comparator": "beans",
-      "normalized_iou": 0.626,
-      "dhash_distance_64": 20,
-      "max_iou": 0.72,
-      "min_dhash_distance": 16,
-      "pass": true
-    },
-    {
-      "proposal_asset": "stomach_black_and_white_18x18",
-      "comparator": "meat_on_bone",
-      "normalized_iou": 0.566,
+      "normalized_iou": 0.481,
       "dhash_distance_64": 23,
       "max_iou": 0.72,
       "min_dhash_distance": 16,
@@ -249,9 +231,27 @@
     },
     {
       "proposal_asset": "stomach_black_and_white_18x18",
+      "comparator": "beans",
+      "normalized_iou": 0.491,
+      "dhash_distance_64": 24,
+      "max_iou": 0.72,
+      "min_dhash_distance": 16,
+      "pass": true
+    },
+    {
+      "proposal_asset": "stomach_black_and_white_18x18",
+      "comparator": "meat_on_bone",
+      "normalized_iou": 0.463,
+      "dhash_distance_64": 25,
+      "max_iou": 0.72,
+      "min_dhash_distance": 16,
+      "pass": true
+    },
+    {
+      "proposal_asset": "stomach_black_and_white_18x18",
       "comparator": "kidney",
-      "normalized_iou": 0.584,
-      "dhash_distance_64": 26,
+      "normalized_iou": 0.427,
+      "dhash_distance_64": 22,
       "max_iou": 0.72,
       "min_dhash_distance": 16,
       "pass": true
@@ -259,7 +259,7 @@
     {
       "proposal_asset": "stomach_black_and_white_18x18",
       "comparator": "liver",
-      "normalized_iou": 0.511,
+      "normalized_iou": 0.43,
       "dhash_distance_64": 28,
       "max_iou": 0.72,
       "min_dhash_distance": 16,
@@ -268,8 +268,8 @@
     {
       "proposal_asset": "stomach_black_and_white_18x18",
       "comparator": "generic_organ",
-      "normalized_iou": 0.527,
-      "dhash_distance_64": 19,
+      "normalized_iou": 0.522,
+      "dhash_distance_64": 25,
       "max_iou": 0.72,
       "min_dhash_distance": 16,
       "pass": true

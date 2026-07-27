@@ -7,7 +7,7 @@ comparison boards for the recognition-test packet.
 
 Usage:
     python scripts/validate_stomach_artwork.py \
-        --proposal-dir submissions/v1.11.0/stomach \
+        --proposal-dir docs/proposals/stomach-emoji-2026/candidate-v1.12 \
         --output-dir docs/proposals/stomach-emoji-2026/validation-v1.12
 """
 
@@ -397,7 +397,7 @@ def build_report(proposal_dir: Path, output_dir: Path, repo_root: Path) -> dict[
     return {
         "schema_version": "1.0.0",
         "validation_date": date.today().isoformat(),
-        "proposal_dir": proposal_dir.as_posix(),
+        "proposal_dir": proposal_dir.relative_to(repo_root).as_posix(),
         "method": (
             "Deterministic technical validation of dimensions, black-and-white palette, foreground "
             "connectedness, normalized alpha-mask intersection-over-union, and 64-bit difference hash. "
@@ -499,7 +499,7 @@ Reproduce with:
 
 ```powershell
 python scripts/validate_stomach_artwork.py `
-  --proposal-dir submissions/v1.11.0/stomach `
+  --proposal-dir {report['proposal_dir']} `
   --output-dir docs/proposals/stomach-emoji-2026/validation-v1.12
 ```
 """

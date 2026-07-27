@@ -1,6 +1,6 @@
 # Stomach v1.12 Source Ledger
 
-Ledger version: 1.4.0
+Ledger version: 1.5.0
 
 Review date: 2026-07-26
 
@@ -10,7 +10,7 @@ Review date: 2026-07-26
 | --- | --- | --- |
 | Stomach is eligible for the current submission cycle. | Shuhan He confirmation, 2026-07-26. | Internal gate only; do not narrate eligibility debate in the PDF. |
 | Shuhan He, MD; David Rhew, MD; and Heena Purohit are the submitters. Shuhan He is the main point of contact. | Shuhan He direction, 2026-07-26. David Rhew identity reference: https://worldmedicalinnovation.org/speaker/david-rhew-md/ | Page 1 authorship and contact. |
-| The project has the rights required to submit and license the selected artwork. | Shuhan He confirmation, project-authored SVG geometry, and `submissions/v1.11.0/ARTWORK-LICENSE.md`. | Page 1 ownership and CC0 statement. |
+| The project has the rights required to submit and license the selected artwork. | Shuhan He confirmation; project-created GPT Image 2 source at `docs/design/stomach-emoji-2026-07/stomach-gpt-image-2-concept.png`; and `submissions/v1.11.0/ARTWORK-LICENSE.md`. | Page 1 ownership and CC0 statement. |
 
 ## Reviewer-facing claims
 

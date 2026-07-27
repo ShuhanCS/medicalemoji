@@ -1,6 +1,6 @@
 # Stomach Emoji Artwork Specification
 
-Status: concept approved and rebuilt as deterministic v1.11.0 submission artwork; Shuhan's exact-asset approval remains open
+Status: concept approved and selected as the Candidate.8 submission artwork; Shuhan's exact-asset approval remains open
 
 Generator: `gpt-image-2`, high quality, 1024x1024 edit workflow
 
@@ -60,19 +60,19 @@ At 72x72 pixels:
 2. The highlight supports volume without becoming a second visual feature.
 3. No raster halos, clipped edges, background noise, or unintended internal marks are visible.
 
-## Current GPT Image 2 concept
+## Current GPT Image 2 artwork
 
-- Full-size design reference: `docs/design/stomach-emoji-2026-07/stomach-gpt-image-2-concept.png`
-- Deterministic SVG masters: `submissions/v1.11.0/stomach/images/stomach_color_SOURCE.svg` and
-  `submissions/v1.11.0/stomach/images/stomach_bw_SOURCE.svg`
-- Purpose-built 18-pixel SVGs: `submissions/v1.11.0/stomach/images/stomach_color_18_SOURCE.svg` and
-  `submissions/v1.11.0/stomach/images/stomach_bw_18_SOURCE.svg`
-- Exact-size color and true black-and-white PNGs: `submissions/v1.11.0/stomach/images/`
+- Approved full-size source: `docs/design/stomach-emoji-2026-07/stomach-gpt-image-2-concept.png`
+- Approved source SHA-256: `250389e208e3d71488e1895b49c7d4fd69e95507eb3d06f73060db7b34767d7a`
+- Reproducible builder: `scripts/build_stomach_concept_assets.py`
+- Exact-size color and true black-and-white PNGs:
+  `docs/proposals/stomach-emoji-2026/candidate-v1.12/images/`
+- The v1.11.0 SVG reconstruction is historical and is not the selected Candidate.8 artwork.
 
 ## Submission-production requirement
 
-The generated raster remains a design reference, not a Unicode submission asset. The selected geometry has
-been rebuilt as project-authored SVG artwork with exact-size color and true black-and-white PNG exports in
-v1.11.0. Before filing, complete deterministic comparator validation, obtain Shuhan's dated approval of the
-exact four assets at actual size, and complete final review of the artwork-rights record. No participant panel
-or blind recognition study is required.
+The approved project artwork is the submission source. Candidate.8 uses direct deterministic reductions for
+the 18x18 and 72x72 color examples and matching strict black-and-white silhouette derivatives. Before filing,
+complete deterministic comparator validation, obtain Shuhan's dated approval of the exact four assets at
+actual size, and complete final review of the artwork-rights record. No participant panel or blind recognition
+study is required.

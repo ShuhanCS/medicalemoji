@@ -1,6 +1,6 @@
 # Stomach v1.12.0 10/10 Submission Specification
 
-Specification version: 1.1.0
+Specification version: 1.2.0
 
 Date: 2026-07-26
 
@@ -31,9 +31,9 @@ art unless review reveals a specific confuser failure.
 - **Eligibility: Pass.** Shuhan He has confirmed that Stomach is eligible for this submission cycle.
 - **Authorship: Pass.** The latest record confirms Shuhan He, David Rhew, and Heena Purohit as submitters;
   Shuhan He is the main point of contact.
-- **Rights: Pass.** The submitted image is project-created artwork. GPT Image 2 was used for concept
-  exploration, and the filing assets were rebuilt as original deterministic SVG geometry for this project.
-  Shuhan He has confirmed that the project has the rights required to submit and license the artwork.
+- **Rights: Pass.** The submitted image is project-created artwork made with GPT Image 2. Candidate.8 uses
+  deterministic exact-size derivatives of the approved source image. Shuhan He has confirmed that the project
+  has the rights required to submit and license the artwork.
 - **One proposal, one emoji: Pass.** The document proposes only Stomach.
 - **Breaks new ground: Yes.** No existing emoji or short sequence directly identifies the stomach as an organ.
 - **Completeness: Not applicable.** The case must never ask Unicode to complete an anatomy set.
@@ -76,7 +76,8 @@ The completed work must contain:
 - Actual-size comparison boards for color and black-and-white at 18x18 and 72x72.
 - Machine-readable deterministic image-validation results.
 - A dated record of Shuhan's approval of the exact four image assets at actual size.
-- Final color and true black-and-white SVG sources and exact PNG exports.
+- Approved full-size source artwork, a reproducible asset builder, and exact color and true black-and-white PNG
+  exports.
 - Current-format proposal Markdown and rendered PDF.
 - A PDF technical report and page-by-page visual review record.
 - A completed readiness record mapping evidence to all 100 rubric points.

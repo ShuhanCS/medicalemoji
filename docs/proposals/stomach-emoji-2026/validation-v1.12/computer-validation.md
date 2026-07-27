@@ -27,18 +27,18 @@ components must not exceed two, and the largest component must contain at least 
 
 | Proposal asset | Comparator | Normalized IoU | dHash distance | Result |
 | --- | --- | ---: | ---: | --- |
-| color_18x18 | anatomical heart | 0.599 | 26 | PASS |
-| color_18x18 | beans | 0.638 | 19 | PASS |
-| color_18x18 | meat on bone | 0.580 | 24 | PASS |
-| color_18x18 | kidney | 0.628 | 23 | PASS |
-| color_18x18 | liver | 0.542 | 27 | PASS |
-| color_18x18 | generic organ | 0.535 | 26 | PASS |
-| black_and_white_18x18 | anatomical heart | 0.576 | 21 | PASS |
-| black_and_white_18x18 | beans | 0.626 | 20 | PASS |
-| black_and_white_18x18 | meat on bone | 0.566 | 23 | PASS |
-| black_and_white_18x18 | kidney | 0.584 | 26 | PASS |
-| black_and_white_18x18 | liver | 0.511 | 28 | PASS |
-| black_and_white_18x18 | generic organ | 0.527 | 19 | PASS |
+| color_18x18 | anatomical heart | 0.525 | 25 | PASS |
+| color_18x18 | beans | 0.584 | 24 | PASS |
+| color_18x18 | meat on bone | 0.492 | 25 | PASS |
+| color_18x18 | kidney | 0.546 | 22 | PASS |
+| color_18x18 | liver | 0.511 | 26 | PASS |
+| color_18x18 | generic organ | 0.509 | 25 | PASS |
+| black_and_white_18x18 | anatomical heart | 0.481 | 23 | PASS |
+| black_and_white_18x18 | beans | 0.491 | 24 | PASS |
+| black_and_white_18x18 | meat on bone | 0.463 | 25 | PASS |
+| black_and_white_18x18 | kidney | 0.427 | 22 | PASS |
+| black_and_white_18x18 | liver | 0.430 | 28 | PASS |
+| black_and_white_18x18 | generic organ | 0.522 | 25 | PASS |
 
 ## Comparator hashes
 
@@ -62,6 +62,6 @@ Reproduce with:
 
 ```powershell
 python scripts/validate_stomach_artwork.py `
-  --proposal-dir submissions/v1.11.0/stomach `
+  --proposal-dir docs/proposals/stomach-emoji-2026/candidate-v1.12 `
   --output-dir docs/proposals/stomach-emoji-2026/validation-v1.12
 ```
