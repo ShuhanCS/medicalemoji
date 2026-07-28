@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.29.0] - 2026-07-28
+
+### Changed
+- Released Kidney review packet v2.5.0 aligned to Unicode's live 2026 proposal format: non-repeating keywords, empirical frequency evidence presented first, and Compatibility marked not applicable without qualifying popular-system evidence.
+- Retained the CLDR annotation-only rebuttal under Breaks new ground and Already representable, together with the paired artwork and final author roster.
+- Recorded that automated Google evidence refresh reached an unusual-traffic/CAPTCHA page; no blocked-page evidence or invented results were used.
+
 ## [0.28.0] - 2026-07-28
 
 ### Changed
