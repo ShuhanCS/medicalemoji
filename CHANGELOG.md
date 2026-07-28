@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.27.1] - 2026-07-28
+
+### Fixed
+- Released Kidney review packet v2.3.1 with `Microsoft for Startups` restored for Heena Purohit and `MD (Microsoft)` restored for David Rhew; artwork and proposal argument are unchanged.
+
 ## [0.27.0] - 2026-07-28
 
 ### Added
