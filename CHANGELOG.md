@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.28.2] - 2026-07-28
+
+### Changed
+- Recorded Shuhan He, MD's clinical review, eligibility determination, and final approval in Stomach packet v2.4.2; removed separate domain and Unicode-process review blockers and advanced the internal score to 98/100.
+
 ## [0.28.1] - 2026-07-28
 
 ### Changed

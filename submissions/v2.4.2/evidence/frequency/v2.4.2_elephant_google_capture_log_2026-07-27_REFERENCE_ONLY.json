@@ -1,0 +1,23 @@
+{
+  "term": "elephant",
+  "viewport": {
+    "width": 1440,
+    "height": 1100
+  },
+  "records": [
+    {
+      "kind": "Google Search",
+      "result": "About 491,000,000 results (0.29s)",
+      "url": "https://www.google.com/search?q=elephant&hl=en&num=10&pws=0",
+      "filename": "v2.4.2_elephant_google_search_2026-07-27_SUBMIT.png",
+      "capturedAt": "2026-07-27T02:14:30.560Z"
+    },
+    {
+      "kind": "Google Video Search",
+      "result": "About 86,300,000 results (0.25s)",
+      "url": "https://www.google.com/search?q=elephant&hl=en&num=10&pws=0&tbm=vid",
+      "filename": "v2.4.2_elephant_google_video_search_2026-07-27_SUBMIT.png",
+      "capturedAt": "2026-07-27T02:14:56.690Z"
+    }
+  ]
+}
