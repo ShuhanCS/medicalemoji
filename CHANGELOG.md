@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.26.2] - 2026-07-28
+
+### Changed
+- Released Kidney submission packet v2.2.2 with the submitter roster reordered to the requested final sequence: Lauren Beaudin follows Timur Erk, followed by Heena Purohit and David Rhew.
+
 ## [0.26.1] - 2026-07-28
 
 ### Changed
