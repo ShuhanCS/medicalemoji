@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.28.1] - 2026-07-28
+
+### Changed
+- Compressed the unchanged Stomach proposal into a seven-page v2.4.1 reviewer PDF with tighter margins, typography, spacing, and natural section pagination.
+
 ## [0.28.0] - 2026-07-28
 
 ### Added

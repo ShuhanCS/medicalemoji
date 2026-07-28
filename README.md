@@ -216,18 +216,18 @@ Current readiness packet:
 Current standalone submission packets:
 
 - Kidney: `submissions/v2.2.0/`
-- Stomach: `submissions/v2.4.0/`
+- Stomach: `submissions/v2.4.1/`
 
 Key files:
 
-- `submissions/v2.4.0/manifest.md`
-- `submissions/v2.4.0/v2.4.0_stomach_emoji_proposal_SUBMIT.md`
-- `submissions/v2.4.0/v2.4.0_stomach_emoji_proposal_SUBMIT.pdf`
-- `submissions/v2.4.0/images/v2.4.0_stomach_gpt_image_2_SOURCE_REFERENCE_ONLY.png`
-- `submissions/v2.4.0/images/v2.4.0_stomach_color_18x18_SUBMIT.png`
-- `submissions/v2.4.0/images/v2.4.0_stomach_color_72x72_SUBMIT.png`
-- `submissions/v2.4.0/images/v2.4.0_stomach_bw_18x18_SUBMIT.png`
-- `submissions/v2.4.0/images/v2.4.0_stomach_bw_72x72_SUBMIT.png`
+- `submissions/v2.4.1/manifest.md`
+- `submissions/v2.4.1/v2.4.1_stomach_emoji_proposal_SUBMIT.md`
+- `submissions/v2.4.1/v2.4.1_stomach_emoji_proposal_SUBMIT.pdf`
+- `submissions/v2.4.1/images/v2.4.1_stomach_gpt_image_2_SOURCE_REFERENCE_ONLY.png`
+- `submissions/v2.4.1/images/v2.4.1_stomach_color_18x18_SUBMIT.png`
+- `submissions/v2.4.1/images/v2.4.1_stomach_color_72x72_SUBMIT.png`
+- `submissions/v2.4.1/images/v2.4.1_stomach_bw_18x18_SUBMIT.png`
+- `submissions/v2.4.1/images/v2.4.1_stomach_bw_72x72_SUBMIT.png`
 - `submissions/v2.2.0/manifest.md`
 - `submissions/v2.2.0/v2.2.0_kidney_emoji_proposal_SUBMIT.md`
 - `submissions/v2.2.0/v2.2.0_kidney_emoji_proposal_SUBMIT.pdf`
