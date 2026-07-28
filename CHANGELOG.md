@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.27.0] - 2026-07-28
+
+### Added
+- Added a regression audit recording the material differences between the July 26 paired-kidney proposal and v2.2.2.
+
+### Changed
+- Released Kidney review packet v2.3.0 with the July 26 paired-kidney artwork and matching proposal language restored.
+- Applied the final submitter order: Shuhan He, Edgar Lerma, Caitlyn Vlasschaert, Jade M. Teakell, Harish Seethapathy, Danielle Miller, Timur Erk, Lauren Beaudin, Heena Purohit, and David Rhew.
+- Preserved prior submission packets unchanged and marked the restored packet as not filed pending final review.
+
 ## [0.26.2] - 2026-07-28
 
 ### Changed
