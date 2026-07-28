@@ -1,0 +1,22 @@
+{
+  "records": [
+    {
+      "slug": "stomach_ngram_idioms",
+      "content": "butterflies in my stomach,a strong stomach,turn my stomach",
+      "label": "Stomach idioms in published books",
+      "url": "https://books.google.com/ngrams/graph?content=butterflies+in+my+stomach%2Ca+strong+stomach%2Cturn+my+stomach&year_start=1500&year_end=2022&corpus=en&smoothing=3",
+      "filename": "v2.3.1_stomach_ngram_idioms_2026-07-27_SUBMIT.png",
+      "seriesCount": 6,
+      "capturedAt": "2026-07-27T02:25:00.986Z"
+    },
+    {
+      "slug": "stomach_ngram_verb_sense",
+      "content": "stomach_VERB",
+      "label": "Verb sense of stomach",
+      "url": "https://books.google.com/ngrams/graph?content=stomach_VERB&year_start=1500&year_end=2022&corpus=en&smoothing=3",
+      "filename": "v2.3.1_stomach_ngram_verb_sense_2026-07-27_SUBMIT.png",
+      "seriesCount": 2,
+      "capturedAt": "2026-07-27T02:25:05.418Z"
+    }
+  ]
+}

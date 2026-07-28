@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.27.1] - 2026-07-28
+
+### Changed
+- Issued Stomach packet v2.3.1 with David Rhew's and Heena Purohit's verified Microsoft titles beside their names, plus a rebuilt reviewer PDF; proposal claims and approved artwork are unchanged.
+
 ## [0.27.0] - 2026-07-28
 
 ### Added

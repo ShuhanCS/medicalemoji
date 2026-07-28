@@ -2,12 +2,14 @@
 
 Usage:
     python scripts/make_submission_pdf.py submissions/v0.13.4/v0.13.4_kidney_emoji_proposal_SUBMIT.md
+    python scripts/make_submission_pdf.py proposal.md --css print.css
 
 Writes the PDF next to the markdown file with the same basename.
 Relative image paths resolve against the markdown file's directory.
 Bare URLs are turned into clickable links.
 """
 
+import argparse
 import re
 import subprocess
 import sys
@@ -41,8 +43,16 @@ th { background: #f0f0f0; }
 
 
 def main() -> int:
-    md_path = Path(sys.argv[1]).resolve()
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("markdown", type=Path, help="Submission Markdown file")
+    parser.add_argument("--css", type=Path, help="Optional print stylesheet appended to the base styles")
+    args = parser.parse_args()
+
+    md_path = args.markdown.resolve()
     text = md_path.read_text(encoding="utf-8")
+    css = CSS
+    if args.css:
+        css += "\n" + args.css.resolve().read_text(encoding="utf-8")
 
     # Linkify bare URLs (not already inside markdown link/image syntax).
     text = re.sub(r"(?<![<(\]])(https?://\S+)", r"<\1>", text)
@@ -50,7 +60,7 @@ def main() -> int:
     body = markdown.markdown(text, extensions=["tables", "fenced_code"])
     html = (
         "<!DOCTYPE html><html><head><meta charset='utf-8'>"
-        f"<style>{CSS}</style></head><body>{body}</body></html>"
+        f"<style>{css}</style></head><body>{body}</body></html>"
     )
 
     # HTML must live in the markdown's directory so relative image paths resolve.

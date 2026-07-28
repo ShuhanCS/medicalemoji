@@ -1,0 +1,130 @@
+@page {
+  size: Letter;
+}
+
+html {
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+body {
+  color: #1a1a1a;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11.25pt;
+  line-height: 1.43;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  break-after: avoid;
+  color: #171717;
+  font-weight: 700;
+  page-break-after: avoid;
+}
+
+#google-books-ngram-viewer {
+  break-before: page;
+  page-break-before: always;
+}
+
+h1 {
+  font-size: 25pt;
+  line-height: 1.15;
+  margin: 0 0 24pt;
+}
+
+h2 {
+  font-size: 18pt;
+  line-height: 1.2;
+  margin: 23pt 0 12pt;
+}
+
+h3 {
+  font-size: 14.5pt;
+  line-height: 1.25;
+  margin: 18pt 0 8pt;
+}
+
+h4 {
+  font-size: 12.5pt;
+  line-height: 1.25;
+  margin: 15pt 0 7pt;
+}
+
+p {
+  margin: 0 0 10pt;
+}
+
+ul {
+  margin: 4pt 0 12pt 22pt;
+  padding: 0;
+}
+
+li {
+  margin: 2pt 0;
+  padding-left: 2pt;
+}
+
+a {
+  color: #0b55e7;
+  text-decoration: none;
+  overflow-wrap: anywhere;
+  word-break: normal;
+}
+
+code {
+  background: #f2f2f2;
+  border-radius: 2pt;
+  font-family: Consolas, "Courier New", monospace;
+  font-size: 0.9em;
+  padding: 1pt 3pt;
+}
+
+table {
+  border-collapse: collapse;
+  break-inside: avoid;
+  margin: 8pt 0 12pt;
+  page-break-inside: avoid;
+  width: 100%;
+}
+
+th,
+td {
+  border: 0.6pt solid #9a9a9a;
+  padding: 6pt 7pt;
+  text-align: left;
+  vertical-align: middle;
+}
+
+th {
+  background: #eeeeee;
+  font-weight: 700;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+p > img:only-child,
+figure img {
+  display: block;
+  margin: 5pt auto 9pt;
+}
+
+figure {
+  break-inside: avoid;
+  margin: 4pt 0 9pt;
+  page-break-inside: avoid;
+}
+
+figcaption {
+  display: none;
+}
+
+strong {
+  font-weight: 700;
+}
