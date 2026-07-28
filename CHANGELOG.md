@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.31.0] - 2026-07-28
+
+### Changed
+- Released Kidney review packet v2.7.0 with the five required frequency exhibits grouped into a more space-efficient PDF layout; Unicode's 2026 format does not require one exhibit per page.
+- Cropped only the unused lower portions of the retained Google Search and Video screenshots while preserving the query, search type, Tools menu, visible result count, and result context.
+- Preserved the complete proposal argument, paired artwork, exact author roster, affiliations, title, links, and filing status.
+
 ## [0.30.0] - 2026-07-28
 
 ### Changed
