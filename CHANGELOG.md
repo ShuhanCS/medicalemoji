@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.28.3] - 2026-07-28
+
+### Changed
+- Marked the Stomach emoji packet v2.4.2 as submitted to Unicode on 2026-07-28 and added the publicly accessible submitted PDF to the README.
+
 ## [0.28.2] - 2026-07-28
 
 ### Changed

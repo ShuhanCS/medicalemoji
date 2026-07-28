@@ -1,5 +1,12 @@
 # Medical Emoji
 
+## ✅ Stomach Emoji Submitted
+
+The **Stomach emoji proposal (packet v2.4.2)** was submitted through the official Unicode Emoji Submission Form on **2026-07-28**. It is now awaiting Unicode review.
+
+- Public submitted PDF: https://drive.google.com/file/d/19oSL5105BuZkFYgzxGLFXQwNUyU8duoz/view?usp=sharing
+- Archived submission packet: [`submissions/v2.4.2/`](submissions/v2.4.2/)
+
 ## ⏳ Deadlines
 
 | Due | What | Where |
@@ -49,7 +56,7 @@ Medical Emoji is a campaign and proposal workspace for adding high-utility medic
 
 This repository contains the public website, prior support materials, current Unicode research notes, and proposal planning files for the medical emoji concepts the project has pursued.
 
-Last status check: 2026-05-14
+Last status check: 2026-07-28
 
 ## Current Submission Link
 
@@ -95,7 +102,7 @@ The table below combines active candidates from `src/data/emoji.ts` and legacy p
 | --- | --- | --- | --- | --- | --- | --- |
 | Kidney / Kidneys | Active site candidate | `Kidney` declined 2019-12-17; `KIDNEYS` declined 2022-07-19 | Declined | 2022-07-19 | 2026-07-19 | Verify actual 2022 decline/notification date before any 2026 filing; coordinate with ISN and Turkish Society of Nephrology on one aligned proposal. |
 | Liver | Active site candidate | `Liver` declined 2020-12-18; `Liver` declined 2022-07-30 | Declined | 2022-07-30 | 2026-07-30 | Technically falls just before the 2026-07-31 intake deadline by submitted-date clock, but verify actual decline date before filing. |
-| Stomach | Active site candidate | `Stomach` declined 2020-10-27; `Stomach` declined 2022-07-28 | Declined | 2022-07-28 | 2026-07-28 | Verify actual decline date; if eligible, rebuild with current evidence and image-license requirements. |
+| Stomach | Active site candidate | `Stomach` declined 2020-10-27; `Stomach` declined 2022-07-28 | Declined | 2022-07-28 | 2026-07-28 | **Submitted 2026-07-28** using packet v2.4.2; awaiting Unicode review and a new public status row. |
 | Spine | Active site candidate | `Spine` declined 2020-10-27; `Spine` declined 2024-04-05 | Declined | 2024-04-05 | 2028-04-05 | Do not resubmit before 2028 unless Unicode confirms a materially different concept is eligible. |
 | Intestines | Active site candidate | `Intestines` declined 2020-12-18; `Intestines` declined 2024-04-04 | Declined | 2024-04-04 | 2028-04-04 | Do not resubmit before 2028 unless Unicode confirms eligibility. |
 | ECG / EKG | Active site candidate | `ECG` declined 2020-12-18; `ECG` declined 2024-04-05 | Declined | 2024-04-05 | 2028-04-05 | Do not resubmit before 2028 unless Unicode confirms eligibility. |
@@ -216,7 +223,7 @@ Current readiness packet:
 Current standalone submission packets:
 
 - Kidney: `submissions/v2.2.0/`
-- Stomach: `submissions/v2.4.2/`
+- Stomach: `submissions/v2.4.2/` — **submitted 2026-07-28**
 
 Key files:
 
