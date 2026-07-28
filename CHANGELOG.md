@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.30.0] - 2026-07-28
+
+### Changed
+- Released Kidney review packet v2.6.0 with a direct, positive account of what Unicode's five required frequency sources establish and no volunteered disclaimer against the mandated name-based protocol.
+- Replaced the Open-ended neighbor list with four independent evidence filters that any proposed adjacent concept would need to satisfy on its own.
+- Added an evidence-gated Microsoft compatibility spec covering an existing pictograph, high-frequency use, interoperability failure, and public documentation; Compatibility remains not applicable until every gate is met.
+- Retained the valid May/July frequency exhibits after a private-Firefox refresh found no visible Search/Video result count and Google Trends returned HTTP 429; no count-free or error-page capture was used.
+
 ## [0.29.0] - 2026-07-28
 
 ### Changed

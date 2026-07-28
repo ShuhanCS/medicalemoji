@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0.0",
+  "validation_date": "2026-07-28",
+  "packet_version": "v2.6.0",
+  "status": "PASS",
+  "pdf": {
+    "pages": 9,
+    "page_width_points": 612,
+    "page_height_points": 792,
+    "link_annotations": 34,
+    "unique_https_urls": 23,
+    "embedded_images": 9,
+    "visual_pages_reviewed": 9
+  },
+  "requirements": {
+    "first_page_fields": true,
+    "exact_submitter_order": true,
+    "jarone_absent": true,
+    "seven_inclusion_factors": true,
+    "five_exclusion_factors": true,
+    "other_information": true,
+    "compatibility_claim_supported": true,
+    "removed_frequency_disclaimer_absent": true,
+    "open_ended_threshold_test_present": true,
+    "five_frequency_exhibits": true,
+    "four_required_artwork_images": true,
+    "artwork_dimensions_valid": true,
+    "black_and_white_palette_valid": true,
+    "all_links_https": true
+  },
+  "asset_regression": {
+    "artwork_byte_identical_to_v2_5_0": true,
+    "frequency_exhibits_byte_identical_to_v2_5_0": true
+  }
+}

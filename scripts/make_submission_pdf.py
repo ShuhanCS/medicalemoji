@@ -30,10 +30,13 @@ h1 { font-size: 20pt; margin: 0 0 16pt; }
 h2 { font-size: 14pt; margin: 22pt 0 8pt; break-after: avoid; }
 h3 { font-size: 11.5pt; margin: 16pt 0 6pt; break-after: avoid; }
 h4 { font-size: 10.5pt; margin: 14pt 0 6pt; break-after: avoid; }
+h4.evidence-page { break-before: page; page-break-before: always; }
 p { margin: 0 0 8pt; }
 a { color: #1a4fd6; text-decoration: none; word-break: break-all; }
 code { font-family: Consolas, monospace; font-size: 9.5pt; background: #f3f3f3; padding: 0 2pt; border-radius: 2pt; }
 img { break-inside: avoid; max-width: 100%; max-height: 7.5in; }
+img[alt="Google Trends Image Search for elephant and kidney"] { max-height: 3.05in; }
+img[alt="Google Books Ngram for elephant and kidney"] { max-height: 2.2in; }
 p:has(+ p > img) { break-after: avoid; }
 table { border-collapse: collapse; width: 100%; margin: 8pt 0 12pt; break-inside: avoid; font-size: 9.5pt; }
 th, td { border: 0.5pt solid #999; padding: 4pt 6pt; text-align: left; vertical-align: top; }
@@ -49,6 +52,14 @@ def main() -> int:
     text = re.sub(r"(?<![<(\]])(https?://\S+)", r"<\1>", text)
 
     body = markdown.markdown(text, extensions=["tables", "fenced_code"])
+    evidence_page_headings = {
+        "Google Search",
+        "Google Video Search",
+        "Google Trends - Web Search",
+        "Google Trends - Image Search",
+    }
+    for heading in evidence_page_headings:
+        body = body.replace(f"<h4>{heading}</h4>", f'<h4 class="evidence-page">{heading}</h4>')
     html = (
         "<!DOCTYPE html><html><head><meta charset='utf-8'>"
         f"<style>{CSS}</style></head><body>{body}</body></html>"
