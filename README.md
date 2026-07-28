@@ -214,7 +214,7 @@ Current readiness packet:
 `submissions/v0.2.0/`
 
 Current planned submission packet:
-`submissions/v2.1.1/`
+`submissions/v2.2.1/`
 
 Key files:
 
@@ -237,15 +237,14 @@ Key files:
 - `docs/research/kidney-v0.12.0-successful-proposal-audit.md`
 - `docs/plans/2026-05-13-kidney-v0.10.0-improvement-plan.md`
 - `docs/specs/2026-07-23-kidney-submission-argument-improvement-spec.md`
-- `submissions/v2.1.1/manifest.md`
-- `submissions/v2.1.1/v2.1.1_kidney_emoji_proposal_SUBMIT.md`
-- `submissions/v2.1.1/v2.1.1_kidney_emoji_proposal_SUBMIT.pdf`
-- `submissions/v2.1.1/v2.1.1_submission_finalization_SIGNATURE_REQUIRED.md`
-- `submissions/v2.1.1/images/v2.1.1_kidney_color_18x18_SUBMIT.png`
-- `submissions/v2.1.1/images/v2.1.1_kidney_color_72x72_SUBMIT.png`
-- `submissions/v2.1.1/images/v2.1.1_kidney_bw_18x18_SUBMIT.png`
-- `submissions/v2.1.1/images/v2.1.1_kidney_bw_72x72_SUBMIT.png`
-- `submissions/v2.1.1/evidence/visual-review/v2.1.1_18x18_visual_review_board_SUBMIT.png`
+- `submissions/v2.2.1/manifest.md`
+- `submissions/v2.2.1/v2.2.1_kidney_emoji_proposal_SUBMIT.md`
+- `submissions/v2.2.1/v2.2.1_kidney_emoji_proposal_SUBMIT.pdf`
+- `submissions/v2.2.1/images/v2.2.0_kidney_color_18x18_SUBMIT.png`
+- `submissions/v2.2.1/images/v2.2.0_kidney_color_72x72_SUBMIT.png`
+- `submissions/v2.2.1/images/v2.2.0_kidney_bw_18x18_SUBMIT.png`
+- `submissions/v2.2.1/images/v2.2.0_kidney_bw_72x72_SUBMIT.png`
+- `submissions/v2.2.1/evidence/visual-review/v2.2.0_18x18_comparator_board_SUBMIT.png`
 - `submissions/v0.13.3/manifest.md`
 - `submissions/v0.13.3/v0.13.3_kidney_emoji_proposal_SUBMIT.md`
 - `submissions/v0.13.3/images/v0.13.3_kidney_bw_18x18_SUBMIT.png`

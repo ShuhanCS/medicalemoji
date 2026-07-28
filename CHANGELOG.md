@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.26.1] - 2026-07-28
+
+### Changed
+- Released Kidney submission packet v2.2.1 with Lauren Beaudin, David Rhew, and Heena Purohit added to the submitter roster and Jarone Lee removed; proposal argument and artwork are unchanged.
+
 ## [0.22.1] - 2026-07-26
 
 ### Added
