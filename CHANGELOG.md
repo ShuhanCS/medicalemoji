@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.33.0] - 2026-07-28
+
+### Changed
+- Released Kidney review packet v2.9.0 with same-day, signed-out Firefox Private Browsing captures for both Kidney and Elephant in Google Search and Google Video Search.
+- Updated the matched counts to Kidney 211 million versus Elephant 487 million in Search and Kidney 53.6 million versus Elephant 85.9 million in Video, using exact proposed-name queries and identical settings.
+- Limited the proposal's suggested keywords to the live form's five-keyword maximum: renal, dialysis, transplant, donation, and stone.
+- Preserved the paired artwork, exact author roster and affiliations, remaining frequency exhibits, argument structure, and not-filed status.
+
 ## [0.32.0] - 2026-07-28
 
 ### Changed
