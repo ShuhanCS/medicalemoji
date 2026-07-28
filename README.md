@@ -213,11 +213,24 @@ First synchronized preliminary submission packet:
 Current readiness packet:
 `submissions/v0.2.0/`
 
-Current planned submission packet:
-`submissions/v2.1.1/`
+Current standalone submission packets:
+
+- Kidney: `submissions/v2.2.0/`
+- Stomach: `submissions/v2.3.0/`
 
 Key files:
 
+- `submissions/v2.3.0/manifest.md`
+- `submissions/v2.3.0/v2.3.0_stomach_emoji_proposal_SUBMIT.md`
+- `submissions/v2.3.0/v2.3.0_stomach_emoji_proposal_SUBMIT.pdf`
+- `submissions/v2.3.0/images/v2.3.0_stomach_gpt_image_2_SOURCE_REFERENCE_ONLY.png`
+- `submissions/v2.3.0/images/v2.3.0_stomach_color_18x18_SUBMIT.png`
+- `submissions/v2.3.0/images/v2.3.0_stomach_color_72x72_SUBMIT.png`
+- `submissions/v2.3.0/images/v2.3.0_stomach_bw_18x18_SUBMIT.png`
+- `submissions/v2.3.0/images/v2.3.0_stomach_bw_72x72_SUBMIT.png`
+- `submissions/v2.2.0/manifest.md`
+- `submissions/v2.2.0/v2.2.0_kidney_emoji_proposal_SUBMIT.md`
+- `submissions/v2.2.0/v2.2.0_kidney_emoji_proposal_SUBMIT.pdf`
 - `docs/proposals/kidney-emoji-2026/README.md`
 - `docs/proposals/emoji-proposal-approval-rubric.md`
 - `docs/proposals/kidney-emoji-2026/decline-date-submission-update.md`

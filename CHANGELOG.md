@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.27.0] - 2026-07-28
+
+### Added
+- Added the standalone Stomach submission packet v2.3.0 with the approved GPT Image 2 source, exact 18x18 and 72x72 color and true black-and-white derivatives, synchronized evidence, approval records, and the reviewed eight-page PDF.
+
+### Changed
+- Promoted the completed Stomach v1.13 candidate into the canonical submission series without changing the immutable Kidney v2.2.0 packet or combining the two concepts in one filing.
+
 ## [0.22.1] - 2026-07-26
 
 ### Added
