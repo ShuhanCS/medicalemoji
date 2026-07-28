@@ -35,7 +35,9 @@ a { color: #1a4fd6; text-decoration: none; word-break: break-all; }
 code { font-family: Consolas, monospace; font-size: 9.5pt; background: #f3f3f3; padding: 0 2pt; border-radius: 2pt; }
 img { break-inside: avoid; max-width: 100%; max-height: 7.5in; }
 img[alt="Google Search results for kidney"],
-img[alt="Google Video Search results for kidney"] { max-height: 2.1in; }
+img[alt="Google Search results for elephant"],
+img[alt="Google Video Search results for kidney"],
+img[alt="Google Video Search results for elephant"] { max-height: 2.1in; }
 img[alt="Google Trends Web Search for elephant and kidney"] { display: block; margin: 0 auto; max-height: 2.8in; }
 img[alt="Google Trends Image Search for elephant and kidney"] { display: block; margin: 0 auto; max-height: 2.45in; }
 img[alt="Google Books Ngram for elephant and kidney"] { max-height: 2.2in; }

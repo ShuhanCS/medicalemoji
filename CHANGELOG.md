@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.32.0] - 2026-07-28
+
+### Changed
+- Released Kidney review packet v2.8.0 with explicit Elephant comparisons in all five frequency methods required by the live Unicode form.
+- Added signed-out Elephant Google Search and Google Video Search screenshots with visible approximate result counts of 483 million and 85.3 million, respectively.
+- Updated the Search and Video analysis to compare the retained Kidney counts against Elephant and to identify raw index totals as volatile relative measures rather than measures of importance.
+- Preserved the paired artwork, exact author roster and affiliations, selection-factor answers, and not-filed status.
+
 ## [0.31.0] - 2026-07-28
 
 ### Changed

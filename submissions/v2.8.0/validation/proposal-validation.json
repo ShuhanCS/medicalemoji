@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0.0",
+  "validation_date": "2026-07-28",
+  "packet_version": "v2.8.0",
+  "status": "PASS",
+  "pdf": {
+    "pages": 8,
+    "page_width_points": 612,
+    "page_height_points": 792,
+    "link_annotations": 38,
+    "unique_https_urls": 25,
+    "embedded_images": 11,
+    "visual_pages_reviewed": 8,
+    "sha256": "3e1c6555cbab5874dd10b93979143f59e462242f5c4dd553a949d28964feb293"
+  },
+  "requirements": {
+    "first_page_fields": true,
+    "exact_submitter_order": true,
+    "jarone_absent": true,
+    "seven_inclusion_factors": true,
+    "five_exclusion_factors": true,
+    "other_information": true,
+    "compatibility_claim_supported": true,
+    "removed_frequency_disclaimer_absent": true,
+    "open_ended_threshold_test_present": true,
+    "five_frequency_methods": true,
+    "all_five_methods_compare_kidney_with_elephant": true,
+    "seven_frequency_screenshots": true,
+    "elephant_search_visible_count": true,
+    "elephant_video_visible_count": true,
+    "four_required_artwork_images": true,
+    "artwork_dimensions_valid": true,
+    "black_and_white_palette_valid": true,
+    "all_links_https": true
+  },
+  "frequency_counts": {
+    "kidney_google_search": 211000000,
+    "elephant_google_search": 483000000,
+    "kidney_google_video_search": 66000000,
+    "elephant_google_video_search": 85300000
+  },
+  "asset_regression": {
+    "artwork_byte_identical_to_v2_7_0": true,
+    "kidney_search_and_video_byte_identical_to_v2_7_0": true,
+    "trends_and_ngram_byte_identical_to_v2_7_0": true,
+    "elephant_search_and_video_added_in_v2_8_0": true
+  }
+}
