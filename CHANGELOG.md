@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.27.2] - 2026-07-28
+
+### Fixed
+- Released Kidney review packet v2.3.2 listing David Rhew as `David Rhew, MD (Chief Medical Officer, Microsoft)`; artwork, author order, and proposal argument are unchanged.
+
 ## [0.27.1] - 2026-07-28
 
 ### Fixed
