@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.28.0] - 2026-07-28
+
+### Changed
+- Released Kidney review packet v2.4.0 with the verified CLDR `kidney`-to-BEANS evidence restored, a direct answer to the annotation-only objection, and a sourced Compatibility section aligned with Unicode's Emoji 19.0 priorities.
+- Preserved the v2.3.2 paired artwork, exact author order, Microsoft affiliations, and David Rhew's Chief Medical Officer title.
+- Kept frequency-exhibit headings with their descriptions in generated submission PDFs, reducing the final Kidney packet from ten pages to nine without removing evidence.
+
 ## [0.27.2] - 2026-07-28
 
 ### Fixed
