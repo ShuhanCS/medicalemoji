@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.28.0] - 2026-07-28
+
+### Added
+- Added a pinned CLDR 48.2 English emoji-search audit and a transparent 90/100 internal rubric score to Stomach packet v2.4.0.
+
+### Changed
+- Rebuilt the Stomach proposal in the May 2026 seven-section format, strengthening its existing-user, empirical-use, and interoperability case while retaining an honest `N/A` for proprietary-system compatibility.
+
 ## [0.27.1] - 2026-07-28
 
 ### Changed
