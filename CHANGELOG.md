@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.34.0] - 2026-07-28
+
+### Changed
+- Released Kidney review packet v2.10.0 with purpose-built native-grid color and black-and-white 18x18 artwork.
+- Enlarged the paired kidney contours and retained visible medial notches, a simplified central connector, and short ureter cues at the required native size.
+- Added reproducible 18x18 SVG pixel sources while preserving the v2.9.0 72x72 artwork, evidence, submitter order, affiliations, and filing status.
+
 ## [0.33.0] - 2026-07-28
 
 ### Changed
